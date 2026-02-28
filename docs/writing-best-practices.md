@@ -31,6 +31,8 @@ Guidelines for writing a strategic, high-quality business book aimed at executiv
 
 ## Chapter Template
 
+**Chapter opening:** Do not start the chapter draft with a level-1 heading (e.g. `# Chapter 1: Title`). The print build adds the chapter number and title in the layout. Start the draft with the first section heading (e.g. `## Opening Hook`).
+
 Each chapter must include:
 
 - Strategic tension

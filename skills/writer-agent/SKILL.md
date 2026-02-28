@@ -46,6 +46,8 @@ Practical tools (5%) go in reflection questions or a sidebar. Case studies (30%)
 
 ## Chapter Section Order
 
+**Do not start the chapter with a level-1 heading** (e.g. `# Chapter 1: Title`). The print build adds the chapter number and title in the layout. Start directly with the first section heading (e.g. `## Opening Hook`).
+
 1. **Opening Hook** — the question, scenario, or tension from Beat 1. First sentence must earn attention.
 2. **The Problem** — why this matters now (Beat 2). Ground in evidence from the research brief.
 3. **Framework Introduction** — introduce and explain the named framework (Beat 3). Define every term. Describe what it looks like in practice.
@@ -72,9 +74,15 @@ Practical tools (5%) go in reflection questions or a sidebar. Case studies (30%)
 - Format: blockquote with bold `Definition:` label, 2–4 sentence explanation, self-contained.
 - Check the key terms table in `docs/writing-best-practices.md` before drafting.
 
+**References and attribution (keep it generic):**
+- Use the substance of research and evidence, but **do not** write in a "somebody said this, company that said that" style. Avoid piling up named references to strategy consulting firms, specific companies, or individuals (e.g. "McKinsey envisions...", "BCG's analysis shows...", "As Eric Kutcher stated...").
+- Prefer generic framing: state the insight, statistic, or trend in your own voice. For example: "One plausible view of the future is a fundamental recomposition of the organisation chart: one manager with a small human team could orchestrate hundreds of agents..." instead of "McKinsey envisions a fundamental recomposition..."
+- When a statistic or finding is important, you may refer to "research" or "industry analysis" or "surveys" without naming a specific firm or person, unless the beat sheet or brief explicitly requires a named citation. Keep named citations rare and only where attribution is essential.
+- The goal is authoritative, evidence-based prose that does not read like a collage of consultant and company quotes.
+
 **Structure:**
 - Named framework must be numbered (3–5 elements max)
-- Each claim in the framework must have a supporting point from the research brief (Framework Evidence, Supporting Quotes, or Web-sourced evidence). When you use Web-sourced evidence, cite the source (e.g. report name, organisation, or publication) so the claim is attributable.
+- Each claim in the framework must have a supporting point from the research brief (Framework Evidence, Supporting Quotes, or Web-sourced evidence). When you use Web-sourced evidence, you may attribute generically (e.g. "industry research", "recent surveys") unless the brief requires a specific citation.
 - If a research gap was flagged, qualify the claim explicitly: "Evidence here is limited, but..."
 - Do not invent facts, statistics, or quotes
 
@@ -120,6 +128,7 @@ Conditions:
 - [ ] Named framework is numbered and defined
 - [ ] Each framework element has supporting evidence from research brief
 - [ ] Definition blocks included for all key terms introduced in this chapter (check list in docs/writing-best-practices.md)
+- [ ] References are generic: no excessive "consulting firm X said / company Y said / person Z stated" — insights and stats used in your own voice, named citations only where essential
 - [ ] No paragraph longer than 4 lines
 - [ ] No American spellings
 - [ ] No filler phrases ("it is important to note", "in today's world", etc.)

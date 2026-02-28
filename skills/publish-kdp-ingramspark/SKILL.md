@@ -19,11 +19,14 @@ Build a single print-ready PDF containing all front matter, chapters, about the 
 From the **book repository root** (where `plan/toc.md` and `output/chapters/` live):
 
 ```bash
-# Full book (all chapters)
-python .cursor/skills/publish-kdp-ingramspark/scripts/build_print_pdf.py --output output/book-print.pdf
+# Full book (all chapters) — outputs PDF only
+python skills/publish-kdp-ingramspark/scripts/build_print_pdf.py --output output/book-print.pdf
 
-# Dry run: only Chapter 1 in body; front matter, TOC, About the Author, Index still included
-python .cursor/skills/publish-kdp-ingramspark/scripts/build_print_pdf.py --dry-run --output output/book-print-dry-run.pdf
+# Dry run: Chapter 1 only; defaults to HTML (quick preview in browser)
+python skills/publish-kdp-ingramspark/scripts/build_print_pdf.py --dry-run --output output/book-dry-run.html
+
+# Dry run as PDF when you want a PDF preview
+python skills/publish-kdp-ingramspark/scripts/build_print_pdf.py --dry-run --pdf --output output/book-dry-run.pdf
 ```
 
 Install dependencies first (see [Requirements](#requirements) below).
@@ -31,8 +34,8 @@ Install dependencies first (see [Requirements](#requirements) below).
 ## What the Script Produces
 
 1. **Front matter**: Half title, title page, copyright, table of contents
-2. **Body**: Chapters from `output/chapters/chapter-{nn}/ch{nn}-final.md` (in dry-run, only chapter 1)
-3. **Back matter**: About the Author (from `input/about-the-author.md`), Index (heading-based or placeholder)
+2. **Body**: Introduction (optional, from `output/misc/introduction.md` when present), then chapters from `output/chapters/chapter-{nn}/ch{nn}-final.md` (in dry-run, only chapter 1)
+3. **Back matter**: About the Author (from `output/misc/about-the-author.md`), Index (heading-based or placeholder)
 4. **Styling**:
    - **Definitions**: Blockquotes matching `> **Definition: Term**` are rendered in a box with a light background colour so they stand out consistently
    - **Case studies**: Sections starting with `## Case Study:` get a distinct layout (e.g. serif font, tinted background, border) so they read as a separate voice
@@ -40,14 +43,14 @@ Install dependencies first (see [Requirements](#requirements) below).
 ## Requirements
 
 - Python 3.9+
-- Dependencies in `.cursor/skills/publish-kdp-ingramspark/requirements.txt`:
+- Dependencies in `skills/publish-kdp-ingramspark/requirements.txt`:
   - `markdown` — Markdown to HTML
-  - `weasyprint` — HTML/CSS to PDF (install system dependencies per [WeasyPrint docs](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html) if needed)
+  - `xhtml2pdf` — HTML to PDF (pure Python, no system dependencies)
 
 Install from repo root:
 
 ```bash
-pip install -r .cursor/skills/publish-kdp-ingramspark/requirements.txt
+pip install -r skills/publish-kdp-ingramspark/requirements.txt
 ```
 
 ## Inputs (configurable via script or env)
@@ -57,19 +60,20 @@ pip install -r .cursor/skills/publish-kdp-ingramspark/requirements.txt
 | Book root | Auto-detected (parent of `plan/toc.md`) or `--repo` | Where chapters and plan live |
 | Chapters | `output/chapters/chapter-{01..10}/ch{nn}-final.md` | Final chapter markdown; only existing files are included |
 | TOC | `plan/toc.md` | Title, subtitle, chapter list for TOC page |
-| About the Author | `input/about-the-author.md` | Back matter author bio |
+| Introduction | `output/misc/introduction.md` | Optional front matter after TOC, before Chapter 1 |
+| About the Author | `output/misc/about-the-author.md` | Back matter author bio |
 
 Dry-run limits the **body** to Chapter 1 only; front and back matter are unchanged.
 
 ## Platform Notes
 
-- **Amazon KDP**: Use the PDF as the interior file. Prepare manuscript and cover per [KDP](https://kdp.amazon.com); use Kindle Create for e-book formatting if needed.
+- **Amazon KDP**: Use the PDF as the **interior (manuscript)** file. KDP requires two files: interior + cover; this skill builds only the interior. Prepare the cover separately (Cover Creator, template, or designer). The build matches [KDP's "Format Your Paperback"](https://kdp.amazon.com/help/topic/G201834190) steps (trim/margins, front/body/back matter, save for upload). Use Kindle Create for e-book formatting if needed.
 - **IngramSpark**: Use the same PDF for print (paperback/hardcover). Ensure trim size and bleed match IngramSpark specs; see [reference.md](reference.md) for trim sizes and margins.
 
-For detailed specs (trim sizes, bleed, margins, ISBN/barcode), see [reference.md](reference.md).
+For detailed specs and KDP alignment (trim, margins, bleed, gutter by page count, save guidelines), see [reference.md](reference.md).
 
 ## If the Script Fails
 
-- **WeasyPrint errors**: Install GTK3/Pango/Cairo per your OS (see WeasyPrint first steps). On Windows, WeasyPrint often cannot load GTK; the script then writes an **HTML file** (same path as `--output` but with `.html`) so you can open it in a browser and use **Print → Save as PDF** for a quick PDF. For native PDF on Windows, install WeasyPrint’s system dependencies or use another HTML-to-PDF tool.
+- **PDF export**: The script uses **xhtml2pdf** for PDF. Install with `pip install xhtml2pdf`. Full book always outputs PDF; dry-run defaults to HTML (use `--dry-run --pdf` for a PDF preview).
 - **Missing chapter**: Script skips missing `ch{nn}-final.md`; dry-run only needs `ch01-final.md`.
-- **No about-the-author**: If `input/about-the-author.md` is missing, back matter still renders with a placeholder.
+- **No about-the-author**: If `output/misc/about-the-author.md` is missing, back matter still renders with a placeholder.

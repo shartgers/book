@@ -1,86 +1,75 @@
-# Chapter 01: The Largest Shift Since the Industrial Revolution
+# Chapter 01 — The Largest Shift Since the Industrial Revolution
 
 ## Strategic Tension
 
-Ninety-five per cent of enterprise AI implementations fail to deliver sustained impact, not because the technology is immature, but because organisations treat a paradigm shift as a software rollout. AI task completion capability is doubling every four months. The companies that grasp this are already pulling ahead; the rest are accumulating a compounding disadvantage they cannot see on a quarterly P&L. European CEOs face a closing window: the shift is real, it is accelerating, and the penalty for treating it as incremental is existential.
+Every European CEO has heard the AI pitch. Most have launched pilots. Yet ninety-five per cent of enterprise AI implementations fail to deliver sustained impact — not because the technology is immature, but because leaders are treating a paradigm shift as a technology upgrade. Meanwhile, AI task completion capability is doubling every four months, meaning the gap between organisations that act and those that wait is compounding at an exponential rate. The window for first-mover advantage is not a decade. It may not even be two years.
 
 ## Core Principle
 
-The transition to the Agentic Enterprise is the largest organisational paradigm shift since the industrial revolution, and the gap between leaders and laggards is widening at exponential speed.
+The AI transformation is not a technology project; it is the largest organisational paradigm shift since the industrial revolution, and treating it as anything less guarantees failure.
 
 ## Named Framework
 
-**The Paradigm Shift Curve**: A three-phase model showing how technology-driven paradigm shifts move from incremental adoption to exponential divergence: (1) Convergence (evidence accumulates, early movers experiment), (2) Divergence (leaders compound advantage while laggards stall in pilot purgatory), (3) Separation (structural gap becomes insurmountable). Visualised as two diverging curves (one accelerating upward for leaders, one flattening for laggards), with the current moment marked at the inflection point between Convergence and Divergence.
+**The Paradigm Shift Diagnostic** — A three-lens model that distinguishes how organisations respond to paradigm shifts: *Bolt-On* (layer new technology onto existing processes), *Adapt* (modify processes around new technology), and *Redesign* (rebuild the organisation with the new paradigm at its core). Visualised as three concentric rings with the organisation at the centre, each ring representing a deeper level of transformation. Only organisations operating at the Redesign level achieve sustained value from AI. The framework gives CEOs a way to diagnose where their organisation actually sits today versus where it needs to be.
 
 ## Beats
 
-### Beat 1: Opening Hook
+### Beat 1 — Opening Hook
 
-Open with the 95% failure statistic and the paradox it creates: nearly 8 in 10 companies report using generative AI, yet just as many report no significant bottom-line impact. Frame the disconnect: this is not a technology failure, it is a recognition failure. Connect directly to the book's thesis: CEOs are underprepared because they have misidentified what kind of change this is.
+Open with the paradox: AI works, strategies are often sound, budgets are committed — and yet 95% of implementations fail to deliver sustained impact. The problem is not any of the obvious suspects. The problem is that leaders are running an industrial-revolution-scale shift with a software-rollout playbook. Pose the chapter's central question: are you leading as though you believe this is the largest paradigm shift of your career? The data settles whether it is. The only open question is whether your organisation is acting accordingly.
 
-### Beat 2: The Problem
+### Beat 2 — The Problem
 
-Why this moment is structurally different from previous technology waves. Three evidence threads:
+Layer the evidence that makes this moment categorically different from previous technology waves. McKinsey's framing: "the largest organisational paradigm shift since the industrial and digital revolutions." AI task completion capability doubling every four months (every seven months before 2024). By 2027, AI systems could complete four days of work without supervision. The Gen AI Paradox: eight in ten companies use gen AI, yet equally many report no significant bottom-line impact. Ninety per cent of transformative use cases stuck in pilot mode. Contrast with the organisations getting it right: 2-3x conversion improvements, 80% reductions in processing time, hundreds of millions in measurable value. The gap between leaders and laggards is not narrowing — it is accelerating.
 
-1. **Speed of capability growth**: AI task completion doubled every 7 months since 2019, every 4 months since 2024. By 2027, AI systems could complete 4 days of autonomous work. This is not a linear upgrade cycle.
-2. **The micro-productivity trap**: Bain's concept: grassroots experimentation produces localised efficiency gains that never compound. 90% of transformative use cases stuck in pilot mode. S&P Global: 42% of companies scrapped most AI initiatives in 2025.
-3. **The governance vacuum**: 66% of board members report limited-to-no AI knowledge. Only 15% of boards receive AI-related metrics. The gap between adoption velocity and governance maturity is the single greatest enterprise risk in the AI era.
+### Beat 3 — Framework Introduction
 
-### Beat 3: Framework Introduction
+Introduce the Paradigm Shift Diagnostic. Define the three levels:
+- **Bolt-On**: AI layered onto existing processes. The "horseless carriage" — faster, but structurally unchanged. Yields marginal, unsustainable gains. Where ~90% of organisations sit today.
+- **Adapt**: Processes modified to accommodate AI. Meaningful efficiency gains, but the operating model remains fundamentally the same. Gains plateau; pilot purgatory lives here.
+- **Redesign**: The organisation rebuilt with AI at the core of how decisions are made, work flows, and humans collaborate. This is the Agentic Enterprise — and it is where the 5% achieving value at scale operate.
 
-Introduce the Paradigm Shift Curve. Define the three phases: Convergence, Divergence, Separation. Explain why most organisations believe they are still in Phase 1 (safe to experiment gradually) when the data shows we have reached the inflection point entering Phase 2 (where delay compounds). Use the "horseless carriage to automobile" analogy: organisations are layering AI onto existing processes when the shift demands redesigning how decisions are made, how work flows, and how humans and machines collaborate. Reference McKinsey's framing: the CEO must ask not "How do we add AI?" but "How do we want decisions to be made?"
+Use McKinsey's formulation: the CEO must ask not "How do we add AI?" but "How do we want decisions to be made, work to flow, and humans to engage in an environment where software can act?" Connect to Bain's "zero-based process design" and the horseless-carriage-to-automobile analogy.
 
-### Beat 4: Case Study
+### Beat 4 — Case Study
 
-Slot: DBS Bank: the gold-standard CEO-led transformation that illustrates what happens when leadership recognises a paradigm shift early.
-Company: DBS
-Dilemma: A legacy bank in Asia chose to benchmark against Google, Amazon, Netflix, Apple, LinkedIn, and Facebook rather than other banks (redefining the category of competition itself), and the question is whether European CEOs are willing to make an equivalent cognitive leap.
+Company: Siemens
+Dilemma: How does a 177-year-old German industrial conglomerate — the archetype of European engineering excellence — avoid treating AI as just another layer on legacy manufacturing, and instead redesign its operations at the paradigm level? Siemens' Digital Native Factory, Industrial Copilot, and partnership with NVIDIA represent a deliberate move from Bolt-On to Redesign in one of the most complex industrial environments on earth.
 
-### Beat 5: Governance Implications
+### Beat 5 — Governance Implications
 
-The board is the weakest link. 66% of boards have limited-to-no AI knowledge; fewer than 25% have board-approved AI policies; only 14% discuss AI at every meeting. Yet 88% of organisations use AI in at least one function. This chapter frames the governance gap not as an oversight problem but as a strategic risk: without board-level understanding, no transformation can be sustained past the first budget cycle. Introduce the idea that AI governance is not compliance; it is competitive positioning.
+The 95% failure rate is not a technology problem; it is a governance problem. Boards are dangerously behind: 66% report limited-to-no AI knowledge, only 15% receive AI-related metrics, fewer than 25% have board-approved AI policies, and only 14% discuss AI at every meeting — while 88% of their organisations already use AI in at least one function. This is the governance gap that the Paradigm Shift Diagnostic exposes: most boards are governing at the Bolt-On level while their organisations need Redesign-level oversight. CEO-led transformations succeed at 6x the rate of those delegated downward. The board's first task is not to approve an AI strategy; it is to determine whether the organisation is treating AI as an upgrade or as the paradigm shift it actually is.
 
-### Beat 6: Executive Reflection Questions
+### Beat 6 — Executive Reflection Questions
 
-1. If AI task capability doubles every four months, what does your organisation look like in 18 months if you continue at the current pace of change?
-2. Are you treating AI as an IT project, a departmental tool, or a fundamental redesign of how your organisation operates, and which of those does the evidence support?
-3. When did your board last receive a substantive briefing on AI strategy (not a vendor demo), but a discussion of operating model implications?
-4. Can you name the three largest AI-driven competitive threats to your business in the next two years?
-5. Would your leadership team describe your current AI efforts as "experimenting" or "transforming", and do you know which one the data says you are actually doing?
+1. Where does your organisation honestly sit on the Paradigm Shift Diagnostic — Bolt-On, Adapt, or Redesign? What evidence supports your answer?
+2. If AI task completion capability doubles again in four months, which of your current strategic assumptions become invalid?
+3. How many of your AI initiatives are layered onto existing processes versus built from a redesigned workflow? What is the ratio?
+4. When did your board last discuss AI as an organisational transformation rather than a technology investment? What was decided?
+5. If 95% of AI implementations fail because organisations treat this as a software rollout, what specifically are you doing differently?
 
-### Beat 7: Closing / Transition
+### Beat 7 — Closing / Transition
 
-The shift is real, it is measurable, and the window is narrowing. But recognising the scale of the shift is necessary, not sufficient. The next question (the harder question) is who leads it. Chapter 2 makes the case that transformation fails when delegated, and that the CEO is the single strongest predictor of AI success. The paradigm shift is the burning platform; leadership is the decisive variable.
-
-## Definition Blocks
-
-Key terms introduced for the first time in this chapter. Each requires a definition block (blockquote with bold `Definition:` label) placed immediately after first mention in the prose. See `docs/writing-best-practices.md` for format.
-
-| Term | Placed after |
-|------|-------------|
-| AI Agent | McKinsey "hundreds of agents" quote (Beat 3, speed of capability growth) |
-| The Agentic Enterprise | Same location: McKinsey's "different kind of organisation" |
-| The Micro-Productivity Trap | Bain's coinage introduction (Beat 2, micro-productivity trap section) |
-| Agentic AI | Gartner projection on agentic AI project cancellations (Beat 2) |
-| Pilot Purgatory | Phase 2: Divergence description (Beat 3, Paradigm Shift Curve) |
-
----
+Return to the central claim: this is not another wave of technology adoption. It is a paradigm shift, and the organisations that treat it as one are pulling away from those that do not. The evidence is settled; the question is leadership. But recognising the shift is only the first step. The next question is who in the organisation must lead it — and what happens when that leadership is delegated. Bridge to Chapter 2: Leadership Is Not Optional.
 
 ## Thesis Check
 
-This chapter establishes the foundational claim of the book: the shift to the Agentic Enterprise is not incremental but paradigmatic, the evidence is unambiguous, and European CEOs who treat it as another technology cycle are accumulating a structural disadvantage that compounds with every quarter of inaction.
+This chapter establishes the foundational claim of the entire book — that AI represents a paradigm shift of industrial-revolution magnitude — and provides the diagnostic framework for CEOs to recognise that their organisations are almost certainly underresponding. It sets the stakes: the 95% failure rate, the exponential acceleration, and the widening gap between leaders and laggards. Without this chapter's argument landing, the rest of the book has no urgency. It advances the central thesis by proving that European CEOs are underprepared, not because they lack awareness, but because they are applying the wrong mental model to a categorically different kind of change.
 
 ## Research Sections Needed
 
-- Section 1 (Defining the Agentic Enterprise: McKinsey paradigm shift framing, BCG frontal cortex metaphor, Gartner hype cycle, capability doubling data)
-- Section 2 (Why bottom-up fails: 95% failure rate, micro-productivity trap, horseless carriage analogy, CEO as predictor)
-- Section 7 (Case studies: DBS Bank transformation)
-- Section 8 (CEO and thought-leader quotes: Kutcher, Schweizer, Dimon, Lütke)
-- Section 9 (Readiness, governance, board gap data)
+- Section 1 (Defining the Agentic Enterprise — McKinsey's paradigm shift framing, Gen AI Paradox, BCG frontal cortex metaphor, Gartner hype cycle warning)
+- Section 2 (Why bottom-up fails — 95% failure rate data, horseless carriage analogy, CEO as strongest predictor, mental model shift)
+- Section 7 (Case studies — Siemens data points: Digital Native Factory, Industrial Copilot, Hermes Award, NVIDIA partnership, productivity targets)
+- Section 8 (CEO quotes — Kutcher on 80/20 business vs tech, Schweizer on value gap, Bonchek on mental models)
+- Section 9 (Readiness, governance, board knowledge gap — board governance data, KPI measurement failures)
 
-## Handoff: Planner, Chapter 01
+---
+
+## Handoff — Planner — Chapter 01
+
 Status: complete
-Output: output/chapters/ch01-beats.md
+Output: output/chapters/chapter-01/ch01-beats.md
 Research sections needed: 1, 2, 7, 8, 9
-Case study company: DBS
-Next agents: Writer, Case Study Agent (Wave 2: parallel)
+Case study company: Siemens
+Next agents: Writer, Case Study Agent (Wave 2 — parallel)

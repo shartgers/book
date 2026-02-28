@@ -1,6 +1,15 @@
 # Book Progress
 
-## Current Phase: Phase 1: Chapter 2
+## Current Phase: Phase 1: Chapter 3
+
+---
+
+## Project status (as of Feb 2025)
+
+- **Writing:** Chapter 1 complete. Chapter 2 complete (all beats, research brief, draft, case study, Perplexity Gate, review, final). Chapter 3 not started.
+- **Skills:** All core agent skills live under `skills/` (orchestrator, planner, research, writer, case-study, perplexity-gate, reviewers, research-refresh). Additional skills: `publish-kdp-ingramspark`, `image-designer-agent`, `writing-ralph-wiggum-loop`.
+- **Research:** `research/` expanded with chapter-focused notes (e.g. ch3 agentic enterprise, ch4 four tiers, ch5 mental framework) and other references.
+- **Publishing:** Print pipeline in place. `skills/publish-kdp-ingramspark/` builds print-ready PDF for KDP/IngramSpark; dry-run (Chapter 1 only) has been run (`output/dry-run.html`, `output/dry-run.pdf`). Inputs: `input/book-layout.html`, `output/misc/introduction.md`, `output/misc/about-the-author.md` (or placeholders).
 
 ---
 
@@ -28,6 +37,7 @@ Skills to create before running parallel writing waves.
 | Perplexity Gate | Sonnet | `skills/perplexity-gate-agent/SKILL.md` |
 | Reviewers | Sonnet | `skills/reviewers-agent/SKILL.md` |
 
+- [x] `skills/orchestrator-agent/SKILL.md`
 - [x] `skills/planner-agent/SKILL.md`
 - [x] `skills/research-agent/SKILL.md`
 - [x] `skills/writer-agent/SKILL.md`
@@ -35,6 +45,8 @@ Skills to create before running parallel writing waves.
 - [x] `skills/perplexity-gate-agent/SKILL.md`
 - [x] `skills/reviewers-agent/SKILL.md`
 - [x] `docs/agent-handoff-protocol.md`
+
+**Additional skills (outside the wave):** `skills/publish-kdp-ingramspark/` (print PDF for KDP/IngramSpark), `skills/image-designer-agent/`, `skills/writing-ralph-wiggum-loop/`, `skills/research-refresh-agent/` (optional refresh).
 
 **Wave pattern per chapter:**
 ```
@@ -56,15 +68,17 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Draft → output/chapters/chapter-01/ch01-draft.md
 - [x] Perplexity Gate → output/chapters/chapter-01/ch01-draft-pg.md
 - [x] Review → output/chapters/chapter-01/ch01-review.md
+- [x] Case study → output/chapters/chapter-01/ch01-case-study.md
 - [x] Done → output/chapters/chapter-01/ch01-final.md
 
 ### Chapter 02: Leadership Is Not Optional
-- [ ] Beats → output/chapters/chapter-02/ch02-beats.md
-- [ ] Research brief → output/chapters/chapter-02/ch02-research-brief.md
-- [ ] Draft → output/chapters/chapter-02/ch02-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-02/ch02-draft-pg.md
-- [ ] Review → output/chapters/chapter-02/ch02-review.md
-- [ ] Done → output/chapters/chapter-02/ch02-final.md
+- [x] Beats → output/chapters/chapter-02/ch02-beats.md
+- [x] Research brief → output/chapters/chapter-02/ch02-research-brief.md
+- [x] Draft → output/chapters/chapter-02/ch02-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-02/ch02-draft-pg.md
+- [x] Review → output/chapters/chapter-02/ch02-review.md
+- [x] Case study → output/chapters/chapter-02/ch02-case-study.md
+- [x] Done → output/chapters/chapter-02/ch02-final.md
 
 ### Chapter 03: What the Agentic Enterprise Looks Like
 - [ ] Beats → output/chapters/chapter-03/ch03-beats.md

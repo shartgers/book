@@ -28,9 +28,9 @@ Set trim size in the script or via CSS `@page { size: ... }`. Default in script:
 
 - **Generous margins** and clear heading hierarchy.
 - **Consistent chapter openings**: e.g. chapter title on a new page, optional drop cap or first-line emphasis.
-- **Widows and orphans**: Avoid single lines at top/bottom of pages where possible (script/WeasyPrint can help with break controls).
+- **Widows and orphans**: Avoid single lines at top/bottom of pages where possible (script/xhtml2pdf can help with break controls).
 - **Definitions**: Rendered in a **box with background colour** so they are visually consistent and easy to spot.
-- **Case studies**: Rendered with a **distinct layout** (e.g. serif font, tinted background, border) so they read as a separate “voice” from the main narrative.
+- **Case studies**: Rendered with a **distinct layout** (e.g. serif font, tinted background, border) so they read as a separate "voice" from the main narrative.
 
 ---
 
@@ -68,7 +68,7 @@ The script wraps the section (until the next `##`) in a **case-study** container
 
 - **KDP**: You can use a free KDP-assigned ISBN or your own; barcode goes on the **cover**, not in the interior PDF.
 - **IngramSpark**: Purchase your own ISBN(s) per format (ebook, paperback, hardcover). Barcode on back cover; include in cover file, not interior.
-- **Interior PDF**: No barcode; optional “Also by this author” or copyright page with ISBN mentioned in text.
+- **Interior PDF**: No barcode; optional "Also by this author" or copyright page with ISBN mentioned in text.
 
 ---
 
@@ -76,7 +76,7 @@ The script wraps the section (until the next `##`) in a **case-study** container
 
 The script can produce:
 
-- A **placeholder** “Index” page (e.g. “Index to be completed before final print”), or
+- A **placeholder** "Index" page (e.g. "Index to be completed before final print"), or
 - A **simple heading index** (all `##` and `###` from the included chapters listed, without page numbers).
 
 Full index with page numbers usually requires a second pass or a dedicated indexing tool; the script focuses on structure and styling first.
@@ -90,8 +90,29 @@ Full index with page numbers usually requires a second pass or a dedicated index
 
 ---
 
+## KDP alignment (Format Your Paperback)
+
+The build script is designed to match [KDP's "Format Your Paperback"](https://kdp.amazon.com/help/topic/G201834190) flow:
+
+1. **Two files**  
+   KDP requires a **manuscript (interior)** file and a **cover** file. This skill produces only the interior PDF; the cover is created separately (Cover Creator, template, or designer).
+
+2. **Set trim size and margins**  
+   - Trim size: default **6" × 9"** — a [supported KDP trim size](https://kdp.amazon.com/help?topicId=GVBQ3CMEQW3W2VL6).  
+   - Margins: top/bottom 0.6", outside 0.5", inside (gutter) 0.75".  
+   - KDP minimums: **0.25"** for top, bottom, and outside (no bleed); inside margin depends on page count (see [Set Trim Size, Bleed, and Margins](https://kdp.amazon.com/help?topicId=GVBQ3CMEQW3W2VL6)). Our values meet or exceed minimums. For **701–828 pages**, KDP requires gutter **0.875"**; the script uses 0.75", so for very long books consider increasing the inner margin in the script or CSS.  
+   - **Bleed**: not used by default (text-only / no edge-to-edge images). If you add full-bleed images later, set up bleed per KDP (e.g. page size = trim + 0.125" bleed) and upload PDF only.
+
+3. **Create front, body, and back matter**  
+   The script includes: half title, title page, copyright page, table of contents (front); chapters (body); About the Author and Index (back). This matches KDP's [front, body, and back matter](https://kdp.amazon.com/help?topicId=GDDYZG2C7RVF5N9J) guidance (title pages, copyright, chapter headings, author bio).
+
+4. **Save manuscript for upload**  
+   Output is a single **PDF** (recommended by KDP). See [Save Your Manuscript File](https://kdp.amazon.com/help?topicId=G202145060): no crop/trim marks, no encryption; embed fonts (xhtml2pdf embeds by default); single-page layout; for best results use PDF optimized for print. After building, upload and preview in KDP.
+
+---
+
 ## Sources
 
 - Project: `input/self-publishing-tips.md`, `input/How-to-Self-Publish-Guide.pdf`
-- KDP: [Kindle Direct Publishing – Publish](https://kdp.amazon.com/nl_NL/publish) (manuscript + cover steps, Kindle Create, Cover Creator)
+- KDP: [Format Your Paperback](https://kdp.amazon.com/help/topic/G201834190) (manuscript + cover); [Set Trim Size, Bleed, and Margins](https://kdp.amazon.com/help?topicId=GVBQ3CMEQW3W2VL6); [Save Your Manuscript File](https://kdp.amazon.com/help?topicId=G202145060); [Front, Body, Back Matter](https://kdp.amazon.com/help?topicId=GDDYZG2C7RVF5N9J).
 - IngramSpark: Distribution and print specs on ingramspark.com; trim sizes and file requirements in their help/tools.

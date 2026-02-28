@@ -1,0 +1,10 @@
+{
+  "name": "book",
+  "private": true,
+  "description": "Book repo scripts",
+  "scripts": {
+    "build": "python skills/publish-kdp-ingramspark/scripts/build_print_pdf.py --output output/book-print.pdf",
+    "dry": "python skills/publish-kdp-ingramspark/scripts/build_print_pdf.py --dry-run --output output/dry-run.html",
+    "dry-pdf": "python skills/publish-kdp-ingramspark/scripts/build_print_pdf.py --dry-run --pdf --output output/dry-run.pdf"
+  }
+}

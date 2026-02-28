@@ -1,10 +1,10 @@
 # The Agentic Enterprise
-### A European CEO's Guide to Leading AI Transformation
+### A CEO's perspective on AI transformations in Europe
 
 ---
 
 ## Working Title
-**The Agentic Enterprise: A European CEO's Guide to Leading AI Transformation**
+**The Agentic Enterprise: A CEO's perspective on AI transformations in Europe**
 
 ---
 
@@ -46,7 +46,7 @@ Why transformation fails when delegated: the roles of CEO, C-suite, and board; s
 A working definition of the Agentic Enterprise and its five elements: Products, People, Process, Technology, and Data. Introduces the **agentic employee** (the human half of the equation) and the three emerging profiles (supervisor, specialist, augmented frontline worker). Defines the mindset shift from task-doer to orchestrator and why organisations must redesign roles, not just adopt tools.
 
 **Chapter 4: The Four Tiers of Transformation** (11%)
-How transformation progresses from Individual to Team to Department to Organisation, and what leadership must do differently at each tier. The Individual tier is where agentic employees are made: AI fluency, skill creation and sharing, and the compounding network effect that turns one person's innovation into organisational capability.
+How transformation progresses from Individual to Team to Department to Organisation (cross-functional), and what leadership must do differently at each tier. The Individual tier is where agentic employees are made: AI fluency, skill creation and sharing, and the compounding network effect that turns one person's innovation into organisational capability.
 
 **Chapter 5: Value, Capabilities, Trust** (9%)
 The three-angle decision framework for evaluating every AI investment and setting the right priorities.

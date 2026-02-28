@@ -294,7 +294,7 @@ No major book currently exists on the Agentic Enterprise as a concept (McKinsey 
 
 **Tier 1 — Strongest contenders:**
 
-1. **The Agentic Enterprise: A European CEO's Guide to Leading AI Transformation**
+1. **The Agentic Enterprise: A CEO's perspective on AI transformations in Europe**
 Owns the emerging paradigm term. First-mover advantage before McKinsey publishes their own book. Clear audience signal.
 
 2. **Agentic: The New Operating Model for the AI Era**

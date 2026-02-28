@@ -4,7 +4,8 @@
       "Skill(commit-commands:commit)",
       "Bash(claude config:*)",
       "Bash(claude auth:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(python3:*)"
     ]
   }
 }

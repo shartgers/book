@@ -73,6 +73,7 @@ Verify that the chapter fits into the book as a whole.
 | No duplicate case studies | Company used has not been the primary case study in another chapter |
 | Transition coherence | Closing transition connects logically to the next chapter in the TOC |
 | Argument progression | This chapter's claim builds on previous chapters; it is not self-contained |
+| No concept re-introduction | Concepts, definitions, and quotes already introduced in an earlier chapter are not re-introduced as if the reader has never seen them. Reuse is fine; re-introduction is not. See resolution guidance below. |
 
 ---
 
@@ -117,6 +118,15 @@ Issues to resolve: [list or "none"]
 - Fix all FAIL items before writing `ch{nn}-final.md`
 - Do not change structure or argument to resolve a continuity failure — escalate to Orchestrator if resolving continuity requires changes to another chapter
 - If the same criterion has failed in two consecutive chapters, escalate to Orchestrator rather than fixing in isolation
+
+### Concept re-introduction fixes
+
+When a concept, definition, or quote appears for the second time and is written as if it is new:
+
+1. **Remove the redundant explanation.** Assume the reader already knows the concept.
+2. **Reference the earlier introduction** where it helps the reader connect ideas — e.g. "As we saw in Chapter 2, …" or "Returning to Kotter's framework, …".
+3. **Build on it, don't repeat it.** Add new depth, a new angle, or apply the concept to a different context rather than restating what was already said.
+4. To detect these, read all completed final drafts in `output/chapters/` before reviewing the current chapter. Flag any concept, named framework, definition, or direct quote that was already introduced with a full explanation in an earlier chapter and is now explained again as if it is fresh.
 
 ---
 

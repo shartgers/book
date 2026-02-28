@@ -34,7 +34,7 @@ This chapter provides that picture. It is the model against which every subseque
 
 Here is the pattern that repeats across failed AI programmes: impressive individual results, enthusiastic team pilots, a handful of department-level wins; and then, somehow, nothing compounds. The organisation as a whole barely moves.
 
-The first tier (the Individual) is where agentic employees are made. AI fluency demand has grown sevenfold in two years, and employees who effectively use agentic tools achieve orders of magnitude higher output than peers who don't. But individual fluency does not automatically become team capability. Team capability does not automatically become departmental transformation. Departmental wins do not automatically produce organisational change. Each tier requires a different kind of leadership, different governance, and different measures of success. Skipping a tier, or assuming the tiers take care of themselves, is the most common structural mistake European CEOs make.
+The first tier (the Individual) is where agentic employees are made. AI fluency demand has grown sevenfold in two years, and employees who effectively use agentic tools achieve orders of magnitude higher output than peers who don't. But individual fluency does not automatically become team capability. Team capability does not automatically become departmental transformation. Departmental wins do not automatically produce organisational change. Each tier requires a different kind of leadership, different governance, and different measures of success. Skipping a tier, or assuming the tiers take care of themselves, is the most common structural mistake European CEOs make. The upperlimit of cross-functional agentic workflows (the fourth tier) is a full autonomous agentic organisation under one human., as Sam Altman said when introducing OpenAI Frontier. 
 
 ---
 
@@ -95,6 +95,7 @@ The cost of inaction is not zero. It is not even small. It is already accumulati
 ---
 
 ## Handoff: Orchestrator, Phase 0 Task 0.3
+
 Status: complete
 Output: plan/chapter-hooks.md
 Next agent: Orchestrator (Task 0.4: Populate Chapter Checklist)
