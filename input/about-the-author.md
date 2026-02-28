@@ -1,0 +1,3 @@
+## About the Author
+
+Stephan Hartgers is an independent advisor with 25 years of experience in digital and AI strategy consulting. He has served many clients in different industries and geographies through the strategic challenges of a world shaped by Digital and AI. With a focus on clarity over hype, he helps CEOs, CIOs, and non-executive directors distinguish which decisions belong in the boardroom and which do not. His approach combines reflection with practical momentum, enabling organizations to integrate AI in a way that delivers genuine organizational and human value. Stephan is recognized for translating complex technological shifts into actionable insights, fostering strategic coherence without unnecessary complexity.

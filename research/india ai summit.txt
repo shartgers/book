@@ -1,0 +1,159 @@
+AI Summit India 2026 and the Global State of AI
+
+Strategic Overview with a European Perspective
+
+1. The AI Impact Summit in New Delhi
+
+In February 2026, India hosted the AI Impact Summit in New Delhi. The event gathered political leaders, technology companies, researchers, and international institutions from more than 100 countries.
+
+The summit positioned India as a central voice in shaping the global AI agenda, particularly from the perspective of emerging economies and the global south.
+
+Core Outcomes
+	•	Adoption of the Delhi Declaration, signed by more than 80 countries, focused on inclusive and socially responsible AI
+	•	Emphasis on equitable access to AI capabilities across developed and developing nations
+	•	Strong participation from the United States, Europe, China, and major technology companies
+	•	Significant investment commitments in AI infrastructure, research, and deployment
+	•	Continued debate about the effectiveness of global AI governance forums in producing enforceable outcomes
+
+India used the summit to frame AI not only as a technology race, but as a development and sovereignty issue.
+
+⸻
+
+2. The Global AI Landscape in 2026
+
+AI development has reached structural scale. The race is no longer experimental. It is economic, geopolitical, and infrastructural.
+
+Three dominant poles define the current landscape:
+	1.	United States
+	2.	China
+	3.	Europe
+
+Emerging powers such as India aim to influence governance and access, even if they do not yet match the scale of compute or capital of the leading two.
+
+⸻
+
+3. United States
+
+The United States remains the global leader in frontier AI development.
+
+Strengths
+	•	Dominance in foundational model development
+	•	Concentration of capital investment
+	•	Strong private sector ecosystems
+	•	Leadership in advanced semiconductor design and cloud infrastructure
+	•	High concentration of global AI talent
+
+American AI development is market driven and venture capital fueled. Innovation speed remains unmatched.
+
+However, governance is increasingly influenced by geopolitical competition and domestic political considerations. Regulation remains more fragmented than in Europe.
+
+Strategically, the United States views AI as critical to national security, economic competitiveness, and global influence.
+
+⸻
+
+4. China
+
+China continues to compete at near parity in several domains.
+
+Strengths
+	•	Strong state backed investment
+	•	Integrated industrial strategy
+	•	Rapid scaling of domestic AI ecosystems
+	•	Large data access within national boundaries
+	•	Close coordination between government and industry
+
+China approaches AI as a national strategic capability. Development is closely aligned with state objectives.
+
+Its model is more centralized and state coordinated compared to the market driven American system.
+
+China has made significant progress in research output and industrial deployment, particularly in manufacturing, surveillance, robotics, and applied AI systems.
+
+⸻
+
+5. Europe
+
+Europe follows a distinct path.
+
+Core Characteristics
+	•	Regulation first orientation
+	•	Emphasis on fundamental rights and democratic values
+	•	Strong focus on safety, transparency, and accountability
+	•	Investment in public research institutions
+	•	Efforts toward digital sovereignty
+
+The European Union AI Act represents the most comprehensive regulatory framework globally. Europe positions itself as a standard setter for responsible AI.
+
+However, Europe lags behind the United States and China in:
+	•	Large scale compute infrastructure
+	•	Private capital concentration
+	•	Global platform dominance
+
+Europe’s strategy seeks balance between innovation and societal protection. The risk remains that regulation outpaces industrial competitiveness if investment scale does not increase.
+
+⸻
+
+6. The European Angle at the India Summit
+
+European delegations at the summit emphasized:
+	•	International cooperation
+	•	Rights based governance
+	•	Multilateral rule setting
+	•	Prevention of AI concentration in a few global powers
+
+Europe aligned with India on the importance of inclusive AI access, while maintaining its regulatory identity.
+
+This signals a potential alignment between Europe and emerging economies around governance norms, even if economic scale differs.
+
+⸻
+
+7. Global Progress Assessment
+
+AI progress in 2026 can be summarized across four dimensions:
+
+1. Compute and Infrastructure
+
+Dominated by the United States and China.
+
+2. Capital and Startups
+
+Led by the United States, with China close behind.
+
+3. Governance and Standards
+
+Led by Europe.
+
+4. Global Inclusion
+
+Championed by India and other emerging economies.
+
+The structural reality remains clear:
+	•	The United States and China dominate frontier model development.
+	•	Europe dominates regulatory architecture.
+	•	India and middle powers seek influence in access and governance.
+
+⸻
+
+8. Strategic Implications
+
+AI is no longer a technology sector issue. It is a structural economic and geopolitical force.
+
+Key observations:
+	•	Concentration risk remains high in compute and model development.
+	•	Regulatory divergence between regions may fragment global markets.
+	•	Sovereignty concerns are increasing in Europe and the global south.
+	•	Governance mechanisms remain largely voluntary and politically negotiated.
+
+The India summit illustrates that AI governance is becoming multipolar, but power concentration remains largely bipolar between the United States and China.
+
+⸻
+
+9. Conclusion
+
+The global AI landscape in 2026 is defined by strategic competition, regulatory divergence, and increasing geopolitical weight.
+
+The United States leads in innovation and capital.
+China leads in coordinated industrial scale.
+Europe leads in governance and standards.
+India seeks to shape inclusion and representation.
+
+For Europe, the core question is no longer whether to regulate AI. That path is clear. The question is whether it can match regulatory leadership with industrial capacity and strategic autonomy.

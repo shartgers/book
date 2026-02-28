@@ -1,0 +1,17 @@
+{
+  "name": "book-diagrams",
+  "version": "1.0.0",
+  "description": "Editable React components for book diagrams (4-stages style)",
+  "type": "module",
+  "scripts": {
+    "export": "esbuild src/export.js --bundle --outfile=dist/export.js --platform=node --format=esm --external:react --external:react-dom && node dist/export.js",
+    "export:watch": "esbuild src/export.js --bundle --outfile=dist/export.js --platform=node --format=esm --external:react --external:react-dom --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
