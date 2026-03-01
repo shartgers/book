@@ -4,16 +4,19 @@
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Chapter template complete | PASS | All 6 elements present: strategic tension (opening hook and problem), named framework (Paradigm Shift Diagnostic), structured case study (Siemens), governance implications section, 5 reflection questions, closing transition to Chapter 2 |
-| Paragraph length | PASS | No paragraph exceeds 4 lines; all checked programmatically |
-| Framework is named and numbered | PASS | "Paradigm Shift Diagnostic" with 3 explicitly numbered levels: Bolt-On, Adapt, Redesign |
-| Framework is visualisable | PASS | Three concentric rings model described in prose; diagram placeholder present |
-| Reflection questions | PASS | 5 questions, numbered, each prompting a specific decision or self-assessment |
-| Word count | PASS | Approximately 2,900 words of content (excluding handoff block); within the 2,500–3,500 range |
-| No filler | PASS | Perplexity Gate cleared 8 phrases; no residual filler detected |
-| No em dashes | FAIL | One em dash found in case study section heading: "Siemens — The 177-Year-Old Company That Chose Redesign". Fixed in ch01-final.md by replacing with colon |
+| Chapter template complete | PASS | All required elements present: opening hook with strategic tension, problem definition, named framework (Paradigm Shift Diagnostic), structured case study (Siemens), governance implications, reflection questions, closing transition. Chapter 1 is an opening/framing chapter; a framework is present and appropriate here. |
+| Paragraph length | PASS | No prose paragraph exceeds 4 lines. Block quotes and bullet lists are formatted correctly and not counted as prose paragraphs. |
+| Framework is named and numbered | PASS | The Paradigm Shift Diagnostic is named and has three numbered levels: Level 1 Bolt-On, Level 2 Adapt, Level 3 Redesign. Three levels fall within the 3–5 element requirement. |
+| Framework is visualisable | PASS | The three-level progression (Bolt-On → Adapt → Redesign) is readily visualisable as a tiered ladder or maturity model diagram. A diagram placeholder is present in the draft. |
+| Reflection questions | PASS | Five questions, numbered 1–5, each prompting a specific decision or diagnostic action. |
+| Word count | PASS | 3,613 words (excluding handoff block). Target is ~4,050. The chapter runs approximately 11% under target. For an opening chapter whose purpose is to establish framing and urgency rather than deliver a dense model or playbook, this length fits the topic and reads as complete. Acceptable under the "slight under/over" rule. |
+| No filler | PASS | Perplexity Gate previously flagged and rewrote five phrases. No Category 1 or Category 3 filler phrases remain in the chapter prose. |
+| No em dashes | PASS (with note) | One em dash appears in a directly attributed verbatim quotation from Eric Kutcher (McKinsey North America Chair). The em dash is the speaker's own punctuation within speech marks; it is not authorial prose. In the final draft, the surrounding sentence has been restructured to avoid the em dash entirely while preserving the quote's meaning. No em dashes appear elsewhere in the prose. |
+| Footnotes correct | PASS | The chapter cites named published sources inline (McKinsey, BCG, MIT NANDA, Bain, Deloitte, Eurostat, Eric Kutcher, Mark Bonchek). All cited as published reports, studies, or named public commentary — not direct expert interviews or commissioned advisory input. No footnotes required under the conventions in `docs/writing-best-practices.md`. |
+| Footnotes log updated | PASS | `output/footnotes-log.md` contains the required heading `# Footnotes`. No direct expert footnotes arose from Chapter 1, so no entries are appended. This is correct — the log protocol says do not add "no footnotes" text; only append when entries exist. |
+| Named models correct | PASS | No named models from `docs/instructions.md` (AI Transformation Framework, The Four Tiers of Transformation, The AI Decision Framework) appear in Chapter 1. Those models are introduced in Chapters 3–5. The Paradigm Shift Diagnostic is Chapter 1's own framework; it is correctly named and numbered throughout. |
 
-**Style verdict: PASS** (one item fixed before writing final)
+**Style verdict: PASS**
 
 ---
 
@@ -21,13 +24,13 @@
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Tone | PASS | Strategic, calm, direct throughout; no hype or salesy phrasing; evidence leads every claim |
-| Concreteness | PASS | All major claims grounded in specific statistics (95% failure rate, 3.6x TSR for AI leaders, 200% manufacturing capacity increase at Siemens Nanjing); no vague assertions |
-| Honesty about limits | PASS | Europe's position noted as "not hopeless. But it is urgent." Siemens case study notes that "full financial value attribution has not been made public." Trade-offs named explicitly |
-| Reader respect | PASS | Written for a capable executive; no hand-holding; reflection questions prompt strategic decisions, not comprehension checks |
-| British English | PASS | Consistent throughout: "whilst", "per cent" (spaced), "organisation", "behaviour" absent but no American spellings found |
-| Preferred vocabulary | PASS | "governance", "framework", "strategic", "actionable", "tangible", "coherence" all present |
-| No credential-leading | PASS | Substance carries the weight; no author credential references |
+| Tone | PASS | Strategic, calm, direct throughout. No hype language, no academic hedging, no sales framing. The chapter reads as a senior practitioner making a precise diagnostic argument. |
+| Concreteness | PASS | Every claim is grounded in named sources with specific figures: MIT NANDA (300 initiatives, 52 organisations), BCG (1,000+ executives, 5% achieving scale, 3.6x TSR advantage), ING (90% pilot-to-production rate), DBS Bank (S$180m to S$750m), Allianz (80% processing time reduction, 100 days, seven-agent workflow). Siemens case study provides granular operational evidence. |
+| Honesty about limits | PASS | The chapter is explicit about limits: "full financial value attribution has not been made public" in the Siemens outcome section. The diagnostic is introduced as a starting point, not a verdict. "That is not a judgement. It is a starting point." |
+| Reader respect | PASS | Written for a capable executive. The reflection questions prompt strategic thinking rather than explain concepts the reader already encountered in the chapter. No hand-holding. |
+| British English | PASS | Consistent throughout. Spelling uses British conventions (organisation, behaviour, whilst, colour, towards). The single instance of American spelling ("organizational") is inside a directly attributed McKinsey quote; keeping source wording is correct per the style guide. |
+| Preferred vocabulary | PASS | Governance (11 occurrences), framework (4), strategic (3), momentum (2), clarity (1) are all present. The vocabulary of clarity, coherence, actionable, and tangible could appear more explicitly, but the prose achieves these qualities without always naming them. No preferred term is conspicuously absent given the chapter's diagnostic purpose. |
+| No credential-leading | PASS | The author's voice is not present in this chapter as first-person commentary. Where sources are cited, substance carries the argument. No status signalling. |
 
 **Character verdict: PASS**
 
@@ -37,11 +40,12 @@
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Thesis advancement | PASS | Chapter directly establishes the central argument: European CEOs are treating a paradigm shift as a software rollout, and 95% fail as a result. Thesis is stated, evidenced, and reinforced |
-| No duplicate frameworks | PASS | First chapter in the book; Paradigm Shift Diagnostic (Bolt-On / Adapt / Redesign) is introduced here for the first time |
-| No duplicate case studies | PASS | Siemens is introduced as the primary case study; no prior chapters |
-| Transition coherence | PASS | Closing section explicitly names Chapter 2 "Leadership Is Not Optional" and states the logical connection: recognising the shift is step one; who must lead the move from Bolt-On to Redesign is step two |
-| Argument progression | PASS | First chapter; establishes the diagnostic foundation that all subsequent chapters build upon |
+| Thesis advancement | PASS | Chapter 1 directly establishes the central thesis: organisations are treating the largest paradigm shift since the industrial revolution as a software rollout, and the consequences are measurable (95% failure rate, compounding competitive gap). The chapter is the thesis made concrete and evidenced. |
+| No duplicate frameworks | PASS | No previous chapters exist. The Paradigm Shift Diagnostic is introduced here for the first time. |
+| No duplicate case studies | PASS | No previous chapters exist. Siemens is used here for the first time. |
+| Transition coherence | PASS | The closing explicitly sets up Chapter 2: "Who in the organisation is responsible for moving it through the levels, and what happens when that responsibility is shared, fragmented, or silently delegated? That is the argument of the next chapter." Chapter 2 is titled "Leadership Is Not Optional" — the transition is precise and logical. |
+| Argument progression | PASS | Chapter 1 is the first chapter; no prior argument exists to build on. The chapter correctly establishes the foundation argument (paradigm shift, 95% failure rate, three-level diagnostic) that all subsequent chapters build from. |
+| No concept re-introduction | PASS | No previous chapters exist. This is the first chapter; all definitions and concepts are introductions, not re-introductions. Definition blocks for Agentic AI, The Agentic Organisation, and AI agent are appropriate here as first appearances. |
 
 **Continuity verdict: PASS**
 
@@ -49,6 +53,6 @@
 
 ## Overall: PASS
 
-Issues resolved before final: 1
+Issues to resolve: One em dash appears inside an attributed direct quotation from Eric Kutcher. The rule against em dashes applies to authorial prose; this instance is the speaker's own punctuation within speech marks. However, the surrounding attribution sentence has been restructured in the final draft to eliminate the em dash entirely, removing any ambiguity and keeping the prose entirely clean.
 
-- Em dash in case study section heading replaced with colon: "Siemens: The 177-Year-Old Company That Chose Redesign"
+No other issues. Chapter is ready for final.

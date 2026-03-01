@@ -1,42 +1,64 @@
 # Review Report — Chapter 02 — Leadership Is Not Optional
 
 ## Check 1 — Style
+
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Chapter template complete | PASS | All 6 elements present: strategic tension (Opening Hook), named framework (Leadership Ownership Model), case study (DBS Bank), governance implications, reflection questions (5), closing transition |
-| Paragraph length | PASS | PG pass broke 5 long paragraphs; 3 remaining borderline paragraphs (Opening Hook para 1, Case Study Strategic Dilemma, Case Study Outcome) fixed in final |
-| Framework is named and numbered | PASS | Leadership Ownership Model with 3 stages: Delegate, Sponsor, Own |
-| Framework is visualisable | PASS | Three-stage horizontal progression with outcome indicators below each stage; diagram placeholder flagged |
-| Reflection questions | PASS | 5 questions, numbered, each prompting a specific decision or audit |
-| Word count | PASS | 2,993 words total (target 2,500–3,500); non-case-study 2,165 (target 1,800–2,500); case study 828 (target 600–900) |
-| No filler | PASS | PG pass rewrote 11 phrases; no Category 1 or 2 phrases remain |
-| No em dashes | PASS | None found |
+| Chapter template complete | PASS | Strategic tension (delegation failure), case study (DBS Bank), governance implications, reflection questions, closing transition all present. No named framework required for this argument chapter. |
+| Paragraph length | PASS | No prose paragraph exceeds 4 lines. Bullet-list trade-off section is a list format, not a prose paragraph. |
+| Framework is named and numbered | N/A | Argument chapter; no named framework required. |
+| Framework is visualisable | N/A | Argument chapter; no framework present. |
+| Reflection questions | PASS | 5 numbered questions, each prompting a specific decision. |
+| Word count | PASS | 3,561 prose words against a ~3,600 target. Within acceptable range. |
+| No filler | PASS | No Perplexity Gate filler categories detected. |
+| No em dashes | FAIL | One em dash present in the case study heading: "DBS Bank — The CEO Who Refused to Delegate". Fix: replace with a colon. |
+| Footnotes correct | PASS | No direct-expert footnotes required; all quotes are public statements from named executives, not interview or commissioned-report sources. |
+| Footnotes log updated | PASS | No new direct-expert footnotes in this chapter; nothing to append. Existing `output/footnotes-log.md` structure is correct. |
+| Named models correct | PASS | Chapter references the Paradigm Shift Diagnostic (from Chapter 1) by exact name and refers to Bolt-On/Redesign levels accurately. No new named model introduced. |
 
-**Style verdict: PASS**
+**Style verdict: FAIL**
+Issues: Em dash in case study heading.
+
+---
 
 ## Check 2 — Character
+
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Tone | PASS | Strategic, calm, direct throughout; no hype or academic register |
-| Concreteness | PASS | Claims grounded in specific statistics (95%, 6x, 12x, 42%); DBS case study uses publicly verifiable metrics |
-| Honesty about limits | PASS | Research brief flagged 6x and 12x figures for Perplexity Gate verification; case study notes succession as open question ("at least in its first test") |
-| Reader respect | PASS | Written for capable executive; no hand-holding or over-explanation |
-| British English | PASS | Consistent: organisation, behaviour, programme, personalised, amongst, whilst |
-| Preferred vocabulary | PASS | Uses: framework, governance, accountability, concrete, measurable, momentum |
-| No credential-leading | PASS | Substance carries weight; no status signals |
+| Tone | PASS | Strategic, direct, calm. No hype, no academic register, no sales language. The DBS case study avoids hero narrative. |
+| Concreteness | PASS | All claims are grounded: six times success rate, twelve times top-5% likelihood, 42% abandonment, RAND 80% failure, DBS financial outcomes (S$180M → S$750M → S$1B projected). |
+| Honesty about limits | PASS | DBS case explicitly notes: "The case is not a clean success story with no uncertainty along the way." Trade-offs section is genuinely balanced. |
+| Reader respect | PASS | Written for a capable executive. No over-explanation, no hand-holding. Governance implications section assumes the reader can act on structural recommendations. |
+| British English | PASS | Consistent throughout: "whilst", "organise", "recognise" (implied), no American spellings detected. Punctuation correct. |
+| Preferred vocabulary | PASS | Uses: governance, framework, strategic, momentum, coherence, accountability, architecture, tangible. |
+| No credential-leading | PASS | Author voice is absent from the prose; substance carries the argument. |
 
 **Character verdict: PASS**
 
+---
+
 ## Check 3 — Continuity
+
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Thesis advancement | PASS | Establishes that the preparedness gap is first a leadership gap; European CEOs cannot be underprepared if they personally own the agenda |
-| No duplicate frameworks | PASS | Leadership Ownership Model is distinct from Chapter 1's Paradigm Shift Diagnostic |
-| No duplicate case studies | PASS | DBS Bank; Chapter 1 used Siemens |
-| Transition coherence | PASS | Closing connects to Chapter 3 (Agentic Enterprise definition): "own what, exactly?" bridges from leadership posture to destination architecture |
-| Argument progression | PASS | Builds directly on Chapter 1: Ch1 diagnosed the paradigm shift; Ch2 identifies who must lead it and what ownership requires |
+| Thesis advancement | PASS | Chapter clearly advances the central argument: leadership is the single most correctable cause of the 95% failure rate. Directly builds on the paradigm shift established in Chapter 1. |
+| No duplicate frameworks | PASS | No new named framework in this chapter. References to Chapter 1's Paradigm Shift Diagnostic are referential, not re-definitional. |
+| No duplicate case studies | PASS | DBS Bank is a new primary case study. DBS was mentioned briefly in Chapter 1 as a single evidence data point (S$180M → S$750M), not as a structured case study. |
+| Transition coherence | PASS | Closing explicitly names Chapter 3 and the Agentic Organisation / AI Transformation Framework — correct per the TOC. |
+| Argument progression | PASS | Chapter 1 established what the paradigm shift is. Chapter 2 establishes who is responsible for navigating it. The argument is sequential and dependent. |
+| No concept re-introduction | FAIL | Three violations: (1) The "six times" CEO-led success rate statistic was already cited in Chapter 1's Governance Implications section; Chapter 2's Opening Hook presents it again without referencing Chapter 1. (2) The Deloitte board governance statistics cluster (88%, 66%, 79%, 15%, 25%, 14%) appears verbatim in Chapter 1's Governance Implications and is fully restated in Chapter 2's "The board governance gap" sub-section as if the reader has never seen them. (3) The McKinsey/Kutcher 80/20 quote ("80% business transformation and 20% technology transformation") was the climax evidence in Chapter 1's Problem section; Chapter 2 re-attributes it in full to "McKinsey's North America Chair Eric Kutcher" as if introducing it. |
 
-**Continuity verdict: PASS**
+**Continuity verdict: FAIL**
+Issues: Three concept re-introduction violations. All three fixed before ch02-final.md is written.
 
-## Overall: PASS
-Issues to resolve: 3 borderline-length paragraphs (Opening Hook para 1, Case Study Strategic Dilemma, Case Study Outcome) split in final draft. No other issues.
+---
+
+## Overall: FAIL
+
+Issues to resolve:
+1. Em dash in case study heading — fix to colon.
+2. Six times stat in Opening Hook — add "As we saw in Chapter 1" reference; do not re-present as new evidence.
+3. Board governance stats cluster in "The board governance gap" — condense and reference Chapter 1 rather than restating verbatim; build on the data with new depth or application.
+4. Kutcher 80/20 quote in "The delegation trap" — remove full re-attribution; reference as already established in Chapter 1; apply it to the delegation argument without re-introducing it as new.
+
+All four issues resolved in ch02-final.md below.

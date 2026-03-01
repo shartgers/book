@@ -1,15 +1,16 @@
 # Book Progress
 
-## Current Phase: Phase 1: Chapter 3
+## Current Phase: Phase 1 — Chapter 4
 
 ---
 
-## Project status (as of Feb 2025)
+## Project status (as of Mar 2025)
 
-- **Writing:** Chapter 1 complete. Chapter 2 complete (all beats, research brief, draft, case study, Perplexity Gate, review, final). Chapter 3 not started.
-- **Skills:** All core agent skills live under `skills/` (orchestrator, planner, research, writer, case-study, perplexity-gate, reviewers, research-refresh). Additional skills: `publish-kdp-ingramspark`, `image-designer-agent`, `writing-ralph-wiggum-loop`.
-- **Research:** `research/` expanded with chapter-focused notes (e.g. ch3 agentic enterprise, ch4 four tiers, ch5 mental framework) and other references.
-- **Publishing:** Print pipeline in place. `skills/publish-kdp-ingramspark/` builds print-ready PDF for KDP/IngramSpark; dry-run (Chapter 1 only) has been run (`output/dry-run.html`, `output/dry-run.pdf`). Inputs: `input/book-layout.html`, `output/misc/introduction.md`, `output/misc/about-the-author.md` (or placeholders).
+- **Structure:** TOC locked at 14 chapters in `plan/toc.md`. Plan, chapter hooks, docs, prompts (ch01–ch14), and agent skills are aligned to this structure.
+- **Writing:** Chapter 1 complete. Chapter 2 complete. Chapter 3 complete (beats, draft, Perplexity Gate, review, final). **Chapter 4 next** — The Four Tiers of Transformation (Wave 1: Planner + Research Agent).
+- **Skills:** All core agent skills live under `skills/` (orchestrator, planner, research, writer, case-study, perplexity-gate, reviewers, research-refresh). Additional skills: `format-book-agent`, `image-designer-agent`, `writing-ralph-wiggum-loop`.
+- **Research:** `research/` expanded with chapter-focused notes and book synthesis. Prompts in `prompts/` cover ch02–ch14 (research prompts per chapter).
+- **Publishing:** Print pipeline in place. `skills/format-book-agent/` builds print-ready PDF for KDP/IngramSpark; dry-run (Chapter 1 only) has been run. Inputs: `input/book-layout.html`, `output/misc/introduction.md`, `output/misc/about-the-author.md` (or placeholders).
 
 ---
 
@@ -46,7 +47,7 @@ Skills to create before running parallel writing waves.
 - [x] `skills/reviewers-agent/SKILL.md`
 - [x] `docs/agent-handoff-protocol.md`
 
-**Additional skills (outside the wave):** `skills/publish-kdp-ingramspark/` (print PDF for KDP/IngramSpark), `skills/image-designer-agent/`, `skills/writing-ralph-wiggum-loop/`, `skills/research-refresh-agent/` (optional refresh).
+**Additional skills (outside the wave):** `skills/format-book-agent/` (print PDF for KDP/IngramSpark), `skills/image-designer-agent/`, `skills/writing-ralph-wiggum-loop/`, `skills/research-refresh-agent/` (optional refresh).
 
 **Wave pattern per chapter:**
 ```
@@ -80,13 +81,13 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Case study → output/chapters/chapter-02/ch02-case-study.md
 - [x] Done → output/chapters/chapter-02/ch02-final.md
 
-### Chapter 03: What the Agentic Enterprise Looks Like
-- [ ] Beats → output/chapters/chapter-03/ch03-beats.md
-- [ ] Research brief → output/chapters/chapter-03/ch03-research-brief.md
-- [ ] Draft → output/chapters/chapter-03/ch03-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-03/ch03-draft-pg.md
-- [ ] Review → output/chapters/chapter-03/ch03-review.md
-- [ ] Done → output/chapters/chapter-03/ch03-final.md
+### Chapter 03: What the Agentic Organisation Looks Like
+- [x] Beats → output/chapters/chapter-03/ch03-beats.md
+- [x] Research brief → (incorporated from book-research-claude.md sections 1, 3, 5, 7, 8, 9 and research/the-agentic-employee.md)
+- [x] Draft → output/chapters/chapter-03/ch03-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-03/ch03-draft-pg.md
+- [x] Review → output/chapters/chapter-03/ch03-review.md
+- [x] Done → output/chapters/chapter-03/ch03-final.md
 
 ### Chapter 04: The Four Tiers of Transformation
 - [ ] Beats → output/chapters/chapter-04/ch04-beats.md
@@ -96,7 +97,7 @@ Wave 4:             Reviewers → chapter marked done
 - [ ] Review → output/chapters/chapter-04/ch04-review.md
 - [ ] Done → output/chapters/chapter-04/ch04-final.md
 
-### Chapter 05: Value, Capabilities, Trust
+### Chapter 05: The AI Transformation Framework
 - [ ] Beats → output/chapters/chapter-05/ch05-beats.md
 - [ ] Research brief → output/chapters/chapter-05/ch05-research-brief.md
 - [ ] Draft → output/chapters/chapter-05/ch05-draft.md
@@ -104,7 +105,7 @@ Wave 4:             Reviewers → chapter marked done
 - [ ] Review → output/chapters/chapter-05/ch05-review.md
 - [ ] Done → output/chapters/chapter-05/ch05-final.md
 
-### Chapter 06: Europe's Distinctive Edge
+### Chapter 06: The Operational Layer
 - [ ] Beats → output/chapters/chapter-06/ch06-beats.md
 - [ ] Research brief → output/chapters/chapter-06/ch06-research-brief.md
 - [ ] Draft → output/chapters/chapter-06/ch06-draft.md
@@ -112,7 +113,7 @@ Wave 4:             Reviewers → chapter marked done
 - [ ] Review → output/chapters/chapter-06/ch06-review.md
 - [ ] Done → output/chapters/chapter-06/ch06-final.md
 
-### Chapter 07: What the Leaders Did
+### Chapter 07: Foundations of the AI Transformation
 - [ ] Beats → output/chapters/chapter-07/ch07-beats.md
 - [ ] Research brief → output/chapters/chapter-07/ch07-research-brief.md
 - [ ] Draft → output/chapters/chapter-07/ch07-draft.md
@@ -120,7 +121,7 @@ Wave 4:             Reviewers → chapter marked done
 - [ ] Review → output/chapters/chapter-07/ch07-review.md
 - [ ] Done → output/chapters/chapter-07/ch07-final.md
 
-### Chapter 08: Building Your Agentic Enterprise
+### Chapter 08: Value, Capabilities, Trust
 - [ ] Beats → output/chapters/chapter-08/ch08-beats.md
 - [ ] Research brief → output/chapters/chapter-08/ch08-research-brief.md
 - [ ] Draft → output/chapters/chapter-08/ch08-draft.md
@@ -128,7 +129,7 @@ Wave 4:             Reviewers → chapter marked done
 - [ ] Review → output/chapters/chapter-08/ch08-review.md
 - [ ] Done → output/chapters/chapter-08/ch08-final.md
 
-### Chapter 09: Foundations of the AI transformation
+### Chapter 09: Europe's Distinctive Edge
 - [ ] Beats → output/chapters/chapter-09/ch09-beats.md
 - [ ] Research brief → output/chapters/chapter-09/ch09-research-brief.md
 - [ ] Draft → output/chapters/chapter-09/ch09-draft.md
@@ -136,7 +137,7 @@ Wave 4:             Reviewers → chapter marked done
 - [ ] Review → output/chapters/chapter-09/ch09-review.md
 - [ ] Done → output/chapters/chapter-09/ch09-final.md
 
-### Chapter 10: Measuring What Matters
+### Chapter 10: What the Leaders Did
 - [ ] Beats → output/chapters/chapter-10/ch10-beats.md
 - [ ] Research brief → output/chapters/chapter-10/ch10-research-brief.md
 - [ ] Draft → output/chapters/chapter-10/ch10-draft.md
@@ -144,10 +145,34 @@ Wave 4:             Reviewers → chapter marked done
 - [ ] Review → output/chapters/chapter-10/ch10-review.md
 - [ ] Done → output/chapters/chapter-10/ch10-final.md
 
-### Chapter 11: A leadership decision
+### Chapter 11: Building Your Agentic Organisation
 - [ ] Beats → output/chapters/chapter-11/ch11-beats.md
 - [ ] Research brief → output/chapters/chapter-11/ch11-research-brief.md
 - [ ] Draft → output/chapters/chapter-11/ch11-draft.md
 - [ ] Perplexity Gate → output/chapters/chapter-11/ch11-draft-pg.md
 - [ ] Review → output/chapters/chapter-11/ch11-review.md
 - [ ] Done → output/chapters/chapter-11/ch11-final.md
+
+### Chapter 12: Readiness
+- [ ] Beats → output/chapters/chapter-12/ch12-beats.md
+- [ ] Research brief → output/chapters/chapter-12/ch12-research-brief.md
+- [ ] Draft → output/chapters/chapter-12/ch12-draft.md
+- [ ] Perplexity Gate → output/chapters/chapter-12/ch12-draft-pg.md
+- [ ] Review → output/chapters/chapter-12/ch12-review.md
+- [ ] Done → output/chapters/chapter-12/ch12-final.md
+
+### Chapter 13: Measuring What Matters
+- [ ] Beats → output/chapters/chapter-13/ch13-beats.md
+- [ ] Research brief → output/chapters/chapter-13/ch13-research-brief.md
+- [ ] Draft → output/chapters/chapter-13/ch13-draft.md
+- [ ] Perplexity Gate → output/chapters/chapter-13/ch13-draft-pg.md
+- [ ] Review → output/chapters/chapter-13/ch13-review.md
+- [ ] Done → output/chapters/chapter-13/ch13-final.md
+
+### Chapter 14: A Leadership Decision
+- [ ] Beats → output/chapters/chapter-14/ch14-beats.md
+- [ ] Research brief → output/chapters/chapter-14/ch14-research-brief.md
+- [ ] Draft → output/chapters/chapter-14/ch14-draft.md
+- [ ] Perplexity Gate → output/chapters/chapter-14/ch14-draft-pg.md
+- [ ] Review → output/chapters/chapter-14/ch14-review.md
+- [ ] Done → output/chapters/chapter-14/ch14-final.md

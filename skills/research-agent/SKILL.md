@@ -13,6 +13,7 @@ Extract and organise the evidence the Writer and Case Study Agent need. Use the 
 
 - `output/chapters/chapter-{nn}/ch{nn}-beats.md` — Planner output (which sections are needed, which company)
 - `plan/toc.md` — chapter word budget (percentage and ~word count) for this chapter; use to judge required content density
+- `docs/instructions.md` — must-have instructions and named models (use exact names and elements in briefs)
 - `research/` — all files in this folder are valid sources (see below)
 
 ---
@@ -58,11 +59,11 @@ If `book-research-chatgpt.md` exists, use as cross-check. New research files add
 
 | Section | Content |
 |---------|---------|
-| 1 | Definition of the Agentic Enterprise (McKinsey, BCG, Deloitte, Accenture, Gartner, Forrester) |
+| 1 | Definition of the Agentic Organisation (McKinsey, BCG, Deloitte, Accenture, Gartner, Forrester) |
 | 2 | Why bottom-up fails; CEO-led transformation |
-| 3 | Five elements: Products, People, Process, Technology, Data |
-| 4 | Four-tier transformation model (Individual → Team → Department → Organisation) |
-| 5 | Three angles: Value, Capabilities, Trust |
+| 3 | The AI Transformation Framework: Product, People, Process, Technology, Data |
+| 4 | The Four Tiers of Transformation (Individual → Team → Department → Organisation) |
+| 5 | The AI Decision Framework (Value, Capabilities, Trust) |
 | 6 | European context (EU AI Act, regional nuances, PE/mid-market) |
 | 7 | Case studies (BBVA, ING, Siemens, Allianz, Klarna, Schneider Electric, DBS, Shopify, GitHub, Kore.ai) |
 | 8 | CEO and thought-leader quotes |
@@ -158,7 +159,8 @@ Format: "Quote" — Name, Role, Organisation]
 
 ## Rules
 
-- Extract only — do not interpret or editorialize
+- **Chapter 10 (What the Leaders Did):** This chapter is lesson-led, not case-study-led. See `docs/instructions.md` (Chapter 10). The research brief must present **9 abstracted lessons**, each with (a) the lesson statement, (b) which case(s) illustrate it (BBVA, ING, Siemens, Allianz, Klarna, Schneider Electric, etc.), (c) brief evidence or quote for the Writer to reference. Use `research/ch10-lessons-from-leaders.md` or a Ch 10 lessons section if it exists; otherwise abstract the 9 lessons from case material in the research folder and structure the brief around them. Do not deliver the brief as six standalone case studies.
+- Extract only — do not interpret or editorialize (except for Ch 10, where abstracting the 9 lessons is required)
 - Flag gaps explicitly; do not fill them with assumptions
 - Quotes must be attributed with name and organisation (research folder or web)
 - European context is required for every chapter — dig for it; if genuinely absent, say so

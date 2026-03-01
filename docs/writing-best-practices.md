@@ -31,13 +31,13 @@ Guidelines for writing a strategic, high-quality business book aimed at executiv
 
 ## Chapter Template
 
-**Chapter opening:** Do not start the chapter draft with a level-1 heading (e.g. `# Chapter 1: Title`). The print build adds the chapter number and title in the layout. Start the draft with the first section heading (e.g. `## Opening Hook`).
+**Chapter opening:** Do not start the chapter draft with a level-1 heading (e.g. `# Chapter 1: Title`). The print build adds the chapter number and title in the layout. Start the draft with the first section heading; use the **Section heading** from the beat sheet for each section (section names are set by the Planner, not fixed labels).
 
 Each chapter must include:
 
 - Strategic tension
 - Clear principle
-- Named framework
+- Named framework (optional — only substance chapters, e.g. key 3 or 5 elements, model, playbook; introduction and some opening or closing chapters stay readable without a framework)
 - Structured case study
 - Governance implications
 - Executive reflection questions
@@ -111,9 +111,9 @@ Use a blockquote with a bold `Definition:` label on the first line. Keep the def
 - **British English.** Same rules as all other prose.
 - **No jargon inside a definition.** If a definition needs another defined term, use plain language and add "(see Chapter X)" if needed.
 
-### Term consistency: Agentic Enterprise
+### Term consistency: Agentic Organisation
 
-**Use "Agentic Enterprise" (capitalised) as the single defined concept for the book.** Do not use "Agentic Organisation" for this concept. The book title is *The Agentic Enterprise*; the definition block in Chapter 1 uses "The Agentic Enterprise." In running prose you may use the words "organisation" or "enterprise" freely (e.g. "organisations must redesign roles," "enterprise-wide transformation"); only the defined, capitalised concept is always **Agentic Enterprise**. When citing external sources, keep their wording (e.g. McKinsey's "The Agentic Organization").
+**Use "Agentic Organisation" (capitalised) as the single defined concept for the book.** Do not use "Agentic Enterprise" for this concept. The book title is *The Agentic Organisation*; the definition block in Chapter 1 uses "The Agentic Organisation." In running prose you may use the words "organisation" or "enterprise" freely (e.g. "organisations must redesign roles," "enterprise-wide transformation"); only the defined, capitalised concept is always **Agentic Organisation**. When citing external sources, keep their wording (e.g. McKinsey's "The Agentic Organization").
 
 ### Key Terms Requiring Definition Blocks
 
@@ -121,16 +121,17 @@ This is the running list of terms that must receive a definition block when firs
 
 | Term | Likely first appears in |
 |------|------------------------|
-| The Agentic Enterprise | Chapter 1 or 3 |
+| The Agentic Organisation | Chapter 1 or 3 |
 | The agentic employee | Chapter 3 |
 | AI agent | Chapter 1 or 3 |
+| The AI Transformation Framework (Product, People, Process, Technology, Data) | Chapter 5 (exact name and elements in `docs/instructions.md`) |
 | A skill (reusable AI workflow) | Chapter 3 or 4 |
 | Agentic AI | Chapter 1 |
-| The four tiers of transformation | Chapter 4 |
-| Value, Capabilities, Trust (framework) | Chapter 5 |
-| Human-in-the-loop | Chapter 3 or 5 |
-| Tiered autonomy | Chapter 5 or 8 |
-| Pilot purgatory | Chapter 9 |
+| The four tiers of transformation | Chapter 4 (see The Four Tiers of Transformation in `docs/instructions.md`) |
+| Value, Capabilities, Trust (framework) | Chapter 8 (see The AI Decision Framework in `docs/instructions.md`) |
+| Human-in-the-loop | Chapter 3 or 8 |
+| Tiered autonomy | Chapter 8 or 13 |
+| Pilot purgatory | Chapter 13 |
 
 Add new terms to this table as the book develops.
 
@@ -173,18 +174,15 @@ If the source prefers anonymity, use: `¹ Senior CHRO, European financial servic
 
 ### End-of-Book Footnote Log
 
-All footnotes are collected into a single log at the end of the book, positioned **before the "About the Author" section**.
+All footnotes are collected into a single log at the end of the book, positioned **before the "About the Author" section**. The file is a clean reference for the print build: one title and one numbered list.
 
-**Writing Agent responsibility:** After completing each chapter draft, append all new footnotes from that chapter to `output/footnotes-log.md`. Use the format below. Do not consolidate or reformat existing entries.
+**File format:** `output/footnotes-log.md` contains only:
+- A single heading: `# Footnotes`
+- A single numbered list of all footnotes (e.g. `1. Interview with [Name], [Title], [Organisation], [Year].`)
 
-```markdown
-## Chapter {nn} — {Chapter Title}
+No per-chapter headings, no explanatory text (e.g. "No direct expert footnotes in this chapter"), and no other sections.
 
-1. [Name], [Title], [Organisation], [Year].
-2. Senior [role], [industry], [year].
-```
-
-The Orchestrator compiles the final log into the book build in the correct position. The log is append-only during drafting; editing an existing entry requires an explicit instruction.
+**Writing Agent responsibility:** After completing each chapter draft, **append** this chapter's footnotes to `output/footnotes-log.md` as the next numbered list items. Continue the numbering from the last existing entry (e.g. if the file already has 1–3, add 4., 5., …). If the file is missing or has no list yet, ensure it starts with `# Footnotes` then a blank line, then the numbered list. Do not add a chapter heading or any "no footnotes" entry; if the chapter has no direct-expert footnotes, do not append anything. Do not consolidate or reformat existing entries.
 
 ---
 
@@ -192,8 +190,7 @@ The Orchestrator compiles the final log into the book build in the correct posit
 
 Before finalizing, verify:
 
-- [ ] Each chapter has a named framework
-- [ ] Each framework can be visualized (diagram, model, etc.)
+- [ ] Each framework (when present) can be visualized (diagram, model, etc.)
 - [ ] Each claim has supporting evidence
-- [ ] No duplicate or overlapping models
+- [ ] No duplicate or overlapping models; named models use exact names and elements from `docs/instructions.md`
 - [ ] Thesis is reinforced in the conclusion

@@ -10,7 +10,7 @@ Use this prompt to conduct **extensive external research** on how transformation
 
 **Chapter title:** The Four Tiers of Transformation  
 **Place in book:** Part II — The Model  
-**Target length:** ~11% of book (~3,850 words)  
+**Target length:** ~9% of book (~4,050 words)  
 **Core argument:** Transformation progresses through four tiers (Individual, Team, Department, Organisation); each tier needs different governance, culture, tools, and ROI measurement; the **Individual** tier is where agentic employees are made (AI fluency, skill creation and sharing, compounding network effect).
 
 ### Evidence already in our research

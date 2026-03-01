@@ -39,9 +39,9 @@ Set trim size in the script or via CSS `@page { size: ... }`. Default in script:
 In the manuscript, definitions use a blockquote with a bold label:
 
 ```markdown
-> **Definition: The Agentic Enterprise**
+> **Definition: The Agentic Organisation**
 >
-> An agentic enterprise is an organisation redesigned around human-AI collaboration...
+> An agentic organisation is redesigned around human-AI collaboration...
 ```
 
 The script detects this pattern and applies a **definition box** style: background colour (e.g. light blue or light grey), padding, optional left border, so every definition looks the same.
@@ -107,12 +107,12 @@ The build script is designed to match [KDP's "Format Your Paperback"](https://kd
    The script includes: half title, title page, copyright page, table of contents (front); chapters (body); About the Author and Index (back). This matches KDP's [front, body, and back matter](https://kdp.amazon.com/help?topicId=GDDYZG2C7RVF5N9J) guidance (title pages, copyright, chapter headings, author bio).
 
 4. **Save manuscript for upload**  
-   Output is a single **PDF** (recommended by KDP). See [Save Your Manuscript File](https://kdp.amazon.com/help?topicId=G202145060): no crop/trim marks, no encryption; embed fonts (xhtml2pdf embeds by default); single-page layout; for best results use PDF optimized for print. After building, upload and preview in KDP.
+   Output is a single **PDF** (recommended by KDP). See [Save Your Manuscript File](https://kdp.amazon.com/help/topic/G202145060): no crop/trim marks, no encryption; embed fonts (xhtml2pdf embeds by default); single-page layout; for best results use PDF optimized for print. After building, upload and preview in KDP.
 
 ---
 
 ## Sources
 
 - Project: `input/self-publishing-tips.md`, `input/How-to-Self-Publish-Guide.pdf`
-- KDP: [Format Your Paperback](https://kdp.amazon.com/help/topic/G201834190) (manuscript + cover); [Set Trim Size, Bleed, and Margins](https://kdp.amazon.com/help?topicId=GVBQ3CMEQW3W2VL6); [Save Your Manuscript File](https://kdp.amazon.com/help?topicId=G202145060); [Front, Body, Back Matter](https://kdp.amazon.com/help?topicId=GDDYZG2C7RVF5N9J).
+- KDP: [Format Your Paperback](https://kdp.amazon.com/help/topic/G201834190) (manuscript + cover); [Set Trim Size, Bleed, and Margins](https://kdp.amazon.com/help?topicId=GVBQ3CMEQW3W2VL6); [Save Your Manuscript File](https://kdp.amazon.com/help/topic/G202145060); [Front, Body, Back Matter](https://kdp.amazon.com/help?topicId=GDDYZG2C7RVF5N9J).
 - IngramSpark: Distribution and print specs on ingramspark.com; trim sizes and file requirements in their help/tools.

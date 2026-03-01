@@ -1,73 +1,82 @@
 # Chapter 02 — Leadership Is Not Optional
 
 ## Strategic Tension
-Every CEO who has delegated an AI transformation believed they were doing the right thing — hiring smart people, allocating budget, and trusting the organisation to execute. Most were wrong. The data is unambiguous: bottom-up AI programmes collapse at a rate that dwarfs every other category of enterprise initiative, while CEO-led transformations succeed at six times the rate. The paradox is that the leaders most capable of driving this shift are the ones most likely to believe their job is to enable others rather than lead directly. That belief is lethal in this particular transition.
+
+Every failed AI transformation had a sponsor. The pattern is consistent and well-documented: a senior leader who believed in it, funded it, hired capable people, and then delegated it. Delegation is where transformation goes to die. The research is unambiguous that CEO-led transformations succeed at six times the rate of those left to IT or middle management, yet the majority of European CEOs still treat AI as a technology initiative to be overseen rather than a strategic transformation to be led. The gap between what is required (personal, visible, sustained CEO commitment) and what is happening (delegation to CDOs, CTOs, or innovation teams) is the single most correctable cause of the 95% failure rate established in Chapter 1.
 
 ## Core Principle
-AI transformation is not a function to be delegated — it is a leadership posture to be occupied, personally and permanently, by the CEO.
 
-## Named Framework
-The Leadership Ownership Model — a three-stage progression (Delegate → Sponsor → Own) showing how the CEO's level of personal engagement determines organisational outcomes; visualisable as a horizontal three-stage diagram with outcome indicators beneath each stage.
-
----
+The single strongest predictor of AI transformation success is not the quality of the technology, the size of the budget, or the sophistication of the strategy: it is whether the chief executive is personally, visibly, and irreversibly committed.
 
 ## Beats
 
 ### Beat 1 — Opening Hook
-Open with the archetype: a transformation that had everything — a visionary sponsor, a well-funded team, a credible roadmap — and still failed. The sponsor moved on, or got absorbed, or declared victory too early. The initiative calcified. Frame the core question this chapter answers: what does it actually mean for a CEO to be "in the room," and why does personal ownership — not endorsement — determine whether the organisation transforms or performs theatre?
+
+Open with the hook: every major transformation that failed in the past twenty years had a sponsor who gradually or suddenly delegated it. Connect to the 95% failure rate from Chapter 1. Introduce the 6x success rate statistic for CEO-led transformations. Frame the chapter's argument: this chapter defines what "in the room" actually requires, for the CEO, the C-suite, and the board.
+
+Key data: CEO-led AI transformations succeed at 6x the rate of those delegated to IT or middle management. 72% of respondents now identify the CEO as the primary decision-maker on AI, up from one-third the year before.
 
 ### Beat 2 — The Problem
-Evidence wall: 95% of enterprise AI implementations fail to deliver sustained impact (MIT NANDA); only 5% of firms achieve AI value at scale (BCG); 80%+ AI project failure rate, double non-AI IT (RAND); 42% of companies scrapped most AI initiatives in 2025 (S&P Global). Surface the mechanism: failure is not technical — it is organisational and behavioural. The Bain micro-productivity trap: grassroots experimentation never self-organises into systemic transformation. Add the human friction layer: 1 in 3 workers actively sabotage AI rollouts; 41% of millennials and Gen Z non-compliant; 75% of organisations at or past change saturation. The conclusion: without CEO ownership, resistance wins by default.
 
-### Beat 3 — Framework Introduction
-Introduce the Leadership Ownership Model. Three stages on a horizontal axis, each with a characteristic behaviour pattern and a predictable organisational outcome:
+Three interlocking failures that explain why delegation kills transformation:
 
-- **Stage 1 — Delegate:** CEO assigns AI ownership to CTO, CDO, or IT. Sets budget and KPIs. Reviews progress quarterly. Outcome: pilots proliferate, integration stalls, transformation never crosses the pilot-to-production threshold.
+1. **The delegation trap.** CEOs frame AI as an IT project, a cost centre, or an experiment to bolt onto existing processes. The required mental model reframes AI as strategic transformation, operating model redesign, and competitive necessity. Most CEOs have the wrong mental model (horseless carriage thinking vs. automobile thinking). 80% business transformation, 20% tech transformation (Kutcher/McKinsey).
 
-- **Stage 2 — Sponsor:** CEO is visibly supportive. Champions the agenda publicly. Removes political blockers when escalated. Outcome: momentum improves, but the organisation reads the CEO's attention as conditional. Effort concentrates in areas with senior visibility; the rest reverts.
+2. **The board governance gap.** 66% of boards report limited-to-no AI knowledge. Only 15% of boards receive AI-related metrics. Fewer than 25% have board-approved AI policies. Only 14% discuss AI at every meeting. Yet 88% of organisations use AI in at least one function. The gap between adoption velocity and governance maturity is the single greatest enterprise risk.
 
-- **Stage 3 — Own:** CEO treats AI transformation as a personal accountability, not a portfolio item. Spends 6+ hours weekly on AI (Trailblazer CEO profile). Commits 3x investment. Invests 2x in workforce upskilling. Attends working sessions, not just steering committees. Outcome: C-level engagement rises — deeply engaged executives are 12x more likely to sit in the top 5% of AI value creators. The CEO's ownership is the permission structure for the rest of the organisation.
-
-Diagram anchor: three boxes on a horizontal axis — Delegate / Sponsor / Own — with outcome labels below and an arrow showing direction of travel. Signal that most European CEOs currently sit between Stage 1 and Stage 2.
+3. **The C-suite alignment deficit.** Transformation stalls when it is owned by one function. The biggest barrier to scaling AI is not employees (who are ready) but leaders who are not steering fast enough. Employees are using AI 3x more than their leaders realise. The "domain leader" at N-2/N-3 level is "probably the single most critical role" (McKinsey), yet only 6% of companies have begun meaningful upskilling. Without shared accountability across the C-suite, the CEO's commitment dissipates through the organisation.
 
 ### Beat 4 — Case Study
-Company: DBS Bank
-Dilemma: How does a bank entrenched enough to be nicknamed "Damn Bloody Slow" transform itself into a technology company that happens to hold a banking licence — and what does the CEO have to do personally to make that happen?
 
-Key evidence anchors for the Case Study Agent:
-- Piyush Gupta's explicit ownership of AI as a CEO-level agenda, not a technology agenda
-- The GANDALF framework (benchmarked against Google, Amazon, Netflix, Apple, LinkedIn, Facebook) — a CEO-framed aspiration, not an IT initiative
-- AI economic value: S$180M (2022) → S$750M (2024)
-- Share price tripled; ROE doubled from 8.4% to 18%
-- Gupta's personal visibility in the transformation — what he showed up to, what he decided himself, what he refused to delegate
-- The signal this sent to the C-suite and the workforce
+Company: DBS Bank (Singapore)
+Dilemma: How a bank once known as "Damn Bloody Slow" became the gold-standard CEO-led AI transformation, and what it reveals about the non-negotiable role of the chief executive.
+
+Key angles for Case Study Agent:
+- CEO Piyush Gupta personally led the transformation; did not delegate to a CDO or CTO.
+- GANDALF framework: benchmarked against Google, Amazon, Netflix, Apple, LinkedIn, Facebook rather than other banks. A CEO-level decision to redefine the competitive set.
+- AI economic value grew from S$180M (2022) to S$750M (2024), projected S$1B in 2025. Share price tripled; ROE doubled from 8.4% to 18%.
+- Only 2 banks globally (DBS and JPMorgan Chase) have publicly disclosed total realised AI value.
+- Transferable lesson: the CEO did not just sponsor or champion the transformation. He redefined the organisation's identity and competitive frame, then stayed in the room as it scaled. That is the difference between sponsorship and leadership.
 
 ### Beat 5 — Governance Implications
-Shift register to the board. The board governance gap is structural and urgent: 66% of boards have limited-to-no AI knowledge; only 15% receive AI metrics; fewer than 25% have board-approved AI policies; only 14% discuss AI at every meeting — yet 88% of organisations already deploy AI in at least one function. The board is governing a risk it cannot see. Three governance requirements the CEO must drive: (1) board AI literacy programme — not optional, not delegated to the company secretary; (2) AI metrics on the board agenda at every meeting, not annually; (3) a board-approved AI risk and ethics policy before the next major deployment. The CEO is also the only person who can hold the board accountable for its own capability gap.
+
+What "in the room" requires at each governance level:
+
+- **CEO:** Personal AI fluency (BCG's "Trailblazer" CEOs spend 6+ hours weekly upskilling), visible commitment that signals irreversibility, reframing AI from IT project to operating model redesign. Half of all CEOs believe their job stability depends on getting AI right.
+- **C-suite:** Shared accountability across functions. Each C-suite member must own AI outcomes within their domain. The "domain leader" role at N-2/N-3 is critical. Cross-functional alignment prevents the micro-productivity trap (Bain).
+- **Board:** Move from passive oversight to active governance. Determine AI posture, codify governance frameworks, demand specific metrics (ROI by business unit, % of processes AI-enabled, workforce reskilling progress, regulatory alignment, override rates). Among non-CEOs, more than half believe the CEO or board should resign if the company loses market share due to inadequate AI strategy.
 
 ### Beat 6 — Executive Reflection Questions
-1. In the last month, how many hours did I personally spend on AI — not reviewing reports, but making decisions and attending working sessions?
-2. If my CTO left tomorrow, would the AI transformation stall — and what does my answer reveal about who actually owns it?
-3. Does my board have the knowledge to govern the AI risks we are already running?
-4. Where in the organisation is AI being quietly ignored or circumvented — and do I know why?
-5. Half of all CEOs believe their job stability depends on getting AI right. Do I believe that, and am I acting accordingly?
+
+1. When was the last time you personally reviewed an AI initiative's progress, not as a sponsor receiving a briefing, but as a leader shaping decisions?
+2. Can every member of your C-suite articulate how AI changes their function's operating model within the next 18 months?
+3. Does your board receive AI-specific metrics at every meeting, or is AI a periodic agenda item?
+4. If your organisation's AI transformation were judged solely by what you personally do each week, would it succeed?
+5. Have you defined what "irreversible commitment" looks like for your organisation, or is your AI strategy still reversible by the next quarterly review?
 
 ### Beat 7 — Closing / Transition
-The chapter closes with a reframe: CEO ownership is not about becoming a technologist. It is about refusing to treat the largest organisational shift of the century as someone else's problem. Close with a bridge to Chapter 3: once the CEO is in the room, the next question is what they are actually in the room to build — and that requires a shared architecture for what an agentic enterprise looks like. Chapter 3 provides it.
 
----
+Reinforce: leadership is the precondition, not one factor among many. Without CEO commitment, C-suite alignment, and board governance, the frameworks, playbooks, and strategies in the rest of this book will not produce results. The argument is settled: the question is no longer whether to lead, but what the destination looks like.
+
+Transition to Chapter 3: now that the leadership precondition is established, the next chapter answers the question every committed leader asks next: what exactly are we building? Chapter 3 defines the Agentic Organisation in concrete, operational terms, introducing the AI Transformation Framework and the concept of the agentic employee.
 
 ## Thesis Check
-This chapter advances the book's central argument by establishing that the preparedness gap is first and foremost a leadership gap — European CEOs cannot be underprepared for the agentic enterprise if they are personally, visibly, and irreversibly accountable for navigating it.
+
+This chapter establishes that the 95% failure rate introduced in Chapter 1 is primarily a leadership failure, not a technology failure, and that European CEOs who delegate AI transformation are the single greatest risk to their organisations' competitiveness. It converts the book's central argument from diagnosis (CEOs are underprepared) to prescription (CEO-led, C-suite-aligned, board-governed commitment is the non-negotiable starting point).
 
 ## Research Sections Needed
-Section 2 (Why bottom-up fails; CEO-led transformation statistics), Section 9 (Board governance gap data)
+
+- Section 2: Why bottom-up fails and top-down is non-negotiable (primary)
+- Section 7: Case studies — DBS Bank (primary)
+- Section 9: Readiness, governance, CoE, and KPIs — board governance gap (supporting)
+- Section 8: CEO and thought-leader quotes (supporting)
+- Section 1: Defining the Agentic Enterprise — for context only; do not re-introduce defined terms
 
 ---
 
 ## Handoff — Planner — Chapter 02
 Status: complete
 Output: output/chapters/chapter-02/ch02-beats.md
-Research sections needed: Section 2, Section 9
+Research sections needed: Section 2, Section 7 (DBS), Section 9 (board governance gap), Section 8 (quotes)
 Case study company: DBS Bank
 Next agents: Writer, Case Study Agent (Wave 2 — parallel)

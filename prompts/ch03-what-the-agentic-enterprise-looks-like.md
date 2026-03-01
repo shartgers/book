@@ -1,4 +1,4 @@
-# Deep Research Prompt: Chapter 3 — What the Agentic Enterprise Looks Like
+# Deep Research Prompt: Chapter 3 — What the Agentic Organisation Looks Like
 
 ## Purpose of This Prompt
 
@@ -8,7 +8,7 @@ Use this prompt to conduct **extensive external research** on the definition, st
 
 ## Chapter Context (What We Already Know)
 
-**Chapter title:** What the Agentic Enterprise Looks Like  
+**Chapter title:** What the Agentic Organisation Looks Like  
 **Place in book:** Part II — The Model  
 **Target length:** ~13% of book (~4,550 words) — densest model chapter  
 **Core argument:** A working definition of the Agentic Enterprise and its five elements (Products, People, Process, Technology, Data); the **agentic employee** (human half); three profiles (supervisor, specialist, augmented frontline); mindset shift from task-doer to orchestrator; organisations must redesign roles, not just adopt tools.

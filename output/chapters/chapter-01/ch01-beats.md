@@ -27,7 +27,7 @@ Layer the evidence that makes this moment categorically different from previous 
 Introduce the Paradigm Shift Diagnostic. Define the three levels:
 - **Bolt-On**: AI layered onto existing processes. The "horseless carriage" — faster, but structurally unchanged. Yields marginal, unsustainable gains. Where ~90% of organisations sit today.
 - **Adapt**: Processes modified to accommodate AI. Meaningful efficiency gains, but the operating model remains fundamentally the same. Gains plateau; pilot purgatory lives here.
-- **Redesign**: The organisation rebuilt with AI at the core of how decisions are made, work flows, and humans collaborate. This is the Agentic Enterprise — and it is where the 5% achieving value at scale operate.
+- **Redesign**: The organisation rebuilt with AI at the core of how decisions are made, work flows, and humans collaborate. This is the Agentic Organisation — and it is where the 5% achieving value at scale operate.
 
 Use McKinsey's formulation: the CEO must ask not "How do we add AI?" but "How do we want decisions to be made, work to flow, and humans to engage in an environment where software can act?" Connect to Bain's "zero-based process design" and the horseless-carriage-to-automobile analogy.
 
@@ -58,7 +58,7 @@ This chapter establishes the foundational claim of the entire book — that AI r
 
 ## Research Sections Needed
 
-- Section 1 (Defining the Agentic Enterprise — McKinsey's paradigm shift framing, Gen AI Paradox, BCG frontal cortex metaphor, Gartner hype cycle warning)
+- Section 1 (Defining the Agentic Organisation — McKinsey's paradigm shift framing, Gen AI Paradox, BCG frontal cortex metaphor, Gartner hype cycle warning)
 - Section 2 (Why bottom-up fails — 95% failure rate data, horseless carriage analogy, CEO as strongest predictor, mental model shift)
 - Section 7 (Case studies — Siemens data points: Digital Native Factory, Industrial Copilot, Hermes Award, NVIDIA partnership, productivity targets)
 - Section 8 (CEO quotes — Kutcher on 80/20 business vs tech, Schweizer on value gap, Bonchek on mental models)

@@ -1,4 +1,4 @@
-# The Agentic Enterprise: Comprehensive Research Foundation for a European CEO Business Book
+# The Agentic Organisation: Comprehensive Research Foundation for a European CEO Business Book
 
 **The largest organizational paradigm shift since the industrial revolution is underway, and European CEOs are dangerously underprepared.** Only 5% of companies achieve AI value at scale, 95% of enterprise AI implementations fail to deliver sustained impact, and 66% of board members admit limited-to-no AI knowledge. Yet the companies that get this right—BBVA, Siemens, Allianz, ING—are achieving 2–3x conversion improvements, 80% reductions in processing time, and hundreds of millions in measurable value. This research report synthesizes the landscape across 10 core topics to inform a definitive European-focused book on leading the transformation toward becoming an Agentic Enterprise.
 

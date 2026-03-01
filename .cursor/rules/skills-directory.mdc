@@ -11,4 +11,4 @@ The **default directory for all skills** in this project is the repo root **`ski
 - Each skill has its own folder with `SKILL.md`, optional `reference.md`, `requirements.txt`, and `scripts/` as needed.
 - Do not use `.cursor/skills/` for new skills; the canonical location is `skills/` at the project root.
 
-Example: `skills/publish-kdp-ingramspark/SKILL.md`, `skills/orchestrator-agent/SKILL.md`, etc.
+Example: `skills/format-book-agent/SKILL.md`, `skills/orchestrator-agent/SKILL.md`, etc.

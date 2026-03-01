@@ -13,9 +13,10 @@ Run three sequential checks on the chapter: Style, Character, and Continuity. Pr
 
 - `output/chapters/chapter-{nn}/ch{nn}-draft-pg.md` — Perplexity Gate output
 - `plan/concept.md` — thesis and book-level argument
-- `plan/toc.md` — chapter list (for continuity checks across chapters)
+- `plan/toc.md` — chapter list and per-chapter word targets (for continuity and word-count checks)
 - `docs/brand-voice.md` — author voice reference
 - `docs/writing-best-practices.md` — chapter template and quality checklist
+- `docs/instructions.md` — must-have instructions and named models (verify exact names and elements are used)
 - Previous completed chapter drafts in `output/chapters/chapter-{nn}/` — for cross-chapter continuity
 
 ---
@@ -35,16 +36,17 @@ Verify that the chapter meets the structural and formatting conventions.
 
 | Criterion | Pass condition |
 |-----------|---------------|
-| Chapter template complete | All 6 elements present: strategic tension, named framework, case study, governance implications, reflection questions, closing transition |
+| Chapter template complete | All required elements present: strategic tension, case study, governance implications, reflection questions, closing transition; named framework only when the chapter has one (substance chapters) |
 | Paragraph length | No paragraph longer than 4 lines |
-| Framework is named and numbered | Framework has a name and 3–5 numbered elements |
-| Framework is visualisable | Could be drawn as a diagram or model |
+| Framework is named and numbered | When present, framework has a name and 3–5 numbered elements |
+| Framework is visualisable | When present, could be drawn as a diagram or model |
 | Reflection questions | 3–5 questions, numbered, each prompting a specific decision |
-| Word count | 2,500–3,500 words total |
+| Word count | Total chapter word count matches the target for this chapter in `plan/toc.md` (~words at 45k). Slight under/over is acceptable; length should fit the topic. |
 | No filler | No phrases flagged in Perplexity Gate categories remain |
 | No em dashes | Replace any em dashes (—) with commas, colons, or rephrasing |
 | Footnotes correct | Footnotes used only for direct expert/consultant sources; not for published research or general statistics (see docs/writing-best-practices.md) |
-| Footnotes log updated | output/footnotes-log.md contains an entry for this chapter (may note no footnotes if none apply) |
+| Footnotes log updated | output/footnotes-log.md has heading # Footnotes and a single numbered list; if this chapter had direct-expert footnotes, they were appended as next numbers (no chapter headings or "no footnotes" text) |
+| Named models correct | When the chapter refers to a book model, it uses the exact name and element list from docs/instructions.md (no renaming or reordering) |
 
 ---
 
@@ -71,7 +73,7 @@ Verify that the chapter fits into the book as a whole.
 | Criterion | Pass condition |
 |-----------|---------------|
 | Thesis advancement | Chapter clearly advances the central argument |
-| No duplicate frameworks | Named framework does not repeat a framework from a previous chapter |
+| No duplicate frameworks | When the chapter has a named framework, it does not repeat a framework from a previous chapter |
 | No duplicate case studies | Company used has not been the primary case study in another chapter |
 | Transition coherence | Closing transition connects logically to the next chapter in the TOC |
 | Argument progression | This chapter's claim builds on previous chapters; it is not self-contained |

@@ -68,8 +68,9 @@ def parse_toc(toc_content: str) -> tuple[str, str, list[tuple[int, str]]]:
     Parse plan/toc.md for title, subtitle, and chapter list.
     Returns (title, subtitle, [(num, title), ...]).
     """
-    title = "The Agentic Enterprise"
-    subtitle ="A CEO's perspective on AI transformations in Europe"
+    # Defaults aligned with book terminology: "Agentic Organisation" (not "Agentic Enterprise")
+    title = "The Agentic Organisation"
+    subtitle = "A complete AI transformation framework for European CEO's"
     chapters = []
     # Match **Chapter N: Title** or **Chapter N: Title** (9%)
     for m in re.finditer(
@@ -80,12 +81,13 @@ def parse_toc(toc_content: str) -> tuple[str, str, list[tuple[int, str]]]:
         num = int(m.group(1))
         name = m.group(2).strip()
         chapters.append((num, name))
-    # First line often has title and subtitle
+    # First line: title (may be markdown heading "# The Agentic Organisation" or plain text)
     lines = toc_content.strip().split("\n")
     if lines:
-        first = lines[0].strip()
-        if first and not first.startswith("#"):
+        first = lines[0].strip().lstrip("#").strip()
+        if first:
             title = first
+        # Second line often has subtitle (e.g. "### A CEO's perspective...")
         if len(lines) > 1 and "CEO" in lines[1]:
             subtitle = lines[1].strip().lstrip("#").strip()
     return title, subtitle, chapters
@@ -263,6 +265,8 @@ def _flatten_case_study_to_single_block(fragment: str) -> str:
 def wrap_case_study_sections(html: str) -> str:
     """
     Wrap content from <h2>Case Study: ...</h2> until the next <h2> in a single box.
+    Markdown heading must be exactly "## Case Study: Title" (with "Case Study: ") so
+    the section is detected; then it gets new page, grey box, smaller font, tighter spacing.
     xhtml2pdf draws border/background around each block child, so we flatten the
     section to one block of inline content (strong + br) so it renders as one box.
     """
@@ -305,9 +309,10 @@ def build_chapter_html(repo: Path, chapter_num: int, strip_handoff: bool = True)
     if not path.exists():
         return ""
     md = load_text(path)
-    # Strip handoff/metadata sections (e.g. ## Handoff: Reviewers) only for final PDF build
-    if strip_handoff and "## Handoff:" in md:
-        md = md.split("## Handoff:")[0].rstrip()
+    # Strip ## Handoff section (e.g. ## Handoff — Writer — Chapter nn) so it is not in HTML/PDF
+    if strip_handoff and "## Handoff" in md:
+        # Match ## Handoff at start of file or after newline (covers "## Handoff — ..." or "## Handoff: ...")
+        md = re.split(r"(?:^|\n)## Handoff\b", md, maxsplit=1)[0].rstrip()
     html = markdown_to_html(md)
     html = wrap_definition_blocks(html)
     html = wrap_case_study_sections(html)
@@ -599,19 +604,23 @@ def get_css(for_pdf: bool = True) -> str:
         margin-bottom: 0.25em;
     }}
 
-    /* CASE STUDY: one box; tighter padding; Arial Narrow throughout */
+    /* CASE STUDY: starts on new page; entire section in one grey box; distinct font, smaller size, tighter spacing */
     .case-study {{
         margin: 1.5em 0;
         page-break-before: always;
         font-family: "Arial Narrow", Arial, sans-serif;
+        font-size: 10pt;
+        line-height: 1.32;
     }}
 
     .case-study-box {{
         padding: 1.2em 1.5em;
-        border: 1px solid #ccc;
-        background: #f9f9f9;
+        border: 1px solid #999;
+        background: #e8e8e8;
         page-break-inside: avoid;
         font-family: "Arial Narrow", Arial, sans-serif;
+        font-size: 10pt;
+        line-height: 1.32;
     }}
 
     .case-study-h2 {{
@@ -819,7 +828,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    # Resolve repo root (script lives in skills/publish-kdp-ingramspark/scripts/; book root has plan/toc.md)
+    # Resolve repo root (script lives in skills/format-book-agent/scripts/; book root has plan/toc.md)
     if args.repo:
         repo = Path(args.repo)
     else:

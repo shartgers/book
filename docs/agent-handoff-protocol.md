@@ -15,7 +15,7 @@ Standard for how agents complete tasks and pass work to the next wave.
 | Perplexity Gate | `output/chapters/chapter-{nn}/ch{nn}-draft-pg.md` |
 | Reviewers | `output/chapters/chapter-{nn}/ch{nn}-review.md` + `output/chapters/chapter-{nn}/ch{nn}-final.md` |
 
-Use zero-padded chapter numbers: `ch01`, `ch02`, ... `ch12`.
+Use zero-padded chapter numbers: `ch01`, `ch02`, ... `ch14`.
 
 ---
 

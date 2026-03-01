@@ -1,9 +1,9 @@
 ---
-name: publish-kdp-ingramspark
+name: format-book-agent
 description: Builds a print-ready PDF for Amazon KDP and IngramSpark from the book manuscript. Use when publishing the book, preparing interior files for KDP/IngramSpark, testing a dry-run (chapter 1 only), or styling definitions and case studies for print.
 ---
 
-# Publish for KDP and IngramSpark
+# Format-Book-Agent — Publish for KDP and IngramSpark
 
 Build a single print-ready PDF containing all front matter, chapters, about the author, and index. Styled for professional interior layout with distinct treatment for definitions (box + background) and case studies (serif, background, border).
 
@@ -20,13 +20,13 @@ From the **book repository root** (where `plan/toc.md` and `output/chapters/` li
 
 ```bash
 # Full book (all chapters) — outputs PDF only
-python skills/publish-kdp-ingramspark/scripts/build_print_pdf.py --output output/book-print.pdf
+python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-print.pdf
 
 # Dry run: Chapter 1 only; defaults to HTML (quick preview in browser)
-python skills/publish-kdp-ingramspark/scripts/build_print_pdf.py --dry-run --output output/book-dry-run.html
+python skills/format-book-agent/scripts/build_print_pdf.py --dry-run --output output/book-dry-run.html
 
 # Dry run as PDF when you want a PDF preview
-python skills/publish-kdp-ingramspark/scripts/build_print_pdf.py --dry-run --pdf --output output/book-dry-run.pdf
+python skills/format-book-agent/scripts/build_print_pdf.py --dry-run --pdf --output output/book-dry-run.pdf
 ```
 
 Install dependencies first (see [Requirements](#requirements) below).
@@ -43,14 +43,14 @@ Install dependencies first (see [Requirements](#requirements) below).
 ## Requirements
 
 - Python 3.9+
-- Dependencies in `skills/publish-kdp-ingramspark/requirements.txt`:
+- Dependencies in `skills/format-book-agent/requirements.txt`:
   - `markdown` — Markdown to HTML
   - `xhtml2pdf` — HTML to PDF (pure Python, no system dependencies)
 
 Install from repo root:
 
 ```bash
-pip install -r skills/publish-kdp-ingramspark/requirements.txt
+pip install -r skills/format-book-agent/requirements.txt
 ```
 
 ## Inputs (configurable via script or env)
