@@ -41,7 +41,7 @@ File: `output/chapters/chapter-{nn}/ch{nn}-beats.md`
 
 ## Beats
 
-For each beat (except Beat 4), provide a **Section heading** — a short, descriptive title the Writer will use as the level-2 heading (##). Do not use the generic labels below as the section heading; choose a title that fits this chapter (e.g. "The Ninety-Five Per Cent Paradox" not "Opening Hook"). Beat 4 is written by the Case Study Agent; its heading will be "Case Study: [Company] — [Dilemma]".
+For each beat (except Beat 7), provide a **Section heading** — a short, descriptive title the Writer will use as the level-2 heading (##). Do not use the generic labels below as the section heading; choose a title that fits this chapter (e.g. "The Ninety-Five Per Cent Paradox" not "Opening Hook"). Beat 7 is written by the Case Study Agent; its heading will be "Case Study: [Company] — [Dilemma]".
 
 ### Beat 1 — Opening Hook
 Section heading: [Short descriptive title for the opening section, e.g. The Ninety-Five Per Cent Paradox]
@@ -52,20 +52,20 @@ Section heading: [Short descriptive title, e.g. Why This Moment Is Different]
 [Why this matters now. Evidence or trend that makes this urgent.]
 
 ### Beat 3 — Framework Introduction (omit if no named framework)
-Section heading: [Short descriptive title, often the framework name or a key phrase, e.g. The Paradigm Shift Diagnostic]
+Section heading: [Short descriptive title, often the framework name or a key phrase, e.g. The Four Tiers of Transformation]
 [When this chapter has a named framework: introduce it. Define terms. Explain structure. When the chapter has no framework, omit Beat 3.]
 
 ### Beat 4 — Governance Implications
 Section heading: [Short descriptive title, e.g. The Governance Gap]
 [What this means for how the organisation is run. Board-level framing.]
 
-### Beat 5 — Executive Reflection Questions
-Section heading: [Short descriptive title, e.g. Questions for the Board — or keep "Executive Reflection Questions" if it fits]
-[3–5 questions a CEO should ask themselves after reading.]
-
-### Beat 6 — Closing / Transition
+### Beat 5 — Closing / Transition
 Section heading: [Short descriptive title, e.g. The Question Is Leadership]
 [How this chapter connects to the next. Reinforce thesis movement.]
+
+### Beat 6 — Executive Reflection Questions
+Section heading: [Short descriptive title, e.g. Questions for the Board — or keep "Executive Reflection Questions" if it fits]
+[3–5 questions a CEO should ask themselves after reading.]
 
 ### Beat 7 — Case Study
 [Slot: which company, what dilemma. Case Study Agent will write this. No Section heading here — Case Study Agent uses "Case Study: [Company] — [Dilemma]".]

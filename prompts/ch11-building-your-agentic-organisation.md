@@ -11,7 +11,7 @@ Use this prompt to conduct **extensive external research** on the phased playboo
 **Chapter title:** Building Your Agentic Organisation  
 **Place in book:** Part IV — The CEO's Playbook  
 **Target length:** ~9% of book (~4,050 words)  
-**Core argument:** A phased approach: **Foundation** (governance, data readiness, AI literacy) → **Activation** (strategy setting with the AI Transformation Framework—Product, People, Process, Technology, Data—Centre of Excellence, pilots, first wins) → **Scale** (cross-functional transformation, operating model redesign). Practical guidance on developing agentic employees at every phase: embedded learning and skill-sharing in Foundation; blended human–agent teams in Activation; full workforce-level agentic capability at Scale.
+**Core argument:** A phased approach: **Foundation** (governance, data readiness, AI literacy) → **Activation** (strategy setting with the four layers of the AI Transformation Framework—Vision, Products, Operating Model, Foundation—Centre of Excellence, pilots, first wins) → **Scale** (cross-functional transformation, operating model redesign). Practical guidance on developing agentic employees at every phase: embedded learning and skill-sharing in Foundation; blended human–agent teams in Activation; full workforce-level agentic capability at Scale.
 
 ### Evidence already in our research
 
@@ -37,7 +37,7 @@ This chapter is the main "how to build it" playbook. It must be actionable: phas
    - **European specifics:** Works council and legal constraints on training/monitoring; GDPR and data use; EU AI Act training obligations.
 
 2. **Activation phase: strategy setting with AI Transformation Framework, CoE, pilots, first wins**
-   - **Strategy setting with the AI Transformation Framework (Product, People, Process, Technology, Data):** How organisations set and align strategy across the five pillars at the start of Activation; linking Foundation readiness to strategic priorities; practical approaches and common mistakes.
+   - **Strategy setting with the AI Transformation Framework (four layers: Vision, Products, Operating Model, Foundation):** How organisations set and align strategy across the four framework layers at the start of Activation; linking Foundation readiness to strategic priorities; practical approaches and common mistakes.
    - **Centre of Excellence:** Centralised vs hub-and-spoke vs embedded; when to transition; composition (business + tech); "demonstrate value in 60–90 days" — what that means in practice; failure modes (CoE as bottleneck, lack of business ownership).
    - **Pilots:** Selection criteria (Value/Capability/Trust; four tiers); success criteria and metrics; how to avoid pilot purgatory (McKinsey: 90% stuck); gating: pilot → production decision process.
    - **First wins:** Choosing early use cases for impact and narrative; storytelling internally and to the board; scaling the first win (replication, templates).

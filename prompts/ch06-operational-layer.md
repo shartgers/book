@@ -2,7 +2,7 @@
 
 ## Purpose of This Prompt
 
-Use this prompt to conduct **extensive external research** on the Operational layer of the AI Transformation Framework: people, process, roles, skills, and org design. The goal is to gather evidence and frameworks for the **research** folder to support writing this chapter on how to structure teams and roles for agentic work—from task-doer to orchestrator at scale.
+Use this prompt to conduct **extensive external research** on the Operating Model layer (third layer) of the AI Transformation Framework: people, process, roles, skills, and org design. The goal is to gather evidence and frameworks for the **research** folder to support writing this chapter on how to structure teams and roles for agentic work—from task-doer to orchestrator at scale.
 
 ---
 
@@ -11,18 +11,18 @@ Use this prompt to conduct **extensive external research** on the Operational la
 **Chapter title:** The Operational Layer  
 **Place in book:** Part II — The Model  
 **Target length:** ~6% of book (~2,700 words)  
-**Core argument:** The Operational layer is where strategy becomes structure. This chapter deep-dives into people, process, roles, skills, and org design: how to organise teams for agentic work, how roles shift from task-doer to orchestrator at scale, and why this layer is often the bottleneck when organisations pilot well but fail to scale.
+**Core argument:** The Operating Model layer is where strategy becomes structure. This chapter deep-dives into people, process, roles, skills, and org design: how to organise teams for agentic work, how roles shift from task-doer to orchestrator at scale, and why this layer is often the bottleneck when organisations pilot well but fail to scale.
 
 ### Evidence already in our research
 
-- **Framework:** The Operational layer sits between Products (Ch 5) and Foundational (Ch 7); it covers People, Process — roles, skills, org design (see `plan/toc.md`).
+- **Framework:** The Operating Model layer (Ch 6) sits between Products (Ch 5) and Foundation (Ch 7); it covers People, Process — roles, skills, org design (see `plan/toc.md`). The chapter title is "The Operational Layer."
 - **Agentic employee:** Defined in Ch 3; three profiles (supervisor, specialist, augmented frontline); mindset shift from task-doer to orchestrator.
-- **Four Tiers (Ch 4):** Individual → Team → Department → Organisation; the Operational layer applies at each tier (who does what, how teams are designed, how process is redesigned).
-- **Related:** Ch 7 (Foundational) covers data, technology, enablement; Ch 8 (Value, Capabilities, Trust) covers how to prioritise; Ch 11 (Playbook) covers phased rollout. This chapter focuses on the "how we organise and operate" dimension.
+- **Four Tiers (Ch 4):** Individual → Team → Department → Organisation; the Operating Model layer applies at each tier (who does what, how teams are designed, how process is redesigned).
+- **Related:** Ch 7 (Foundation layer) covers data, technology, enablement; Ch 8 (Value, Capabilities, Trust) covers how to prioritise (not a framework layer); Ch 11 (Playbook) covers phased rollout. This chapter focuses on the "how we organise and operate" dimension.
 
 ### Book thesis
 
-CEOs need to understand that the Operational layer—people, process, roles, skills, org design—is where many transformations stall. This chapter makes that layer explicit and actionable.
+CEOs need to understand that the Operating Model layer—people, process, roles, skills, org design—is where many transformations stall. This chapter makes that layer explicit and actionable.
 
 ---
 
@@ -43,7 +43,7 @@ CEOs need to understand that the Operational layer—people, process, roles, ski
    - Sector examples: banking (ING, BBVA), insurance (Allianz), industrial (Siemens, Schneider) — how they describe their operational layer (roles, process, org design).
 
 4. **Connection to other chapters**
-   - Ch 3 (agentic employee, three profiles); Ch 4 (tiers); Ch 5 (framework image); Ch 11 (Foundation/Activation/Scale and when to invest in the Operational layer).
+   - Ch 3 (agentic employee, three profiles); Ch 4 (tiers); Ch 5 (framework image); Ch 11 (Foundation/Activation/Scale and when to invest in the Operating Model layer).
 
 ---
 

@@ -63,10 +63,10 @@ Practical tools (5%) go in reflection questions or a sidebar. Case studies (30%)
 1. **First section (Beat 1)** — the question, scenario, or tension from the beat. Heading: use beat sheet "Section heading". First sentence must earn attention.
 2. **Second section (Beat 2)** — why this matters now. Heading: use beat sheet "Section heading". Ground in evidence from the research brief.
 3. **Framework section (Beat 3)** — only when the beat sheet defines a named framework. Introduce and explain it; define every term; describe what it looks like in practice. Heading: use beat sheet "Section heading" (often the framework name). If the beat sheet has no named framework, omit this section.
-4. **Governance section (Beat 5)** — board-level framing. Heading: use beat sheet "Section heading". Concrete, not theoretical.
-5. **Closing / transition (Beat 7)** — one short paragraph connecting to the next chapter. Heading: use beat sheet "Section heading".
+4. **Governance section (Beat 4)** — board-level framing. Heading: use beat sheet "Section heading". Concrete, not theoretical.
+5. **Closing / transition (Beat 5)** — one short paragraph connecting to the next chapter. Heading: use beat sheet "Section heading".
 6. **Reflection questions (Beat 6)** — 3–5 questions. Heading: use beat sheet "Section heading". Numbered list. Each question should prompt a specific decision or audit.
-7. `<!-- CASE STUDY PLACEHOLDER -->` — Case Study Agent output is merged here (heading will be "Case Study: [Company] — [Dilemma]").
+7. **Case Study (Beat 7)** — `<!-- CASE STUDY PLACEHOLDER -->` — Case Study Agent output is merged here (heading will be "Case Study: [Company] — [Dilemma]").
 
 ---
 
@@ -116,7 +116,7 @@ Practical tools (5%) go in reflection questions or a sidebar. Case studies (30%)
 
 **Length:**
 - Chapter word targets are in `plan/toc.md` (percentages and ~words at 45k). The **total** chapter length (after the Case Study Agent merges in the case study) must hit that target.
-- **Chapters with a case study (Beat 4):** Your sections (everything except the case study placeholder) must target **TOC chapter word count minus 1,000 words**. The Case Study Agent adds up to 1,000 words; together you reach the TOC target. Example: if the TOC gives Chapter 1 ~4,050 words, you write ~3,050 words; case study adds up to 1,000 → total ~4,050.
+- **Chapters with a case study (Beat 7):** Your sections (everything except the case study placeholder) must target **TOC chapter word count minus 1,000 words**. The Case Study Agent adds up to 1,000 words; together you reach the TOC target. Example: if the TOC gives Chapter 1 ~4,050 words, you write ~3,050 words; case study adds up to 1,000 → total ~4,050.
 - **Chapters without a case study** (e.g. Chapter 10): You write the full chapter; target the TOC word count for that chapter.
 
 ---

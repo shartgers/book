@@ -90,12 +90,12 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Done → output/chapters/chapter-03/ch03-final.md
 
 ### Chapter 04: The Four Tiers of Transformation
-- [ ] Beats → output/chapters/chapter-04/ch04-beats.md
-- [ ] Research brief → output/chapters/chapter-04/ch04-research-brief.md
-- [ ] Draft → output/chapters/chapter-04/ch04-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-04/ch04-draft-pg.md
-- [ ] Review → output/chapters/chapter-04/ch04-review.md
-- [ ] Done → output/chapters/chapter-04/ch04-final.md
+- [x] Beats → output/chapters/chapter-04/ch04-beats.md
+- [x] Research brief → output/chapters/chapter-04/ch04-research-brief.md
+- [x] Draft → output/chapters/chapter-04/ch04-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-04/ch04-draft-pg.md
+- [x] Review → output/chapters/chapter-04/ch04-review.md
+- [x] Done → output/chapters/chapter-04/ch04-final.md
 
 ### Chapter 05: The AI Transformation Framework
 - [ ] Beats → output/chapters/chapter-05/ch05-beats.md

@@ -26,18 +26,20 @@ The central thesis. An organisation where humans and AI agents work together as 
 
 ### The AI Transformation Framework (central model)
 
-The book is organised around a single, visual framework: the **AI Transformation Framework**. It has six layers (top to bottom). Each layer is explained in the chapters indicated; some layers have a dedicated chapter, others are woven into the model or playbook.
+The book is organised around a single, visual framework: the **AI Transformation Framework**. It has four layers (top to bottom). Each layer is explained in the chapters indicated; some layers have a dedicated chapter, others are woven into the model or playbook.
 
 | Layer | Contents | Where explained |
 |-------|----------|-----------------|
 | **1. Vision** | Vision, strategy, values, objectives | Ch 2 (leadership sets it); Ch 4 (top of framework) |
-| **2. Core pillars** | Value, Capabilities, Trust | Ch 6 (dedicated: AI Decision Framework) |
-| **3. Products** | Product vision & objectives; products; personas; customer journeys; frictions; by business unit (BU) | Ch 4 (framework); Ch 9 (building by BU) |
-| **4. Operational** | **People** (roles, target skills & gaps, org sizing, talent journey, training, team incentives); **Process** (org design, cross-functional teams, product way-of-working); **Enablement** (culture, AI & engineering toolbox, automation, agents, skills) | Ch 4 (framework) + Ch 3 (agentic employee); Ch 5 (tiers); Ch 9 (playbook) |
-| **5. Foundational** | **Data** (reusable data products, analytics, architecture, data monetization, governance); **Technology** (target architecture, platforms & solutions, integration) | Ch 4 (framework); Ch 10 (Foundations—readiness, diagnostic, roadmap) |
-| **6. Management & execution** | **Governance & metrics** (definitions, targets, monitoring, steering); **Financials** (ROI, cost analysis & optimization, tracking); **Implementation** (roadmap, big decisions, change management) | Ch 9 (implementation, roadmap); Ch 10 (readiness, roadmap); Ch 11 (Measuring—KPIs, governance, board) |
+| **2. Products** | Product vision & objectives; products; personas; customer journeys; frictions; by platform or business unit (BU) | Ch 4 (framework); Ch 5; Ch 9 (building by BU) |
+| **3. Operating Model** | **People** (roles, target skills & gaps, org sizing, talent journey, training, team incentives); **Process** (org design, cross-functional teams, product way-of-working) | Ch 3 (agentic employee); Ch 4 (framework); Ch 6 (dedicated); Ch 9 (playbook) |
+| **4. Foundation** | **Data** (reusable data products, analytics, architecture, monetization); **Technology** (target architecture, platforms & solutions, integration); **Enablement** (culture, AI & engineering toolbox, automation, agents, skills) | Ch 4 (framework); Ch 7 (dedicated: Foundations); Ch 10 (readiness, diagnostic, roadmap) |
 
-The framework image is referenced in the book (e.g. in Ch 4 and Ch 9). Writers should use this structure so the reader always knows which layer they are in.
+The following are covered in the book but are **not** part of the four-layer framework. Do not refer to them as framework layers:
+- **Value, Capabilities, Trust** (decision framework for evaluating and prioritizing AI opportunities) — Ch 8.
+- **Governance & metrics, Financials, Implementation** (roadmap, big decisions, change management, KPIs, board accountability) — Ch 9, Ch 10, Ch 11, Ch 12, Ch 13.
+
+The framework image is referenced in the book (e.g. in Ch 4 and Ch 9). Writers should use this four-layer structure so the reader always knows which layer they are in.
 
 ### The Agentic Employee
 
@@ -54,7 +56,7 @@ The human half of the equation. An agentic employee is a person who works alongs
 | ------- | ----------------------------------------------------------------------------------------------------- |
 | 1       | Definition of the Agentic Organisation (McKinsey, BCG, Deloitte, Accenture, Gartner, Forrester)         |
 | 2       | Why bottom-up fails; CEO-led transformation                                                           |
-| 3       | The AI Transformation Framework: Product, People, Process, Technology, Data (research uses five elements; the **canonical framework** for the book is the 6-layer model in `images/ai-transformation-framework.png`) |
+| 3       | The AI Transformation Framework: Product, People, Process, Technology, Data (research uses five elements; the **canonical framework** for the book is the 4-layer model in `images/ai-transformation-framework.png`) |
 | 4       | The Four Tiers of Transformation (Individual → Team → Department → Organisation)                      |
 | 5       | The AI Decision Framework (Value, Capabilities, Trust)                                                |
 | 6       | European context (EU AI Act, regional nuances, PE/mid-market)                                         |

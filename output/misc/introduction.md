@@ -24,8 +24,23 @@ Part I lays out the burning platform. Why this moment is different. Why leadersh
 
 You will not find a catalogue of tools or a vendor guide. You will find frameworks you can use in the room, evidence from research and from the field, and a practical sequence with clear milestones. The goal is to give you the mental model and the next steps so that you can lead, not delegate.
 
+**When this book was written**
+
+This book was completed in March 2026. That matters. The data, studies, and market evidence cited here reflect what was known and interpretable at that moment. AI adoption curves, regulatory implementation, and the pace of agentic deployment are all moving quickly; by the time you read this, some numbers will be outdated, some expectations will have been overtaken by events, and new uncertainties will have emerged. The analysis and recommendations are based on today's interpretation—with many uncertainties acknowledged. Use the frameworks and the sequence; treat the specific figures and timelines as a snapshot, not a guarantee. The mental model and the leadership imperative, however, are built to last beyond any single data point.
+
+**Practicing What We Preach**
+
+Writing a book about the agentic organisation while relying entirely on traditional methods would have been, at best, inconsistent. At worst, it would have undermined the very argument this book makes. So I made a deliberate choice early on: I would use AI as a genuine working partner throughout the research and writing process, not as a shortcut, but as a demonstration of what human-AI collaboration actually looks like in practice.
+
+In concrete terms, that meant using AI to synthesize research across hundreds of sources, challenge the logic of emerging frameworks, stress-test arguments, and help translate complex ideas into clear prose. Every framework in this book originated from my own thinking, built on over 25 years of working with organizations navigating technology-driven transformation. But AI helped me think faster, go deeper, and pressure-test conclusions in ways that would have taken far longer working alone. The result is a book that is genuinely better for it.
+
+I want to be transparent about what this means for you as a reader. The ideas, the judgments, the recommendations, and the responsibility for what is written here are mine. AI did not determine what matters or what to conclude. What it did was act as a tireless research partner, a rigorous editor, and a sounding board that never got tired of the question "but is that actually true?" If you recognize some of that dynamic in how your own teams might one day work alongside AI agents, that is entirely intentional.
+
+In that sense, this book is not just about the agentic organisation. It is also a small proof of concept for it.
+
 **How to use this book**
 
-Read it in order if you want the full argument. Use the table of contents to jump to the playbook (Chapter 8) or the decision framework (Chapter 5) if you need a specific tool. Each chapter ends with reflection questions you can use with your team or your board. The 9 lessons in Chapter 7 (drawn from case studies) show how others decided under pressure; the lessons transfer, not the cases to be copied literally. Your context will differ. The patterns transfer.
+Read it in order if you want the full argument. Use the table of contents if you want to jump ahead: go to the AI Transformation Framework (Chapter 5) or the implementation playbook (Chapter 11) if you need a specific tool. Each chapter ends with reflection questions you can use with your team or your board. The 9 lessons in Chapter 10 (drawn from case studies) show how leaders decided under pressure; the lessons are meant to transfer, not the cases to be copied literally. Your context will differ, but the underlying patterns do transfer.
+
 
 The cost of inaction is not zero. It is already accumulating in cost structure, talent pipeline, and competitive positioning. The organisations that will matter in three years are the ones that treat this as a leadership decision and act accordingly. This book is written to help you be one of them.

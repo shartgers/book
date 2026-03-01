@@ -4,19 +4,20 @@
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Chapter template complete | PASS | All required elements present: opening hook with strategic tension, problem definition, named framework (Paradigm Shift Diagnostic), structured case study (Siemens), governance implications, reflection questions, closing transition. Chapter 1 is an opening/framing chapter; a framework is present and appropriate here. |
-| Paragraph length | PASS | No prose paragraph exceeds 4 lines. Block quotes and bullet lists are formatted correctly and not counted as prose paragraphs. |
-| Framework is named and numbered | PASS | The Paradigm Shift Diagnostic is named and has three numbered levels: Level 1 Bolt-On, Level 2 Adapt, Level 3 Redesign. Three levels fall within the 3–5 element requirement. |
-| Framework is visualisable | PASS | The three-level progression (Bolt-On → Adapt → Redesign) is readily visualisable as a tiered ladder or maturity model diagram. A diagram placeholder is present in the draft. |
-| Reflection questions | PASS | Five questions, numbered 1–5, each prompting a specific decision or diagnostic action. |
-| Word count | PASS | 3,613 words (excluding handoff block). Target is ~4,050. The chapter runs approximately 11% under target. For an opening chapter whose purpose is to establish framing and urgency rather than deliver a dense model or playbook, this length fits the topic and reads as complete. Acceptable under the "slight under/over" rule. |
-| No filler | PASS | Perplexity Gate previously flagged and rewrote five phrases. No Category 1 or Category 3 filler phrases remain in the chapter prose. |
-| No em dashes | PASS (with note) | One em dash appears in a directly attributed verbatim quotation from Eric Kutcher (McKinsey North America Chair). The em dash is the speaker's own punctuation within speech marks; it is not authorial prose. In the final draft, the surrounding sentence has been restructured to avoid the em dash entirely while preserving the quote's meaning. No em dashes appear elsewhere in the prose. |
-| Footnotes correct | PASS | The chapter cites named published sources inline (McKinsey, BCG, MIT NANDA, Bain, Deloitte, Eurostat, Eric Kutcher, Mark Bonchek). All cited as published reports, studies, or named public commentary — not direct expert interviews or commissioned advisory input. No footnotes required under the conventions in `docs/writing-best-practices.md`. |
-| Footnotes log updated | PASS | `output/footnotes-log.md` contains the required heading `# Footnotes`. No direct expert footnotes arose from Chapter 1, so no entries are appended. This is correct — the log protocol says do not add "no footnotes" text; only append when entries exist. |
-| Named models correct | PASS | No named models from `docs/instructions.md` (AI Transformation Framework, The Four Tiers of Transformation, The AI Decision Framework) appear in Chapter 1. Those models are introduced in Chapters 3–5. The Paradigm Shift Diagnostic is Chapter 1's own framework; it is correctly named and numbered throughout. |
+| Chapter template complete | PASS | Strategic tension (opening paradox), case study (Siemens), governance implications (The Governance Gap section), reflection questions (5 questions), closing transition present. No named framework — correct for Ch1. |
+| Paragraph length | PASS | Python check confirmed no paragraphs exceed 4 lines in body prose. |
+| Framework is named and numbered | PASS | No named framework required for Ch1 per docs/instructions.md. Correctly absent. |
+| Framework is visualisable | PASS | N/A — no framework in Ch1. |
+| Reflection questions | PASS | 5 questions, numbered, each prompting a specific executive decision. |
+| Word count | PASS | 3,825 words (excluding handoff block). Target ~4,050 (9% of 45k). Slightly under but within acceptable range; fits the chapter's "tight and persuasive" brief. |
+| No filler | PASS | No residual filler phrases detected. Perplexity Gate addressed 14 rewrites. |
+| No em dashes | PASS | Em dashes appear only in the handoff block (formatting convention), not in body prose. |
+| Footnotes correct | PASS | No footnotes used. All sources are published research or public statements; none require footnotes under the direct-expert-source rule. The Kutcher quote is a public attributed statement — inline citation is correct. |
+| Footnotes log updated | PASS | output/footnotes-log.md contains only `# Footnotes` heading. No direct-expert footnotes to append for this chapter. |
+| Named models correct | FAIL | The 10/20/70 rule is presented without BCG attribution ("The 10/20/70 rule makes the structural issue plain"). Memory confirms this is the BCG 10/20/70 rule. Should read "BCG's 10/20/70 rule" to attribute correctly and consistently with how it appears in later chapters. Fixed in ch01-final.md. |
+| Ch1 specific rule | PASS | No Bolt-On / Adapt / Redesign named framework. No Paradigm Shift Diagnostic. Word "redesigned" appears only as a verb, not as a named model. Beats 1, 2, 4, 5, 6, 7 used; Beat 3 omitted. |
 
-**Style verdict: PASS**
+**Style verdict: PASS** (one minor fix applied — BCG attribution added to 10/20/70 rule)
 
 ---
 
@@ -24,13 +25,13 @@
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Tone | PASS | Strategic, calm, direct throughout. No hype language, no academic hedging, no sales framing. The chapter reads as a senior practitioner making a precise diagnostic argument. |
-| Concreteness | PASS | Every claim is grounded in named sources with specific figures: MIT NANDA (300 initiatives, 52 organisations), BCG (1,000+ executives, 5% achieving scale, 3.6x TSR advantage), ING (90% pilot-to-production rate), DBS Bank (S$180m to S$750m), Allianz (80% processing time reduction, 100 days, seven-agent workflow). Siemens case study provides granular operational evidence. |
-| Honesty about limits | PASS | The chapter is explicit about limits: "full financial value attribution has not been made public" in the Siemens outcome section. The diagnostic is introduced as a starting point, not a verdict. "That is not a judgement. It is a starting point." |
-| Reader respect | PASS | Written for a capable executive. The reflection questions prompt strategic thinking rather than explain concepts the reader already encountered in the chapter. No hand-holding. |
-| British English | PASS | Consistent throughout. Spelling uses British conventions (organisation, behaviour, whilst, colour, towards). The single instance of American spelling ("organizational") is inside a directly attributed McKinsey quote; keeping source wording is correct per the style guide. |
-| Preferred vocabulary | PASS | Governance (11 occurrences), framework (4), strategic (3), momentum (2), clarity (1) are all present. The vocabulary of clarity, coherence, actionable, and tangible could appear more explicitly, but the prose achieves these qualities without always naming them. No preferred term is conspicuously absent given the chapter's diagnostic purpose. |
-| No credential-leading | PASS | The author's voice is not present in this chapter as first-person commentary. Where sources are cited, substance carries the argument. No status signalling. |
+| Tone | PASS | Strategic, calm, direct throughout. Not hyped, not academic, not salesy. The urgency is built through data, not rhetoric. |
+| Concreteness | PASS | Claims grounded in evidence throughout: MIT NANDA, RAND, S&P Global, Deloitte board study, BCG, McKinsey. Siemens case study cites specific, credible figures (200% capacity increase, 20% downtime reduction, Hermes Award). |
+| Honesty about limits | PASS | Siemens case explicitly states "full financial value attribution has not been made public." The chapter acknowledges uncertainty about European AI investment trajectories. |
+| Reader respect | PASS | Written for a capable executive; no hand-holding. The reflection questions assume the reader is already accountable. |
+| British English | PASS | Consistent throughout: whilst, organisations, optimise, recognise, behaviour, towards. American English in the Kutcher direct quote is correct as it preserves the speaker's exact words. |
+| Preferred vocabulary | PASS | Governance, framework, strategic, tangible, actionable, coherence, momentum, clarity appear naturally throughout. |
+| No credential-leading | PASS | No author credentials mentioned. Substance carries the argument. |
 
 **Character verdict: PASS**
 
@@ -40,12 +41,12 @@
 
 | Criterion | Status | Notes |
 |-----------|--------|-------|
-| Thesis advancement | PASS | Chapter 1 directly establishes the central thesis: organisations are treating the largest paradigm shift since the industrial revolution as a software rollout, and the consequences are measurable (95% failure rate, compounding competitive gap). The chapter is the thesis made concrete and evidenced. |
-| No duplicate frameworks | PASS | No previous chapters exist. The Paradigm Shift Diagnostic is introduced here for the first time. |
-| No duplicate case studies | PASS | No previous chapters exist. Siemens is used here for the first time. |
-| Transition coherence | PASS | The closing explicitly sets up Chapter 2: "Who in the organisation is responsible for moving it through the levels, and what happens when that responsibility is shared, fragmented, or silently delegated? That is the argument of the next chapter." Chapter 2 is titled "Leadership Is Not Optional" — the transition is precise and logical. |
-| Argument progression | PASS | Chapter 1 is the first chapter; no prior argument exists to build on. The chapter correctly establishes the foundation argument (paradigm shift, 95% failure rate, three-level diagnostic) that all subsequent chapters build from. |
-| No concept re-introduction | PASS | No previous chapters exist. This is the first chapter; all definitions and concepts are introductions, not re-introductions. Definition blocks for Agentic AI, The Agentic Organisation, and AI agent are appropriate here as first appearances. |
+| Thesis advancement | PASS | Chapter directly establishes the central thesis: European CEOs are underprepared for the largest paradigm shift since the industrial revolution. Sets up urgency for the entire book. |
+| No duplicate frameworks | PASS | No named framework in Ch1 by design. Definition blocks for Agentic AI, AI agent, and The Agentic Organisation are first introductions. |
+| No duplicate case studies | PASS | Siemens is the primary case study in Ch1. First use in the book. |
+| Transition coherence | PASS | Closing transition ("The next chapter takes that question directly") connects logically to Ch2 (Leadership Is Not Optional), which addresses who is accountable for transformation. |
+| Argument progression | PASS | Ch1 is the first chapter; it establishes the burning platform that all subsequent chapters build on. |
+| No concept re-introduction | PASS | Ch1 is first; no prior completed chapters. Internal self-consistency confirmed: the 95% figure, Agentic AI definition, AI agent definition, and Agentic Organisation definition are used consistently throughout. |
 
 **Continuity verdict: PASS**
 
@@ -53,6 +54,5 @@
 
 ## Overall: PASS
 
-Issues to resolve: One em dash appears inside an attributed direct quotation from Eric Kutcher. The rule against em dashes applies to authorial prose; this instance is the speaker's own punctuation within speech marks. However, the surrounding attribution sentence has been restructured in the final draft to eliminate the em dash entirely, removing any ambiguity and keeping the prose entirely clean.
-
-No other issues. Chapter is ready for final.
+Issues to resolve:
+- Named models: BCG attribution missing for the 10/20/70 rule (fixed in ch01-final.md — "BCG's 10/20/70 rule")

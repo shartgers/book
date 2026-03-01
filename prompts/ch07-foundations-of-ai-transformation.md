@@ -11,10 +11,11 @@ Use this prompt to conduct **extensive external research** on prerequisites for 
 **Chapter title:** Foundations of the AI Transformation  
 **Place in book:** Part II — The Model  
 **Target length:** ~7% of book (~3,150 words)  
-**Core argument:** What must be in place before and alongside transformation: regulatory and ethical context (EU AI Act, trustworthy AI); five pillars (Product & Strategy, People & Skills, Processes & Governance, Technology & Infrastructure, Data & Context); Value–Capability–Trust lenses; how to run a structured readiness diagnostic, score maturity, and turn the result into a phased roadmap with milestones and KPIs so the organisation can absorb and act on AI rather than deploy it in isolation.
+**Core argument:** This chapter covers the **Foundation layer** (fourth layer) of the AI Transformation Framework—data, technology, enablement—and what must be in place before and alongside transformation: regulatory and ethical context (EU AI Act, trustworthy AI); five pillars (Product & Strategy, People & Skills, Processes & Governance, Technology & Infrastructure, Data & Context); Value–Capability–Trust lenses; how to run a structured readiness diagnostic, score maturity, and turn the result into a phased roadmap with milestones and KPIs so the organisation can absorb and act on AI rather than deploy it in isolation.
 
 ### Evidence already in our research
 
+- **Framework:** The Foundation layer is layer 4 in the four-layer AI Transformation Framework (see `plan/toc.md`). It comprises Data, Technology, and Enablement.
 - **research/ai-readiness-framework.md:** Prerequisites, five pillars, Value/Capability/Trust, diagnostic, roadmap (explicitly for Ch 7).
 - **Readiness frameworks:** Cisco AI Readiness Index (six pillars: Strategy, Infrastructure, Data, Governance, Talent, Culture); Microsoft five-stage maturity; Gartner five-level AI Maturity; Deloitte four-level. AI Readiness Index 2024: Western Europe 69.56 (2nd after North America 82.60); France 79.36, UK 78.88, Netherlands 77.23, Germany 76.90, Finland 76.48; >60% European firms at earliest stages.
 - **Five pillars (book):** Product & Strategy, People & Skills, Processes & Governance, Technology & Infrastructure, Data & Context — aligned with McKinsey five pillars and our Ch 3 model.

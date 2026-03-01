@@ -61,7 +61,7 @@ If `book-research-chatgpt.md` exists, use as cross-check. New research files add
 |---------|---------|
 | 1 | Definition of the Agentic Organisation (McKinsey, BCG, Deloitte, Accenture, Gartner, Forrester) |
 | 2 | Why bottom-up fails; CEO-led transformation |
-| 3 | The AI Transformation Framework: Product, People, Process, Technology, Data |
+| 3 | The AI Transformation Framework: four layers — Vision, Products, Operating Model, Foundation (see plan/toc.md and docs/instructions.md for canonical model) |
 | 4 | The Four Tiers of Transformation (Individual → Team → Department → Organisation) |
 | 5 | The AI Decision Framework (Value, Capabilities, Trust) |
 | 6 | European context (EU AI Act, regional nuances, PE/mid-market) |

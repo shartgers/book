@@ -38,13 +38,13 @@ The first tier (the Individual) is where agentic employees are made. AI fluency 
 
 ## Chapter 5: The AI Transformation Framework
 
-Every transformation needs a map. The **AI Transformation Framework** is that map: six layers that every organisation must address, from the top (Vision) to the bottom (Governance, Financials, Implementation). This chapter introduces the full framework and the framework image. It walks through each layer—Vision; the core pillars (Value, Capabilities, Trust); Products by business unit; the operational layer (People, Process, Enablement); the foundational layer (Data, Technology); and management and execution—so the reader knows what each layer means and where the rest of the book will go deeper. No other chapter owns the full picture; this one does.
+Every transformation needs a map. The **AI Transformation Framework** is that map: four layers that every organisation must address, from the top (Vision) to the bottom (Foundation). This chapter introduces the full framework and the framework image. It walks through each layer—Vision; Products (by platform or business unit); Operating Model; and Foundation—so the reader knows what each layer means and where the rest of the book will go deeper. Governance, financials, implementation, and the Value–Capabilities–Trust decision framework are covered elsewhere in the book but are not part of the four-layer framework. No other chapter owns the full picture; this one does.
 
 ---
 
 ## Chapter 6: The Operational Layer
 
-The framework's Operational layer is where strategy becomes structure: people, process, roles, skills, and org design. How do you organise teams for agentic work? How do roles shift from task-doer to orchestrator at scale? This chapter deep-dives into the layer that connects the vision to day-to-day execution—the one that most often becomes the bottleneck when organisations pilot well but fail to scale.
+The framework's Operating Model layer (the third layer) is where strategy becomes structure: people, process, roles, skills, and org design. How do you organise teams for agentic work? How do roles shift from task-doer to orchestrator at scale? This chapter deep-dives into the layer that connects the vision to day-to-day execution—the one that most often becomes the bottleneck when organisations pilot well but fail to scale.
 
 ---
 
@@ -52,7 +52,7 @@ The framework's Operational layer is where strategy becomes structure: people, p
 
 Without the right foundations, even the smartest model is blind and paralysed. AI transformation is organisational transformation: it demands data quality, integration, workflow redesign, and a culture that can absorb and act on AI—not just deploy it. Before or alongside the build, you need to know where you stand.
 
-This chapter lays out the prerequisites and a structured way to assess readiness: the regulatory and ethical context (including the EU AI Act and trustworthy AI), the five pillars (Product & Strategy, People & Skills, Processes & Governance, Technology & Infrastructure, Data & Context), and the Value–Capability–Trust lenses. It introduces a diagnostic approach—questions, maturity scoring, strengths and gaps—and how to turn the result into a phased roadmap with milestones and KPIs so the organisation can genuinely become agentic rather than merely pilot-heavy.
+This chapter lays out the Foundation layer of the framework and a structured way to assess readiness: the regulatory and ethical context (including the EU AI Act and trustworthy AI), the five pillars (Product & Strategy, People & Skills, Processes & Governance, Technology & Infrastructure, Data & Context), and the Value–Capability–Trust lenses. It introduces a diagnostic approach—questions, maturity scoring, strengths and gaps—and how to turn the result into a phased roadmap with milestones and KPIs so the organisation can genuinely become agentic rather than merely pilot-heavy.
 
 ---
 
@@ -60,7 +60,7 @@ This chapter lays out the prerequisites and a structured way to assess readiness
 
 The most dangerous question in an AI strategy session is "where should we start?" It sounds like rigour. It is usually the beginning of a very expensive pilot programme that goes nowhere.
 
-The right question is: "How do we decide?" This chapter introduces a three-angle framework (Value, Capabilities, Trust) that turns the overwhelming menu of AI possibilities into a disciplined decision. Every AI investment in the Agentic Organisation should be able to answer to all three.
+The right question is: "How do we decide?" This chapter introduces a three-angle decision framework (Value, Capabilities, Trust) that turns the overwhelming menu of AI possibilities into a disciplined decision. Every AI investment in the Agentic Organisation should be able to answer to all three. (This is not a layer of the AI Transformation Framework; it is a cross-cutting decision lens.)
 
 ---
 
