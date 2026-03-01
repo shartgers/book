@@ -136,6 +136,58 @@ Add new terms to this table as the book develops.
 
 ---
 
+## Footnotes
+
+Footnotes credit direct sources — consultants, practitioners, or named experts — when their specific expertise or testimony is drawn upon. They are not used for general citations or academic referencing.
+
+### When to Use a Footnote
+
+Use a footnote when:
+
+- A named consultant, expert, or practitioner contributed a specific insight, framework, or finding that is reproduced or closely paraphrased
+- The source is a direct voice (interview, commissioned report, advisory input) rather than a published book or article
+- Attribution materially adds credibility or context for the reader
+
+Do not use footnotes for:
+
+- General research statistics or data (cite inline or in the research brief)
+- Published books, studies, or reports (reference these in the body text where needed)
+- Author's own analysis or conclusions
+
+### Density
+
+Aim for no more than two footnotes per page. This is a guide for balance, not a hard limit or a target to hit. The goal is to draw on external expertise where it genuinely strengthens the argument, whilst ensuring the book's own perspective and voice remain primary.
+
+### Format
+
+Use standard numeric superscript footnotes inline: `word or phrase¹`. Place footnote text at the bottom of the relevant page in the final layout.
+
+```markdown
+...as one senior CHRO noted during fieldwork.¹
+
+---
+¹ Interview with [Name], [Title], [Organisation], [Year].
+```
+
+If the source prefers anonymity, use: `¹ Senior CHRO, European financial services firm, 2024.`
+
+### End-of-Book Footnote Log
+
+All footnotes are collected into a single log at the end of the book, positioned **before the "About the Author" section**.
+
+**Writing Agent responsibility:** After completing each chapter draft, append all new footnotes from that chapter to `output/footnotes-log.md`. Use the format below. Do not consolidate or reformat existing entries.
+
+```markdown
+## Chapter {nn} — {Chapter Title}
+
+1. [Name], [Title], [Organisation], [Year].
+2. Senior [role], [industry], [year].
+```
+
+The Orchestrator compiles the final log into the book build in the correct position. The log is append-only during drafting; editing an existing entry requires an explicit instruction.
+
+---
+
 ## Quality Checks
 
 Before finalizing, verify:

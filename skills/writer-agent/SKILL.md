@@ -129,6 +129,8 @@ Conditions:
 - [ ] Each framework element has supporting evidence from research brief
 - [ ] Definition blocks included for all key terms introduced in this chapter (check list in docs/writing-best-practices.md)
 - [ ] References are generic: no excessive "consulting firm X said / company Y said / person Z stated" — insights and stats used in your own voice, named citations only where essential
+- [ ] Footnotes applied correctly: used only for direct expert/consultant sources (interview, commissioned report, advisory input); not for published research or general statistics
+- [ ] Footnotes log updated: append this chapter's footnotes to output/footnotes-log.md using the format in docs/writing-best-practices.md (or add an entry noting no footnotes if none apply)
 - [ ] No paragraph longer than 4 lines
 - [ ] No American spellings
 - [ ] No filler phrases ("it is important to note", "in today's world", etc.)
@@ -150,5 +152,6 @@ Status: complete | blocked
 Output: output/chapters/chapter-{nn}/ch{nn}-draft.md
 Word count (your sections): [n]
 Conditions failed: none | [list]
+Footnotes log: updated — [n] footnotes appended | no footnotes this chapter
 Next agent: Case Study Agent must merge their section, then Perplexity Gate (Wave 3)
 ```

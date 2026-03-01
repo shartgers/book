@@ -43,6 +43,8 @@ Verify that the chapter meets the structural and formatting conventions.
 | Word count | 2,500–3,500 words total |
 | No filler | No phrases flagged in Perplexity Gate categories remain |
 | No em dashes | Replace any em dashes (—) with commas, colons, or rephrasing |
+| Footnotes correct | Footnotes used only for direct expert/consultant sources; not for published research or general statistics (see docs/writing-best-practices.md) |
+| Footnotes log updated | output/footnotes-log.md contains an entry for this chapter (may note no footnotes if none apply) |
 
 ---
 
@@ -142,6 +144,7 @@ Review report: output/chapters/chapter-{nn}/ch{nn}-review.md
 Style: PASS / FAIL
 Character: PASS / FAIL
 Continuity: PASS / FAIL
+Footnotes log: confirmed present | missing — flagged
 Escalations: none | [description]
 Chapter status: DONE
 ```
