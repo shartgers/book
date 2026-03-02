@@ -1,10 +1,10 @@
 # The Agentic Organisation
-### A complete AI transformation framework for European CEO's
+### A complete AI transformation framework - European edition
 
 ---
 
 ## Working Title
-**The Agentic Organisation: A complete AI transformation framework for European CEO's**
+**The Agentic Organisation: A complete AI transformation framework - European edition**
 
 ---
 

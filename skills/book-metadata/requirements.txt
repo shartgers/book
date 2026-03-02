@@ -1,0 +1,6 @@
+# No dependencies required - script uses Python standard library only.
+# Optional: install PyYAML to use input/metadata.yaml for overrides:
+#   pip install pyyaml
+# Optional: install pypdf to verify PDF metadata (verify_metadata.py output/book.pdf):
+#   pip install pypdf
+pypdf>=4.0

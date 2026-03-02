@@ -135,6 +135,10 @@ This is the running list of terms that must receive a definition block when firs
 
 Add new terms to this table as the book develops.
 
+### Tables
+
+Use standard Markdown pipe tables (header row, separator row, then data rows). Borders, header background, and cell padding are applied automatically by the format-book build (PDF, HTML, EPUB). Do not add HTML or inline styles for table appearance.
+
 ---
 
 ## Footnotes

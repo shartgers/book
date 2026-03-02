@@ -1,44 +1,59 @@
 ---
 name: format-book-agent
-description: Builds a print-ready PDF for Amazon KDP and IngramSpark from the book manuscript. Use when publishing the book, preparing interior files for KDP/IngramSpark, testing a dry-run (chapter 1 only), or styling definitions and case studies for print.
+description: Builds print-ready PDF, EPUB, and HTML from the book manuscript. Use for KDP/IngramSpark, e-readers, or browser preview.
 ---
 
-# Format-Book-Agent — Publish for KDP and IngramSpark
+# Format-Book-Agent — PDF, EPUB, HTML
 
-Build a single print-ready PDF containing all front matter, chapters, about the author, and index. Styled for professional interior layout with distinct treatment for definitions (box + background) and case studies (serif, background, border).
+Build a print-ready PDF (for KDP/IngramSpark), an EPUB (for e-readers), or a single HTML file from the same `book/` sources. All outputs include full front matter, chapters, and back matter, with distinct styling for definitions and case studies.
 
 ## When to Use
 
-- User asks to publish the book for Amazon KDP or IngramSpark
-- User wants a PDF with all chapters, author bio, index, and proper layout
-- User wants to **dry-run** (only Chapter 1 in body; full front/back matter still included)
-- User wants definitions in a box with background and case studies in a different layout
+- User asks to publish the book for Amazon KDP or IngramSpark (PDF)
+- User wants an **EPUB** for e-readers or Kindle
+- User wants **HTML** for browser preview or web
+- User wants a PDF, EPUB, or HTML with all chapters and author bio
 
 ## Quick Start
 
-From the **book repository root** (where `plan/toc.md` and `output/chapters/` live):
+From the **book repository root** (where the `book/` folder lives):
 
 ```bash
-# Full book (all chapters) — outputs PDF only
-python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-print.pdf
+# Interior only (no cover) — for IngramSpark/KDP interior file
+npm run pdf    # → output/book-interior.pdf
+npm run epub   # → output/book-interior.epub
+npm run html   # → output/book-interior.html
 
-# Dry run: Chapter 1 only; defaults to HTML (quick preview in browser)
-python skills/format-book-agent/scripts/build_print_pdf.py --dry-run --output output/book-dry-run.html
+# PDF/X-3:2002 conversion (interior only)
+npm run pdfx   # → output/book-interior-pdfx.pdf
 
-# Dry run as PDF when you want a PDF preview
-python skills/format-book-agent/scripts/build_print_pdf.py --dry-run --pdf --output output/book-dry-run.pdf
+# Full book with cover, then PDF/X (for complete print-ready PDF)
+npm run full   # → output/book-in-full-pdfx.pdf
 ```
+
+Equivalent Python commands:
+
+```bash
+python skills/format-book-agent/scripts/build_print_pdf.py --interior --output output/book-interior.pdf
+python skills/format-book-agent/scripts/build_print_pdf.py --interior --epub --output output/book-interior.epub
+python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html
+python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-interior.pdf output/book-interior-pdfx.pdf
+```
+
+Use `--interior` for interior-only output (no cover). Omit `--interior` to include cover. Use `--cover path/to/other.png` to override the default cover path.
 
 Install dependencies first (see [Requirements](#requirements) below).
 
 ## What the Script Produces
 
-1. **Front matter**: Half title, title page, copyright, table of contents
-2. **Body**: Introduction (optional, from `output/misc/introduction.md` when present), then chapters from `output/chapters/chapter-{nn}/ch{nn}-final.md` (in dry-run, only chapter 1)
-3. **Back matter**: About the Author (from `output/misc/about-the-author.md`), Index (heading-based or placeholder)
-4. **Styling**:
+1. **Cover page** (optional): When `book/images/cover.png` exists and `--interior` is not set, the first page is a full-page cover image.
+2. **Front matter**: Half title, title page, copyright, table of contents
+3. **Body**: Introduction (optional, from `book/introduction.md` when present), then chapters from `book/chNN-*.md` or `book/chapter-NN.md`
+4. **Back matter**: About the Author (from `book/about-the-author.md`), Index (heading-based or placeholder)
+5. **Styling**:
    - **Definitions**: Blockquotes matching `> **Definition: Term**` are rendered in a box with a light background colour so they stand out consistently
    - **Case studies**: Sections starting with `## Case Study:` get a distinct layout (e.g. serif font, tinted background, border) so they read as a separate voice
+   - **Tables**: Markdown pipe tables are rendered with borders (grid), header background, and cell padding in PDF, HTML, and EPUB
 
 ## Requirements
 
@@ -46,6 +61,8 @@ Install dependencies first (see [Requirements](#requirements) below).
 - Dependencies in `skills/format-book-agent/requirements.txt`:
   - `markdown` — Markdown to HTML
   - `xhtml2pdf` — HTML to PDF (pure Python, no system dependencies)
+  - `ebooklib` — EPUB creation (for `--epub`)
+  - `pypdf` — inject title, author, subject, keywords into PDF after build
 
 Install from repo root:
 
@@ -53,17 +70,23 @@ Install from repo root:
 pip install -r skills/format-book-agent/requirements.txt
 ```
 
-## Inputs (configurable via script or env)
+## Inputs (all content from `book/` only)
 
-| Input | Default | Purpose |
-|-------|---------|---------|
-| Book root | Auto-detected (parent of `plan/toc.md`) or `--repo` | Where chapters and plan live |
-| Chapters | `output/chapters/chapter-{01..10}/ch{nn}-final.md` | Final chapter markdown; only existing files are included |
-| TOC | `plan/toc.md` | Title, subtitle, chapter list for TOC page |
-| Introduction | `output/misc/introduction.md` | Optional front matter after TOC, before Chapter 1 |
-| About the Author | `output/misc/about-the-author.md` | Back matter author bio |
+All manuscript content is read **only** from the `book/` folder. Nothing outside `book/` is used for body, front matter, or back matter text.
+
+| Input | Location | Purpose |
+|-------|----------|---------|
+| Book root | Auto-detected (parent of `book/`) or `--repo` | Repository root; content comes from `book/` |
+| Cover image | `book/images/cover.png` (use `--cover PATH`) | First page when file exists; path relative to repo. All images live in `book/images/`. |
+| Chapters | `book/chapter-01.md`, `book/chapter-02.md`, … | One file per chapter; only existing files are included |
+| TOC | `book/toc.md` | Title, subtitle, chapter list. If missing, defaults are used and chapters are discovered from `book/chapter-*.md` |
+| Introduction | `book/introduction.md` | Optional front matter after TOC, before Chapter 1 |
+| About the Author | `book/about-the-author.md` | Back matter author bio |
+| EPUB/PDF metadata | `input/metadata.md` or `input/metadata.yaml` | Optional overrides: Author, Identifier (ISBN), Description, Keywords, Language. The script derives title, author, and description from toc, about-the-author, and introduction. **EPUB:** written into OPF. **PDF:** injected after build (Title, Author, Subject, Keywords) via pypdf. |
 
 Dry-run limits the **body** to Chapter 1 only; front and back matter are unchanged.
+
+**EPUB metadata:** When building `--epub`, the script reads metadata from the book folder and writes it into the EPUB OPF (Dublin Core): title, subtitle, author, description, language, identifier (ISBN), and subjects (keywords). **PDF metadata:** When building PDF, the script injects the same metadata into the PDF document info (Title, Author, Subject, Keywords) after xhtml2pdf runs, using pypdf. Sources for both: `book/toc.md`, `book/about-the-author.md`, `book/introduction.md`, and optional `input/metadata.md` or `input/metadata.yaml`. This matches the book-metadata skill so you can use the same `input/metadata.md` for the metadata MD file and for both EPUB and PDF builds.
 
 ## Platform Notes
 
@@ -75,5 +98,6 @@ For detailed specs and KDP alignment (trim, margins, bleed, gutter by page count
 ## If the Script Fails
 
 - **PDF export**: The script uses **xhtml2pdf** for PDF. Install with `pip install xhtml2pdf`. Full book always outputs PDF; dry-run defaults to HTML (use `--dry-run --pdf` for a PDF preview).
-- **Missing chapter**: Script skips missing `ch{nn}-final.md`; dry-run only needs `ch01-final.md`.
-- **No about-the-author**: If `output/misc/about-the-author.md` is missing, back matter still renders with a placeholder.
+- **EPUB export**: Requires **ebooklib**. Install with `pip install ebooklib`. Use `--epub --output path/to/book.epub` (extension is forced to `.epub` if omitted).
+- **Missing chapter**: Script skips missing `book/chapter-NN.md` or `book/chNN-*.md`; dry-run only needs chapter 1.
+- **No about-the-author**: If `book/about-the-author.md` is missing, back matter still renders with a placeholder.

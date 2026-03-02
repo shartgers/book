@@ -3,8 +3,11 @@
   "private": true,
   "description": "Book repo scripts",
   "scripts": {
-    "build": "python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-print.pdf",
-    "dry": "python skills/format-book-agent/scripts/build_print_pdf.py --dry-run --output output/dry-run.html",
-    "dry-pdf": "python skills/format-book-agent/scripts/build_print_pdf.py --dry-run --pdf --output output/dry-run.pdf"
+    "build": "npm run pdf && npm run epub && npm run html",
+    "pdf": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --output output/book-interior.pdf",
+    "epub": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --epub --output output/book-interior.epub",
+    "html": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html",
+    "pdfx": "python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-interior.pdf output/book-interior-pdfx.pdf",
+    "full": "python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-full.pdf && python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-full.pdf output/book-in-full-pdfx.pdf"
   }
 }

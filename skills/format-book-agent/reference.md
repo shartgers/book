@@ -64,6 +64,30 @@ The script wraps the section (until the next `##`) in a **case-study** container
 
 ---
 
+## PDF/X-3:2002 for IngramSpark (B&W interior)
+
+IngramSpark recommends PDF/X-1a:2001 or PDF/X-3:2002. The WeasyPrint build does not add Output Intents. To produce a PDF/X-3:2002 grayscale interior:
+
+1. **Install Ghostscript** (required):
+   - Windows: Download from [ghostscript.com](https://ghostscript.com/releases/gsdnld.html) or `choco install ghostscript` (run as Administrator)
+   - macOS: `brew install ghostscript`
+   - Linux: `apt install ghostscript`
+
+2. **Run the conversion** (after `npm run pdf`):
+   ```bash
+   npm run pdfx
+   ```
+   This creates `output/book-interior-pdfx.pdf` from `output/book-interior.pdf`. Use `book-interior-pdfx.pdf` as your IngramSpark interior file.
+
+   Or manually:
+   ```bash
+   python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-interior.pdf output/book-interior-pdfx.pdf
+   ```
+
+3. **ICC profile**: The script downloads a grayscale ICC profile from Adobe if needed, or uses a system profile. Place `Gray Gamma 2.2.icc` in `input/icc/` to use a specific profile.
+
+---
+
 ## ISBN and Barcode
 
 - **KDP**: You can use a free KDP-assigned ISBN or your own; barcode goes on the **cover**, not in the interior PDF.
@@ -108,6 +132,32 @@ The build script is designed to match [KDP's "Format Your Paperback"](https://kd
 
 4. **Save manuscript for upload**  
    Output is a single **PDF** (recommended by KDP). See [Save Your Manuscript File](https://kdp.amazon.com/help/topic/G202145060): no crop/trim marks, no encryption; embed fonts (xhtml2pdf embeds by default); single-page layout; for best results use PDF optimized for print. After building, upload and preview in KDP.
+
+---
+
+## Windows: WeasyPrint setup
+
+PDF build uses WeasyPrint, which on Windows needs Pango/GTK libraries.
+
+1. **Install MSYS2** (https://www.msys2.org/) with default options.
+2. **Open the MSYS2 shell** and run:
+   ```bash
+   pacman -S mingw-w64-x86_64-pango
+   ```
+3. **Close MSYS2.** In a normal Windows terminal (PowerShell or cmd), from the repo:
+   ```bash
+   .venv\Scripts\Activate.ps1
+   pip install weasyprint
+   npm run pdf
+   ```
+4. If the DLL is still not found, set the DLL path before running (MSYS2 in `C:\Program Files (x86)\MSYS2`):
+   ```bash
+   $env:WEASYPRINT_DLL_DIRECTORIES = "C:\Program Files (x86)\MSYS2\mingw64\bin"
+   npm run pdf
+   ```
+   The build script also prepends these directories to `PATH` when they exist, so often step 4 is not needed.
+
+See [WeasyPrint first steps (Windows)](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#windows) and [troubleshooting](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#troubleshooting).
 
 ---
 

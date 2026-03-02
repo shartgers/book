@@ -1,0 +1,41 @@
+%!PS-Adobe-3.0
+%% PDF/X-3:2002 definition for grayscale (B&W) interior.
+%% Used by Ghostscript with -dPDFX for IngramSpark-compliant output.
+%% Requires: /ICCProfile (path) to be set before inclusion, or omit ICC for minimal output.
+
+% Validate ProcessColorModel: must be DeviceGray or DeviceCMYK for PDF/X
+systemdict /ProcessColorModel known {
+  systemdict /ProcessColorModel get dup /DeviceGray ne exch /DeviceCMYK ne and
+} {
+  true
+} ifelse
+{ (ERROR: ProcessColorModel must be /DeviceGray or /DeviceCMYK.)=
+  /ProcessColorModel cvx /rangecheck signalerror
+} if
+
+% PDF/X-3:2002 document info (required by standard)
+[ /GTS_PDFXVersion (PDF/X-3:2002)
+  /Trapped /False
+  /DOCINFO pdfmark
+
+% Define ICC profile stream if ICCProfile path was set
+currentdict /ICCProfile known {
+  [/_objdef {icc_PDFX} /type /stream /OBJ pdfmark
+  [{icc_PDFX} <</N systemdict /ProcessColorModel get /DeviceGray eq {1} {4} ifelse >> /PUT pdfmark
+  [{icc_PDFX} ICCProfile (r) file /PUT pdfmark
+} if
+
+% Output intent dictionary (required for PDF/X-3)
+[/_objdef {OutputIntent_PDFX} /type /dict /OBJ pdfmark
+[{OutputIntent_PDFX} <<
+  /Type /OutputIntent
+  /S /GTS_PDFX
+  /OutputCondition (Commercial and specialty printing)
+  /Info (Grayscale for B&W book interior)
+  /OutputConditionIdentifier (CGATS TR001)
+  /RegistryName (http://www.color.org)
+  currentdict /ICCProfile known {
+    /DestOutputProfile {icc_PDFX}
+  } if
+>> /PUT pdfmark
+[{Catalog} <</OutputIntents [ {OutputIntent_PDFX} ]>> /PUT pdfmark

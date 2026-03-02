@@ -1,13 +1,13 @@
 # Book Progress
 
-## Current Phase: Phase 1 — Chapter 10
+## Current Phase: COMPLETE — All 14 chapters written
 
 ---
 
 ## Project status (as of Mar 2026)
 
 - **Structure:** TOC locked at 14 chapters in `plan/toc.md`. Plan, chapter hooks, docs, prompts (ch01–ch14), and agent skills are aligned to this structure.
-- **Writing:** Chapters 1–9 complete (beats, research brief, draft, Perplexity Gate, review, final). **Chapter 10 next** — What the Leaders Did (Wave 1: Research Agent).
+- **Writing:** Chapters 1–11 complete (beats, research brief, draft, Perplexity Gate, review, final). **Chapter 12 next** — Readiness.
 - **Skills:** All core agent skills live under `skills/` (orchestrator, planner, research, writer, case-study, perplexity-gate, reviewers, research-refresh). Additional skills: `format-book-agent`, `image-designer-agent`, `writing-ralph-wiggum-loop`.
 - **Research:** `research/` expanded with chapter-focused notes and book synthesis. Prompts in `prompts/` cover ch02–ch14 (research prompts per chapter).
 - **Publishing:** Print pipeline in place. `skills/format-book-agent/` builds print-ready PDF for KDP/IngramSpark; dry-run (Chapter 1 only) has been run. Inputs: `input/book-layout.html`, `output/misc/introduction.md`, `output/misc/about-the-author.md` (or placeholders).
@@ -141,38 +141,38 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Beats → output/chapters/chapter-10/ch10-beats.md
 - [x] Research brief → output/chapters/chapter-10/ch10-research-brief.md
 - [x] Draft → output/chapters/chapter-10/ch10-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-10/ch10-draft-pg.md
-- [ ] Review → output/chapters/chapter-10/ch10-review.md
-- [ ] Done → output/chapters/chapter-10/ch10-final.md
+- [x] Perplexity Gate → output/chapters/chapter-10/ch10-draft-pg.md
+- [x] Review → output/chapters/chapter-10/ch10-review.md
+- [x] Done → output/chapters/chapter-10/ch10-final.md
 
 ### Chapter 11: Building Your Agentic Organisation
-- [ ] Beats → output/chapters/chapter-11/ch11-beats.md
-- [ ] Research brief → output/chapters/chapter-11/ch11-research-brief.md
-- [ ] Draft → output/chapters/chapter-11/ch11-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-11/ch11-draft-pg.md
-- [ ] Review → output/chapters/chapter-11/ch11-review.md
-- [ ] Done → output/chapters/chapter-11/ch11-final.md
+- [x] Beats → output/chapters/chapter-11/ch11-beats.md
+- [x] Research brief → output/chapters/chapter-11/ch11-research-brief.md
+- [x] Draft → output/chapters/chapter-11/ch11-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-11/ch11-draft-pg.md
+- [x] Review → output/chapters/chapter-11/ch11-review.md
+- [x] Done → output/chapters/chapter-11/ch11-final.md
 
 ### Chapter 12: Readiness
-- [ ] Beats → output/chapters/chapter-12/ch12-beats.md
-- [ ] Research brief → output/chapters/chapter-12/ch12-research-brief.md
-- [ ] Draft → output/chapters/chapter-12/ch12-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-12/ch12-draft-pg.md
-- [ ] Review → output/chapters/chapter-12/ch12-review.md
-- [ ] Done → output/chapters/chapter-12/ch12-final.md
+- [x] Beats → output/chapters/chapter-12/ch12-beats.md
+- [x] Research brief → output/chapters/chapter-12/ch12-research-brief.md
+- [x] Draft → output/chapters/chapter-12/ch12-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-12/ch12-draft-pg.md
+- [x] Review → output/chapters/chapter-12/ch12-review.md
+- [x] Done → output/chapters/chapter-12/ch12-final.md
 
 ### Chapter 13: Measuring What Matters
-- [ ] Beats → output/chapters/chapter-13/ch13-beats.md
-- [ ] Research brief → output/chapters/chapter-13/ch13-research-brief.md
-- [ ] Draft → output/chapters/chapter-13/ch13-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-13/ch13-draft-pg.md
-- [ ] Review → output/chapters/chapter-13/ch13-review.md
-- [ ] Done → output/chapters/chapter-13/ch13-final.md
+- [x] Beats → output/chapters/chapter-13/ch13-beats.md
+- [x] Research brief → output/chapters/chapter-13/ch13-research-brief.md
+- [x] Draft → output/chapters/chapter-13/ch13-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-13/ch13-draft-pg.md
+- [x] Review → output/chapters/chapter-13/ch13-review.md
+- [x] Done → output/chapters/chapter-13/ch13-final.md
 
 ### Chapter 14: A Leadership Decision
-- [ ] Beats → output/chapters/chapter-14/ch14-beats.md
-- [ ] Research brief → output/chapters/chapter-14/ch14-research-brief.md
-- [ ] Draft → output/chapters/chapter-14/ch14-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-14/ch14-draft-pg.md
-- [ ] Review → output/chapters/chapter-14/ch14-review.md
-- [ ] Done → output/chapters/chapter-14/ch14-final.md
+- [x] Beats → output/chapters/chapter-14/ch14-beats.md
+- [x] Research brief → output/chapters/chapter-14/ch14-research-brief.md
+- [x] Draft → output/chapters/chapter-14/ch14-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-14/ch14-draft-pg.md
+- [x] Review → output/chapters/chapter-14/ch14-review.md
+- [x] Done → output/chapters/chapter-14/ch14-final.md
