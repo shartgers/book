@@ -1,13 +1,13 @@
 # Book Progress
 
-## Current Phase: Phase 1 — Chapter 4
+## Current Phase: Phase 1 — Chapter 10
 
 ---
 
-## Project status (as of Mar 2025)
+## Project status (as of Mar 2026)
 
 - **Structure:** TOC locked at 14 chapters in `plan/toc.md`. Plan, chapter hooks, docs, prompts (ch01–ch14), and agent skills are aligned to this structure.
-- **Writing:** Chapter 1 complete. Chapter 2 complete. Chapter 3 complete (beats, draft, Perplexity Gate, review, final). **Chapter 4 next** — The Four Tiers of Transformation (Wave 1: Planner + Research Agent).
+- **Writing:** Chapters 1–9 complete (beats, research brief, draft, Perplexity Gate, review, final). **Chapter 10 next** — What the Leaders Did (Wave 1: Research Agent).
 - **Skills:** All core agent skills live under `skills/` (orchestrator, planner, research, writer, case-study, perplexity-gate, reviewers, research-refresh). Additional skills: `format-book-agent`, `image-designer-agent`, `writing-ralph-wiggum-loop`.
 - **Research:** `research/` expanded with chapter-focused notes and book synthesis. Prompts in `prompts/` cover ch02–ch14 (research prompts per chapter).
 - **Publishing:** Print pipeline in place. `skills/format-book-agent/` builds print-ready PDF for KDP/IngramSpark; dry-run (Chapter 1 only) has been run. Inputs: `input/book-layout.html`, `output/misc/introduction.md`, `output/misc/about-the-author.md` (or placeholders).
@@ -98,49 +98,49 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Done → output/chapters/chapter-04/ch04-final.md
 
 ### Chapter 05: The AI Transformation Framework
-- [ ] Beats → output/chapters/chapter-05/ch05-beats.md
-- [ ] Research brief → output/chapters/chapter-05/ch05-research-brief.md
-- [ ] Draft → output/chapters/chapter-05/ch05-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-05/ch05-draft-pg.md
-- [ ] Review → output/chapters/chapter-05/ch05-review.md
-- [ ] Done → output/chapters/chapter-05/ch05-final.md
+- [x] Beats → output/chapters/chapter-05/ch05-beats.md
+- [x] Research brief → output/chapters/chapter-05/ch05-research-brief.md
+- [x] Draft → output/chapters/chapter-05/ch05-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-05/ch05-draft-pg.md
+- [x] Review → output/chapters/chapter-05/ch05-review.md
+- [x] Done → output/chapters/chapter-05/ch05-final.md
 
 ### Chapter 06: The Operational Layer
-- [ ] Beats → output/chapters/chapter-06/ch06-beats.md
-- [ ] Research brief → output/chapters/chapter-06/ch06-research-brief.md
-- [ ] Draft → output/chapters/chapter-06/ch06-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-06/ch06-draft-pg.md
-- [ ] Review → output/chapters/chapter-06/ch06-review.md
-- [ ] Done → output/chapters/chapter-06/ch06-final.md
+- [x] Beats → output/chapters/chapter-06/ch06-beats.md
+- [x] Research brief → output/chapters/chapter-06/ch06-research-brief.md
+- [x] Draft → output/chapters/chapter-06/ch06-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-06/ch06-draft-pg.md
+- [x] Review → output/chapters/chapter-06/ch06-review.md
+- [x] Done → output/chapters/chapter-06/ch06-final.md
 
 ### Chapter 07: Foundations of the AI Transformation
-- [ ] Beats → output/chapters/chapter-07/ch07-beats.md
-- [ ] Research brief → output/chapters/chapter-07/ch07-research-brief.md
-- [ ] Draft → output/chapters/chapter-07/ch07-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-07/ch07-draft-pg.md
-- [ ] Review → output/chapters/chapter-07/ch07-review.md
-- [ ] Done → output/chapters/chapter-07/ch07-final.md
+- [x] Beats → output/chapters/chapter-07/ch07-beats.md
+- [x] Research brief → output/chapters/chapter-07/ch07-research-brief.md
+- [x] Draft → output/chapters/chapter-07/ch07-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-07/ch07-draft-pg.md
+- [x] Review → output/chapters/chapter-07/ch07-review.md
+- [x] Done → output/chapters/chapter-07/ch07-final.md
 
 ### Chapter 08: Value, Capabilities, Trust
-- [ ] Beats → output/chapters/chapter-08/ch08-beats.md
-- [ ] Research brief → output/chapters/chapter-08/ch08-research-brief.md
-- [ ] Draft → output/chapters/chapter-08/ch08-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-08/ch08-draft-pg.md
-- [ ] Review → output/chapters/chapter-08/ch08-review.md
-- [ ] Done → output/chapters/chapter-08/ch08-final.md
+- [x] Beats → output/chapters/chapter-08/ch08-beats.md
+- [x] Research brief → output/chapters/chapter-08/ch08-research-brief.md
+- [x] Draft → output/chapters/chapter-08/ch08-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-08/ch08-draft-pg.md
+- [x] Review → output/chapters/chapter-08/ch08-review.md
+- [x] Done → output/chapters/chapter-08/ch08-final.md
 
 ### Chapter 09: Europe's Distinctive Edge
-- [ ] Beats → output/chapters/chapter-09/ch09-beats.md
-- [ ] Research brief → output/chapters/chapter-09/ch09-research-brief.md
-- [ ] Draft → output/chapters/chapter-09/ch09-draft.md
-- [ ] Perplexity Gate → output/chapters/chapter-09/ch09-draft-pg.md
-- [ ] Review → output/chapters/chapter-09/ch09-review.md
-- [ ] Done → output/chapters/chapter-09/ch09-final.md
+- [x] Beats → output/chapters/chapter-09/ch09-beats.md
+- [x] Research brief → output/chapters/chapter-09/ch09-research-brief.md
+- [x] Draft → output/chapters/chapter-09/ch09-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-09/ch09-draft-pg.md
+- [x] Review → output/chapters/chapter-09/ch09-review.md
+- [x] Done → output/chapters/chapter-09/ch09-final.md
 
 ### Chapter 10: What the Leaders Did
-- [ ] Beats → output/chapters/chapter-10/ch10-beats.md
-- [ ] Research brief → output/chapters/chapter-10/ch10-research-brief.md
-- [ ] Draft → output/chapters/chapter-10/ch10-draft.md
+- [x] Beats → output/chapters/chapter-10/ch10-beats.md
+- [x] Research brief → output/chapters/chapter-10/ch10-research-brief.md
+- [x] Draft → output/chapters/chapter-10/ch10-draft.md
 - [ ] Perplexity Gate → output/chapters/chapter-10/ch10-draft-pg.md
 - [ ] Review → output/chapters/chapter-10/ch10-review.md
 - [ ] Done → output/chapters/chapter-10/ch10-final.md

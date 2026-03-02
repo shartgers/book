@@ -4,7 +4,7 @@
 ---
 
 ## Working Title
-**The Agentic Organisation: A Guide for European CEO's to Master the Coming AI Wave**
+**The Agentic Organisation: A complete AI transformation framework for European CEO's**
 
 ---
 

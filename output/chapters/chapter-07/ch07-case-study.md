@@ -1,0 +1,31 @@
+# Case Study — Chapter 07 — Schneider Electric
+
+## Case Study: Schneider Electric — Building AI-Ready Foundations at Enterprise Scale
+
+### 1. Strategic Dilemma
+
+Schneider Electric faced a dilemma that many long-established industrial companies recognise: how does a 200-year-old industrial company with complex global manufacturing operations build AI-ready foundations at enterprise scale? One path was to let business units and factories deploy AI projects locally, capturing quick wins without the cost of unified data, architecture, or capability building. The other was to invest in the full Foundation layer before scaling: data products and analytics, target technology architecture, and a dedicated enablement structure (AI Hub, Chief AI Officer, company-wide capability building). Both paths had real costs. Fragmented deployment risked pilots that never scaled and the accumulation of AI Infrastructure Debt. The foundation-first path required sustained investment, central coordination, and patience before measurable returns could materialise across 200-plus factories worldwide.
+
+### 2. Decision Context
+
+Schneider Electric operates in energy management and industrial automation across 200-plus factories and 110 distribution centres. The company had already gone through digital transformation; the next step was to treat AI as a transformation that required foundations, not just projects. Industry evidence was sobering: Gartner predicts that through 2026, organisations will abandon 60% of AI projects unsupported by AI-ready data. McKinsey research cited by Schneider suggests industrial facilities with AI report 10–15% production increases and 4–5% EBITA gains, but only when data, technology, and human capability are in place. The company needed a structure that could work across diverse manufacturing contexts, from supply chain optimisation to yield improvement and energy management.
+
+In November 2021, Schneider appointed Philippe Rambach as Chief AI Officer, one of the earliest CAIO appointments in European industry. Rambach reports to executive leadership and leads a dedicated global AI Hub. The Hub combines technology, process, and human enablers. By 2024, it employed over 350 AI and data science experts. The decision was to invest in all three Foundation components: Data (industrial data products, supply chain analytics, federated architecture), Technology (predictive AI, target architecture, integration), and Enablement (AI Hub, CAIO role, company-wide capability building). The organisation chose to build the base before scaling rather than deploying projects in isolation.
+
+### 3. Trade-offs
+
+- **Centralised capability investment:** The AI Hub and 350-plus experts represent a large, sustained investment in central and semi-central roles; that capacity was not available for other strategic priorities or for accelerating local pilots.
+- **Speed of deployment:** Building data products, governance, and architecture before scaling meant slower deployment of initial use cases; the organisation accepted delayed returns in exchange for a foundation that could support sustained scale.
+- **Standardisation pressure:** A unified approach across 200-plus factories and 110 distribution centres risked under-serving local needs or forcing a single tempo where some sites were not ready; the company accepted that some local initiatives would be delayed or reframed to fit the foundation.
+- **Governance and coordination overhead:** Aligning Data, Technology, and Enablement under one structure required continuous coordination and governance; the organisation took on the cost of that coordination rather than allowing siloed progress.
+- **Expectation management:** Public targets and reported figures create visibility; falling short would be more visible than under-promising.
+
+### 4. Outcome
+
+The outcome so far is measurable progress across supply chain, manufacturing, and energy optimisation. Schneider has reported €8 million in transportation cost savings from AI-powered supply chain optimisation across 240 manufacturing facilities and 110 distribution centres, using predictive models on 200,000-plus transportation policy data points and 130,000 flow constraints; 300,000 SKUs were consolidated to 1,800 product groups. The €8 million figure has been corroborated via web research. Research from the company’s internal materials also cites a 6-day reduction in inventory days and 15% average yield improvement on specific lines; related figures (10–15% production increase) are corroborated by McKinsey research cited by Schneider. The company has reported over €100 million in generated value, though no attributable public source was found for this figure in web research. Schneider has targeted €2.0–2.5 billion in cumulative industrial productivity gains (2026–2030); those targets are aspirational and not yet realised.
+
+The structure illustrates how the Foundation layer was addressed in practice: Data (industrial data products, supply chain analytics, federated architecture), Technology (predictive AI, target architecture, integration), and Enablement (AI Hub, CAIO, 350-plus experts, company-wide capability building). The result is not a finished transformation but a working example of foundation-first investment at an industrial scale.
+
+### 5. Transferable Lesson
+
+European CEOs can take one clear lesson from Schneider Electric: the Foundation layer (Data, Technology, Enablement) is not optional infrastructure. It is the condition for sustainable scale. When an organisation invests in all three components before scaling, it avoids the pattern of pilots that never graduate to production and AI Infrastructure Debt that compounds silently. Schneider’s bet was to make the Foundation layer the basis for investment, roles, and prioritisation across 200-plus factories and 110 distribution centres, not a checklist to be filled in once. The transferable rule is to assess readiness across Data, Technology, and Enablement, invest in the gaps before scaling, and accept the trade-offs (central capability cost, slower initial deployment, coordination overhead) in exchange for a transformation that can be measured, steered, and scaled as a whole.

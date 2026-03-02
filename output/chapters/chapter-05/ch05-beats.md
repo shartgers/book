@@ -44,6 +44,8 @@ Add one short sentence: Governance, KPIs, and the Value/Capabilities/Trust decis
 
 Include definition block for **The AI Transformation Framework**. The framework must match the diagram in images/ai-transformation-framework.png. Do not re-define the agentic employee; reference Ch 3.
 
+This is the most informative beat and should get the most words assigned to it.
+
 ### Beat 4 — Governance Implications
 
 Section heading: The Framework as a Governance Instrument
