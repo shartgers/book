@@ -20,8 +20,6 @@ Paradigm shifts do not yield to incremental responses. The organisations that th
 
 AI task completion capability is doubling every four months. The window for first-mover advantage is not widening. It is narrowing. The question this chapter asks is not whether you believe that. The data settles it. The question is whether you are leading as though you do.
 
----
-
 ## Why This Moment Is Different
 
 Every technology wave produces bold claims about transformation. What makes this one categorically different is that the capability curve is exponential, the rate of acceleration is itself increasing, and the gap between leaders and laggards is already compounding in ways that are measurable and, for the laggards, increasingly difficult to reverse.
@@ -74,8 +72,6 @@ Eric Kutcher, McKinsey's North America Chair, put the misframing plainly: "This 
 
 Most have thought about it as the 20%. That is why 95% are failing.
 
----
-
 ## The Governance Gap
 
 The 95% failure rate is not primarily a technology problem. It is a governance and leadership problem.
@@ -108,8 +104,6 @@ Eurostat data from December 2025 shows that 20% of EU enterprises with ten or mo
 
 The board's first task is not to approve an AI strategy. It is to treat this for what it is: a strategic inflection point that demands the urgency, oversight, and accountability that characterisation requires. Every quarter of delay is a quarter in which the organisations that have already committed are compounding their advantage, and a quarter in which the governance gap between what the board understands and what the organisation needs becomes harder to close.
 
----
-
 ## The Window Is Narrowing
 
 This is not the cloud migration, the digital transformation, or the mobile-first pivot revisited at larger scale. It is a restructuring of how organisations create value, make decisions, and deploy human capability. The organisations already moving are compounding their advantages every quarter: in productivity, in talent, in data, in competitive positioning. The cost of waiting is not zero. It is already accumulating.
@@ -121,8 +115,6 @@ The organisations that will define their industries over the next decade are mak
 Recognising the scale of the shift is the first step. The harder question is whether the organisation has the leadership to match it. Who is accountable? Where does responsibility sit? What happens when that accountability is diffuse, delegated, or absent?
 
 The next chapter takes that question directly.
-
----
 
 [^1]: MIT, "NANDA Report", 2025
 [^2]: BCG, "The Widening AI Value Gap: Build for the Future 2025", September/October 2025

@@ -174,15 +174,13 @@ The leaders did not do all nine at once. They sequenced them. Foundation comes f
 
 The playbook in Chapter 11 shows how to sequence the work. What this chapter has shown is what the work looks like when it is done well.
 
-## Questions for the Board: Lessons from the Leaders
+## Questions for the Board
 
 1. For each of the nine lessons, can you identify whether your organisation is ahead, on track, or behind? Which lesson represents your largest gap?
 2. Is your chief executive personally and visibly championing AI transformation, training alongside employees, reviewing use cases, and holding the agenda, or has ownership been delegated to IT, a project team, or a consultant?
 3. Do you have a central AI capability (factory, hub, or centre of excellence) that sets standards and governance, and embedded specialists in business units who connect AI to business value? Or is AI dispersed without coordination?
 4. What is your pilot-to-production rate? If you do not know, what does that tell you about your measurement discipline?
 5. If you stopped all AI-related hiring and investment tomorrow, would your existing employees have the skills, compensation, and career incentives to sustain the transformation, or would adoption collapse?
-
----
 
 ## Handoff — Reviewers — Chapter 10
 Status: complete

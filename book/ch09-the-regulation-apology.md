@@ -20,8 +20,6 @@ I call this the European Advantage Triad: Clarity, Trust, Capability. Three stru
 
 **Clarity** is the strategic benefit of one harmonised AI framework across 27 countries. **Trust** is the commercial premium that demonstrable compliance, consumer confidence, and workforce acceptance create. **Capability** is the operational strength that compliance processes build: data quality, governance maturity, and documentation discipline. Each element reinforces the others: clarity enables trust, trust enables capability, and capability justifies the clarity of the rules.
 
----
-
 ## The Perception Gap
 
 The frustration is real and it comes from the top. Siemens CEO Roland Busch called the AI Act "a key reason Europe is lagging" and described the Data Act as "toxic". SAP CEO Christian Klein wants "much less regulation" and "a united Europe". Capgemini CEO Aiman Ezzat said the EU went "too far" with AI rules.
@@ -37,8 +35,6 @@ The honest caveat deserves stating plainly. Europe's AI investment gap is stark,
 The 11 per cent of European firms classified as "AI Achievers" generate 50 per cent greater revenue growth than their peers. Their defining trait is not bigger budgets or faster deployment. It is designing AI responsibly from the start: building governance into their AI programmes from day one rather than bolting it on after deployment.
 
 The problem is not regulation. It is the failure to convert regulation into competitive advantage.
-
----
 
 ## The European Advantage Triad
 
@@ -70,8 +66,6 @@ Industry research shows that 60 per cent of organisations globally struggle with
 
 The AI governance market is forecast to grow from approximately $300 million in 2025 to over $4.8 billion by 2034. Research suggests that structured AI governance can boost SME productivity by 27 to 133 per cent depending on sector and implementation maturity. What European companies are building now, the global market will require next.
 
----
-
 ## What the AI Act Demands of Leadership Now
 
 The timeline is not theoretical. Prohibited AI practices have been in force since February 2025. AI literacy obligations apply to all deployers. General-purpose AI transparency rules took effect in August 2025.
@@ -102,8 +96,6 @@ Financial services face the most complex regulatory intersection. DORA has been 
 
 As ECB Supervisory Board Chair Claudia Buch has stated, banks must demonstrate they do not "blindly follow AI systems' recommendations". For financial institutions, the regulatory environment goes beyond compliance: it demands proof that governance produces better decisions.
 
----
-
 ## From Advantage to Action
 
 The European edge is real but conditional. Regulation creates advantage only when companies treat compliance as capability building, not box-ticking. The investment gap will not close itself. Sovereignty programmes, including France's €109 billion AI infrastructure commitment and the Franco-German sovereign AI partnership, signal ambition but require consistent execution to deliver results.
@@ -112,12 +104,10 @@ The honest position: leaders should not celebrate regulation as inherently good.
 
 The companies already doing this are the subject of the next chapter: not what Europe's edge is in theory, but what the leaders did with it in practice.
 
----
-
 [^24]: McKinsey, "European VC Report", 2024
 [^25]: Edelman, "Trust Barometer", 2026
 
-## Questions for the Board: Europe's Edge
+## Questions for the Board
 
 1. Does your organisation treat EU AI Act compliance as a cost centre or as a capability-building programme? Who owns AI compliance at board level, and how are they measured?
 2. Can you articulate the three sources of European competitive advantage (Clarity, Trust, Capability) to your management team, and does your AI strategy explicitly build on each?
@@ -125,11 +115,9 @@ The companies already doing this are the subject of the next chapter: not what E
 4. If a major client or procurement authority required a conformity assessment tomorrow, could you produce one? What would the process reveal about your data quality, governance, and documentation?
 5. Are you planning for the August 2026 high-risk deadline or waiting for the Digital Omnibus extension? What is the cost of being wrong?
 
----
-
 ## Case Study: ING, Governance as the Accelerator
 
-### Strategic Dilemma
+### 1. Strategic Dilemma
 
 Chapter 4 explored ING's tier-by-tier approach to building AI capability. This case study examines a second strategic question specific to Europe's regulatory context: how to convert governance discipline into competitive advantage.
 
@@ -137,7 +125,7 @@ ING could allow its business units to navigate DORA, the EU AI Act, and ECB over
 
 COO Marnix van Stiphout described the risk of the decentralised path plainly: "bits of AI all over the place," with duplicated effort, compliance blind spots, and no way to scale what worked. The cost of the centralised path was speed, autonomy, and the cultural friction of imposing structure on teams accustomed to working independently.
 
-### Decision Context
+### 2. Decision Context
 
 Banking is amongst the most heavily regulated sectors in Europe. ING operates under the EU AI Act, DORA (mandatory since January 2025), ECB supervisory oversight, and national financial conduct regulations across multiple jurisdictions. Credit scoring and customer risk assessment are classified as high-risk under the AI Act's Annex III.
 
@@ -147,7 +135,7 @@ The ECB's supervisory priorities, as described earlier in this chapter, explicit
 
 The question had moved past whether AI worked, as the bank's analytical capability (detailed in Chapter 4) had already demonstrated. The challenge was governing deployment at scale within a regulatory environment where compliance failure carried penalties of up to 7 per cent of global turnover.
 
-### Trade-offs
+### 3. Trade-offs
 
 ING chose centralisation: what the bank's leadership calls a "conservatively aggressive" approach. All AI development was consolidated into five domains under COO oversight. An AI Ethics Committee was established with the CEO as a member. Every use case is reviewed before deployment.
 
@@ -158,7 +146,7 @@ The trade-offs were real:
 - **Cultural friction.** A large analytics community accustomed to working across the bank had to adapt to a more structured operating model.
 - **Upfront investment in governance infrastructure.** Building the ethics committee, review processes, and domain structure required time and resources before producing visible returns.
 
-### Outcome
+### 4. Outcome
 
 The governance structure did not slow deployment. It accelerated it. As Chapter 4 documented, ING achieved a 90 per cent pilot-to-production rate, three times the industry average. What matters for the European advantage argument is why.
 
@@ -170,7 +158,7 @@ Customer due diligence that previously took weeks was reduced to seconds. A part
 
 The shift inside ING is telling. The conversation moved from whether AI works to where it matters most to the client, and governance became the mechanism that answered that question reliably across every business line.
 
-### Transferable Lesson
+### 5. Transferable Lesson
 
 ING's experience illustrates all three elements of the European Advantage Triad working in concert. **Clarity**: one governance framework across all AI activity, removing the ambiguity that fragments effort and creates compliance risk. **Trust**: CEO participation in the ethics committee, structured review of every use case, and transparent governance that satisfies regulators, employees, and customers simultaneously.
 
@@ -179,8 +167,6 @@ ING's experience illustrates all three elements of the European Advantage Triad 
 For European financial institutions in particular, where DORA, the AI Act, and ECB oversight create overlapping obligations, centralised governance is not a preference. It is a practical necessity. The alternative, allowing each business unit to interpret and comply with regulations independently, creates the fragmented compliance landscape that regulators are designed to prevent.
 
 The lesson is direct: governance in a regulated European environment is not overhead. It is the mechanism that converts pilots into production. ING did not succeed despite regulation. It succeeded because the discipline regulation demands, when embedded in operating structure, produces faster and more reliable deployment than unstructured experimentation.
-
----
 
 ## Handoff — Reviewers — Chapter 09
 Status: complete

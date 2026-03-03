@@ -84,7 +84,7 @@ It depends on a foundation: data quality, technology architecture, and enablemen
 
 [^21]: Harvard Data Science Review, "2026", 2026
 
-## Questions for the Board: The Operating Model
+## Questions for the Board
 
 1. Does your current operating model, roles, skills, team structures, and processes, reflect the way AI-augmented work actually gets done, or does it mirror the pre-AI organisation with AI tools layered on top?
 2. Who in your organisation fills the Domain Leader role: a senior executive two to three levels below the CEO who combines business judgment with AI fluency? If no one does, what is your plan to build or hire for that capability?
@@ -126,8 +126,6 @@ The works council process, whilst slower than a top-down mandate, has produced a
 The lesson from Allianz connects directly to the Agentic Operating Model. Redesigning People (roles, skills) and Process (workflows, org design) must happen simultaneously with technology deployment, not after it. A seven-agent workflow that eliminates 80% of processing time is a technology achievement. The decision to restructure 1,800 roles, engage works councils, and invest in new skills is an operating model achievement. The second is harder, slower, and more consequential.
 
 For European leaders operating within social dialogue frameworks, the principle is concrete: design the human role and the agent workflow at the same time, with governance built in from the start. The 70% is not a follow-on project. It is the project.
-
----
 
 ## Handoff — Reviewers — Chapter 06
 Status: complete

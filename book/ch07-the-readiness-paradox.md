@@ -116,7 +116,7 @@ Chapter 11 sequences the execution: Foundation, then Activation, then Scale. Cha
 
 [^22]: Cisco, "AI Readiness Index", 2024
 
-## Questions for the Board: Foundations
+## Questions for the Board
 
 1. Can your leadership team describe the current state of your Data, Technology, and Enablement foundations, not in general terms, but with specific maturity scores or assessments? If not, what is preventing that clarity?
 2. What percentage of your data assets are genuinely AI-ready: catalogued, governed, quality-controlled, and accessible to the teams that need them? How does that compare to the benchmark of 63 per cent not ready?

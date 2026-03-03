@@ -92,7 +92,7 @@ This book has covered the framework (Chapter 5), the operating model (Chapter 6)
 
 One decision remains: to act or not. That is the subject of the final chapter.
 
-## Questions for the Board: Measurement and Governance
+## Questions for the Board
 
 1. Do you have pre-established baselines for the processes your AI initiatives target, or are you measuring improvement against assumptions?
 2. Can you articulate how many AI pilots are active, how many have been scaled to production, and how many have been deliberately killed in the past twelve months?
@@ -102,11 +102,11 @@ One decision remains: to act or not. That is the subject of the final chapter.
 
 ## Case Study: DBS Bank: Proving That a Billion Dollars Is Real
 
-### Strategic Dilemma
+### 1. Strategic Dilemma
 
 In 2025, DBS Bank disclosed that its AI initiatives had generated S$1 billion in validated economic value. The figure attracted immediate scrutiny. Analysts and investors can model the technology spend, but they cannot verify the return unless the organisation can demonstrate how it was measured. DBS faced a dilemma that will be familiar to every CEO who has tried to make the case for continued AI investment: claim the number and risk appearing self-serving, or subject the measurement methodology to external rigour and accept the discipline that entails. As explored in Chapter 2, DBS had already committed to a technology-first transformation under CEO Piyush Gupta. The question this chapter concerns is not what they built but how they proved it worked.
 
-### Decision Context
+### 2. Decision Context
 
 Most organisations that report AI value cannot trace it to a specific cause. Productivity rises, costs fall, and AI is credited, partly because it contributed, and partly because no one established a baseline that would allow the claim to be contested. DBS chose a different path from the outset. The bank adopted control-group methodology: for each AI initiative, a comparison group of customers, transactions, or processes was held outside the AI-driven solution. Outcomes were measured against both groups. The incremental difference, attributable specifically to AI, was what counted as validated value.
 
@@ -114,7 +114,7 @@ This approach carries a significant internal cost. It requires deliberate restra
 
 The external pressure was real. Only two banks globally, DBS and JPMorgan Chase, had publicly disclosed total realised AI value at the time of writing. That transparency invites challenge. DBS's chief data and transformation officer reports validated metrics to the board and discloses them externally. That combination of internal board accountability and external disclosure is a posture most organisations are not yet prepared to adopt.
 
-### Trade-offs
+### 3. Trade-offs
 
 Choosing control-group methodology over self-reported estimates required DBS to accept specific costs:
 
@@ -124,7 +124,7 @@ Choosing control-group methodology over self-reported estimates required DBS to 
 - **Exposure to challenge.** Publicly disclosing validated figures invites external scrutiny. The rigour that makes the number credible also makes it auditable. Any methodology weakness becomes visible.
 - **Organisational alignment required.** The measurement discipline must be embedded before product teams build and deploy. This constrains design choices and requires agreement across data, technology, and business teams at the point of concept, not the point of review.
 
-### Outcome
+### 4. Outcome
 
 The control-group methodology produced a number that could be defended: S$1 billion in AI economic value in 2025, up 33% from S$750 million the prior year and up from S$180 million in 2022. The value was tracked across three dimensions: revenue enhancement, cost savings, and risk avoidance. These correspond directly to the Financial category of the Measure stage in the Measure-Gate-Govern Model.
 
@@ -132,11 +132,9 @@ The broader organisational outcome is equally significant. DBS can now have a su
 
 It is worth acknowledging that these figures are self-reported by DBS and have not been independently audited to the same standard as statutory accounts. The methodology is rigorous relative to industry norms, but the governance of AI value measurement across the sector is still maturing.
 
-### Transferable Lesson
+### 5. Transferable Lesson
 
 The measurement problem is a design problem, not a data problem. Organisations that try to attribute AI value after deployment rarely succeed, because the baselines, the control conditions, and the attribution logic were never built in. DBS demonstrates that the Measure stage of the Measure-Gate-Govern Model is not a reporting exercise that happens at the end of a project: it is an architectural decision that happens at the beginning. The lesson for a European CEO is concrete: before approving any AI initiative above a defined threshold, require that the measurement design, including baseline, control conditions, and attribution method, is part of the business case. If the team cannot specify how the value will be verified, the pilot is not ready to proceed. That discipline is what separates a S$1 billion claim that is credible from one that is not.
-
----
 
 ## Handoff — Reviewers — Chapter 13
 Status: escalated

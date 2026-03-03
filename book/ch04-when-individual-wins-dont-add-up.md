@@ -136,7 +136,7 @@ Chapter 5 introduces the AI Transformation Framework: a four-layer map covering 
 [^17]: Typeface, "Signal Report", 2025
 [^18]: BCG, "The Widening AI Value Gap", September/October 2025
 
-## Questions for the Board: The Four Tiers
+## Questions for the Board
 
 1. At which tier does the majority of your organisation's AI activity actually sit today: individual experimentation, team norms, departmental workflow redesign, or cross-functional enterprise transformation? What evidence do you have?
 2. Have you invested in enterprise-level AI (steering committees, platforms, strategy) before achieving measurable individual fluency and team-level psychological safety? If yes, what is your plan to backfill the missing tiers?
@@ -146,7 +146,7 @@ Chapter 5 introduces the AI Transformation Framework: a four-layer map covering 
 
 ## Case Study: ING. The Bank That Sequenced Before It Scaled
 
-### Strategic Dilemma
+### 1. Strategic Dilemma
 
 In the early 2020s, ING faced a choice familiar to any large European bank with genuine ambitions for AI: how to sequence the investment. Both paths had a legitimate rationale, and neither was obviously wrong.
 
@@ -156,7 +156,7 @@ The second path was slower and less legible. Build tier by tier. Invest first in
 
 ING chose the second path. That choice is the reason its numbers look different from most of its peers.
 
-### Decision Context
+### 2. Decision Context
 
 Several factors shaped the environment in which ING made this call.
 
@@ -170,7 +170,7 @@ Bahadir Yilmaz, ING's Chief Analytics Officer, articulated the philosophy underp
 
 ING's position as the largest mortgage provider in Europe added another dimension. Mortgage origination, underwriting, and customer management involve complex domain knowledge that takes years to develop. As Yilmaz put it, "We have domain knowledge that can be transferred into digital workflows, supported by AI." That knowledge transfer only works if the individuals who hold the domain expertise are fluent enough at the individual level to participate in the redesign of the workflows that encode it.
 
-### Trade-offs
+### 3. Trade-offs
 
 Choosing the sequenced path carried real costs.
 
@@ -184,7 +184,7 @@ Some use cases moved more slowly than they might have in a less disciplined envi
 
 These were real trade-offs. ING made them deliberately, and the outcome data is the only honest measure of whether that discipline was justified.
 
-### Outcome
+### 4. Outcome
 
 The headline number is the pilot-to-production rate: 90%, against an industry average of roughly 30%. For context, IDC found that for every 33 AI proofs of concept launched, only four reach production, a rate of approximately 12%. O'Reilly research puts the broader average at 26%. ING's rate is therefore three times the industry average and roughly seven times the IDC baseline.
 
@@ -194,7 +194,7 @@ The operational outcomes reflect the same sequenced build. Seventy-five per cent
 
 These are not outputs of a single AI launch. They are the cumulative result of building each tier before claiming the next one.
 
-### Transferable Lesson
+### 5. Transferable Lesson
 
 ING's pattern maps directly onto the Four Tiers of Transformation, and the lesson for European CEOs is structural.
 

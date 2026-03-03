@@ -7,10 +7,11 @@
 ## Project status (as of Mar 2026)
 
 - **Structure:** TOC locked at 14 chapters in `plan/toc.md`. Plan, chapter hooks, docs, prompts (ch01–ch14), and agent skills are aligned to this structure.
-- **Writing:** Chapters 1–11 complete (beats, research brief, draft, Perplexity Gate, review, final). **Chapter 12 next** — Readiness.
+- **Writing:** **Chapters 1–14 complete** (beats, research brief, draft, Perplexity Gate, review, final).
 - **Skills:** All core agent skills live under `skills/` (orchestrator, planner, research, writer, case-study, perplexity-gate, reviewers, research-refresh). Additional skills: `format-book-agent`, `image-designer-agent`, `writing-ralph-wiggum-loop`.
 - **Research:** `research/` expanded with chapter-focused notes and book synthesis. Prompts in `prompts/` cover ch02–ch14 (research prompts per chapter).
 - **Publishing:** Print pipeline in place. `skills/format-book-agent/` builds print-ready PDF for KDP/IngramSpark; dry-run (Chapter 1 only) has been run. Inputs: `input/book-layout.html`, `output/misc/introduction.md`, `output/misc/about-the-author.md` (or placeholders).
+
 
 ---
 

@@ -52,25 +52,21 @@ Only 36 per cent of German organisations report preparedness for EU AI Act imple
 
 The Readiness Gate tells leaders where the organisation stands and what to fix first. But readiness is not the destination. It is the starting condition for measurable progress. Once the organisation has assessed its position, prioritised its gaps, and sequenced its investments, it needs a way to track whether those investments are working: governance, KPIs, and board accountability. That is the subject of Chapter 13. Readiness without measurement is a plan without feedback. Measurement without readiness is tracking the wrong things. Together, they form the control system for AI transformation.
 
-## Questions for the Board: Assessing Readiness
+## Questions for the Board
 
 1. If you scored your organisation on a 1 to 5 scale across strategy, data, technology, talent, governance, and culture today, which dimension would score lowest, and is anyone accountable for closing that gap?
-
 2. Has your organisation completed a structured readiness assessment in the last six months, or are you scaling AI based on assumptions about your own capabilities?
-
 3. Can you name the three most critical gaps blocking your transition from pilots to enterprise-scale AI, and are they being addressed in the current investment plan?
-
 4. Is EU AI Act compliance treated as a standalone legal exercise, or is it integrated into your AI readiness and governance framework?
-
 5. Are you investing in readiness and deployment simultaneously, or using assessment as a reason to delay?
 
 ## Case Study: Kore.ai: Readiness-Gated Deployment at Scale
 
-### Strategic Dilemma
+### 1. Strategic Dilemma
 
 A global financial services firm with 120,000 employees and 80,000 wealth advisors faced a choice that most enterprises get wrong. It could launch its agentic AI platform across all functions simultaneously, maximising speed but risking the compliance failures and user backlash that kill most large-scale rollouts. Or it could gate each phase behind proven readiness, accepting slower initial coverage but building the organisational confidence needed to scale. The stakes were concrete: advisors were spending hours searching fragmented systems to answer single client questions, and generic AI tools could not meet the firm's regulatory standards.
 
-### Decision Context
+### 2. Decision Context
 
 The bank's wealth advisors operated across disconnected platforms, internal databases, and conferencing tools. Answering a single client question could require searches across multiple systems. Meeting preparation alone consumed two to three hours per session. Generic assistants produced surface-level summaries, unsuitable for client-facing compliance work.
 
@@ -78,24 +74,22 @@ The firm chose Kore.ai's AI for Work platform and designed a five-phase rollout 
 
 A supervisor agent orchestrated handoffs between phases. Employees built over 2,600 agents using a low-code-to-pro-code builder, embedding adoption across the organisation rather than concentrating it in a single team.
 
-### Trade-offs
+### 3. Trade-offs
 
 - **Speed for stability.** The phased approach meant advisors in compliance-heavy roles waited months longer for AI support than colleagues in content creation. Early adopters in Phase 1 had tools whilst Phase 3 users were still working manually.
 - **Breadth for depth.** Rather than offering a thin layer of AI across all functions, the bank invested deeply in each phase, accepting narrower initial coverage.
 - **Central control for distributed ownership.** Allowing 2,600+ employee-built agents introduced governance complexity. The firm accepted this to drive bottom-up adoption, relying on built-in compliance checks rather than restricting agent creation.
 - **Proven readiness for assumed readiness.** Each phase gate required evidence that capabilities, data quality, and governance from the previous phase were functioning. This meant delays when readiness was not yet demonstrated, even when the technology was ready.
 
-### Outcome
+### 4. Outcome
 
 Across the full deployment, the numbers were clear. Meeting preparation time dropped from two to three hours to fifteen minutes. Document findability rose from 20% to 80%, a 300% improvement. Employee satisfaction increased by 22%. Task time fell by 12% across supported workflows. The bank reported annual efficiency savings exceeding $5 million and over 90,000 hours saved. The platform now handles 80,000 AI interactions daily.
 
 The phased approach meant these results were cumulative, not simultaneous. Each phase delivered measurable value before the next began, giving leadership concrete evidence to justify continued investment.
 
-### Transferable Lesson
+### 5. Transferable Lesson
 
 The bank's deployment is the Readiness Gate in practice. Each phase followed the three-step pattern: diagnose current capability across the relevant dimensions, prioritise the next deployment based on where value, capability, and trust were strongest, and sequence the rollout so that each phase built the foundation for the next. Compliance tools (Phase 3) were gated behind governance readiness. Portfolio intelligence (Phase 4) were gated behind data integration readiness. For European CEOs applying the Readiness Gate, the sequence logic is straightforward: do not order your AI deployment by ambition or by the loudest internal demand. Order it by proven readiness. The phases that require the highest trust should come only after the governance infrastructure has been tested in lower-risk phases. Readiness is not a report that precedes action. It is the gate that connects each action to the next.
-
----
 
 ## Handoff — Reviewers — Chapter 12
 Status: complete

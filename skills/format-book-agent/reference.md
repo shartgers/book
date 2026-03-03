@@ -28,7 +28,7 @@ Set trim size in the script or via CSS `@page { size: ... }`. Default in script:
 
 - **Generous margins** and clear heading hierarchy.
 - **Consistent chapter openings**: e.g. chapter title on a new page, optional drop cap or first-line emphasis.
-- **Widows and orphans**: Avoid single lines at top/bottom of pages where possible (script/xhtml2pdf can help with break controls).
+- **Widows and orphans**: Avoid single lines at top/bottom of pages where possible (script/weasyprint can help with break controls).
 - **Definitions**: Rendered in a **box with background colour** so they are visually consistent and easy to spot.
 - **Case studies**: Rendered with a **distinct layout** (e.g. serif font, tinted background, border) so they read as a separate "voice" from the main narrative.
 
@@ -131,7 +131,7 @@ The build script is designed to match [KDP's "Format Your Paperback"](https://kd
    The script includes: half title, title page, copyright page, table of contents (front); chapters (body); About the Author and Index (back). This matches KDP's [front, body, and back matter](https://kdp.amazon.com/help?topicId=GDDYZG2C7RVF5N9J) guidance (title pages, copyright, chapter headings, author bio).
 
 4. **Save manuscript for upload**  
-   Output is a single **PDF** (recommended by KDP). See [Save Your Manuscript File](https://kdp.amazon.com/help/topic/G202145060): no crop/trim marks, no encryption; embed fonts (xhtml2pdf embeds by default); single-page layout; for best results use PDF optimized for print. After building, upload and preview in KDP.
+   Output is a single **PDF** (recommended by KDP). See [Save Your Manuscript File](https://kdp.amazon.com/help/topic/G202145060): no crop/trim marks, no encryption; embed fonts (weasyprint embeds by default); single-page layout; for best results use PDF optimized for print. After building, upload and preview in KDP.
 
 ---
 

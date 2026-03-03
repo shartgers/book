@@ -60,7 +60,7 @@ Install dependencies first (see [Requirements](#requirements) below).
 - Python 3.9+
 - Dependencies in `skills/format-book-agent/requirements.txt`:
   - `markdown` — Markdown to HTML
-  - `xhtml2pdf` — HTML to PDF (pure Python, no system dependencies)
+  - `weasyprint` — HTML to PDF (with full control of @page, margins, and counters)
   - `ebooklib` — EPUB creation (for `--epub`)
   - `pypdf` — inject title, author, subject, keywords into PDF after build
 
@@ -86,7 +86,7 @@ All manuscript content is read **only** from the `book/` folder. Nothing outside
 
 Dry-run limits the **body** to Chapter 1 only; front and back matter are unchanged.
 
-**EPUB metadata:** When building `--epub`, the script reads metadata from the book folder and writes it into the EPUB OPF (Dublin Core): title, subtitle, author, description, language, identifier (ISBN), and subjects (keywords). **PDF metadata:** When building PDF, the script injects the same metadata into the PDF document info (Title, Author, Subject, Keywords) after xhtml2pdf runs, using pypdf. Sources for both: `book/toc.md`, `book/about-the-author.md`, `book/introduction.md`, and optional `input/metadata.md` or `input/metadata.yaml`. This matches the book-metadata skill so you can use the same `input/metadata.md` for the metadata MD file and for both EPUB and PDF builds.
+**EPUB metadata:** When building `--epub`, the script reads metadata from the book folder and writes it into the EPUB OPF (Dublin Core): title, subtitle, author, description, language, identifier (ISBN), and subjects (keywords). **PDF metadata:** When building PDF, the script injects the same metadata into the PDF document info (Title, Author, Subject, Keywords) after weasyprint runs, using pypdf. Sources for both: `book/toc.md`, `book/about-the-author.md`, `book/introduction.md`, and optional `input/metadata.md` or `input/metadata.yaml`. This matches the book-metadata skill so you can use the same `input/metadata.md` for the metadata MD file and for both EPUB and PDF builds.
 
 ## Platform Notes
 
@@ -97,7 +97,7 @@ For detailed specs and KDP alignment (trim, margins, bleed, gutter by page count
 
 ## If the Script Fails
 
-- **PDF export**: The script uses **xhtml2pdf** for PDF. Install with `pip install xhtml2pdf`. Full book always outputs PDF; dry-run defaults to HTML (use `--dry-run --pdf` for a PDF preview).
+- **PDF export**: The script uses **weasyprint** for PDF. Install with `pip install weasyprint`. On Windows, this also requires Pango/GTK (see [reference.md](reference.md#windows-weasyprint-setup)). Full book always outputs PDF; dry-run defaults to HTML (use `--dry-run --pdf` for a PDF preview).
 - **EPUB export**: Requires **ebooklib**. Install with `pip install ebooklib`. Use `--epub --output path/to/book.epub` (extension is forced to `.epub` if omitted).
 - **Missing chapter**: Script skips missing `book/chapter-NN.md` or `book/chNN-*.md`; dry-run only needs chapter 1.
 - **No about-the-author**: If `book/about-the-author.md` is missing, back matter still renders with a placeholder.

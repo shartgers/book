@@ -50,7 +50,7 @@ The generated file includes:
 
 1. **Overview** — Single place for title, subtitle, author, description, language, identifier. Easy to copy-paste into web forms.
 2. **EPUB / Dublin Core** — Fields aligned with EPUB OPF (dc:title, dc:creator, dc:language, dc:identifier, dcterms:modified, dc:description, dc:subject). Format-book-agent or EPUB tools can use these.
-3. **PDF / Document Info & XMP** — Title, Author, Subject, Keywords, Creator, and dates. For PDF producers (e.g. pypdf, xhtml2pdf) or manual entry in Acrobat.
+3. **PDF / Document Info & XMP** — Title, Author, Subject, Keywords, Creator, and dates. For PDF producers (e.g. pypdf, weasyprint) or manual entry in Acrobat.
 
 The **full description** (subject text) is always included in full in the output, under "Full description (Subject / dc:description)" and in the EPUB/PDF sections—never truncated. Copy-paste from those blocks for KDP, Acrobat, or OPF.
 

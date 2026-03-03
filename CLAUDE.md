@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Identity
 
-- **Book:** ~100 pages, European CEO audience
+- **Book:** ~200 pages, European CEO audience
 - **Thesis:** European CEOs are dangerously underprepared for the largest organisational paradigm shift since the industrial revolution
 - **Tone:** Senior advisor to peer CEO — direct, evidence-based, structured, never dry
 - **Language:** British English throughout (colour, organise, behaviour, whilst, towards, etc.)

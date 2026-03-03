@@ -104,7 +104,7 @@ That is the work of readiness: a diagnostic assessment across the five pillars (
 
 [^26]: MIT, "NANDA Report", 2025
 
-## Questions for the Board — The Playbook
+## Questions for the Board
 
 1. Can you identify which phase of the Transformation Playbook your organisation is in today, Foundation, Activation, or Scale, and what specific evidence supports that assessment?
 2. Have you met the Foundation prerequisites before launching pilots: minimum viable governance, data readiness for priority use cases, and baseline AI literacy measured, not assumed? If not, which gaps are most critical?
@@ -145,8 +145,6 @@ The outcome is not uniformly quantified. The research brief does not provide P&L
 ### 5. Transferable Lesson
 
 For European CEOs building the Agentic Organisation, BBVA illustrates a core principle of the Transformation Playbook: **the sequence matters**. Foundation (governance, data readiness, literacy) must precede Activation (Centre of Excellence, pilots, first wins). Activation must precede Scale (enterprise deployment, operating model redesign). BBVA did not launch ChatGPT Enterprise before completing cloud migration and establishing the AI Factory. The 300 embedded wizards and four innovation programmes show that agentic employee development is not a parallel track but the mechanism through which each phase delivers compounding value. The decision rule for CEOs: resist the pressure to skip phases. Invest in Foundation even when pilots seem urgent. Build the AI Factory and skill-sharing mechanisms before enterprise-wide rollout. The playbook is a sequence, not a menu.
-
----
 
 ## Handoff — Reviewers — Chapter 11
 Status: complete

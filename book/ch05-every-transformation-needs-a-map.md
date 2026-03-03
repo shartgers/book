@@ -51,7 +51,7 @@ The AI Transformation Framework provides the map. The next question is how to or
 [^19]: Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025
 [^20]: EU, "AI Act", 2024
 
-## Questions for the Board: The Framework
+## Questions for the Board
 
 1. Can your leadership team name the four layers of the AI Transformation Framework (Vision, Products, Operating Model, Foundation) and describe where your organisation stands on each?
 2. Which layer is most advanced in your organisation, and which is most neglected? What is the consequence of that imbalance?
@@ -88,8 +88,6 @@ The structure (AI Factory plus embedded wizards) illustrates how the four layers
 European CEOs can take one clear lesson from BBVA: the AI Transformation Framework works as a governance and organising principle only when it is used as the single map for "where we are and where we need to be" on every layer. Letting Vision, Products, Operating Model, and Foundation evolve separately leads to the pattern the chapter describes: pilots that do not scale and boards that lack a shared language.
 
 BBVA's bet was to make the framework the basis for investment, roles, and prioritisation across 120,000 people and 25 countries, not a checklist to be filled in once. The transferable rule is to adopt one framework, use it to assess and govern all four layers, and accept the trade-offs (central platform choices, coordination cost, standardisation) in exchange for a transformation that can be measured, steered, and scaled as a whole.
-
----
 
 ## Handoff — Reviewers — Chapter 05
 Status: complete

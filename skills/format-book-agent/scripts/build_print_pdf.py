@@ -39,9 +39,13 @@ if os.name == "nt":
     )
     _dll_dirs = os.getenv("WEASYPRINT_DLL_DIRECTORIES", _default_dll).split(";")
     _existing = [d.strip() for d in _dll_dirs if d.strip() and os.path.isdir(d.strip())]
-    if _existing:
-        _path_prepend = os.pathsep.join(_existing)
-        os.environ["PATH"] = _path_prepend + os.pathsep + os.environ.get("PATH", "")
+    for d in _existing:
+        if hasattr(os, "add_dll_directory"):
+            try:
+                os.add_dll_directory(d)
+            except (OSError, Exception):
+                pass
+        os.environ["PATH"] = d + os.pathsep + os.environ.get("PATH", "")
 
 try:
     from weasyprint import HTML as WeasyHTML
@@ -544,10 +548,9 @@ def build_chapter_html(repo: Path, chapter_num: int, strip_handoff: bool = True)
         md = re.split(r"(?:^|\n)## Handoff\b", md, maxsplit=1)[0].rstrip()
     html = markdown_to_html(md)
     html = wrap_definition_blocks(html)
-    html = wrap_case_study_sections(html)
     html = wrap_questions_section_and_remove_hr(html)
     html = reposition_footnotes_before_questions(html)
-    html = inject_ordered_list_numbers(html)
+    html = wrap_case_study_sections(html)
     return html
 
 
@@ -624,23 +627,15 @@ def inject_ordered_list_numbers(html: str) -> str:
     """
     Prepend "1. ", "2. ", ... to each <li> inside <ol> and wrap in a block so each item
     starts on a new line in PDF (explicit block display for list items).
-    Skips footnote <ol> inside .chapter-footnotes to keep footnotes compact.
+    Reads the 'start' attribute if present to support continuous numbering.
     """
-    # Extract footnote blocks so they are not processed (avoids li-block + br between items)
-    footnote_blocks = []
-    def extract_footnotes(match: re.Match) -> str:
-        footnote_blocks.append(match.group(0))
-        return "<!--CHAPTER_FOOTNOTES-->"
-    html_temp = re.sub(
-        r'<div class="chapter-footnotes"><div class="footnote">\s*<ol[^>]*>.*?</ol>\s*</div></div>',
-        extract_footnotes,
-        html,
-        flags=re.DOTALL,
-    )
-    # Process all remaining ol elements
+    # Process all ol elements
     def replace_ol(match: re.Match) -> str:
         inner = match.group(1)
-        num = 1
+        # Check for start attribute (e.g. from make_footnotes_continuous)
+        num_match = re.search(r'start="(\d+)"', match.group(0), re.IGNORECASE)
+        num = int(num_match.group(1)) if num_match else 1
+        
         def repl_li(li_match: re.Match) -> str:
             nonlocal num
             content = li_match.group(1)
@@ -648,12 +643,13 @@ def inject_ordered_list_numbers(html: str) -> str:
             num += 1
             return result
         inner = re.sub(r"<li[^>]*>(.*?)</li>", repl_li, inner, flags=re.DOTALL)
-        inner = re.sub(r"</li>\s*<li>", "</li><br/><li>", inner)
-        return "<ol>" + inner + "</ol>"
-    html_processed = re.sub(r"<ol[^>]*>(.*?)</ol>", replace_ol, html_temp, flags=re.DOTALL)
-    # Restore footnote blocks
-    for block in footnote_blocks:
-        html_processed = html_processed.replace("<!--CHAPTER_FOOTNOTES-->", block, 1)
+        # Skip extra line breaks for footnotes to keep them compact
+        if 'class="footnote"' not in match.group(0) and 'class="chapter-footnotes"' not in match.group(0):
+            inner = re.sub(r"</li>\s*<li>", "</li><br/><li>", inner)
+        start_attr = f' start="{int(num_match.group(1))}"' if num_match else ""
+        return f"<ol{start_attr}>" + inner + "</ol>"
+    
+    html_processed = re.sub(r"<ol[^>]*>(.*?)</ol>", replace_ol, html, flags=re.DOTALL)
     return html_processed
 
 
@@ -1109,7 +1105,7 @@ def get_css(for_pdf: bool = True) -> str:
         font-weight: bold;
         margin-right: 0.2em;
     }}
-    /* Ordered list items (e.g. questions): default line spacing (no xhtml2pdf-era extra gap) */
+    /* Ordered list items (e.g. questions): default line spacing (avoids excessive gaps) */
     .li-block {{
         display: block;
     }}
@@ -1265,7 +1261,7 @@ def get_css(for_pdf: bool = True) -> str:
     }}
 
     /* FOOTNOTES: small, black, no underline; placed before Questions section.
-       Inline refs (superscript numbers) and the footnote block use case-study font. */
+       Inline refs (superscript numbers) and the footnote block use Gill Sans. */
     sup a.footnote-ref,
     sup a.footnote-ref:hover,
     sup a.footnote-ref:visited {{
@@ -1275,35 +1271,57 @@ def get_css(for_pdf: bool = True) -> str:
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
     }}
     .chapter-footnotes {{
+        float: footnote;
+        footnote-display: block;
+        footnote-policy: page;
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
-        font-size: 8pt;
-        line-height: 1.35;
+        font-size: 7.25pt;
+        line-height: 1.0;
         color: #000;
-        margin: 1.5em 0 0 0;
-        padding-top: 0.8em;
-        border-top: 1px solid #ccc;
+        margin-top: 2em;
+        margin-bottom: 0;
+        padding: 0.2em 0 0 0;
+        border-top: 0.8pt solid #000;
+        page-break-inside: avoid;
+        display: block;
+        clear: both;
     }}
+    .chapter-footnotes::footnote-call,
+    .chapter-footnotes::footnote-marker {{
+        content: "";
+    }}
+    /* When footnotes are in the footnote block, use Gill Sans and reset numbering styles */
     .chapter-footnotes .footnote ol {{
         margin: 0;
-        padding-left: 1.5em;
-        list-style: decimal;
+        padding-left: 0;
+        list-style: none;
     }}
     .chapter-footnotes .footnote li {{
-        margin: 0 0 0.15em 0;
+        display: block;
+        margin: 0;
         padding: 0;
     }}
-    /* Inline p so number and text stay on same line; no extra line breaks */
+    .chapter-footnotes .footnote li .li-block {{
+        display: flex;
+        align-items: baseline;
+        gap: 0.4em;
+    }}
+    .chapter-footnotes .footnote li .list-number {{
+        font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
+        font-weight: bold;
+        flex-shrink: 0;
+        min-width: 1.5em;
+    }}
+    /* Inline p so number and text stay on same line; no extra line breaks; remove indent */
     .chapter-footnotes .footnote li p {{
         margin: 0;
         padding: 0;
         display: inline;
         font-size: inherit;
+        text-indent: 0;
     }}
     .chapter-footnotes .footnote-backref {{
-        font-size: 0.9em;
-        color: #000;
-        text-decoration: none;
-        margin-left: 0.2em;
+        display: none;
     }}
 
     /* Questions section: new page with a line above the heading */
@@ -1336,6 +1354,56 @@ def get_css(for_pdf: bool = True) -> str:
         page-break-after: avoid;
     }}
     """
+
+
+def make_footnotes_continuous(html: str, start_offset: int, chapter_id: str) -> tuple[str, int]:
+    """
+    Renumber the footnotes in the given HTML block starting from `start_offset + 1`.
+    Ensures footnote IDs are unique across chapters by prepending `chapter_id-` to internal anchor names.
+    Returns the modified HTML and the new next footnote offset.
+    """
+    # 1. Update the visible number inside <a class="footnote-ref">...</a>
+    def repl_ref(m):
+        num = int(m.group(2)) + start_offset
+        return f"{m.group(1)}{num}{m.group(3)}"
+    
+    html = re.sub(
+        r'(<a[^>]*?class="footnote-ref"[^>]*?>)(\d+)(</a>)',
+        repl_ref,
+        html,
+        flags=re.IGNORECASE
+    )
+    
+    # 2. Update the tooltip number in title="..."
+    html = re.sub(
+        r'(title="Jump back to footnote )(\d+)( in the text")',
+        lambda m: f"{m.group(1)}{int(m.group(2)) + start_offset}{m.group(3)}",
+        html,
+        flags=re.IGNORECASE
+    )
+    
+    # 3. Prevent ID clashes across chapters by prefixing IDs and HREFs
+    html = re.sub(r'(id=["\']fn:)([^"\']+)', fr'\1{chapter_id}-\2', html)
+    html = re.sub(r'(id=["\']fnref:)([^"\']+)', fr'\1{chapter_id}-\2', html)
+    html = re.sub(r'(href=["\']#fn:)([^"\']+)', fr'\1{chapter_id}-\2', html)
+    html = re.sub(r'(href=["\']#fnref:)([^"\']+)', fr'\1{chapter_id}-\2', html)
+    
+    # 4. Count the number of footnotes generated by python-markdown in this chapter
+    count = len(re.findall(f'<li id="fn:{chapter_id}-', html, flags=re.IGNORECASE))
+    
+    # 5. Set the starting number on <ol> so PDF and browser lists style properly
+    if start_offset > 0 and count > 0:
+        def repl_ol(m):
+            return f'{m.group(1)} start="{start_offset + 1}"{m.group(2)}'
+        html = re.sub(
+            r'(<div class="footnote"[^>]*>.*?<ol)([^>]*>)',
+            repl_ol,
+            html,
+            count=1,
+            flags=re.IGNORECASE | re.DOTALL
+        )
+        
+    return html, start_offset + count
 
 
 def build_full_html(
@@ -1395,6 +1463,9 @@ def build_full_html(
     if has_intro:
         introduction_html = markdown_to_html(introduction_md)
         introduction_html = _add_intro_subhead_class(introduction_html)
+        # Introduction doesn't usually have many footnotes, but let's renumber them just in case.
+        # But wait, introduction numbers start from 1.
+        introduction_html, fn_offset = make_footnotes_continuous(introduction_html, 0, "intro")
         introduction_html = inject_ordered_list_numbers(introduction_html)
         html_parts.append('<div class="introduction front-matter" id="introduction">')
         html_parts.append(introduction_html)
@@ -1403,6 +1474,10 @@ def build_full_html(
     # Part separator pages (Part I–IV) before the first chapter of each part; then chapters
     toc_by_num = dict(toc_chapters)
     strip_handoff = not dry_run
+    
+    if not has_intro:
+        fn_offset = 0
+
     for num in chapters_included:
         # Insert part separator page when this chapter starts a part (id for TOC link/page number)
         if num in PART_TITLES:
@@ -1412,8 +1487,13 @@ def build_full_html(
         ch_html = build_chapter_html(repo, num, strip_handoff=strip_handoff)
         if not ch_html:
             continue
+        
+        chapter_id = f"ch{num:02d}"
+        ch_html, fn_offset = make_footnotes_continuous(ch_html, fn_offset, chapter_id)
+        ch_html = inject_ordered_list_numbers(ch_html)
+        
         ch_title = toc_by_num.get(num, f"Chapter {num}")
-        html_parts.append(f'<div class="chapter" id="ch{num:02d}">')
+        html_parts.append(f'<div class="chapter" id="{chapter_id}">')
         # Hidden TOC entry so PDF Contents shows "Chapter N - Title" (visible page keeps number + title separate)
         html_parts.append(
             f'<div class="toc-entry-hidden">Chapter {num} - {html_module.escape(ch_title)}</div>'
@@ -1629,8 +1709,10 @@ def build_epub(
 
     # Introduction (optional)
     introduction_md = load_text(repo / "book" / "introduction.md")
+    fn_offset = 0
     if introduction_md.strip():
         intro_html = markdown_to_html(introduction_md)
+        intro_html, fn_offset = make_footnotes_continuous(intro_html, fn_offset, "intro")
         intro_html = inject_ordered_list_numbers(intro_html)
         intro_html = _rewrite_epub_html_images(intro_html, epub_src_mapping)
         intro_page = epub.EpubHtml(
@@ -1648,6 +1730,10 @@ def build_epub(
         ch_html = build_chapter_html(repo, num, strip_handoff=strip_handoff)
         if not ch_html:
             continue
+        chapter_id = f"ch{num:02d}"
+        ch_html, fn_offset = make_footnotes_continuous(ch_html, fn_offset, chapter_id)
+        ch_html = inject_ordered_list_numbers(ch_html)
+        
         ch_html = _rewrite_epub_html_images(ch_html, epub_src_mapping)
         ch_title = toc_by_num.get(num, f"Chapter {num}")
         # Keep first h1 or add chapter title for nav

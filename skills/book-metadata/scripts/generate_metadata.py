@@ -296,7 +296,7 @@ def write_metadata_md(meta: dict, out_path: Path) -> None:
         "",
         "## PDF (Document information & XMP)",
         "",
-        "Standard PDF document info and XMP-friendly fields for pypdf, xhtml2pdf, or Acrobat.",
+        "Standard PDF document info and XMP-friendly fields for pypdf, weasyprint, or Acrobat.",
         "",
         "| Field | Value |",
         "|-------|-------|",

@@ -144,7 +144,7 @@ The organisations that master all three angles of the AI Decision Framework, cre
 
 [^23]: MIT, "NANDA Report", 2025
 
-## Questions for the Board: Evaluating AI Investments
+## Questions for the Board
 
 1. When your team proposes an AI initiative, are they required to present its expected value, capability readiness, and trust implications, or only one of the three?
 2. Can you articulate whether your current AI portfolio is weighted towards Deploy (quick wins), Reshape (function redesign), or Invent (new models), and is that balance intentional?
