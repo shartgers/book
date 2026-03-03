@@ -2,7 +2,7 @@
 
 Early AI pilots delivered impressive returns. In 2023, organisations reported an average 31% ROI on their initial AI investments. By 2025, as those projects moved from pilot to scale, that figure collapsed to 7%, below most companies' cost of capital.
 
-The pattern has repeated across industries. Broader analysis confirms the scale of the problem: only 5% of firms achieve AI value at scale, whilst 60% achieve no material value at all. MIT research found that 95% of enterprise generative AI pilots fail to deliver sustained impact on the profit and loss statement, even as global spending on generative AI reached $30–40 billion.
+The pattern has repeated across industries. Broader analysis confirms the scale of the problem: only 5% of firms achieve AI value at scale, whilst 60% achieve no material value at all. MIT research found that 95% of enterprise generative AI pilots fail to deliver sustained impact on the profit and loss statement.[^23], even as global spending on generative AI reached $30–40 billion.
 
 That 95% figure captures something important. It measured P&L impact of pilots at relatively short timescales, not long-term scaled deployments. The statistic illustrates the severity of the decision problem, not a verdict on AI's potential.
 
@@ -36,7 +36,9 @@ Every AI initiative, from a quick-win productivity tool to an end-to-end process
 
 > **Definition: The AI Decision Framework**
 >
-> The AI Decision Framework is a three-element decision lens for evaluating AI investments. Every initiative is scored on Value (does it create measurable business value?), Capabilities (can the organisation deliver it?), and Trust (can the organisation govern it responsibly?). It is not a layer of the AI Transformation Framework; it is a cross-cutting filter applied to every investment decision across the organisation.
+> The AI Decision Framework is a three-element decision lens for evaluating AI investments.
+
+Every initiative is scored on Value (does it create measurable business value?), Capabilities (can the organisation deliver it?), and Trust (can the organisation govern it responsibly?). It is not a layer of the AI Transformation Framework; it is a cross-cutting filter applied to every investment decision across the organisation.
 
 The three elements interact. High-value initiatives with low capability readiness need sequencing: build the capability before scaling the investment. High-value initiatives with high governance risk need a trust-first approach: establish governance before launch.
 
@@ -98,11 +100,13 @@ As one industry leader put it: "Trust underpins it all, as systems will only eve
 
 Yet only 2% of organisations have fully operationalised responsible AI practices. Three-quarters of companies have paused AI projects at some point due to risk concerns. The gap between acknowledging trust's importance and building it into operations is one of the most significant barriers to AI value at scale.
 
+Tiered autonomy, introduced in Chapter 3 as a design principle for agentic workflows, becomes a practical governance tool within the Trust dimension. Low-risk tasks (scheduling, data retrieval) operate with full autonomy. Medium-risk tasks (recommendations, initial assessments) operate under human supervision. High-risk tasks (financial transactions, regulatory decisions) require explicit human approval. The boundaries are proportionate to risk, not uniform across all AI applications.
+
 > **Definition: Tiered Autonomy**
 >
-> Tiered autonomy is a governance principle that defines the level of independence an AI agent is permitted based on the risk and impact of its actions. Low-risk tasks (scheduling, data retrieval) operate with full autonomy. Medium-risk tasks (recommendations, initial assessments) operate under human supervision. High-risk tasks (financial transactions, regulatory decisions) require explicit human approval. The boundaries are proportionate to risk, not uniform across all AI applications.
+> Tiered autonomy is a governance principle that defines the level of independence an AI agent is permitted based on the risk and impact of its actions.
 
-Tiered autonomy, introduced in Chapter 3 as a design principle for agentic workflows, becomes a practical governance tool within the Trust dimension. Organisations that define clear autonomy levels for each AI initiative can scale trust incrementally: start with low-risk, fully autonomous deployments, build confidence, and expand the autonomy boundary as governance matures.
+Organisations that define clear autonomy levels for each AI initiative can scale trust incrementally: start with low-risk, fully autonomous deployments, build confidence, and expand the autonomy boundary as governance matures. Combined with the human-in-the-loop principle defined in Chapter 3, tiered autonomy gives boards a concrete mechanism for governing AI risk without paralysing deployment. Organisations that define clear autonomy levels for each AI initiative can scale trust incrementally: start with low-risk, fully autonomous deployments, build confidence, and expand the autonomy boundary as governance matures.
 
 Combined with the human-in-the-loop principle defined in Chapter 3, tiered autonomy gives boards a concrete mechanism for governing AI risk without paralysing deployment.
 
@@ -137,6 +141,8 @@ European firms that have invested in responsible AI infrastructure report that g
 There is also a productivity dimension to the trust advantage. Research suggests that AI adoption increases labour productivity by 4% on average in European firms, driven by capital deepening rather than job displacement. That finding runs counter to the displacement fears that dominate public discourse, and it gives leaders an evidence-based narrative for building employee trust.
 
 The organisations that master all three angles of the AI Decision Framework, creating real value, building the right capabilities, and earning trust from regulators, customers, and employees, are best placed to lead the next decade. Chapter 9 makes the full case for why Europe's distinctive regulatory and cultural context is a strategic advantage, and what leaders must do to capitalise on it.
+
+[^23]: MIT, "NANDA Report", 2025
 
 ## Questions for the Board: Evaluating AI Investments
 

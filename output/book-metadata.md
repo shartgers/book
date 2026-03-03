@@ -13,6 +13,7 @@ Generated from the `book/` folder. Use for KDP, IngramSpark, or as input to the 
 | **Language** | en |
 | **Identifier (ISBN)** | (Add ISBN in input/metadata.md as Identifier: 978-...) |
 | **Keywords** | AI, transformation, CEO, European business, EU AI Act, agentic organisation, leadership, digital transformation |
+| **BISAC** | COM004000, BUS063000, BUS071000 |
 
 ### Full description (Subject / dc:description)
 
@@ -33,7 +34,7 @@ Required and recommended metadata for EPUB. Use in OPF `<metadata>` or feed to e
 | `dc:creator` | Stephan Hartgers-Rus |
 | `dc:language` | en |
 | `dc:identifier` | (Add ISBN in input/metadata.md as Identifier: 978-...) |
-| `dcterms:modified` | 2026-03-02T22:13:59Z |
+| `dcterms:modified` | 2026-03-03T19:30:42Z |
 | `dc:subject` | AI, transformation, CEO, European business, EU AI Act, agentic organisation, leadership, digital transformation |
 
 **Full `dc:description`** (copy below):
@@ -62,7 +63,7 @@ Standard PDF document info and XMP-friendly fields for pypdf, xhtml2pdf, or Acro
 | **Title** | The Agentic Organisation: A complete AI transformation framework - European edition |
 | **Author** | Stephan Hartgers-Rus |
 | **Keywords** | AI, transformation, CEO, European business, EU AI Act, agentic organisation, leadership, digital transformation |
-| **ModDate** | 2026-03-02T22:13:59Z |
+| **ModDate** | 2026-03-03T19:30:42Z |
 
 **Full Subject** (copy below):
 

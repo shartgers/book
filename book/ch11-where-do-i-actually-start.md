@@ -2,9 +2,15 @@
 
 Insight without execution is expensive. By now you understand the shift, the model, the tiers, the decision framework, and the European context. The question that remains, the question every leader eventually returns to, is: where do I actually start, and in what order?
 
-The cost of getting the sequence wrong is stark. MIT found that 95% of enterprise generative AI implementations delivered zero P&L impact despite $30–40 billion invested. McKinsey reports that 90% of transformative AI use cases remain stuck in pilot mode. Organisations routinely underestimate scaling costs by 250–400%. The root cause is not technology failure. It is sequencing failure.
+The cost of getting the sequence wrong is stark. MIT found that 95% of enterprise generative AI implementations delivered zero P&L impact despite $30–40 billion invested.[^26] McKinsey reports that 90% of transformative AI use cases remain stuck in pilot mode. Organisations routinely underestimate scaling costs by 250–400%. The root cause is not technology failure. It is sequencing failure.
 
-Companies that skip governance and data foundations to launch pilots accumulate what Chapter 7 called AI Infrastructure Debt. Companies that run pilots without a Centre of Excellence cannot replicate first wins. Companies that scale without operating model redesign hit the 70% wall: BCG's 10/20/70 rule shows that 70% of AI transformation effort must go into people and processes, yet most organisations invest backwards. This chapter introduces the Transformation Playbook: Foundation, Activation, Scale. A phased approach designed for the specific constraints and opportunities of a European organisation in 2026. At every phase, the chapter shows what to do for people, because developing agentic employees is not a parallel workstream but the primary mechanism through which each phase delivers value.
+Companies that skip governance and data foundations to launch pilots accumulate what Chapter 7 called AI Infrastructure Debt. Companies that run pilots without a Centre of Excellence cannot replicate first wins. Companies that scale without operating model redesign hit the 70% wall: BCG's 10/20/70 rule shows that 70% of AI transformation effort must go into people and processes, yet most organisations invest backwards. This chapter introduces the Transformation Playbook: Foundation, Activation, Scale. A phased approach designed for the specific constraints and opportunities of a European organisation in 2026.
+
+> **Definition: The Transformation Playbook**
+>
+> The Transformation Playbook is a three-phase sequencing model for building the Agentic Organisation.
+
+Foundation (governance, data readiness, AI literacy), Activation (strategy setting, Centre of Excellence, pilots, first wins), and Scale (cross-functional transformation, operating model redesign). Each phase has clear deliverables and a formal gate for transition. Agentic employee development is embedded at every phase, not treated as a parallel track. The playbook maps directionally to the Four Tiers of Transformation: Foundation aligns with Individual, Activation with Team and Department, Scale with Organisation. At every phase, the chapter shows what to do for people, because developing agentic employees is not a parallel workstream but the primary mechanism through which each phase delivers value.
 
 ## The Sequencing Trap
 
@@ -21,10 +27,6 @@ Ignoring the people track compounds all of the above. Only 6% of companies have 
 ## The Transformation Playbook
 
 The Transformation Playbook is a three-phase sequencing model for building the Agentic Organisation. Each phase has distinct deliverables, and each phase transition requires a formal gate approved at board level. Agentic employee development runs through all three phases: individual fluency at Foundation, team coordination at Activation, organisational capability at Scale.
-
-> **Definition: The Transformation Playbook**
->
-> The Transformation Playbook is a three-phase model for building the Agentic Organisation: Foundation (governance, data readiness, AI literacy), Activation (strategy setting, Centre of Excellence, pilots, first wins), and Scale (cross-functional transformation, operating model redesign). Each phase has clear deliverables and a formal gate for transition. Agentic employee development is embedded at every phase, not treated as a parallel track. The playbook maps directionally to the Four Tiers of Transformation: Foundation aligns with Individual, Activation with Team and Department, Scale with Organisation.
 
 ![The Transformation Playbook](book/images/ch11-transformation-playbook.png)
 
@@ -99,6 +101,8 @@ PE and mid-market organisations follow shorter phases. A lighter CoE, three to f
 The Transformation Playbook gives the leader a sequence: Foundation, Activation, Scale, with agentic employee development at every phase. But a sequence is only useful if the organisation knows where it stands today. The playbook answers "what do I do, and in what order?" The next question is: "where am I now, and what must I fix first?"
 
 That is the work of readiness: a diagnostic assessment across the five pillars (Product and Strategy, People and Skills, Processes and Governance, Technology and Infrastructure, Data and Context) using the Value, Capability, and Trust lenses from Chapter 8. The Transformation Playbook and the readiness diagnostic are complementary. The playbook defines the phases. The diagnostic tells you which phase you are in and where the gaps are. Chapter 12 provides that diagnostic. Chapter 13 then shows how to measure progress through the phases: the KPIs, governance structures, and board reporting mechanisms that prevent the playbook from becoming another strategy document that gathers dust.
+
+[^26]: MIT, "NANDA Report", 2025
 
 ## Questions for the Board — The Playbook
 

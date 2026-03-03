@@ -60,13 +60,13 @@ except ImportError:
     PdfReader = None
     PdfWriter = None
 
-# Trim size and margins: 6" x 9"; tighter margins to fit more content
-TRIM_WIDTH = "6in"
-TRIM_HEIGHT = "9in"
-PAGE_TOP = "0.7in"
-PAGE_BOTTOM = "0.7in"
-PAGE_LEFT = "0.65in"
-PAGE_RIGHT = "0.65in"
+# Trim size and margins: 5.5" x 8.25"; tighter margins to fit more content
+TRIM_WIDTH = "5.5in"
+TRIM_HEIGHT = "8.25in"
+PAGE_TOP = "0.6in"
+PAGE_BOTTOM = "0.6in"
+PAGE_LEFT = "0.55in"
+PAGE_RIGHT = "0.55in"
 # Footer: WeasyPrint uses @page margin boxes for page numbers (no frame height needed)
 
 
@@ -546,6 +546,7 @@ def build_chapter_html(repo: Path, chapter_num: int, strip_handoff: bool = True)
     html = wrap_definition_blocks(html)
     html = wrap_case_study_sections(html)
     html = wrap_questions_section_and_remove_hr(html)
+    html = reposition_footnotes_before_questions(html)
     html = inject_ordered_list_numbers(html)
     return html
 
@@ -585,26 +586,75 @@ def wrap_questions_section_and_remove_hr(html: str) -> str:
     return html
 
 
+def reposition_footnotes_before_questions(html: str) -> str:
+    """
+    Move the footnote block (from Python markdown extra) to immediately before the
+    Questions section, so footnotes appear at the bottom of the last text page
+    before Questions. Wraps the block in .chapter-footnotes for styling.
+    """
+    # Match <div class="footnote">...</div> (handles fn:1 or fn-1 id formats)
+    footnote_match = re.search(
+        r'<div\s+class="footnote">(.*?)</div>\s*$',
+        html,
+        re.DOTALL | re.IGNORECASE,
+    )
+    if not footnote_match:
+        return html
+    footnote_block = footnote_match.group(0)
+    html_without_footnotes = html[: footnote_match.start()].rstrip() + html[footnote_match.end() :]
+
+    # Insert before <div class="questions-section">
+    qs_match = re.search(r'<div\s+class="questions-section">', html_without_footnotes, re.IGNORECASE)
+    if not qs_match:
+        # No Questions section; append footnotes at end
+        return html_without_footnotes + "\n" + footnote_block
+
+    # Wrap footnote block in styled container and insert before Questions
+    wrapped = f'<div class="chapter-footnotes">{footnote_block}</div>'
+    return (
+        html_without_footnotes[: qs_match.start()].rstrip()
+        + "\n"
+        + wrapped
+        + "\n"
+        + html_without_footnotes[qs_match.start() :]
+    )
+
+
 def inject_ordered_list_numbers(html: str) -> str:
     """
     Prepend "1. ", "2. ", ... to each <li> inside <ol> and wrap in a block so each item
     starts on a new line in PDF (explicit block display for list items).
+    Skips footnote <ol> inside .chapter-footnotes to keep footnotes compact.
     """
+    # Extract footnote blocks so they are not processed (avoids li-block + br between items)
+    footnote_blocks = []
+    def extract_footnotes(match: re.Match) -> str:
+        footnote_blocks.append(match.group(0))
+        return "<!--CHAPTER_FOOTNOTES-->"
+    html_temp = re.sub(
+        r'<div class="chapter-footnotes"><div class="footnote">\s*<ol[^>]*>.*?</ol>\s*</div></div>',
+        extract_footnotes,
+        html,
+        flags=re.DOTALL,
+    )
+    # Process all remaining ol elements
     def replace_ol(match: re.Match) -> str:
         inner = match.group(1)
         num = 1
         def repl_li(li_match: re.Match) -> str:
             nonlocal num
             content = li_match.group(1)
-            # Wrap in div so the item is a block and starts on a new line
             result = f'<li><div class="li-block"><span class="list-number">{num}. </span>{content}</div></li>'
             num += 1
             return result
         inner = re.sub(r"<li[^>]*>(.*?)</li>", repl_li, inner, flags=re.DOTALL)
-        # Force each item onto a new line (block display for list items)
         inner = re.sub(r"</li>\s*<li>", "</li><br/><li>", inner)
         return "<ol>" + inner + "</ol>"
-    return re.sub(r"<ol[^>]*>(.*?)</ol>", replace_ol, html, flags=re.DOTALL)
+    html_processed = re.sub(r"<ol[^>]*>(.*?)</ol>", replace_ol, html_temp, flags=re.DOTALL)
+    # Restore footnote blocks
+    for block in footnote_blocks:
+        html_processed = html_processed.replace("<!--CHAPTER_FOOTNOTES-->", block, 1)
+    return html_processed
 
 
 # Part separator pages: chapter number that starts each part -> part title (from toc.md)
@@ -647,7 +697,7 @@ def build_toc_html(
         for num in part_chapters:
             name = toc_by_num.get(num, f"Chapter {num}")
             sub_items.append(
-                f'<li><a href="#ch{num:02d}">Chapter {num} - {html_module.escape(name)}</a></li>'
+                f'<li><a href="#ch{num:02d}">Ch. {num} - {html_module.escape(name)}</a></li>'
             )
         items.append(
             f'<li class="toc-part"><a href="#{part_id}">{part_title}</a><ul>{"".join(sub_items)}</ul></li>'
@@ -694,14 +744,14 @@ def get_css(for_pdf: bool = True) -> str:
         margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
         @top-left {{
             content: string(chapter-title);
-            font-family: "DM Sans", sans-serif;
+            font-family: "Raleway", sans-serif;
             font-size: 8pt;
             color: #555;
         }}
         @bottom-left {{
             content: counter(page);
-            font-family: "DM Sans", sans-serif;
-            font-size: 9pt;
+            font-family: "Lora", serif;
+            font-size: 8pt;
             color: #555;
         }}
     }}
@@ -711,14 +761,14 @@ def get_css(for_pdf: bool = True) -> str:
         margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
         @top-right {{
             content: string(chapter-title);
-            font-family: "DM Sans", sans-serif;
+            font-family: "Raleway", sans-serif;
             font-size: 8pt;
             color: #555;
         }}
         @bottom-right {{
             content: counter(page);
-            font-family: "DM Sans", sans-serif;
-            font-size: 9pt;
+            font-family: "Lora", serif;
+            font-size: 8pt;
             color: #555;
         }}
     }}
@@ -727,14 +777,14 @@ def get_css(for_pdf: bool = True) -> str:
         margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
         @top-left {{
             content: string(chapter-title);
-            font-family: "DM Sans", sans-serif;
+            font-family: "Raleway", sans-serif;
             font-size: 8pt;
             color: #555;
         }}
         @bottom-left {{
             content: counter(page);
-            font-family: "DM Sans", sans-serif;
-            font-size: 9pt;
+            font-family: "Lora", serif;
+            font-size: 8pt;
             color: #555;
         }}
     }}
@@ -743,14 +793,14 @@ def get_css(for_pdf: bool = True) -> str:
         margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
         @top-right {{
             content: string(chapter-title);
-            font-family: "DM Sans", sans-serif;
+            font-family: "Raleway", sans-serif;
             font-size: 8pt;
             color: #555;
         }}
         @bottom-right {{
             content: counter(page);
-            font-family: "DM Sans", sans-serif;
-            font-size: 9pt;
+            font-family: "Lora", serif;
+            font-size: 8pt;
             color: #555;
         }}
     }}"""
@@ -762,10 +812,10 @@ def get_css(for_pdf: bool = True) -> str:
     }}"""
     return page_setup + f"""
 
-    /* BASE TYPOGRAPHY: DM Sans for all text */
+    /* BASE TYPOGRAPHY: Lora for body text, Raleway for headings */
     body {{
-        font-family: "DM Sans", sans-serif;
-        font-size: 11pt;
+        font-family: "Lora", serif;
+        font-size: 10pt;
         line-height: 1.45;
         color: #111;
         text-rendering: optimizeLegibility;
@@ -832,8 +882,9 @@ def get_css(for_pdf: bool = True) -> str:
 
     .half-title-page h1 {{
         margin-top: 2in;
+        font-family: "Raleway", sans-serif;
         font-size: 24pt;
-        font-weight: normal;
+        font-weight: bold;
     }}
 
     /* TITLE PAGE: reduced top and spacing */
@@ -844,28 +895,33 @@ def get_css(for_pdf: bool = True) -> str:
 
     .title-page h1 {{
         margin-top: 2in;
+        font-family: "Raleway", sans-serif;
         font-size: 24pt;
-        font-weight: normal;
+        font-weight: bold;
     }}
 
     .title-page .subtitle {{
         margin-top: 0.8em;
-        font-size: 13pt;
+        font-size: 12pt;
         font-style: italic;
         color: #444;
     }}
 
     .title-page .author {{
-        margin-top: 4in;
-        font-size: 13pt;
+        margin-top: 2in;
+        font-size: 12pt;
         letter-spacing: 0.7pt;
     }}
 
-    /* COPYRIGHT PAGE */
+    /* COPYRIGHT PAGE: content anchored at bottom of page */
     .copyright-page {{
-        font-size: 9pt;
+        font-size: 8pt;
         color: #555;
         page-break-after: always;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        min-height: 7in;
     }}
 
     .copyright-page p {{
@@ -887,13 +943,15 @@ def get_css(for_pdf: bool = True) -> str:
     .introduction h1 {{
         text-align: center;
         margin-top: 1.4in;
+        font-family: "Raleway", sans-serif;
         font-size: 22pt;
-        font-weight: normal;
+        font-weight: bold;
     }}
 
     .toc h2 {{
         text-align: center;
-        font-size: 16pt;
+        font-family: "Raleway", sans-serif;
+        font-size: 14pt;
         margin-bottom: 1.2em;
         font-weight: normal;
     }}
@@ -905,13 +963,13 @@ def get_css(for_pdf: bool = True) -> str:
 
     .toc li {{
         margin-bottom: 0.5em;
-        font-size: 11pt;
+        font-size: 10pt;
         text-indent: 0;
     }}
 
     /* Part titles: slightly larger and medium weight for clear section headers */
     .toc li.toc-part {{
-        font-size: 12pt;
+        font-size: 10pt;
         font-weight: 500;
     }}
 
@@ -922,7 +980,7 @@ def get_css(for_pdf: bool = True) -> str:
     }}
 
     .toc ul ul li {{
-        font-size: 10.5pt;
+        font-size: 10pt;
         margin-bottom: 0.4em;
     }}
 
@@ -949,7 +1007,8 @@ def get_css(for_pdf: bool = True) -> str:
     .chapter-number {{
         text-align: center;
         margin-top: 1.4in;
-        font-size: 10pt;
+        font-family: "Raleway", sans-serif;
+        font-size: 9pt;
         letter-spacing: 2.75pt;
         text-transform: uppercase;
         color: #777;
@@ -959,8 +1018,9 @@ def get_css(for_pdf: bool = True) -> str:
     .chapter-title {{
         text-align: center;
         margin-top: 1em;
+        font-family: "Raleway", sans-serif;
         font-size: 22pt;
-        font-weight: normal;
+        font-weight: bold;
         string-set: chapter-title content(text);
     }}
 
@@ -991,7 +1051,8 @@ def get_css(for_pdf: bool = True) -> str:
 
     /* SECTION HEADINGS: keep with next paragraph so header is never split from following content */
     h2 {{
-        font-size: 14pt;
+        font-family: "Raleway", sans-serif;
+        font-size: 13pt;
         font-weight: normal;
         margin-top: 1.4em;
         margin-bottom: 0.5em;
@@ -1002,7 +1063,8 @@ def get_css(for_pdf: bool = True) -> str:
     }}
 
     h3 {{
-        font-size: 12pt;
+        font-family: "Raleway", sans-serif;
+        font-size: 11pt;
         margin-top: 1.1em;
         margin-bottom: 0.4em;
         font-style: italic;
@@ -1017,7 +1079,7 @@ def get_css(for_pdf: bool = True) -> str:
     blockquote {{
         margin: 1em 1.2em;
         font-style: italic;
-        font-size: 10.5pt;
+        font-size: 10pt;
     }}
 
     /* LISTS: each item on its own line; block display so PDF/HTML break between items */
@@ -1077,7 +1139,7 @@ def get_css(for_pdf: bool = True) -> str:
         margin: 1.5em 0;
         page-break-before: always;
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
-        font-size: 10pt;
+        font-size: 9pt;
         line-height: 1.32;
     }}
 
@@ -1087,19 +1149,19 @@ def get_css(for_pdf: bool = True) -> str:
         border: 1px solid #999;
         background: #e8e8e8;
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
-        font-size: 10pt;
+        font-size: 9pt;
         line-height: 1.32;
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
         display: block;
     }}
 
-    /* Case study title: 2 font sizes bigger than body (10pt -> 14pt) */
+    /* Case study title: 13pt per spec */
     .case-study-title {{
         font-style: normal;
         font-weight: bold;
         letter-spacing: 1.1pt;
-        font-size: 14pt;
+        font-size: 13pt;
         margin-bottom: 0.8em;
     }}
 
@@ -1108,7 +1170,7 @@ def get_css(for_pdf: bool = True) -> str:
         text-indent: 0;
     }}
     .case-study-box h3 {{
-        font-size: 12pt;
+        font-size: 11pt;
         font-style: italic;
         font-weight: normal;
         margin-top: 0.8em;
@@ -1136,14 +1198,15 @@ def get_css(for_pdf: bool = True) -> str:
         border: 1px solid #ccc;
         border-left: 3px solid #000;
         background: #fafafa;
-        font-size: 10.5pt;
+        font-size: 10pt;
         page-break-inside: avoid;
         text-align: left;
     }}
 
     /* Definition term: allow wrap so long titles (e.g. "THE AI TRANSFORMATION FRAMEWORK") go to next line */
     .definition-title {{
-        font-size: 12pt;
+        font-family: "Raleway", sans-serif;
+        font-size: 11pt;
         font-weight: normal;
         letter-spacing: 2pt;
         text-transform: uppercase;
@@ -1185,7 +1248,8 @@ def get_css(for_pdf: bool = True) -> str:
 
     .back-matter h2 {{
         text-align: center;
-        font-size: 14pt;
+        font-family: "Raleway", sans-serif;
+        font-size: 13pt;
         margin-bottom: 1em;
     }}
 
@@ -1198,6 +1262,48 @@ def get_css(for_pdf: bool = True) -> str:
     /* Remove horizontal rules between sections (line only before Questions, on new page) */
     hr {{
         display: none;
+    }}
+
+    /* FOOTNOTES: small, black, no underline; placed before Questions section.
+       Inline refs (superscript numbers) and the footnote block use case-study font. */
+    sup a.footnote-ref,
+    sup a.footnote-ref:hover,
+    sup a.footnote-ref:visited {{
+        font-size: 0.65em;
+        color: #000;
+        text-decoration: none;
+        font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
+    }}
+    .chapter-footnotes {{
+        font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
+        font-size: 8pt;
+        line-height: 1.35;
+        color: #000;
+        margin: 1.5em 0 0 0;
+        padding-top: 0.8em;
+        border-top: 1px solid #ccc;
+    }}
+    .chapter-footnotes .footnote ol {{
+        margin: 0;
+        padding-left: 1.5em;
+        list-style: decimal;
+    }}
+    .chapter-footnotes .footnote li {{
+        margin: 0 0 0.15em 0;
+        padding: 0;
+    }}
+    /* Inline p so number and text stay on same line; no extra line breaks */
+    .chapter-footnotes .footnote li p {{
+        margin: 0;
+        padding: 0;
+        display: inline;
+        font-size: inherit;
+    }}
+    .chapter-footnotes .footnote-backref {{
+        font-size: 0.9em;
+        color: #000;
+        text-decoration: none;
+        margin-left: 0.2em;
     }}
 
     /* Questions section: new page with a line above the heading */
@@ -1222,7 +1328,8 @@ def get_css(for_pdf: bool = True) -> str:
         padding-top: 3in;
     }}
     .part-separator h2 {{
-        font-size: 18pt;
+        font-family: "Raleway", sans-serif;
+        font-size: 16pt;
         font-weight: normal;
         letter-spacing: 2pt;
         margin: 0;
@@ -1273,7 +1380,7 @@ def build_full_html(
     html_parts.append("</div>")
     html_parts.append('<div class="copyright-page front-matter">')
     html_parts.append("<p>© " + str(__import__("datetime").datetime.now().year) + " " + html_module.escape(title) + ". All rights reserved.</p>")
-    html_parts.append("<p>This work is for distribution via Amazon KDP and IngramSpark.</p>")
+    html_parts.append("<p></p>")
     html_parts.append("</div>")
     html_parts.append('<div class="blank-page"></div>')
     html_parts.append('<div class="epigraph-page front-matter"></div>')
@@ -1734,9 +1841,12 @@ def main() -> None:
         try:
             # base_url resolves relative URLs (e.g. cover image book/images/cover.png)
             html_doc = WeasyHTML(string=full_html, base_url=str(repo))
-            # Load DM Sans from Google Fonts for PDF typography (Gill Sans Nova requires local/Adobe Fonts)
-            font_url = "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&display=swap"
-            html_doc.write_pdf(str(out_path), stylesheets=[font_url])
+            # Load Raleway and Lora from Google Fonts for PDF typography (Gill Sans Nova requires local/Adobe Fonts)
+            font_urls = [
+                "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap",
+                "https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap",
+            ]
+            html_doc.write_pdf(str(out_path), stylesheets=font_urls)
             # Inject metadata (title, author, subject, keywords) from book folder
             pdf_metadata = load_epub_metadata(book_dir)
             inject_pdf_metadata(out_path, pdf_metadata)

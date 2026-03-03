@@ -47,7 +47,7 @@ def validate_pdf(pdf_path: Path) -> list[tuple[str, str, bool]]:
     ))
 
     # --- Trim size ---
-    # 6" x 9" = 432 x 648 pts. IngramSpark 6x9 bleed: 6.125 x 9.25
+    # 5.5" x 8.25" = 396 x 594 pts (default). 6" x 9" = 432 x 648 pts.
     p0 = pages[0]
     mediabox = p0.mediabox
     w_pts = float(mediabox.width)
@@ -55,15 +55,15 @@ def validate_pdf(pdf_path: Path) -> list[tuple[str, str, bool]]:
     w_in = pts_to_in(w_pts)
     h_in = pts_to_in(h_pts)
 
-    # For text-only (no bleed), trim = page size. 6x9 = 432x648
-    expected_6x9 = (432, 648)
+    is_5_5_x_8_25 = abs(w_pts - 396) < 1 and abs(h_pts - 594) < 1
     is_6x9 = abs(w_pts - 432) < 1 and abs(h_pts - 648) < 1
+    is_valid_trim = is_5_5_x_8_25 or is_6x9
     results.append((
         "Trim size",
         f"Page size: {w_in:.2f}\" x {h_in:.2f}\" ({w_pts:.0f} x {h_pts:.0f} pts). "
-        f"6\" x 9\" (432x648) expected for standard interior. "
-        + ("PASS" if is_6x9 else "CHECK - verify trim size matches your submission"),
-        is_6x9
+        f"5.5\" x 8.25\" or 6\" x 9\" supported for IngramSpark. "
+        + ("PASS" if is_valid_trim else "CHECK - verify trim size matches your submission"),
+        is_valid_trim
     ))
 
     # --- Single-page format (not spreads) ---

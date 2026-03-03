@@ -8,11 +8,11 @@ Specs and layout rules for the print-ready PDF produced by `scripts/build_print_
 
 | Use case | Trim size | Notes |
 |----------|-----------|--------|
-| US paperback (KDP / IngramSpark) | 6" × 9" | Common for business books |
-| US paperback alternate | 5.5" × 8.5" | Slightly smaller |
+| US paperback (KDP / IngramSpark) | 5.5" × 8.25" | Default; common for business books |
+| US paperback alternate | 6" × 9" | Slightly larger |
 | EU (metric) | 148 mm × 210 mm (A5) or 152 mm × 229 mm | Check platform dropdowns |
 
-Set trim size in the script or via CSS `@page { size: ... }`. Default in script: **6" × 9"**.
+Set trim size in the script or via CSS `@page { size: ... }`. Default in script: **5.5" × 8.25"**.
 
 ---
 
@@ -122,7 +122,7 @@ The build script is designed to match [KDP's "Format Your Paperback"](https://kd
    KDP requires a **manuscript (interior)** file and a **cover** file. This skill produces only the interior PDF; the cover is created separately (Cover Creator, template, or designer).
 
 2. **Set trim size and margins**  
-   - Trim size: default **6" × 9"** — a [supported KDP trim size](https://kdp.amazon.com/help?topicId=GVBQ3CMEQW3W2VL6).  
+   - Trim size: default **5.5" × 8.25"** — a [supported KDP trim size](https://kdp.amazon.com/help?topicId=GVBQ3CMEQW3W2VL6).  
    - Margins: top/bottom 0.6", outside 0.5", inside (gutter) 0.75".  
    - KDP minimums: **0.25"** for top, bottom, and outside (no bleed); inside margin depends on page count (see [Set Trim Size, Bleed, and Margins](https://kdp.amazon.com/help?topicId=GVBQ3CMEQW3W2VL6)). Our values meet or exceed minimums. For **701–828 pages**, KDP requires gutter **0.875"**; the script uses 0.75", so for very long books consider increasing the inner margin in the script or CSS.  
    - **Bleed**: not used by default (text-only / no edge-to-edge images). If you add full-bleed images later, set up bleed per KDP (e.g. page size = trim + 0.125" bleed) and upload PDF only.

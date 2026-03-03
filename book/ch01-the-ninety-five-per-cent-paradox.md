@@ -2,11 +2,11 @@
 
 Ninety-five per cent of enterprise AI implementations fail to deliver sustained impact. Not because the technology does not work. Not because the strategy was wrong. Because organisations are treating the largest paradigm shift since the industrial revolution as though it were another software rollout.
 
-The data on this is unambiguous. The MIT NANDA report, drawing on over 300 AI initiatives across 52 organisations and 153 senior leader surveys, found that 95% of enterprise generative AI implementations fail to deliver sustained, measurable impact. A global survey of more than 1,000 senior executives found that only 5% of companies achieve AI value at scale, whilst 60% achieve no material value whatsoever.
+The data on this is unambiguous. The MIT NANDA report, drawing on over 300 AI initiatives across 52 organisations and 153 senior leader surveys, found that 95% of enterprise generative AI implementations fail to deliver sustained, measurable impact.[^1] A global survey of more than 1,000 senior executives found that only 5% of companies achieve AI value at scale, whilst 60% achieve no material value whatsoever.[^2]
 
 RAND puts the AI project failure rate at over 80%, double the rate of non-AI IT projects. S&P Global reports that 42% of companies scrapped most AI initiatives in 2025, up from 17% the year before.
 
-These are not preliminary findings from a single study. They are converging conclusions from independent research programmes spanning thousands of organisations. And yet, eight in ten companies already use generative AI. Equally many report no significant bottom-line impact. The tools are everywhere. The value is not.
+These are not preliminary findings from a single study. They are converging conclusions from independent research programmes spanning thousands of organisations. And yet, eight in ten companies already use generative AI.[^3] Equally many report no significant bottom-line impact. The tools are everywhere. The value is not.
 
 The paradox is striking because the technology does work. The companies achieving value at scale are achieving it dramatically: 2-3x conversion improvements, 80% reductions in processing time, hundreds of millions in measurable value. A Singapore bank grew its AI economic value from S$180 million to S$750 million in two years. A Dutch bank achieved a 90% pilot-to-production rate against an industry average of 30%. A German insurer reduced claim processing time by 80% through a seven-agent AI workflow launched in under 100 days.
 
@@ -14,7 +14,7 @@ These outcomes are real and replicable. The question is not whether AI can produ
 
 The answer is one of the oldest problems in business: applying the wrong mental model to a categorically different kind of change. Most organisations are doing what early automobile buyers did when they called it a "horseless carriage": defining the new technology in terms of the old one. They are putting AI on top of existing processes, existing org charts, existing decision-making structures, and asking it to make things faster. That produces faster versions of the same thing. It does not produce transformation.
 
-McKinsey, in its landmark September 2025 analysis of agentic AI, described this moment as "the largest organisational paradigm shift since the industrial and digital revolutions". That framing is not consulting hyperbole. It is an analytical claim with precise implications.
+McKinsey, in its landmark September 2025 analysis of agentic AI, described this moment as "the largest organisational paradigm shift since the industrial and digital revolutions".[^4] That framing is not consulting hyperbole. It is an analytical claim with precise implications.
 
 Paradigm shifts do not yield to incremental responses. The organisations that thrived during the industrial revolution did not optimise their horse-drawn carriages. They redesigned their operations around the principles that steam and mechanisation made possible. Those that treated the new technology as an upgrade gained temporary efficiency, then fell behind organisations that had redesigned entirely. The same pattern is now unfolding with AI, at a pace that makes the industrial revolution look glacial.
 
@@ -32,23 +32,27 @@ Each delay compounds. More compute, greater model efficiency, and fundamental ch
 
 This is the critical distinction: the rate of improvement is itself accelerating. Organisations planning on a linear trajectory are building for a world that will not exist by the time their plans mature. The strategy approved in January may be structurally obsolete by September, not because the strategy was bad, but because the underlying capabilities shifted faster than the planning cycle could accommodate. For leaders accustomed to three-year technology roadmaps, this compression is disorienting. It is also the new reality.
 
+Unlike generative AI, which produces outputs in response to individual prompts, agentic AI plans, reasons, and takes sequences of actions without continuous human instruction. Predictive AI handles logic; generative AI handles creativity; agentic AI exercises what BCG describes as the "frontal cortex" function: planning, judgment, and orchestration.
+
 > **Definition: Agentic AI**
 >
-> Agentic AI refers to AI systems that act autonomously to complete multi-step tasks, make decisions, and use tools or other agents to achieve a defined goal. Unlike generative AI, which produces outputs in response to individual prompts, agentic AI plans, reasons, and takes sequences of actions without continuous human instruction. Predictive AI handles logic; generative AI handles creativity; agentic AI exercises what BCG describes as the "frontal cortex" function: planning, judgment, and orchestration.
+> Agentic AI refers to AI systems that act autonomously to complete multi-step tasks, make decisions, and use tools or other agents to achieve a defined goal.
 
-The organisations capturing this value are doing so visibly. Research from a global survey of more than 1,000 senior executives found that the top 5% of companies, those furthest ahead in AI, achieve 3.6 times the three-year total shareholder return of their peers, 1.7 times the revenue growth, and 1.6 times the EBIT margin. These leaders plan to spend more than twice as much on AI as the organisations trailing them.
+The organisations capturing this value are doing so visibly. Research from a global survey of more than 1,000 senior executives found that the top 5% of companies, those furthest ahead in AI, achieve 3.6 times the three-year total shareholder return of their peers, 1.7 times the revenue growth, and 1.6 times the EBIT margin. These leaders plan to spend more than twice as much on AI as the organisations trailing them.[^5]
 
-Agentic AI already accounts for 17% of total AI value in 2025, with projections reaching 29% by 2028. The gap is not a snapshot. It is a trend line with compounding momentum.
+Agentic AI already accounts for 17% of total AI value in 2025, with projections reaching 29% by 2028.[^6] The gap is not a snapshot. It is a trend line with compounding momentum.
+
+Agents can use tools, access data, communicate with other agents, and take action without step-by-step human instruction. In an organisational context, agents take on work that previously required human attention at every step: research, scheduling, analysis, compliance checking, decision preparation, and process execution.
 
 > **Definition: AI agent**
 >
-> An AI agent is a software system that perceives its environment, plans actions, and executes tasks autonomously to achieve a defined goal. Agents can use tools, access data, communicate with other agents, and take action without step-by-step human instruction. In an organisational context, agents take on work that previously required human attention at every step: research, scheduling, analysis, compliance checking, decision preparation, and process execution.
+> An AI agent is a software system that perceives its environment, plans actions, and executes tasks autonomously to achieve a defined goal.
 
-The industry has moved through distinct phases, and each one has raised the stakes. In 2023, organisations experimented with generative AI on modest budgets and with considerable curiosity. In 2024, the "thousand flowers" phase arrived: every department launched its own AI initiative, chatbots proliferated, and individual productivity gains were real. But at the enterprise level, almost none of it compounded. Now, in 2025 and beyond, a small group of companies is focusing on the high-return transformations that produce structural change, whilst the rest remain scattered across initiatives that feel productive but do not add up.
+The industry has moved through distinct phases, and each one has raised the stakes. In 2023, organisations experimented with generative AI on modest budgets and with considerable curiosity. In 2024, the "thousand flowers" phase arrived: every department launched its own AI initiative, chatbots proliferated, and individual productivity gains were real. But at the enterprise level, almost none of it compounded. Now, in 2025 and beyond, a small group of companies is focusing on the high-return transformations that produce structural change, whilst the rest remain scattered across initiatives that feel productive but do not add up.[^7]
 
 For European organisations, the context carries additional weight. Only 20% of EU enterprises use AI today. Large enterprises sit at 55%, but the spread is dramatic: Denmark at 42%, Romania at 5.2%. Over 60% of European firms remain at the earliest stages of AI maturity.
 
-The investment gap is real. US private AI investment in 2024 reached $109 billion. Europe produces only three of the world's top AI models, compared to 40 in the United States. But the picture is not one-sided. A 2026 EU Commission-backed report found that Europe allocates a higher share of venture capital to agentic AI than the US, with Paris, Berlin, Amsterdam, Stockholm, Munich, and Barcelona as leading hubs. The raw materials for European leadership exist. The question is whether they will be assembled into something that compounds.
+The investment gap is real. US private AI investment in 2024 reached $109 billion. Europe produces only three of the world's top AI models, compared to 40 in the United States. But the picture is not one-sided. A 2026 EU Commission-backed report found that Europe allocates a higher share of venture capital to agentic AI than the US, with Paris, Berlin, Amsterdam, Stockholm, Munich, and Barcelona as leading hubs.[^8] The raw materials for European leadership exist. The question is whether they will be assembled into something that compounds.
 
 The companies generating breakthrough value, wherever they sit, share a characteristic that has little to do with which AI vendor they chose or how large their technology budget was. What they share is a commitment to treat AI as an organisational transformation, not a technology deployment. The common trait across the top performers is leadership-led transformation: leaders who understood that AI required a fundamentally different kind of response, and who committed to providing it.
 
@@ -76,15 +80,17 @@ Most have thought about it as the 20%. That is why 95% are failing.
 
 The 95% failure rate is not primarily a technology problem. It is a governance and leadership problem.
 
-Boards are failing to keep pace with the organisations they oversee. A Deloitte study of 695 board members across 56 countries found that 66% report limited to no knowledge or experience with AI: an improvement from 79% the prior year, but still a clear majority. Only 15% of boards receive AI-related metrics. Fewer than 25% have board-approved AI policies. Only 14% discuss AI at every board meeting. Meanwhile, 88% of their organisations already use AI in at least one business function.
+Boards are failing to keep pace with the organisations they oversee. A Deloitte study of 695 board members across 56 countries found that 66% report limited to no knowledge or experience with AI: an improvement from 79% the prior year, but still a clear majority. Only 15% of boards receive AI-related metrics. Fewer than 25% have board-approved AI policies. Only 14% discuss AI at every board meeting. Meanwhile, 88% of their organisations already use AI in at least one business function.[^9]
 
 The gap between what is happening inside the organisation and what the board understands is itself a strategic risk. This is not abstract. When a board cannot distinguish between a productive AI pilot and a structurally limited one, it cannot allocate capital, attention, or governance effectively.
 
 When AI is discussed once per quarter rather than at every meeting, the pace of the technology outruns the pace of oversight. And when 66% of board members lack the knowledge to ask the right questions, the organisation's AI ambitions are governed by people who cannot evaluate what they are governing.
 
+It is not an organisation that uses AI tools. It is one whose operating architecture, decision-making processes, and workflow design are built for human-agent collaboration at scale. The Agentic Organisation does not add AI to the way it works. It works in a fundamentally different way because of AI.
+
 > **Definition: The Agentic Organisation**
 >
-> The Agentic Organisation is a company redesigned so that humans and AI agents work together as a unified system. It is not an organisation that uses AI tools. It is one whose operating architecture, decision-making processes, and workflow design are built for human-agent collaboration at scale. The Agentic Organisation does not add AI to the way it works. It works in a fundamentally different way because of AI.
+> The Agentic Organisation is a company redesigned so that humans and AI agents work together as a unified system.
 
 The consequences of inaction are measurable. CEO-led AI transformations succeed at six times the rate of those delegated to IT or middle management. C-level executives deeply engaged with AI are twelve times more likely to be among the top 5% of companies winning with AI. The strongest single predictor of AI success is not the quality of the model, the size of the budget, or the sophistication of the strategy. It is whether senior leadership is personally, visibly, and irreversibly committed to leading the transformation. Delegation is not a governance posture. It is a failure mode.
 
@@ -96,9 +102,9 @@ They should be able to distinguish between activity and impact. These are not IT
 
 Three out of four executives rank AI as a top-three strategic priority, yet only a quarter report meaningful value from it. That gap is a governance failure, not a technology failure. When the board treats AI as a technology investment delegated to the CIO, it gets technology-investment outcomes: isolated pilots, modest efficiency gains, and no compounding effect across the organisation. When it treats AI as the strategic inflection point it is, the entire governance posture changes.
 
-For European boards, the compliance dimension adds urgency that cannot be deferred. Full obligations under the EU AI Act for high-risk AI systems apply from 2 August 2026, with penalties of up to 35 million euros or 7% of global annual turnover for prohibited practices. Prohibitions on unacceptable-risk AI have already applied since February 2025. AI literacy training is already required. Any firm using AI in or affecting EU users, regardless of where it is incorporated, falls within scope.
+For European boards, the compliance dimension adds urgency that cannot be deferred. Full obligations under the EU AI Act for high-risk AI systems apply from 2 August 2026, with penalties of up to 35 million euros or 7% of global annual turnover for prohibited practices. Prohibitions on unacceptable-risk AI have already applied since February 2025. AI literacy training is already required. Any firm using AI in or affecting EU users, regardless of where it is incorporated, falls within scope.[^10]
 
-Eurostat data from December 2025 shows that 20% of EU enterprises with ten or more employees now use AI, up from 13.5% the prior year. Large enterprise adoption stands at 55%. But adoption without governance is exposure. The World Economic Forum has identified Europe's AI adoption lag as an urgent structural challenge, not a cyclical one. The compliance clock is running in parallel with the competitive clock. Boards that treat the EU AI Act as a legal department matter, rather than a governance imperative, are misallocating both risk and attention.
+Eurostat data from December 2025 shows that 20% of EU enterprises with ten or more employees now use AI, up from 13.5% the prior year. Large enterprise adoption stands at 55%.[^11] But adoption without governance is exposure. The World Economic Forum has identified Europe's AI adoption lag as an urgent structural challenge, not a cyclical one.[^12] The compliance clock is running in parallel with the competitive clock. Boards that treat the EU AI Act as a legal department matter, rather than a governance imperative, are misallocating both risk and attention.
 
 The board's first task is not to approve an AI strategy. It is to treat this for what it is: a strategic inflection point that demands the urgency, oversight, and accountability that characterisation requires. Every quarter of delay is a quarter in which the organisations that have already committed are compounding their advantage, and a quarter in which the governance gap between what the board understands and what the organisation needs becomes harder to close.
 
@@ -117,6 +123,19 @@ Recognising the scale of the shift is the first step. The harder question is whe
 The next chapter takes that question directly.
 
 ---
+
+[^1]: MIT, "NANDA Report", 2025
+[^2]: BCG, "The Widening AI Value Gap: Build for the Future 2025", September/October 2025
+[^3]: McKinsey, "CEO Playbook", June 2025
+[^4]: McKinsey, "The Agentic Organization: Contours of the Next Paradigm for the AI Era", September 2025
+[^5]: BCG, "The Widening AI Value Gap", September/October 2025
+[^6]: BCG, "The Widening AI Value Gap", October 2025
+[^7]: Eurostat, "AI in Enterprises", December 2025
+[^8]: EU Commission, "Agentic AI Venture Capital Report", January 2026
+[^9]: Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025
+[^10]: EU, "AI Act", 2024
+[^11]: Eurostat, "AI in Enterprises", December 2025
+[^12]: BCG, "The Widening AI Value Gap", October 2025
 
 ## Questions for the Board
 
@@ -161,6 +180,6 @@ Review report: output/chapters/chapter-01/ch01-review.md
 Style: PASS
 Character: PASS
 Continuity: PASS
-Footnotes log: confirmed present — no direct-expert footnotes in this chapter; nothing appended
+Footnotes log: 33 source footnotes added; appended to book/footnotes-log.md and output/footnotes-log.md
 Escalations: none
 Chapter status: DONE

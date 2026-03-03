@@ -24,7 +24,7 @@ The failure rates tell the same story. Seventy to ninety-five per cent of AI tra
 
 The self-assessment gap compounds the problem. In one survey, 57% of leaders said they were AI-ready. Only 8% actually were. The distance between perceived readiness and real readiness is itself a tier problem: leaders who believe they have achieved Tier 2 or Tier 3 maturity when their organisations are still operating at Tier 1.
 
-European leaders face an additional dimension. The EU AI Act, Article 4, which took effect in February 2025, makes AI literacy a legal requirement for all staff interacting with AI systems. Tier 1 is now a regulatory floor, not an optional starting point. Organisations that have underweighted individual fluency investment must now treat it as a compliance obligation as well as a strategic one.
+European leaders face an additional dimension. The EU AI Act, Article 4, which took effect in February 2025, makes AI literacy a legal requirement for all staff interacting with AI systems.[^16] Tier 1 is now a regulatory floor, not an optional starting point. Organisations that have underweighted individual fluency investment must now treat it as a compliance obligation as well as a strategic one.
 
 ## The Four Tiers of Transformation
 
@@ -32,7 +32,9 @@ The sequence matters more than the ambition. A four-tier progression, Individual
 
 > **Definition: The Four Tiers of Transformation**
 >
-> The Four Tiers of Transformation describe how AI capability scales through an organisation: from Individual (personal AI fluency), to Team (shared norms and collaborative use), to Department (end-to-end workflow redesign within a function), to Organisation (cross-functional transformation and enterprise operating model). Each tier requires distinct leadership behaviour, governance, and success measures. Capability compounds only when each tier is built in sequence.
+> The Four Tiers of Transformation describe how AI capability scales through an organisation: from Individual (personal AI fluency), to Team (shared norms and collaborative use), to Department (end-to-end workflow redesign within a function), to Organisation (cross-functional transformation and enterprise operating model).
+
+Each tier requires distinct leadership behaviour, governance, and success measures. Capability compounds only when each tier is built in sequence.
 
 <!-- DIAGRAM PLACEHOLDER: ch04-four-tiers — GenerateImage unavailable -->
 
@@ -52,7 +54,7 @@ Governance at Tier 1 is light but essential: personal responsibility for data ha
 
 ### Tier 2: Team
 
-The transition from individual to team is where most transformations stall. Research shows that 61% of AI use remains at the individual level without collaborative platforms. Converting personal fluency into team capability requires something technology alone cannot provide: psychological safety.
+The transition from individual to team is where most transformations stall. Research shows that 61% of AI use remains at the individual level without collaborative platforms.[^17] Converting personal fluency into team capability requires something technology alone cannot provide: psychological safety.
 
 Google's Project Aristotle study of more than 180 teams found psychological safety to be the single strongest predictor of team effectiveness, above dependability, structure, meaning, and impact. More recent research confirms this finding in the AI context specifically: 83% of executives say psychological safety measurably improves AI initiative success. Yet only 39% rate their organisation's safety as "very high," and nearly half of all workers remain uncomfortable admitting AI use to their manager for fear of appearing incompetent or lazy.
 
@@ -90,7 +92,7 @@ Roughly 37% of large companies have established some form of CoE; the question i
 
 The enterprise measure at this tier is not an AI metric. It is a business outcome: revenue growth, margin expansion, customer experience, speed to market. AI is the means. The organisation's strategic objectives are the measure.
 
-Fewer than 10% of generative AI use cases make it past pilot to this tier. For those that do, the returns are disproportionate: the top-performing companies achieve 3.6 times the total shareholder return of their peers.
+Fewer than 10% of generative AI use cases make it past pilot to this tier. For those that do, the returns are disproportionate: the top-performing companies achieve 3.6 times the total shareholder return of their peers.[^18]
 
 ## What Leaders Must Do at Each Tier
 
@@ -129,6 +131,10 @@ The evidence is structural, and it is consistent. Transformation scales from ind
 The tiers are not a model to be adapted or approximated. They are a structural reality: each tier creates the preconditions for the next, and the absence of any one tier is visible in the failure rates of the tier above it.
 
 Chapter 5 introduces the AI Transformation Framework: a four-layer map covering Vision, Products, Operating Model, and Foundation. The tiers tell you the sequence. The framework tells you the dimensions you must address at every tier. Governance, KPIs, and the Value–Capabilities–Trust decision framework are covered elsewhere in the book but are not part of the four-layer framework.
+
+[^16]: EU, "AI Act", 2024
+[^17]: Typeface, "Signal Report", 2025
+[^18]: BCG, "The Widening AI Value Gap", September/October 2025
 
 ## Questions for the Board: The Four Tiers
 

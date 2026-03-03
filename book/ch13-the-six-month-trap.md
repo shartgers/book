@@ -10,13 +10,21 @@ JPMorgan's CEO Jamie Dimon, overseeing $2 billion in AI investment used daily by
 
 This chapter introduces the Measure-Gate-Govern Model: a three-stage structure for what to measure, how to decide, and what the board must see.
 
+> **Definition: The Measure-Gate-Govern Model**
+>
+> The Measure-Gate-Govern Model is a three-stage framework for AI accountability.
+
+**Measure** tracks AI progress across four KPI categories (Financial, Operational, Adoption, Strategic) against pre-established baselines. **Gate** applies pre-defined success and kill criteria to every pilot within a maximum six-month decision window. **Govern** ensures the board receives a structured AI dashboard covering value, risk, and operations, with clear ownership and escalation paths.
+
 ## Pilot Purgatory and the Measurement Crisis
 
-Eighty-seven per cent of enterprise AI projects never move beyond the pilot stage. The root cause is not technology. It is organisational failure across five domains: intelligence (choosing the wrong use cases), implementation (underestimating production complexity by 250-400%), governance (losing 30-50% of development time to compliance bottlenecks), ecosystem (no platform to scale on), and capital allocation (hidden costs exceeding projections by 40-60%).
+Eighty-seven per cent of enterprise AI projects never move beyond the pilot stage. This is pilot purgatory. The root cause is not technology. It is organisational failure across five domains: intelligence (choosing the wrong use cases), implementation (underestimating production complexity by 250-400%), governance (losing 30-50% of development time to compliance bottlenecks), ecosystem (no platform to scale on), and capital allocation (hidden costs exceeding projections by 40-60%).
 
 > **Definition: Pilot Purgatory**
 >
-> Pilot purgatory is the state in which AI initiatives remain indefinitely in experimentation without progressing to production deployment. Organisations in pilot purgatory accumulate proofs of concept that demonstrate technical feasibility but never deliver sustained business value, typically because they lack pre-defined success criteria, baseline measurements, or the governance discipline to scale or kill decisively.
+> Pilot purgatory is the state in which AI initiatives remain indefinitely in experimentation without progressing to production deployment.
+
+Organisations in pilot purgatory accumulate proofs of concept that demonstrate technical feasibility but never deliver sustained business value, typically because they lack pre-defined success criteria, baseline measurements, or the governance discipline to scale or kill decisively.
 
 The pattern compounds. Grassroots experimentation delivers localised efficiency gains that feel like progress but never compound without top-down direction. This is the micro-productivity trap described in earlier chapters: individual teams achieve small wins whilst the organisation as a whole barely moves.
 
@@ -27,10 +35,6 @@ The measurement crisis and the scaling crisis are the same crisis. Without the r
 ## The Measure-Gate-Govern Model
 
 The Measure-Gate-Govern Model gives leaders a structured approach to AI measurement, decision discipline, and board accountability. Three stages connect what gets tracked to what gets decided to what the board sees.
-
-> **Definition: The Measure-Gate-Govern Model**
->
-> The Measure-Gate-Govern Model is a three-stage framework for AI accountability. **Measure** tracks AI progress across four KPI categories (Financial, Operational, Adoption, Strategic) against pre-established baselines. **Gate** applies pre-defined success and kill criteria to every pilot within a maximum six-month decision window. **Govern** ensures the board receives a structured AI dashboard covering value, risk, and operations, with clear ownership and escalation paths.
 
 <!-- DIAGRAM PLACEHOLDER: ch13-measure-gate-govern-model — GenerateImage unavailable -->
 

@@ -2,7 +2,7 @@
 
 Ninety-eight per cent of leaders report increased urgency to deploy AI. Readiness is declining.
 
-That is not a misprint. The Cisco AI Readiness Index, surveying over 8,000 organisations across 30 markets, found that readiness scores dropped in 2024 across five of six pillars: Infrastructure, Data, Governance, Talent, and Culture. Only 13 to 14 per cent of organisations globally qualify as fully prepared, and that figure has not moved in two years.
+That is not a misprint. The Cisco AI Readiness Index, surveying over 8,000 organisations across 30 markets, found that readiness scores dropped in 2024 across five of six pillars: Infrastructure, Data, Governance, Talent, and Culture. Only 13 to 14 per cent of organisations globally qualify as fully prepared, and that figure has not moved in two years.[^22]
 
 In Europe, the picture is worse: over 60 per cent of firms remain at the earliest readiness stages, only 23 per cent have adequate GPU capacity, 66 per cent struggle to centralise data, and just 9 per cent describe their networks as flexible.
 
@@ -10,7 +10,9 @@ The gap has a name. Cisco calls it AI Infrastructure Debt: the accumulation of s
 
 > **Definition: AI Infrastructure Debt**
 >
-> AI Infrastructure Debt is the accumulation of gaps, shortcuts, and deferred upgrades in compute, networking, data management, security, and talent that compounds as organisations rush to deploy AI. It is the modern form of technical debt: silent, compounding, and value-destroying. The longer it goes unaddressed, the wider the gap between AI ambition and AI reality.
+> AI Infrastructure Debt is the accumulation of gaps, shortcuts, and deferred upgrades in compute, networking, data management, security, and talent that compounds as organisations rush to deploy AI.
+
+It is the modern form of technical debt: silent, compounding, and value-destroying. The longer it goes unaddressed, the wider the gap between AI ambition and AI reality.
 
 The paradox is self-reinforcing. Urgency drives premature deployment. Premature deployment drives failure. Failure drives more urgency. Nearly eight in ten companies now report using generative AI, yet just as many report no significant bottom-line impact, what McKinsey has described as the "gen AI paradox."
 
@@ -111,6 +113,8 @@ Knowing what you have is not the same as knowing what to do with it. The next qu
 Chapter 8 introduces the AI Decision Framework, balancing three angles: Value, Capabilities, and Trust. The Foundation layer feeds two of those dimensions directly. Data readiness and technology maturity determine what is possible (Capabilities). Governance readiness determines what is permissible (Trust). Together, the Foundation layer and the decision framework give leaders the tools to move from diagnosis to action.
 
 Chapter 11 sequences the execution: Foundation, then Activation, then Scale. Chapter 12 provides the detailed readiness diagnostic. This chapter has laid out what the foundations are and why they matter. The rest of Part II and Part IV show how to use them.
+
+[^22]: Cisco, "AI Readiness Index", 2024
 
 ## Questions for the Board: Foundations
 

@@ -38,7 +38,7 @@ def load_text(path: Path) -> str:
 def parse_simple_metadata(content: str) -> dict:
     """
     Parse key: value lines from input/metadata.md or similar.
-    Supports: Author: Name, Identifier: 978-..., Keywords: a, b, c
+    Supports: Author: Name, Identifier: 978-..., Keywords: a, b, c, BISAC: code1, code2, code3
     """
     out = {}
     for line in content.splitlines():
@@ -53,6 +53,10 @@ def parse_simple_metadata(content: str) -> dict:
         if key == "keywords" and value:
             # Strip surrounding quotes from each keyword for cleaner PDF/EPUB metadata
             out[key] = [k.strip().strip('"').strip("'") for k in value.split(",") if k.strip()]
+        elif key == "bisac" and value:
+            # Up to 3 BISAC codes; comma-separated
+            codes = [c.strip() for c in value.split(",") if c.strip()][:3]
+            out[key] = codes
         elif value:
             out[key] = value
     return out
@@ -197,6 +201,15 @@ def build_metadata(book_dir: Path, cli_keywords: Optional[str] = None) -> dict:
 
     modified = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
+    # BISAC codes: up to 3 from overrides (metadata.md or metadata.yaml)
+    bisac = overrides.get("bisac")
+    if isinstance(bisac, str):
+        bisac = [c.strip() for c in bisac.split(",") if c.strip()][:3]
+    elif isinstance(bisac, list):
+        bisac = [str(c).strip() for c in bisac if c][:3]
+    else:
+        bisac = []
+
     return {
         "title": (overrides.get("title") or title).strip(),
         "subtitle": (overrides.get("subtitle") or subtitle).strip(),
@@ -206,6 +219,7 @@ def build_metadata(book_dir: Path, cli_keywords: Optional[str] = None) -> dict:
         "identifier": identifier,
         "publisher": publisher,
         "keywords": keywords,
+        "bisac": bisac,
         "modified": modified,
     }
 
@@ -223,6 +237,8 @@ def write_metadata_md(meta: dict, out_path: Path) -> None:
     keywords = meta["keywords"]
     modified = meta["modified"]
     keywords_str = ", ".join(keywords) if keywords else "(Add keywords via input/metadata.md or --keywords)"
+    bisac = meta.get("bisac") or []
+    bisac_str = ", ".join(bisac) if bisac else "(Add up to 3 BISAC codes in input/metadata.md as BISAC: code1, code2, code3)"
 
     # EPUB: one subject per tag
     dc_subjects = "\n".join(f"- `dc:subject` — {s}" for s in keywords) if keywords else "- `dc:subject` — (optional)"
@@ -244,6 +260,7 @@ def write_metadata_md(meta: dict, out_path: Path) -> None:
         f"| **Language** | {lang} |",
         f"| **Identifier (ISBN)** | {identifier} |",
         f"| **Keywords** | {keywords_str} |",
+        f"| **BISAC** | {bisac_str} |",
         "",
         "### Full description (Subject / dc:description)",
         "",

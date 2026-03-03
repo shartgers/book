@@ -6,13 +6,19 @@ Europe's regulatory rigour, its culture of trust, and its pragmatic approach to 
 
 The EU AI Act is not a ceiling. It is a foundation.
 
-The investment numbers seem to settle the argument. European AI venture capital in 2024 was $12.8 billion versus $80.7 billion in the United States. US companies outspend European counterparts by 45 to 70 per cent on AI across sectors. The US share of global venture capital reached 66 per cent in 2025, its highest since the early 2000s. By any investment measure, Europe is behind.
+The investment numbers seem to settle the argument. European AI venture capital in 2024 was $12.8 billion versus $80.7 billion in the United States. US companies outspend European counterparts by 45 to 70 per cent on AI across sectors. The US share of global venture capital reached 66 per cent in 2025, its highest since the early 2000s.[^24] By any investment measure, Europe is behind.
 
 But there is a second set of numbers that rarely features in the boardroom conversation. 53 per cent of global adults trust the EU to regulate AI effectively, compared with 37 per cent for the US and 27 per cent for China. Trust in fully autonomous AI agents has declined from 43 per cent to 27 per cent in a single year.
 
 Over half of European generative AI users believe adoption would increase with proper government regulation. The commercial premium for demonstrably trustworthy AI keeps growing.
 
 I call this the European Advantage Triad: Clarity, Trust, Capability. Three structural advantages that regulation and culture create for leaders willing to convert compliance into competitive edge. The triad builds on the Trust element of the AI Decision Framework (Chapter 8) and anchors it in Europe's distinctive regulatory and cultural context.
+
+> **Definition: The European Advantage Triad: Clarity, Trust, Capability**
+>
+> The European Advantage Triad names three reinforcing sources of competitive advantage available to organisations operating within the European regulatory and cultural environment.
+
+**Clarity** is the strategic benefit of one harmonised AI framework across 27 countries. **Trust** is the commercial premium that demonstrable compliance, consumer confidence, and workforce acceptance create. **Capability** is the operational strength that compliance processes build: data quality, governance maturity, and documentation discipline. Each element reinforces the others: clarity enables trust, trust enables capability, and capability justifies the clarity of the rules.
 
 ---
 
@@ -36,25 +42,19 @@ The problem is not regulation. It is the failure to convert regulation into comp
 
 ## The European Advantage Triad
 
-The European Advantage Triad names three interlocking sources of competitive advantage that European regulation and culture create when leaders treat compliance as a strategic asset rather than a cost centre.
-
-> **Definition: The European Advantage Triad: Clarity, Trust, Capability**
->
-> Three reinforcing sources of competitive advantage available to organisations operating within the European regulatory and cultural environment. **Clarity** is the strategic benefit of one harmonised AI framework across 27 countries. **Trust** is the commercial premium that demonstrable compliance, consumer confidence, and workforce acceptance create. **Capability** is the operational strength that compliance processes build: data quality, governance maturity, and documentation discipline. Each element reinforces the others: clarity enables trust, trust enables capability, and capability justifies the clarity of the rules.
-
 ![The European Advantage Triad](book/images/ch09-european-advantage-triad.png)
 
 Each element has a clear evidence base, already visible in the companies, markets, and regulatory dynamics that define European AI today.
 
 **Clarity.** The EU AI Act provides one harmonised framework across 27 member states. In the United States, over 30 states have introduced or are actively considering AI-specific legislation with conflicting definitions, thresholds, and enforcement mechanisms. Colorado, California, Texas, and Illinois each take different approaches. A European company navigating this landscape faces one rulebook. An American competitor faces dozens.
 
-As one senior technology executive described it, the EU framework is "actually really beneficial because it provides the rules of the road on how to engage", whilst the US approach creates "a really uneven playing field".¹
+As Graham Abell, Vice President, Public Policy, Workday, described it, the EU framework is "actually really beneficial because it provides the rules of the road on how to engage", whilst the US approach creates "a really uneven playing field".
 
 The Brussels Effect extends this clarity beyond European borders. Microsoft, Google, Amazon and over 23 other general-purpose AI providers have signed the EU's Code of Practice. UK firms are drifting "towards the highest standard of AI regulation", making the EU AI Act a de facto global baseline. For a company that masters one set of rules, the reward is a governance architecture that scales across markets.
 
 **Trust.** Research shows that 53 per cent of consumers would pay a premium for AI tools guaranteeing data safety. Nearly 60 per cent want stricter safety and fairness rules. With trust in fully autonomous agents declining sharply, as documented at the start of this chapter, the commercial premium for demonstrably trustworthy AI is growing, not shrinking.
 
-The trust advantage extends to the workforce. Employees who feel secure about AI are 2.4 times more likely to embrace it than those with job insecurity. By a margin of over two to one, workers in the US, UK, and Germany reject the growing use of AI. 70 per cent in the US believe their leaders are not truthful about AI-related job losses.
+The trust advantage extends to the workforce. Employees who feel secure about AI are 2.4 times more likely to embrace it than those with job insecurity.[^25] By a margin of over two to one, workers in the US, UK, and Germany reject the growing use of AI. 70 per cent in the US believe their leaders are not truthful about AI-related job losses.
 
 Employers remain the most trusted institution on this topic, which gives organisational leaders a powerful lever.
 
@@ -113,6 +113,9 @@ The honest position: leaders should not celebrate regulation as inherently good.
 The companies already doing this are the subject of the next chapter: not what Europe's edge is in theory, but what the leaders did with it in practice.
 
 ---
+
+[^24]: McKinsey, "European VC Report", 2024
+[^25]: Edelman, "Trust Barometer", 2026
 
 ## Questions for the Board: Europe's Edge
 
@@ -176,10 +179,6 @@ ING's experience illustrates all three elements of the European Advantage Triad 
 For European financial institutions in particular, where DORA, the AI Act, and ECB oversight create overlapping obligations, centralised governance is not a preference. It is a practical necessity. The alternative, allowing each business unit to interpret and comply with regulations independently, creates the fragmented compliance landscape that regulators are designed to prevent.
 
 The lesson is direct: governance in a regulated European environment is not overhead. It is the mechanism that converts pilots into production. ING did not succeed despite regulation. It succeeded because the discipline regulation demands, when embedded in operating structure, produces faster and more reliable deployment than unstructured experimentation.
-
----
-
-¹ Graham Abell, Vice President, Public Policy, Workday, 2025.
 
 ---
 

@@ -36,7 +36,9 @@ This is where the agentic employee enters. The term "agentic" itself means "capa
 
 > **Definition: The Agentic Employee**
 >
-> An agentic employee is a person who works alongside autonomous AI agents as teammates, orchestrating rather than merely executing. They set goals, define boundaries, review outputs, and handle exceptions, whilst agents handle routine and complex execution. The best agentic employees create and share reusable AI workflows, producing a compounding network effect where one person's innovation multiplies the capability of everyone around them.
+> An agentic employee is a person who works alongside autonomous AI agents as teammates, orchestrating rather than merely executing.
+
+They set goals, define boundaries, review outputs, and handle exceptions, whilst agents handle routine and complex execution. The best agentic employees create and share reusable AI workflows, producing a compounding network effect where one person's innovation multiplies the capability of everyone around them.
 
 Three distinct profiles are emerging in organisations that have made this shift:
 
@@ -67,17 +69,17 @@ The demand for this kind of fluency is growing at an extraordinary rate. Agentic
 
 The shift from left column to right in the table above is not something that happens through a training programme alone. It requires redesigned roles, new performance metrics, and a culture that rewards orchestration and skill-sharing rather than individual output. That is an organisational design challenge, not a learning and development challenge.
 
-At the operational level, the agentic employee's work is built on two concepts that deserve explicit definition.
+At the operational level, the agentic employee's work is built on two concepts that deserve explicit definition. Human-in-the-loop ensures that agents handle routine execution autonomously whilst humans retain oversight where judgment, accountability, or ethical consideration is required.
 
 > **Definition: Human-in-the-Loop**
 >
-> Human-in-the-loop is a design principle for human-agent workflows in which human checkpoints are placed at high-stakes decision points rather than throughout every step. It ensures that agents handle routine execution autonomously whilst humans retain oversight where judgment, accountability, or ethical consideration is required.
+> Human-in-the-loop is a design principle for human-agent workflows in which human checkpoints are placed at high-stakes decision points rather than throughout every step.
 
-The second concept is the building block of agentic capability.
+The second concept is the building block of agentic capability. Skills are the compound interest of the Agentic Organisation: when one person builds a skill and shares it, the capability multiplies across teams and functions. The best agentic employees do not just use AI; they create skills and share them, turning individual innovation into organisational capability.
 
 > **Definition: A Skill**
 >
-> A skill is a reusable AI workflow: a discrete, repeatable sequence of agent actions built by an employee and shared across the organisation. Skills are the compound interest of the Agentic Organisation. When one person builds a skill and shares it, the capability multiplies across teams and functions. The best agentic employees do not just use AI; they create skills and share them, turning individual innovation into organisational capability.
+> A skill is a reusable AI workflow: a discrete, repeatable sequence of agent actions built by an employee and shared across the organisation.
 
 Skills represent a deeper treatment that Chapter 7 will address in the context of the enterprise technology stack. For now, the critical point is that the Agentic Organisation is not built by deploying AI tools. It is built by developing people who can orchestrate agents, exercise judgment where it matters, and create reusable workflows that compound across the organisation.
 
@@ -111,7 +113,7 @@ Data protection obligations under the GDPR intersect with agentic AI in ways tha
 
 European co-determination frameworks add a governance dimension that, properly understood, becomes a design advantage rather than a constraint. Germany's Works Constitution Act requires employers to inform works councils before introducing AI systems, grants consultation rights, and triggers co-determination when AI can monitor employee behaviour. Deutsche Telekom's AI Manifesto, co-created with its Group Works Council, demonstrates that institutionalised stakeholder engagement produces faster, more durable adoption than top-down mandates.
 
-The consequences of proceeding without proper governance are concrete. A 2025 French court suspended an AI project and imposed penalties of 1,000 euros per day for 90 days, plus 5,000 euros in damages to the works council, for deploying without consultation. Allianz, by contrast, signed the EU AI Pact in November 2024, treating proactive compliance as a competitive differentiator rather than a cost of doing business.
+The consequences of proceeding without proper governance are concrete. A 2025 French court suspended an AI project and imposed penalties of 1,000 euros per day for 90 days, plus 5,000 euros in damages to the works council, for deploying without consultation. Allianz, by contrast, signed the EU AI Pact in November 2024, treating proactive compliance as a competitive differentiator rather than a cost of doing business.[^15]
 
 Building governance into the design from the outset, rather than retrofitting it after deployment, is what separates organisations that scale from those that stall. The board needs a structured way to assess transformation progress across all dimensions rather than relying on anecdotal pilot reports. The AI Transformation Framework introduced in Chapter 5, and the governance and measurement tools developed in Chapters 12 and 13, provide that structure.
 
@@ -120,6 +122,8 @@ Building governance into the design from the outset, rather than retrofitting it
 The Agentic Organisation is defined not by its technology but by its people: agentic employees who orchestrate rather than execute; three profiles that describe how work is distributed between humans and agents; skills that compound capability across the organisation; governance that keeps pace with deployment.
 
 But a picture is not a route. The next question is: how does transformation actually scale? The answer is not "everywhere at once." It progresses through four distinct tiers, each with different governance, different leadership demands, and different measures of success. Chapter 4 introduces The Four Tiers of Transformation, from the individual to the team to the department to the organisation, and shows why skipping a tier, or assuming one tier's success automatically produces the next, is the most common structural mistake in AI programmes.
+
+[^15]: Allianz, "EU AI Pact", November 2024
 
 ## Questions for the Board
 

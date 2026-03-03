@@ -40,15 +40,13 @@ The paradox McKinsey calls the "Gen AI Paradox" captures this precisely: nearly 
 
 The disconnect between AI adoption velocity and board-level governance is the single greatest enterprise risk most organisations are not measuring.
 
-Chapter 1 set out the numbers: 88% of organisations use AI in at least one business function, yet two-thirds of board members report limited to no AI knowledge, fewer than a quarter have board-approved AI policies, and only 14% discuss AI at every meeting. Those figures have improved year-on-year, but the direction of travel is not the point. The gap itself is the point, and it has not closed.
+Chapter 1 set out the numbers: 88% of organisations use AI in at least one business function, yet two-thirds of board members report limited to no AI knowledge, fewer than a quarter have board-approved AI policies, and only 14% discuss AI at every meeting.[^13] Those figures have improved year-on-year, but the direction of travel is not the point. The gap itself is the point, and it has not closed.
 
 What Chapter 1 established as a governance gap, this chapter reframes as a leadership accountability failure. The board is not underperforming because its members lack technical aptitude. It is underperforming because the CEO has not structured the governance agenda to demand better. Boards govern at the level leadership asks them to govern. When the leader frames AI as an IT project, the board asks IT-level questions.
 
 A board that cannot distinguish between the three levels of the Paradigm Shift Diagnostic: between Bolt-On activity and genuine Redesign, cannot ask the right questions about the organisation's AI programme. A board that does not ask the right questions will approve strategies, budgets, and timelines calibrated to a different kind of change than the one actually underway.
 
-For European boards, the governance imperative has a regulatory dimension that cannot be deferred. The EU AI Act creates direct obligations on organisational leadership: prohibited-risk provisions applied from February 2025, AI literacy training is already required, and full high-risk system requirements apply from August 2026.
-
-Penalties reach up to 35 million euros or 7% of global annual turnover. These are not IT compliance tasks. They are leadership accountability obligations that sit with the board and executive team.
+For European boards, the governance imperative has a regulatory dimension that cannot be deferred. The EU AI Act creates direct obligations on organisational leadership: prohibited-risk provisions applied from February 2025, AI literacy training is already required, and full high-risk system requirements apply from August 2026. Penalties reach up to 35 million euros or 7% of global annual turnover.[^14] These are not IT compliance tasks. They are leadership accountability obligations that sit with the board and executive team.
 
 The Act requires organisations to complete an AI inventory with risk classification, clarify their supply chain role, implement risk management systems, establish AI literacy training, and conduct fundamental rights impact assessments. Each of these is a leadership-level decision, not an IT task.
 
@@ -113,6 +111,9 @@ Navrina Singh, CEO of Credo AI, put the timeline starkly: if you are not using A
 The argument of this chapter is settled by the evidence, not by assertion. Six times the success rate with executive-led transformations. Twelve times the likelihood of being in the top 5% when leaders are deeply engaged. A near-doubling of abandonment rates when they are not. The data points all in one direction.
 
 The question is no longer whether to lead, but what the destination looks like. Now that the leadership precondition is established, the next chapter answers the question every committed leader asks next: what exactly are we building? Chapter 3 defines the Agentic Organisation in concrete, operational terms, introducing the AI Transformation Framework and the concept of the agentic employee.
+
+[^13]: Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025
+[^14]: EU, "AI Act", 2024
 
 ## Questions for the Board
 

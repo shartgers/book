@@ -10,7 +10,7 @@ This chapter breaks the Operating Model layer into its components. Who does the 
 
 ## Why Pilots Succeed but Transformation Stalls
 
-A 2026 study in the Harvard Data Science Review reported that despite 78% of companies claiming AI adoption, 80% report no measurable impact on earnings. The reason: AI is layered onto workflows designed for humans, not for human-agent collaboration.
+A 2026 study in the Harvard Data Science Review reported that despite 78% of companies claiming AI adoption, 80% report no measurable impact on earnings.[^21] The reason: AI is layered onto workflows designed for humans, not for human-agent collaboration.
 
 Bain calls this the "micro-productivity trap." Grassroots experimentation with AI tools generates ideas and cultural energy, but it does not self-organise into enterprise-wide impact. Individual productivity gains stay individual. Team-level wins do not propagate. The organisation as a whole barely moves.
 
@@ -60,9 +60,11 @@ Three org design models are emerging for how organisations structure their AI ca
 
 The typical progression: centralise first to build standards, governance, and a talent pool. Then decentralise delivery as maturity grows. The Centre of Excellence evolution (Chapter 11) maps onto this same trajectory.
 
+The Agentic Operating Model has two pillars. **People:** three new roles (Domain Leader, Agent Orchestrator, AI Product Manager) plus the skills shift from task-doer to orchestrator. **Process:** radical end-to-end workflow redesign around agents as primary actors, plus three org design patterns (Centralised, Hub-and-Spoke, Hybrid) that define how the operating model scales. Each dimension must be addressed; redesigning technology without redesigning the operating model is the primary cause of pilot purgatory.
+
 > **Definition: The Agentic Operating Model**
 >
-> The Agentic Operating Model is the Operating Model layer of the AI Transformation Framework, redesigned for human-agent collaboration. It has two pillars. **People:** three new roles (Domain Leader, Agent Orchestrator, AI Product Manager) plus the skills shift from task-doer to orchestrator. **Process:** radical end-to-end workflow redesign around agents as primary actors, plus three org design patterns (Centralised, Hub-and-Spoke, Hybrid) that define how the operating model scales. Each dimension must be addressed; redesigning technology without redesigning the operating model is the primary cause of pilot purgatory.
+> The Agentic Operating Model is the Operating Model layer of the AI Transformation Framework, redesigned for human-agent collaboration.
 
 ## The Operating Model as Leadership Accountability
 
@@ -79,6 +81,8 @@ Span of control is shifting as well. McKinsey envisions one manager with a small
 The Operating Model layer is the 70%, and this chapter has laid out a framework for redesigning it: new roles, new skills, and new processes built for human-agent collaboration. But the operating model does not stand alone.
 
 It depends on a foundation: data quality, technology architecture, and enablement. The two layers are tightly coupled. Process redesign requires data readiness, and 63% of organisations still lack adequate data management for AI. The skills shift requires tooling and enablement infrastructure. Org design requires platforms that enable collaboration across teams and agents. Chapter 7 dives into the Foundation layer: the final layer of the AI Transformation Framework and the base on which the operating model is built.
+
+[^21]: Harvard Data Science Review, "2026", 2026
 
 ## Questions for the Board: The Operating Model
 

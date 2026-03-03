@@ -28,23 +28,28 @@ The AI Transformation Framework is the map for the Agentic Organisation. It has 
 
 **Layer 4: Foundation.** The base of the framework has three pillars. **Data:** reusable data products, analytics, architecture, and monetisation; data as a strategic asset. **Technology:** target architecture, platforms and solutions, integration; including protocols such as MCP and agent standards. **Enablement:** culture, the AI and engineering toolbox, automation, agents, and skills. Enablement ensures that change can be driven bottom-up as well as top-down: employees understand AI, adopt an orchestrator mindset, and contribute as agentic employees; management participates and models the behaviour. Chapter 7 covers the Foundation layer in detail.
 
-Governance, KPIs, and the Value, Capabilities, Trust decision framework (Chapters 8 and 12–13) are essential to transformation but are not part of the four-layer framework; they are covered in later chapters.
-
 > **Definition: The AI Transformation Framework**
 >
-> The AI Transformation Framework is the map for the Agentic Organisation. It has four layers, top to bottom: (1) Vision: vision, strategy, values, objectives; (2) Products: by platform or business unit, product vision and objectives, products, personas, customer journeys, frictions; (3) Operating Model: People (roles, target skills and gaps, org sizing, talent journey, training, team incentives), Process (org design, cross-functional teams, product way-of-working); (4) Foundation: Data (reusable data products, analytics, architecture, monetisation), Technology (target architecture, platforms and solutions, integration), Enablement (culture, AI and engineering toolbox, automation, agents, skills). Use it to describe what the Agentic Organisation is made of and how to assess readiness across each layer.
+> The AI Transformation Framework is the map for the Agentic Organisation.
+
+It has four layers, top to bottom: (1) Vision: vision, strategy, values, objectives; (2) Products: by platform or business unit, product vision and objectives, products, personas, customer journeys, frictions; (3) Operating Model: People (roles, target skills and gaps, org sizing, talent journey, training, team incentives), Process (org design, cross-functional teams, product way-of-working); (4) Foundation: Data (reusable data products, analytics, architecture, monetisation), Technology (target architecture, platforms and solutions, integration), Enablement (culture, AI and engineering toolbox, automation, agents, skills). Use it to describe what the Agentic Organisation is made of and how to assess readiness across each layer.
+
+Governance, KPIs, and the Value, Capabilities, Trust decision framework (Chapters 8 and 12–13) are essential to transformation but are not part of the four-layer framework; they are covered in later chapters.
 
 ## The Framework as a Governance Instrument
 
-The framework is the basis for board and C-suite conversations. The right question on each layer is: "Where are we, and where do we need to be?" Governance demands span all four layers, not just technology. Deloitte reports that only 21% of organisations have rigorous AI governance. Research suggests that two-thirds of boards report limited to no AI knowledge and only 15% receive AI-related metrics. Relying on pilot updates or technology metrics alone is insufficient; the board should assess transformation progress against each layer.
+The framework is the basis for board and C-suite conversations. The right question on each layer is: "Where are we, and where do we need to be?" Governance demands span all four layers, not just technology. Deloitte reports that only 21% of organisations have rigorous AI governance.[^19] Research suggests that two-thirds of boards report limited to no AI knowledge and only 15% receive AI-related metrics. Relying on pilot updates or technology metrics alone is insufficient; the board should assess transformation progress against each layer.
 
-For European organisations, EU AI Act obligations map onto the framework. Prohibitions and AI literacy requirements apply from February 2025; high-risk obligations and the majority of the Act follow from August 2026. Risk classification (unacceptable, high-risk, limited, minimal) and penalties (up to €35 million or 7% of global annual turnover) make a structured view essential.
+For European organisations, EU AI Act obligations map onto the framework. Prohibitions and AI literacy requirements apply from February 2025; high-risk obligations and the majority of the Act follow from August 2026. Risk classification (unacceptable, high-risk, limited, minimal) and penalties (up to €35 million or 7% of global annual turnover) make a structured view essential.[^20]
 
 AI literacy sits in the Operating Model; risk classification in Technology and Enablement within the Foundation; data protection in Data; product compliance in Products. The Value, Capabilities, Trust decision framework (Chapter 8) supports prioritisation and trust outcomes but is not a layer. The framework also connects to the Four Tiers (Chapter 4): each tier requires progress across the four layers; skipping a tier or a layer creates blind spots. European firms can use the framework to turn regulatory and governance obligations into a clear allocation of effort across Vision, Products, Operating Model, and Foundation.
 
 ## From Map to Execution
 
 The AI Transformation Framework provides the map. The next question is how to organise the organisation for agentic work: roles, skills, team design, and the Operating Model layer that connects vision to day-to-day execution. Chapter 6 deep-dives the Operating Model: people, process, roles, skills, and org design, and how to structure teams and roles for agentic work, from task-doer to orchestrator at scale. The framework orients; the Operating Model layer is where strategy becomes structure and where many organisations bottleneck after successful pilots.
+
+[^19]: Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025
+[^20]: EU, "AI Act", 2024
 
 ## Questions for the Board: The Framework
 

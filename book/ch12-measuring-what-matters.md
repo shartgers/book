@@ -24,7 +24,9 @@ The Readiness Gate connects the book's core models into a single diagnostic. Thr
 
 > **Definition: The Readiness Gate**
 >
-> The Readiness Gate is a three-step diagnostic that turns organisational assessment into a decision tool. It uses the AI Transformation Framework to diagnose capability across four layers, the AI Decision Framework to prioritise gaps by Value, Capabilities, and Trust, and the Transformation Playbook to sequence what to fix first. It is designed to be repeated quarterly or at each phase transition, not run once and filed.
+> The Readiness Gate is a three-step diagnostic that turns organisational assessment into a decision tool.
+
+It uses the AI Transformation Framework to diagnose capability across four layers, the AI Decision Framework to prioritise gaps by Value, Capabilities, and Trust, and the Transformation Playbook to sequence what to fix first. It is designed to be repeated quarterly or at each phase transition, not run once and filed.
 
 **Step 1: Diagnose.** Score the organisation across the AI Transformation Framework's four layers (Vision, Products, Operating Model, Foundation), adding governance and culture as cross-cutting dimensions. Rate each on a simple 1 to 5 scale: not started, early, defined and piloting, operational and scaling, optimised and continuous.
 
