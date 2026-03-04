@@ -655,7 +655,7 @@ def inject_ordered_list_numbers(html: str) -> str:
 
 # Part separator pages: chapter number that starts each part -> part title (from toc.md)
 PART_TITLES = {
-    1: "Part I: The Burning Platform",
+    1: "Part I: Building Momentum",
     3: "Part II: The Model",
     9: "Part III: The European Advantage",
     11: "Part IV: The CEO's Playbook",
@@ -923,6 +923,25 @@ def get_css(for_pdf: bool = True) -> str:
     .copyright-page p {{
         text-indent: 0;
         margin-bottom: 0.35em;
+    }}
+
+    /* DEDICATION PAGE */
+    .dedication-page {{
+        page-break-after: always;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 1.3in;
+        min-height: 7in;
+    }}
+
+    .dedication-page p {{
+        text-indent: 0;
+        text-align: center;
+        font-style: italic;
+        font-size: 9pt;
+        line-height: 1.3;
+        margin-bottom: 0.5em;
     }}
 
     /* TABLE OF CONTENTS: tighter */
@@ -1406,6 +1425,26 @@ def make_footnotes_continuous(html: str, start_offset: int, chapter_id: str) -> 
     return html, start_offset + count
 
 
+def _load_copyright_html(book_dir: Path) -> str:
+    """Read book/copyright.md and return rendered HTML (markdown supported, e.g. _italic_)."""
+    copyright_path = book_dir / "copyright.md"
+    if copyright_path.exists():
+        text = copyright_path.read_text(encoding="utf-8")
+        return markdown_to_html(text) if text.strip() else "<p></p>"
+    # Fallback if file is missing
+    return f"<p>\u00a9 {__import__('datetime').datetime.now().year} The Agentic Organisation. All rights reserved.</p>"
+
+
+def _load_dedication_html(book_dir: Path) -> str:
+    """Read book/dedicated-to.md and return rendered HTML wrapped for the dedication page."""
+    dedication_path = book_dir / "dedicated-to.md"
+    if dedication_path.exists():
+        text = dedication_path.read_text(encoding="utf-8")
+        if text.strip():
+            return markdown_to_html(text)
+    return ""
+
+
 def build_full_html(
     repo: Path,
     title: str,
@@ -1447,10 +1486,14 @@ def build_full_html(
     html_parts.append('<div class="author">' + html_module.escape(author_name) + "</div>")
     html_parts.append("</div>")
     html_parts.append('<div class="copyright-page front-matter">')
-    html_parts.append("<p>© " + str(__import__("datetime").datetime.now().year) + " " + html_module.escape(title) + ". All rights reserved.</p>")
-    html_parts.append("<p></p>")
+    html_parts.append(_load_copyright_html(book_dir))
     html_parts.append("</div>")
-    html_parts.append('<div class="blank-page"></div>')
+    # Dedication page: right after copyright
+    dedication_html = _load_dedication_html(book_dir)
+    if dedication_html:
+        html_parts.append('<div class="dedication-page front-matter">')
+        html_parts.append(dedication_html)
+        html_parts.append("</div>")
     html_parts.append('<div class="epigraph-page front-matter"></div>')
     # Load introduction early so TOC can include "Introduction" entry with correct page number
     introduction_md = load_text(repo / "book" / "introduction.md")
@@ -1693,10 +1736,10 @@ def build_epub(
     toc_entries = []
 
     # Front matter: title page + copyright (single xhtml)
+    copyright_html = _load_copyright_html(repo / "book")
     title_content = f"""<h1>{html_module.escape(meta_title)}</h1>
 <p class="subtitle">{html_module.escape(meta_subtitle)}</p>
-<p>© {__import__('datetime').datetime.now().year} {html_module.escape(meta_title)}. All rights reserved.</p>
-<p>This work is for distribution via Amazon KDP and IngramSpark.</p>"""
+{copyright_html}"""
     title_page = epub.EpubHtml(
         title="Title",
         file_name="title.xhtml",
@@ -1706,6 +1749,19 @@ def build_epub(
     book.add_item(title_page)
     spine.append(title_page)
     toc_entries.append(epub.Link("title.xhtml", "Title", "title"))
+
+    # Dedication page (optional) — right after copyright
+    dedication_html = _load_dedication_html(repo / "book")
+    if dedication_html:
+        dedication_epub_css = "p { font-style: italic; text-align: center; margin-top: 3em; }"
+        dedication_page = epub.EpubHtml(
+            title="Dedication",
+            file_name="dedication.xhtml",
+            lang="en",
+            content=f'<html><head><style>{EPUB_CSS} {dedication_epub_css}</style></head><body>{dedication_html}</body></html>',
+        )
+        book.add_item(dedication_page)
+        spine.append(dedication_page)
 
     # Introduction (optional)
     introduction_md = load_text(repo / "book" / "introduction.md")

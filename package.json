@@ -8,6 +8,7 @@
     "epub": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --epub --output output/book-interior.epub",
     "html": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html",
     "pdfx": "python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-interior.pdf output/book-interior-pdfx.pdf",
-    "full": "python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-full.pdf && python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-full.pdf output/book-in-full-pdfx.pdf"
+    "full": "python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-full.pdf",
+    "fullx": "python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-full.pdf output/book-full-pdfx.pdf"
   }
 }

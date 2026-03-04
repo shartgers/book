@@ -12,7 +12,7 @@ In 2025, 72% of respondents identified the CEO as the primary AI decision-maker,
 
 This chapter makes the case for what "in the room" actually requires, for leaders, their executive teams, and their boards. The argument is not that leadership matters. The argument is that the specific kind of leadership required for this transformation is categorically different from what most leaders are currently providing, and that the gap between the two is the single most correctable cause of failure.
 
-The distinction matters because it is correctable. Technology limitations, market timing, regulatory constraints: these are external variables that leadership can influence but not control. Whether the leader is personally, visibly, and irreversibly committed to leading the transformation is entirely within the leader's control. It is the one variable most likely to determine success, and the one most frequently abdicated.
+The distinction matters because it is correctable. Technology limitations, market timing, regulatory constraints: these are external variables that leadership can influence but not control. Whether the leadership is personally, visibly, and irreversibly committed to leading the transformation is entirely within the leader's control. It is the one variable most likely to determine success, and the one most frequently abdicated.
 
 ## Three Interlocking Failures
 
@@ -24,7 +24,7 @@ The loop is self-sustaining, and breaking it requires intervention at all three 
 
 ### The delegation trap
 
-Most leaders frame AI as an IT project, a cost centre, or an experiment to bolt onto existing processes. That framing determines everything that follows: who owns it, how it is governed, how success is measured, and when it can be defunded. It is, as we saw in Chapter 1 with the Paradigm Shift Diagnostic, the Bolt-On response applied to a Redesign-level challenge.
+Most leaders frame AI as an IT project, a cost centre, or an experiment to bolt onto existing processes. That framing determines everything that follows: who owns it, how it is governed, how success is measured, and when it can be defunded.
 
 The required mental model is the one Chapter 1 established: this is 80% business transformation and 20% technology transformation. That is a structural claim about where value is created and where it is lost, not a rhetorical device.
 
@@ -34,7 +34,7 @@ The evidence of mismatch is stark. S&P Global reports that 42% of companies scra
 
 Meanwhile, the leaders who have adopted the right mental model are pulling away. Only 5% of firms achieve AI value at scale. Those that do commit three times the investment of average organisations and invest twice as much in workforce upskilling. They are not spending more on better algorithms. They are spending more on the organisational redesign that makes algorithms valuable.
 
-The paradox McKinsey calls the "Gen AI Paradox" captures this precisely: nearly eight in ten companies report using generative AI, yet just as many report no significant bottom-line impact. Usage without leadership-driven architecture produces activity, not outcomes. The organisations that have broken through the paradox did so not by finding better tools but by changing who owns the transformation and how the organisation is structured to absorb it.
+The paradox McKinsey calls the "GenAI Paradox" captures this precisely: the technology is advancing at exceptional speed and capability, while organisational value creation lags behind. Nearly eight in ten companies report using generative AI, yet just as many report no significant bottom-line impact. Usage without leadership-driven architecture produces activity, not outcomes. The organisations that have broken through the paradox did so not by finding better tools but by changing who owns the transformation and how the organisation is structured to absorb it.
 
 ### The board governance gap
 
@@ -44,7 +44,7 @@ Chapter 1 set out the numbers: 88% of organisations use AI in at least one busin
 
 What Chapter 1 established as a governance gap, this chapter reframes as a leadership accountability failure. The board is not underperforming because its members lack technical aptitude. It is underperforming because the CEO has not structured the governance agenda to demand better. Boards govern at the level leadership asks them to govern. When the leader frames AI as an IT project, the board asks IT-level questions.
 
-A board that cannot distinguish between the three levels of the Paradigm Shift Diagnostic: between Bolt-On activity and genuine Redesign, cannot ask the right questions about the organisation's AI programme. A board that does not ask the right questions will approve strategies, budgets, and timelines calibrated to a different kind of change than the one actually underway.
+A board that cannot distinguish between the three levels of the paradigm shift, between bolt-on activity and genuine redesign, cannot ask the right questions about the organisation's AI programme. A board that does not ask the right questions will approve strategies, budgets, and timelines calibrated to a different kind of change than the one actually underway.
 
 For European boards, the governance imperative has a regulatory dimension that cannot be deferred. The EU AI Act creates direct obligations on organisational leadership: prohibited-risk provisions applied from February 2025, AI literacy training is already required, and full high-risk system requirements apply from August 2026. Penalties reach up to 35 million euros or 7% of global annual turnover.[^14] These are not IT compliance tasks. They are leadership accountability obligations that sit with the board and executive team.
 

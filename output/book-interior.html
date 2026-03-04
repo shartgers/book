@@ -457,7 +457,7 @@
     }
 
     /* FOOTNOTES: small, black, no underline; placed before Questions section.
-       Inline refs (superscript numbers) and the footnote block use case-study font. */
+       Inline refs (superscript numbers) and the footnote block use Gill Sans. */
     sup a.footnote-ref,
     sup a.footnote-ref:hover,
     sup a.footnote-ref:visited {
@@ -467,27 +467,46 @@
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
     }
     .chapter-footnotes {
+        float: footnote;
+        footnote-display: block;
+        footnote-policy: page;
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
         font-size: 7.25pt;
-        line-height: 1.25;
+        line-height: 1.0;
         color: #000;
-        margin: 2.5em 0 0 0;
-        padding-top: 0.8em;
-        border-top: 1.3pt solid #333;
+        margin-top: 2em;
+        margin-bottom: 0;
+        padding: 0.2em 0 0 0;
+        border-top: 0.8pt solid #000;
         page-break-inside: avoid;
         display: block;
         clear: both;
-        float: bottom;
     }
+    .chapter-footnotes::footnote-call,
+    .chapter-footnotes::footnote-marker {
+        content: "";
+    }
+    /* When footnotes are in the footnote block, use Gill Sans and reset numbering styles */
     .chapter-footnotes .footnote ol {
         margin: 0;
-        padding-left: 2em;
-        list-style: decimal;
+        padding-left: 0;
+        list-style: none;
     }
     .chapter-footnotes .footnote li {
-        display: list-item;
-        margin: 0 0 0.15em 0;
-        padding-left: 0.25em;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .chapter-footnotes .footnote li .li-block {
+        display: flex;
+        align-items: baseline;
+        gap: 0.4em;
+    }
+    .chapter-footnotes .footnote li .list-number {
+        font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
+        font-weight: bold;
+        flex-shrink: 0;
+        min-width: 1.5em;
     }
     /* Inline p so number and text stay on same line; no extra line breaks; remove indent */
     .chapter-footnotes .footnote li p {
@@ -554,13 +573,13 @@
 <p>Read it in order if you want the full argument. Use the table of contents if you want to jump ahead: go to the AI Transformation Framework (Chapter 5) or the implementation playbook (Chapter 11) if you need a specific tool. Each chapter ends with reflection questions you can use with your team or your board. The 9 lessons in Chapter 10 (drawn from case studies) show how leaders decided under pressure; the lessons are meant to transfer, not the cases to be copied literally. Your context will differ, but the underlying patterns do transfer.</p>
 <p>The cost of inaction is not zero. It is already accumulating in cost structure, talent pipeline, and competitive positioning. The organisations that will matter in three years are the ones that treat this as a leadership decision and act accordingly. This book is written to help you be one of them.</p></div><div class="part-separator" id="part1"><h2>Part I: The Burning Platform</h2></div><div class="chapter" id="ch01"><div class="toc-entry-hidden">Chapter 1 - The Largest Shift Since the Industrial Revolution</div><div class="chapter-number">Chapter One</div><div class="chapter-title">The Largest Shift Since the Industrial Revolution</div><div class="chapter-divider"></div><h2>The Ninety-Five Per Cent Paradox</h2>
 <p>Ninety-five per cent of enterprise AI implementations fail to deliver sustained impact. Not because the technology does not work. Not because the strategy was wrong. Because organisations are treating the largest paradigm shift since the industrial revolution as though it were another software rollout.</p>
-<p>The data on this is unambiguous. The MIT NANDA report, drawing on over 300 AI initiatives across 52 organisations and 153 senior leader surveys, found that 95% of enterprise generative AI implementations fail to deliver sustained, measurable impact.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> A global survey of more than 1,000 senior executives found that only 5% of companies achieve AI value at scale, whilst 60% achieve no material value whatsoever.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<p>The data on this is unambiguous. The MIT NANDA report, drawing on over 300 AI initiatives across 52 organisations and 153 senior leader surveys, found that 95% of enterprise generative AI implementations fail to deliver sustained, measurable impact.<sup id="fnref:ch01-1"><a class="footnote-ref" href="#fn:ch01-1">1</a></sup> A global survey of more than 1,000 senior executives found that only 5% of companies achieve AI value at scale, whilst 60% achieve no material value whatsoever.<sup id="fnref:ch01-2"><a class="footnote-ref" href="#fn:ch01-2">2</a></sup></p>
 <p>RAND puts the AI project failure rate at over 80%, double the rate of non-AI IT projects. S&amp;P Global reports that 42% of companies scrapped most AI initiatives in 2025, up from 17% the year before.</p>
-<p>These are not preliminary findings from a single study. They are converging conclusions from independent research programmes spanning thousands of organisations. And yet, eight in ten companies already use generative AI.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> Equally many report no significant bottom-line impact. The tools are everywhere. The value is not.</p>
+<p>These are not preliminary findings from a single study. They are converging conclusions from independent research programmes spanning thousands of organisations. And yet, eight in ten companies already use generative AI.<sup id="fnref:ch01-3"><a class="footnote-ref" href="#fn:ch01-3">3</a></sup> Equally many report no significant bottom-line impact. The tools are everywhere. The value is not.</p>
 <p>The paradox is striking because the technology does work. The companies achieving value at scale are achieving it dramatically: 2-3x conversion improvements, 80% reductions in processing time, hundreds of millions in measurable value. A Singapore bank grew its AI economic value from S$180 million to S$750 million in two years. A Dutch bank achieved a 90% pilot-to-production rate against an industry average of 30%. A German insurer reduced claim processing time by 80% through a seven-agent AI workflow launched in under 100 days.</p>
 <p>These outcomes are real and replicable. The question is not whether AI can produce results of that order. It is why most organisations cannot access them despite considerable effort and investment.</p>
 <p>The answer is one of the oldest problems in business: applying the wrong mental model to a categorically different kind of change. Most organisations are doing what early automobile buyers did when they called it a "horseless carriage": defining the new technology in terms of the old one. They are putting AI on top of existing processes, existing org charts, existing decision-making structures, and asking it to make things faster. That produces faster versions of the same thing. It does not produce transformation.</p>
-<p>McKinsey, in its landmark September 2025 analysis of agentic AI, described this moment as "the largest organisational paradigm shift since the industrial and digital revolutions".<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> That framing is not consulting hyperbole. It is an analytical claim with precise implications.</p>
+<p>McKinsey, in its landmark September 2025 analysis of agentic AI, described this moment as "the largest organisational paradigm shift since the industrial and digital revolutions".<sup id="fnref:ch01-4"><a class="footnote-ref" href="#fn:ch01-4">4</a></sup> That framing is not consulting hyperbole. It is an analytical claim with precise implications.</p>
 <p>Paradigm shifts do not yield to incremental responses. The organisations that thrived during the industrial revolution did not optimise their horse-drawn carriages. They redesigned their operations around the principles that steam and mechanisation made possible. Those that treated the new technology as an upgrade gained temporary efficiency, then fell behind organisations that had redesigned entirely. The same pattern is now unfolding with AI, at a pace that makes the industrial revolution look glacial.</p>
 <p>AI task completion capability is doubling every four months. The window for first-mover advantage is not widening. It is narrowing. The question this chapter asks is not whether you believe that. The data settles it. The question is whether you are leading as though you do.</p>
 <h2>Why This Moment Is Different</h2>
@@ -570,13 +589,13 @@
 <p>This is the critical distinction: the rate of improvement is itself accelerating. Organisations planning on a linear trajectory are building for a world that will not exist by the time their plans mature. The strategy approved in January may be structurally obsolete by September, not because the strategy was bad, but because the underlying capabilities shifted faster than the planning cycle could accommodate. For leaders accustomed to three-year technology roadmaps, this compression is disorienting. It is also the new reality.</p>
 <p>Unlike generative AI, which produces outputs in response to individual prompts, agentic AI plans, reasons, and takes sequences of actions without continuous human instruction. Predictive AI handles logic; generative AI handles creativity; agentic AI exercises what BCG describes as the "frontal cortex" function: planning, judgment, and orchestration.</p>
 <div class="definition"><div class="definition-box"><p class="definition-single"><span class="definition-title">Agentic AI</span><br/><br/>Agentic AI refers to AI systems that act autonomously to complete multi-step tasks, make decisions, and use tools or other agents to achieve a defined goal.</p></div><div class="definition-box-end"></div></div>
-<p>The organisations capturing this value are doing so visibly. Research from a global survey of more than 1,000 senior executives found that the top 5% of companies, those furthest ahead in AI, achieve 3.6 times the three-year total shareholder return of their peers, 1.7 times the revenue growth, and 1.6 times the EBIT margin. These leaders plan to spend more than twice as much on AI as the organisations trailing them.<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup></p>
-<p>Agentic AI already accounts for 17% of total AI value in 2025, with projections reaching 29% by 2028.<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> The gap is not a snapshot. It is a trend line with compounding momentum.</p>
+<p>The organisations capturing this value are doing so visibly. Research from a global survey of more than 1,000 senior executives found that the top 5% of companies, those furthest ahead in AI, achieve 3.6 times the three-year total shareholder return of their peers, 1.7 times the revenue growth, and 1.6 times the EBIT margin. These leaders plan to spend more than twice as much on AI as the organisations trailing them.<sup id="fnref:ch01-5"><a class="footnote-ref" href="#fn:ch01-5">5</a></sup></p>
+<p>Agentic AI already accounts for 17% of total AI value in 2025, with projections reaching 29% by 2028.<sup id="fnref:ch01-6"><a class="footnote-ref" href="#fn:ch01-6">6</a></sup> The gap is not a snapshot. It is a trend line with compounding momentum.</p>
 <p>Agents can use tools, access data, communicate with other agents, and take action without step-by-step human instruction. In an organisational context, agents take on work that previously required human attention at every step: research, scheduling, analysis, compliance checking, decision preparation, and process execution.</p>
 <div class="definition"><div class="definition-box"><p class="definition-single"><span class="definition-title">AI agent</span><br/><br/>An AI agent is a software system that perceives its environment, plans actions, and executes tasks autonomously to achieve a defined goal.</p></div><div class="definition-box-end"></div></div>
-<p>The industry has moved through distinct phases, and each one has raised the stakes. In 2023, organisations experimented with generative AI on modest budgets and with considerable curiosity. In 2024, the "thousand flowers" phase arrived: every department launched its own AI initiative, chatbots proliferated, and individual productivity gains were real. But at the enterprise level, almost none of it compounded. Now, in 2025 and beyond, a small group of companies is focusing on the high-return transformations that produce structural change, whilst the rest remain scattered across initiatives that feel productive but do not add up.<sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup></p>
+<p>The industry has moved through distinct phases, and each one has raised the stakes. In 2023, organisations experimented with generative AI on modest budgets and with considerable curiosity. In 2024, the "thousand flowers" phase arrived: every department launched its own AI initiative, chatbots proliferated, and individual productivity gains were real. But at the enterprise level, almost none of it compounded. Now, in 2025 and beyond, a small group of companies is focusing on the high-return transformations that produce structural change, whilst the rest remain scattered across initiatives that feel productive but do not add up.<sup id="fnref:ch01-7"><a class="footnote-ref" href="#fn:ch01-7">7</a></sup></p>
 <p>For European organisations, the context carries additional weight. Only 20% of EU enterprises use AI today. Large enterprises sit at 55%, but the spread is dramatic: Denmark at 42%, Romania at 5.2%. Over 60% of European firms remain at the earliest stages of AI maturity.</p>
-<p>The investment gap is real. US private AI investment in 2024 reached $109 billion. Europe produces only three of the world's top AI models, compared to 40 in the United States. But the picture is not one-sided. A 2026 EU Commission-backed report found that Europe allocates a higher share of venture capital to agentic AI than the US, with Paris, Berlin, Amsterdam, Stockholm, Munich, and Barcelona as leading hubs.<sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> The raw materials for European leadership exist. The question is whether they will be assembled into something that compounds.</p>
+<p>The investment gap is real. US private AI investment in 2024 reached $109 billion. Europe produces only three of the world's top AI models, compared to 40 in the United States. But the picture is not one-sided. A 2026 EU Commission-backed report found that Europe allocates a higher share of venture capital to agentic AI than the US, with Paris, Berlin, Amsterdam, Stockholm, Munich, and Barcelona as leading hubs.<sup id="fnref:ch01-8"><a class="footnote-ref" href="#fn:ch01-8">8</a></sup> The raw materials for European leadership exist. The question is whether they will be assembled into something that compounds.</p>
 <p>The companies generating breakthrough value, wherever they sit, share a characteristic that has little to do with which AI vendor they chose or how large their technology budget was. What they share is a commitment to treat AI as an organisational transformation, not a technology deployment. The common trait across the top performers is leadership-led transformation: leaders who understood that AI required a fundamentally different kind of response, and who committed to providing it.</p>
 <p>Against this, the majority pattern is familiar. Grassroots AI experimentation creates cultural momentum and generates genuine individual gains. But it does not self-organise into enterprise-wide impact. Without clear direction from the top, experimentation remains fragmented, siloed, and ultimately shallow.</p>
 <p>The numbers make this gap vivid. Research confirms that 91% of employees already use generative AI at work. Only 1% of companies report AI maturity. Individual adoption massively outpaces organisational readiness, because individual adoption follows tools and convenience, whilst organisational maturity requires deliberate architecture.</p>
@@ -589,7 +608,7 @@
 <p>Most have thought about it as the 20%. That is why 95% are failing.</p>
 <h2>The Governance Gap</h2>
 <p>The 95% failure rate is not primarily a technology problem. It is a governance and leadership problem.</p>
-<p>Boards are failing to keep pace with the organisations they oversee. A Deloitte study of 695 board members across 56 countries found that 66% report limited to no knowledge or experience with AI: an improvement from 79% the prior year, but still a clear majority. Only 15% of boards receive AI-related metrics. Fewer than 25% have board-approved AI policies. Only 14% discuss AI at every board meeting. Meanwhile, 88% of their organisations already use AI in at least one business function.<sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup></p>
+<p>Boards are failing to keep pace with the organisations they oversee. A Deloitte study of 695 board members across 56 countries found that 66% report limited to no knowledge or experience with AI: an improvement from 79% the prior year, but still a clear majority. Only 15% of boards receive AI-related metrics. Fewer than 25% have board-approved AI policies. Only 14% discuss AI at every board meeting. Meanwhile, 88% of their organisations already use AI in at least one business function.<sup id="fnref:ch01-9"><a class="footnote-ref" href="#fn:ch01-9">9</a></sup></p>
 <p>The gap between what is happening inside the organisation and what the board understands is itself a strategic risk. This is not abstract. When a board cannot distinguish between a productive AI pilot and a structurally limited one, it cannot allocate capital, attention, or governance effectively.</p>
 <p>When AI is discussed once per quarter rather than at every meeting, the pace of the technology outruns the pace of oversight. And when 66% of board members lack the knowledge to ask the right questions, the organisation's AI ambitions are governed by people who cannot evaluate what they are governing.</p>
 <p>It is not an organisation that uses AI tools. It is one whose operating architecture, decision-making processes, and workflow design are built for human-agent collaboration at scale. The Agentic Organisation does not add AI to the way it works. It works in a fundamentally different way because of AI.</p>
@@ -599,8 +618,8 @@
 <p>What does that look like in practice? Boards should track ROI by business unit, the percentage of processes that are AI-enabled, workforce reskilling progress, regulatory alignment, and human override rates in agentic systems. They should know how many AI initiatives have moved from pilot to production, and why the ones that have not are stalled.</p>
 <p>They should be able to distinguish between activity and impact. These are not IT metrics. They are organisational health metrics, and they belong on every board agenda.</p>
 <p>Three out of four executives rank AI as a top-three strategic priority, yet only a quarter report meaningful value from it. That gap is a governance failure, not a technology failure. When the board treats AI as a technology investment delegated to the CIO, it gets technology-investment outcomes: isolated pilots, modest efficiency gains, and no compounding effect across the organisation. When it treats AI as the strategic inflection point it is, the entire governance posture changes.</p>
-<p>For European boards, the compliance dimension adds urgency that cannot be deferred. Full obligations under the EU AI Act for high-risk AI systems apply from 2 August 2026, with penalties of up to 35 million euros or 7% of global annual turnover for prohibited practices. Prohibitions on unacceptable-risk AI have already applied since February 2025. AI literacy training is already required. Any firm using AI in or affecting EU users, regardless of where it is incorporated, falls within scope.<sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup></p>
-<p>Eurostat data from December 2025 shows that 20% of EU enterprises with ten or more employees now use AI, up from 13.5% the prior year. Large enterprise adoption stands at 55%.<sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup> But adoption without governance is exposure. The World Economic Forum has identified Europe's AI adoption lag as an urgent structural challenge, not a cyclical one.<sup id="fnref:12"><a class="footnote-ref" href="#fn:12">12</a></sup> The compliance clock is running in parallel with the competitive clock. Boards that treat the EU AI Act as a legal department matter, rather than a governance imperative, are misallocating both risk and attention.</p>
+<p>For European boards, the compliance dimension adds urgency that cannot be deferred. Full obligations under the EU AI Act for high-risk AI systems apply from 2 August 2026, with penalties of up to 35 million euros or 7% of global annual turnover for prohibited practices. Prohibitions on unacceptable-risk AI have already applied since February 2025. AI literacy training is already required. Any firm using AI in or affecting EU users, regardless of where it is incorporated, falls within scope.<sup id="fnref:ch01-10"><a class="footnote-ref" href="#fn:ch01-10">10</a></sup></p>
+<p>Eurostat data from December 2025 shows that 20% of EU enterprises with ten or more employees now use AI, up from 13.5% the prior year. Large enterprise adoption stands at 55%.<sup id="fnref:ch01-11"><a class="footnote-ref" href="#fn:ch01-11">11</a></sup> But adoption without governance is exposure. The World Economic Forum has identified Europe's AI adoption lag as an urgent structural challenge, not a cyclical one.<sup id="fnref:ch01-12"><a class="footnote-ref" href="#fn:ch01-12">12</a></sup> The compliance clock is running in parallel with the competitive clock. Boards that treat the EU AI Act as a legal department matter, rather than a governance imperative, are misallocating both risk and attention.</p>
 <p>The board's first task is not to approve an AI strategy. It is to treat this for what it is: a strategic inflection point that demands the urgency, oversight, and accountability that characterisation requires. Every quarter of delay is a quarter in which the organisations that have already committed are compounding their advantage, and a quarter in which the governance gap between what the board understands and what the organisation needs becomes harder to close.</p>
 <h2>The Window Is Narrowing</h2>
 <p>This is not the cloud migration, the digital transformation, or the mobile-first pivot revisited at larger scale. It is a restructuring of how organisations create value, make decisions, and deploy human capability. The organisations already moving are compounding their advantages every quarter: in productivity, in talent, in data, in competitive positioning. The cost of waiting is not zero. It is already accumulating.</p>
@@ -611,42 +630,31 @@
 <div class="chapter-footnotes"><div class="footnote">
 
 <ol>
-<li id="fn:1">
-<p>MIT, "NANDA Report", 2025&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p>BCG, "The Widening AI Value Gap: Build for the Future 2025", September/October 2025&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:3">
-<p>McKinsey, "CEO Playbook", June 2025&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:4">
-<p>McKinsey, "The Agentic Organization: Contours of the Next Paradigm for the AI Era", September 2025&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:5">
-<p>BCG, "The Widening AI Value Gap", September/October 2025&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
-</li>
-<li id="fn:6">
-<p>BCG, "The Widening AI Value Gap", October 2025&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
-</li>
-<li id="fn:7">
-<p>Eurostat, "AI in Enterprises", December 2025&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
-</li>
-<li id="fn:8">
-<p>EU Commission, "Agentic AI Venture Capital Report", January 2026&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
-</li>
-<li id="fn:9">
-<p>Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
-</li>
-<li id="fn:10">
-<p>EU, "AI Act", 2024&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
-</li>
-<li id="fn:11">
-<p>Eurostat, "AI in Enterprises", December 2025&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
-</li>
-<li id="fn:12">
-<p>BCG, "The Widening AI Value Gap", October 2025&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text">&#8617;</a></p>
-</li>
+<li><div class="li-block"><span class="list-number">1. </span>
+<p>MIT, "NANDA Report", 2025&#160;<a class="footnote-backref" href="#fnref:ch01-1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">2. </span>
+<p>BCG, "The Widening AI Value Gap: Build for the Future 2025", September/October 2025&#160;<a class="footnote-backref" href="#fnref:ch01-2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">3. </span>
+<p>McKinsey, "CEO Playbook", June 2025&#160;<a class="footnote-backref" href="#fnref:ch01-3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">4. </span>
+<p>McKinsey, "The Agentic Organization: Contours of the Next Paradigm for the AI Era", September 2025&#160;<a class="footnote-backref" href="#fnref:ch01-4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">5. </span>
+<p>BCG, "The Widening AI Value Gap", September/October 2025&#160;<a class="footnote-backref" href="#fnref:ch01-5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">6. </span>
+<p>BCG, "The Widening AI Value Gap", October 2025&#160;<a class="footnote-backref" href="#fnref:ch01-6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">7. </span>
+<p>Eurostat, "AI in Enterprises", December 2025&#160;<a class="footnote-backref" href="#fnref:ch01-7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">8. </span>
+<p>EU Commission, "Agentic AI Venture Capital Report", January 2026&#160;<a class="footnote-backref" href="#fnref:ch01-8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">9. </span>
+<p>Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025&#160;<a class="footnote-backref" href="#fnref:ch01-9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">10. </span>
+<p>EU, "AI Act", 2024&#160;<a class="footnote-backref" href="#fnref:ch01-10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">11. </span>
+<p>Eurostat, "AI in Enterprises", December 2025&#160;<a class="footnote-backref" href="#fnref:ch01-11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">12. </span>
+<p>BCG, "The Widening AI Value Gap", October 2025&#160;<a class="footnote-backref" href="#fnref:ch01-12" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+</div></li>
 </ol>
 </div></div>
 <div class="questions-section"><h2>Questions for the Board</h2></div>
@@ -686,10 +694,10 @@
 <p>The paradox McKinsey calls the "Gen AI Paradox" captures this precisely: nearly eight in ten companies report using generative AI, yet just as many report no significant bottom-line impact. Usage without leadership-driven architecture produces activity, not outcomes. The organisations that have broken through the paradox did so not by finding better tools but by changing who owns the transformation and how the organisation is structured to absorb it.</p>
 <h3>The board governance gap</h3>
 <p>The disconnect between AI adoption velocity and board-level governance is the single greatest enterprise risk most organisations are not measuring.</p>
-<p>Chapter 1 set out the numbers: 88% of organisations use AI in at least one business function, yet two-thirds of board members report limited to no AI knowledge, fewer than a quarter have board-approved AI policies, and only 14% discuss AI at every meeting.<sup id="fnref:13"><a class="footnote-ref" href="#fn:13">1</a></sup> Those figures have improved year-on-year, but the direction of travel is not the point. The gap itself is the point, and it has not closed.</p>
+<p>Chapter 1 set out the numbers: 88% of organisations use AI in at least one business function, yet two-thirds of board members report limited to no AI knowledge, fewer than a quarter have board-approved AI policies, and only 14% discuss AI at every meeting.<sup id="fnref:ch02-13"><a class="footnote-ref" href="#fn:ch02-13">13</a></sup> Those figures have improved year-on-year, but the direction of travel is not the point. The gap itself is the point, and it has not closed.</p>
 <p>What Chapter 1 established as a governance gap, this chapter reframes as a leadership accountability failure. The board is not underperforming because its members lack technical aptitude. It is underperforming because the CEO has not structured the governance agenda to demand better. Boards govern at the level leadership asks them to govern. When the leader frames AI as an IT project, the board asks IT-level questions.</p>
 <p>A board that cannot distinguish between the three levels of the Paradigm Shift Diagnostic: between Bolt-On activity and genuine Redesign, cannot ask the right questions about the organisation's AI programme. A board that does not ask the right questions will approve strategies, budgets, and timelines calibrated to a different kind of change than the one actually underway.</p>
-<p>For European boards, the governance imperative has a regulatory dimension that cannot be deferred. The EU AI Act creates direct obligations on organisational leadership: prohibited-risk provisions applied from February 2025, AI literacy training is already required, and full high-risk system requirements apply from August 2026. Penalties reach up to 35 million euros or 7% of global annual turnover.<sup id="fnref:14"><a class="footnote-ref" href="#fn:14">2</a></sup> These are not IT compliance tasks. They are leadership accountability obligations that sit with the board and executive team.</p>
+<p>For European boards, the governance imperative has a regulatory dimension that cannot be deferred. The EU AI Act creates direct obligations on organisational leadership: prohibited-risk provisions applied from February 2025, AI literacy training is already required, and full high-risk system requirements apply from August 2026. Penalties reach up to 35 million euros or 7% of global annual turnover.<sup id="fnref:ch02-14"><a class="footnote-ref" href="#fn:ch02-14">14</a></sup> These are not IT compliance tasks. They are leadership accountability obligations that sit with the board and executive team.</p>
 <p>The Act requires organisations to complete an AI inventory with risk classification, clarify their supply chain role, implement risk management systems, establish AI literacy training, and conduct fundamental rights impact assessments. Each of these is a leadership-level decision, not an IT task.</p>
 <p>European boards that treat the EU AI Act as a legal department matter are misallocating both risk and attention. The compliance clock runs in parallel with the competitive clock, and both demand the same thing: governance that operates at the level of the transformation, not beneath it.</p>
 <h3>The C-suite alignment deficit</h3>
@@ -724,13 +732,12 @@
 <p>The question is no longer whether to lead, but what the destination looks like. Now that the leadership precondition is established, the next chapter answers the question every committed leader asks next: what exactly are we building? Chapter 3 defines the Agentic Organisation in concrete, operational terms, introducing the AI Transformation Framework and the concept of the agentic employee.</p>
 <div class="chapter-footnotes"><div class="footnote">
 
-<ol>
-<li id="fn:13">
-<p>Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025&#160;<a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:14">
-<p>EU, "AI Act", 2024&#160;<a class="footnote-backref" href="#fnref:14" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
+<ol start="13">
+<li><div class="li-block"><span class="list-number">13. </span>
+<p>Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025&#160;<a class="footnote-backref" href="#fnref:ch02-13" title="Jump back to footnote 13 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">14. </span>
+<p>EU, "AI Act", 2024&#160;<a class="footnote-backref" href="#fnref:ch02-14" title="Jump back to footnote 14 in the text">&#8617;</a></p>
+</div></li>
 </ol>
 </div></div>
 <div class="questions-section"><h2>Questions for the Board</h2></div>
@@ -870,17 +877,17 @@
 <p>AI literacy obligations under Article 4, in force since February 2025, require organisations to ensure sufficient AI literacy among all staff who interact with AI systems. Risk classification requirements, active from August 2026, demand governance of the technology and process layers.</p>
 <p>Data protection obligations under the GDPR intersect with agentic AI in ways that are already consequential. A simple AI scheduling agent can trigger purpose creep, special-category data rules, cross-border transfer restrictions, and prohibitions on fully automated processing, all in a single workflow.</p>
 <p>European co-determination frameworks add a governance dimension that, properly understood, becomes a design advantage rather than a constraint. Germany's Works Constitution Act requires employers to inform works councils before introducing AI systems, grants consultation rights, and triggers co-determination when AI can monitor employee behaviour. Deutsche Telekom's AI Manifesto, co-created with its Group Works Council, demonstrates that institutionalised stakeholder engagement produces faster, more durable adoption than top-down mandates.</p>
-<p>The consequences of proceeding without proper governance are concrete. A 2025 French court suspended an AI project and imposed penalties of 1,000 euros per day for 90 days, plus 5,000 euros in damages to the works council, for deploying without consultation. Allianz, by contrast, signed the EU AI Pact in November 2024, treating proactive compliance as a competitive differentiator rather than a cost of doing business.<sup id="fnref:15"><a class="footnote-ref" href="#fn:15">1</a></sup></p>
+<p>The consequences of proceeding without proper governance are concrete. A 2025 French court suspended an AI project and imposed penalties of 1,000 euros per day for 90 days, plus 5,000 euros in damages to the works council, for deploying without consultation. Allianz, by contrast, signed the EU AI Pact in November 2024, treating proactive compliance as a competitive differentiator rather than a cost of doing business.<sup id="fnref:ch03-15"><a class="footnote-ref" href="#fn:ch03-15">15</a></sup></p>
 <p>Building governance into the design from the outset, rather than retrofitting it after deployment, is what separates organisations that scale from those that stall. The board needs a structured way to assess transformation progress across all dimensions rather than relying on anecdotal pilot reports. The AI Transformation Framework introduced in Chapter 5, and the governance and measurement tools developed in Chapters 12 and 13, provide that structure.</p>
 <h2>From Picture to Route</h2>
 <p>The Agentic Organisation is defined not by its technology but by its people: agentic employees who orchestrate rather than execute; three profiles that describe how work is distributed between humans and agents; skills that compound capability across the organisation; governance that keeps pace with deployment.</p>
 <p>But a picture is not a route. The next question is: how does transformation actually scale? The answer is not "everywhere at once." It progresses through four distinct tiers, each with different governance, different leadership demands, and different measures of success. Chapter 4 introduces The Four Tiers of Transformation, from the individual to the team to the department to the organisation, and shows why skipping a tier, or assuming one tier's success automatically produces the next, is the most common structural mistake in AI programmes.</p>
 <div class="chapter-footnotes"><div class="footnote">
 
-<ol>
-<li id="fn:15">
-<p>Allianz, "EU AI Pact", November 2024&#160;<a class="footnote-backref" href="#fnref:15" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
+<ol start="15">
+<li><div class="li-block"><span class="list-number">15. </span>
+<p>Allianz, "EU AI Pact", November 2024&#160;<a class="footnote-backref" href="#fnref:ch03-15" title="Jump back to footnote 15 in the text">&#8617;</a></p>
+</div></li>
 </ol>
 </div></div>
 <div class="questions-section"><h2>Questions for the Board</h2></div>
@@ -921,7 +928,7 @@
 <p>The evidence for bottom-up sequencing is consistent across sources. Enterprise deployments that succeed "began with power users" and empowered line managers rather than centralised AI labs. As Chapter 1 established with the BCG 10/20/70 rule, 70% of what generates real AI value is people, processes, and culture. That 70% is built tier by tier. It cannot be installed from the top.</p>
 <p>The failure rates tell the same story. Seventy to ninety-five per cent of AI transformations fail to deliver measurable returns. Three-quarters of companies struggle to achieve value. For every 33 proofs of concept launched, only four reach production. Only 26% of AI initiatives advance beyond pilot. The consistent thread is top-down, enterprise-first approaches that bypass the foundational tiers.</p>
 <p>The self-assessment gap compounds the problem. In one survey, 57% of leaders said they were AI-ready. Only 8% actually were. The distance between perceived readiness and real readiness is itself a tier problem: leaders who believe they have achieved Tier 2 or Tier 3 maturity when their organisations are still operating at Tier 1.</p>
-<p>European leaders face an additional dimension. The EU AI Act, Article 4, which took effect in February 2025, makes AI literacy a legal requirement for all staff interacting with AI systems.<sup id="fnref:16"><a class="footnote-ref" href="#fn:16">1</a></sup> Tier 1 is now a regulatory floor, not an optional starting point. Organisations that have underweighted individual fluency investment must now treat it as a compliance obligation as well as a strategic one.</p>
+<p>European leaders face an additional dimension. The EU AI Act, Article 4, which took effect in February 2025, makes AI literacy a legal requirement for all staff interacting with AI systems.<sup id="fnref:ch04-16"><a class="footnote-ref" href="#fn:ch04-16">16</a></sup> Tier 1 is now a regulatory floor, not an optional starting point. Organisations that have underweighted individual fluency investment must now treat it as a compliance obligation as well as a strategic one.</p>
 <h2>The Four Tiers of Transformation</h2>
 <p>The sequence matters more than the ambition. A four-tier progression, Individual, Team, Department, Organisation, is the route through which AI capability actually compounds. Skipping a tier, or applying the same governance and leadership approach across all four, is the structural mistake that explains most of the failure rates cited above. The tiers are not a maturity model in the conventional sense. They are a compounding model. Each tier creates the conditions that make the next tier possible, and each tier without its predecessor is unstable.</p>
 <div class="definition"><div class="definition-box"><p class="definition-single"><span class="definition-title">The Four Tiers of Transformation</span><br/><br/>The Four Tiers of Transformation describe how AI capability scales through an organisation: from Individual (personal AI fluency), to Team (shared norms and collaborative use), to Department (end-to-end workflow redesign within a function), to Organisation (cross-functional transformation and enterprise operating model).</p></div><div class="definition-box-end"></div></div>
@@ -936,7 +943,7 @@
 <p>There is, however, a critical caution. A controlled study of 758 consultants found that whilst AI users completed 12% more tasks, finished 25% faster, and produced over 40% higher quality results, those same users were 19 percentage points less likely to produce correct solutions on tasks that fell outside AI's capability frontier. Fluency without discernment is a liability. Tier 1 must build both.</p>
 <p>Governance at Tier 1 is light but essential: personal responsibility for data handling, the ability to recognise hallucinations, and a clear tiered approach to what is permissible. Green for low-risk experimentation, yellow for tasks requiring review, red for decisions that must remain human.</p>
 <h3>Tier 2: Team</h3>
-<p>The transition from individual to team is where most transformations stall. Research shows that 61% of AI use remains at the individual level without collaborative platforms.<sup id="fnref:17"><a class="footnote-ref" href="#fn:17">2</a></sup> Converting personal fluency into team capability requires something technology alone cannot provide: psychological safety.</p>
+<p>The transition from individual to team is where most transformations stall. Research shows that 61% of AI use remains at the individual level without collaborative platforms.<sup id="fnref:ch04-17"><a class="footnote-ref" href="#fn:ch04-17">17</a></sup> Converting personal fluency into team capability requires something technology alone cannot provide: psychological safety.</p>
 <p>Google's Project Aristotle study of more than 180 teams found psychological safety to be the single strongest predictor of team effectiveness, above dependability, structure, meaning, and impact. More recent research confirms this finding in the AI context specifically: 83% of executives say psychological safety measurably improves AI initiative success. Yet only 39% rate their organisation's safety as "very high," and nearly half of all workers remain uncomfortable admitting AI use to their manager for fear of appearing incompetent or lazy.</p>
 <p>As one leading researcher on psychological safety put it, AI adoption "should be treated as a team development effort, not just a technology upgrade." The practical marker of a Tier 2 team is a simple norm: "Have you asked the AI?" When that question becomes as natural as "Have you checked the data?", the team has crossed the threshold. Superusers emerge. Knowledge flows horizontally rather than vertically. The team begins to develop shared practices rather than individual workarounds.</p>
 <p>The cost of failing to build this norm is measurable. Companies that grant explicit AI permissions see workers six times more likely to experiment. Trained workers are up to 19 times more likely to report productivity improvements. The permission signal is not a formality. It is a multiplier.</p>
@@ -955,7 +962,7 @@
 <p>The governance architecture at Tier 4 typically evolves through three phases. A centralised Centre of Excellence provides strong governance during the first 12 months. This transitions to a hub-and-spoke model, with central standards and distributed execution, between 12 and 24 months. Finally, a federated structure emerges: autonomous pods with shared governance, from 24 to 36 months onward.</p>
 <p>Roughly 37% of large companies have established some form of CoE; the question is whether it is evolving or becoming a bottleneck.</p>
 <p>The enterprise measure at this tier is not an AI metric. It is a business outcome: revenue growth, margin expansion, customer experience, speed to market. AI is the means. The organisation's strategic objectives are the measure.</p>
-<p>Fewer than 10% of generative AI use cases make it past pilot to this tier. For those that do, the returns are disproportionate: the top-performing companies achieve 3.6 times the total shareholder return of their peers.<sup id="fnref:18"><a class="footnote-ref" href="#fn:18">3</a></sup></p>
+<p>Fewer than 10% of generative AI use cases make it past pilot to this tier. For those that do, the returns are disproportionate: the top-performing companies achieve 3.6 times the total shareholder return of their peers.<sup id="fnref:ch04-18"><a class="footnote-ref" href="#fn:ch04-18">18</a></sup></p>
 <h2>What Leaders Must Do at Each Tier</h2>
 <p>The four tiers create four distinct governance demands. Applying the same leadership approach across all of them is one of the most common and costly mistakes.</p>
 <p><strong>At Tier 1, the leader's role is visibility.</strong> As Chapter 2 established, leaders deeply engaged with AI are twelve times more likely to be among the top-performing companies. Only 15% qualify as "trailblazers." The single most powerful signal a leader can send at Tier 1 is personal, visible use of AI: modelling experimentation, sharing what works and what does not, and explicitly signalling that experimentation is safe.</p>
@@ -977,16 +984,14 @@
 <p>Chapter 5 introduces the AI Transformation Framework: a four-layer map covering Vision, Products, Operating Model, and Foundation. The tiers tell you the sequence. The framework tells you the dimensions you must address at every tier. Governance, KPIs, and the Value–Capabilities–Trust decision framework are covered elsewhere in the book but are not part of the four-layer framework.</p>
 <div class="chapter-footnotes"><div class="footnote">
 
-<ol>
-<li id="fn:16">
-<p>EU, "AI Act", 2024&#160;<a class="footnote-backref" href="#fnref:16" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:17">
-<p>Typeface, "Signal Report", 2025&#160;<a class="footnote-backref" href="#fnref:17" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:18">
-<p>BCG, "The Widening AI Value Gap", September/October 2025&#160;<a class="footnote-backref" href="#fnref:18" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
+<ol start="16">
+<li><div class="li-block"><span class="list-number">16. </span>
+<p>EU, "AI Act", 2024&#160;<a class="footnote-backref" href="#fnref:ch04-16" title="Jump back to footnote 16 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">17. </span>
+<p>Typeface, "Signal Report", 2025&#160;<a class="footnote-backref" href="#fnref:ch04-17" title="Jump back to footnote 17 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">18. </span>
+<p>BCG, "The Widening AI Value Gap", September/October 2025&#160;<a class="footnote-backref" href="#fnref:ch04-18" title="Jump back to footnote 18 in the text">&#8617;</a></p>
+</div></li>
 </ol>
 </div></div>
 <div class="questions-section"><h2>Questions for the Board</h2></div>
@@ -1042,20 +1047,19 @@
 <p>It has four layers, top to bottom: (1) Vision: vision, strategy, values, objectives; (2) Products: by platform or business unit, product vision and objectives, products, personas, customer journeys, frictions; (3) Operating Model: People (roles, target skills and gaps, org sizing, talent journey, training, team incentives), Process (org design, cross-functional teams, product way-of-working); (4) Foundation: Data (reusable data products, analytics, architecture, monetisation), Technology (target architecture, platforms and solutions, integration), Enablement (culture, AI and engineering toolbox, automation, agents, skills). Use it to describe what the Agentic Organisation is made of and how to assess readiness across each layer.</p>
 <p>Governance, KPIs, and the Value, Capabilities, Trust decision framework (Chapters 8 and 12–13) are essential to transformation but are not part of the four-layer framework; they are covered in later chapters.</p>
 <h2>The Framework as a Governance Instrument</h2>
-<p>The framework is the basis for board and C-suite conversations. The right question on each layer is: "Where are we, and where do we need to be?" Governance demands span all four layers, not just technology. Deloitte reports that only 21% of organisations have rigorous AI governance.<sup id="fnref:19"><a class="footnote-ref" href="#fn:19">1</a></sup> Research suggests that two-thirds of boards report limited to no AI knowledge and only 15% receive AI-related metrics. Relying on pilot updates or technology metrics alone is insufficient; the board should assess transformation progress against each layer.</p>
-<p>For European organisations, EU AI Act obligations map onto the framework. Prohibitions and AI literacy requirements apply from February 2025; high-risk obligations and the majority of the Act follow from August 2026. Risk classification (unacceptable, high-risk, limited, minimal) and penalties (up to €35 million or 7% of global annual turnover) make a structured view essential.<sup id="fnref:20"><a class="footnote-ref" href="#fn:20">2</a></sup></p>
+<p>The framework is the basis for board and C-suite conversations. The right question on each layer is: "Where are we, and where do we need to be?" Governance demands span all four layers, not just technology. Deloitte reports that only 21% of organisations have rigorous AI governance.<sup id="fnref:ch05-19"><a class="footnote-ref" href="#fn:ch05-19">19</a></sup> Research suggests that two-thirds of boards report limited to no AI knowledge and only 15% receive AI-related metrics. Relying on pilot updates or technology metrics alone is insufficient; the board should assess transformation progress against each layer.</p>
+<p>For European organisations, EU AI Act obligations map onto the framework. Prohibitions and AI literacy requirements apply from February 2025; high-risk obligations and the majority of the Act follow from August 2026. Risk classification (unacceptable, high-risk, limited, minimal) and penalties (up to €35 million or 7% of global annual turnover) make a structured view essential.<sup id="fnref:ch05-20"><a class="footnote-ref" href="#fn:ch05-20">20</a></sup></p>
 <p>AI literacy sits in the Operating Model; risk classification in Technology and Enablement within the Foundation; data protection in Data; product compliance in Products. The Value, Capabilities, Trust decision framework (Chapter 8) supports prioritisation and trust outcomes but is not a layer. The framework also connects to the Four Tiers (Chapter 4): each tier requires progress across the four layers; skipping a tier or a layer creates blind spots. European firms can use the framework to turn regulatory and governance obligations into a clear allocation of effort across Vision, Products, Operating Model, and Foundation.</p>
 <h2>From Map to Execution</h2>
 <p>The AI Transformation Framework provides the map. The next question is how to organise the organisation for agentic work: roles, skills, team design, and the Operating Model layer that connects vision to day-to-day execution. Chapter 6 deep-dives the Operating Model: people, process, roles, skills, and org design, and how to structure teams and roles for agentic work, from task-doer to orchestrator at scale. The framework orients; the Operating Model layer is where strategy becomes structure and where many organisations bottleneck after successful pilots.</p>
 <div class="chapter-footnotes"><div class="footnote">
 
-<ol>
-<li id="fn:19">
-<p>Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025&#160;<a class="footnote-backref" href="#fnref:19" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:20">
-<p>EU, "AI Act", 2024&#160;<a class="footnote-backref" href="#fnref:20" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
+<ol start="19">
+<li><div class="li-block"><span class="list-number">19. </span>
+<p>Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025&#160;<a class="footnote-backref" href="#fnref:ch05-19" title="Jump back to footnote 19 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">20. </span>
+<p>EU, "AI Act", 2024&#160;<a class="footnote-backref" href="#fnref:ch05-20" title="Jump back to footnote 20 in the text">&#8617;</a></p>
+</div></li>
 </ol>
 </div></div>
 <div class="questions-section"><h2>Questions for the Board</h2></div>
@@ -1085,7 +1089,7 @@
 <p>The data confirms the gap. IBM's 2026 survey of C-suite executives found that 78% believe agentic AI requires a fundamentally new operating model. Yet only 6% of companies have begun upskilling in a meaningful way, despite 89% acknowledging the need. Nearly two-thirds of AI initiatives fail to advance beyond pilot. The problem is not technology adoption. It is operating model inertia: the organisation's roles, processes, and team structures remain designed for an era before agents.</p>
 <p>This chapter breaks the Operating Model layer into its components. Who does the work. What skills they need. How processes run. How the organisation is structured. The answers require redesign, not incremental adjustment.</p>
 <h2>Why Pilots Succeed but Transformation Stalls</h2>
-<p>A 2026 study in the Harvard Data Science Review reported that despite 78% of companies claiming AI adoption, 80% report no measurable impact on earnings.<sup id="fnref:21"><a class="footnote-ref" href="#fn:21">1</a></sup> The reason: AI is layered onto workflows designed for humans, not for human-agent collaboration.</p>
+<p>A 2026 study in the Harvard Data Science Review reported that despite 78% of companies claiming AI adoption, 80% report no measurable impact on earnings.<sup id="fnref:ch06-21"><a class="footnote-ref" href="#fn:ch06-21">21</a></sup> The reason: AI is layered onto workflows designed for humans, not for human-agent collaboration.</p>
 <p>Bain calls this the "micro-productivity trap." Grassroots experimentation with AI tools generates ideas and cultural energy, but it does not self-organise into enterprise-wide impact. Individual productivity gains stay individual. Team-level wins do not propagate. The organisation as a whole barely moves.</p>
 <p>BCG finds that organisations which automate discrete steps within existing workflows capture only modest returns. Scaling demands end-to-end process redesign around agents as default executors. One industrial goods company redesigned its quote-to-order process using four coordinated AI agents, achieving 30 to 40% labour cost reductions and generating tens of millions in additional revenue. The difference was not the agents themselves but the process redesign that gave them room to operate.</p>
 <p>This is the 10/20/70 insight made concrete. When an organisation invests in the 10% (algorithms) and 20% (technology) but neglects the 70% (people and process), it is structurally set up to stall. The operating model is what connects a successful pilot to scaled impact. Without it, the pilots pile up and the board loses confidence.</p>
@@ -1122,10 +1126,10 @@
 <p>It depends on a foundation: data quality, technology architecture, and enablement. The two layers are tightly coupled. Process redesign requires data readiness, and 63% of organisations still lack adequate data management for AI. The skills shift requires tooling and enablement infrastructure. Org design requires platforms that enable collaboration across teams and agents. Chapter 7 dives into the Foundation layer: the final layer of the AI Transformation Framework and the base on which the operating model is built.</p>
 <div class="chapter-footnotes"><div class="footnote">
 
-<ol>
-<li id="fn:21">
-<p>Harvard Data Science Review, "2026", 2026&#160;<a class="footnote-backref" href="#fnref:21" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
+<ol start="21">
+<li><div class="li-block"><span class="list-number">21. </span>
+<p>Harvard Data Science Review, "2026", 2026&#160;<a class="footnote-backref" href="#fnref:ch06-21" title="Jump back to footnote 21 in the text">&#8617;</a></p>
+</div></li>
 </ol>
 </div></div>
 <div class="questions-section"><h2>Questions for the Board</h2></div>
@@ -1153,7 +1157,7 @@
 <p>The lesson from Allianz connects directly to the Agentic Operating Model. Redesigning People (roles, skills) and Process (workflows, org design) must happen simultaneously with technology deployment, not after it. A seven-agent workflow that eliminates 80% of processing time is a technology achievement. The decision to restructure 1,800 roles, engage works councils, and invest in new skills is an operating model achievement. The second is harder, slower, and more consequential.</p>
 <p>For European leaders operating within social dialogue frameworks, the principle is concrete: design the human role and the agent workflow at the same time, with governance built in from the start. The 70% is not a follow-on project. It is the project.</p></div></div></div><div class="chapter" id="ch07"><div class="toc-entry-hidden">Chapter 7 - Foundations of the AI Transformation</div><div class="chapter-number">Chapter Seven</div><div class="chapter-title">Foundations of the AI Transformation</div><div class="chapter-divider"></div><h2>The Readiness Paradox</h2>
 <p>Ninety-eight per cent of leaders report increased urgency to deploy AI. Readiness is declining.</p>
-<p>That is not a misprint. The Cisco AI Readiness Index, surveying over 8,000 organisations across 30 markets, found that readiness scores dropped in 2024 across five of six pillars: Infrastructure, Data, Governance, Talent, and Culture. Only 13 to 14 per cent of organisations globally qualify as fully prepared, and that figure has not moved in two years.<sup id="fnref:22"><a class="footnote-ref" href="#fn:22">1</a></sup></p>
+<p>That is not a misprint. The Cisco AI Readiness Index, surveying over 8,000 organisations across 30 markets, found that readiness scores dropped in 2024 across five of six pillars: Infrastructure, Data, Governance, Talent, and Culture. Only 13 to 14 per cent of organisations globally qualify as fully prepared, and that figure has not moved in two years.<sup id="fnref:ch07-22"><a class="footnote-ref" href="#fn:ch07-22">22</a></sup></p>
 <p>In Europe, the picture is worse: over 60 per cent of firms remain at the earliest readiness stages, only 23 per cent have adequate GPU capacity, 66 per cent struggle to centralise data, and just 9 per cent describe their networks as flexible.</p>
 <p>The gap has a name. Cisco calls it AI Infrastructure Debt: the accumulation of shortcuts, deferred upgrades, and unaddressed gaps across compute, networking, data, security, and talent that compounds silently as organisations rush to deploy.</p>
 <div class="definition"><div class="definition-box"><p class="definition-single"><span class="definition-title">AI Infrastructure Debt</span><br/><br/>AI Infrastructure Debt is the accumulation of gaps, shortcuts, and deferred upgrades in compute, networking, data management, security, and talent that compounds as organisations rush to deploy AI.</p></div><div class="definition-box-end"></div></div>
@@ -1210,10 +1214,10 @@
 <p>Chapter 11 sequences the execution: Foundation, then Activation, then Scale. Chapter 12 provides the detailed readiness diagnostic. This chapter has laid out what the foundations are and why they matter. The rest of Part II and Part IV show how to use them.</p>
 <div class="chapter-footnotes"><div class="footnote">
 
-<ol>
-<li id="fn:22">
-<p>Cisco, "AI Readiness Index", 2024&#160;<a class="footnote-backref" href="#fnref:22" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
+<ol start="22">
+<li><div class="li-block"><span class="list-number">22. </span>
+<p>Cisco, "AI Readiness Index", 2024&#160;<a class="footnote-backref" href="#fnref:ch07-22" title="Jump back to footnote 22 in the text">&#8617;</a></p>
+</div></li>
 </ol>
 </div></div>
 <div class="questions-section"><h2>Questions for the Board</h2></div>
@@ -1247,7 +1251,7 @@
 <p>When an organisation invests in all three components before scaling, it avoids the pattern of pilots that never graduate to production and AI Infrastructure Debt that compounds silently. Schneider's bet was to make the Foundation layer the basis for investment, roles, and prioritisation across 200-plus factories, not a checklist to be filled in once.</p>
 <p>The transferable rule is to assess readiness across Data, Technology, and Enablement, invest in the gaps before scaling, and accept the trade-offs (central capability cost, slower initial deployment, coordination overhead) in exchange for a transformation that can be measured, steered, and scaled as a whole.</p></div></div></div><div class="chapter" id="ch08"><div class="toc-entry-hidden">Chapter 8 - Value, Capabilities, Trust</div><div class="chapter-number">Chapter Eight</div><div class="chapter-title">Value, Capabilities, Trust</div><div class="chapter-divider"></div><h2>The Thirty-One to Seven Problem</h2>
 <p>Early AI pilots delivered impressive returns. In 2023, organisations reported an average 31% ROI on their initial AI investments. By 2025, as those projects moved from pilot to scale, that figure collapsed to 7%, below most companies' cost of capital.</p>
-<p>The pattern has repeated across industries. Broader analysis confirms the scale of the problem: only 5% of firms achieve AI value at scale, whilst 60% achieve no material value at all. MIT research found that 95% of enterprise generative AI pilots fail to deliver sustained impact on the profit and loss statement.<sup id="fnref:23"><a class="footnote-ref" href="#fn:23">1</a></sup>, even as global spending on generative AI reached $30–40 billion.</p>
+<p>The pattern has repeated across industries. Broader analysis confirms the scale of the problem: only 5% of firms achieve AI value at scale, whilst 60% achieve no material value at all. MIT research found that 95% of enterprise generative AI pilots fail to deliver sustained impact on the profit and loss statement.<sup id="fnref:ch08-23"><a class="footnote-ref" href="#fn:ch08-23">23</a></sup>, even as global spending on generative AI reached $30–40 billion.</p>
 <p>That 95% figure captures something important. It measured P&amp;L impact of pilots at relatively short timescales, not long-term scaled deployments. The statistic illustrates the severity of the decision problem, not a verdict on AI's potential.</p>
 <p>The distinction matters. Misreading pilot-stage results as definitive leads organisations to abandon promising initiatives too early or, worse, to lose faith in AI's potential altogether.</p>
 <p>The root cause is not technology failure. The algorithms work. The platforms are mature. The models improve monthly. What fails is the decision: which initiatives to fund, in what order, with what capabilities in place, and with what governance to protect against risk.</p>
@@ -1317,10 +1321,10 @@
 <p>The organisations that master all three angles of the AI Decision Framework, creating real value, building the right capabilities, and earning trust from regulators, customers, and employees, are best placed to lead the next decade. Chapter 9 makes the full case for why Europe's distinctive regulatory and cultural context is a strategic advantage, and what leaders must do to capitalise on it.</p>
 <div class="chapter-footnotes"><div class="footnote">
 
-<ol>
-<li id="fn:23">
-<p>MIT, "NANDA Report", 2025&#160;<a class="footnote-backref" href="#fnref:23" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
+<ol start="23">
+<li><div class="li-block"><span class="list-number">23. </span>
+<p>MIT, "NANDA Report", 2025&#160;<a class="footnote-backref" href="#fnref:ch08-23" title="Jump back to footnote 23 in the text">&#8617;</a></p>
+</div></li>
 </ol>
 </div></div>
 <div class="questions-section"><h2>Questions for the Board</h2></div>
@@ -1359,7 +1363,7 @@
 <p>Every European CEO I speak with apologises for their regulation. They frame it as a constraint: slower, more cautious, more expensive to navigate than their American or Asian counterparts. They are wrong.</p>
 <p>Europe's regulatory rigour, its culture of trust, and its pragmatic approach to technology adoption are not handicaps in the race to build the Agentic Organisation. They are, in the hands of a leader who understands them, a structural competitive advantage. The real question is not whether European regulation slows you down, but whether you are using it to build something your less-regulated competitors cannot easily replicate.</p>
 <p>The EU AI Act is not a ceiling. It is a foundation.</p>
-<p>The investment numbers seem to settle the argument. European AI venture capital in 2024 was $12.8 billion versus $80.7 billion in the United States. US companies outspend European counterparts by 45 to 70 per cent on AI across sectors. The US share of global venture capital reached 66 per cent in 2025, its highest since the early 2000s.<sup id="fnref:24"><a class="footnote-ref" href="#fn:24">1</a></sup> By any investment measure, Europe is behind.</p>
+<p>The investment numbers seem to settle the argument. European AI venture capital in 2024 was $12.8 billion versus $80.7 billion in the United States. US companies outspend European counterparts by 45 to 70 per cent on AI across sectors. The US share of global venture capital reached 66 per cent in 2025, its highest since the early 2000s.<sup id="fnref:ch09-24"><a class="footnote-ref" href="#fn:ch09-24">24</a></sup> By any investment measure, Europe is behind.</p>
 <p>But there is a second set of numbers that rarely features in the boardroom conversation. 53 per cent of global adults trust the EU to regulate AI effectively, compared with 37 per cent for the US and 27 per cent for China. Trust in fully autonomous AI agents has declined from 43 per cent to 27 per cent in a single year.</p>
 <p>Over half of European generative AI users believe adoption would increase with proper government regulation. The commercial premium for demonstrably trustworthy AI keeps growing.</p>
 <p>I call this the European Advantage Triad: Clarity, Trust, Capability. Three structural advantages that regulation and culture create for leaders willing to convert compliance into competitive edge. The triad builds on the Trust element of the AI Decision Framework (Chapter 8) and anchors it in Europe's distinctive regulatory and cultural context.</p>
@@ -1380,7 +1384,7 @@
 <p>As Graham Abell, Vice President, Public Policy, Workday, described it, the EU framework is "actually really beneficial because it provides the rules of the road on how to engage", whilst the US approach creates "a really uneven playing field".</p>
 <p>The Brussels Effect extends this clarity beyond European borders. Microsoft, Google, Amazon and over 23 other general-purpose AI providers have signed the EU's Code of Practice. UK firms are drifting "towards the highest standard of AI regulation", making the EU AI Act a de facto global baseline. For a company that masters one set of rules, the reward is a governance architecture that scales across markets.</p>
 <p><strong>Trust.</strong> Research shows that 53 per cent of consumers would pay a premium for AI tools guaranteeing data safety. Nearly 60 per cent want stricter safety and fairness rules. With trust in fully autonomous agents declining sharply, as documented at the start of this chapter, the commercial premium for demonstrably trustworthy AI is growing, not shrinking.</p>
-<p>The trust advantage extends to the workforce. Employees who feel secure about AI are 2.4 times more likely to embrace it than those with job insecurity.<sup id="fnref:25"><a class="footnote-ref" href="#fn:25">2</a></sup> By a margin of over two to one, workers in the US, UK, and Germany reject the growing use of AI. 70 per cent in the US believe their leaders are not truthful about AI-related job losses.</p>
+<p>The trust advantage extends to the workforce. Employees who feel secure about AI are 2.4 times more likely to embrace it than those with job insecurity.<sup id="fnref:ch09-25"><a class="footnote-ref" href="#fn:ch09-25">25</a></sup> By a margin of over two to one, workers in the US, UK, and Germany reject the growing use of AI. 70 per cent in the US believe their leaders are not truthful about AI-related job losses.</p>
 <p>Employers remain the most trusted institution on this topic, which gives organisational leaders a powerful lever.</p>
 <p>European social dialogue, including works councils and collective bargaining, builds the workforce acceptance that determines whether AI delivers value or remains stuck in pilot. Microsoft found that works council feedback on Copilot in Germany anticipated customer concerns before they surfaced externally. This is not resistance. It is product intelligence.</p>
 <p>A survey of over 30,000 Europeans found that more than half of generative AI users believe adoption would increase if governments regulated AI properly. The trust deficit is not an argument against AI. It is an argument for the kind of AI that European regulation demands.</p>
@@ -1409,13 +1413,12 @@
 <p>The companies already doing this are the subject of the next chapter: not what Europe's edge is in theory, but what the leaders did with it in practice.</p>
 <div class="chapter-footnotes"><div class="footnote">
 
-<ol>
-<li id="fn:24">
-<p>McKinsey, "European VC Report", 2024&#160;<a class="footnote-backref" href="#fnref:24" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:25">
-<p>Edelman, "Trust Barometer", 2026&#160;<a class="footnote-backref" href="#fnref:25" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
+<ol start="24">
+<li><div class="li-block"><span class="list-number">24. </span>
+<p>McKinsey, "European VC Report", 2024&#160;<a class="footnote-backref" href="#fnref:ch09-24" title="Jump back to footnote 24 in the text">&#8617;</a></p>
+</div></li><br/><li><div class="li-block"><span class="list-number">25. </span>
+<p>Edelman, "Trust Barometer", 2026&#160;<a class="footnote-backref" href="#fnref:ch09-25" title="Jump back to footnote 25 in the text">&#8617;</a></p>
+</div></li>
 </ol>
 </div></div>
 <div class="questions-section"><h2>Questions for the Board</h2></div>
@@ -1543,7 +1546,7 @@
 <li><div class="li-block"><span class="list-number">1. </span>For each of the nine lessons, can you identify whether your organisation is ahead, on track, or behind? Which lesson represents your largest gap?</div></li><br/><li><div class="li-block"><span class="list-number">2. </span>Is your chief executive personally and visibly championing AI transformation, training alongside employees, reviewing use cases, and holding the agenda, or has ownership been delegated to IT, a project team, or a consultant?</div></li><br/><li><div class="li-block"><span class="list-number">3. </span>Do you have a central AI capability (factory, hub, or centre of excellence) that sets standards and governance, and embedded specialists in business units who connect AI to business value? Or is AI dispersed without coordination?</div></li><br/><li><div class="li-block"><span class="list-number">4. </span>What is your pilot-to-production rate? If you do not know, what does that tell you about your measurement discipline?</div></li><br/><li><div class="li-block"><span class="list-number">5. </span>If you stopped all AI-related hiring and investment tomorrow, would your existing employees have the skills, compensation, and career incentives to sustain the transformation, or would adoption collapse?</div></li>
 </ol></div><div class="part-separator" id="part4"><h2>Part IV: The CEO&#x27;s Playbook</h2></div><div class="chapter" id="ch11"><div class="toc-entry-hidden">Chapter 11 - Building Your Agentic Organisation</div><div class="chapter-number">Chapter Eleven</div><div class="chapter-title">Building Your Agentic Organisation</div><div class="chapter-divider"></div><h2>Where Do I Actually Start?</h2>
 <p>Insight without execution is expensive. By now you understand the shift, the model, the tiers, the decision framework, and the European context. The question that remains, the question every leader eventually returns to, is: where do I actually start, and in what order?</p>
-<p>The cost of getting the sequence wrong is stark. MIT found that 95% of enterprise generative AI implementations delivered zero P&amp;L impact despite $30–40 billion invested.<sup id="fnref:26"><a class="footnote-ref" href="#fn:26">1</a></sup> McKinsey reports that 90% of transformative AI use cases remain stuck in pilot mode. Organisations routinely underestimate scaling costs by 250–400%. The root cause is not technology failure. It is sequencing failure.</p>
+<p>The cost of getting the sequence wrong is stark. MIT found that 95% of enterprise generative AI implementations delivered zero P&amp;L impact despite $30–40 billion invested.<sup id="fnref:ch11-26"><a class="footnote-ref" href="#fn:ch11-26">26</a></sup> McKinsey reports that 90% of transformative AI use cases remain stuck in pilot mode. Organisations routinely underestimate scaling costs by 250–400%. The root cause is not technology failure. It is sequencing failure.</p>
 <p>Companies that skip governance and data foundations to launch pilots accumulate what Chapter 7 called AI Infrastructure Debt. Companies that run pilots without a Centre of Excellence cannot replicate first wins. Companies that scale without operating model redesign hit the 70% wall: BCG's 10/20/70 rule shows that 70% of AI transformation effort must go into people and processes, yet most organisations invest backwards. This chapter introduces the Transformation Playbook: Foundation, Activation, Scale. A phased approach designed for the specific constraints and opportunities of a European organisation in 2026.</p>
 <div class="definition"><div class="definition-box"><p class="definition-single"><span class="definition-title">The Transformation Playbook</span><br/><br/>The Transformation Playbook is a three-phase sequencing model for building the Agentic Organisation.</p></div><div class="definition-box-end"></div></div>
 <p>Foundation (governance, data readiness, AI literacy), Activation (strategy setting, Centre of Excellence, pilots, first wins), and Scale (cross-functional transformation, operating model redesign). Each phase has clear deliverables and a formal gate for transition. Agentic employee development is embedded at every phase, not treated as a parallel track. The playbook maps directionally to the Four Tiers of Transformation: Foundation aligns with Individual, Activation with Team and Department, Scale with Organisation. At every phase, the chapter shows what to do for people, because developing agentic employees is not a parallel workstream but the primary mechanism through which each phase delivers value.</p>
@@ -1594,10 +1597,10 @@
 <p>That is the work of readiness: a diagnostic assessment across the five pillars (Product and Strategy, People and Skills, Processes and Governance, Technology and Infrastructure, Data and Context) using the Value, Capability, and Trust lenses from Chapter 8. The Transformation Playbook and the readiness diagnostic are complementary. The playbook defines the phases. The diagnostic tells you which phase you are in and where the gaps are. Chapter 12 provides that diagnostic. Chapter 13 then shows how to measure progress through the phases: the KPIs, governance structures, and board reporting mechanisms that prevent the playbook from becoming another strategy document that gathers dust.</p>
 <div class="chapter-footnotes"><div class="footnote">
 
-<ol>
-<li id="fn:26">
-<p>MIT, "NANDA Report", 2025&#160;<a class="footnote-backref" href="#fnref:26" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
+<ol start="26">
+<li><div class="li-block"><span class="list-number">26. </span>
+<p>MIT, "NANDA Report", 2025&#160;<a class="footnote-backref" href="#fnref:ch11-26" title="Jump back to footnote 26 in the text">&#8617;</a></p>
+</div></li>
 </ol>
 </div></div>
 <div class="questions-section"><h2>Questions for the Board</h2></div>
