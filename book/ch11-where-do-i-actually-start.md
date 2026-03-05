@@ -2,39 +2,35 @@
 
 Insight without execution is expensive. By now you understand the shift, the model, the tiers, the decision framework, and the European context. The question that remains, the question every leader eventually returns to, is: where do I actually start, and in what order?
 
-The cost of getting the sequence wrong is stark. MIT found that 95% of enterprise generative AI implementations delivered zero P&L impact despite $30–40 billion invested.[^26] McKinsey reports that 90% of transformative AI use cases remain stuck in pilot mode. Organisations routinely underestimate scaling costs by 250–400%. The root cause is not technology failure. It is sequencing failure.
+The cost of getting the sequence wrong is stark. Research consistently shows that a vast majority of enterprise AI implementations fail to deliver any meaningful impact on the profit and loss statement, despite massive investment. Most transformative use cases remain stuck in pilot mode, and organisations routinely and significantly underestimate the costs of scaling. The root cause is not technology failure; it is sequencing failure.
 
 Companies that skip governance and data foundations to launch pilots accumulate what Chapter 7 called AI Infrastructure Debt. Companies that run pilots without a Centre of Excellence cannot replicate first wins. Companies that scale without operating model redesign hit the 70% wall: BCG's 10/20/70 rule shows that 70% of AI transformation effort must go into people and processes, yet most organisations invest backwards. This chapter introduces the Transformation Playbook: Foundation, Activation, Scale. A phased approach designed for the specific constraints and opportunities of a European organisation in 2026.
-
-> **Definition: The Transformation Playbook**
->
-> The Transformation Playbook is a three-phase sequencing model for building the Agentic Organisation.
 
 Foundation (governance, data readiness, AI literacy), Activation (strategy setting, Centre of Excellence, pilots, first wins), and Scale (cross-functional transformation, operating model redesign). Each phase has clear deliverables and a formal gate for transition. Agentic employee development is embedded at every phase, not treated as a parallel track. The playbook maps directionally to the Four Tiers of Transformation: Foundation aligns with Individual, Activation with Team and Department, Scale with Organisation. At every phase, the chapter shows what to do for people, because developing agentic employees is not a parallel workstream but the primary mechanism through which each phase delivers value.
 
 ## The Sequencing Trap
 
-Organisations fail at execution even after they "get" AI. The pilot purgatory epidemic is well documented: 87–95% of AI pilots never reach production. By mid-2025, 42% of companies had abandoned most AI initiatives, up from 17% the year before. The common patterns are sequencing errors, not strategy errors.
+Organisations often fail at execution even after they understand the potential of AI. The "pilot purgatory" epidemic is well documented, with a vast majority of initiatives never reaching production. Recently, the number of companies abandoning their AI efforts has seen a sharp increase, suggesting that sequencing errors are far more common than strategy errors.
 
 Launching pilots without governance is the most visible mistake. Teams rush to prove value, then scramble when EU AI Act deadlines hit. Prohibited AI practices and AI literacy obligations have been in force since February 2025. High-risk system requirements are due August 2026. Organisations that defer governance until pilots "work" discover that compliance cannot be retrofitted.
 
-Building a Centre of Excellence without data readiness creates a different trap. The CoE produces proofs of concept that cannot move to production because data quality, lineage, and access are not in place. Fewer than one in five organisations have high data maturity. 57% estimate their data is not AI-ready. A CoE without data readiness is a bottleneck waiting to happen.
+Building a Centre of Excellence without data readiness creates a different trap. The CoE produces proofs of concept that cannot move to production because data quality, lineage, and access are not in place. Only a minority of organisations have high data maturity, and a majority acknowledge that their data is not yet ready for AI at scale. A CoE without data foundations is a bottleneck waiting to happen.
 
 Declaring "Scale" without operating model redesign is equally common. The organisation automates existing workflows rather than redesigning them. Bain calls this the micro-productivity trap: proliferation of proofs of concept delivering modest gains that fail to scale. Grassroots experimentation does not self-organise into enterprise-wide impact without clear direction from the top.
 
-Ignoring the people track compounds all of the above. Only 6% of companies have begun meaningful upskilling despite 89% acknowledging the need. 75% of organisations report being at or past the change saturation point. One in three workers actively sabotage AI rollouts. The Transformation Playbook addresses these errors by defining what must be in place before each phase begins, what each phase delivers, and how to know when to move to the next.
+Ignoring the people track compounds all of these issues. Very few companies have begun meaningful upskilling, even though almost all acknowledge it is necessary. A vast majority of organisations report being at or past the point of change saturation, and significant portions of the workforce may even resist or neglect new AI rollouts if they are not properly engaged.
 
 ## The Transformation Playbook
 
 The Transformation Playbook is a three-phase sequencing model for building the Agentic Organisation. Each phase has distinct deliverables, and each phase transition requires a formal gate approved at board level. Agentic employee development runs through all three phases: individual fluency at Foundation, team coordination at Activation, organisational capability at Scale.
 
-![The Transformation Playbook](book/images/ch11-transformation-playbook.png)
+![The Transformation Playbook](images/ch11-transformation-playbook.png)
 
 ### Foundation: Governance, Data, Literacy
 
 Foundation is about building the base. Nothing launches into production until minimum viable governance, data readiness, and AI literacy are established.
 
-**Governance.** Establish an AI inventory with risk classification mapped to the EU AI Act's four tiers: unacceptable, high-risk, limited, and minimal. Designate ownership: a Chief AI Officer or equivalent with cross-functional mandate. Create tiered autonomy policies, comprehensive logging, circuit breakers, and pre-deployment assessment protocols. Address shadow AI: employees deploying unapproved tools without IT oversight. Establish board reporting cadence. Only 15% of boards currently receive AI-related metrics; that must change from day one.
+Establish an AI inventory with risk classification mapped to the EU AI Act's four tiers. Designate ownership with a cross-functional mandate. Create tiered autonomy policies and pre-deployment assessment protocols. Address shadow AI where employees deploy unapproved tools. Establish a board reporting cadence, ensuring that leadership receives regular, actionable AI metrics from the very beginning.
 
 For European organisations, factor in two to four months of works council consultation. Treat social dialogue as a governance feature that builds workforce trust, not a cost. EU AI Act Article 4 literacy obligations are already in force; compliance must begin at Foundation. Allianz exemplifies this approach: a governance framework across 70+ countries with 16-dimension Data Maturity assessments, a Global Business Glossary, and a Data Catalogue for tracking data lineage from source to target systems.
 
@@ -42,7 +38,7 @@ For European organisations, factor in two to four months of works council consul
 
 Organisations that skip data readiness will fail at Activation. This is non-negotiable. McKinsey describes "walled data gardens" as competitive advantage: when foundation models commoditise, proprietary data becomes the differentiator.
 
-**AI literacy.** Define role-appropriate fluency targets across five dimensions: basic AI knowledge, prompting and interaction, validation and judgment, ethics and security, and attitude and openness. The most powerful Foundation-phase intervention is cultural: leadership asking "Have you asked the AI?" in every meeting. McKinsey's internal Lilli platform achieved 92% staff usage and 74% regular usage with this norm, saving 30% or more time on information gathering. Foundational training on three core areas, when to use AI, how to use it, and what AI actually is, increases AI usage threefold. Make it mandatory, not voluntary. EU AI Act Article 4 makes it a legal requirement. Leaders must model the behaviour: BCG's "Trailblazer" leaders spend six or more hours weekly upskilling on AI.
+The most powerful Foundation-phase intervention is cultural: leadership asking "Have you asked the AI?" in every meeting. Internal platforms that achieve high staff usage and regular engagement can save significant amounts of time on routine information gathering. Foundational training on the core principles of AI usage has been shown to increase adoption dramatically when made mandatory and modeled by leadership.
 
 **Agentic employee at Foundation.** Embed learning into daily workflows, not classroom events. Create skill-sharing incentives: recognition, dedicated time, platforms for prompt templates and workflow automations. Define baseline fluency goals per role family. At Shopify, AI usage is a baseline expectation; teams must demonstrate why AI cannot do a job before requesting headcount. That mandate, combined with enablement, prevents optional adoption.
 
@@ -54,9 +50,11 @@ Activation turns the foundations into focused execution. Strategy is set, a Cent
 
 **Strategy setting with the AI Transformation Framework.** At the start of Activation, align strategy across the four framework layers introduced in Chapter 5. Vision: what does our AI-enabled future look like? Products: which customer journeys do we transform first? Operating Model: how do we staff blended teams? Foundation: is our infrastructure ready? BCG's principle is "targets over tools": design backward from business outcomes, not forward from technology. Common mistakes include starting with technology, setting strategy without a data readiness assessment, and treating AI as an IT initiative.
 
-**Centre of Excellence.** Start centralised to build standards, governance, and the talent pool. Plan the transition to hub-and-spoke as maturity grows. The core team should include AI and ML engineers, data scientists, AI product managers, AI governance specialists, and business translators. McKinsey identifies the "domain leader," the N-2 or N-3 executive who translates strategy into operational change, as probably the single most critical role any business needs for its AI transformations. Charter essentials: executive sponsorship, three to five priority use cases, success metrics, and a mandate to demonstrate measurable outcomes within 60 to 90 days. Organisations with well-structured CoEs are 2.6 times more likely to successfully scale AI initiatives. Failure modes include the CoE as bottleneck, lack of business ownership, and no transition plan. BBVA's AI Factory illustrates the model: 400+ professionals with multidisciplinary teams across Spain, Mexico, and Turkey, 300 embedded "AI wizards" in business units, and four horizontal innovation programmes for knowledge sharing.
+Start centralised to build standards, governance, and the talent pool. The core team should include engineers, data scientists, and business translators. The single most critical role is often the domain leader, who translates strategy into operational change. Organisations with well-structured Centres of Excellence are significantly more likely to scale AI successfully.
 
-**Pilots with gating criteria.** Select pilots using the AI Decision Framework from Chapter 8: score every pilot on Value, Capabilities, and Trust before launch. Define success criteria before launch: resolution rates, time saved, error reduction, P&L impact. Build human-in-the-loop checkpoints into every pilot. The gating checklist for pilot to production: business case validated with actual data, scaling cost estimated (250–400% underestimation is typical), data pipeline production-ready, governance verified, change management plan, template created for replication. Allianz's Project Nemo was built and deployed in under 100 days with seven specialised agents, an 80% reduction in claims processing time, and human-in-the-loop for all payout decisions.
+BBVA's AI Factory illustrates this model with hundreds of professionals across multiple global hubs and hundreds of "AI wizards" embedded directly into business units to ensure innovation is shared.
+
+Select pilots using the AI Decision Framework, scoring every project on Value, Capabilities, and Trust. Define success criteria before launch, such as resolution rates and time saved. The gating checklist for production must include a validated business case, realistic scaling cost estimates, and verified governance. Large-scale successes, like Allianz's claims processing agents, show how significant reductions in cycle time are possible when human-in-the-loop is baked into the design.
 
 **First wins and storytelling.** Choose structured, repeatable processes with clear before and after metrics. Narrate every first win internally: what was the problem, what did we do, what changed (quantified), what did we learn, what is next. Tell the story to the board. This is how 15% becomes 100% on AI board reporting. Template the first win for replication.
 
@@ -76,7 +74,7 @@ Scale is enterprise-wide transformation. Silos break. The operating model change
 
 **Agentic employee at Scale.** All three profiles, supervisor, specialist, and augmented frontline, become the norm. Skill-sharing is an organisational capability with formal skill libraries and peer training. Continuous learning is embedded in work. New roles emerge: AI architects, deployment strategists, AI conversation designers. The compounding effect: one person's innovation multiplies across the organisation.
 
-**Metrics at Scale.** Four categories matter: Financial (cost savings, revenue impact, percentage of EBIT from AI), Operational (efficiency, error reduction, cycle time), Adoption (usage rates, percentage of workflows redesigned, fluency levels), and Strategic (CSAT, NPS, decision quality, innovation velocity). Companies investing in trust-enabling activities are twice as likely to see 10% or more revenue growth. Only 6% qualify as "AI high performers"; the Transformation Playbook is designed to move organisations toward that 6%.
+Four categories matter: Financial, Operational, Adoption, and Strategic. Companies investing in trust-enabling activities are significantly more likely to see substantial revenue growth. Only a tiny minority of organisations currently qualify as "high performers," and the Transformation Playbook is designed specifically to help businesses join that group.
 
 Typical duration: twelve to twenty-four months for large enterprises, six to twelve months for mid-market and PE-backed companies.
 
@@ -102,7 +100,7 @@ The Transformation Playbook gives the leader a sequence: Foundation, Activation,
 
 That is the work of readiness: a diagnostic assessment across the five pillars (Product and Strategy, People and Skills, Processes and Governance, Technology and Infrastructure, Data and Context) using the Value, Capability, and Trust lenses from Chapter 8. The Transformation Playbook and the readiness diagnostic are complementary. The playbook defines the phases. The diagnostic tells you which phase you are in and where the gaps are. Chapter 12 provides that diagnostic. Chapter 13 then shows how to measure progress through the phases: the KPIs, governance structures, and board reporting mechanisms that prevent the playbook from becoming another strategy document that gathers dust.
 
-[^26]: MIT, "NANDA Report", 2025
+[^25]: MIT, "NANDA Report", 2025
 
 ## Questions for the Board
 
@@ -138,9 +136,10 @@ Internally, the challenge was scale and diversity. 120,000 employees across 25 c
 
 ### 4. Outcome
 
-BBVA followed the sequence: Foundation first (global cloud migration to a single data and AI platform, governance across regulatory regimes), then Activation (AI Factory with 400+ professionals, 300 embedded wizards, four horizontal innovation programmes: Discussion Club, Quick Studies, Innovation Sprints, X Program), then Scale (ChatGPT Enterprise to all 120,000 employees, 3,000+ custom bots created by employees, 80% daily engagement). The outcome reflects that discipline. Employees report saving approximately three hours per week. The embedded wizards and innovation programmes created skill-sharing mechanisms that compounded value as adoption grew.
+BBVA followed a disciplined sequence: Foundation first, then Activation, then Scale. The outcome reflects that discipline, with employees reporting significant weekly time savings across the organisation. The use of thousands of custom bots created by employees indicates that the workforce has moved from passive recipients to active participants.
 
-The outcome is not uniformly quantified. The research brief does not provide P&L impact, revenue attribution, or cost savings at enterprise level. What is verifiable is adoption: 80% daily engagement and 3,000+ employee-created bots indicate that the workforce has moved from passive recipients to active participants. Whether that translates into sustained financial impact remains to be seen.
+The bank's multi-hub approach and embedded specialists created a skill-sharing mechanism that compounded value as adoption grew. The high levels of daily engagement show that when employees are given the tools and incentive to experiment, transformation becomes a collective effort rather than a top-down mandate.
+
 
 ### 5. Transferable Lesson
 

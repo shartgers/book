@@ -30,7 +30,9 @@ The required mental model is the one Chapter 1 established: this is 80% business
 
 The organisations stuck in the micro-productivity trap are investing heavily in the 20% and treating the 80% as a downstream consequence. It is not. It is the primary variable.
 
-The evidence of mismatch is stark. S&P Global reports that 42% of companies scrapped most AI initiatives in 2025, up from 17% the year before: a more than doubling of abandonment in a single year. The RAND Corporation puts AI project failure at over 80%, double non-AI IT failure rates. These are not technology failures. They are the predictable outcome of applying the wrong organisational model to a categorically different kind of change.
+The evidence of mismatch is stark. Organisations are abandoning AI initiatives at a rapidly accelerating rate. Failure in this field is now far more common than in traditional technology deployments.
+
+These are not technology failures. They are the predictable outcome of applying the wrong organisational model to a categorically different kind of change.
 
 Meanwhile, the leaders who have adopted the right mental model are pulling away. Only 5% of firms achieve AI value at scale. Those that do commit three times the investment of average organisations and invest twice as much in workforce upskilling. They are not spending more on better algorithms. They are spending more on the organisational redesign that makes algorithms valuable.
 
@@ -40,7 +42,9 @@ The paradox McKinsey calls the "GenAI Paradox" captures this precisely: the tech
 
 The disconnect between AI adoption velocity and board-level governance is the single greatest enterprise risk most organisations are not measuring.
 
-Chapter 1 set out the numbers: 88% of organisations use AI in at least one business function, yet two-thirds of board members report limited to no AI knowledge, fewer than a quarter have board-approved AI policies, and only 14% discuss AI at every meeting.[^13] Those figures have improved year-on-year, but the direction of travel is not the point. The gap itself is the point, and it has not closed.
+While deployment of AI across business functions is now widespread, board-level capability continues to lag. Most directors report a limited understanding of the technology, and few organisations have formal policies or regular board-level discussions.
+
+These trends have shown some improvement over time, but the underlying problem remains. The gap between functional adoption and governance maturity is the point, and that gap has not closed.
 
 What Chapter 1 established as a governance gap, this chapter reframes as a leadership accountability failure. The board is not underperforming because its members lack technical aptitude. It is underperforming because the CEO has not structured the governance agenda to demand better. Boards govern at the level leadership asks them to govern. When the leader frames AI as an IT project, the board asks IT-level questions.
 
@@ -80,7 +84,7 @@ The argument of this chapter reduces to a specific claim: the gap between what A
 
 Half of all leaders believe their job stability depends on getting AI right. Among non-leaders, more than half believe that leaders or boards should resign if the company loses market share due to inadequate AI strategy. This is not a distant risk. It is a present expectation.
 
-Leading from the front means more than allocating budget and attending briefings. It means reframing AI from an IT project to an operating model redesign. It means being personally fluent enough to challenge assumptions, shape priorities, and make the architectural decisions that determine whether the organisation is building at the Bolt-On level or the Redesign level.
+Leading from the front means more than allocating budget and attending briefings. It means reframing AI from an IT project to an operating model redesign. It means being personally fluent enough to challenge assumptions, shape priorities, and make the architectural decisions that determine whether the organisation is building at the bolt-on level or the redesign level.
 
 It means signalling irreversibility: making clear, through actions and resource allocation, that this transformation is not a programme that can be quietly wound down at the next quarterly review.
 
@@ -94,7 +98,7 @@ Shared accountability also prevents the micro-productivity trap from the other d
 
 **Boards must move from passive oversight to active governance.** The minimum standard is clear: AI must be a standing agenda item at every board meeting, not a periodic update. Boards should demand specific metrics, not project-level status reports. The metrics that matter are organisational health indicators: ROI by business unit, the percentage of processes that are AI-enabled, workforce reskilling progress, regulatory alignment with the EU AI Act, and human override rates in agentic systems.
 
-Beyond metrics, the board must determine the organisation's AI posture. Is the organisation designing at the Bolt-On level or the Redesign level? Is the current pace of transformation sufficient given the rate of competitive change? Are the governance frameworks in place to manage agentic systems that make autonomous decisions? These are board-level questions, not management-level questions, and they require board members who are fluent enough in AI to ask them with precision.
+Beyond metrics, the board must determine the organisation's AI posture. Is the organisation designing at the bolt-on level or the redesign level? Is the current pace of transformation sufficient given the rate of competitive change? Are the governance frameworks in place to manage agentic systems that make autonomous decisions? These are board-level questions, not management-level questions, and they require board members who are fluent enough in AI to ask them with precision.
 
 Governance maturity determines the adoption ceiling. Research shows that in high-maturity organisations, 57% of business units trust and are ready to use AI, versus only 14% in low-maturity organisations. The board's governance posture is not a downstream consequence of the AI programme. It is a structural determinant of how far the programme can go.
 
@@ -125,7 +129,7 @@ The question is no longer whether to lead, but what the destination looks like. 
 
 ## Case Study: DBS Bank: The CEO Who Refused to Delegate
 
-### 1. Strategic Dilemma
+### The Choice Between Delegation and Direct Ownership
 
 In the early 2010s, DBS Bank faced a choice that many large incumbents have faced and most have resolved by taking the easier path. The bank, headquartered in Singapore and one of the largest in Asia, carried a reputation summarised bluntly by its own staff: "Damn Bloody Slow."
 
@@ -133,7 +137,7 @@ The dilemma was not whether to transform, but how to govern the transformation. 
 
 The second path was for the CEO to personally own the transformation, reframe the organisation's competitive identity from the top, and accept that failure would be his failure. The first path was safer in the short run. The second path was more demanding and carried greater personal risk. Piyush Gupta chose the second.
 
-### 2. Decision Context
+### Benchmarking Against Big Tech Instead of Big Banking
 
 The external pressure at the time was real but not yet existential. Fintech challengers were growing rapidly across Southeast Asia, and technology giants were expanding into financial services. For a regional bank with deep retail and corporate roots, the threat was not immediate collapse but gradual commoditisation: a slow erosion of margin, relevance, and talent to faster-moving competitors.
 
@@ -143,7 +147,7 @@ The critical decision Gupta made was not simply to invest in technology. It was 
 
 This was a CEO-level act of strategic reframing. It changed what "good" meant across the organisation, what hiring standards looked like, and what the board expected to see. It was irreversible in the sense that it publicly committed the organisation to standards it could not quietly walk back. That kind of commitment cannot be delegated; it can only be made by the person accountable for the organisation's direction.
 
-### 3. Trade-offs
+### The Costs of Sinking the Boats
 
 The path Gupta chose came with costs that are rarely acknowledged in the retelling:
 
@@ -153,7 +157,7 @@ The path Gupta chose came with costs that are rarely acknowledged in the retelli
 - **Pressure on the C-suite.** A CEO who personally leads a transformation raises expectations for his direct reports. Functions that might otherwise manage AI at arm's length were required to engage directly with the transformation's targets and metrics.
 - **The cost of the GANDALF standard.** Benchmarking against technology companies rather than banks raised the bar for recruitment, product development, and data capability in ways that required sustained investment before they produced returns.
 
-### 4. Outcome
+### Realising a Billion-Dollar Value-Add
 
 The financial results are specific enough to stand without embellishment. The economic value DBS attributed to AI grew from S$180 million in 2022 to S$750 million in 2024, with S$1 billion projected for 2025. Return on equity doubled, from 8.4% to 18%. The share price tripled over the transformation period. These are not one-off efficiency gains; they reflect a sustained change in the bank's operating model and competitive position.
 
@@ -163,7 +167,7 @@ The transformation did not move from digital banking to AI-native operations in 
 
 The case is not a clean success story with no uncertainty along the way. Transforming a legacy institution to technology-company standards takes years, involves failures and course corrections, and requires the CEO to hold the line when the organisation's natural instinct is to revert to what it knows. What the DBS case demonstrates is not that the outcome was certain, but that it was made more likely by the governance structure at the top.
 
-### 5. Transferable Lesson
+### Irreversible Commitment as a Governance Tool
 
 DBS Bank is in Singapore, not Europe, and the regulatory environment, ownership structure, and competitive context differ. The governance principles, however, are directly transferable.
 

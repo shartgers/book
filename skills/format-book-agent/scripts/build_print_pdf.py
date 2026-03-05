@@ -739,7 +739,7 @@ def get_css(for_pdf: bool = True) -> str:
         size: {TRIM_WIDTH} {TRIM_HEIGHT};
         margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
         @top-left {{
-            content: string(chapter-title);
+            content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
             font-size: 8pt;
             color: #555;
@@ -756,7 +756,7 @@ def get_css(for_pdf: bool = True) -> str:
         size: {TRIM_WIDTH} {TRIM_HEIGHT};
         margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
         @top-right {{
-            content: string(chapter-title);
+            content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
             font-size: 8pt;
             color: #555;
@@ -772,7 +772,7 @@ def get_css(for_pdf: bool = True) -> str:
         size: {TRIM_WIDTH} {TRIM_HEIGHT};
         margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
         @top-left {{
-            content: string(chapter-title);
+            content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
             font-size: 8pt;
             color: #555;
@@ -788,7 +788,7 @@ def get_css(for_pdf: bool = True) -> str:
         size: {TRIM_WIDTH} {TRIM_HEIGHT};
         margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
         @top-right {{
-            content: string(chapter-title);
+            content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
             font-size: 8pt;
             color: #555;
@@ -961,6 +961,7 @@ def get_css(for_pdf: bool = True) -> str:
         font-family: "Raleway", sans-serif;
         font-size: 22pt;
         font-weight: bold;
+        string-set: chapter-title content(text), chapter-num "";
     }}
 
     .toc h2 {{
@@ -1036,7 +1037,7 @@ def get_css(for_pdf: bool = True) -> str:
         font-family: "Raleway", sans-serif;
         font-size: 22pt;
         font-weight: bold;
-        string-set: chapter-title content(text);
+        string-set: chapter-title content(text), chapter-num attr(data-ch);
     }}
 
     /* Hidden element: "Chapter N - Title" for reference; TOC is static HTML with anchors */
@@ -1134,7 +1135,8 @@ def get_css(for_pdf: bool = True) -> str:
         border-collapse: collapse;
         width: 100%;
         margin: 1em 0;
-        font-size: 10.5pt;
+        font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
+        font-size: 10pt;
         page-break-inside: avoid;
     }}
     table th,
@@ -1542,7 +1544,7 @@ def build_full_html(
             f'<div class="toc-entry-hidden">Chapter {num} - {html_module.escape(ch_title)}</div>'
         )
         html_parts.append(f'<div class="chapter-number">Chapter {chapter_number_word(num)}</div>')
-        html_parts.append(f'<div class="chapter-title">{html_module.escape(ch_title)}</div>')
+        html_parts.append(f'<div class="chapter-title" data-ch="Ch {num}: ">{html_module.escape(ch_title)}</div>')
         html_parts.append('<div class="chapter-divider"></div>')
         html_parts.append(strip_first_h1(ch_html))
         html_parts.append("</div>")

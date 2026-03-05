@@ -26,7 +26,7 @@ The Transformation Playbook is a three-phase sequencing model for building the A
 >
 > The Transformation Playbook is a three-phase model for building the Agentic Organisation: Foundation (governance, data readiness, AI literacy), Activation (strategy setting, Centre of Excellence, pilots, first wins), and Scale (cross-functional transformation, operating model redesign). Each phase has clear deliverables and a formal gate for transition. Agentic employee development is embedded at every phase, not treated as a parallel track. The playbook maps directionally to the Four Tiers of Transformation: Foundation aligns with Individual, Activation with Team and Department, Scale with Organisation.
 
-![The Transformation Playbook](book/images/ch11-transformation-playbook.png)
+![The Transformation Playbook](images/ch11-transformation-playbook.png)
 
 ### Foundation: Governance, Data, Literacy
 

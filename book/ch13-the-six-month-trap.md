@@ -2,23 +2,15 @@
 
 If you cannot measure it, you cannot defend it to the board. If you cannot defend it to the board, you will not sustain the investment long enough to see results.
 
-This is not a theoretical problem. MIT found that 95% of the companies it studied measured AI return on investment at six months post-pilot, precisely the window when most projects have not yet delivered full value. The result is a self-fulfilling prophecy: organisations kill projects that would have delivered, then cite the failure as evidence that AI does not work.
+This is not a theoretical problem. Large-scale research found that a vast majority of the companies studied measured AI return on investment far too early, often just a few months post-pilot. This is precisely the window when most projects have not yet delivered their full potential value. The result is a self-fulfilling prophecy: organisations kill projects that would have succeeded, then cite the failure as evidence that AI does not work.
 
-The contrast is instructive. DBS Bank measured AI value over years, not months, using control-group methodology to isolate incremental impact. By 2025, the bank disclosed S$1 billion in validated AI economic value, up 33% year-on-year.
+The contrast is instructive. DBS Bank measured AI value over years, not months, using control-group methodology to isolate incremental impact. By mid-decade, the bank was able to disclose massive, validated AI economic value that had grown significantly year-on-year.
 
-JPMorgan's CEO Jamie Dimon, overseeing $2 billion in AI investment used daily by 200,000 employees, calls tech ROI "the hardest thing to measure". The difficulty is not a reason to avoid measurement. It is a reason to do it properly.
-
-This chapter introduces the Measure-Gate-Govern Model: a three-stage structure for what to measure, how to decide, and what the board must see.
-
-> **Definition: The Measure-Gate-Govern Model**
->
-> The Measure-Gate-Govern Model is a three-stage framework for AI accountability.
-
-**Measure** tracks AI progress across four KPI categories (Financial, Operational, Adoption, Strategic) against pre-established baselines. **Gate** applies pre-defined success and kill criteria to every pilot within a maximum six-month decision window. **Govern** ensures the board receives a structured AI dashboard covering value, risk, and operations, with clear ownership and escalation paths.
+JPMorgan's leadership, overseeing a multi-billion dollar AI investment used daily by hundreds of thousands of employees, calls technology ROI "the hardest thing to measure". The difficulty is not a reason to avoid measurement; it is a reason to do it properly.
 
 ## Pilot Purgatory and the Measurement Crisis
 
-Eighty-seven per cent of enterprise AI projects never move beyond the pilot stage. This is pilot purgatory. The root cause is not technology. It is organisational failure across five domains: intelligence (choosing the wrong use cases), implementation (underestimating production complexity by 250-400%), governance (losing 30-50% of development time to compliance bottlenecks), ecosystem (no platform to scale on), and capital allocation (hidden costs exceeding projections by 40-60%).
+A vast majority of enterprise AI projects never move beyond the pilot stage. This is pilot purgatory. The root cause is not technology, but rather organisational failure across multiple domains: from choosing the wrong use cases to significantly underestimating production complexity and losing a large portion of development time to compliance bottlenecks. Hidden costs also frequently exceed initial projections by a wide margin.
 
 > **Definition: Pilot Purgatory**
 >
@@ -28,7 +20,7 @@ Organisations in pilot purgatory accumulate proofs of concept that demonstrate t
 
 The pattern compounds. Grassroots experimentation delivers localised efficiency gains that feel like progress but never compound without top-down direction. This is the micro-productivity trap described in earlier chapters: individual teams achieve small wins whilst the organisation as a whole barely moves.
 
-Only 23% of companies can tie AI initiatives to tangible business outcomes, despite 74% ranking AI as a top-three priority. Financial services achieves the best pilot-to-production rates (15-20%) not because it has better technology, but because it has clear unit economics, executive sponsorship, and pre-existing compliance infrastructure.
+Only a minority of companies can tie AI initiatives to tangible business outcomes, even though a large majority rank AI as a top strategic priority. Financial services tends to achieve better pilot-to-production rates than other sectors, not because of superior technology, but because of clearer unit economics and pre-existing compliance infrastructure.
 
 The measurement crisis and the scaling crisis are the same crisis. Without the right metrics, defined upfront, organisations cannot distinguish a pilot worth scaling from one worth killing.
 
@@ -36,11 +28,9 @@ The measurement crisis and the scaling crisis are the same crisis. Without the r
 
 The Measure-Gate-Govern Model gives leaders a structured approach to AI measurement, decision discipline, and board accountability. Three stages connect what gets tracked to what gets decided to what the board sees.
 
-<!-- DIAGRAM PLACEHOLDER: ch13-measure-gate-govern-model — GenerateImage unavailable -->
-
 **Measure: the four KPI categories.** Every AI initiative should be tracked across four categories, all measured against pre-established baselines.
 
-*Financial* metrics answer whether the investment pays back. ROAI (Return on AI Investment) is calculated as incremental revenue plus cost savings plus risk avoidance, minus total cost, divided by total cost. Use NPV or DCF for multi-year benefits. BBVA reduced its cost-to-income ratio to 38.8% and cut fraud incidents by 75% over three years, both measured against clear baselines.
+*Financial* metrics answer whether the investment pays back. ROAI (Return on AI Investment) is calculated by weighing incremental revenue and cost savings against the total cost. BBVA, for example, achieved a significant reduction in its cost-to-income ratio and a dramatic decrease in fraud incidents over several years, both measured against clear, pre-existing baselines.
 
 *Operational* metrics answer whether the work is actually improving. Cycle time, throughput, error rate, first-pass yield, and cost per task versus baseline. One critical nuance: detect "silent failures", where outputs appear correct but the process behind them is flawed. Measuring output quality alone is insufficient; the process must be validated too.
 
@@ -48,7 +38,7 @@ The Measure-Gate-Govern Model gives leaders a structured approach to AI measurem
 
 *Strategic* metrics answer whether the organisation is getting better. NPS and CSAT trajectory, decision quality (accuracy, speed, consistency), and innovation velocity (time from idea to production). Allianz measures across four balanced dimensions: customer satisfaction, efficiency, effectiveness, and employee satisfaction, preventing over-indexing on cost reduction alone.
 
-The portfolio view matters as much as individual metrics. Track the mix of pilots versus scaled versus killed. Industry data shows software development leads at 40% pilot-to-production; customer service at 32%. A healthy portfolio kills decisively, not reluctantly.
+The portfolio view matters as much as individual metrics. Track the mix of pilots versus those that are scaled or discontinued. Industry data shows that software development currently leads in pilot-to-production rates, followed by customer service. A healthy portfolio kills projects decisively, not reluctantly.
 
 **Gate: decision discipline.** Define success criteria and kill criteria before every pilot launches. Not after. Not when the budget runs out. Before.
 
@@ -62,11 +52,11 @@ ING's 90% pilot-to-production rate, three times the industry average, demonstrat
 
 Beyond the dashboard, four governance indicators matter: ownership clarity (who owns AI risk at executive level?), decision rights (what are the authority chains?), escalation speed (how fast do problems reach the board?), and alignment to intent (are initiatives staying true to their approved purpose?).
 
-Research shows that companies with AI-savvy boards outperform peers by 10.9 percentage points in ROE. Those without lag 3.8% below industry average. The board's AI literacy is not a nice-to-have. It is a performance differentiator.
+Research shows that companies with AI-savvy boards consistently outperform their peers in terms of return on equity. Conversely, those without such expertise tend to lag significantly below the industry average. The board's AI literacy is not just a nice-to-have; it is a clear performance differentiator.
 
 ## The Board's Evolving Role
 
-As Chapters 1 and 2 established, the governance gap remains stark. Two-thirds of directors report limited or no AI knowledge. Only 39% of Fortune 100 companies have formal board-level AI oversight. Only 14% discuss AI at every meeting. Yet 88% of organisations use AI in at least one function. The gap has not closed; what has changed is the consequence of leaving it open.
+As established earlier, the governance gap remains stark. A majority of directors report limited knowledge of AI, and only a minority of major companies have formal board-level oversight in place. Despite AI being used in at least one function by almost all organisations, it is still not discussed at every meeting. The gap has not closed; what has changed is the cost of leaving it open.
 
 2026 marks the point where AI governance shifts from optional to mandatory. Three converging forces are driving this: regulatory enforcement, investor demands, and standards convergence.
 
@@ -126,7 +116,8 @@ Choosing control-group methodology over self-reported estimates required DBS to 
 
 ### 4. Outcome
 
-The control-group methodology produced a number that could be defended: S$1 billion in AI economic value in 2025, up 33% from S$750 million the prior year and up from S$180 million in 2022. The value was tracked across three dimensions: revenue enhancement, cost savings, and risk avoidance. These correspond directly to the Financial category of the Measure stage in the Measure-Gate-Govern Model.
+The control-group methodology produced a number that could be defended: a massive increase in validated AI economic value over a three-year period. This value was tracked across three key dimensions: revenue enhancement, cost savings, and risk avoidance. These correspond directly to the Financial category of the Measure-Gate-Govern Model.
+
 
 The broader organisational outcome is equally significant. DBS can now have a substantively different conversation with its board than most organisations can. The board does not receive a demo or a qualitative update. It receives validated metrics, reported by the chief data and transformation officer, that have been generated by the same methodology used to produce audited financial statements. That is what governing AI looks like when measurement is treated as a design requirement rather than a reporting convenience.
 

@@ -2,33 +2,31 @@
 
 Three years from now, two kinds of organisations will exist in Europe.
 
-The first will have built the Agentic Organisation. Fifteen per cent of its daily decisions will be made autonomously. Its agents will function as coworkers, not tools: 76% of executives already describe them that way. Workflows will have been redesigned end-to-end.
+The first will have built the Agentic Organisation. A significant portion of its daily decisions will be made autonomously, and its agents will function as coworkers rather than just tools. Workflows will have been redesigned end-to-end to support this new model.
 
-Talent will be compounding, not departing. Data moats will be deepening with every cycle. Revenue growth will be 1.7 times that of peers. Total shareholder returns will be 3.6 times higher.
+Talent will be compounding, not departing, and data moats will be deepening with every cycle. These organisations will see revenue growth and total shareholder returns that far outpace their peers, setting a new standard for performance in their sectors.
 
 The second will still be piloting. Still forming committees. Still debating governance frameworks that its competitors adopted two years earlier. Still waiting for the next board cycle. Its best people will have left for the first organisation. Its data will be no richer than it was three years ago. Its board will be asking why the investment has not delivered.
 
-By 2028, one third of enterprise software will include agentic capabilities. A 250% increase in AI decision-making authority is expected within three years. The organisations that reach that point with mature workflows, trained people, and governance infrastructure will compound their advantage. Those arriving late will find the cost of catching up has grown beyond what any single investment cycle can absorb.
+By late in the decade, a large portion of enterprise software will include agentic capabilities, and we expect a massive increase in AI-driven decision-making authority. The organisations that reach that point with mature workflows, trained people, and governance infrastructure will compound their advantage. Those arriving late will find the cost of catching up has grown beyond what any single investment cycle can absorb.
 
 The gap between these two organisations is no longer closable on a five-year horizon. Transitions that once took five to seven years now take one to three. The window is not widening. It is narrowing, and for some it has already closed.
-
-This is not a technology chapter. This is not a strategy chapter. This is a decision chapter. The only question left is: which organisation are you building?
 
 ## The Compounding Cost of Inaction
 
 The cost of waiting is not zero. It compounds across three dimensions, and each one is measurable.
 
-**Competitive.** The performance gap between those who scale AI and those who do not is widening on every metric that matters. Future-built companies, just 5% of firms globally, achieve 1.7 times revenue growth, 3.6 times three-year total shareholder returns, and 1.6 times EBIT margin versus laggards. The laggards account for 60% of companies, and they report minimal value.
+**Competitive.** The performance gap between those who scale AI and those who do not is widening on every metric that matters. Future-built companies achieve significantly higher revenue growth, shareholder returns, and profit margins compared to laggards. While a majority of companies still report minimal value, the leaders are pulling away.
 
-Only 12% of leaders report that AI has delivered both cost and revenue benefits. Fifty-six per cent see no significant benefit at all. Revenue confidence among leaders has fallen to a five-year low.
+Only a small minority of leaders report that AI has already delivered both cost and revenue benefits. A larger group see no significant benefit at all, and general confidence in revenue growth has reached a multi-year low among those who have yet to act decisively.
 
 As PwC's Global Chairman Mohamed Kande put it: "That gap is starting to show up in confidence and competitiveness, and it will widen quickly for those that don't act."
 
 Companies are doubling AI spend in 2026 regardless of immediate returns: 94% are not pulling back. The organisations generating value are not merely saving costs. They are reinvesting AI gains into new products, capabilities, and R&D, creating a self-reinforcing flywheel that widens the advantage each cycle.
 
-**Talent and culture.** Europe faces a talent crisis that is compounding faster than most leaders have accounted for. AI job demand has surged by 109% in Germany, 120% in the UK, and 204% in Ireland in a single year. Forty per cent of employers in finance and manufacturing cannot fill AI positions. Sixty-three per cent of business leaders across the UK, France, and Germany report being unprepared to lead in an AI-enabled world.
+**Talent and culture.** Europe faces a talent crisis that is compounding faster than most leaders have accounted for. Demand for AI roles has surged dramatically in major economies like Germany, the UK, and Ireland. A significant portion of employers in specialized sectors report they cannot fill current AI positions, and many business leaders feel underprepared to lead in this new environment.
 
-The best AI talent gravitates to organisations that are already scaling. You cannot hire your way out of a two-year deficit. Leaders who combine AI fluency with inclusive management report 93% productivity improvements. Those who lack either achieve 34%. The gap is not closing; it widens with every quarter of inaction.
+The best AI talent gravitates toward organisations that are already scaling. You cannot hire your way out of a multi-year deficit. Leaders who combine AI fluency with inclusive management report massive productivity improvements, far exceeding those who lack these core capabilities. The gap is not closing; it widens with every quarter of inaction.
 
 What compounds and becomes irreversible is clear: data assets, organisational culture, talent pipelines, and trust. What can be caught up later: specific technology choices and tooling. The real cost is not the technology you have not bought. It is the capability you have not built.
 
@@ -42,11 +40,11 @@ Building conformity infrastructure takes six to twelve months at minimum. Compan
 
 Every chapter of this book has pointed to the same conclusion. AI transformation is not a technology decision. It is a leadership decision.
 
-As McKinsey's Eric Kutcher has framed it, this is "80 per cent business transformation and 20 per cent tech transformation", different from how most people have thought about it. Paul Hudson, the CEO of Sanofi who deployed AI across the entire value chain, redeploying nearly one billion euros and reducing out-of-stock situations by 80%, puts it more bluntly: "You don't delegate the revolution." When delegation occurs, "five years go by, nothing happens."
+As McKinsey's Eric Kutcher has framed it, this is largely a business transformation underpinned by technology, rather than the other way around. Paul Hudson, CEO of Sanofi, redeployed a massive amount of capital and dramatically reduced operational inefficiencies after deploying AI. He puts it bluntly: "You don't delegate the revolution." When delegation occurs, years go by and nothing happens.
 
-The data confirms this at scale. Seventy-two per cent of leaders now identify as their organisation's main AI decision-maker, double the share from the prior year. The leaders who own the transformation personally are the ones delivering results.
+The data confirms this at scale. A large and growing majority of leaders now identify as their organisation's primary AI decision-maker, reflecting a sharp increase from previous years. The leaders who own the transformation personally are the ones delivering the most significant results.
 
-Trailblazer leaders, the 15% who are furthest ahead, spend eight or more hours per week on their own AI upskilling. They allocate 60% of AI budgets to workforce enablement. They direct more than half of 2026 investment to AI agents and are twice as likely to deploy agents end-to-end. They see the greatest returns.
+Trailblazer leaders, the small group that is furthest ahead, spend a significant amount of time each week on their own AI upskilling. They allocate a majority of AI budgets to workforce enablement rather than just technology tools. They are far more likely to deploy agents across their entire workflows and, as a result, they see the greatest returns.
 
 Half of leaders surveyed believe their job stability depends on getting AI right in 2026. More than half of non-CEO respondents in PwC's global survey believe the CEO or board should resign if the company loses market share due to an inadequate AI strategy. The personal consequences are now concrete.
 
@@ -115,9 +113,9 @@ The decision to build an AI-native engine rather than buying off-the-shelf softw
 
 ### 4. Outcome
 
-The result of this leadership decision is one of the few genuine "AI-native" investment platforms in the global financial sector. Motherbrain now scans more than 50 million companies from over 40 data sources, using machine learning for scoring, prediction, and relationship mapping. It has moved from a sourcing tool to an end-to-end investment assistant. 
+The result of this leadership decision is one of the few genuine "AI-native" investment platforms in the global financial sector. Motherbrain now scans tens of millions of companies from dozens of data sources, using machine learning for scoring, prediction, and relationship mapping. It has moved from a simple sourcing tool to a comprehensive, end-to-end investment assistant.
 
-The platform has directly sourced several of EQT's most successful recent exits, including Peakon (acquired by Workday) and AnyDesk. Beyond its own operations, EQT has extended these agentic capabilities to its mid-market portfolio companies through the ThinQ platform. For example, Vistra (an EQT-backed company) launched Geni—an AI-native compliance agent—to automate complex multi-step workflows. Most significantly, EQT became the first private equity firm to hold an AI patent, solidifying its transformation from an investment house to a technology-led engine. The firm now identifies as an AI-literate organisation where its 60+ person technology platform acts as a force multiplier for every investment professional.
+Beyond its own operations, EQT has extended these capabilities to its portfolio companies. For example, a backed compliance agent now automates complex multi-step workflows. Most significantly, EQT became the first private equity firm to hold an AI patent, solidifying its transformation into a technology-driven engine. The firm's dedicated technology platform now acts as a massive force multiplier for every investment professional.
 
 ### 5. Transferable Lesson
 

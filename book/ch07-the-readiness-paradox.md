@@ -2,9 +2,9 @@
 
 Ninety-eight per cent of leaders report increased urgency to deploy AI. Readiness is declining.
 
-That is not a misprint. The Cisco AI Readiness Index, surveying over 8,000 organisations across 30 markets, found that readiness scores dropped in 2024 across five of six pillars: Infrastructure, Data, Governance, Talent, and Culture. Only 13 to 14 per cent of organisations globally qualify as fully prepared, and that figure has not moved in two years.[^22]
+Comprehensive global surveys show that readiness scores have declined across almost all critical pillars, including Infrastructure, Data, Governance, Talent, and Culture. Only a small minority of organisations worldwide qualify as fully prepared, a figure that has remained stagnant for several years.
 
-In Europe, the picture is worse: over 60 per cent of firms remain at the earliest readiness stages, only 23 per cent have adequate GPU capacity, 66 per cent struggle to centralise data, and just 9 per cent describe their networks as flexible.
+In Europe, the challenge is even more acute. A vast majority of firms remain at the earliest stages of readiness, struggling with inadequate compute capacity and difficulties in centralising their data. Only a tiny fraction of leaders describe their networks as flexible enough to support modern AI demands.
 
 The gap has a name. Cisco calls it AI Infrastructure Debt: the accumulation of shortcuts, deferred upgrades, and unaddressed gaps across compute, networking, data, security, and talent that compounds silently as organisations rush to deploy.
 
@@ -20,15 +20,13 @@ The way to break the cycle is to build properly. This chapter lays out what the 
 
 ## Where Most Organisations Fail
 
-The evidence is consistent across sources. Sixty-three per cent of organisations lack AI-ready data practices. Gartner predicts that through 2026, organisations will abandon 60 per cent of AI projects unsupported by AI-ready data. The World Economic Forum reports that fewer than one in five organisations consider themselves data-ready.
+The evidence is consistent across multiple sources. A majority of organisations still lack truly AI-ready data practices, leading to a high rate of project abandonment for those that are unsupported by solid data foundations. Research from global institutions confirms that only a small minority of businesses currently consider themselves fully data-ready.
 
-Among enterprises surveyed by Fivetran, 42 per cent say that more than half of their AI initiatives have delayed, underperformed, or failed, primarily due to data readiness.
+The problem extends beyond data alone. Only a small fraction of organisations have fundamentally redesigned any of their core workflows for AI. As Chapter 6 explored, this type of deep redesign shows the strongest correlation with bottom-line impact, but it requires simultaneous readiness across data, technology, and people.
 
-The problem extends beyond data. Only 21 per cent of organisations have fundamentally redesigned any workflows for AI. As Chapter 6 explored, workflow redesign shows the biggest correlation with bottom-line impact, but it requires data readiness, technology readiness, and people readiness simultaneously. Most organisations still layer AI onto existing processes and wonder why pilots do not scale.
+The commonly cited "70/10/20" rule highlights this imbalance: the vast majority of AI value is derived from people, processes, and change management, while only a smaller portion comes from the underlying algorithms and technology infrastructure themselves.
 
-BCG's 70/10/20 rule, introduced in the previous chapter, quantifies the imbalance: 70 per cent of AI value comes from people, processes, and change management; only 10 per cent from algorithms and 20 per cent from technology infrastructure.
-
-The implication for the Foundation layer is direct. Enablement, the third component, covering culture, skills, and the human capacity to work with AI, is where value is ultimately made or lost. Yet only 6 per cent of companies have begun meaningful upskilling, and companies are missing up to 40 per cent of AI productivity gains due to talent strategy gaps.
+Enablement—the human capacity to work with AI—is where value is ultimately made or lost. Yet very few companies have begun the meaningful upskilling required to capture these gains. Without a robust talent strategy, organisations risk losing a substantial share of the productivity improvements that AI promises.
 
 The problem is not technology adoption. It is the absence of foundations.
 
@@ -54,7 +52,7 @@ The Agentic Organisation requires a technology architecture designed for AI at s
 
 Two protocols are reshaping how agents connect to the enterprise. MCP (Model Context Protocol), described as the "USB-C for AI," provides a universal standard for connecting agents to tools and data sources. A2A (Agent2Agent) enables direct agent-to-agent communication. Together, they represent the integration standards that will determine whether agents operate across systems or remain confined to single applications.
 
-European organisations face specific infrastructure challenges. Only 23 per cent have robust GPU capacity. Two-thirds struggle to centralise data. Just 9 per cent describe their networks as flexible enough for AI workloads.
+European organisations face specific infrastructure challenges. Most still struggle to centralise their data and lack the compute capacity required for scale. Only a small minority of firms describe their current networks as flexible enough to handle the unique demands of AI workloads.
 
 These gaps require architectural decisions, not tactical ones. When technology investments are made project by project without a target architecture, the result is AI Infrastructure Debt: a growing tangle of incompatible systems that becomes progressively harder to unwind. Organisations classified as fully prepared design their infrastructure for future demands, not just current needs.
 
@@ -70,7 +68,7 @@ The requirement goes beyond training courses. Employees need to understand AI so
 
 The challenge is no longer just preparing people to work with AI. It is building the systems, culture, and governance that enable humans and AI to work and learn together.
 
-Research points to a clear threshold. Employees receiving at least five hours of structured AI training, combined with coaching, show substantially higher adoption and confidence. Below that threshold, training fails to translate into changed behaviour. Yet only 6 per cent of companies have begun meaningful upskilling.
+Research identifies a clear threshold for success. Employees who receive several hours of structured training, combined with ongoing coaching, show substantially higher adoption and confidence. Below this level, training rarely translates into changed behaviour. Yet only a tiny fraction of companies have successfully scaled these upskilling efforts.
 
 Management must participate and model the behaviour. When leaders demonstrate AI fluency and set expectations for its use, adoption accelerates. When they delegate AI to the IT department, the signal is unmistakable: AI is optional. Enablement is not only for frontline staff.
 
@@ -78,7 +76,7 @@ Some organisations are already tying career progression to AI adoption, requirin
 
 These are early signals, but they point in the same direction: enablement must be embedded in how the organisation hires, develops, and rewards people.
 
-Europe faces a particular challenge in scale. Up to 12 million occupational transitions are expected by 2030, double the pre-pandemic pace. The organisations that build enablement infrastructure now will absorb that transition as a competitive advantage. Those that defer it will face a workforce skills gap that no amount of technology investment can close.
+Europe faces a particular challenge in the scale of its workforce transition. The pace of occupational shifts is accelerating far beyond historical norms. Organisations that build enablement infrastructure now will absorb this change as a competitive advantage. Those that defer it will face a skills gap that no amount of technology can close.
 
 Data and Technology sit in the Foundation layer, but the process of making data usable and integrating technology into workflows belongs to the Operating Model (Chapter 6). The two layers are tightly coupled. You cannot redesign workflows without data readiness, and you cannot make data useful without processes that consume it.
 
@@ -114,7 +112,7 @@ Chapter 8 introduces the AI Decision Framework, balancing three angles: Value, C
 
 Chapter 11 sequences the execution: Foundation, then Activation, then Scale. Chapter 12 provides the detailed readiness diagnostic. This chapter has laid out what the foundations are and why they matter. The rest of Part II and Part IV show how to use them.
 
-[^22]: Cisco, "AI Readiness Index", 2024
+[^21]: Cisco, "AI Readiness Index", 2024
 
 ## Questions for the Board
 

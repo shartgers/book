@@ -1,22 +1,12 @@
 ## The Seventy Per Cent Most Organisations Ignore
 
-Chapter 5 laid out the map: the AI Transformation Framework, four layers from Vision to Foundation. This chapter goes inside the third layer, the Operating Model, where strategy becomes structure.
+The previous chapter laid out the map: the AI Transformation Framework, four layers from Vision to Foundation. This chapter goes inside the third layer, the Operating Model, where strategy becomes structure.
 
-BCG's 10/20/70 rule cuts to the core of why so many transformations stall. Successful AI transformation requires 70% of effort on people and processes, 20% on technology and data infrastructure, and 10% on algorithms. Most organisations get this allocation backwards. They pour budget into models, platforms, and proofs of concept whilst leaving roles, skills, and workflows unchanged.
+Industry standards for transformation identify a clear hierarchy of effort. The vast majority of focus must be placed on people and processes, with far smaller shares dedicated to technology and algorithms. Most organisations get this balance backwards, pouring capital into models and platforms whilst leaving roles and workflows unchanged.
 
-The data confirms the gap. IBM's 2026 survey of C-suite executives found that 78% believe agentic AI requires a fundamentally new operating model. Yet only 6% of companies have begun upskilling in a meaningful way, despite 89% acknowledging the need. Nearly two-thirds of AI initiatives fail to advance beyond pilot. The problem is not technology adoption. It is operating model inertia: the organisation's roles, processes, and team structures remain designed for an era before agents.
+Research confirms a dramatic gap between recognition and action. Whilst almost all leaders acknowledge that agentic AI requires a new operating model, only a tiny fraction have begun to upskill their teams. Most initiatives fail to move past the pilot stage because of operating model inertia. The problem is not technology, but structures designed for an era before agents.
 
 This chapter breaks the Operating Model layer into its components. Who does the work. What skills they need. How processes run. How the organisation is structured. The answers require redesign, not incremental adjustment.
-
-## Why Pilots Succeed but Transformation Stalls
-
-A 2026 study in the Harvard Data Science Review reported that despite 78% of companies claiming AI adoption, 80% report no measurable impact on earnings.[^21] The reason: AI is layered onto workflows designed for humans, not for human-agent collaboration.
-
-Bain calls this the "micro-productivity trap." Grassroots experimentation with AI tools generates ideas and cultural energy, but it does not self-organise into enterprise-wide impact. Individual productivity gains stay individual. Team-level wins do not propagate. The organisation as a whole barely moves.
-
-BCG finds that organisations which automate discrete steps within existing workflows capture only modest returns. Scaling demands end-to-end process redesign around agents as default executors. One industrial goods company redesigned its quote-to-order process using four coordinated AI agents, achieving 30 to 40% labour cost reductions and generating tens of millions in additional revenue. The difference was not the agents themselves but the process redesign that gave them room to operate.
-
-This is the 10/20/70 insight made concrete. When an organisation invests in the 10% (algorithms) and 20% (technology) but neglects the 70% (people and process), it is structurally set up to stall. The operating model is what connects a successful pilot to scaled impact. Without it, the pilots pile up and the board loses confidence.
 
 ## The Agentic Operating Model
 
@@ -26,7 +16,7 @@ The Operating Model layer of the AI Transformation Framework has two dimensions,
 
 Three roles are emerging as the defining positions of the agentic era.
 
-**The Domain Leader (N-2/N-3).** McKinsey describes this as "probably the single most critical role any business needs for its AI transformations." Domain leaders sit two to three levels below the CEO and own end-to-end business processes or value streams. They translate organisational vision into operational change. The gap is severe: only 17% of Fortune 500 senior leaders' skills are technical, and just 5% have held technical roles. The capability shortfall sits at the exact level where strategy becomes execution.
+**The Domain Leader.** This is the most critical role for any business AI transformation. These leaders sit below the executive tier and own end-to-end processes. They translate organisational vision into operational change. Whilst most senior managers lack technical experience, this role sits at the level where strategy must become execution.
 
 **The Agent Orchestrator.** This is the new middle-management function. An Agent Orchestrator manages synthetic AI talent: provisioning agents, connecting them to data and systems, monitoring output quality, and coordinating multi-agent workflows. BCG describes agent orchestration as the "central nervous system" of agent-first organisations, the capability that separates companies which deploy agents from those which scale them.
 
@@ -34,19 +24,39 @@ Three roles are emerging as the defining positions of the agentic era.
 
 These roles connect to the three agentic employee profiles from Chapter 3. The Domain Leader is the executive-tier orchestrator. The Agent Orchestrator is the team-tier supervisor. The AI Product Manager governs the interface between human intent and agent capability.
 
-### People: The Skills Shift
+### People: The Capability Shift
 
-The shift is not from old skills to new ones. Over 70% of employer-sought skills will endure, but they will be applied differently in partnership with AI. The change is from producing first drafts to framing questions, validating outputs, and applying judgment.
+Most employer-sought skills will endure, but they will be applied differently in partnership with AI. The change is from producing first drafts to framing questions, validating outputs, and applying judgment.
 
 AI fluency demand has grown nearly sevenfold in two years, spreading beyond technical roles into management, finance, healthcare, and frontline services. The complementary skills that matter most, critical thinking, adaptability, quality assurance, coaching, and decision-making, are human skills. They do not become less valuable; they become more so.
 
-The most effective agentic employees create reusable AI skills and share them with colleagues, capabilities that compound as others reuse their work (the effect described in Chapter 4). Yet the gap between intent and action is stark: 89% of organisations acknowledge the need for upskilling; 6% have begun in a meaningful way. In Europe, the figures are starker still. McKinsey Global Institute estimates up to 12 million occupational transitions by 2030, double the pre-pandemic pace.
+Human-agent collaboration moves beyond using AI as a tool to working with it as a partner. It is a shared workspace where agents execute autonomous tasks whilst humans provide strategic direction, ethical oversight, and high-level judgment. This partnership allows the organisation to combine machine speed and scale with human nuance and accountability.
+
+> **Definition: Human-agent collaboration**
+>
+> Human-agent collaboration is a working relationship in which humans and AI agents act as a unified team to achieve shared outcomes.
+
+To grow in this environment, individuals must develop hybrid competencies that merge domain expertise with AI orchestration. Training focuses on decomposing complex goals into steps that agents can execute, validating reasoning rather than just output, and managing synthetic talent with the same rigour as human teams. These are not technical skills, but cognitive and managerial ones.
+
+This collaboration is most effective when it reaches dynamic delegation. In this state, the human knows instinctively when to let the agent lead for speed and when to re-assert control for complex ethics or empathy. It requires a high degree of trust in the system, balanced by the constant, critical validation of results.
+
+The most effective agentic employees create reusable AI skills and share them with colleagues, which creates compounding momentum as others reuse their work. Yet the gap between intent and action is stark. Whilst almost all organisations acknowledge the need for upskilling, only a tiny fraction have begun this work in a meaningful way. This challenge is even more acute in Europe, where the pace of occupational transitions is accelerating rapidly beyond historical norms.
+
+
 
 ### Process: Radical Workflow Redesign
 
-Organisations must adopt what BCG calls "zero-based, outcome-driven processes": redesigning from scratch with AI at the core rather than automating legacy workflows. The returns from end-to-end redesign are measurably different from bolt-on automation: 30 to 50% business process acceleration, 25 to 40% reduction in low-value work time, and 40 to 60% cuts in engineering and design lead times. These gains materialise only when processes are redesigned as a whole.
+Organisations must aim for outcome-driven processes: redesigning from scratch with AI at the core rather than automating legacy workflows. The returns from end-to-end redesign are measurably different from bolt-on automation: 30 to 50% business process acceleration, 25 to 40% reduction in low-value work time, and 40 to 60% cuts in engineering and design lead times. These gains materialise only when processes are redesigned as a whole.
 
-Four multi-agent orchestration patterns are emerging. The Hierarchical pattern uses an orchestrator that breaks goals into tasks for specialist workers, suited to complex end-to-end workflows. The Supervisor pattern assigns tasks through a coordinator whilst a separate agent evaluates quality, and dominates enterprise deployments because it mirrors human team structures. The Pipeline pattern processes work sequentially, each agent refining previous outputs, fitting linear processes such as claims handling. The Swarm pattern deploys autonomous agents in parallel with minimal coordination, suited to high-volume, low-complexity tasks. The choice of pattern depends on the process: design the workflow first, then select the pattern.
+Four multi-agent orchestration patterns are emerging. 
+**The Hierarchical pattern** - uses an orchestrator that breaks goals into tasks for specialist workers, suited to complex end-to-end workflows. 
+**The Supervisor pattern** - assigns tasks through a coordinator whilst a separate agent evaluates quality, and dominates enterprise deployments because it mirrors human team structures. 
+**The Pipeline pattern** - processes work sequentially, each agent refining previous outputs, fitting linear processes such as claims handling. 
+**The Swarm pattern** - deploys autonomous agents in parallel with minimal coordination, suited to high-volume, low-complexity tasks. 
+
+The choice of pattern depends entirely on the nature of the process. Organisations that select a pattern before designing the workflow risk creating a technical architecture that is fundamentally misaligned with the business outcome. A 'Swarm' pattern, for instance, would be reckless for a high-stakes regulatory reporting process where a 'Supervisor' or 'Pipeline' pattern is required for auditing. Conversely, a 'Pipeline' would be unnecessarily slow for a creative brainstorming task that thrives on the parallel exploration of a 'Swarm'.
+
+Leaders must first map the workflow as a sequence of steps, decision points, and quality gates. Only once the dependencies between tasks and the required level of human oversight are clear can the appropriate pattern be selected. The workflow is the strategy; the pattern is the execution.
 
 ### Process: Org Design
 
@@ -60,11 +70,14 @@ Three org design models are emerging for how organisations structure their AI ca
 
 The typical progression: centralise first to build standards, governance, and a talent pool. Then decentralise delivery as maturity grows. The Centre of Excellence evolution (Chapter 11) maps onto this same trajectory.
 
-The Agentic Operating Model has two pillars. **People:** three new roles (Domain Leader, Agent Orchestrator, AI Product Manager) plus the skills shift from task-doer to orchestrator. **Process:** radical end-to-end workflow redesign around agents as primary actors, plus three org design patterns (Centralised, Hub-and-Spoke, Hybrid) that define how the operating model scales. Each dimension must be addressed; redesigning technology without redesigning the operating model is the primary cause of pilot purgatory.
+The Agentic Operating Model has two pillars. 
+_People:_ three new roles (Domain Leader, Agent Orchestrator, AI Product Manager) plus the skills shift from task-doer to orchestrator. 
+_Process:_ radical end-to-end workflow redesign around agents as primary actors, plus three org design patterns (Centralised, Hub-and-Spoke, Hybrid) that define how the operating model scales. 
+Each dimension must be addressed; redesigning technology without redesigning the operating model is the primary cause of pilot purgatory.
 
 > **Definition: The Agentic Operating Model**
 >
-> The Agentic Operating Model is the Operating Model layer of the AI Transformation Framework, redesigned for human-agent collaboration.
+> An organizational framework in which AI agents are treated as autonomous collaborators that can interpret intent, plan work, take actions, and learn from outcomes within clearly defined governance and human decision boundaries.
 
 ## The Operating Model as Leadership Accountability
 
@@ -72,25 +85,29 @@ The operating model is a board responsibility, not a delegation target. As the A
 
 Only 21% of organisations have rigorous AI governance. The gap is widest in the Operating Model layer, where decisions about roles, skills, and process redesign touch every person in the organisation. Change management must begin at the planning stage. Organisations that integrate people and process considerations from the start, co-developing solutions with frontline teams and using focused pilots with feedback loops, achieve more durable results than those that bolt on change management after the technology is deployed.
 
-For European leaders, the operating model shift includes a dimension that does not apply in the same way elsewhere: social dialogue. Only 20% of EU trade unions currently have collective bargaining agreements addressing AI, though 42% are engaged in discussions. Workers' exposure to algorithmic management could rise from 42% to over 55% in the medium term. This is not an obstacle. Where the operating model is redesigned with works council engagement from the outset, the result is higher trust, greater legitimacy, and more durable change. The leader who treats social dialogue as a governance advantage rather than a compliance burden builds a more resilient Agentic Organisation.
+For European leaders, the operating model shift includes a dimension that does not apply in the same way elsewhere: social dialogue. While many trade unions are still developing their response to AI, formal engagement is rising. As more employees encounter algorithmic management, this dialogue becomes a critical part of the transition.
 
-Span of control is shifting as well. McKinsey envisions one manager with a small human team orchestrating hundreds of agents running autonomously across workflows around the clock. Traditional hierarchies give way to flexible configurations of human-agent teams. This is the organisational consequence of moving from stand-alone agents through agent groups to full agentic networks, the progression mapped to the Four Tiers in Chapter 4.
+This is not an obstacle. When the operating model is redesigned with works council engagement from the outset, the result is higher trust and more durable change. The leader who treats social dialogue as a governance advantage rather than a compliance burden builds a more resilient Agentic Organisation.
+
+
+Span of control is shifting as well. McKinsey envisions one manager with a small human team orchestrating hundreds of agents running autonomously across workflows around the clock. Traditional hierarchies give way to flexible configurations of human-agent teams. This is the organisational consequence of moving from stand-alone agents through agent groups to full agentic networks.
 
 ## From Structure to Foundation
 
-The Operating Model layer is the 70%, and this chapter has laid out a framework for redesigning it: new roles, new skills, and new processes built for human-agent collaboration. But the operating model does not stand alone.
+The Operating Model represents the vast majority of the transformation effort. This chapter has laid out a framework for redesigning roles, skills, and processes for human-agent collaboration. This layer does not stand alone.
 
-It depends on a foundation: data quality, technology architecture, and enablement. The two layers are tightly coupled. Process redesign requires data readiness, and 63% of organisations still lack adequate data management for AI. The skills shift requires tooling and enablement infrastructure. Org design requires platforms that enable collaboration across teams and agents. Chapter 7 dives into the Foundation layer: the final layer of the AI Transformation Framework and the base on which the operating model is built.
+It remains tightly coupled with the foundation layer. Process redesign requires data readiness, yet most organisations still lack mature data management. Chapter 7 explores the foundation layer, which forms the basis for the operating model.
 
-[^21]: Harvard Data Science Review, "2026", 2026
+[^20]: Harvard Data Science Review, "2026", 2026
 
 ## Questions for the Board
 
-1. Does your current operating model, roles, skills, team structures, and processes, reflect the way AI-augmented work actually gets done, or does it mirror the pre-AI organisation with AI tools layered on top?
-2. Who in your organisation fills the Domain Leader role: a senior executive two to three levels below the CEO who combines business judgment with AI fluency? If no one does, what is your plan to build or hire for that capability?
-3. How are you investing the 70%, people and processes, compared to the 30% for technology and algorithms? Is the ratio deliberate, or has technology absorbed most of the budget?
-4. Which of the three org design models (Centralised, Hub-and-Spoke, Hybrid) describes your current AI setup, and which should it evolve towards as maturity grows?
-5. Are your processes redesigned end-to-end for human-agent collaboration, or are agents layered onto legacy workflows? What would a zero-based redesign of your most important process look like?
+1. Does your current operating model reflect the reality of human-agent collaboration, or does it remain a legacy structure with AI tools layered on top?
+2. Do you have the necessary roles—Domain Leaders, Agent Orchestrators, and AI Product Managers—to bridge the gap between AI strategy and daily operations?
+3. Is your investment in the human and process dimensions of transformation significant enough, or has technology development absorbed the majority of your attention?
+4. Have you mapped your most critical workflows before selecting an orchestration pattern, or are you applying technical solutions to ill-defined processes?
+5. How is social dialogue being used as a strategic advantage to build trust and legitimacy in your redesigned organisation?
+
 
 ## Case Study: Allianz, Restructuring Roles Whilst Scaling Agents
 

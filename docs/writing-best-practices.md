@@ -129,7 +129,8 @@ This is the running list of terms that must receive a definition block when firs
 | Agentic AI | Chapter 1 |
 | The four tiers of transformation | Chapter 4 (see The Four Tiers of Transformation in `docs/instructions.md`) |
 | Value, Capabilities, Trust (framework) | Chapter 8 (see The AI Decision Framework in `docs/instructions.md`) |
-| Human-in-the-loop | Chapter 3 or 8 |
+| Human-in-the-loop | Chapter 3 |
+| Human-agent collaboration | Chapter 6 |
 | Tiered autonomy | Chapter 8 or 13 |
 | Pilot purgatory | Chapter 13 |
 

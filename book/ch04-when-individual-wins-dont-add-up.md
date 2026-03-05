@@ -2,49 +2,45 @@
 
 The pattern repeats across every failed AI programme. A handful of employees discover that agentic tools can compress hours of work into minutes. Their enthusiasm spreads to a team. A department runs a pilot. Results are impressive. And then nothing compounds. The organisation barely moves.
 
-This is not a failure of ambition. It is a failure of sequence.
+This is not a failure of ambition. It is a failure to align the transformation path with organisational maturity. 
 
-The first tier of transformation, the individual, is where agentic employees are made. As Chapter 3 established, these are the people who learn to work alongside AI agents as thinking partners, not search tools. Demand for AI fluency has grown sevenfold in two years. Employees who effectively use agentic tools achieve orders-of-magnitude higher output: completing tasks 25% faster, producing 40% higher quality work, and in some domains generating twice the throughput per week.
-
-The gains are real, and they are seductive. A customer support study across more than 5,000 agents at a Fortune 500 firm found a 14% average productivity increase, with novice workers improving by 34%. Workers with two months of AI experience performed as well as colleagues with six months of experience without AI. Manager escalations declined by 25%. Results like these generate genuine excitement, and that excitement can obscure a structural problem.
+The first tier of transformation, the individual, is where agentic employees are made. As Chapter 3 established, these are the people who learn to work alongside AI agents as thinking partners, not search tools. Employees who effectively use agentic tools achieve orders-of-magnitude higher output: completing tasks faster, producing higher quality work, and in some domains generating twice the throughput per week. Results like these generate genuine excitement, and that excitement can obscure a structural problem. 
 
 But individual fluency does not automatically become team capability. Team capability does not automatically become departmental transformation. And departmental wins do not automatically become organisational change.
 
-Each tier requires different leadership. Each demands different governance. Each is measured by different indicators of success. The failure to recognise this is structural, not incidental. European leaders are underprepared for this transformation in part because they skip tiers, flatten them, or assume that investment at the top will cascade downward. It does not. Capability compounds only when each tier is built deliberately, and the cost of skipping a tier is not a delay. It is a collapse.
+Each tier requires different leadership. Each demands different governance. Each is measured by different indicators of success. The failure to recognise this is structural, not incidental. European leaders are underprepared for this transformation in part because they assume that investment at the top will cascade downward. It does not. Capability compounds only when the path through the tiers is chosen deliberately, based on the organisation's existing foundation.
 
 ## Why Capability Fails to Compound
 
-The most striking number in recent research is the gap between individual adoption and organisational maturity. Ninety-one per cent of employees already use generative AI at work. Only 1% of companies report AI maturity. Individual adoption has massively outpaced organisational readiness.
+Individual adoption has massively outpaced organisational readiness. This gap with the limited organisational maturity is not accidental. It is the predictable result of most leaders getting the sequence wrong: investing in enterprise-level ambitions before building the individual fluency and team-level norms on which those ambitions depend.
 
-This gap is not accidental. It is the predictable result of most leaders getting the sequence wrong: investing in enterprise-level ambitions before building the individual fluency and team-level norms on which those ambitions depend.
+The evidence for bottom-up sequencing is consistent. Enterprise deployments that succeed empower power users and line managers rather than relying on centralised labs. As Chapter 1 established, the vast majority of real value comes from people, processes, and culture. This foundation is built tier by tier and cannot be installed from the top.
 
-The evidence for bottom-up sequencing is consistent across sources. Enterprise deployments that succeed "began with power users" and empowered line managers rather than centralised AI labs. As Chapter 1 established with the BCG 10/20/70 rule, 70% of what generates real AI value is people, processes, and culture. That 70% is built tier by tier. It cannot be installed from the top.
+Failures in this space describe a similar pattern. Most AI transformations struggle to deliver measurable returns, often stalling at the pilot stage. Only a small fraction of initiatives ever reach full production. The consistent thread is a top-down, enterprise-first approach that attempts to bypass the foundational tiers.
 
-The failure rates tell the same story. Seventy to ninety-five per cent of AI transformations fail to deliver measurable returns. Three-quarters of companies struggle to achieve value. For every 33 proofs of concept launched, only four reach production. Only 26% of AI initiatives advance beyond pilot. The consistent thread is top-down, enterprise-first approaches that bypass the foundational tiers.
-
-The self-assessment gap compounds the problem. In one survey, 57% of leaders said they were AI-ready. Only 8% actually were. The distance between perceived readiness and real readiness is itself a tier problem: leaders who believe they have achieved Tier 2 or Tier 3 maturity when their organisations are still operating at Tier 1.
+A significant self-assessment gap compounds the problem. Many leaders believe their organisations are ready for advanced maturity, yet the reality suggests otherwise. This distance between perceived and actual readiness highlights a structural misunderstanding: leaders assume they have reached advanced stages when their organisations are still mastering the basics.
 
 European leaders face an additional dimension. The EU AI Act, Article 4, which took effect in February 2025, makes AI literacy a legal requirement for all staff interacting with AI systems.[^16] Tier 1 is now a regulatory floor, not an optional starting point. Organisations that have underweighted individual fluency investment must now treat it as a compliance obligation as well as a strategic one.
 
 ## The Four Tiers of Transformation
 
-The sequence matters more than the ambition. A four-tier progression, Individual, Team, Department, Organisation, is the route through which AI capability actually compounds. Skipping a tier, or applying the same governance and leadership approach across all four, is the structural mistake that explains most of the failure rates cited above. The tiers are not a maturity model in the conventional sense. They are a compounding model. Each tier creates the conditions that make the next tier possible, and each tier without its predecessor is unstable.
+The choice of path matters more than the level of ambition. A four-tier progression—Individual Augmentation, Task & Workflow Automation, Functional Agentic Workflows, and Cross-functional Agentic Workflows—is the route through which AI capability typically compounds. These tiers, ranging from individual span to enterprise-wide coordination, are not a mandatory ladder. They are strategic interpretations of how maturity should advance. 
 
-> **Definition: The Four Tiers of Transformation**
->
-> The Four Tiers of Transformation describe how AI capability scales through an organisation: from Individual (personal AI fluency), to Team (shared norms and collaborative use), to Department (end-to-end workflow redesign within a function), to Organisation (cross-functional transformation and enterprise operating model).
+The structural mistake that explains most failure rates is not skipping a tier per se, but skipping a tier without the underlying organizational foundations to support the jump. If an organisation has mastered individual fluency and team norms, and its broader maturity allows for enterprise-scale coordination, it may intentionally choose to bypass departmental redesign and move directly to organizational transformation. This can be done successfully, provided the leadership and governance are calibrated for the target tier.
 
-Each tier requires distinct leadership behaviour, governance, and success measures. Capability compounds only when each tier is built in sequence.
+Each tier requires distinct leadership behaviour, governance, and success measures. 
 
-<!-- DIAGRAM PLACEHOLDER: ch04-four-tiers — GenerateImage unavailable -->
+![The Four Tiers of Transformation](images/ch04-four-tiers.png)
 
-### Tier 1: Individual
+### Tier 1: Individual Augmentation
 
-This is where agentic employees are made. Personal AI fluency means more than knowing how to write a prompt. It means understanding what to delegate to an AI agent, how to describe tasks effectively, how to evaluate outputs critically, and how to maintain ethical standards throughout.
+This is where agentic employees are made, focusing on the individual span of control. Personal AI fluency means more than knowing how to write a prompt. It means understanding what to delegate to an AI agent, how to describe tasks effectively, how to evaluate outputs critically, and how to maintain ethical standards throughout.
 
-Researchers have codified this as the 4D AI Fluency Framework: Delegation (knowing what to assign), Description (communicating effectively with AI), Discernment (evaluating outputs), and Diligence (maintaining ethical and safety standards). Their finding is instructive: people who treat AI as a thinking partner, engaging in augmentative conversations, exhibit more than double the fluency behaviours of those who use it transactionally.
+Researchers have codified this through a fluency framework that focuses on the core behaviours required to work with agentic systems. This approach relies on delegation, the ability to identify which tasks should be assigned to an AI partner, and description, the skill of communicating context and requirements clearly. It further demands discernment to evaluate outputs critically rather than accepting them blindly, alongside the diligence needed to ensure that safety and ethical standards are consistently upheld.
 
-The organisations furthest ahead have built champion programmes to accelerate Tier 1. Citi created a network of over 4,000 "AI Accelerators" across 182,000 employees in 84 countries, reaching 70% adoption. PwC Netherlands scaled from 300 AI enthusiasts to all 6,000 employees in roughly one year, using organisational network analysis to identify influential people as champions.
+Their finding is instructive: people who treat AI as a thinking partner, engaging in augmentative conversations, exhibit more than double the fluency behaviours of those who use it transactionally.
+
+The organisations furthest ahead have built champion programmes to accelerate this first tier of adoption. Several large global financial institutions have successfully created vast networks of accelerators to drive widespread engagement across their global workforces. These programmes identify enthusiasts and scale their influence to the entire organisation, often within a single year, by using network analysis to find the most influential people to serve as champions of the new way of working.
 
 One of the highest-impact, lowest-cost interventions is shared prompt libraries. Organisations using structured libraries report teams becoming 40% more productive by eliminating redundant work. More telling: organisations with these libraries achieve 85% employee AI adoption, compared to 23% where usage remains purely individual.
 
@@ -52,11 +48,11 @@ There is, however, a critical caution. A controlled study of 758 consultants fou
 
 Governance at Tier 1 is light but essential: personal responsibility for data handling, the ability to recognise hallucinations, and a clear tiered approach to what is permissible. Green for low-risk experimentation, yellow for tasks requiring review, red for decisions that must remain human.
 
-### Tier 2: Team
+### Tier 2: Task & Workflow Automation
 
-The transition from individual to team is where most transformations stall. Research shows that 61% of AI use remains at the individual level without collaborative platforms.[^17] Converting personal fluency into team capability requires something technology alone cannot provide: psychological safety.
+The transition from individual augmentation to team-based task and workflow automation is where most transformations stall. Research shows that 61% of AI use remains at the individual level without collaborative platforms.[^17] Converting personal fluency into team capability requires something technology alone cannot provide: psychological safety.
 
-Google's Project Aristotle study of more than 180 teams found psychological safety to be the single strongest predictor of team effectiveness, above dependability, structure, meaning, and impact. More recent research confirms this finding in the AI context specifically: 83% of executives say psychological safety measurably improves AI initiative success. Yet only 39% rate their organisation's safety as "very high," and nearly half of all workers remain uncomfortable admitting AI use to their manager for fear of appearing incompetent or lazy.
+Google's research identifies psychological safety as the primary predictor of team effectiveness. Recent findings confirm this in an AI context, where the vast majority of executives see it as essential for success. Yet a significant gap remains. Many leaders do not yet view their organisations as truly safe, and many workers still fear appearing incompetent if they admit to using these tools.
 
 As one leading researcher on psychological safety put it, AI adoption "should be treated as a team development effort, not just a technology upgrade." The practical marker of a Tier 2 team is a simple norm: "Have you asked the AI?" When that question becomes as natural as "Have you checked the data?", the team has crossed the threshold. Superusers emerge. Knowledge flows horizontally rather than vertically. The team begins to develop shared practices rather than individual workarounds.
 
@@ -66,9 +62,9 @@ Structurally, Tier 2 benefits from a two-in-the-box model: a business lead and a
 
 Middle managers are the critical enablers at this tier. They must become orchestrators of AI-human collaboration, yet only 35% of companies have structured change management programmes to support this transition.
 
-### Tier 3: Department
+### Tier 3: Functional Agentic Workflows
 
-At the departmental level, transformation shifts from individual tools and team norms to end-to-end workflow redesign within a function. This is where standalone agents become multi-agent systems, and where the structural insight of agentic AI becomes visible: a human team of two to five people can supervise an "agent factory" of 50 to 100 specialised agents running an entire process.
+At the departmental level, functional agentic workflows shift transformation from individual tools and team norms to end-to-end redesign within a function. This is where standalone agents become multi-agent systems, and where the structural insight of agentic AI becomes visible: a human team of two to five people can supervise an "agent factory" of 50 to 100 specialised agents running an entire process.
 
 Consider a finance workflow redesigned at Tier 3. Agent 1 extracts invoice data. Agent 2 pulls the relevant contract. Agent 3 flags discrepancies. Agent 4 drafts the resolution email. A human intervenes only at the decision point. The result: cycle times reduced by up to 80%, with improved audit trails.
 
@@ -76,35 +72,35 @@ In wealth management, one global firm reduced meeting preparation from two to th
 
 The leap from Tier 2 to Tier 3 is where the highest proportion of initiatives die. For every 33 proofs of concept that enter production pipelines, only four emerge. The gap is not technological. It is organisational: the inability to redesign workflows, reassign authority, and restructure teams around what agentic systems make possible. Most departments add AI to existing processes rather than redesigning the process around what AI enables. The difference between those two approaches is the difference between incremental improvement and structural transformation.
 
-### Tier 4: Organisation
+### Tier 4: Cross-functional Agentic Workflows
 
-Cross-functional transformation is the final tier. This is where AI becomes embedded in the operating model itself, not as a tool used within functions but as the connective tissue between them.
+Cross-functional agentic workflows represent the final tier, where transformation reaches the full organisational span. This is where AI becomes embedded in the operating model itself, not as a tool used within functions but as the connective tissue between them.
 
-At Tier 4, a demand surge in one region can trigger, within seconds, AI agents that reallocate advertising spend, adjust pricing, reroute stock, and refresh creative assets across the entire organisation. An insurer can personalise campaigns across hundreds of microsegments, producing conversion rates two to three times higher and reducing call times by 25%, deployed in 16 weeks.
+At Tier 4, a demand surge in one region can trigger, within seconds, AI agents that reallocate advertising spend, adjust pricing, reroute stock, and refresh creative assets across the entire organisation. An insurer can personalise campaigns across hundreds of microsegments, producing conversion rates two to three times higher and reducing call times by 25%.
 
-What makes Tier 4 possible is not superior technology. It is trust, and the organisational conditions that trust requires. Research across 1,333 executives in 27 industries found that digital-trust leaders are 1.6 times more likely to see revenue and EBIT growth of at least 10%.
+What makes this tier possible is not superior technology. It is trust, and the organisational conditions that trust requires. Digital-trust leaders are significantly more likely to achieve superior revenue and EBIT growth.
 
-A study of more than 200 large-scale transformations found that organisations captured on average only 31% of expected revenue lift and 25% of expected cost savings. The differentiator was not technology investment. Companies that invested in cultural change alongside technology saw 5.3 times higher success than those that focussed on technology alone.
+It is typical that large-scale transformations result in most organisations capturing only a fraction of their expected revenue gains and cost savings. The differentiator is rarely the level of technology investment. Organisations that prioritise cultural change alongside their technological shift achieve dramatically higher success rates than those that focus on the tools alone.
 
 The governance architecture at Tier 4 typically evolves through three phases. A centralised Centre of Excellence provides strong governance during the first 12 months. This transitions to a hub-and-spoke model, with central standards and distributed execution, between 12 and 24 months. Finally, a federated structure emerges: autonomous pods with shared governance, from 24 to 36 months onward.
 
-Roughly 37% of large companies have established some form of CoE; the question is whether it is evolving or becoming a bottleneck.
+Roughly 37% of large companies have established some form of Centre of Excellence; but is it evolving or becoming a bottleneck?
 
 The enterprise measure at this tier is not an AI metric. It is a business outcome: revenue growth, margin expansion, customer experience, speed to market. AI is the means. The organisation's strategic objectives are the measure.
-
-Fewer than 10% of generative AI use cases make it past pilot to this tier. For those that do, the returns are disproportionate: the top-performing companies achieve 3.6 times the total shareholder return of their peers.[^18]
 
 ## What Leaders Must Do at Each Tier
 
 The four tiers create four distinct governance demands. Applying the same leadership approach across all of them is one of the most common and costly mistakes.
 
-**At Tier 1, the leader's role is visibility.** As Chapter 2 established, leaders deeply engaged with AI are twelve times more likely to be among the top-performing companies. Only 15% qualify as "trailblazers." The single most powerful signal a leader can send at Tier 1 is personal, visible use of AI: modelling experimentation, sharing what works and what does not, and explicitly signalling that experimentation is safe.
+**At Tier 1, the leader's role is visibility.** As established in previous chapters, leaders deeply engaged with AI are far more likely to be among the top-performing companies. Only a small minority qualify as "trailblazers." The single most powerful signal a leader can send at this stage is personal, visible use of AI: modelling experimentation, sharing what works and what does not, and explicitly signalling that experimentation is safe.
 
 **At Tier 2, the leader's role shifts to connector.** This means linking early adopters across teams, creating the conditions for horizontal knowledge flow, and keeping governance light enough that emerging norms are not crushed by premature standardisation. Middle managers require explicit support and structured change management to become the orchestrators this tier demands.
 
-**At Tier 3, the leader becomes strategist and governor.** Department-level workflow redesign requires investment approval, cross-department coordination, and the willingness to let functions redesign how work is done rather than simply adding AI to existing processes. The fact that only 26% of AI initiatives advance beyond pilot reflects, in most cases, a governance failure at this tier: leaders who approve pilots but do not create the conditions for production deployment.
+**At Tier 3, the leader becomes strategist and governor.** Department-level workflow redesign requires investment approval, cross-department coordination, and the willingness to let functions redesign how work is done rather than simply adding AI to existing processes. The fact that only a subset of AI initiatives advance beyond pilot reflects, in most cases, a governance failure at this tier: leaders who approve pilots but do not create the conditions for production deployment.
 
-**At Tier 4, the leader is architect.** Operating model redesign, AI as corporate strategy, enterprise-wide coordination: these require active executive sponsorship. Research shows that firms with active executive sponsors are 1.8 times more likely to scale AI effectively. This is not a figurehead role. It is a design role: deciding which functions integrate, how data flows across boundaries, and where the organisation's AI-driven operating model creates competitive advantage that individual departments cannot achieve alone.
+**At Tier 4, the leader is architect.** 
+
+Operating model redesign, AI as corporate strategy, and enterprise-wide coordination require active executive sponsorship. Research shows that firms with active sponsors are significantly more likely to scale AI effectively. This is a design role rather than a figurehead position. Leaders must decide which functions integrate, how data flows across boundaries, and where the operating model creates unique competitive advantage.
 
 ### The European advantage
 
@@ -124,13 +120,13 @@ Applying the same governance to all tiers is the second. Light-touch governance 
 
 Ignoring skill creation and sharing is the third. As Chapter 3 introduced, a skill is a reusable AI workflow. When individuals create skills but do not share them, the organisation loses its most powerful compounding mechanism. Shared skills are how Tier 1 fluency becomes Tier 2 capability, and how Tier 2 capability becomes Tier 3 workflow redesign.
 
-## The Route Is the Tiers
+## The Path is a Strategic Choice
 
-The evidence is structural, and it is consistent. Transformation scales from individuals to teams to departments to the organisation as a whole, and each tier demands a different kind of leadership. Organisations that attempt Tier 4 ambitions on Tier 1 foundations produce the failure rates that dominate the research. Organisations that build each tier deliberately, with governance and leadership calibrated to the tier, are the ones that reach the 5% who achieve AI value at scale.
+The evidence is structural, and it is consistent. Transformation typically scales from individuals to teams to departments to the organisation as a whole, and each tier demands a different kind of leadership. However, this is not a rigid trajectory. Organisations with high legacy maturity in data, trust, and cross-functional coordination can choose to skip tiers to accelerate their strategy.
 
-The tiers are not a model to be adapted or approximated. They are a structural reality: each tier creates the preconditions for the next, and the absence of any one tier is visible in the failure rates of the tier above it.
+The risk is not the skip itself, but the collapse that follows when Tier 4 ambitions are attempted on Tier 1 foundations. Organisations that map their path through the tiers based on real capability, rather than hopeful ambition, are the ones that reach the small minority who achieve AI value at scale.
 
-Chapter 5 introduces the AI Transformation Framework: a four-layer map covering Vision, Products, Operating Model, and Foundation. The tiers tell you the sequence. The framework tells you the dimensions you must address at every tier. Governance, KPIs, and the Value–Capabilities–Trust decision framework are covered elsewhere in the book but are not part of the four-layer framework.
+The tiers are a structural reality: they describe the layers of capability required. Whether an organisation moves through them one by one or jumps between them is a strategic decision that depends on the strength of the foundation they have already built.
 
 [^16]: EU, "AI Act", 2024
 [^17]: Typeface, "Signal Report", 2025
@@ -138,15 +134,16 @@ Chapter 5 introduces the AI Transformation Framework: a four-layer map covering 
 
 ## Questions for the Board
 
-1. At which tier does the majority of your organisation's AI activity actually sit today: individual experimentation, team norms, departmental workflow redesign, or cross-functional enterprise transformation? What evidence do you have?
-2. Have you invested in enterprise-level AI (steering committees, platforms, strategy) before achieving measurable individual fluency and team-level psychological safety? If yes, what is your plan to backfill the missing tiers?
-3. What specific leadership behaviour have you or your leadership team adopted at each tier (visible use at Tier 1, connector at Tier 2, strategist at Tier 3, architect at Tier 4)?
-4. Does your governance differ by tier, for example light-touch for individual experimentation versus rigorous for department-wide deployment, or is it one-size-fits-all?
-5. How are you measuring success at each tier (e.g. adoption rates at Tier 1, team norms and throughput at Tier 2, workflow cycle times at Tier 3, enterprise KPIs at Tier 4)?
+1. At which tier does the majority of your organisation's AI activity actually sit today, and are you intentionally skipping any tiers to accelerate your strategy?
+2. If you are skipping a tier (e.g., moving from Task & Workflow Automation to Cross-functional Agentic Workflows), what specific organizational maturity foundations are you relying on to bridge that gap safely?
+3. Have you invested in enterprise-level AI before achieving measurable individual augmentation and team-level psychological safety? If yes, how are you ensuring the foundation is strong enough to support the jump?
+4. What specific leadership behaviour have you or your leadership team adopted at each tier (visible use at Tier 1, connector at Tier 2, strategist at Tier 3, architect at Tier 4)?
+5. Does your governance differ by tier, for example light-touch for individual augmentation versus rigorous for functional agentic workflows, or is it one-size-fits-all?
+6. How are you measuring success at each tier (e.g. adoption rates at Tier 1, team norms and throughput at Tier 2, workflow cycle times at Tier 3, enterprise KPIs at Tier 4)?
 
 ## Case Study: ING. The Bank That Sequenced Before It Scaled
 
-### 1. Strategic Dilemma
+### The Choice Between Strategic Optics and Tactical Discipline
 
 In the early 2020s, ING faced a choice familiar to any large European bank with genuine ambitions for AI: how to sequence the investment. Both paths had a legitimate rationale, and neither was obviously wrong.
 
@@ -156,7 +153,7 @@ The second path was slower and less legible. Build tier by tier. Invest first in
 
 ING chose the second path. That choice is the reason its numbers look different from most of its peers.
 
-### 2. Decision Context
+### Capitalising on a Five-Hundred-Strong Analytical Foundation
 
 Several factors shaped the environment in which ING made this call.
 
@@ -166,11 +163,9 @@ Inside ING, the starting conditions were more favourable than most. The bank had
 
 The Netherlands context added two further factors. Dutch GDPR compliance standards and the emerging EU AI Act shaped how ING approached data governance and staff obligations. And the Netherlands' strong works council culture meant that workforce engagement was not optional, it was structural. Any programme that could not withstand that scrutiny would not survive.
 
-Bahadir Yilmaz, ING's Chief Analytics Officer, articulated the philosophy underpinning the approach plainly: "The conversation is no longer about if AI works. It's about understanding where it works and, more importantly, where it matters to the client." That orientation, client outcomes rather than capability theatre, implied a sequenced build rather than an enterprise rollout. You cannot know where AI matters to the client until you have built enough tier-by-tier capability to find out.
+ING's position as the largest mortgage provider in Europe added another dimension. Mortgage origination, underwriting, and customer management involve complex domain knowledge that takes years to develop. As Bahadir Yilmaz, ING's Chief Analytics Officer, put it, "We have domain knowledge that can be transferred into digital workflows, supported by AI." That knowledge transfer only works if the individuals who hold the domain expertise are fluent enough at the individual level to participate in the redesign of the workflows that encode it.
 
-ING's position as the largest mortgage provider in Europe added another dimension. Mortgage origination, underwriting, and customer management involve complex domain knowledge that takes years to develop. As Yilmaz put it, "We have domain knowledge that can be transferred into digital workflows, supported by AI." That knowledge transfer only works if the individuals who hold the domain expertise are fluent enough at the individual level to participate in the redesign of the workflows that encode it.
-
-### 3. Trade-offs
+### The Short-term Costs of Long-term Stability
 
 Choosing the sequenced path carried real costs.
 
@@ -184,29 +179,23 @@ Some use cases moved more slowly than they might have in a less disciplined envi
 
 These were real trade-offs. ING made them deliberately, and the outcome data is the only honest measure of whether that discipline was justified.
 
-### 4. Outcome
+### Why Sequencing Delivers Seven Times the Industry Production Rate
 
-The headline number is the pilot-to-production rate: 90%, against an industry average of roughly 30%. For context, IDC found that for every 33 AI proofs of concept launched, only four reach production, a rate of approximately 12%. O'Reilly research puts the broader average at 26%. ING's rate is therefore three times the industry average and roughly seven times the IDC baseline.
+The headline number is the pilot-to-production rate: 90%, against an industry average of roughly 30%. For context, research puts the broader average at 10-25%. ING's rate is therefore three times the industry average and roughly seven times the IDC baseline.
 
 That gap does not happen by accident. It reflects a structural difference in how the organisation builds. Pilots that emerge from genuine team-level adoption, within functions whose workflows have been deliberately redesigned, have a different production profile from pilots launched centrally in search of scale before the foundation is ready.
 
-The operational outcomes reflect the same sequenced build. Seventy-five per cent of customer queries are now handled by AI chatbots, a Tier 3 outcome: end-to-end workflow redesign within the customer service function, not individual experimentation with new tools. Productivity in operations increased by 25% when AI was introduced, a result that sits at the Tier 2 and Tier 3 boundary: teams with genuine AI adoption norms embedded in redesigned workflows.
+The operational outcomes reflect the same sequenced build. Seventy-five per cent of customer queries are now handled by AI chatbots, a Tier 3 outcome: end-to-end workflow redesign within the customer service function. Productivity in operations increased by 25% when AI was introduced, a result that sits at the Tier 2 and Tier 3 boundary: teams with genuine AI adoption norms embedded in redesigned workflows.
 
-These are not outputs of a single AI launch. They are the cumulative result of building each tier before claiming the next one.
+### How Maturity Becomes a Strategic Accelerator
 
-### 5. Transferable Lesson
+ING's pattern maps directly onto the Four Tiers of Transformation, but the lesson for European organisations is not about a rigid ladder. It is about the relationship between sequence and maturity.
 
-ING's pattern maps directly onto the Four Tiers of Transformation, and the lesson for European CEOs is structural.
+The bank's 90% pilot-to-production rate reveals a deliberate alignment of strategy with capability. When individual augmentation is real and team norms are established, an organisation can decide how far to reach. For ING, the path was largely sequential, following the span from team-level automation to functional workflows, but the transferrable lesson for others is that the path through the tiers is a choice enabled by the foundation.
 
-The 500-strong analytics team was not a Tier 4 ambition. It was Tier 1 investment sustained over time: individual capability, domain fluency, the kind of expertise that allows an employee to participate meaningfully in redesigning the workflows around them rather than simply adopting a tool they do not fully understand.
+When foundations are ignored, even a well-designed pilot has nowhere to go. It succeeds in isolation and stalls because the organisation lacked the maturity to support that specific tier of transformation.
 
-The 25% productivity gain in operations reflects Tier 2 and Tier 3 work: teams with adoption norms established, then functions with workflows genuinely redesigned. The 75% automation rate in customer service is a Tier 3 outcome, not a Tier 1 experiment that happened to work at scale.
-
-The 90% pilot-to-production rate is the number that reveals whether an organisation has built the tiers or skipped them. When individual fluency is real, team norms are established, and departmental workflows are redesigned around what AI makes possible, pilots have somewhere to land. The organisation is ready for them.
-
-When the tiers have been skipped and the foundation is missing, even a well-designed pilot has nowhere to go. It succeeds in isolation and stalls at the boundary of the next tier.
-
-For a European CEO, ING's lesson is this: the governance burden and the elapsed time of sequenced transformation are not inefficiencies to be engineered away. They are the mechanism by which transformation actually compounds. The bank that sequences before it scales does not finish later. It finishes with results the enterprise-first approach rarely produces, and with a production rate that reflects an organisation genuinely ready to use what it has built.
+For a European organisation, ING's lesson is this: the governance burden and the elapsed time of transformation are not inefficiencies to be engineered away. They are the mechanism by which transformation actually compounds. Whether an organisation builds sequentially or skips tiers, it must do so with results that reflect a production rate and an operating model genuinely ready for the future.
 
 ## Handoff — Reviewers — Chapter 04
 Status: complete

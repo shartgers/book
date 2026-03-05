@@ -1,26 +1,30 @@
 ## You Cannot Build What You Cannot Describe
 
-You cannot build what you cannot describe. Before the playbook, before the phased roadmap, before the first pilot, a leader needs a concrete working definition of the destination. Not a consultant's abstraction. Not a vendor's product demo. A shared, operational picture of what the organisation looks like after transformation.
+Before the playbook, before the phased roadmap, before the first pilot, a leader needs a concrete working definition of the destination. Not a consultant's abstraction. Not a vendor's product demo. A shared, operational picture of what the organisation looks like after transformation.
 
 Chapters 1 and 2 established two preconditions: the scale of the shift and the non-negotiable role of leadership. Most leaders now accept both. Acceptance, however, is not the same as clarity. Ask a leadership team to describe the Agentic Organisation they are building, not the tools they are buying, and the answer is typically vague, technology-centric, or borrowed wholesale from a vendor pitch.
 
 That gap between commitment and clarity is where investment scatters, pilots multiply without connecting, and the micro-productivity trap persists. Every subsequent decision, from hiring to governance to technology investment, needs an anchor. This chapter provides it.
 
-The Agentic Organisation is built on agentic employees. The shift from task-doer to orchestrator is not a minor adjustment in job description. It is a fundamental redefinition of what it means to be productive, skilled, and valuable. The structured model that organises the full transformation, the AI Transformation Framework, comes in Chapter 5. This chapter lays the human and conceptual foundation.
+The Agentic Organisation is built on employees enabled by AI. The shift from task-doer to orchestrator is not a minor adjustment in job description. It is a fundamental redefinition of what it means to be productive, skilled, and valuable. The structured model that organises the full transformation, the AI Transformation Framework, comes in Chapter 5. This chapter lays the human and conceptual foundation.
 
 ## The Definition Gap
 
-Eight in ten companies now use generative AI. Eight in ten report no significant bottom-line impact. That paradox, first identified in Chapter 1, has a specific cause: organisations lack a coherent model of what they are building towards.
+The vast majority of companies now use generative AI, yet most report no significant bottom-line impact. That paradox, first identified in Chapter 1, has a specific cause: organisations lack a coherent model of what they are building towards.
 
-The numbers bear this out. Eighty per cent of AI deployment effort is consumed not by the AI itself but by data engineering, stakeholder alignment, governance, and workflow integration. Only 12% of organisations have truly AI-ready data. Only 2% have deployed AI agents at scale, despite widespread interest and vendor noise.
+The evidence bears this out. Most AI deployment effort is consumed not by the AI itself but by data engineering, stakeholder alignment, governance, and workflow integration. Only a small fraction of organisations have truly AI-ready data, and even fewer have successfully deployed AI agents at scale, despite widespread interest and vendor noise.
 
-Confidence in fully autonomous agents dropped from 43% to 27% in a single year. That decline does not reflect disappointment with AI capability. It reflects a growing recognition that deploying agents without redesigning how the organisation works around them produces fragile, ungovernable results.
 
-Meanwhile, adoption continues at pace. Nearly 80% of executives report already adopting AI agents, and 88% plan budget increases. Yet most are treating AI agents as bolt-ons to existing workflows. The operating model transformation is not happening. Over 40% of agentic AI projects are predicted to fail by 2027, not because the technology underperforms, but because the organisations deploying it have not defined what success looks like beyond the pilot.
+Confidence in fully autonomous agents has declined significantly in a short period. This shift does not reflect disappointment with AI capability. Instead, it shows a growing recognition that deploying agents without redesigning how the organisation works around them produces fragile, ungovernable results.
+
+Meanwhile, adoption continues at pace. A vast majority of executives report already adopting AI agents, and most plan to increase their budgets in the near future. Yet most are treating AI agents as bolt-ons to existing workflows. The operating model transformation is not happening. Many agentic AI projects are predicted to fail, not because the technology underperforms, but because the organisations deploying it have not defined what success looks like beyond the pilot.
+
+
 
 As ING's Chief Analytics Officer Bahadir Yilmaz has observed: "The conversation is no longer about if AI works. It's about understanding where it works and, more importantly, where it matters to the client." That is the European pragmatic lens at its best: the problem is not technology but where and how to deploy it.
 
-The gap is organisational, not technical. As Chapter 1 established, algorithms account for just 10% of what is required to generate real AI value. The technology backbone is another 20%. The remaining 70% is people and processes. Without a shared picture of how those people and processes operate in the transformed state, how people, process, product, technology, and data fit together, investment scatters across disconnected pilots.
+The gap is organisational, not technical. Algorithms account for only a small portion of what is required to generate real AI value. The technology backbone is another component, but the vast majority of the effort must be placed on people and processes. Without a shared picture of how those people and processes operate in the transformed state—how product, people, process, technology, and data fit together—investment scatters across disconnected pilots.
+
 
 The micro-productivity trap persists because there is no shared picture of what lies beyond it. More technology does not solve this. A clear destination does.
 
@@ -65,11 +69,11 @@ The mindset shift required is substantial:
 | "I follow processes" | "I design and improve processes" |
 | "I need instructions" | "I set goals and boundaries for agents, then review results" |
 
-The demand for this kind of fluency is growing at an extraordinary rate. Agentic AI fluency demand grew nearly sevenfold in two years. This is no longer a capability reserved for technical roles. It is foundational across every function: finance, HR, operations, legal, customer service, and product development all require people who can work effectively alongside agents.
+The demand for this kind of fluency is growing at an extraordinary rate. Agentic AI fluency demand grew nearly sevenfold in two years. This is no longer a capability reserved for technical roles. It is foundational across every function: finance, HR, marketing, operations, legal, customer service, and product development all require people who can work effectively alongside agents.
 
 The shift from left column to right in the table above is not something that happens through a training programme alone. It requires redesigned roles, new performance metrics, and a culture that rewards orchestration and skill-sharing rather than individual output. That is an organisational design challenge, not a learning and development challenge.
 
-At the operational level, the agentic employee's work is built on two concepts that deserve explicit definition. Human-in-the-loop ensures that agents handle routine execution autonomously whilst humans retain oversight where judgment, accountability, or ethical consideration is required.
+At the operational level, the agentic employee's work is built on two concepts that deserve explicit definition. Human-in-the-loop, also referred to as HITL, ensures that agents handle routine execution autonomously whilst humans retain oversight where judgment, accountability, or ethical consideration is required.
 
 > **Definition: Human-in-the-Loop**
 >
@@ -81,17 +85,20 @@ The second concept is the building block of agentic capability. Skills are the c
 >
 > A skill is a reusable AI workflow: a discrete, repeatable sequence of agent actions built by an employee and shared across the organisation.
 
-Skills represent a deeper treatment that Chapter 7 will address in the context of the enterprise technology stack. For now, the critical point is that the Agentic Organisation is not built by deploying AI tools. It is built by developing people who can orchestrate agents, exercise judgment where it matters, and create reusable workflows that compound across the organisation.
+Skills represent a deeper treatment that Chapter 7 will address in the context of the enterprise technology stack. For now, the critical point is that the Agentic Organisation is not built by deploying AI tools. It is built by developing and enabling people who can orchestrate agents, exercise judgment where it matters, and create reusable workflows that compound across the organisation.
 
-The book centres on a structured model, the **AI Transformation Framework**, with four layers: Vision, Products, Operating Model, and Foundation. Chapter 5 introduces that framework in full and provides the image that ties the book's structure together. This chapter provides the human and conceptual foundation on which the entire model rests.
+Without individuals who take initiative in working with AI, and without clarity on the different roles and behavioural shifts required, even the most carefully designed structure remains abstract. A blueprint only becomes real when people understand their part in it and are prepared to act accordingly.
 
-The connection is direct. The Operating Model layer of the framework, covering people, process, roles, and skills, is where the agentic employee lives. The Foundation layer, covering data, technology, and enablement, is where skills are built and shared. Without agentic employees, without a clear understanding of the three profiles and the mindset shift they require, the framework is an architecture without inhabitants.
+Chapter 5 introduces the full structural model that connects vision, customer offering, ways of working, and enabling infrastructure. This chapter provides the human foundation that makes that structure meaningful.
 
 ## The Governance Gap
 
 Transformation at this scale creates governance demands that extend well beyond the technology function. The governance gap identified in Chapters 1 and 2, where board awareness lags behind organisational adoption, takes on a specific shape when agentic employees and AI agents are involved.
 
-Fifty-seven per cent of organisations now have AI agents running in production. Only 21% have rigorous governance mechanisms in place. Deployment is outpacing governance by a wide margin, and the consequences are predictable: inconsistent decision boundaries, unmonitored agent actions, and the quiet proliferation of shadow agents deployed by employees without IT oversight.
+While most organisations now have AI agents running in production, only a minority have rigorous governance mechanisms in place. Deployment is outpacing governance by a wide margin, and the consequences are predictable.
+
+Inconsistent decision boundaries and unmonitored agent actions lead to the proliferation of shadow agents. These are tools deployed by employees without oversight, creating hidden risks that the organisation is not yet equipped to manage.
+
 
 Governing the agentic employee requires three elements operating together.
 
@@ -135,11 +142,11 @@ But a picture is not a route. The next question is: how does transformation actu
 
 ## Case Study: Klarna — When Automation Meets Its Limit
 
-### 1. Strategic Dilemma
+### The Choice Between Speed and Empathy
 
 In 2023, Klarna faced a decision that most European CEOs will recognise in outline, even if the scale was unusual. The Swedish fintech was growing fast, its customer service costs were rising in proportion, and AI capabilities had reached a point where full automation of routine interactions seemed both feasible and financially compelling. CEO Sebastian Siemiatkowski drove the choice hard: deploy an AI assistant at scale, reduce headcount, and let the numbers make the argument. The alternative, a more cautious hybrid model with slower cost reduction and messier governance, looked like hesitation dressed up as prudence. Klarna chose speed.
 
-### 2. Decision Context
+### When Forty Per Cent Headcount Reduction Meets Customer Reality
 
 The competitive logic was coherent. Klarna's AI assistant launched handling 2.3 million customer conversations in its first month alone, equivalent to 700 full-time agents. Resolution time dropped from 11 minutes to under 2 minutes. The projected annual profit improvement was $40 million. By the metrics that boards track, it was working.
 
@@ -147,7 +154,7 @@ Siemiatkowski was not operating in a vacuum. The broader fintech market was movi
 
 The problem surfaced gradually, and then clearly. Customer satisfaction for routine, low-stakes interactions remained comparable to human performance. But for complex, emotionally charged cases, the gap opened up. Klarna's own research found that 86% of customers prefer empathy over speed when their issue is genuinely difficult. No matter how fast the resolution, customers in distress were not satisfied by a system that could not meet them where they were. Siemiatkowski later acknowledged directly: "cost unfortunately seems to have been a too predominant evaluation factor."
 
-### 3. Trade-offs
+### The Costs of Pursuing Automation Without Design
 
 Klarna's original decision involved real sacrifices, made under real pressure:
 
@@ -157,7 +164,7 @@ Klarna's original decision involved real sacrifices, made under real pressure:
 - **Reversibility.** Once headcount is reduced and institutional knowledge dispersed, rebuilding a human service capability is slow and expensive. Klarna re-hired, but not at zero cost.
 - **Leadership credibility.** A public correction of this scale requires explaining what the original decision got wrong, which is difficult when the original rationale was built on public confidence.
 
-### 4. Outcome
+### Finding the Hybrid Model Through Public Reversal
 
 Klarna partially reversed course. Human agents were re-hired for a hybrid model in which AI handles routine volume and human agents manage high-complexity, emotionally sensitive interactions. The efficiency gains from automation were real and largely retained. The experience the AI assistant delivered for straightforward queries remained strong. What changed was the design: rather than a binary choice between automation and human service, Klarna moved to a model that assigned each type of interaction to the party best equipped to handle it.
 
@@ -165,11 +172,14 @@ Siemiatkowski's summary was precise: "AI gives us speed. Talent gives us empathy
 
 Klarna also continued to build outward. Its Agentic Product Protocol launched as an open standard making over 100 million products discoverable by AI agents across 12 markets. AI-driven dynamic product features with Google Cloud lifted in-app time by 15% and orders by 50%. The lesson was not that AI failed; it was that automation without deliberate design of the human layer produces a correction.
 
-### 5. Transferable Lesson
+### Defining the Boundary Between Talent and Automation
 
-Klarna's experience maps directly onto what this chapter argues: the Agentic Organisation is not defined by the AI it deploys, but by how it organises people, processes, products, technology, and data around human-agent collaboration. That definition requires a conscious decision about what belongs to agents and what belongs to people, made before deployment at scale rather than after. The AI Transformation Framework provides the structure for making that decision deliberately: Vision (what is the model we are building?), Products (what does the customer experience in each interaction type?), Operating Model (which employee profile handles which exception?), Foundation (what data and technology do we need to make the design work?). Klarna's reversal was not a failure of AI. It was a failure to answer those questions in order.
+Klarna's experience maps directly onto what this chapter argues: the Agentic Organisation is not defined by the AI it deploys, but by how it organises people, processes, products, technology, and data around human-agent collaboration. That definition requires a conscious decision about what belongs to agents and what belongs to people, made before deployment at scale rather than after. Klarna should have asked several questions for making that decision deliberately: what is the model we are building? What does the customer experience in each interaction type? Which employee profile handles which exception? And what data and technology do we need to make the design work? Klarna's reversal was not a failure of AI. It was a failure to answer those questions in order.
 
 The decision rule for European CEOs is this: before you automate a customer-facing workflow, define which interactions require human judgment, and build the governance to enforce that boundary. Speed and empathy are not in conflict. They require different designs.
+
+[^15]: Allianz, "EU AI Pact", November 2024
+
 
 ## Handoff — Reviewers — Chapter 03
 Status: complete

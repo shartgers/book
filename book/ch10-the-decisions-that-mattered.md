@@ -2,7 +2,7 @@
 
 The most instructive moments in any transformation are not the launches. They are the decisions made under pressure, with incomplete information, when the easy path would have been to wait.
 
-Between 2022 and 2025, six European companies made distinct strategic bets on AI. A Spanish bank deployed generative AI to 120,000 employees across 25 countries. A Dutch bank achieved a pilot-to-production rate three times the industry average. A German industrial conglomerate won Europe's most prestigious innovation award for an AI copilot that speaks the language of factory floors. A German insurer built a seven-agent claims workflow and put it into production in under 100 days. A Swedish fintech went further than anyone, replaced 700 customer service agents with AI, then publicly reversed course. A French industrial giant appointed its first Chief AI Officer and championed "frugal AI" as a design principle.
+Between 2022 and 2025, six European companies made distinct strategic bets on AI. A Spanish bank deployed generative AI to its entire global workforce across dozens of countries. A Dutch bank achieved a pilot-to-production rate far higher than the industry average. A German industrial conglomerate won Europe's most prestigious innovation award for an AI copilot designed specifically for factory floors. A German insurer built a multi-agent claims workflow and put it into production in record time. A Swedish fintech went further than anyone, replacing hundreds of customer service agents with AI before publicly adjusting its approach. A French industrial giant appointed its first Chief AI Officer and championed "frugal AI" as a core design principle.
 
 Their industries, cultures, and starting points differ widely. A global bank and a fintech startup face different regulatory pressures. An industrial manufacturer and an insurer operate in different markets with different risk profiles. Yet the lessons that emerge are remarkably consistent.
 
@@ -28,9 +28,10 @@ The research across six companies and multiple sectors reveals a consistent patt
 
 ### Lesson 1: CEO ownership must be visible and sustained
 
-Transformation that is sponsored but not owned by the chief executive stalls. The research is clear: organisations with strong executive sponsorship achieve AI success rates six times higher than those where leadership delegates to IT or middle management.
+Transformation that is sponsored but not owned by the chief executive stalls. The research is clear: organisations with strong executive ownership achieve AI success rates significantly higher than those where leadership delegates to IT or middle management.
 
-At BBVA, Chairman Carlos Torres Vila and CEO Onur Genç were among 250 senior leaders who personally trained on ChatGPT Enterprise before the tool was rolled out to a single employee. The decision to deploy generative AI to 120,000 people across 25 countries was a board-level choice from the start, not a technology department initiative. Torres Vila framed it publicly: "We were pioneers in the digital and mobile transformation, and we are now entering the AI era with even greater ambition." That is a chairman speaking as owner of the transformation, not as sponsor of a project.
+
+At BBVA, the Chairman and CEO were among the first senior leaders to personally train on generative AI before the tool was rolled out to the rest of the organisation. The decision to deploy these tools to the entire global workforce was a board-level choice from the start, not a technology department initiative. Torres Vila framed it publicly: "We were pioneers in the digital and mobile transformation, and we are now entering the AI era with even greater ambition."
 
 At ING, the CEO sits on the AI Ethics Committee that reviews every use case. At Schneider Electric, the appointment of a Chief AI Officer reporting directly to executive leadership signalled that AI is not an IT function. At Klarna, CEO Sebastian Siemiatkowski drove both the initial AI push and the public correction when it went too far. His willingness to reverse course visibly was itself a leadership act.
 
@@ -44,7 +45,7 @@ The intuition is that governance slows you down. The evidence says the opposite.
 
 ING's COO Marnix van Stiphout describes the bank's approach as "conservatively aggressive": focused exploration within strict governance boundaries. All AI development is concentrated in five strategic domains under COO oversight. A centralised platform provides standardised cloud-hosted models, risk controls, guardrails, and real-time monitoring across every country where ING operates.
 
-The result: 90% of AI pilot projects move into production. The industry average is roughly 30%.
+The result: a vast majority of AI pilot projects move successfully into production. This stands in stark contrast to the industry average, which remains significantly lower.
 
 Van Stiphout is direct about why: "Without this governance... we might have seen bits of AI all over the place." ING's governance did not slow them down. It is the reason they are three times faster than competitors at moving from pilot to production.
 
@@ -58,7 +59,7 @@ The lesson applies universally: set the guardrails before you scale. The compani
 
 Every successful case follows the same structural pattern. A centralised AI capability (factory, hub, or centre of excellence) sets standards, governance, and infrastructure. Embedded specialists in business units ensure AI solves real problems, not theoretical ones.
 
-BBVA's structure is the clearest illustration. The AI Factory employs roughly 400 professionals operating through hubs in Spain, Mexico, and Turkey. They build the platform, set the standards, and maintain the governance. Separately, around 300 "AI wizards" are embedded directly within business units, bridging the central capability with domain expertise. BBVA has now surpassed 1,000 data scientists across the organisation.
+BBVA's structure is the clearest illustration. A dedicated AI Factory employs hundreds of professionals across multiple global hubs to build platforms and maintain governance. Separately, hundreds of "AI wizards" are embedded directly within business units, bridging central capability with domain expertise. This multi-layered approach has allowed the bank to scale its data science capacity massively.
 
 ING follows the same logic: a centralised platform across five strategic domains, with COO oversight, deployed through local hubs across countries. Siemens developed its Industrial Copilot centrally, in partnership with NVIDIA, Microsoft, and Accenture, then deployed it to individual factories. Allianz maintains central governance across nearly 400 generative AI use cases, whilst Project Nemo was developed locally in Australia and is now being scaled to other markets.
 
@@ -70,7 +71,9 @@ The mistake organisations make is choosing one or the other. A purely centralise
 
 The leaders do not measure AI activity. They do not count pilots, models deployed, or tokens processed. They measure business outcomes: time saved, revenue generated, cost reduced, quality improved. Every AI initiative has a business KPI attached before it launches.
 
-BBVA: three hours saved per employee per week, 83% weekly active usage, 87% reduction in customer query handling time. ING: 25% productivity gains when AI is introduced to operations, 90% pilot-to-production rate. Siemens: 200% capacity increase at the Nanjing factory, 78% reduction in lead times, 46% fewer field failures, 28% reduction in carbon emissions. Allianz: 80% reduction in claims processing time through Project Nemo. Klarna: revenue per employee rising from $575,000 to $1.1 million. Schneider Electric: over €100 million in generated value, with a target of €2.0 to 2.5 billion in cumulative industrial productivity gains by 2030.
+Leading organisations measure business outcomes: time saved, revenue generated, and quality improved. BBVA reports significant weekly time savings per employee and a dramatic reduction in customer query handling time. ING has seen substantial productivity gains in operations, while Siemens reports massive capacity increases and a sharp reduction in lead times at its most advanced factories.
+
+Allianz achieved a major reduction in claims processing time, and Klarna reported a doubling of revenue per employee. Schneider Electric has generated substantial value and set ambitious long-term productivity targets. None of these leaders measure AI for its own sake; every metric ties back to a result the board understands and the P&L reflects.
 
 Allianz's Head of Group Operations, Manuela Diviach, captures the discipline: the company maintains "a disciplined approach to prioritising innovative AI projects, guided by the core principle of value creation".
 
@@ -80,7 +83,7 @@ Before any AI initiative launches, it should have a defined business KPI, a base
 
 ### Lesson 5: Close the pilot-to-production gap
 
-This lesson deserves its own space because it addresses the single largest structural failure in enterprise AI. The industry average: roughly 30% of AI pilots reach production. The leaders: 90%. The difference is not better technology. It is organisational readiness.
+This lesson addresses the single largest structural failure in enterprise AI. While the industry average for pilots reaching production is low, the leading organisations achieve success rates that are several times higher. The difference is not better technology; it is organisational readiness.
 
 ING's 90% rate, the benchmark, was achieved through three things: a centralised platform with standardised models, five clearly defined strategic domains (not an open-ended AI programme), and executive accountability for scaling. Every pilot has a path to production before it begins. If it does not, it does not start.
 
@@ -94,11 +97,9 @@ The implication for leaders is uncomfortable but clear. If your organisation is 
 
 Full automation is not the goal. The leaders have learned, some painfully, that the endgame is humans and AI working together. AI handles volume, speed, and routine. Humans handle complexity, empathy, and judgment.
 
-Klarna is the defining case. In early 2024, the company's AI assistant handled 2.3 million conversations in its first month, equivalent to roughly 700 customer service agents. Resolution time dropped from 11 minutes to under two. CEO Sebastian Siemiatkowski projected $40 million in annual profit improvement. The company's headcount dropped from 5,527 to roughly 2,900, primarily through attrition and a hiring freeze.
+Then the correction came. By mid-2025, the strategy had visibly pushed too far. The leadership publicly acknowledged that focusing too predominately on cost led to a decline in quality. Klarna began re-hiring human agents for complex and emotionally charged cases, positioning human support as a premium service while AI handles routine tasks.
 
-Then the correction came. By mid-2025, Siemiatkowski publicly acknowledged the strategy had gone too far. "As cost unfortunately seems to have been a too predominant evaluation factor when organising this, what you end up having is lower quality." Klarna began re-hiring human agents for complex and emotional cases. The company now positions human support as "VIP treatment", with AI handling simple tasks and humans managing everything that requires nuance.
-
-The data supports the pivot: 86% of customers prefer empathy over speed for complex issues. Siemiatkowski's summary is worth quoting in full: "AI gives us speed. Talent gives us empathy."
+The data supports the pivot: a vast majority of customers prefer empathy over speed for complex issues. Siemiatkowski's summary is worth quoting in full: "AI gives us speed. Talent gives us empathy."
 
 The contrast with companies that designed hybrid from the start is instructive. Allianz's Project Nemo uses seven AI agents for claims processing but keeps humans in the final decision-making loop. The design choice was deliberate: in insurance, a fully automated denial carries reputational and legal risk that no efficiency gain justifies. ING operates with "human in the loop" as standard practice across all AI-enhanced processes. Siemens' Industrial Copilot assists engineers on the shop floor; it generates code and troubleshoots faults, but the engineer decides whether to apply the recommendation. Cedrik Neike, Siemens' Digital Industries CEO, frames this clearly: industrial AI requires "multimodal, industrial-grade foundation models, built to understand machines, workflows, and real-world constraints". The copilot is a partner, not a replacement.
 
@@ -110,7 +111,7 @@ Chapter 9 made the case for Europe's distinctive edge. This lesson shows what th
 
 European leaders do not treat the EU AI Act as a cost of doing business. They treat compliance as capability-building: governance infrastructure, trust, auditability, and data quality that become competitive advantages in markets where customers and regulators increasingly demand them.
 
-Allianz signed the EU AI Pact in November 2024, well before regulators required it. The insurer's partnership with Anthropic, announced in January 2026, co-develops systems that log every decision, rationale, and data source. European insurers hold 47% of global specialists in data ethics, governance, and risk, despite representing only 36% of total AI talent in the industry.
+European leaders often move proactively. Allianz signed the EU AI Pact well before regulators required it, and their systems are designed to log every decision and rationale. European firms hold a disproportionately large share of global specialists in data ethics and governance, reflecting a deep-seated focus on trust as a differentiator.
 
 BBVA co-developed with IBM a stress test for discriminatory bias in generative AI models applied to non-English languages, presented at NeurIPS. Compliance-driven research producing genuine innovation.
 
@@ -138,7 +139,7 @@ If your deployment timelines are long, examine whether the cause is excessive ca
 
 The leaders reinvest AI-driven efficiency gains into their workforce: higher compensation, upskilling, new roles, and career development. This creates a virtuous cycle. Employees embrace AI because it visibly benefits them, which accelerates adoption, which generates more value.
 
-Klarna is again the most vivid example. Average employee compensation increased 60%, from $126,000 to $203,000. Revenue per employee rose to $1.1 million. The share of technical employees in the workforce grew from 36% to 52%. The savings from AI-driven efficiency flowed back into remaining employees through higher salaries and equity, not solely into the profit line.
+Klarna provides a vivid example. Average employee compensation saw a dramatic increase as the share of technical roles in the workforce grew significantly. The savings from AI-driven efficiency flowed back to the remaining employees through higher salaries and improved benefits, rather than solely to the profit line.
 
 BBVA grew its AI workforce rather than just cutting headcount. The bank surpassed 1,000 data scientists across the organisation. More than 20,000 custom GPTs were created by employees themselves, a clear signal of bottom-up engagement, not top-down compliance.
 

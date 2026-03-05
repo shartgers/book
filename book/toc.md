@@ -10,7 +10,8 @@
 
 ## The AI Transformation Framework (spine of the book)
 
-The central model for the book is the **AI Transformation Framework** (see `book/images/ch05-ai-transformation-framework.png`). It has four layers, top to bottom. **Chapter 5** is dedicated to introducing the full framework and the image; other chapters go deeper on specific layers.
+The central model for the book is the **AI Transformation Framework** (see `images/ch05-ai-transformation-framework.png`). It has four layers, top to bottom. **Chapter 5** is dedicated to introducing the full framework and the image; other chapters go deeper on specific layers.
+
 
 | Framework layer | Chapter(s) |
 |-----------------|------------|
