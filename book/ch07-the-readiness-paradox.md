@@ -1,6 +1,6 @@
 ## The Readiness Paradox
 
-The urgency for AI deployment is clear: ninety-eight per cent of leaders report increased urgency.[^72] However, instead of readiness increasing, it is declining.
+The urgency for AI deployment is clear: ninety-eight per cent of leaders report increased urgency.[^72] However, instead of readiness increasing, it is actually declining.
 
 Comprehensive global surveys show that readiness scores have declined across almost all critical pillars, including Infrastructure, Data, Governance, Talent, and Culture. Only a small minority of organisations worldwide qualify as fully prepared, a figure that has remained stagnant for several years.
 
