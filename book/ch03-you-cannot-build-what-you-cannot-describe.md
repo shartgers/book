@@ -12,18 +12,16 @@ The Agentic Organisation is built on employees enabled by AI. The shift from tas
 
 The vast majority of companies now use generative AI, yet most report no significant bottom-line impact. That paradox, first identified in Chapter 1, has a specific cause: organisations lack a coherent model of what they are building towards.
 
-The evidence bears this out. Most AI deployment effort is consumed not by the AI itself but by data engineering, stakeholder alignment, governance, and workflow integration. Only a small fraction of organisations have truly AI-ready data, and even fewer have successfully deployed AI agents at scale, despite widespread interest and vendor noise.
+The evidence bears this out. Most AI deployment effort is consumed not by the AI itself but by data engineering, stakeholder alignment, governance, and workflow integration.[^23] Only a small fraction of organisations have truly AI-ready data, and even fewer have successfully deployed AI agents at scale, despite widespread interest and vendor noise.[^24]
 
 
 Confidence in fully autonomous agents has declined significantly in a short period. This shift does not reflect disappointment with AI capability. Instead, it shows a growing recognition that deploying agents without redesigning how the organisation works around them produces fragile, ungovernable results.
 
-Meanwhile, adoption continues at pace. A vast majority of executives report already adopting AI agents, and most plan to increase their budgets in the near future. Yet most are treating AI agents as bolt-ons to existing workflows. The operating model transformation is not happening. Many agentic AI projects are predicted to fail, not because the technology underperforms, but because the organisations deploying it have not defined what success looks like beyond the pilot.
+Meanwhile, adoption continues at pace. A vast majority of executives report already adopting AI agents, and most plan to increase their budgets in the near future.[^25] Yet most are treating AI agents as bolt-ons to existing workflows. The operating model transformation is not happening. Many agentic AI projects are predicted to fail, not because the technology underperforms, but because the organisations deploying it have not defined what success looks like beyond the pilot.[^26]
 
+As ING's Chief Analytics Officer Bahadir Yilmaz has observed: "The conversation is no longer about if AI works. It's about understanding where it works and, more importantly, where it matters to the client."[^27] That is the European pragmatic lens at its best: the problem is not technology but where and how to deploy it.
 
-
-As ING's Chief Analytics Officer Bahadir Yilmaz has observed: "The conversation is no longer about if AI works. It's about understanding where it works and, more importantly, where it matters to the client." That is the European pragmatic lens at its best: the problem is not technology but where and how to deploy it.
-
-The gap is organisational, not technical. Algorithms account for only a small portion of what is required to generate real AI value. The technology backbone is another component, but the vast majority of the effort must be placed on people and processes. Without a shared picture of how those people and processes operate in the transformed state—how product, people, process, technology, and data fit together—investment scatters across disconnected pilots.
+The gap is organisational, not technical. Algorithms account for only a small portion of what is required to generate real AI value. The technology backbone is another component, but the vast majority of the effort must be placed on people and processes.[^28] Without a shared picture of how those people and processes operate in the transformed state—how product, people, process, technology, and data fit together—investment scatters across disconnected pilots.
 
 
 The micro-productivity trap persists because there is no shared picture of what lies beyond it. More technology does not solve this. A clear destination does.
@@ -32,7 +30,7 @@ The micro-productivity trap persists because there is no shared picture of what 
 
 The Agentic Organisation, as defined in Chapter 1, is a company redesigned so that humans and AI agents work together as a unified system. This chapter makes that definition concrete by focusing on its central element: the people inside it.
 
-May Habib, CEO of Writer, framed the shift precisely at the World Economic Forum in 2025: "The enterprise was designed for a world where execution was the primary constraint. Today, execution is cheap, abundant and instantaneous. Now the constraint is orchestration."
+May Habib, CEO of Writer, framed the shift precisely at the World Economic Forum in 2025: "The enterprise was designed for a world where execution was the primary constraint. Today, execution is cheap, abundant and instantaneous. Now the constraint is orchestration."[^29]
 
 That single observation captures the transition at the heart of the Agentic Organisation. When AI agents can execute at near-zero marginal cost, the scarce resource is no longer the ability to do work. It is the ability to direct, coordinate, and judge the work that agents produce.
 
@@ -54,7 +52,7 @@ Three distinct profiles are emerging in organisations that have made this shift:
 
 These profiles are not theoretical categories. They describe roles already visible in organisations that have moved beyond bolt-on AI adoption.
 
-The productivity evidence is substantial. A software team where output increased by 39% after AI agents became the default platform. Crucially, more experienced workers benefit more from agents, with one standard deviation higher experience correlating with 6% higher acceptance rates, whilst junior workers benefit more from tool-only AI. A legal technology trial across 12 firms found a 41% average productivity increase. Studies show time savings of 65 to 86% versus human-only workflows.
+The productivity evidence is substantial. A software team where output increased by 39% after AI agents became the default platform.[^30] Crucially, more experienced workers benefit more from agents, with one standard deviation higher experience correlating with 6% higher acceptance rates, whilst junior workers benefit more from tool-only AI. A legal technology trial across 12 firms found a 41% average productivity increase. Studies show time savings of 65 to 86% versus human-only workflows.[^31]
 
 In each case, the gains came not from the AI alone but from the redesigned relationship between person and agent. The supervisor who coordinates agents effectively produces more than the specialist who works in isolation. The augmented frontline worker who shares a skill across the team multiplies impact beyond their own output.
 
@@ -110,17 +108,17 @@ Governing the agentic employee requires three elements operating together.
 
 Beyond these formal mechanisms, organisations must address shadow agents: the quiet proliferation of unapproved autonomous tools deployed by employees without IT oversight. When individual adoption outpaces organisational governance, which the 91% adoption versus 1% maturity gap from Chapter 1 confirms is already happening, shadow agents are not hypothetical. They are present.
 
-As Allianz Chief Transformation Officer Maria Janssen described the approach behind Project Nemo: "AI agents support our teams by making recommendations, but the ultimate responsibility always rests with a claims professional." That principle, human accountability for agent-assisted decisions, is the governance baseline for the Agentic Organisation.
+As Allianz Chief Transformation Officer Maria Janssen described the approach behind Project Nemo: "AI agents support our teams by making recommendations, but the ultimate responsibility always rests with a claims professional."[^32] That principle, human accountability for agent-assisted decisions, is the governance baseline for the Agentic Organisation.
 
 For European organisations, the governance requirements carry additional specificity. The EU AI Act creates obligations that map directly onto the dimensions of the Agentic Organisation.
 
-AI literacy obligations under Article 4, in force since February 2025, require organisations to ensure sufficient AI literacy among all staff who interact with AI systems. Risk classification requirements, active from August 2026, demand governance of the technology and process layers.
+AI literacy obligations under Article 4, in force since February 2025, require organisations to ensure sufficient AI literacy among all staff who interact with AI systems.[^33] Risk classification requirements, active from August 2026, demand governance of the technology and process layers.
 
 Data protection obligations under the GDPR intersect with agentic AI in ways that are already consequential. A simple AI scheduling agent can trigger purpose creep, special-category data rules, cross-border transfer restrictions, and prohibitions on fully automated processing, all in a single workflow.
 
-European co-determination frameworks add a governance dimension that, properly understood, becomes a design advantage rather than a constraint. Germany's Works Constitution Act requires employers to inform works councils before introducing AI systems, grants consultation rights, and triggers co-determination when AI can monitor employee behaviour. Deutsche Telekom's AI Manifesto, co-created with its Group Works Council, demonstrates that institutionalised stakeholder engagement produces faster, more durable adoption than top-down mandates.
+European co-determination frameworks add a governance dimension that, properly understood, becomes a design advantage rather than a constraint. Germany's Works Constitution Act requires employers to inform works councils before introducing AI systems, grants consultation rights, and triggers co-determination when AI can monitor employee behaviour.[^34] Deutsche Telekom's AI Manifesto, co-created with its Group Works Council, demonstrates that institutionalised stakeholder engagement produces faster, more durable adoption than top-down mandates.[^35]
 
-The consequences of proceeding without proper governance are concrete. A 2025 French court suspended an AI project and imposed penalties of 1,000 euros per day for 90 days, plus 5,000 euros in damages to the works council, for deploying without consultation. Allianz, by contrast, signed the EU AI Pact in November 2024, treating proactive compliance as a competitive differentiator rather than a cost of doing business.[^15]
+The consequences of proceeding without proper governance are concrete. A 2025 French court suspended an AI project and imposed penalties of 1,000 euros per day for 90 days, plus 5,000 euros in damages to the works council, for deploying without consultation.[^36] Allianz, by contrast, signed the EU AI Pact in November 2024, treating proactive compliance as a competitive differentiator rather than a cost of doing business.[^37]
 
 Building governance into the design from the outset, rather than retrofitting it after deployment, is what separates organisations that scale from those that stall. The board needs a structured way to assess transformation progress across all dimensions rather than relying on anecdotal pilot reports. The AI Transformation Framework introduced in Chapter 5, and the governance and measurement tools developed in Chapters 12 and 13, provide that structure.
 
@@ -130,7 +128,21 @@ The Agentic Organisation is defined not by its technology but by its people: age
 
 But a picture is not a route. The next question is: how does transformation actually scale? The answer is not "everywhere at once." It progresses through four distinct tiers, each with different governance, different leadership demands, and different measures of success. Chapter 4 introduces The Four Tiers of Transformation, from the individual to the team to the department to the organisation, and shows why skipping a tier, or assuming one tier's success automatically produces the next, is the most common structural mistake in AI programmes.
 
-[^15]: Allianz, "EU AI Pact", November 2024
+[^23]: Deloitte, "Tech Trends 2025", 2025
+[^24]: Capgemini Research Institute, "AI Agents in the Enterprise", 2025
+[^25]: PwC, "AI Agent Survey", 2025
+[^26]: Gartner, "Hype Cycle for Artificial Intelligence", 2025
+[^27]: Yilmaz, World Economic Forum, Davos, 2025
+[^28]: BCG, "From Potential to Profit: Closing the AI Impact Gap", 2025
+[^29]: Habib, World Economic Forum, Davos, January 2025
+[^30]: Sarkar, "AI Agents and Software Productivity", SSRN, November 2025
+[^31]: Stanford / World Bank, "AI Impact on Work Productivity Survey", 2024
+[^32]: Allianz, "Project Nemo", 2025
+[^33]: EU, "AI Act", 2024
+[^34]: Germany, "Works Constitution Act (Betriebsverfassungsgesetz)", 2021
+[^35]: Deutsche Telekom, "AI Guidelines", 2023
+[^36]: Nanterre Tribunal Judiciaire, ruling on AI workplace consultation, February 2025
+[^37]: Allianz, "EU AI Pact", November 2024
 
 ## Questions for the Board
 
@@ -177,9 +189,6 @@ Klarna also continued to build outward. Its Agentic Product Protocol launched as
 Klarna's experience maps directly onto what this chapter argues: the Agentic Organisation is not defined by the AI it deploys, but by how it organises people, processes, products, technology, and data around human-agent collaboration. That definition requires a conscious decision about what belongs to agents and what belongs to people, made before deployment at scale rather than after. Klarna should have asked several questions for making that decision deliberately: what is the model we are building? What does the customer experience in each interaction type? Which employee profile handles which exception? And what data and technology do we need to make the design work? Klarna's reversal was not a failure of AI. It was a failure to answer those questions in order.
 
 The decision rule for European CEOs is this: before you automate a customer-facing workflow, define which interactions require human judgment, and build the governance to enforce that boundary. Speed and empathy are not in conflict. They require different designs.
-
-[^15]: Allianz, "EU AI Pact", November 2024
-
 
 ## Handoff — Reviewers — Chapter 03
 Status: complete

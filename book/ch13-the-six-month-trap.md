@@ -2,7 +2,7 @@
 
 If you cannot measure it, you cannot defend it to the board. If you cannot defend it to the board, you will not sustain the investment long enough to see results.
 
-This is not a theoretical problem. Large-scale research found that a vast majority of the companies studied measured AI return on investment far too early, often just a few months post-pilot. This is precisely the window when most projects have not yet delivered their full potential value. The result is a self-fulfilling prophecy: organisations kill projects that would have succeeded, then cite the failure as evidence that AI does not work.
+This is not a theoretical problem. Large-scale research found that a vast majority of the companies studied measured AI return on investment far too early, often just a few months post-pilot.[^106] This is precisely the window when most projects have not yet delivered their full potential value. The result is a self-fulfilling prophecy: organisations kill projects that would have succeeded, then cite the failure as evidence that AI does not work.
 
 The contrast is instructive. DBS Bank measured AI value over years, not months, using control-group methodology to isolate incremental impact. By mid-decade, the bank was able to disclose massive, validated AI economic value that had grown significantly year-on-year.
 
@@ -20,7 +20,7 @@ Organisations in pilot purgatory accumulate proofs of concept that demonstrate t
 
 The pattern compounds. Grassroots experimentation delivers localised efficiency gains that feel like progress but never compound without top-down direction. This is the micro-productivity trap described in earlier chapters: individual teams achieve small wins whilst the organisation as a whole barely moves.
 
-Only a minority of companies can tie AI initiatives to tangible business outcomes, even though a large majority rank AI as a top strategic priority. Financial services tends to achieve better pilot-to-production rates than other sectors, not because of superior technology, but because of clearer unit economics and pre-existing compliance infrastructure.
+Only a minority of companies can tie AI initiatives to tangible business outcomes, even though a large majority rank AI as a top strategic priority.[^107] Financial services tends to achieve better pilot-to-production rates than other sectors, not because of superior technology, but because of clearer unit economics and pre-existing compliance infrastructure.
 
 The measurement crisis and the scaling crisis are the same crisis. Without the right metrics, defined upfront, organisations cannot distinguish a pilot worth scaling from one worth killing.
 
@@ -52,7 +52,7 @@ ING's 90% pilot-to-production rate, three times the industry average, demonstrat
 
 Beyond the dashboard, four governance indicators matter: ownership clarity (who owns AI risk at executive level?), decision rights (what are the authority chains?), escalation speed (how fast do problems reach the board?), and alignment to intent (are initiatives staying true to their approved purpose?).
 
-Research shows that companies with AI-savvy boards consistently outperform their peers in terms of return on equity. Conversely, those without such expertise tend to lag significantly below the industry average. The board's AI literacy is not just a nice-to-have; it is a clear performance differentiator.
+Research shows that companies with AI-savvy boards consistently outperform their peers in terms of return on equity.[^108] Conversely, those without such expertise tend to lag significantly below the industry average. The board's AI literacy is not just a nice-to-have; it is a clear performance differentiator.
 
 ## The Board's Evolving Role
 
@@ -81,6 +81,10 @@ The organisations that measure well, DBS, ING, BBVA, Allianz, share a common tra
 This book has covered the framework (Chapter 5), the operating model (Chapter 6), foundations (Chapter 7), the decision lens (Chapter 8), the European context (Chapter 9), leadership lessons (Chapter 10), the playbook (Chapter 11), and readiness (Chapter 12). This chapter adds measurement and governance: the mechanism for proving that all of the above is working.
 
 One decision remains: to act or not. That is the subject of the final chapter.
+
+[^106]: BCG, "Measuring AI Impact", 2025
+[^107]: McKinsey, "State of AI", 2025
+[^108]: MIT CISR, "Enterprise AI Maturity", 2025
 
 ## Questions for the Board
 

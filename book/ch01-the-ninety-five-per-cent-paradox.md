@@ -38,7 +38,7 @@ Unlike generative AI, which produces outputs in response to individual prompts, 
 
 The organisations capturing this value are doing so visibly. Research from a global survey of more than 1,000 senior executives found that the top 5% of companies, those furthest ahead in AI, achieve 3.6 times the three-year total shareholder return of their peers, 1.7 times the revenue growth, and 1.6 times the EBIT margin. These leaders plan to spend more than twice as much on AI as the organisations trailing them.[^5]
 
-Agentic AI already accounts for 17% of total AI value in 2025, with projections reaching 29% by 2028.[^6] The gap is not a snapshot. It is a trend line with compounding momentum.
+Agentic AI already accounts for 17% of total AI value in 2025, with projections reaching 29% by 2028. The gap is not a snapshot. It is a trend line with compounding momentum.
 
 Agents can use tools, access data, communicate with other agents, and take action without step-by-step human instruction. In an organisational context, agents take on work that previously required human attention at every step: research, scheduling, analysis, compliance checking, decision preparation, and process execution.
 
@@ -117,17 +117,16 @@ Recognising the scale of the shift is the first step. The harder question is whe
 The next chapter takes that question directly.
 
 [^1]: MIT, "NANDA Report", 2025
-[^2]: BCG, "The Widening AI Value Gap: Build for the Future 2025", September/October 2025
+[^2]: BCG, "The Widening AI Value Gap", September/October 2025
 [^3]: McKinsey, "CEO Playbook", June 2025
 [^4]: McKinsey, "The Agentic Organization: Contours of the Next Paradigm for the AI Era", September 2025
-[^5]: BCG, "The Widening AI Value Gap", September/October 2025
-[^6]: BCG, "The Widening AI Value Gap", October 2025
-[^7]: Eurostat, "AI in Enterprises", December 2025
-[^8]: EU Commission, "Agentic AI Venture Capital Report", January 2026
-[^9]: Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025
-[^10]: EU, "AI Act", 2024
-[^11]: Eurostat, "AI in Enterprises", December 2025
-[^12]: BCG, "The Widening AI Value Gap", October 2025
+[^5]: BCG, "The Widening AI Value Gap", October 2025
+[^6]: Eurostat, "AI in Enterprises", December 2025
+[^7]: EU Commission, "Agentic AI Venture Capital Report", January 2026
+[^8]: Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025
+[^9]: EU, "AI Act", 2024
+[^10]: Eurostat, "AI in Enterprises", December 2025
+[^11]: BCG, "The Widening AI Value Gap", October 2025
 
 ## Questions for the Board
 

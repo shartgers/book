@@ -2,9 +2,9 @@
 
 The previous chapter laid out the map: the AI Transformation Framework, four layers from Vision to Foundation. This chapter goes inside the third layer, the Operating Model, where strategy becomes structure.
 
-Industry standards for transformation identify a clear hierarchy of effort. The vast majority of focus must be placed on people and processes, with far smaller shares dedicated to technology and algorithms. Most organisations get this balance backwards, pouring capital into models and platforms whilst leaving roles and workflows unchanged.
+Industry standards for transformation identify a clear hierarchy of effort. The vast majority of focus must be placed on people and processes, with far smaller shares dedicated to technology and algorithms.[^61] Most organisations get this balance backwards, pouring capital into models and platforms whilst leaving roles and workflows unchanged.
 
-Research confirms a dramatic gap between recognition and action. Whilst almost all leaders acknowledge that agentic AI requires a new operating model, only a tiny fraction have begun to upskill their teams. Most initiatives fail to move past the pilot stage because of operating model inertia. The problem is not technology, but structures designed for an era before agents.
+Research confirms a dramatic gap between recognition and action. Whilst almost all leaders acknowledge that agentic AI requires a new operating model, only a tiny fraction have begun to upskill their teams.[^62] Most initiatives fail to move past the pilot stage because of operating model inertia. The problem is not technology, but structures designed for an era before agents.
 
 This chapter breaks the Operating Model layer into its components. Who does the work. What skills they need. How processes run. How the organisation is structured. The answers require redesign, not incremental adjustment.
 
@@ -20,7 +20,7 @@ Three roles are emerging as the defining positions of the agentic era.
 
 **The Agent Orchestrator.** This is the new middle-management function. An Agent Orchestrator manages synthetic AI talent: provisioning agents, connecting them to data and systems, monitoring output quality, and coordinating multi-agent workflows. BCG describes agent orchestration as the "central nervous system" of agent-first organisations, the capability that separates companies which deploy agents from those which scale them.
 
-**The AI Product Manager.** This role owns the roadmap for AI agent capabilities, governs agent lifecycle, designs multi-step reasoning workflows, and establishes performance metrics. By 2026, 85% of companies expect to customise autonomous agents for specific business needs, but only one in five have mature governance models for how those agents are managed.
+**The AI Product Manager.** This role owns the roadmap for AI agent capabilities, governs agent lifecycle, designs multi-step reasoning workflows, and establishes performance metrics. By 2026, 85% of companies expect to customise autonomous agents for specific business needs, but only one in five have mature governance models for how those agents are managed.[^63]
 
 These roles connect to the three agentic employee profiles from Chapter 3. The Domain Leader is the executive-tier orchestrator. The Agent Orchestrator is the team-tier supervisor. The AI Product Manager governs the interface between human intent and agent capability.
 
@@ -28,7 +28,7 @@ These roles connect to the three agentic employee profiles from Chapter 3. The D
 
 Most employer-sought skills will endure, but they will be applied differently in partnership with AI. The change is from producing first drafts to framing questions, validating outputs, and applying judgment.
 
-AI fluency demand has grown nearly sevenfold in two years, spreading beyond technical roles into management, finance, healthcare, and frontline services. The complementary skills that matter most, critical thinking, adaptability, quality assurance, coaching, and decision-making, are human skills. They do not become less valuable; they become more so.
+AI fluency demand has grown nearly sevenfold in two years, spreading beyond technical roles into management, finance, healthcare, and frontline services.[^64] The complementary skills that matter most, critical thinking, adaptability, quality assurance, coaching, and decision-making, are human skills. They do not become less valuable; they become more so.
 
 Human-agent collaboration moves beyond using AI as a tool to working with it as a partner. It is a shared workspace where agents execute autonomous tasks whilst humans provide strategic direction, ethical oversight, and high-level judgment. This partnership allows the organisation to combine machine speed and scale with human nuance and accountability.
 
@@ -40,13 +40,13 @@ To grow in this environment, individuals must develop hybrid competencies that m
 
 This collaboration is most effective when it reaches dynamic delegation. In this state, the human knows instinctively when to let the agent lead for speed and when to re-assert control for complex ethics or empathy. It requires a high degree of trust in the system, balanced by the constant, critical validation of results.
 
-The most effective agentic employees create reusable AI skills and share them with colleagues, which creates compounding momentum as others reuse their work. Yet the gap between intent and action is stark. Whilst almost all organisations acknowledge the need for upskilling, only a tiny fraction have begun this work in a meaningful way. This challenge is even more acute in Europe, where the pace of occupational transitions is accelerating rapidly beyond historical norms.
+The most effective agentic employees create reusable AI skills and share them with colleagues, which creates compounding momentum as others reuse their work. Yet the gap between intent and action is stark. Whilst almost all organisations acknowledge the need for upskilling, only a tiny fraction have begun this work in a meaningful way.[^65] This challenge is even more acute in Europe, where the pace of occupational transitions is accelerating rapidly beyond historical norms.[^66]
 
 
 
 ### Process: Radical Workflow Redesign
 
-Organisations must aim for outcome-driven processes: redesigning from scratch with AI at the core rather than automating legacy workflows. The returns from end-to-end redesign are measurably different from bolt-on automation: 30 to 50% business process acceleration, 25 to 40% reduction in low-value work time, and 40 to 60% cuts in engineering and design lead times. These gains materialise only when processes are redesigned as a whole.
+Organisations must aim for outcome-driven processes: redesigning from scratch with AI at the core rather than automating legacy workflows.[^67] The returns from end-to-end redesign are measurably different from bolt-on automation: 30 to 50% business process acceleration, 25 to 40% reduction in low-value work time, and 40 to 60% cuts in engineering and design lead times.[^68] These gains materialise only when processes are redesigned as a whole.
 
 Four multi-agent orchestration patterns are emerging. 
 **The Hierarchical pattern** - uses an orchestrator that breaks goals into tasks for specialist workers, suited to complex end-to-end workflows. 
@@ -83,14 +83,14 @@ Each dimension must be addressed; redesigning technology without redesigning the
 
 The operating model is a board responsibility, not a delegation target. As the Allianz case study at the end of this chapter illustrates, transformation is "not mainly about the technology but rather the mindset, the people, and the organization."
 
-Only 21% of organisations have rigorous AI governance. The gap is widest in the Operating Model layer, where decisions about roles, skills, and process redesign touch every person in the organisation. Change management must begin at the planning stage. Organisations that integrate people and process considerations from the start, co-developing solutions with frontline teams and using focused pilots with feedback loops, achieve more durable results than those that bolt on change management after the technology is deployed.
+Only 21% of organisations have rigorous AI governance.[^69] The gap is widest in the Operating Model layer, where decisions about roles, skills, and process redesign touch every person in the organisation. Change management must begin at the planning stage. Organisations that integrate people and process considerations from the start, co-developing solutions with frontline teams and using focused pilots with feedback loops, achieve more durable results than those that bolt on change management after the technology is deployed.
 
 For European leaders, the operating model shift includes a dimension that does not apply in the same way elsewhere: social dialogue. While many trade unions are still developing their response to AI, formal engagement is rising. As more employees encounter algorithmic management, this dialogue becomes a critical part of the transition.
 
 This is not an obstacle. When the operating model is redesigned with works council engagement from the outset, the result is higher trust and more durable change. The leader who treats social dialogue as a governance advantage rather than a compliance burden builds a more resilient Agentic Organisation.
 
 
-Span of control is shifting as well. McKinsey envisions one manager with a small human team orchestrating hundreds of agents running autonomously across workflows around the clock. Traditional hierarchies give way to flexible configurations of human-agent teams. This is the organisational consequence of moving from stand-alone agents through agent groups to full agentic networks.
+Span of control is shifting as well. McKinsey envisions one manager with a small human team orchestrating hundreds of agents running autonomously across workflows around the clock.[^70] Traditional hierarchies give way to flexible configurations of human-agent teams. This is the organisational consequence of moving from stand-alone agents through agent groups to full agentic networks.
 
 ## From Structure to Foundation
 
@@ -98,7 +98,17 @@ The Operating Model represents the vast majority of the transformation effort. T
 
 It remains tightly coupled with the foundation layer. Process redesign requires data readiness, yet most organisations still lack mature data management. Chapter 7 explores the foundation layer, which forms the basis for the operating model.
 
-[^20]: Harvard Data Science Review, "2026", 2026
+[^61]: BCG, "From Potential to Profit: Closing the AI Impact Gap", 2025
+[^62]: BCG, "AI at Work", 2024
+[^63]: Redreamality, "The Orchestrator's Era: 2026 State of AI Agents in Product Management", 2026
+[^64]: McKinsey, "A New Year's Resolution for Leaders", January 2026
+[^65]: BCG, "AI at Work", 2024
+[^66]: McKinsey Global Institute, "A New Future of Work", 2025
+[^67]: Harvard Data Science Review, "The Agent-Centric Enterprise", Winter 2026
+[^68]: BCG, "Agents Accelerate the Next Wave of AI Value Creation", 2025
+[^69]: McKinsey, "State of AI", 2024
+[^70]: McKinsey, "The Agentic Organization", September 2025
+[^71]: European Trade Union Institute, "Collective Bargaining and AI", 2025
 
 ## Questions for the Board
 
@@ -121,7 +131,7 @@ Insurance is a trust business. Policyholders, regulators, and employees watch wo
 
 COO Barbara Karuth-Zelle framed the decision explicitly: "Digital and AI transformations are not mainly about the technology but rather the mindset, the people, and the organization." This was not rhetoric. The operating model, roles, skills, team structures, and processes, was treated as the primary transformation target, with technology as the enabler.
 
-The competitive context was pressing. ING had achieved a 90% pilot-to-production rate through centralised AI infrastructure. BBVA had embedded 300 "AI wizards" in business units. Across European financial services, agentic AI was moving from experiment to operations. The European social dialogue framework shaped the boundaries. Only 20% of EU trade unions have collective bargaining agreements addressing AI, but 42% are engaged in formal discussions. Workforce restructuring at Allianz required works council negotiation, transparent communication, and a credible plan for affected employees.
+The competitive context was pressing. ING had achieved a 90% pilot-to-production rate through centralised AI infrastructure. BBVA had embedded 300 "AI wizards" in business units. Across European financial services, agentic AI was moving from experiment to operations. The European social dialogue framework shaped the boundaries. Only 20% of EU trade unions have collective bargaining agreements addressing AI, but 42% are engaged in formal discussions.[^71] Workforce restructuring at Allianz required works council negotiation, transparent communication, and a credible plan for affected employees.
 
 ### 3. Trade-offs
 

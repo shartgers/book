@@ -28,7 +28,7 @@ The research across six companies and multiple sectors reveals a consistent patt
 
 ### Lesson 1: CEO ownership must be visible and sustained
 
-Transformation that is sponsored but not owned by the chief executive stalls. The research is clear: organisations with strong executive ownership achieve AI success rates significantly higher than those where leadership delegates to IT or middle management.
+Transformation that is sponsored but not owned by the chief executive stalls. The research is clear: organisations with strong executive ownership achieve AI success rates significantly higher than those where leadership delegates to IT or middle management.[^94]
 
 
 At BBVA, the Chairman and CEO were among the first senior leaders to personally train on generative AI before the tool was rolled out to the rest of the organisation. The decision to deploy these tools to the entire global workforce was a board-level choice from the start, not a technology department initiative. Torres Vila framed it publicly: "We were pioneers in the digital and mobile transformation, and we are now entering the AI era with even greater ambition."
@@ -99,7 +99,7 @@ Full automation is not the goal. The leaders have learned, some painfully, that 
 
 Then the correction came. By mid-2025, the strategy had visibly pushed too far. The leadership publicly acknowledged that focusing too predominately on cost led to a decline in quality. Klarna began re-hiring human agents for complex and emotionally charged cases, positioning human support as a premium service while AI handles routine tasks.
 
-The data supports the pivot: a vast majority of customers prefer empathy over speed for complex issues. Siemiatkowski's summary is worth quoting in full: "AI gives us speed. Talent gives us empathy."
+The data supports the pivot: a vast majority of customers prefer empathy over speed for complex issues.[^95] Siemiatkowski's summary is worth quoting in full: "AI gives us speed. Talent gives us empathy."
 
 The contrast with companies that designed hybrid from the start is instructive. Allianz's Project Nemo uses seven AI agents for claims processing but keeps humans in the final decision-making loop. The design choice was deliberate: in insurance, a fully automated denial carries reputational and legal risk that no efficiency gain justifies. ING operates with "human in the loop" as standard practice across all AI-enhanced processes. Siemens' Industrial Copilot assists engineers on the shop floor; it generates code and troubleshoots faults, but the engineer decides whether to apply the recommendation. Cedrik Neike, Siemens' Digital Industries CEO, frames this clearly: industrial AI requires "multimodal, industrial-grade foundation models, built to understand machines, workflows, and real-world constraints". The copilot is a partner, not a replacement.
 
@@ -119,7 +119,7 @@ ING's governance-first approach does not just align with EU AI Act expectations.
 
 Schneider Electric's Trust Charter governs all operations, with responsible AI embedded in product design. The company's "frugal AI" approach aligns with European sustainability values: right-sized models, edge deployment, carbon-aware computing.
 
-Research on AI-leading European firms confirms the pattern. The 11% of European companies classified as "AI Achievers", generating 50% greater revenue growth than peers, share a defining trait: they designed AI responsibly from the start, not as an afterthought.
+Research on AI-leading European firms confirms the pattern. The 11% of European companies classified as "AI Achievers", generating 50% greater revenue growth than peers, share a defining trait: they designed AI responsibly from the start, not as an afterthought.[^96]
 
 This lesson has particular weight for European leaders. The temptation to view the EU AI Act as a burden is understandable but misguided. The companies in this chapter demonstrate a different approach: treat every compliance requirement as an opportunity to build a capability your competitors will eventually need but do not yet have. Data quality, documentation discipline, human oversight protocols, bias testing: these are not costs. They are investments in a moat that widens as regulation spreads globally.
 
@@ -182,6 +182,10 @@ The playbook in Chapter 11 shows how to sequence the work. What this chapter has
 3. Do you have a central AI capability (factory, hub, or centre of excellence) that sets standards and governance, and embedded specialists in business units who connect AI to business value? Or is AI dispersed without coordination?
 4. What is your pilot-to-production rate? If you do not know, what does that tell you about your measurement discipline?
 5. If you stopped all AI-related hiring and investment tomorrow, would your existing employees have the skills, compensation, and career incentives to sustain the transformation, or would adoption collapse?
+
+[^94]: BCG, "AI Radar", January 2026
+[^95]: Klarna, "Customer Service Research", 2024
+[^96]: Accenture, "AI Achievers: Designing AI Responsibly", 2025
 
 ## Handoff — Reviewers — Chapter 10
 Status: complete

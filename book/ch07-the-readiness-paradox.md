@@ -1,6 +1,6 @@
 ## The Readiness Paradox
 
-Ninety-eight per cent of leaders report increased urgency to deploy AI. Readiness is declining.
+The urgency for AI deployment is clear: ninety-eight per cent of leaders report increased urgency.[^72] However, instead of readiness increasing, it is declining.
 
 Comprehensive global surveys show that readiness scores have declined across almost all critical pillars, including Infrastructure, Data, Governance, Talent, and Culture. Only a small minority of organisations worldwide qualify as fully prepared, a figure that has remained stagnant for several years.
 
@@ -14,13 +14,13 @@ The gap has a name. Cisco calls it AI Infrastructure Debt: the accumulation of s
 
 It is the modern form of technical debt: silent, compounding, and value-destroying. The longer it goes unaddressed, the wider the gap between AI ambition and AI reality.
 
-The paradox is self-reinforcing. Urgency drives premature deployment. Premature deployment drives failure. Failure drives more urgency. Nearly eight in ten companies now report using generative AI, yet just as many report no significant bottom-line impact, what McKinsey has described as the "gen AI paradox."
+The paradox is self-reinforcing. Urgency drives premature deployment. Premature deployment drives failure. Failure drives more urgency. Nearly eight in ten companies now report using generative AI, yet just as many report no significant bottom-line impact, what McKinsey has described as the "gen AI paradox."[^73]
 
 The way to break the cycle is to build properly. This chapter lays out what the Foundation layer requires: Data, Technology, and Enablement, the three components introduced in Chapter 5 as the base of the AI Transformation Framework.
 
 ## Where Most Organisations Fail
 
-The evidence is consistent across multiple sources. A majority of organisations still lack truly AI-ready data practices, leading to a high rate of project abandonment for those that are unsupported by solid data foundations. Research from global institutions confirms that only a small minority of businesses currently consider themselves fully data-ready.
+The evidence is consistent across multiple sources. A majority of organisations still lack truly AI-ready data practices, leading to a high rate of project abandonment for those that are unsupported by solid data foundations.[^74] Research from global institutions confirms that only a small minority of businesses currently consider themselves fully data-ready.
 
 The problem extends beyond data alone. Only a small fraction of organisations have fundamentally redesigned any of their core workflows for AI. As Chapter 6 explored, this type of deep redesign shows the strongest correlation with bottom-line impact, but it requires simultaneous readiness across data, technology, and people.
 
@@ -68,7 +68,7 @@ The requirement goes beyond training courses. Employees need to understand AI so
 
 The challenge is no longer just preparing people to work with AI. It is building the systems, culture, and governance that enable humans and AI to work and learn together.
 
-Research identifies a clear threshold for success. Employees who receive several hours of structured training, combined with ongoing coaching, show substantially higher adoption and confidence. Below this level, training rarely translates into changed behaviour. Yet only a tiny fraction of companies have successfully scaled these upskilling efforts.
+Research identifies a clear threshold for success. Employees who receive several hours of structured training, combined with ongoing coaching, show substantially higher adoption and confidence.[^75] Below this level, training rarely translates into changed behaviour. Yet only a tiny fraction of companies have successfully scaled these upskilling efforts.
 
 Management must participate and model the behaviour. When leaders demonstrate AI fluency and set expectations for its use, adoption accelerates. When they delegate AI to the IT department, the signal is unmistakable: AI is optional. Enablement is not only for frontline staff.
 
@@ -92,7 +92,7 @@ Each of these requirements maps directly to a Foundation component: data governa
 
 The regulatory timeline creates non-negotiable milestones. AI literacy training has been required since February 2025. Transparency obligations are active. General-purpose AI model requirements apply from August 2025. Full high-risk compliance is due by August 2026. Penalties reach €35 million or 7 per cent of global turnover.
 
-Beyond compliance, governance creates value. ISO/IEC 42001:2023, the world's first certifiable AI management system standard, provides a practical framework covering policy, risk management, data governance, lifecycle controls, transparency, and performance evaluation. Research shows that organisations with stronger AI governance deploy AI in three additional business areas, have 28 per cent more staff using AI, and report approximately 5 per cent higher revenue growth.
+Beyond compliance, governance creates value. ISO/IEC 42001:2023, the world's first certifiable AI management system standard, provides a practical framework covering policy, risk management, data governance, lifecycle controls, transparency, and performance evaluation. Research shows that organisations with stronger AI governance deploy AI in three additional business areas, have 28 per cent more staff using AI, and report approximately 5 per cent higher revenue growth.[^76]
 
 Beyond the AI Act itself, specific sectors face additional regulatory layers. Financial services must comply with DORA (Digital Operational Resilience Act). Healthcare faces the Medical Device Regulation for AI diagnostics. Critical infrastructure falls under NIS2 cybersecurity requirements. For organisations in regulated sectors, the Foundation layer must account for these obligations alongside the AI Act.
 
@@ -112,7 +112,11 @@ Chapter 8 introduces the AI Decision Framework, balancing three angles: Value, C
 
 Chapter 11 sequences the execution: Foundation, then Activation, then Scale. Chapter 12 provides the detailed readiness diagnostic. This chapter has laid out what the foundations are and why they matter. The rest of Part II and Part IV show how to use them.
 
-[^21]: Cisco, "AI Readiness Index", 2024
+[^72]: Cisco, "AI Readiness Index", 2024
+[^73]: McKinsey, "State of AI", 2025
+[^74]: Gartner, "Data Readiness for AI", July 2024
+[^75]: BCG, "AI Talent and Training", 2025
+[^76]: Deloitte, "Trustworthy AI", 2025
 
 ## Questions for the Board
 

@@ -6,13 +6,13 @@ This chapter introduces the full framework. It walks through each layer briefly 
 
 ## Why a Single Framework Matters
 
-Scattered initiatives fail because there is no shared model of what the organisation is building. Industry surveys consistently show a wide gap between adoption and tangible impact. Large majorities of firms use generative AI, yet only a small fraction report significant bottom-line benefit. Most organisations struggle to move past the pilot stage to achieve enterprise-wide value and measurable returns.
+Scattered initiatives fail because there is no shared model of what the organisation is building. Industry surveys consistently show a wide gap between adoption and tangible impact. Large majorities of firms use generative AI, yet only a small fraction report significant bottom-line benefit.[^56] Most organisations struggle to move past the pilot stage to achieve enterprise-wide value and measurable returns.
 
 The gap between pilot and production is where value dies. Industry analysis often shows that the vast majority of use cases that could deliver real impact remain stuck in pilot. Without a shared map, they rarely graduate to scale. These pilots are typical "point solutions"—local successes that demonstrate potential but, if not guided by an overall framework, fail to integrate into the broader business. 
 
 An AI transformation is only complete if all the pillars of the framework are covered. Focusing on just one or two layers is a recipe for stagnation. For example, a heavy investment in the Foundation (data and tech) will not yield results if the Operating Model (people and process) remains unchanged. To achieve the full effect of the transformation, each of the pillars is necessary to support the others; Vision provides the target, Products provide the value, the Operating Model provides the execution, and the Foundation provides the capability.
 
-The cause of failure is rarely technology itself. A large share of deployment effort is consumed by unglamorous work like data engineering and workflow integration. Only a small minority of organisations globally possess truly AI-ready data. Research shows that while workflow redesign has the strongest correlation with financial impact, very few firms have fundamentally redesigned how work is done.
+The cause of failure is rarely technology itself. A large share of deployment effort is consumed by unglamorous work like data engineering and workflow integration.[^57] Only a small minority of organisations globally possess truly AI-ready data.[^58] Research shows that while workflow redesign has the strongest correlation with financial impact, very few firms have fundamentally redesigned how work is done.[^59]
 
 The problem is the absence of a coherent, multi-dimensional model. The framework gives the board and C-suite a shared vocabulary: the four layers from Vision to Foundation. It is the basis for asking, on each layer, "Where are we, and where do we need to be?" Success requires building these pillars in concert, ensuring they reinforce each other rather than standing as isolated efforts.
 
@@ -36,7 +36,7 @@ The AI Transformation Framework is the map for the Agentic Organisation. It has 
 
 ## The Framework as a Governance Instrument
 
-The framework is the basis for board and C-suite conversations. The right question for every layer is where the organisation currently sits and where it needs to be. Governance demands span all four layers rather than just technology. Active research suggests that most boards report limited AI knowledge and very few receive regular AI-related metrics. Applying the framework allows the board to assess transformation progress across every dimension.
+The framework is the basis for board and C-suite conversations. The right question for every layer is where the organisation currently sits and where it needs to be. Governance demands span all four layers rather than just technology. Active research suggests that most boards report limited AI knowledge and very few receive regular AI-related metrics.[^60] Applying the framework allows the board to assess transformation progress across every dimension.
 
 To govern effectively, the board should apply three lenses to each layer and pillar of the framework: efficiency, effectiveness, and risk. These are not general abstractions; each can be specifically defined, measured, and improved at every level of the transformation map.
 
@@ -67,7 +67,11 @@ By breaking down the transformation into these four layers and three dimensions,
 
 The AI Transformation Framework provides the map. The next question is how to organise the organisation for agentic work: roles, skills, team design, and the Operating Model layer that connects vision to day-to-day execution. Chapter 6 deep-dives the Operating Model: people, process, roles, skills, and org design, and how to structure teams and roles for agentic work, from task-doer to orchestrator at scale. The framework orients; the Operating Model layer is where strategy becomes structure and where many organisations bottleneck after successful pilots.
 
-[^19]: EU, "AI Act", 2024
+[^56]: BCG, "The Widening AI Value Gap", October 2025
+[^57]: Deloitte, "Tech Trends 2025", 2025
+[^58]: Capgemini Research Institute, "AI Agents in the Enterprise", 2025
+[^59]: McKinsey, "Rewired", 2023
+[^60]: McKinsey, "State of AI", 2025
 
 ## Questions for the Board
 
