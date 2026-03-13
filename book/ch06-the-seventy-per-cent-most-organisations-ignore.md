@@ -10,7 +10,7 @@ This chapter breaks the Operating Model layer into its components. Who does the 
 
 ## The Agentic Operating Model
 
-The Operating Model layer of the AI Transformation Framework has two dimensions, as introduced in Chapter 5: **People** and **Process**. This chapter deepens both into a practical framework for redesign.
+The Operating Model layer of the AI Transformation Framework has three dimensions, as introduced in Chapter 5: **People**, **Process**, and **Enablement**. This chapter deepens all three into a practical framework for redesign.
 
 ### People: Three Roles the Agentic Organisation Needs
 
@@ -42,8 +42,6 @@ This collaboration is most effective when it reaches dynamic delegation. In this
 
 The most effective agentic employees create reusable AI skills and share them with colleagues, which creates compounding momentum as others reuse their work. Yet the gap between intent and action is stark. Whilst almost all organisations acknowledge the need for upskilling, only a tiny fraction have begun this work in a meaningful way.[^65] This challenge is even more acute in Europe, where the pace of occupational transitions is accelerating rapidly beyond historical norms.[^66]
 
-
-
 ### Process: Radical Workflow Redesign
 
 Organisations must aim for outcome-driven processes: redesigning from scratch with AI at the core rather than automating legacy workflows.[^67] The returns from end-to-end redesign are measurably different from bolt-on automation: 30 to 50% business process acceleration, 25 to 40% reduction in low-value work time, and 40 to 60% cuts in engineering and design lead times.[^68] These gains materialise only when processes are redesigned as a whole.
@@ -70,9 +68,24 @@ Three org design models are emerging for how organisations structure their AI ca
 
 The typical progression: centralise first to build standards, governance, and a talent pool. Then decentralise delivery as maturity grows. The Centre of Excellence evolution (Chapter 11) maps onto this same trajectory.
 
-The Agentic Operating Model has two pillars. 
+### Enablement: culture, toolset, and the human foundation
+
+Enablement is where the seventy per cent becomes concrete. BCG's 70/10/20 rule makes the point: if 70 per cent of AI value comes from people, processes, and change management, then the human capacity to absorb and use AI is the primary value driver, not a supporting function. Enablement, however, is more than "human readiness." It has three intertwined elements: a culture that allows experimentation and learning, an AI toolset that makes that experimentation possible, and the motivation and incentives that reinforce the right behaviour. Together they determine whether employees merely have access to AI or actually use it to generate new ideas and better outcomes.
+
+**Culture: permission to experiment and learn.** Enablement starts with culture. Employees need permission to experiment with AI—to try new prompts, combine tools in novel ways, and learn in the flow of work without fear that early mistakes will be held against them. When organisations treat AI as a risk to be controlled rather than a capability to be explored, adoption stays shallow. The goal is a learning culture where AI fluency is built through use, not only through training. Change must be driven bottom-up as well as top-down: frontline teams and middle managers who discover better ways to work with AI become the source of the next wave of improvements. Becoming the kind of agentic employee described in Chapter 3 requires this level of fluency, and most organisations have not yet created the conditions for it.
+
+**Toolset: the platform for experimentation.** Culture alone is not enough. Employees need an AI toolset—access to capable models, agent frameworks, and secure environments—so that experimentation is actually possible. Without it, "experiment with AI" remains theoretical. The toolset includes the engineering and automation capabilities that sit on top of infrastructure: prompt libraries, workflow builders, and integrations that let people embed AI into their daily work. Organisations that provide a clear, supported AI platform (whether built, bought, or partnered) enable their people to turn ideas into practice. Those that leave tooling fragmented or locked behind complex approvals stifle the very experimentation that culture is meant to encourage. Technology investments and data investments only pay off when people can use them.
+
+**Motivation and incentives: signalling what matters.** Enablement must be embedded in how the organisation hires, develops, and rewards people. Research identifies a clear threshold for success: employees who receive several hours of structured training, combined with ongoing coaching, show substantially higher adoption and confidence.[^72] Below this level, training rarely translates into changed behaviour. Yet only a tiny fraction of companies have successfully scaled these upskilling efforts. Management must participate and model the behaviour. When leaders demonstrate AI fluency and set expectations for its use, adoption accelerates; when they delegate AI to the IT department, the signal is unmistakable: AI is optional.
+
+Organisations are now going further, tying incentives directly to AI use. Accenture has made "regular adoption" of its internal AI platforms a visible input in talent and promotion discussions for senior staff pursuing leadership roles, with use of key tools explicitly part of the criteria for advancement.[^73] At the other end of the spectrum, some firms announce generous or unlimited token allowances as a talent perk—signalling that they invest in their people's ability to work with AI and that experimentation is not only allowed but expected. Both approaches reinforce the same message: enablement is not optional, and the organisation rewards those who engage with the toolset and contribute to a culture of learning.
+
+The challenge is no longer just preparing people to work with AI. It is building the systems, culture, and governance that enable humans and AI to work and learn together. When culture, toolset, and incentives align, employees come up with new ideas—better workflows, new use cases, and reusable skills that compound across teams. Europe faces a particular challenge in the scale of its workforce transition: the pace of occupational shifts is accelerating far beyond historical norms. Organisations that build enablement infrastructure now, in all three dimensions, will absorb this change as a competitive advantage. Those that defer it will face a skills gap that no amount of technology can close.
+
+The Agentic Operating Model has three pillars, in order: People, Process and Enablement. 
 _People:_ three new roles (Domain Leader, Agent Orchestrator, AI Product Manager) plus the skills shift from task-doer to orchestrator. 
 _Process:_ radical end-to-end workflow redesign around agents as primary actors, plus three org design patterns (Centralised, Hub-and-Spoke, Hybrid) that define how the operating model scales. 
+_Enablement:_ culture (permission to experiment and learn), toolset (platform for experimentation), and incentives that reinforce the right behaviour. 
 Each dimension must be addressed; redesigning technology without redesigning the operating model is the primary cause of pilot purgatory.
 
 > **Definition: The Agentic Operating Model**
@@ -89,14 +102,13 @@ For European leaders, the operating model shift includes a dimension that does n
 
 This is not an obstacle. When the operating model is redesigned with works council engagement from the outset, the result is higher trust and more durable change. The leader who treats social dialogue as a governance advantage rather than a compliance burden builds a more resilient Agentic Organisation.
 
-
 Span of control is shifting as well. McKinsey envisions one manager with a small human team orchestrating hundreds of agents running autonomously across workflows around the clock.[^70] Traditional hierarchies give way to flexible configurations of human-agent teams. This is the organisational consequence of moving from stand-alone agents through agent groups to full agentic networks.
 
 ## From Structure to Foundation
 
 The Operating Model represents the vast majority of the transformation effort. This chapter has laid out a framework for redesigning roles, skills, and processes for human-agent collaboration. This layer does not stand alone.
 
-It remains tightly coupled with the foundation layer. Process redesign requires data readiness, yet most organisations still lack mature data management. Chapter 7 explores the foundation layer, which forms the basis for the operating model.
+It remains tightly coupled with the foundation layer. Process redesign requires data readiness, yet most organisations still lack mature data management. Chapter 7 explores the Data and Technology foundations that form the basis for the operating model.
 
 [^61]: BCG, "From Potential to Profit: Closing the AI Impact Gap", 2025
 [^62]: BCG, "AI at Work", 2024
@@ -109,14 +121,17 @@ It remains tightly coupled with the foundation layer. Process redesign requires 
 [^69]: McKinsey, "State of AI", 2024
 [^70]: McKinsey, "The Agentic Organization", September 2025
 [^71]: European Trade Union Institute, "Collective Bargaining and AI", 2025
+[^72]: BCG, "AI Talent and Training", 2025
+[^73]: CNBC / Financial Times, "Accenture ties promotions to AI tool usage", February 2026
 
 ## Questions for the Board
 
 1. Does your current operating model reflect the reality of human-agent collaboration, or does it remain a legacy structure with AI tools layered on top?
-2. Do you have the necessary roles—Domain Leaders, Agent Orchestrators, and AI Product Managers—to bridge the gap between AI strategy and daily operations?
+2. Do you have the necessary roles (Domain Leaders, Agent Orchestrators, and AI Product Managers) to bridge the gap between AI strategy and daily operations?
 3. Is your investment in the human and process dimensions of transformation significant enough, or has technology development absorbed the majority of your attention?
 4. Have you mapped your most critical workflows before selecting an orchestration pattern, or are you applying technical solutions to ill-defined processes?
 5. How is social dialogue being used as a strategic advantage to build trust and legitimacy in your redesigned organisation?
+6. How many hours of structured AI training has your average employee received? Your average manager? How does that compare to the five-hour threshold for meaningful adoption improvement?
 
 
 ## Case Study: Allianz, Restructuring Roles Whilst Scaling Agents
@@ -150,7 +165,7 @@ The works council process, whilst slower than a top-down mandate, has produced a
 
 ### 5. Transferable Lesson
 
-The lesson from Allianz connects directly to the Agentic Operating Model. Redesigning People (roles, skills) and Process (workflows, org design) must happen simultaneously with technology deployment, not after it. A seven-agent workflow that eliminates 80% of processing time is a technology achievement. The decision to restructure 1,800 roles, engage works councils, and invest in new skills is an operating model achievement. The second is harder, slower, and more consequential.
+The lesson from Allianz connects directly to the Agentic Operating Model. Redesigning People (roles, skills), Process (workflows, org design), and Enablement must happen simultaneously with technology deployment, not after it. A seven-agent workflow that eliminates 80% of processing time is a technology achievement. The decision to restructure 1,800 roles, engage works councils, and invest in new skills is an operating model achievement. The second is harder, slower, and more consequential.
 
 For European leaders operating within social dialogue frameworks, the principle is concrete: design the human role and the agent workflow at the same time, with governance built in from the start. The 70% is not a follow-on project. It is the project.
 

@@ -78,7 +78,7 @@ The Measure-Gate-Govern Model is not a reporting exercise. It is the mechanism t
 
 The organisations that measure well, DBS, ING, BBVA, Allianz, share a common trait: they treat measurement as a leadership discipline, not a technical afterthought. The right KPIs, applied with gating discipline and governed at the board level, are what separate the Agentic Organisation from the organisation that merely talks about AI.
 
-This book has covered the framework (Chapter 5), the operating model (Chapter 6), foundations (Chapter 7), the decision lens (Chapter 8), the European context (Chapter 9), leadership lessons (Chapter 10), the playbook (Chapter 11), and readiness (Chapter 12). This chapter adds measurement and governance: the mechanism for proving that all of the above is working.
+This book has covered the framework (Chapter 5), the operating model and enablement (Chapter 6), foundations—data and technology (Chapter 7), the decision lens (Chapter 8), the European context (Chapter 9), leadership lessons (Chapter 10), the playbook (Chapter 11), and readiness (Chapter 12). This chapter adds measurement and governance: the mechanism for proving that all of the above is working.
 
 One decision remains: to act or not. That is the subject of the final chapter.
 

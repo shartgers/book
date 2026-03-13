@@ -178,6 +178,8 @@ Source lookup: Research folder checked (ch06-operational-layer.md, ch5 - The AI 
 **Notes:** Renumbering applied; ch07 now runs [^72]–[^76]. Previous orphaned [^21] renumbered to [^72] and assigned inline reference.
 Source lookup: Research folder checked (ch07-foundations-of-ai-transformation.md, book-research-claude.md, ai-readiness-framework.md)
 
+**Structural change (Enablement move):** The Enablement subsection was moved from Chapter 7 to Chapter 6. Former ch07 [^75] (BCG, "AI Talent and Training", 2025) is now ch06 [^72]. Former ch07 [^76] (Deloitte, "Trustworthy AI", 2025) was renumbered to ch07 [^75]. ch07 now runs [^72]–[^75] (Data and Technology only).
+
 ---
 
 ## Fact-check audit — The Thirty-One to Seven Problem (Chapter 08)

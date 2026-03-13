@@ -16,8 +16,8 @@ The central model for the book is the **AI Transformation Framework** (see `imag
 |-----------------|------------|
 | 1. **Vision** (vision, strategy, values, objectives) | Ch 2, Ch 4 |
 | 2. **Products** (by platform or business unit; product vision, personas, customer journeys, frictions) | Ch 5 |
-| 3. **Operating Model** (People: roles, target skills & gaps, org sizing, talent journey, training, team incentives; Process: org. design, cross-functional teams, product way-of-working) | Ch 6 |
-| 4. **Foundation** (Data: reusable data products, analytics, architecture, monetization; Technology: target architecture, platforms & solutions, integration; Enablement: culture, AI & engineering toolbox, automation, agents, skills) | Ch 7 |
+| 3. **Operating Model** (People: roles, target skills & gaps, org sizing, talent journey, training, team incentives; Process: org. design, cross-functional teams, product way-of-working; Enablement: culture, AI & engineering toolbox, automation, agents, skills) | Ch 6 |
+| 4. **Foundation** (Data: reusable data products, analytics, architecture, monetization; Technology: target architecture, platforms & solutions, integration) | Ch 7 |
 
 The following are covered in the book but are **not** part of the four-layer framework: the decision framework **Value, Capabilities, Trust** (Ch 8); **governance, KPIs, financials, implementation** (Ch 12, Ch 13). Do not refer to them as framework layers.
 
@@ -37,7 +37,7 @@ Writers: when you mention "the framework" or "the AI Transformation Framework," 
 | 4: The Four Tiers of Transformation | 9% | ~4,050 | Explains Individual → Team → Department → Organisation. Connects Tiers to framework; details how capability accumulates (or fails to), and what leaders must do at each. Central for showing "how transformation compounds." Describes what it is; the "how to achieve it" is in later chapters.  |
 | 5: The AI Transformation Framework | 6% | ~2,700 | Introduces the four-layer AI Transformation Framework and supporting image. Briefly covers each layer. Orients the reader for the book’s structure; later chapters deep-dive by layer or theme. Covers Vision, Products; other layers follow in later chapters. |
 | 6: The Operational Layer | 6% | ~2,700 | The Operating Model layer of the framework: people, process, roles, skills, and org design. How to structure teams and roles for agentic work; from task-doer to orchestrator at scale. |
-| 7: Foundations of the AI Transformation | 7% | ~3,150 | Dives into the Foundation layer: data, technology, architecture, integration, and employee and agent enablement. |
+| 7: Foundations of the AI Transformation | 7% | ~3,150 | Dives into the Foundation layer: data, technology, architecture, and integration. Chapter 6 covers enablement. |
 | 8: Value, Capabilities, Trust | 8% | ~3,600 | Introduces the decision framework (Value, Capabilities, Trust): how to evaluate, select, and prioritize AI opportunities. Anchors later investment and prioritization chapters. Not a framework layer. |
 | 9: Europe's Distinctive Edge | 7% | ~3,150 | Why Europe’s regulatory and cultural context is an advantage, not a handicap. Articulates the EU AI Act’s opportunity—not just compliance. Distils unique CEO implications. |
 | 10: What the Leaders Did | 9% | ~4,050 | Gathers nine actionable lessons from research/case studies. Case studies support but do not drive the structure. Lessons are concise, transferable, and CEO-focused. |
@@ -75,7 +75,7 @@ Introduces the four-layer AI Transformation Framework and supporting image. Brie
 The Operating Model layer of the framework: people, process, roles, skills, and org design. How to structure teams and roles for agentic work; from task-doer to orchestrator at scale.
 
 **Chapter 7: Foundations of the AI Transformation** (7%)
-The Foundation layer: data, technology, architecture, integration, and employee and agent enablement.
+The Foundation layer: data, technology, architecture, and integration. (Enablement is covered in Chapter 6.)
 
 **Chapter 8: Value, Capabilities, Trust** (8%)
 The decision framework (Value, Capabilities, Trust): how to evaluate, select, and prioritize AI opportunities. Anchors later investment and prioritization chapters. 

@@ -83,7 +83,7 @@ The second concept is the building block of agentic capability. Skills are the c
 >
 > A skill is a reusable AI workflow: a discrete, repeatable sequence of agent actions built by an employee and shared across the organisation.
 
-Skills represent a deeper treatment that Chapter 7 will address in the context of the enterprise technology stack. For now, the critical point is that the Agentic Organisation is not built by deploying AI tools. It is built by developing and enabling people who can orchestrate agents, exercise judgment where it matters, and create reusable workflows that compound across the organisation.
+Skills represent a deeper treatment that Chapter 6 (enablement) and Chapter 7 (enterprise technology stack) will address. For now, the critical point is that the Agentic Organisation is not built by deploying AI tools. It is built by developing and enabling people who can orchestrate agents, exercise judgment where it matters, and create reusable workflows that compound across the organisation.
 
 Without individuals who take initiative in working with AI, and without clarity on the different roles and behavioural shifts required, even the most carefully designed structure remains abstract. A blueprint only becomes real when people understand their part in it and are prepared to act accordingly.
 
