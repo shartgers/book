@@ -1,6 +1,6 @@
-## The Readiness Paradox
+## The Foundational Layer
 
-The urgency for AI deployment is clear: ninety-eight per cent of leaders report increased urgency.[^72] However, instead of readiness increasing, it is actually declining.
+The urgency for AI deployment is clear: ninety-eight per cent of leaders report increased urgency.[^81] However, instead of readiness increasing, it is actually declining.
 
 Comprehensive global surveys show that readiness scores have declined across almost all critical pillars, including Infrastructure, Data, Governance, Talent, and Culture. Only a small minority of organisations worldwide qualify as fully prepared, a figure that has remained stagnant for several years.
 
@@ -14,23 +14,23 @@ The gap has a name. Cisco calls it AI Infrastructure Debt: the accumulation of s
 
 It is the modern form of technical debt: silent, compounding, and value-destroying. The longer it goes unaddressed, the wider the gap between AI ambition and AI reality.
 
-The paradox is self-reinforcing. Urgency drives premature deployment. Premature deployment drives failure. Failure drives more urgency. Nearly eight in ten companies now report using generative AI, yet just as many report no significant bottom-line impact, what McKinsey has described as the "gen AI paradox."[^73]
+The paradox is self-reinforcing. Urgency drives premature deployment. Premature deployment drives failure. Failure drives more urgency. Nearly eight in ten companies now report using generative AI, yet just as many report no significant bottom-line impact, what McKinsey has described as the "gen AI paradox."[^82]
 
-The way to break the cycle is to build properly. This chapter lays out what the Foundation layer requires: Data and Technology. Enablement (the human foundation) is covered in Chapter 6 as part of the seventy per cent and the Operating Model.
+The way to break the cycle is to build properly. This chapter lays out what the Foundation layer requires: Data and Technology. Enablement (the human foundation) is covered in Chapter 7 as part of the seventy per cent and the Operating Model.
 
 ## Where Most Organisations Fail
 
-The evidence is consistent across multiple sources. A majority of organisations still lack truly AI-ready data practices, leading to a high rate of project abandonment for those that are unsupported by solid data foundations.[^74] Research from global institutions confirms that only a small minority of businesses currently consider themselves fully data-ready.
+The evidence is consistent across multiple sources. A majority of organisations still lack truly AI-ready data practices, leading to a high rate of project abandonment for those that are unsupported by solid data foundations.[^83] Research from global institutions confirms that only a small minority of businesses currently consider themselves fully data-ready.
 
-The problem extends beyond data alone. Only a small fraction of organisations have fundamentally redesigned any of their core workflows for AI. As Chapter 6 explored, this type of deep redesign shows the strongest correlation with bottom-line impact, but it requires simultaneous readiness across data, technology, and people.
+The problem extends beyond data alone. Only a small fraction of organisations have fundamentally redesigned any of their core workflows for AI. As Chapter 7 explored, this type of deep redesign shows the strongest correlation with bottom-line impact, but it requires simultaneous readiness across data, technology, and people.
 
-The commonly cited "70/10/20" rule highlights this imbalance: the vast majority of AI value is derived from people, processes, and change management, while only a smaller portion comes from the underlying algorithms and technology infrastructure themselves. Enablement—the human capacity to work with AI—is where much of that value is made or lost; Chapter 6 addresses it as part of the Operating Model.
+The commonly cited "70/10/20" rule highlights this imbalance: the vast majority of AI value is derived from people, processes, and change management, while only a smaller portion comes from the underlying algorithms and technology infrastructure themselves. Enablement—the human capacity to work with AI—is where much of that value is made or lost; Chapter 7 addresses it as part of the Operating Model.
 
 The problem is not technology adoption. It is the absence of foundations.
 
 ## Data and Technology
 
-The Foundation layer, introduced in Chapter 5 as the base of the AI Transformation Framework, has two components that this chapter addresses: Data and Technology. Enablement is covered in Chapter 6. Each component must be addressed; none is sufficient alone.
+The Foundation layer, introduced in Chapter 5 as the base of the AI Transformation Framework, has two components that this chapter addresses: Data and Technology. Enablement is covered in Chapter 7. Each component must be addressed; none is sufficient alone.
 
 **1. Data: the strategic asset.**
 
@@ -56,7 +56,7 @@ These gaps require architectural decisions, not tactical ones. When technology i
 
 The choice between build, buy, and partner is strategic. Platforms range from enterprise suites to open-source frameworks, each with distinct strengths. The risk lies in deciding without reference to the overall architecture, locking the organisation into choices that optimise for one use case but constrain ten others.
 
-Data and Technology sit in the Foundation layer; Enablement is addressed in Chapter 6. The process of making data usable and integrating technology into workflows belongs to the Operating Model (Chapter 6). The two layers are tightly coupled. You cannot redesign workflows without data readiness, and you cannot make data useful without processes that consume it.
+Data and Technology sit in the Foundation layer; Enablement is addressed in Chapter 7. The process of making data usable and integrating technology into workflows belongs to the Operating Model (Chapter 7). The two layers are tightly coupled. You cannot redesign workflows without data readiness, and you cannot make data useful without processes that consume it.
 
 ## Regulation as Foundation
 
@@ -66,15 +66,15 @@ As Chapter 5 outlined, the Act uses a risk-based classification system with four
 
 Any AI system used in finance, HR, critical infrastructure, health, or education must have risk management, data governance, technical documentation, human oversight, accuracy testing, and quality management systems in place by August 2026.
 
-Each of these requirements maps directly to a Foundation component: data governance and quality (Data), documentation and robustness (Technology). Human oversight and AI literacy (Enablement) are addressed in Chapter 6.
+Each of these requirements maps directly to a Foundation component: data governance and quality (Data), documentation and robustness (Technology). Human oversight and AI literacy (Enablement) are addressed in Chapter 7.
 
 The regulatory timeline creates non-negotiable milestones. AI literacy training has been required since February 2025. Transparency obligations are active. General-purpose AI model requirements apply from August 2025. Full high-risk compliance is due by August 2026. Penalties reach €35 million or 7 per cent of global turnover.
 
-Beyond compliance, governance creates value. ISO/IEC 42001:2023, the world's first certifiable AI management system standard, provides a practical framework covering policy, risk management, data governance, lifecycle controls, transparency, and performance evaluation. Research shows that organisations with stronger AI governance deploy AI in three additional business areas, have 28 per cent more staff using AI, and report approximately 5 per cent higher revenue growth.[^75]
+Beyond compliance, governance creates value. ISO/IEC 42001:2023, the world's first certifiable AI management system standard, provides a practical framework covering policy, risk management, data governance, lifecycle controls, transparency, and performance evaluation. Research shows that organisations with stronger AI governance deploy AI in three additional business areas, have 28 per cent more staff using AI, and report approximately 5 per cent higher revenue growth.[^84]
 
 Beyond the AI Act itself, specific sectors face additional regulatory layers. Financial services must comply with DORA (Digital Operational Resilience Act). Healthcare faces the Medical Device Regulation for AI diagnostics. Critical infrastructure falls under NIS2 cybersecurity requirements. For organisations in regulated sectors, the Foundation layer must account for these obligations alongside the AI Act.
 
-For leaders, the Foundation layer must be assessed against the regulatory calendar. Which planned or active AI use cases fall under the high-risk category? Does the organisation have the Data governance and Technology documentation in place for each? (Enablement capacity is covered in Chapter 6.)
+For leaders, the Foundation layer must be assessed against the regulatory calendar. Which planned or active AI use cases fall under the high-risk category? Does the organisation have the Data governance and Technology documentation in place for each? (Enablement capacity is covered in Chapter 7.)
 
 A readiness diagnostic should map each high-risk use case to its Foundation requirements and identify the gap-closing timeline. Without that specificity, compliance becomes a scramble rather than a planned milestone.
 
@@ -82,22 +82,22 @@ Governance is not the enemy of speed. It is the condition for sustainable speed.
 
 ## From Foundations to Decisions
 
-The Foundation layer tells the organisation what it has: the quality of its data, the maturity of its technology, and (as Chapter 6 sets out) the readiness of its people.
+The Foundation layer tells the organisation what it has: the quality of its data, the maturity of its technology, and (as Chapter 7 sets out) the readiness of its people.
 
 Knowing what you have is not the same as knowing what to do with it. The next question is how to decide: which AI opportunities to pursue, which to defer, and which to reject.
 
-Chapter 8 introduces the AI Decision Framework, balancing three angles: Value, Capabilities, and Trust. The Foundation layer feeds two of those dimensions directly. Data readiness and technology maturity determine what is possible (Capabilities). Governance readiness determines what is permissible (Trust). Together, the Foundation layer and the decision framework give leaders the tools to move from diagnosis to action.
+Chapter 9 introduces the AI Decision Framework, balancing three angles: Value, Capabilities, and Trust. The Foundation layer feeds two of those dimensions directly. Data readiness and technology maturity determine what is possible (Capabilities). Governance readiness determines what is permissible (Trust). Together, the Foundation layer and the decision framework give leaders the tools to move from diagnosis to action.
 
-Chapter 11 sequences the execution: Foundation, then Activation, then Scale. Chapter 12 provides the detailed readiness diagnostic. This chapter has laid out what the foundations are and why they matter. The rest of Part II and Part IV show how to use them.
+Chapter 12 sequences the execution: Foundation, then Activation, then Scale. Chapter 13 provides the detailed readiness diagnostic. This chapter has laid out what the foundations are and why they matter. The rest of Part II and Part IV show how to use them.
 
-[^72]: Cisco, "AI Readiness Index", 2024
-[^73]: McKinsey, "State of AI", 2025
-[^74]: Gartner, "Data Readiness for AI", July 2024
-[^75]: Deloitte, "Trustworthy AI", 2025
+[^81]: Cisco, "AI Readiness Index", 2024
+[^82]: McKinsey, "State of AI", 2025
+[^83]: Gartner, "Data Readiness for AI", July 2024
+[^84]: Deloitte, "Trustworthy AI", 2025
 
 ## Questions for the Board
 
-1. Can your leadership team describe the current state of your Data and Technology foundations, not in general terms, but with specific maturity scores or assessments? (See Chapter 6 for Enablement.) If not, what is preventing that clarity?
+1. Can your leadership team describe the current state of your Data and Technology foundations, not in general terms, but with specific maturity scores or assessments? (See Chapter 7 for Enablement.) If not, what is preventing that clarity?
 2. What percentage of your data assets are genuinely AI-ready: catalogued, governed, quality-controlled, and accessible to the teams that need them? How does that compare to the benchmark of 63 per cent not ready?
 3. Is your technology architecture designed for AI at scale, or are you accumulating AI Infrastructure Debt through tactical, project-by-project decisions? Who owns the architectural roadmap?
 4. Which of your current or planned AI use cases fall under the EU AI Act's high-risk category, and do you have the data governance, documentation, and human oversight in place to comply by August 2026?
@@ -146,4 +146,4 @@ European leaders can take one clear lesson from Schneider Electric: the Foundati
 
 When an organisation invests in all three components before scaling, it avoids the pattern of pilots that never graduate to production and AI Infrastructure Debt that compounds silently. Schneider's bet was to make the Foundation layer the basis for investment, roles, and prioritisation across 200-plus factories, not a checklist to be filled in once.
 
-The transferable rule is to assess readiness across Data, Technology, and Enablement (the last explored in Chapter 6), invest in the gaps before scaling, and accept the trade-offs (central capability cost, slower initial deployment, coordination overhead) in exchange for a transformation that can be measured, steered, and scaled as a whole.
+The transferable rule is to assess readiness across Data, Technology, and Enablement (the last explored in Chapter 7), invest in the gaps before scaling, and accept the trade-offs (central capability cost, slower initial deployment, coordination overhead) in exchange for a transformation that can be measured, steered, and scaled as a whole.

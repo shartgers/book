@@ -42,7 +42,15 @@ Every transformation needs a map. The **AI Transformation Framework** is that ma
 
 ---
 
-## Chapter 6: The Operational Layer
+## Chapter 6: The Product Layer
+
+Most AI strategies define what the organisation will build. Fewer define who it will serve, in what customer moment, and what business value it will deliver — unit by unit. The Products layer of the AI Transformation Framework is where strategy moves from intention to customer experience. It is also the layer most often delegated to product teams and forgotten at the executive table.
+
+The question this chapter asks is not whether to build AI features. It is whether you have defined — for each business unit or department — the product vision, the customer journey you are reimagining, and the specific frictions AI will remove. Features without a product strategy are experiments. A product strategy without a business unit view is a corporate abstraction. The organisations gaining the most ground are those that have made the Product Layer a leadership exercise, not a technology one.
+
+---
+
+## Chapter 7: The Operational Layer
 
 The framework's Operating Model layer (the third layer) is where strategy becomes structure: people, process, roles, skills, and org design. How do you organise teams for agentic work? How do roles shift from task-doer to orchestrator at scale? This chapter deep-dives into the layer that connects the vision to day-to-day execution—the one that most often becomes the bottleneck when organisations pilot well but fail to scale.
 

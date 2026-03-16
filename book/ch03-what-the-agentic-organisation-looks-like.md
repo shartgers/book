@@ -1,4 +1,4 @@
-## You Cannot Build What You Cannot Describe
+## What the Agentic Organisation Looks Like
 
 Before the playbook, before the phased roadmap, before the first pilot, a leader needs a concrete working definition of the destination. Not a consultant's abstraction. Not a vendor's product demo. A shared, operational picture of what the organisation looks like after transformation.
 
@@ -44,13 +44,13 @@ They set goals, define boundaries, review outputs, and handle exceptions, whilst
 
 Three distinct profiles are emerging in organisations that have made this shift:
 
-| Profile | Role | Example |
+| Profile | Focus | Example |
 |---------|------|---------|
 | **Supervisor** | Orchestrates multiple AI agents across workflows | A project manager who coordinates AI agents handling scheduling, reporting, and resource allocation |
 | **Specialist** | Handles exceptions and edge cases that agents cannot resolve | A compliance officer who reviews flagged transactions that agents escalated |
 | **Augmented Frontline Worker** | Uses AI agents to eliminate repetitive tasks and focus on human-centric work | A customer success representative whose agent handles data gathering, letting them focus on relationship-building |
 
-These profiles are not theoretical categories. They describe roles already visible in organisations that have moved beyond bolt-on AI adoption.
+These profiles describe ways of working with agents, not job titles. They are already visible in organisations that have moved beyond bolt-on AI adoption. How they map into formal positions—such as Domain Leader, Agent Orchestrator, and AI Product Manager—is covered in Chapter 7.
 
 The productivity evidence is substantial. A software team where output increased by 39% after AI agents became the default platform.[^30] Crucially, more experienced workers benefit more from agents, with one standard deviation higher experience correlating with 6% higher acceptance rates, whilst junior workers benefit more from tool-only AI. A legal technology trial across 12 firms found a 41% average productivity increase. Studies show time savings of 65 to 86% versus human-only workflows.[^31]
 
@@ -83,7 +83,7 @@ The second concept is the building block of agentic capability. Skills are the c
 >
 > A skill is a reusable AI workflow: a discrete, repeatable sequence of agent actions built by an employee and shared across the organisation.
 
-Skills represent a deeper treatment that Chapter 6 (enablement) and Chapter 7 (enterprise technology stack) will address. For now, the critical point is that the Agentic Organisation is not built by deploying AI tools. It is built by developing and enabling people who can orchestrate agents, exercise judgment where it matters, and create reusable workflows that compound across the organisation.
+Skills represent a deeper treatment that Chapter 7 (enablement) and Chapter 8 (enterprise technology stack) will address. For now, the critical point is that the Agentic Organisation is not built by deploying AI tools. It is built by developing and enabling people who can orchestrate agents, exercise judgment where it matters, and create reusable workflows that compound across the organisation.
 
 Without individuals who take initiative in working with AI, and without clarity on the different roles and behavioural shifts required, even the most carefully designed structure remains abstract. A blueprint only becomes real when people understand their part in it and are prepared to act accordingly.
 
@@ -120,7 +120,7 @@ European co-determination frameworks add a governance dimension that, properly u
 
 The consequences of proceeding without proper governance are concrete. A 2025 French court suspended an AI project and imposed penalties of 1,000 euros per day for 90 days, plus 5,000 euros in damages to the works council, for deploying without consultation.[^36] Allianz, by contrast, signed the EU AI Pact in November 2024, treating proactive compliance as a competitive differentiator rather than a cost of doing business.[^37]
 
-Building governance into the design from the outset, rather than retrofitting it after deployment, is what separates organisations that scale from those that stall. The board needs a structured way to assess transformation progress across all dimensions rather than relying on anecdotal pilot reports. The AI Transformation Framework introduced in Chapter 5, and the governance and measurement tools developed in Chapters 12 and 13, provide that structure.
+Building governance into the design from the outset, rather than retrofitting it after deployment, is what separates organisations that scale from those that stall. The board needs a structured way to assess transformation progress across all dimensions rather than relying on anecdotal pilot reports. The AI Transformation Framework introduced in Chapter 5, and the governance and measurement tools developed in Chapters 13 and 14, provide that structure.
 
 ## From Picture to Route
 

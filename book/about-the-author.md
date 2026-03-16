@@ -1,4 +1,4 @@
-##About the author
+## About the author
 
 Stephan Hartgers-Rus is a former McKinsey strategy consultant with over 25 years of experience. He helps organisations create tangible value from technology. This work began long before AI reached the boardroom. He studied Econometrics and Computer Science, which are fields now central to the rise of AI.
 

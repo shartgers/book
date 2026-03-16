@@ -1,4 +1,4 @@
-## The Regulation Apology
+## Europe's Distinctive Edge
 
 Every European CEO I speak with apologises for their regulation. They frame it as a constraint: slower, more cautious, more expensive to navigate than their American or Asian counterparts. They are wrong.
 
@@ -6,15 +6,15 @@ Europe's regulatory rigour, its culture of trust, and its pragmatic approach to 
 
 The EU AI Act is not a ceiling. It is a foundation.
 
-The investment figures seem to settle the argument. Historically, European AI venture capital has trailed significantly behind the United States, with American companies often outspending their European counterparts by a wide margin across most sectors.[^86] By almost any measure of capital and infrastructure, Europe appears to be in a position of catch-up.
+The investment figures seem to settle the argument. Historically, European AI venture capital has trailed significantly behind the United States, with American companies often outspending their European counterparts by a wide margin across most sectors.[^94] By almost any measure of capital and infrastructure, Europe appears to be in a position of catch-up.
 
 
-But there is a second set of numbers that rarely features in the boardroom conversation. A clear majority of global adults trust the EU to regulate AI effectively, showing significantly more confidence in the European approach than in those of the US or China.[^87] Meanwhile, public trust in fully autonomous AI agents has seen a sharp decline in a very short period.
+But there is a second set of numbers that rarely features in the boardroom conversation. A clear majority of global adults trust the EU to regulate AI effectively, showing significantly more confidence in the European approach than in those of the US or China.[^95] Meanwhile, public trust in fully autonomous AI agents has seen a sharp decline in a very short period.
 
 
-Over half of European generative AI users believe adoption would increase with proper government regulation.[^88] The commercial premium for demonstrably trustworthy AI keeps growing.
+Over half of European generative AI users believe adoption would increase with proper government regulation.[^96] The commercial premium for demonstrably trustworthy AI keeps growing.
 
-I call this the European Advantage Triad: Clarity, Trust, Capability. Three structural advantages that regulation and culture create for leaders willing to convert compliance into competitive edge. The triad builds on the Trust element of the AI Decision Framework (Chapter 8) and anchors it in Europe's distinctive regulatory and cultural context.
+I call this the European Advantage Triad: Clarity, Trust, Capability. Three structural advantages that regulation and culture create for leaders willing to convert compliance into competitive edge. The triad builds on the Trust element of the AI Decision Framework (Chapter 9) and anchors it in Europe's distinctive regulatory and cultural context.
 
 > **Definition: The European Advantage Triad: Clarity, Trust, Capability**
 >
@@ -35,14 +35,14 @@ The Mittelstand tells a quieter version of the same story. A significant portion
 
 The honest caveat deserves stating plainly. Europe's AI investment gap is stark, and regulation alone does not close it. The gap is in capital and infrastructure, not in the quality of what European companies build when they do invest. The pattern among high-performing AI organisations consistently points to governance discipline, not spending volume, as the differentiator.
 
-The small group of European firms classified as "AI Achievers" generate substantially greater revenue growth than their peers.[^89] Their defining trait is not bigger budgets or faster deployment. It is designing AI responsibly from the start, building governance into their programmes from the very beginning.
+The small group of European firms classified as "AI Achievers" generate substantially greater revenue growth than their peers.[^97] Their defining trait is not bigger budgets or faster deployment. It is designing AI responsibly from the start, building governance into their programmes from the very beginning.
 
 
 The problem is not regulation. It is the failure to convert regulation into competitive advantage.
 
 ## The European Advantage Triad
 
-![The European Advantage Triad](images/ch09-european-advantage-triad.png)
+![The European Advantage Triad](images/ch10-european-advantage-triad.png)
 
 
 Each element has a clear evidence base, already visible in the companies, markets, and regulatory dynamics that define European AI today.
@@ -53,10 +53,10 @@ As Graham Abell, Vice President, Public Policy, Workday, described it, the EU fr
 
 The Brussels Effect extends this clarity beyond European borders. Microsoft, Google, Amazon and over 23 other general-purpose AI providers have signed the EU's Code of Practice. UK firms are drifting "towards the highest standard of AI regulation", making the EU AI Act a de facto global baseline. For a company that masters one set of rules, the reward is a governance architecture that scales across markets.
 
-**Trust.** Research shows that a majority of consumers would pay a premium for AI tools that can guarantee data safety. Furthermore, most users now express a preference for stricter rules regarding safety and fairness.[^90] As trust in autonomous agents declines, the commercial value of being demonstrably trustworthy is only increasing.
+**Trust.** Research shows that a majority of consumers would pay a premium for AI tools that can guarantee data safety. Furthermore, most users now express a preference for stricter rules regarding safety and fairness.[^98] As trust in autonomous agents declines, the commercial value of being demonstrably trustworthy is only increasing.
 
 
-The trust advantage extends to the workforce. Employees who feel secure about their future in an AI-augmented workplace are significantly more likely to embrace the technology. Conversely, a large majority of workers in major economies remain sceptical, with many believing their leaders are not being entirely transparent about the impact on jobs.[^91]
+The trust advantage extends to the workforce. Employees who feel secure about their future in an AI-augmented workplace are significantly more likely to embrace the technology. Conversely, a large majority of workers in major economies remain sceptical, with many believing their leaders are not being entirely transparent about the impact on jobs.[^99]
 
 
 Employers remain the most trusted institution on this topic, which gives organisational leaders a powerful lever.
@@ -73,7 +73,7 @@ The International Association of Privacy Professionals mapped ten operational AI
 Industry research shows that a majority of organisations globally struggle with the data quality required for AI success. Responsible data handling is rapidly becoming a key differentiator, and European firms have been building this capability through years of rigorous compliance experience.
 
 
-The market for AI governance tools is forecast to grow dramatically over the next decade. Research suggests that structured governance can provide a massive boost to productivity, depending on the sector and how maturity is implemented.[^92] What European companies are building today, the global market will inevitably require tomorrow.
+The market for AI governance tools is forecast to grow dramatically over the next decade. Research suggests that structured governance can provide a massive boost to productivity, depending on the sector and how maturity is implemented.[^100] What European companies are building today, the global market will inevitably require tomorrow.
 
 
 ## What the AI Act Demands of Leadership Now
@@ -101,7 +101,7 @@ Labour dialogue is a governance mechanism, not a burden. Germany's Works Council
 While only a minority of European unions have established AI collective bargaining agreements today, many more are currently in active negotiation. For leaders, this represents a critical window to shape these agreements before the terms are finalised across entire industries.
 
 
-The Nordics illustrate both the opportunity and the gap. Denmark, Finland, and Sweden lead European enterprise AI adoption at 35 to 42 per cent. Yet only 6 to 11 per cent of Nordic firms scale AI to full value, and over half invest less than €500,000 annually.[^93] Adoption without investment produces the same outcome everywhere: promising pilots that never compound.
+The Nordics illustrate both the opportunity and the gap. Denmark, Finland, and Sweden lead European enterprise AI adoption at 35 to 42 per cent. Yet only 6 to 11 per cent of Nordic firms scale AI to full value, and over half invest less than €500,000 annually.[^101] Adoption without investment produces the same outcome everywhere: promising pilots that never compound.
 
 Financial services face the most complex regulatory intersection. DORA has been mandatory since January 2025. Credit scoring and insurance pricing are classified as high-risk under the AI Act. The ECB's supervisory priorities for 2026 to 2028 centre on operational resilience.
 
@@ -115,14 +115,14 @@ The honest position: leaders should not celebrate regulation as inherently good.
 
 The companies already doing this are the subject of the next chapter: not what Europe's edge is in theory, but what the leaders did with it in practice.
 
-[^86]: McKinsey, "European VC and AI Investment Report", 2024
-[^87]: Pew Research Center, "Global Trust in AI Governance", 2025
-[^88]: Deloitte, "European Trust Survey", 2025
-[^89]: Accenture, "AI Achievers: Designing AI Responsibly", 2025
-[^90]: Capgemini, "Rise of Agentic AI", 2025
-[^91]: Edelman, "Trust Barometer", 2026
-[^92]: Auxilion, "EU AI Act Compliance Benefits Analysis", 2025
-[^93]: Eurostat / Accenture, "Nordic AI Adoption and Scaling", 2025
+[^94]: McKinsey, "European VC and AI Investment Report", 2024
+[^95]: Pew Research Center, "Global Trust in AI Governance", 2025
+[^96]: Deloitte, "European Trust Survey", 2025
+[^97]: Accenture, "AI Achievers: Designing AI Responsibly", 2025
+[^98]: Capgemini, "Rise of Agentic AI", 2025
+[^99]: Edelman, "Trust Barometer", 2026
+[^100]: Auxilion, "EU AI Act Compliance Benefits Analysis", 2025
+[^101]: Eurostat / Accenture, "Nordic AI Adoption and Scaling", 2025
 
 ## Questions for the Board
 
@@ -185,10 +185,10 @@ For European financial institutions in particular, where DORA, the AI Act, and E
 
 The lesson is direct: governance in a regulated European environment is not overhead. It is the mechanism that converts pilots into production. ING did not succeed despite regulation. It succeeded because the discipline regulation demands, when embedded in operating structure, produces faster and more reliable deployment than unstructured experimentation.
 
-## Handoff — Reviewers — Chapter 09
+## Handoff — Reviewers — Chapter 10
 Status: complete
-Output: output/chapters/chapter-09/ch09-final.md
-Review report: output/chapters/chapter-09/ch09-review.md
+Output: output/chapters/chapter-10/ch10-final.md
+Review report: output/chapters/chapter-10/ch10-review.md
 Style: PASS
 Character: PASS
 Continuity: PASS

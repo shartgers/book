@@ -1,12 +1,12 @@
-## When Individual Wins Don't Add Up
+## When Local Wins Don't Add Up
 
 The pattern repeats across every failed AI programme. A handful of employees discover that agentic tools can compress hours of work into minutes. Their enthusiasm spreads to a team. A department runs a pilot. Results are impressive. And then nothing compounds. The organisation barely moves.
 
-This is not a failure of ambition. It is a failure to align the transformation path with organisational maturity. 
+This is not a failure of ambition. It is a failure to align the transformation path with organisational maturity.
 
-The first tier of transformation, the individual, is where agentic employees are made. As Chapter 3 established, these are the people who learn to work alongside AI agents as thinking partners, not search tools. Employees who effectively use agentic tools achieve orders-of-magnitude higher output: completing tasks faster, producing higher quality work, and in some domains generating twice the throughput per week. Results like these generate genuine excitement, and that excitement can obscure a structural problem. 
+Local pilots and local initiatives are point solutions: they deliver value where they are deployed, but they do not add up to organisation-wide change. As Chapter 3 established, the people who learn to work alongside AI agents as thinking partners achieve orders-of-magnitude higher output. That kind of success can seed a pilot, and pilots can produce compelling results. The structural problem is that pilot success in one place rarely becomes reusable capability elsewhere. A win in one team or one function stays exactly there unless the organisation is deliberately built to let capability compound.
 
-But individual fluency does not automatically become team capability. Team capability does not automatically become departmental transformation. And departmental wins do not automatically become organisational change.
+Local wins do not automatically become team capability. Team capability does not automatically become departmental transformation. And departmental wins do not automatically become organisational change.
 
 Each tier requires different leadership. Each demands different governance. Each is measured by different indicators of success. The failure to recognise this is structural, not incidental. European leaders are underprepared for this transformation in part because they assume that investment at the top will cascade downward. It does not. Capability compounds only when the path through the tiers is chosen deliberately, based on the organisation's existing foundation.
 
@@ -16,7 +16,7 @@ Individual adoption has massively outpaced organisational readiness. This gap wi
 
 The evidence for bottom-up sequencing is consistent. Enterprise deployments that succeed empower power users and line managers rather than relying on centralised labs. As Chapter 1 established, the vast majority of real value comes from people, processes, and culture. This foundation is built tier by tier and cannot be installed from the top.
 
-Failures in this space describe a similar pattern. Most AI transformations struggle to deliver measurable returns, often stalling at the pilot stage.[^38] Only a small fraction of initiatives ever reach full production. The consistent thread is a top-down, enterprise-first approach that attempts to bypass the foundational tiers.
+Failures in this space describe a similar pattern. Most AI transformations struggle to deliver measurable returns, often stalling at the pilot stage.[^38] Only a small fraction of local initiatives ever reach full production or add up to organisation-wide change. The consistent thread is either a top-down, enterprise-first approach that attempts to bypass the foundational tiers, or a proliferation of point solutions that never connect into a path that compounds.
 
 A significant self-assessment gap compounds the problem. Many leaders believe their organisations are ready for advanced maturity, yet the reality suggests otherwise.[^39] This distance between perceived and actual readiness highlights a structural misunderstanding: leaders assume they have reached advanced stages when their organisations are still mastering the basics.
 
@@ -118,7 +118,7 @@ Over-investing in Tier 4 before Tiers 1 and 2 are in place is the first. Enterpr
 
 Applying the same governance to all tiers is the second. Light-touch governance that works for individual experimentation is insufficient for departmental workflow redesign. Rigorous governance designed for enterprise deployment will suffocate early-stage adoption. Each tier requires governance calibrated to its risk profile and maturity.
 
-Ignoring skill creation and sharing is the third. As Chapter 3 introduced, a skill is a reusable AI workflow. When individuals create skills but do not share them, the organisation loses its most powerful compounding mechanism. Shared skills are how Tier 1 fluency becomes Tier 2 capability, and how Tier 2 capability becomes Tier 3 workflow redesign.
+Ignoring skill creation and sharing is the third. As Chapter 3 introduced, a skill is a reusable AI workflow. When people create skills but do not share them, local wins stay local—the organisation loses its most powerful compounding mechanism. Shared skills are how Tier 1 fluency becomes Tier 2 capability, and how Tier 2 capability becomes Tier 3 workflow redesign.
 
 ## The Path is a Strategic Choice
 

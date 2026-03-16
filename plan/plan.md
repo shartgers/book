@@ -106,7 +106,15 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Review → output/chapters/chapter-05/ch05-review.md
 - [x] Done → output/chapters/chapter-05/ch05-final.md
 
-### Chapter 06: The Operational Layer
+### Chapter 06: The Product Layer (NEW — inserted between Ch 5 and old Ch 6)
+- [x] Beats → output/chapters/chapter-06-product-layer/ch06p-beats.md
+- [x] Research brief → output/chapters/chapter-06-product-layer/ch06p-research-brief.md
+- [x] Draft → output/chapters/chapter-06-product-layer/ch06p-draft.md
+- [x] Perplexity Gate → output/chapters/chapter-06-product-layer/ch06p-draft-pg.md
+- [x] Review → output/chapters/chapter-06-product-layer/ch06p-review.md
+- [x] Done → output/chapters/chapter-06-product-layer/ch06p-final.md
+
+### Chapter 07: The Operational Layer (previously Ch 06)
 - [x] Beats → output/chapters/chapter-06/ch06-beats.md
 - [x] Research brief → output/chapters/chapter-06/ch06-research-brief.md
 - [x] Draft → output/chapters/chapter-06/ch06-draft.md
@@ -114,7 +122,7 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Review → output/chapters/chapter-06/ch06-review.md
 - [x] Done → output/chapters/chapter-06/ch06-final.md
 
-### Chapter 07: Foundations of the AI Transformation
+### Chapter 08: Foundations of the AI Transformation (previously Ch 07)
 - [x] Beats → output/chapters/chapter-07/ch07-beats.md
 - [x] Research brief → output/chapters/chapter-07/ch07-research-brief.md
 - [x] Draft → output/chapters/chapter-07/ch07-draft.md
@@ -122,7 +130,7 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Review → output/chapters/chapter-07/ch07-review.md
 - [x] Done → output/chapters/chapter-07/ch07-final.md
 
-### Chapter 08: Value, Capabilities, Trust
+### Chapter 09: Value, Capabilities, Trust (previously Ch 08)
 - [x] Beats → output/chapters/chapter-08/ch08-beats.md
 - [x] Research brief → output/chapters/chapter-08/ch08-research-brief.md
 - [x] Draft → output/chapters/chapter-08/ch08-draft.md
@@ -130,7 +138,7 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Review → output/chapters/chapter-08/ch08-review.md
 - [x] Done → output/chapters/chapter-08/ch08-final.md
 
-### Chapter 09: Europe's Distinctive Edge
+### Chapter 10: Europe's Distinctive Edge (previously Ch 09)
 - [x] Beats → output/chapters/chapter-09/ch09-beats.md
 - [x] Research brief → output/chapters/chapter-09/ch09-research-brief.md
 - [x] Draft → output/chapters/chapter-09/ch09-draft.md
@@ -138,7 +146,7 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Review → output/chapters/chapter-09/ch09-review.md
 - [x] Done → output/chapters/chapter-09/ch09-final.md
 
-### Chapter 10: What the Leaders Did
+### Chapter 11: What the Leaders Did (previously Ch 10)
 - [x] Beats → output/chapters/chapter-10/ch10-beats.md
 - [x] Research brief → output/chapters/chapter-10/ch10-research-brief.md
 - [x] Draft → output/chapters/chapter-10/ch10-draft.md
@@ -146,7 +154,7 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Review → output/chapters/chapter-10/ch10-review.md
 - [x] Done → output/chapters/chapter-10/ch10-final.md
 
-### Chapter 11: Building Your Agentic Organisation
+### Chapter 12: Building Your Agentic Organisation (previously Ch 11)
 - [x] Beats → output/chapters/chapter-11/ch11-beats.md
 - [x] Research brief → output/chapters/chapter-11/ch11-research-brief.md
 - [x] Draft → output/chapters/chapter-11/ch11-draft.md
@@ -154,7 +162,7 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Review → output/chapters/chapter-11/ch11-review.md
 - [x] Done → output/chapters/chapter-11/ch11-final.md
 
-### Chapter 12: Readiness
+### Chapter 13: Readiness (previously Ch 12)
 - [x] Beats → output/chapters/chapter-12/ch12-beats.md
 - [x] Research brief → output/chapters/chapter-12/ch12-research-brief.md
 - [x] Draft → output/chapters/chapter-12/ch12-draft.md
@@ -162,7 +170,7 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Review → output/chapters/chapter-12/ch12-review.md
 - [x] Done → output/chapters/chapter-12/ch12-final.md
 
-### Chapter 13: Measuring What Matters
+### Chapter 14: Measuring What Matters (previously Ch 13)
 - [x] Beats → output/chapters/chapter-13/ch13-beats.md
 - [x] Research brief → output/chapters/chapter-13/ch13-research-brief.md
 - [x] Draft → output/chapters/chapter-13/ch13-draft.md
@@ -170,7 +178,7 @@ Wave 4:             Reviewers → chapter marked done
 - [x] Review → output/chapters/chapter-13/ch13-review.md
 - [x] Done → output/chapters/chapter-13/ch13-final.md
 
-### Chapter 14: A Leadership Decision
+### Chapter 15: A Leadership Decision (previously Ch 14)
 - [x] Beats → output/chapters/chapter-14/ch14-beats.md
 - [x] Research brief → output/chapters/chapter-14/ch14-research-brief.md
 - [x] Draft → output/chapters/chapter-14/ch14-draft.md

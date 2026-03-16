@@ -305,3 +305,30 @@ Source lookup: ch13 body text cross-referenced against BCG and MIT CISR research
 **Unverified claims:** None
 **Notes:** Ch14 had no existing footnotes (handoff log confirmed "no new entries required" — this audit adds them). Five new entries: [^109]–[^113]. [^110] and [^112] both cite BCG AI Radar January 2026 — different claims (investment continuity vs. leadership ownership), not adjacent, both retained as separate inline references pointing to the same source. The book now runs continuously from [^1] to [^113] across all chapters.
 Source lookup: ch14 body text cross-referenced against BCG AI Radar 2026, PwC CEO Survey 2026, and EIT job data.
+
+---
+
+## Fact-check audit — The Product Layer (Chapter 06)
+
+| Sentence (first 8 words) | Label | Action |
+|--------------------------|-------|--------|
+| "The data is consistent. Industry analysis shows the vast majority..." | Yes need new | Added [^61] — McKinsey, The Agentic Organization, September 2025 |
+| "Approximately 60% of global searches now end without a click..." | Yes need new | Added [^62] — The Digital Bloom / Click-Vision, 2025–2026 |
+| "Bain has called this 'the most consequential shift in discovery...'" | Yes need new | Added [^63] — Bain & Company, Goodbye Clicks Hello AI, 2025 |
+| "80% of Netflix viewing hours come from AI-powered recommendations..." | Yes need new | Added [^64], [^65] — industry / McKinsey; Medallia 2025 |
+| "Yet 73% of B2B buyers now expect personalised, consumer-grade..." | Yes need new | Added [^66] — McKinsey, State of AI, 2025 |
+| "Gartner predicts that 40% of enterprise applications will include..." | Yes need new | Added [^67] — Gartner press release, August 2025 |
+| "Research shows that AI-mature companies generate 72% of their AI value..." | Yes need new | Added [^68] — BCG, From Potential to Profit, 2025 |
+| "Charging general managers with AI targets... three times more likely..." | Yes need new | Added [^69] — McKinsey, State of AI, 2025 |
+| "High-risk AI systems... must meet transparency, documentation... Consumer-facing AI features... must notify users..." | Yes need new | Added [^70] — EU AI Act Arts 13/52; LegalNodes 2026 |
+| "Over 200 companies, including Allianz and Deutsche Telekom, have signed the EU AI Pact..." | Yes need new | Added [^71] — European Commission, EU AI Pact signatories |
+| "Research indicates that 76% of European consumers would switch..." | Yes need new | Added [^72] — Capgemini Research Institute (verify exact report title) |
+| "orders from AI search platforms had increased 15 times since January 2025" (case study) | Yes need new | Added [^73] — Digital Commerce 360 / Shopify Q4 2025 |
+| "compressing organic web traffic by 15 to 25 per cent" (case study) | Yes need new | Added [^74] — Bain, Goodbye Clicks Hello AI, 2025 |
+| "Full-year 2025 revenue reached $11.56 billion... B2B GMV nearly doubled..." (case study) | Yes need new | Added [^75] — Digital Commerce 360; Shopify Q4 2025 earnings |
+| "The Winter '26 Edition contained more than 150 AI product updates" (case study) | Yes need new | Added [^76] — Shopify Winter '26 Edition, February 2026 |
+| "One fashion retailer with 500 product SKUs... 23 per cent increase... $15,000 in agency cost savings" (case study) | Yes need new | Added [^77] — PageFly / Shopify Magic user case, 2026 |
+
+**Unverified claims:** None. [^72] (76% European consumers would switch): Capgemini and similar consumer-trust reports may carry this or a close statistic; recommend confirming exact source and title.
+**Notes:** Chapter 05 ends at [^60]. This chapter adds [^61]–[^77]. Case study footnotes added only for external statistics (Shopify revenue, zero-click, merchant result). Do not renumber unless explicitly requested.
+Source lookup: Research folder checked (chapter-06p-web-research.md, book-research-claude.md). No web search used.

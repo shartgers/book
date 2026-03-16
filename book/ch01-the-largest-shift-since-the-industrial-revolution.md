@@ -1,4 +1,4 @@
-## The Ninety-Five Per Cent Paradox
+## The Largest Shift Since the Industrial Revolution
 
 Ninety-five per cent of enterprise AI implementations fail to deliver sustained impact. Not because the technology does not work. Not because the strategy was wrong. Because organisations are treating the largest paradigm shift since the industrial revolution as though it were another software rollout.
 

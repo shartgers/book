@@ -14,7 +14,7 @@ An AI transformation is only complete if all the pillars of the framework are co
 
 The cause of failure is rarely technology itself. A large share of deployment effort is consumed by unglamorous work like data engineering and workflow integration.[^57] Only a small minority of organisations globally possess truly AI-ready data.[^58] Research shows that while workflow redesign has the strongest correlation with financial impact, very few firms have fundamentally redesigned how work is done.[^59]
 
-The problem is the absence of a coherent, multi-dimensional model. The framework gives the board and C-suite a shared vocabulary: the four layers from Vision to Foundation. It is the basis for asking, on each layer, "Where are we, and where do we need to be?" Success requires building these pillars in concert, ensuring they reinforce each other rather than standing as isolated efforts.
+The problem is the absence of a coherent, multi-dimensional model. The framework gives the board and C-suite a shared vocabulary. It is the basis for asking, on each layer, "Where are we, and where do we need to be?" Success requires building these pillars in concert, ensuring they reinforce each other rather than standing as isolated efforts.
 
 ## The AI Transformation Framework
 
@@ -26,9 +26,14 @@ The AI Transformation Framework is the map for the Agentic Organisation. It has 
 
 **Layer 2: Products.** This layer is organised by platform or business unit. It covers product vision and objectives, products, personas, customer journeys, and frictions. In an Agentic Organisation, products become AI-native and customer journeys dynamic and adaptive, including concepts such as zero-click discovery. Where you play and how you win in each segment depends on this layer. Later chapters go deeper by business unit.
 
-**Layer 3: Operating Model.** This is where strategy becomes structure. It has three dimensions, in order: _People:_ roles, target skills and gaps, org sizing, talent journey, training, and team incentives. The agentic employee (Chapter 3) sits here: orchestrating agents, with the three profiles of supervisor, specialist, and augmented frontline worker. _Process:_ org design, cross-functional teams, and product way-of-working. Transformation demands end-to-end workflow redesign around human–agent collaboration. _Enablement:_ culture, the AI and engineering toolbox, and the organisational capacity to absorb change (covered in Chapter 6). Chapter 6 dives deeper into this layer.
+**Layer 3: Operating Model.** This is where strategy becomes structure. It has three dimensions: 
+_People:_ roles, target skills and gaps, org sizing, talent journey, training, and team incentives. The agentic employee (Chapter 3) sits here: orchestrating agents, with the three profiles of supervisor, specialist, and augmented frontline worker. 
+_Process:_ org design, cross-functional teams, and product way-of-working. Transformation demands end-to-end workflow redesign around human–agent collaboration. 
+_Enablement:_ culture, the AI and engineering toolbox, and the organisational capacity to stimulate and absorb change. Enablement ensures that change can be driven bottom-up as well as top-down: employees understand AI, adopt an orchestrator mindset, and contribute as agentic employees; management participates and models the behaviour. 
 
-**Layer 4: Foundation.** The base of the framework has three pillars. _Data:_ reusable data products, analytics, architecture, and monetisation; data as a strategic asset. _Technology:_ target architecture, platforms and solutions, integration; including protocols such as MCP and agent standards. _Enablement:_ culture, the AI and engineering toolbox, automation, agents, and skills. Enablement ensures that change can be driven bottom-up as well as top-down: employees understand AI, adopt an orchestrator mindset, and contribute as agentic employees; management participates and models the behaviour. Enablement is covered in Chapter 6 as part of the seventy per cent and the Operating Model. Chapter 7 covers the Foundation layer's Data and Technology components in detail.
+**Layer 4: Foundation.** The base of the framework has three pillars. 
+_Data:_ reusable data products, analytics, architecture, and monetisation; data as a strategic asset. 
+_Technology:_ target architecture, platforms and solutions, integration; including protocols such as MCP and agent standards.
 
 > **Definition: The AI Transformation Framework**
 >
@@ -65,7 +70,7 @@ By breaking down the transformation into these four layers and three dimensions,
 
 ## From Map to Execution
 
-The AI Transformation Framework provides the map. The next question is how to organise the organisation for agentic work: roles, skills, team design, and the Operating Model layer that connects vision to day-to-day execution. Chapter 6 deep-dives the Operating Model: people, process, roles, skills, and org design, and how to structure teams and roles for agentic work, from task-doer to orchestrator at scale. The framework orients; the Operating Model layer is where strategy becomes structure and where many organisations bottleneck after successful pilots.
+The AI Transformation Framework provides the map. The next question is how to organise the organisation for agentic work: roles, skills, team design, and the Operating Model layer that connects vision to day-to-day execution. Chapter 7 deep-dives the Operating Model: people, process, roles, skills, and org design, and how to structure teams and roles for agentic work, from task-doer to orchestrator at scale. The framework orients; the Operating Model layer is where strategy becomes structure and where many organisations bottleneck after successful pilots.
 
 [^56]: BCG, "The Widening AI Value Gap", October 2025
 [^57]: Deloitte, "Tech Trends 2025", 2025

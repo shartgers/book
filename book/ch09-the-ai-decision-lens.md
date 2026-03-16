@@ -1,12 +1,10 @@
-## The Thirty-One to Seven Problem
+## The AI Decision Lens
 
 Early AI pilots often delivered impressive initial returns. However, as those projects moved from experimentation to full-scale deployment, many organisations saw those returns diminish significantly, sometimes falling below their overall cost of capital.
 
-
 The pattern has repeated across industries. Broader analysis confirms the scale of the problem: only a tiny fraction of firms achieve AI value at scale, while a majority achieve no material value at all. Research consistently shows that most enterprise generative AI pilots fail to deliver sustained impact on the profit and loss statement, even as global spending on the technology reaches unprecedented levels.
 
-
-That 95% figure captures something important.[^77] It measured P&L impact of pilots at relatively short timescales, not long-term scaled deployments. The statistic illustrates the severity of the decision problem, not a verdict on AI's potential.
+That 95% figure we saw earlier captures something important.[^85] It measured P&L impact of pilots at relatively short timescales, not long-term scaled deployments. The statistic illustrates the severity of the decision problem, not a verdict on AI's potential.
 
 The distinction matters. Misreading pilot-stage results as definitive leads organisations to abandon promising initiatives too early or, worse, to lose faith in AI's potential altogether.
 
@@ -20,11 +18,9 @@ This chapter introduces a three-angle decision lens: Value, Capabilities, Trust.
 
 The pilot-to-scale gap is the defining problem of enterprise AI in 2025. Organisations launch dozens of proofs of concept. A few deliver modest, localised gains. Almost none compound into enterprise-wide impact. This is the micro-productivity trap identified in Chapter 1: experimentation that does not compound into enterprise-wide value.
 
-Survey data reinforces the scale of the problem. While a vast majority of large organisations use AI in some capacity, only a minority report meaningful enterprise-level impact. The single largest driver of value capture is workflow redesign, yet very few companies have actually attempted it.[^78] Most enterprise generative AI initiatives stall before they reach operational deployment.
-
+Survey data reinforces the scale of the problem. While a vast majority of large organisations use AI in some capacity, only a minority report meaningful enterprise-level impact. The single largest driver of value capture is workflow redesign, yet very few companies have actually attempted it.[^86] Most enterprise generative AI initiatives stall before they reach operational deployment.
 
 Budget allocation further complicates the picture. Analysis suggests that a majority of enterprise AI spending is directed toward sales and marketing, even though the most consistent and substantial returns often occur in back-office automation and business process optimisation. This represents a clear prioritisation failure.
-
 
 Three structural errors recur. First, organisations optimise for one dimension only, usually value, and ignore capability readiness and governance risk. A high-value use case that the organisation lacks the talent, data, or process maturity to deliver is not a high-value investment. It is a high-risk one.
 
@@ -46,7 +42,7 @@ Every initiative is scored on Value (does it create measurable business value?),
 
 The three elements interact. High-value initiatives with low capability readiness need sequencing: build the capability before scaling the investment. High-value initiatives with high governance risk need a trust-first approach: establish governance before launch.
 
-![The AI Decision Framework](images/ch08-ai-decision-framework.png)
+![The AI Decision Framework](images/ch09-ai-decision-framework.png)
 
 Quick wins at the Deploy level build momentum and fund the capability and trust investment that larger initiatives require. Multiple external decision frameworks have independently converged on the same three-angle structure, reinforcing that this is not a theoretical preference but a practical necessity.
 
@@ -54,9 +50,10 @@ Quick wins at the Deploy level build momentum and fund the capability and trust 
 
 Where does this initiative create measurable business value? The answer is not always obvious, and the right metric depends on the organisation's maturity.
 
-A useful taxonomy distinguishes three types of AI value. **Deploy** covers off-the-shelf tools that deliver 10–15% productivity improvements: coding assistants, meeting summarisers, document drafters.
-
-**Reshape** covers end-to-end function redesign with AI-native workflows: rethinking how procurement, customer service, or finance operates with AI at the core. **Invent** covers new business models and revenue streams that were not possible before AI.
+A useful taxonomy distinguishes three types of AI value. 
+**Deploy** covers off-the-shelf tools that deliver 10–15% productivity improvements: coding assistants, meeting summarisers, document drafters.
+**Reshape** covers end-to-end function redesign with AI-native workflows: rethinking how procurement, customer service, or finance operates with AI at the core. 
+**Invent** covers new business models and revenue streams that were not possible before AI.
 
 Most organisations start with basic deployment and stay there. Research shows that organisations with mature AI capabilities generate the vast majority of their value through fundamental redesign and innovation, not through simple task automation in support functions.
 
@@ -68,7 +65,6 @@ An organisation in the early stages may focus on efficiency. An organisation red
 
 The quantified evidence is encouraging for those who measure correctly. AI-powered procurement has delivered significant cost reductions, while finance automation has virtually eliminated many manual data entry tasks with rapid payback periods. Predictive maintenance programmes similarly report substantial savings and a dramatic reduction in unplanned downtime.
 
-
 Two measurement disciplines are non-negotiable. Value must be measured against established baselines, not aspirations. Measurement windows must be multi-year. The pattern described in the previous section, where AI looks like a poor investment at six months, often reflects a measurement problem rather than a value problem.
 
 ### Capabilities
@@ -77,8 +73,7 @@ Can the organisation deliver this initiative? The answer depends on people, data
 
 As Chapter 1 established, the 10/20/70 rule puts this in proportion: 10% of the effort goes to algorithms, 20% to technology infrastructure, and 70% to people, processes, and change management. Most organisations spend on the 10% and 20% but starve the 70%.
 
-The numbers on talent readiness are sobering. Only a tiny fraction of companies have begun upskilling their workforce meaningfully, despite widespread acknowledgement of the need. Furthermore, very few senior leaders at major corporations possess the technical background or direct experience required to steer these transformations effectively.[^79]
-
+The numbers on talent readiness are sobering. Only a tiny fraction of companies have begun upskilling their workforce meaningfully, despite widespread acknowledgement of the need. Furthermore, very few senior leaders at major corporations possess the technical background or direct experience required to steer these transformations effectively.[^87]
 
 The domain leader, the role Chapter 2 identified as critical at two or three levels below the chief executive, is central to capability readiness. This person translates strategic vision into operational change across a portfolio of five to fifteen interrelated use cases, bridging business context and technical possibility.
 
@@ -88,29 +83,25 @@ Capability assessment covers four dimensions: data readiness (quality, accessibi
 
 An initiative that scores high on value but low on capability is not ready for investment. It is ready for capability-building. The distinction is important: the answer is not "no," it is "not yet, and here is what we need to build first."
 
-Less than half of AI projects reach production today, often taking many months to move from a working prototype to a full deployment.[^80] Capability gaps—across data, talent, and process—are the primary reason these initiatives fail to cross the finish line.
-
+Less than half of AI projects reach production today, often taking many months to move from a working prototype to a full deployment.[^88] Capability gaps—across data, talent, and process—are the primary reason these initiatives fail to cross the finish line.
 
 ### Trust
 
 Can the organisation govern this initiative responsibly? Trust is not a compliance checkbox. It encompasses three dimensions: regulatory compliance, customer and user trust, and employee trust.
 
-Regulatory compliance in Europe means alignment with the EU AI Act, GDPR, and sector-specific regulation. The EU AI Act's full high-risk system requirements apply from August 2026, with penalties reaching €35 million or 7% of global annual turnover. Over 87% of high-risk AI cases require GDPR compliance in addition to AI Act compliance, creating layered obligations that demand integrated governance.[^81]
+Regulatory compliance in Europe means alignment with the EU AI Act, GDPR, and sector-specific regulation. The EU AI Act's full high-risk system requirements apply from August 2026, with penalties reaching €35 million or 7% of global annual turnover. Over 87% of high-risk AI cases require GDPR compliance in addition to AI Act compliance, creating layered obligations that demand integrated governance.[^89]
 
 Customer trust requires transparency and explainability. Users need to understand when they are interacting with AI and how decisions that affect them are made. This is not merely an ethical aspiration; it is a regulatory requirement under the EU AI Act for high-risk systems.
 
 Employee trust is the most underestimated dimension of transformation. Research reveals a wide gap between executive confidence in AI and the actual belief among employees in its benefits. That gap threatens adoption from the inside out.
 
-
 Employees who do not trust AI tools, the organisation's data use policies, or its direction on AI will resist, circumvent, or ignore AI-powered workflows. In Europe, where works councils and stronger employee protections shape the landscape, closing this gap is not optional.
 
-The evidence on trust as a leading indicator is striking. In high-maturity organisations, a majority of business units trust and actively use AI solutions, whereas in less mature firms, this figure is significantly lower. High-maturity organisations also sustain AI projects for much longer periods than their peers.[^82]
-
+The evidence on trust as a leading indicator is striking. In high-maturity organisations, a majority of business units trust and actively use AI solutions, whereas in less mature firms, this figure is significantly lower. High-maturity organisations also sustain AI projects for much longer periods than their peers.[^90]
 
 As one industry leader put it: "Trust underpins it all, as systems will only ever be as autonomous as they are trustworthy."
 
-Yet only a tiny minority of organisations have fully operationalised responsible AI practices. A large majority of companies have paused AI projects at some point due to risk concerns.[^83] The gap between acknowledging trust's importance and building it into operations is one of the most significant barriers to AI value at scale.
-
+Yet only a tiny minority of organisations have fully operationalised responsible AI practices. A large majority of companies have paused AI projects at some point due to risk concerns.[^91] The gap between acknowledging trust's importance and building it into operations is one of the most significant barriers to AI value at scale.
 
 Tiered autonomy, introduced in Chapter 3 as a design principle for agentic workflows, becomes a practical governance tool within the Trust dimension. Low-risk tasks (scheduling, data retrieval) operate with full autonomy. Medium-risk tasks (recommendations, initial assessments) operate under human supervision. High-risk tasks (financial transactions, regulatory decisions) require explicit human approval. The boundaries are proportionate to risk, not uniform across all AI applications.
 
@@ -126,8 +117,7 @@ Combined with the human-in-the-loop principle defined in Chapter 3, tiered auton
 
 The AI Decision Framework is not only an operational prioritisation tool. It is a governance instrument for the board.
 
-Board oversight of AI remains inadequate across the industry. A majority of board members report limited knowledge of the technology, very few receive regular AI-related metrics, and many confirm that AI is not yet a standing item on the board agenda.[^84]
-
+Board oversight of AI remains inadequate across the industry. A majority of board members report limited knowledge of the technology, very few receive regular AI-related metrics, and many confirm that AI is not yet a standing item on the board agenda.[^92]
 
 The gap between operational AI adoption and board-level governance creates risk that compounds silently.
 
@@ -135,7 +125,7 @@ The framework gives the board a structured reporting mechanism. Every AI initiat
 
 Escalation criteria should be explicit. Initiatives classified as high-risk under the EU AI Act require a trust review before the board approves investment. Initiatives with high value but low capability readiness require a capability-building plan with milestones before funding. The framework turns board AI discussions from abstract strategy conversations into structured portfolio decisions.
 
-For European organisations, trust governance is not optional. But proactive compliance is proving to be competitive advantage, not constraint. Over 230 organisations have voluntarily signed the EU AI Pact, with 63% based in the EU. More than half have gone beyond mandatory requirements.[^85]
+For European organisations, trust governance is not optional. But proactive compliance is proving to be competitive advantage, not constraint. Over 230 organisations have voluntarily signed the EU AI Pact, with 63% based in the EU. More than half have gone beyond mandatory requirements.[^93]
 
 The best boards are integrating AI governance with existing enterprise risk management rather than creating isolated oversight structures. Most boards already have risk oversight committees and risk management expertise; the task is to extend that infrastructure to cover AI, not to build a parallel governance apparatus.
 
@@ -149,22 +139,21 @@ The EU AI Act, GDPR, and cultural expectations around data privacy create a stru
 
 The numbers support this optimistic outlook. A vast majority of European business leaders expect revenue growth alongside rising AI investment. Organisations are planning to increase their AI budgets significantly in the coming years, with many committing to sustained investment over a long-term horizon.
 
-
 European firms that have invested in responsible AI infrastructure report that governance and ethical frameworks are among the critical enablers of scale, alongside executive sponsorship and external partnerships.
 
 There is also a productivity dimension to the trust advantage. Research suggests that AI adoption increases labour productivity by 4% on average in European firms, driven by capital deepening rather than job displacement. That finding runs counter to the displacement fears that dominate public discourse, and it gives leaders an evidence-based narrative for building employee trust.
 
-The organisations that master all three angles of the AI Decision Framework, creating real value, building the right capabilities, and earning trust from regulators, customers, and employees, are best placed to lead the next decade. Chapter 9 makes the full case for why Europe's distinctive regulatory and cultural context is a strategic advantage, and what leaders must do to capitalise on it.
+The organisations that master all three angles of the AI Decision Framework, creating real value, building the right capabilities, and earning trust from regulators, customers, and employees, are best placed to lead the next decade. Chapter 10 makes the full case for why Europe's distinctive regulatory and cultural context is a strategic advantage, and what leaders must do to capitalise on it.
 
-[^77]: MIT Sloan, "GenAI Divide: State of AI in Business 2025", August 2025
-[^78]: McKinsey, "State of AI", 2025
-[^79]: McKinsey, "Building the AI Muscle of Your Business Leaders", 2025
-[^80]: Everworker AI, "Team Enablement for AI Agent Platforms", 2026
-[^81]: European Parliament / Lexology, "GDPR and EU AI Act Compliance Overlap", 2025
-[^82]: Gartner, "AI Maturity and Trust Survey", June 2025
-[^83]: Accenture / AWS / Stanford, "Responsible AI from Risk to Value", 2025
-[^84]: McKinsey, "State of AI", 2025
-[^85]: European Commission, "EU AI Pact", 2024
+[^85]: MIT Sloan, "GenAI Divide: State of AI in Business 2025", August 2025
+[^86]: McKinsey, "State of AI", 2025
+[^87]: McKinsey, "Building the AI Muscle of Your Business Leaders", 2025
+[^88]: Everworker AI, "Team Enablement for AI Agent Platforms", 2026
+[^89]: European Parliament / Lexology, "GDPR and EU AI Act Compliance Overlap", 2025
+[^90]: Gartner, "AI Maturity and Trust Survey", June 2025
+[^91]: Accenture / AWS / Stanford, "Responsible AI from Risk to Value", 2025
+[^92]: McKinsey, "State of AI", 2025
+[^93]: European Commission, "EU AI Pact", 2024
 
 ## Questions for the Board
 

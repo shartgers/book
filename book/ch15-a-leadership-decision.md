@@ -1,4 +1,4 @@
-## Two Kinds of Organisation
+## A Leadership Decision
 
 Three years from now, two kinds of organisations will exist in Europe.
 
@@ -16,15 +16,15 @@ The gap between these two organisations is no longer closable on a five-year hor
 
 The cost of waiting is not zero. It compounds across three dimensions, and each one is measurable.
 
-**Competitive.** The performance gap between those who scale AI and those who do not is widening on every metric that matters. Future-built companies achieve significantly higher revenue growth, shareholder returns, and profit margins compared to laggards.[^109] While a majority of companies still report minimal value, the leaders are pulling away.
+**Competitive.** The performance gap between those who scale AI and those who do not is widening on every metric that matters. Future-built companies achieve significantly higher revenue growth, shareholder returns, and profit margins compared to laggards.[^117] While a majority of companies still report minimal value, the leaders are pulling away.
 
 Only a small minority of leaders report that AI has already delivered both cost and revenue benefits. A larger group see no significant benefit at all, and general confidence in revenue growth has reached a multi-year low among those who have yet to act decisively.
 
 As PwC's Global Chairman Mohamed Kande put it: "That gap is starting to show up in confidence and competitiveness, and it will widen quickly for those that don't act."
 
-Companies are doubling AI spend in 2026 regardless of immediate returns: 94% are not pulling back.[^110] The organisations generating value are not merely saving costs. They are reinvesting AI gains into new products, capabilities, and R&D, creating a self-reinforcing flywheel that widens the advantage each cycle.
+Companies are doubling AI spend in 2026 regardless of immediate returns: 94% are not pulling back.[^118] The organisations generating value are not merely saving costs. They are reinvesting AI gains into new products, capabilities, and R&D, creating a self-reinforcing flywheel that widens the advantage each cycle.
 
-**Talent and culture.** Europe faces a talent crisis that is compounding faster than most leaders have accounted for. Demand for AI roles has surged dramatically in major economies like Germany, the UK, and Ireland.[^111] A significant portion of employers in specialized sectors report they cannot fill current AI positions, and many business leaders feel underprepared to lead in this new environment.
+**Talent and culture.** Europe faces a talent crisis that is compounding faster than most leaders have accounted for. Demand for AI roles has surged dramatically in major economies like Germany, the UK, and Ireland.[^119] A significant portion of employers in specialized sectors report they cannot fill current AI positions, and many business leaders feel underprepared to lead in this new environment.
 
 The best AI talent gravitates toward organisations that are already scaling. You cannot hire your way out of a multi-year deficit. Leaders who combine AI fluency with inclusive management report massive productivity improvements, far exceeding those who lack these core capabilities. The gap is not closing; it widens with every quarter of inaction.
 
@@ -42,11 +42,11 @@ Every chapter of this book has pointed to the same conclusion. AI transformation
 
 As McKinsey's Eric Kutcher has framed it, this is largely a business transformation underpinned by technology, rather than the other way around. Paul Hudson, CEO of Sanofi, redeployed a massive amount of capital and dramatically reduced operational inefficiencies after deploying AI. He puts it bluntly: "You don't delegate the revolution." When delegation occurs, years go by and nothing happens.
 
-The data confirms this at scale. A large and growing majority of leaders now identify as their organisation's primary AI decision-maker, reflecting a sharp increase from previous years.[^112] The leaders who own the transformation personally are the ones delivering the most significant results.
+The data confirms this at scale. A large and growing majority of leaders now identify as their organisation's primary AI decision-maker, reflecting a sharp increase from previous years.[^120] The leaders who own the transformation personally are the ones delivering the most significant results.
 
 Trailblazer leaders, the small group that is furthest ahead, spend a significant amount of time each week on their own AI upskilling. They allocate a majority of AI budgets to workforce enablement rather than just technology tools. They are far more likely to deploy agents across their entire workflows and, as a result, they see the greatest returns.
 
-Half of leaders surveyed believe their job stability depends on getting AI right in 2026. More than half of non-CEO respondents in PwC's global survey believe the CEO or board should resign if the company loses market share due to an inadequate AI strategy.[^113] The personal consequences are now concrete.
+Half of leaders surveyed believe their job stability depends on getting AI right in 2026. More than half of non-CEO respondents in PwC's global survey believe the CEO or board should resign if the company loses market share due to an inadequate AI strategy.[^121] The personal consequences are now concrete.
 
 The question for every board is no longer "should we invest in AI?" It is: how do we want decisions made, work to flow, and humans to engage where software can act?
 
@@ -60,15 +60,15 @@ These are not hypothetical examples. They are European companies, in Madrid, Ams
 
 This book has argued that the Agentic Organisation, where humans and AI agents work side by side to create value at scale, is the defining organisational paradigm of the next decade. We introduced the AI Transformation Framework (Vision, Products, Operating Model, Foundation) and the Four Tiers of Transformation (Individual, Team, Department, Organisation). We provided the decision lens of Value, Capabilities, and Trust.
 
-We showed that Europe's regulatory clarity, talent depth, and institutional pragmatism are advantages, not handicaps, when leaders choose to lead. We provided a playbook (Chapter 11), a diagnostic (Chapter 12), and a governance framework (Chapter 13) to move from intent to action.
+We showed that Europe's regulatory clarity, talent depth, and institutional pragmatism are advantages, not handicaps, when leaders choose to lead. We provided a playbook (Chapter 12), a diagnostic (Chapter 13), and a governance framework (Chapter 14) to move from intent to action.
 
 What remains is the decision. Not the decision to "explore AI" or to "form a working group" or to "assess the landscape." The decision to transform. To commit resources, redesign workflows, retrain people, and hold the organisation accountable for outcomes, not experiments.
 
 Five actions will determine whether your organisation is among the 5% or the 60%:
 
-1. Run the Readiness diagnostic (Chapter 12) before your next board meeting.
-2. Put AI transformation on the board agenda as a strategy discussion, not a technology update (Chapter 13).
-3. Choose one high-value process where Value, Capabilities, and Trust align (Chapter 8) and commit to moving it from pilot to production within 90 days (Chapter 11).
+1. Run the Readiness diagnostic (Chapter 13) before your next board meeting.
+2. Put AI transformation on the board agenda as a strategy discussion, not a technology update (Chapter 14).
+3. Choose one high-value process where Value, Capabilities, and Trust align (Chapter 9) and commit to moving it from pilot to production within 90 days (Chapter 12).
 4. Block time for your own AI upskilling. Trailblazer leaders invest eight or more hours per week.
 5. Name a board-level sponsor and a domain leader who owns the outcome (Chapter 2).
 
@@ -80,11 +80,11 @@ The Agentic Organisation is not a prediction. It is being built, in Madrid, in A
 
 You don't delegate the revolution.
 
-[^109]: BCG, "The Widening AI Value Gap", October 2025
-[^110]: BCG, "AI Radar", January 2026
-[^111]: PwC / European Institute of Innovation and Technology, "AI Jobs Barometer", 2025
-[^112]: BCG, "AI Radar", January 2026
-[^113]: PwC, "Global CEO Survey", 2026
+[^117]: BCG, "The Widening AI Value Gap", October 2025
+[^118]: BCG, "AI Radar", January 2026
+[^119]: PwC / European Institute of Innovation and Technology, "AI Jobs Barometer", 2025
+[^120]: BCG, "AI Radar", January 2026
+[^121]: PwC, "Global CEO Survey", 2026
 
 ## Questions for the Board
 
@@ -129,10 +129,10 @@ The lesson for the European CEO is that the transition to an Agentic Organisatio
 
 For the executive, this illustrates that the most important part of the transformation is the decision to move from "using AI" to "being AI-native." When AI becomes a core pillar, it ceases to be an expense and becomes the engine of institutional advantage. You do not delegate the revolution; you build the infrastructure to sustain it.
 
-## Handoff — Reviewers — Chapter 14
+## Handoff — Reviewers — Chapter 15
 Status: complete
-Output: output/chapters/chapter-14/ch14-final.md
-Review report: output/chapters/chapter-14/ch14-review.md
+Output: output/chapters/chapter-15/ch15-final.md
+Review report: output/chapters/chapter-15/ch15-review.md
 Style: PASS
 Character: PASS
 Continuity: PASS — BBVA duplicate case study resolved by replacing with EQT case study.

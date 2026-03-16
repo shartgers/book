@@ -1,8 +1,8 @@
-## The Six-Month Trap
+## Measuring What Matters
 
 If you cannot measure it, you cannot defend it to the board. If you cannot defend it to the board, you will not sustain the investment long enough to see results.
 
-This is not a theoretical problem. Large-scale research found that a vast majority of the companies studied measured AI return on investment far too early, often just a few months post-pilot.[^106] This is precisely the window when most projects have not yet delivered their full potential value. The result is a self-fulfilling prophecy: organisations kill projects that would have succeeded, then cite the failure as evidence that AI does not work.
+This is not a theoretical problem. Large-scale research found that a vast majority of the companies studied measured AI return on investment far too early, often just a few months post-pilot.[^114] This is precisely the window when most projects have not yet delivered their full potential value. The result is a self-fulfilling prophecy: organisations kill projects that would have succeeded, then cite the failure as evidence that AI does not work.
 
 The contrast is instructive. DBS Bank measured AI value over years, not months, using control-group methodology to isolate incremental impact. By mid-decade, the bank was able to disclose massive, validated AI economic value that had grown significantly year-on-year.
 
@@ -20,7 +20,7 @@ Organisations in pilot purgatory accumulate proofs of concept that demonstrate t
 
 The pattern compounds. Grassroots experimentation delivers localised efficiency gains that feel like progress but never compound without top-down direction. This is the micro-productivity trap described in earlier chapters: individual teams achieve small wins whilst the organisation as a whole barely moves.
 
-Only a minority of companies can tie AI initiatives to tangible business outcomes, even though a large majority rank AI as a top strategic priority.[^107] Financial services tends to achieve better pilot-to-production rates than other sectors, not because of superior technology, but because of clearer unit economics and pre-existing compliance infrastructure.
+Only a minority of companies can tie AI initiatives to tangible business outcomes, even though a large majority rank AI as a top strategic priority.[^115] Financial services tends to achieve better pilot-to-production rates than other sectors, not because of superior technology, but because of clearer unit economics and pre-existing compliance infrastructure.
 
 The measurement crisis and the scaling crisis are the same crisis. Without the right metrics, defined upfront, organisations cannot distinguish a pilot worth scaling from one worth killing.
 
@@ -52,7 +52,7 @@ ING's 90% pilot-to-production rate, three times the industry average, demonstrat
 
 Beyond the dashboard, four governance indicators matter: ownership clarity (who owns AI risk at executive level?), decision rights (what are the authority chains?), escalation speed (how fast do problems reach the board?), and alignment to intent (are initiatives staying true to their approved purpose?).
 
-Research shows that companies with AI-savvy boards consistently outperform their peers in terms of return on equity.[^108] Conversely, those without such expertise tend to lag significantly below the industry average. The board's AI literacy is not just a nice-to-have; it is a clear performance differentiator.
+Research shows that companies with AI-savvy boards consistently outperform their peers in terms of return on equity.[^116] Conversely, those without such expertise tend to lag significantly below the industry average. The board's AI literacy is not just a nice-to-have; it is a clear performance differentiator.
 
 ## The Board's Evolving Role
 
@@ -78,13 +78,13 @@ The Measure-Gate-Govern Model is not a reporting exercise. It is the mechanism t
 
 The organisations that measure well, DBS, ING, BBVA, Allianz, share a common trait: they treat measurement as a leadership discipline, not a technical afterthought. The right KPIs, applied with gating discipline and governed at the board level, are what separate the Agentic Organisation from the organisation that merely talks about AI.
 
-This book has covered the framework (Chapter 5), the operating model and enablement (Chapter 6), foundations—data and technology (Chapter 7), the decision lens (Chapter 8), the European context (Chapter 9), leadership lessons (Chapter 10), the playbook (Chapter 11), and readiness (Chapter 12). This chapter adds measurement and governance: the mechanism for proving that all of the above is working.
+This book has covered the framework (Chapter 5), the Product layer (Chapter 6), the operating model and enablement (Chapter 7), foundations—data and technology (Chapter 8), the decision lens (Chapter 9), the European context (Chapter 10), leadership lessons (Chapter 11), the playbook (Chapter 12), and readiness (Chapter 13). This chapter adds measurement and governance: the mechanism for proving that all of the above is working.
 
 One decision remains: to act or not. That is the subject of the final chapter.
 
-[^106]: BCG, "Measuring AI Impact", 2025
-[^107]: McKinsey, "State of AI", 2025
-[^108]: MIT CISR, "Enterprise AI Maturity", 2025
+[^114]: BCG, "Measuring AI Impact", 2025
+[^115]: McKinsey, "State of AI", 2025
+[^116]: MIT CISR, "Enterprise AI Maturity", 2025
 
 ## Questions for the Board
 
@@ -131,13 +131,13 @@ It is worth acknowledging that these figures are self-reported by DBS and have n
 
 The measurement problem is a design problem, not a data problem. Organisations that try to attribute AI value after deployment rarely succeed, because the baselines, the control conditions, and the attribution logic were never built in. DBS demonstrates that the Measure stage of the Measure-Gate-Govern Model is not a reporting exercise that happens at the end of a project: it is an architectural decision that happens at the beginning. The lesson for a European CEO is concrete: before approving any AI initiative above a defined threshold, require that the measurement design, including baseline, control conditions, and attribution method, is part of the business case. If the team cannot specify how the value will be verified, the pilot is not ready to proceed. That discipline is what separates a S$1 billion claim that is credible from one that is not.
 
-## Handoff — Reviewers — Chapter 13
+## Handoff — Reviewers — Chapter 14
 Status: escalated
-Output: output/chapters/chapter-13/ch13-final.md
-Review report: output/chapters/chapter-13/ch13-review.md
+Output: output/chapters/chapter-14/ch14-final.md
+Review report: output/chapters/chapter-14/ch14-review.md
 Style: PASS
 Character: PASS
 Continuity: FAIL
 Footnotes log: confirmed present — no new entries required for this chapter
-Escalations: DBS Bank duplicate case study. DBS Bank is the primary case study in both Chapter 2 ("DBS Bank: The CEO Who Refused to Delegate") and Chapter 13. The continuity criterion is not met. The Chapter 13 case study explicitly acknowledges Chapter 2 and covers a distinct angle (control-group measurement methodology and board-level disclosure) not addressed in Chapter 2 (leadership commitment and GANDALF framework). The two concept re-introduction issues (micro-productivity trap, board governance stats) have been fixed in this final. The Orchestrator should decide: (a) accept the DBS reuse given the distinct angle and explicit Chapter 2 acknowledgement, or (b) commission a replacement case study for Chapter 13 that covers the same measurement-rigour theme. If (b), BBVA's measurement approach (cost-to-income ratio tracking, fraud metrics) is the most natural candidate, as BBVA has already been used in a supporting (not primary) role in Chapter 13's body text.
+Escalations: DBS Bank duplicate case study. DBS Bank is the primary case study in both Chapter 2 ("DBS Bank: The CEO Who Refused to Delegate") and Chapter 14. The continuity criterion is not met. The Chapter 14 case study explicitly acknowledges Chapter 2 and covers a distinct angle (control-group measurement methodology and board-level disclosure) not addressed in Chapter 2 (leadership commitment and GANDALF framework). The two concept re-introduction issues (micro-productivity trap, board governance stats) have been fixed in this final. The Orchestrator should decide: (a) accept the DBS reuse given the distinct angle and explicit Chapter 2 acknowledgement, or (b) commission a replacement case study for Chapter 14 that covers the same measurement-rigour theme. If (b), BBVA's measurement approach (cost-to-income ratio tracking, fraud metrics) is the most natural candidate, as BBVA has already been used in a supporting (not primary) role in Chapter 13's body text.
 Chapter status: DONE — pending Orchestrator decision on DBS escalation

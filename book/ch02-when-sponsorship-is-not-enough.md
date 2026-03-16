@@ -34,7 +34,7 @@ The evidence of mismatch is stark. Organisations are abandoning AI initiatives a
 
 These are not technology failures. They are the predictable outcome of applying the wrong organisational model to a categorically different kind of change.
 
-Meanwhile, the leaders who have adopted the right mental model are pulling away. Only 5% of firms achieve AI value at scale.[^14] Those that do commit three times the investment of average organisations and invest twice as much in workforce upskilling.[ They are not spending more on better algorithms. They are spending more on the organisational redesign that makes algorithms valuable.
+Meanwhile, the leaders who have adopted the right mental model are pulling away. Research consistently shows that only a small minority of firms achieve AI value at scale.[^14] Those that do commit far more than the average organisation—both in total investment and in workforce upskilling.[^15] They are not spending more on better algorithms. They are spending more on the organisational redesign that makes algorithms valuable.
 
 The paradox McKinsey calls the "GenAI Paradox" captures this precisely: the technology is advancing at exceptional speed and capability, while organisational value creation lags behind. Nearly eight in ten companies report using generative AI, yet just as many report no significant bottom-line impact.[^15] Usage without leadership-driven architecture produces activity, not outcomes. The organisations that have broken through the paradox did so not by finding better tools but by changing who owns the transformation and how the organisation is structured to absorb it.
 
@@ -80,9 +80,7 @@ The C-suite alignment deficit is not a people problem in the human resources sen
 
 The argument of this chapter reduces to a specific claim: the gap between what AI transformation requires of leadership and what leadership is currently providing is the single most correctable cause of the 95% failure rate. Correcting it requires action at three governance levels simultaneously.
 
-**Leaders must lead from the front, personally and visibly.** Trailblazers, the 15% of leaders research identifies as achieving AI value at scale, spend six or more hours per week upskilling on AI. They commit three times the investment of average leaders and invest twice as much in workforce development.[^12]
-
-Half of all leaders believe their job stability depends on getting AI right.[^12] Among non-leaders, more than half believe that leaders or boards should resign if the company loses market share due to inadequate AI strategy. This is not a distant risk. It is a present expectation.
+**Leaders must lead from the front, personally and visibly.** Trailblazers, the 15% of leaders research identifies as achieving AI value at scale, spend six or more hours per week upskilling on AI. They commit three times the investment of average leaders and invest twice as much in workforce development. Half of all leaders believe their job stability depends on getting AI right.[^12] Among non-leaders, more than half believe that leaders or boards should resign if the company loses market share due to inadequate AI strategy. This is not a distant risk. It is a present expectation.
 
 Leading from the front means more than allocating budget and attending briefings. It means reframing AI from an IT project to an operating model redesign. It means being personally fluent enough to challenge assumptions, shape priorities, and make the architectural decisions that determine whether the organisation is building at the bolt-on level or the redesign level.
 
@@ -114,7 +112,7 @@ Navrina Singh, CEO of Credo AI, put the timeline starkly: if you are not using A
 
 The argument of this chapter is settled by the evidence, not by assertion. Six times the success rate with executive-led transformations. Twelve times the likelihood of being in the top 5% when leaders are deeply engaged. A near-doubling of abandonment rates when they are not. The data points all in one direction.
 
-The question is no longer whether to lead, but what the destination looks like. Now that the leadership precondition is established, the next chapter answers the question every committed leader asks next: what exactly are we building? Chapter 3 defines the Agentic Organisation in concrete, operational terms, introducing the AI Transformation Framework and the concept of the agentic employee.
+The question is no longer whether to lead, but what the destination looks like. Now that the leadership precondition is established, the next chapter answers the question every committed leader asks next: what exactly are we building? Chapter 3 defines the Agentic Organisation in concrete, operational terms: the agentic employee, the shift from task-doer to orchestrator, and three key roles.
 
 [^12]: BCG, "AI Radar", January 2026
 [^13]: S&P Global Market Intelligence, "Outlook on Generative AI", 2025
