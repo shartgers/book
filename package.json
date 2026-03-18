@@ -8,8 +8,13 @@
     "pdf:paperback": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --format paperback --output output/book-interior-paperback.pdf",
     "pdf:hardcover": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --format hardcover --output output/book-interior-hardcover.pdf",
     "epub": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --epub --output output/book-interior.epub",
+    "epub:validate": "npm run epub && npm run validate:epub",
     "html": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html",
     "pdfx": "npm run pdf:hardcover && python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py",
-    "full": "python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-full.pdf"
+    "full": "python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-full.pdf",
+    "validate:epub": "npx epubchecker output/book-interior.epub --output output/epubcheck-report.json"
+  },
+  "devDependencies": {
+    "epubchecker": "^5.2.1"
   }
 }

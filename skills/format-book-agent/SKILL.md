@@ -22,6 +22,7 @@ From the **book repository root** (where the `book/` folder lives):
 # Interior only (no cover) — for IngramSpark/KDP interior file
 npm run pdf    # → output/book-interior.pdf (paperback 5.5"×8.25")
 npm run epub   # → output/book-interior.epub
+npm run epub:validate   # build EPUB then validate with EPUBCheck (industry/IngramSpark standard)
 npm run html   # → output/book-interior.html
 
 # PDF/X-3:2002 conversion (interior only) — hardcover 5.5"×8.5", single file
@@ -49,6 +50,8 @@ python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py
 ```
 
 Use `--interior` for interior-only output (no cover). Use `--format paperback` (default) or `--format hardcover` for page size. Omit `--interior` to include cover. Use `--cover path/to/other.png` to override the default cover path.
+
+**EPUB validation (industry / IngramSpark):** After building the EPUB, validate it with the official W3C EPUBCheck via `npm run validate:epub` (validates existing `output/book-interior.epub`) or `npm run epub:validate` (build then validate). Requires Java 7+. Distributors typically require EPUBCheck to pass; fix reported errors before submitting.
 
 Install dependencies first (see [Requirements](#requirements) below).
 
@@ -107,5 +110,6 @@ For detailed specs and KDP alignment (trim, margins, bleed, gutter by page count
 
 - **PDF export**: The script uses **weasyprint** for PDF. Install with `pip install weasyprint`. On Windows, this also requires Pango/GTK (see [reference.md](reference.md#windows-weasyprint-setup)). Full book always outputs PDF; dry-run defaults to HTML (use `--dry-run --pdf` for a PDF preview).
 - **EPUB export**: Requires **ebooklib**. Install with `pip install ebooklib`. Use `--epub --output path/to/book.epub` (extension is forced to `.epub` if omitted).
+- **EPUB validation (EPUBCheck)**: Run `npm run validate:epub` to validate `output/book-interior.epub`, or `npm run epub:validate` to build then validate. Uses **epubchecker** (npm), which runs the official W3C EPUBCheck; **Java 7+** is required. A JSON report is written to `output/epubcheck-report.json`. Most distributors (including IngramSpark) expect EPUBs to pass EPUBCheck; fix any reported errors before submission.
 - **Missing chapter**: Script skips missing `book/chapter-NN.md` or `book/chNN-*.md`; dry-run only needs chapter 1.
 - **No about-the-author**: If `book/about-the-author.md` is missing, back matter still renders with a placeholder.

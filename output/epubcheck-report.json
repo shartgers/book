@@ -1,0 +1,1395 @@
+{
+  "messages": [
+    {
+      "ID": "RSC-005",
+      "severity": "ERROR",
+      "message": "Foutmelding bij het verwerken van bestand: element \"br\" not allowed here; expected the element end-tag or element \"li\", \"script\" or \"template\"",
+      "additionalLocations": 145,
+      "locations": [
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 68,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 70,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 72,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 74,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 76,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 78,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 80,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 82,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 84,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 86,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 93,
+          "column": 217,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 93,
+          "column": 417,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 93,
+          "column": 636,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 93,
+          "column": 866,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 70,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 72,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 74,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 76,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 78,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 80,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 82,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 84,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 86,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 88,
+          "column": 17,
+          "context": null
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 95,
+          "column": 228,
+          "context": null
+        }
+      ],
+      "suggestion": null
+    },
+    {
+      "ID": "RSC-012",
+      "severity": "ERROR",
+      "message": "Fragmentidentifier - CFI - niet gedefinieerd.",
+      "additionalLocations": 104,
+      "locations": [
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 9,
+          "column": 342,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch01.xhtml#fn:ch01-1"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 9,
+          "column": 579,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch01.xhtml#fn:ch01-2"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 11,
+          "column": 289,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch01.xhtml#fn:ch01-3"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 15,
+          "column": 248,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch01.xhtml#fn:ch01-4"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 25,
+          "column": 489,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch01.xhtml#fn:ch01-5"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 29,
+          "column": 704,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch01.xhtml#fn:ch01-7"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 31,
+          "column": 484,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch01.xhtml#fn:ch01-8"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 44,
+          "column": 559,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch01.xhtml#fn:ch01-9"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 54,
+          "column": 566,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch01.xhtml#fn:ch01-10"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 55,
+          "column": 246,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch01.xhtml#fn:ch01-11"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch01.xhtml",
+          "line": 77,
+          "column": 142,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch01.xhtml#fnref:ch01-6"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 11,
+          "column": 344,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-12"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 23,
+          "column": 181,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-13"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 25,
+          "column": 242,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-14"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 25,
+          "column": 436,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-15"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 26,
+          "column": 369,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-15"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 29,
+          "column": 323,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-16"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 33,
+          "column": 472,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-17"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 38,
+          "column": 349,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-18"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 41,
+          "column": 231,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-19"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 43,
+          "column": 259,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-20"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 48,
+          "column": 463,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-12"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 57,
+          "column": 275,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-21"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch02.xhtml",
+          "line": 58,
+          "column": 146,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch02.xhtml#fn:ch02-22"
+        },
+        {
+          "url": {
+            "hierarchical": true,
+            "opaque": false
+          },
+          "path": "EPUB/ch03.xhtml",
+          "line": 14,
+          "column": 244,
+          "context": "https://6c13668e-dc2b-438b-bd2a-9e175f568641.epubcheck.w3c.org/EPUB/ch03.xhtml#fn:ch03-23"
+        }
+      ],
+      "suggestion": null
+    }
+  ],
+  "customMessageFileName": null,
+  "checker": {
+    "path": ".\\output\\book-interior.epub",
+    "filename": "book-interior.epub",
+    "checkerVersion": "5.2.1",
+    "checkDate": "03-19-2026 00:18:40",
+    "elapsedTime": 5222,
+    "nFatal": 0,
+    "nError": 2,
+    "nWarning": 0,
+    "nUsage": 0
+  },
+  "publication": {
+    "publisher": null,
+    "title": "The Agentic Organisation",
+    "creator": [
+      "Stephan Hartgers-Rus"
+    ],
+    "date": "2026-03-18T21:17:49Z",
+    "subject": [
+      "AI",
+      "transformation",
+      "CEO",
+      "European business",
+      "EU AI Act",
+      "agentic organisation",
+      "leadership",
+      "digital transformation"
+    ],
+    "description": "European businesses are dangerously underprepared for the largest paradigm shift since the industrial revolution. This book is the definitive guide to AI transformation—a practical guidebook for CEOs and leadership teams to benefit from the opportunities AI provides, set in the European context.",
+    "rights": null,
+    "identifier": "urn:book:The-Agentic-Organisation-1736328953536",
+    "language": "en",
+    "nSpines": 20,
+    "checkSum": 0,
+    "renditionLayout": "reflowable",
+    "renditionOrientation": "auto",
+    "renditionSpread": "auto",
+    "ePubVersion": "3.3",
+    "isScripted": false,
+    "hasFixedFormat": false,
+    "isBackwardCompatible": true,
+    "hasAudio": false,
+    "hasVideo": false,
+    "charsCount": 305580,
+    "embeddedFonts": [],
+    "refFonts": [],
+    "hasEncryption": false,
+    "hasSignatures": false,
+    "contributors": []
+  },
+  "items": [
+    {
+      "id": "chapter_0",
+      "fileName": "EPUB/title.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 667,
+      "uncompressedSize": 1139,
+      "compressionMethod": "Deflated",
+      "checkSum": "66128153bcfd3ee89d516a9261305893ba3cef63f673c27a5e2ed319980b129",
+      "isSpineItem": true,
+      "spineIndex": 1,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": []
+    },
+    {
+      "id": "chapter_1",
+      "fileName": "EPUB/dedication.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 402,
+      "uncompressedSize": 629,
+      "compressionMethod": "Deflated",
+      "checkSum": "fb726d633de4368ebdb805449a427eaf8e57ab97e5c8fd9776bc39105980",
+      "isSpineItem": true,
+      "spineIndex": 2,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": []
+    },
+    {
+      "id": "chapter_10",
+      "fileName": "EPUB/ch08.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 6627,
+      "uncompressedSize": 17620,
+      "compressionMethod": "Deflated",
+      "checkSum": "a1d651c1c273f03b5e5dc6fb95d9f34aecc5e168c26038b29231931e6f72f",
+      "isSpineItem": true,
+      "spineIndex": 11,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch08.xhtml#fn:ch08-81",
+        "EPUB/ch08.xhtml#fn:ch08-82",
+        "EPUB/ch08.xhtml#fn:ch08-83",
+        "EPUB/ch08.xhtml#fnref:ch08-81",
+        "EPUB/ch08.xhtml#fnref:ch08-82",
+        "EPUB/ch08.xhtml#fnref:ch08-83"
+      ]
+    },
+    {
+      "id": "chapter_11",
+      "fileName": "EPUB/ch09.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 9991,
+      "uncompressedSize": 28642,
+      "compressionMethod": "Deflated",
+      "checkSum": "24dac6b3c2277a3cd9c888c8847d052c4d9954bc939d483dceafa76587945c",
+      "isSpineItem": true,
+      "spineIndex": 12,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch09.xhtml#fn:ch09-84",
+        "EPUB/ch09.xhtml#fn:ch09-85",
+        "EPUB/ch09.xhtml#fn:ch09-86",
+        "EPUB/ch09.xhtml#fn:ch09-87",
+        "EPUB/ch09.xhtml#fn:ch09-88",
+        "EPUB/ch09.xhtml#fn:ch09-89",
+        "EPUB/ch09.xhtml#fn:ch09-90",
+        "EPUB/ch09.xhtml#fn:ch09-91",
+        "EPUB/ch09.xhtml#fn:ch09-92",
+        "EPUB/ch09.xhtml#fnref:ch09-84",
+        "EPUB/ch09.xhtml#fnref:ch09-85",
+        "EPUB/ch09.xhtml#fnref:ch09-86",
+        "EPUB/ch09.xhtml#fnref:ch09-87",
+        "EPUB/ch09.xhtml#fnref:ch09-88",
+        "EPUB/ch09.xhtml#fnref:ch09-89",
+        "EPUB/ch09.xhtml#fnref:ch09-90",
+        "EPUB/ch09.xhtml#fnref:ch09-91",
+        "EPUB/ch09.xhtml#fnref:ch09-92",
+        "EPUB/images/ch09-ai-decision-framework.png"
+      ]
+    },
+    {
+      "id": "chapter_12",
+      "fileName": "EPUB/ch10.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 7949,
+      "uncompressedSize": 21073,
+      "compressionMethod": "Deflated",
+      "checkSum": "93988230f4e7fcc1ab8b5abe25dec89d8c87e195f9bdea12a433905d7ff6e05e",
+      "isSpineItem": true,
+      "spineIndex": 13,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch10.xhtml#fn:ch10-100",
+        "EPUB/ch10.xhtml#fn:ch10-93",
+        "EPUB/ch10.xhtml#fn:ch10-94",
+        "EPUB/ch10.xhtml#fn:ch10-95",
+        "EPUB/ch10.xhtml#fn:ch10-96",
+        "EPUB/ch10.xhtml#fn:ch10-97",
+        "EPUB/ch10.xhtml#fn:ch10-98",
+        "EPUB/ch10.xhtml#fn:ch10-99",
+        "EPUB/ch10.xhtml#fnref:ch10-100",
+        "EPUB/ch10.xhtml#fnref:ch10-93",
+        "EPUB/ch10.xhtml#fnref:ch10-94",
+        "EPUB/ch10.xhtml#fnref:ch10-95",
+        "EPUB/ch10.xhtml#fnref:ch10-96",
+        "EPUB/ch10.xhtml#fnref:ch10-97",
+        "EPUB/ch10.xhtml#fnref:ch10-98",
+        "EPUB/ch10.xhtml#fnref:ch10-99",
+        "EPUB/images/ch10-european-advantage-triad.png"
+      ]
+    },
+    {
+      "id": "chapter_13",
+      "fileName": "EPUB/ch11.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 10483,
+      "uncompressedSize": 27850,
+      "compressionMethod": "Deflated",
+      "checkSum": "4733554af342e086258e2e5d66c28556b325bd84572d2a37f7cabe1b6563b10",
+      "isSpineItem": true,
+      "spineIndex": 14,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch11.xhtml#fn:ch11-101",
+        "EPUB/ch11.xhtml#fn:ch11-102",
+        "EPUB/ch11.xhtml#fn:ch11-103",
+        "EPUB/ch11.xhtml#fnref:ch11-101",
+        "EPUB/ch11.xhtml#fnref:ch11-102",
+        "EPUB/ch11.xhtml#fnref:ch11-103"
+      ]
+    },
+    {
+      "id": "chapter_14",
+      "fileName": "EPUB/ch12.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 7541,
+      "uncompressedSize": 20032,
+      "compressionMethod": "Deflated",
+      "checkSum": "eacfd6fd87cf399ba85cdfe5635687faf661c44593f97838f9e0918b4cc",
+      "isSpineItem": true,
+      "spineIndex": 15,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch12.xhtml#fn:ch12-104",
+        "EPUB/ch12.xhtml#fn:ch12-105",
+        "EPUB/ch12.xhtml#fn:ch12-106",
+        "EPUB/ch12.xhtml#fn:ch12-107",
+        "EPUB/ch12.xhtml#fn:ch12-108",
+        "EPUB/ch12.xhtml#fnref:ch12-104",
+        "EPUB/ch12.xhtml#fnref:ch12-105",
+        "EPUB/ch12.xhtml#fnref:ch12-106",
+        "EPUB/ch12.xhtml#fnref:ch12-107",
+        "EPUB/ch12.xhtml#fnref:ch12-108"
+      ]
+    },
+    {
+      "id": "chapter_15",
+      "fileName": "EPUB/ch13.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 5798,
+      "uncompressedSize": 15175,
+      "compressionMethod": "Deflated",
+      "checkSum": "ede243f7ba305afe3a4d959b21607a8eb01a7fa8c6ee79259c90562e54fb",
+      "isSpineItem": true,
+      "spineIndex": 16,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch13.xhtml#fn:ch13-109",
+        "EPUB/ch13.xhtml#fn:ch13-110",
+        "EPUB/ch13.xhtml#fn:ch13-111",
+        "EPUB/ch13.xhtml#fn:ch13-112",
+        "EPUB/ch13.xhtml#fnref2:109",
+        "EPUB/ch13.xhtml#fnref:ch13-109",
+        "EPUB/ch13.xhtml#fnref:ch13-110",
+        "EPUB/ch13.xhtml#fnref:ch13-111",
+        "EPUB/ch13.xhtml#fnref:ch13-112"
+      ]
+    },
+    {
+      "id": "chapter_16",
+      "fileName": "EPUB/ch14.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 7128,
+      "uncompressedSize": 17978,
+      "compressionMethod": "Deflated",
+      "checkSum": "e7ac6592471aa6d653a07478c3f14cea751338056d3fb44fb2fed167c5bff9",
+      "isSpineItem": true,
+      "spineIndex": 17,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch14.xhtml#fn:ch14-113",
+        "EPUB/ch14.xhtml#fn:ch14-114",
+        "EPUB/ch14.xhtml#fnref:ch14-113",
+        "EPUB/ch14.xhtml#fnref:ch14-114",
+        "EPUB/ch14.xhtml#fnref:ch14-115"
+      ]
+    },
+    {
+      "id": "chapter_17",
+      "fileName": "EPUB/ch15.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 4560,
+      "uncompressedSize": 11983,
+      "compressionMethod": "Deflated",
+      "checkSum": "e11e224ab423a3c6a7e7915a4f996bc0ba0e2cd9a87f8c92fe775d8fc3f2",
+      "isSpineItem": true,
+      "spineIndex": 18,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch15.xhtml#fn:ch15-116",
+        "EPUB/ch15.xhtml#fn:ch15-117",
+        "EPUB/ch15.xhtml#fn:ch15-118",
+        "EPUB/ch15.xhtml#fn:ch15-120",
+        "EPUB/ch15.xhtml#fnref:ch15-116",
+        "EPUB/ch15.xhtml#fnref:ch15-117",
+        "EPUB/ch15.xhtml#fnref:ch15-118",
+        "EPUB/ch15.xhtml#fnref:ch15-119",
+        "EPUB/ch15.xhtml#fnref:ch15-120"
+      ]
+    },
+    {
+      "id": "chapter_18",
+      "fileName": "EPUB/about.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 722,
+      "uncompressedSize": 1239,
+      "compressionMethod": "Deflated",
+      "checkSum": "6ba0d391e398723b69528efd31cd1aedc880daf1ca1a50ea69965916bc5c899",
+      "isSpineItem": true,
+      "spineIndex": 19,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": []
+    },
+    {
+      "id": "chapter_2",
+      "fileName": "EPUB/introduction.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 3417,
+      "uncompressedSize": 7796,
+      "compressionMethod": "Deflated",
+      "checkSum": "13abe1b599afe73dae66536cfb83d4b08aa19fdb9f94ae71a86dcabff5b7",
+      "isSpineItem": true,
+      "spineIndex": 3,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": []
+    },
+    {
+      "id": "chapter_3",
+      "fileName": "EPUB/ch01.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 10934,
+      "uncompressedSize": 31219,
+      "compressionMethod": "Deflated",
+      "checkSum": "61a2b9ac4b9ebe724a8ee2d5419567c79c8dbbbbc85f74d7e79ea363ec2",
+      "isSpineItem": true,
+      "spineIndex": 4,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch01.xhtml#fn:ch01-1",
+        "EPUB/ch01.xhtml#fn:ch01-10",
+        "EPUB/ch01.xhtml#fn:ch01-11",
+        "EPUB/ch01.xhtml#fn:ch01-2",
+        "EPUB/ch01.xhtml#fn:ch01-3",
+        "EPUB/ch01.xhtml#fn:ch01-4",
+        "EPUB/ch01.xhtml#fn:ch01-5",
+        "EPUB/ch01.xhtml#fn:ch01-7",
+        "EPUB/ch01.xhtml#fn:ch01-8",
+        "EPUB/ch01.xhtml#fn:ch01-9",
+        "EPUB/ch01.xhtml#fnref:ch01-1",
+        "EPUB/ch01.xhtml#fnref:ch01-10",
+        "EPUB/ch01.xhtml#fnref:ch01-11",
+        "EPUB/ch01.xhtml#fnref:ch01-2",
+        "EPUB/ch01.xhtml#fnref:ch01-3",
+        "EPUB/ch01.xhtml#fnref:ch01-4",
+        "EPUB/ch01.xhtml#fnref:ch01-5",
+        "EPUB/ch01.xhtml#fnref:ch01-6",
+        "EPUB/ch01.xhtml#fnref:ch01-7",
+        "EPUB/ch01.xhtml#fnref:ch01-8",
+        "EPUB/ch01.xhtml#fnref:ch01-9"
+      ]
+    },
+    {
+      "id": "chapter_4",
+      "fileName": "EPUB/ch02.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 9952,
+      "uncompressedSize": 28378,
+      "compressionMethod": "Deflated",
+      "checkSum": "5bf1d5df293d441ce8d94e2e4e060f195b4d884e3fc41708a5302c5b7ebbea",
+      "isSpineItem": true,
+      "spineIndex": 5,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch02.xhtml#fn:ch02-12",
+        "EPUB/ch02.xhtml#fn:ch02-13",
+        "EPUB/ch02.xhtml#fn:ch02-14",
+        "EPUB/ch02.xhtml#fn:ch02-15",
+        "EPUB/ch02.xhtml#fn:ch02-16",
+        "EPUB/ch02.xhtml#fn:ch02-17",
+        "EPUB/ch02.xhtml#fn:ch02-18",
+        "EPUB/ch02.xhtml#fn:ch02-19",
+        "EPUB/ch02.xhtml#fn:ch02-20",
+        "EPUB/ch02.xhtml#fn:ch02-21",
+        "EPUB/ch02.xhtml#fn:ch02-22",
+        "EPUB/ch02.xhtml#fnref2:12",
+        "EPUB/ch02.xhtml#fnref2:15",
+        "EPUB/ch02.xhtml#fnref:ch02-12",
+        "EPUB/ch02.xhtml#fnref:ch02-13",
+        "EPUB/ch02.xhtml#fnref:ch02-14",
+        "EPUB/ch02.xhtml#fnref:ch02-15",
+        "EPUB/ch02.xhtml#fnref:ch02-16",
+        "EPUB/ch02.xhtml#fnref:ch02-17",
+        "EPUB/ch02.xhtml#fnref:ch02-18",
+        "EPUB/ch02.xhtml#fnref:ch02-19",
+        "EPUB/ch02.xhtml#fnref:ch02-20",
+        "EPUB/ch02.xhtml#fnref:ch02-21",
+        "EPUB/ch02.xhtml#fnref:ch02-22"
+      ]
+    },
+    {
+      "id": "chapter_5",
+      "fileName": "EPUB/ch03.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 10310,
+      "uncompressedSize": 29847,
+      "compressionMethod": "Deflated",
+      "checkSum": "ebd6ee28692db2aa64d82661ac1c929185fc7f39f4fb9cebdf77704e2c5b2a8c",
+      "isSpineItem": true,
+      "spineIndex": 6,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch03.xhtml#fn:ch03-23",
+        "EPUB/ch03.xhtml#fn:ch03-24",
+        "EPUB/ch03.xhtml#fn:ch03-25",
+        "EPUB/ch03.xhtml#fn:ch03-26",
+        "EPUB/ch03.xhtml#fn:ch03-27",
+        "EPUB/ch03.xhtml#fn:ch03-28",
+        "EPUB/ch03.xhtml#fn:ch03-29",
+        "EPUB/ch03.xhtml#fn:ch03-30",
+        "EPUB/ch03.xhtml#fn:ch03-31",
+        "EPUB/ch03.xhtml#fn:ch03-32",
+        "EPUB/ch03.xhtml#fn:ch03-33",
+        "EPUB/ch03.xhtml#fn:ch03-34",
+        "EPUB/ch03.xhtml#fn:ch03-35",
+        "EPUB/ch03.xhtml#fn:ch03-36",
+        "EPUB/ch03.xhtml#fn:ch03-37",
+        "EPUB/ch03.xhtml#fnref:ch03-23",
+        "EPUB/ch03.xhtml#fnref:ch03-24",
+        "EPUB/ch03.xhtml#fnref:ch03-25",
+        "EPUB/ch03.xhtml#fnref:ch03-26",
+        "EPUB/ch03.xhtml#fnref:ch03-27",
+        "EPUB/ch03.xhtml#fnref:ch03-28",
+        "EPUB/ch03.xhtml#fnref:ch03-29",
+        "EPUB/ch03.xhtml#fnref:ch03-30",
+        "EPUB/ch03.xhtml#fnref:ch03-31",
+        "EPUB/ch03.xhtml#fnref:ch03-32",
+        "EPUB/ch03.xhtml#fnref:ch03-33",
+        "EPUB/ch03.xhtml#fnref:ch03-34",
+        "EPUB/ch03.xhtml#fnref:ch03-35",
+        "EPUB/ch03.xhtml#fnref:ch03-36",
+        "EPUB/ch03.xhtml#fnref:ch03-37"
+      ]
+    },
+    {
+      "id": "chapter_6",
+      "fileName": "EPUB/ch04.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 11755,
+      "uncompressedSize": 34069,
+      "compressionMethod": "Deflated",
+      "checkSum": "a86c7c8bad5f79b6385a3440d0c5de534ea9e51252897340161b65447997f",
+      "isSpineItem": true,
+      "spineIndex": 7,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch04.xhtml#fn:ch04-38",
+        "EPUB/ch04.xhtml#fn:ch04-39",
+        "EPUB/ch04.xhtml#fn:ch04-40",
+        "EPUB/ch04.xhtml#fn:ch04-41",
+        "EPUB/ch04.xhtml#fn:ch04-42",
+        "EPUB/ch04.xhtml#fn:ch04-43",
+        "EPUB/ch04.xhtml#fn:ch04-44",
+        "EPUB/ch04.xhtml#fn:ch04-45",
+        "EPUB/ch04.xhtml#fn:ch04-46",
+        "EPUB/ch04.xhtml#fn:ch04-47",
+        "EPUB/ch04.xhtml#fn:ch04-48",
+        "EPUB/ch04.xhtml#fn:ch04-49",
+        "EPUB/ch04.xhtml#fn:ch04-50",
+        "EPUB/ch04.xhtml#fn:ch04-51",
+        "EPUB/ch04.xhtml#fn:ch04-52",
+        "EPUB/ch04.xhtml#fn:ch04-53",
+        "EPUB/ch04.xhtml#fn:ch04-54",
+        "EPUB/ch04.xhtml#fn:ch04-55",
+        "EPUB/ch04.xhtml#fnref:ch04-38",
+        "EPUB/ch04.xhtml#fnref:ch04-39",
+        "EPUB/ch04.xhtml#fnref:ch04-40",
+        "EPUB/ch04.xhtml#fnref:ch04-41",
+        "EPUB/ch04.xhtml#fnref:ch04-42",
+        "EPUB/ch04.xhtml#fnref:ch04-43",
+        "EPUB/ch04.xhtml#fnref:ch04-44",
+        "EPUB/ch04.xhtml#fnref:ch04-45",
+        "EPUB/ch04.xhtml#fnref:ch04-46",
+        "EPUB/ch04.xhtml#fnref:ch04-47",
+        "EPUB/ch04.xhtml#fnref:ch04-48",
+        "EPUB/ch04.xhtml#fnref:ch04-49",
+        "EPUB/ch04.xhtml#fnref:ch04-50",
+        "EPUB/ch04.xhtml#fnref:ch04-51",
+        "EPUB/ch04.xhtml#fnref:ch04-52",
+        "EPUB/ch04.xhtml#fnref:ch04-53",
+        "EPUB/ch04.xhtml#fnref:ch04-54",
+        "EPUB/ch04.xhtml#fnref:ch04-55",
+        "EPUB/images/ch04-four-tiers.png"
+      ]
+    },
+    {
+      "id": "chapter_7",
+      "fileName": "EPUB/ch05.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 7162,
+      "uncompressedSize": 19588,
+      "compressionMethod": "Deflated",
+      "checkSum": "69611dc315c788611aff7a5794e21ea66cf3dd579f56a7fa8839f6a0be24441f",
+      "isSpineItem": true,
+      "spineIndex": 8,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch05.xhtml#fn:ch05-56",
+        "EPUB/ch05.xhtml#fn:ch05-57",
+        "EPUB/ch05.xhtml#fn:ch05-58",
+        "EPUB/ch05.xhtml#fn:ch05-59",
+        "EPUB/ch05.xhtml#fn:ch05-60",
+        "EPUB/ch05.xhtml#fnref:ch05-56",
+        "EPUB/ch05.xhtml#fnref:ch05-57",
+        "EPUB/ch05.xhtml#fnref:ch05-58",
+        "EPUB/ch05.xhtml#fnref:ch05-59",
+        "EPUB/ch05.xhtml#fnref:ch05-60",
+        "EPUB/images/ch05-ai-transformation-framework.png"
+      ]
+    },
+    {
+      "id": "chapter_8",
+      "fileName": "EPUB/ch06.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 7683,
+      "uncompressedSize": 21010,
+      "compressionMethod": "Deflated",
+      "checkSum": "19c9445d4cbb3b981ea07a4bce15be705fbd1329ae28924b97a447228643",
+      "isSpineItem": true,
+      "spineIndex": 9,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch06.xhtml#fn:ch06-61",
+        "EPUB/ch06.xhtml#fn:ch06-62",
+        "EPUB/ch06.xhtml#fn:ch06-63",
+        "EPUB/ch06.xhtml#fn:ch06-64",
+        "EPUB/ch06.xhtml#fn:ch06-65",
+        "EPUB/ch06.xhtml#fn:ch06-66",
+        "EPUB/ch06.xhtml#fn:ch06-67",
+        "EPUB/ch06.xhtml#fnref:ch06-61",
+        "EPUB/ch06.xhtml#fnref:ch06-62",
+        "EPUB/ch06.xhtml#fnref:ch06-63",
+        "EPUB/ch06.xhtml#fnref:ch06-64",
+        "EPUB/ch06.xhtml#fnref:ch06-65",
+        "EPUB/ch06.xhtml#fnref:ch06-66",
+        "EPUB/ch06.xhtml#fnref:ch06-67",
+        "EPUB/images/ch06-ai-product-canvas.png"
+      ]
+    },
+    {
+      "id": "chapter_9",
+      "fileName": "EPUB/ch07.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 9900,
+      "uncompressedSize": 29190,
+      "compressionMethod": "Deflated",
+      "checkSum": "7c4581b8c9e3b12fb32c983edb45e9e44975addecff77224761dbe92271273",
+      "isSpineItem": true,
+      "spineIndex": 10,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/ch07.xhtml#fn:ch07-74",
+        "EPUB/ch07.xhtml#fn:ch07-75",
+        "EPUB/ch07.xhtml#fn:ch07-76",
+        "EPUB/ch07.xhtml#fn:ch07-77",
+        "EPUB/ch07.xhtml#fn:ch07-78",
+        "EPUB/ch07.xhtml#fn:ch07-79",
+        "EPUB/ch07.xhtml#fn:ch07-80",
+        "EPUB/ch07.xhtml#fnref2:75",
+        "EPUB/ch07.xhtml#fnref2:76",
+        "EPUB/ch07.xhtml#fnref2:77",
+        "EPUB/ch07.xhtml#fnref2:78",
+        "EPUB/ch07.xhtml#fnref2:79",
+        "EPUB/ch07.xhtml#fnref2:80",
+        "EPUB/ch07.xhtml#fnref:ch07-68",
+        "EPUB/ch07.xhtml#fnref:ch07-69",
+        "EPUB/ch07.xhtml#fnref:ch07-70",
+        "EPUB/ch07.xhtml#fnref:ch07-71",
+        "EPUB/ch07.xhtml#fnref:ch07-72",
+        "EPUB/ch07.xhtml#fnref:ch07-73",
+        "EPUB/ch07.xhtml#fnref:ch07-74",
+        "EPUB/ch07.xhtml#fnref:ch07-75",
+        "EPUB/ch07.xhtml#fnref:ch07-76",
+        "EPUB/ch07.xhtml#fnref:ch07-77",
+        "EPUB/ch07.xhtml#fnref:ch07-78",
+        "EPUB/ch07.xhtml#fnref:ch07-79",
+        "EPUB/ch07.xhtml#fnref:ch07-80"
+      ]
+    },
+    {
+      "id": "ePubCheck.NoManifestRef:EPUB/content.opf",
+      "fileName": "EPUB/content.opf",
+      "media_type": null,
+      "compressedSize": 1047,
+      "uncompressedSize": 4335,
+      "compressionMethod": "Deflated",
+      "checkSum": "c0eed33f8cdb9ecab8453da563cebb695ac96944a27dbc74febf2abc7cdf9d",
+      "isSpineItem": false,
+      "spineIndex": null,
+      "isLinear": false,
+      "isFixedFormat": null,
+      "isScripted": false,
+      "renditionLayout": null,
+      "renditionOrientation": null,
+      "renditionSpread": null,
+      "referencedItems": []
+    },
+    {
+      "id": "ePubCheck.NoManifestRef:META-INF/container.xml",
+      "fileName": "META-INF/container.xml",
+      "media_type": null,
+      "compressedSize": 171,
+      "uncompressedSize": 251,
+      "compressionMethod": "Deflated",
+      "checkSum": "68f2d6eeefd31b6c5ecb69ae3d46b68f49e9c21f2bb37a598c739c93871bd6",
+      "isSpineItem": false,
+      "spineIndex": null,
+      "isLinear": false,
+      "isFixedFormat": null,
+      "isScripted": false,
+      "renditionLayout": null,
+      "renditionOrientation": null,
+      "renditionSpread": null,
+      "referencedItems": []
+    },
+    {
+      "id": "ePubCheck.NoManifestRef:mimetype",
+      "fileName": "mimetype",
+      "media_type": null,
+      "compressedSize": 20,
+      "uncompressedSize": 20,
+      "compressionMethod": "Stored",
+      "checkSum": "e468e350d1143eb648f6c7bbd63111ec544a361ca74ecef256ac91f48b",
+      "isSpineItem": false,
+      "spineIndex": null,
+      "isLinear": false,
+      "isFixedFormat": null,
+      "isScripted": false,
+      "renditionLayout": null,
+      "renditionOrientation": null,
+      "renditionSpread": null,
+      "referencedItems": []
+    },
+    {
+      "id": "img_ch04-four-tiers",
+      "fileName": "EPUB/images/ch04-four-tiers.png",
+      "media_type": "image/png",
+      "compressedSize": 143740,
+      "uncompressedSize": 160387,
+      "compressionMethod": "Deflated",
+      "checkSum": "da3c673449fa521c47401c1ee431a636c3f1a57dd73c9fe083dd4675d584",
+      "isSpineItem": false,
+      "spineIndex": null,
+      "isLinear": false,
+      "isFixedFormat": null,
+      "isScripted": false,
+      "renditionLayout": null,
+      "renditionOrientation": null,
+      "renditionSpread": null,
+      "referencedItems": []
+    },
+    {
+      "id": "img_ch05-ai-transformation-framework",
+      "fileName": "EPUB/images/ch05-ai-transformation-framework.png",
+      "media_type": "image/png",
+      "compressedSize": 89283,
+      "uncompressedSize": 104866,
+      "compressionMethod": "Deflated",
+      "checkSum": "438c77ddffcfbd84e44ba4c6142bf8c687d546b57ff548e21d8efa47df2e290",
+      "isSpineItem": false,
+      "spineIndex": null,
+      "isLinear": false,
+      "isFixedFormat": null,
+      "isScripted": false,
+      "renditionLayout": null,
+      "renditionOrientation": null,
+      "renditionSpread": null,
+      "referencedItems": []
+    },
+    {
+      "id": "img_ch06-ai-product-canvas",
+      "fileName": "EPUB/images/ch06-ai-product-canvas.png",
+      "media_type": "image/png",
+      "compressedSize": 2851515,
+      "uncompressedSize": 2870377,
+      "compressionMethod": "Deflated",
+      "checkSum": "fe667224e3529182111144b58f2fb9efcc2e11834d1f190cbe587724b58d19",
+      "isSpineItem": false,
+      "spineIndex": null,
+      "isLinear": false,
+      "isFixedFormat": null,
+      "isScripted": false,
+      "renditionLayout": null,
+      "renditionOrientation": null,
+      "renditionSpread": null,
+      "referencedItems": []
+    },
+    {
+      "id": "img_ch09-ai-decision-framework",
+      "fileName": "EPUB/images/ch09-ai-decision-framework.png",
+      "media_type": "image/png",
+      "compressedSize": 59228,
+      "uncompressedSize": 68583,
+      "compressionMethod": "Deflated",
+      "checkSum": "9927a68618981264b7aefc62dfefd0641e39aa192113d0d9b17347d48c8575",
+      "isSpineItem": false,
+      "spineIndex": null,
+      "isLinear": false,
+      "isFixedFormat": null,
+      "isScripted": false,
+      "renditionLayout": null,
+      "renditionOrientation": null,
+      "renditionSpread": null,
+      "referencedItems": []
+    },
+    {
+      "id": "img_ch10-european-advantage-triad",
+      "fileName": "EPUB/images/ch10-european-advantage-triad.png",
+      "media_type": "image/png",
+      "compressedSize": 66428,
+      "uncompressedSize": 75593,
+      "compressionMethod": "Deflated",
+      "checkSum": "27e21d204cdf8aff4cb477b3b43e4fd52f62bd7dde61b3f34e279998726664e",
+      "isSpineItem": false,
+      "spineIndex": null,
+      "isLinear": false,
+      "isFixedFormat": null,
+      "isScripted": false,
+      "renditionLayout": null,
+      "renditionOrientation": null,
+      "renditionSpread": null,
+      "referencedItems": []
+    },
+    {
+      "id": "nav",
+      "fileName": "EPUB/nav.xhtml",
+      "media_type": "application/xhtml+xml",
+      "compressedSize": 630,
+      "uncompressedSize": 2138,
+      "compressionMethod": "Deflated",
+      "checkSum": "a8bd531e29e941b842c2fe9063a599c361766b8b8d7dc444fce4f3bc2256b",
+      "isSpineItem": true,
+      "spineIndex": 0,
+      "isLinear": true,
+      "isFixedFormat": false,
+      "isScripted": false,
+      "renditionLayout": "reflowable",
+      "renditionOrientation": "auto",
+      "renditionSpread": "auto",
+      "referencedItems": [
+        "EPUB/about.xhtml",
+        "EPUB/ch01.xhtml",
+        "EPUB/ch02.xhtml",
+        "EPUB/ch03.xhtml",
+        "EPUB/ch04.xhtml",
+        "EPUB/ch05.xhtml",
+        "EPUB/ch06.xhtml",
+        "EPUB/ch07.xhtml",
+        "EPUB/ch08.xhtml",
+        "EPUB/ch09.xhtml",
+        "EPUB/ch10.xhtml",
+        "EPUB/ch11.xhtml",
+        "EPUB/ch12.xhtml",
+        "EPUB/ch13.xhtml",
+        "EPUB/ch14.xhtml",
+        "EPUB/ch15.xhtml",
+        "EPUB/introduction.xhtml",
+        "EPUB/title.xhtml"
+      ]
+    },
+    {
+      "id": "ncx",
+      "fileName": "EPUB/toc.ncx",
+      "media_type": "application/x-dtbncx+xml",
+      "compressedSize": 734,
+      "uncompressedSize": 3462,
+      "compressionMethod": "Deflated",
+      "checkSum": "9e10b921f971a5fe8626186392fdb1b846bcb894de0619497dff8e5c8a32dd",
+      "isSpineItem": false,
+      "spineIndex": null,
+      "isLinear": false,
+      "isFixedFormat": null,
+      "isScripted": false,
+      "renditionLayout": null,
+      "renditionOrientation": null,
+      "renditionSpread": null,
+      "referencedItems": [
+        "EPUB/about.xhtml",
+        "EPUB/ch01.xhtml",
+        "EPUB/ch02.xhtml",
+        "EPUB/ch03.xhtml",
+        "EPUB/ch04.xhtml",
+        "EPUB/ch05.xhtml",
+        "EPUB/ch06.xhtml",
+        "EPUB/ch07.xhtml",
+        "EPUB/ch08.xhtml",
+        "EPUB/ch09.xhtml",
+        "EPUB/ch10.xhtml",
+        "EPUB/ch11.xhtml",
+        "EPUB/ch12.xhtml",
+        "EPUB/ch13.xhtml",
+        "EPUB/ch14.xhtml",
+        "EPUB/ch15.xhtml",
+        "EPUB/introduction.xhtml",
+        "EPUB/title.xhtml"
+      ]
+    }
+  ]
+}
