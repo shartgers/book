@@ -1,5 +1,5 @@
 _The Agentic Organisation_
-Copyright © 2026 by Stephan Hartgers-Rus
+Copyright © 2026 by Stephan Hartgers
 
 <br>
 
@@ -11,7 +11,8 @@ No part of this publication may be reproduced, distributed, or transmitted in an
 
 <br>
 
-ISBN 978-X-XXXXXX-XX-X (Hardcover)
-ISBN 978-X-XXXXXX-XX-X (eBook)
+ISBN 978-9-083690-20-9 (Hardcover)
+ISBN 978-9-083690-21-6 (Paperback)
+ISBN 978-9-083690-22-3 (eBook)
 
-First Edition, March 2026
+First Edition, April 2026

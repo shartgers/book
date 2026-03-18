@@ -109,7 +109,7 @@ def extract_author_from_about(content: str) -> str:
         # Skip section title
         if re.match(r"^about\s+the\s+author$", line, re.IGNORECASE):
             continue
-        # "Stephan Hartgers-Rus is a former..." -> "Stephan Hartgers-Rus"
+        # "Stephan Hartgers is a former..." -> "Stephan Hartgers"
         match = re.match(r"^([^.\n]+)\s+is\s+a\s+", line, re.IGNORECASE)
         if match:
             return match.group(1).strip()
