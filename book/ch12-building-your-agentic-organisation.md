@@ -2,29 +2,27 @@
 
 Insight without execution is expensive. By now you understand the shift, the model, the tiers, the decision framework, and the European context. The question that remains, the question every leader eventually returns to, is: where do I actually start, and in what order?
 
-The cost of getting the sequence wrong is stark. Research consistently shows that a vast majority of enterprise AI implementations fail to deliver any meaningful impact on the profit and loss statement, despite massive investment.[^105] Most transformative use cases remain stuck in pilot mode, and organisations routinely and significantly underestimate the costs of scaling. The root cause is not technology failure; it is sequencing failure.
+The cost of getting the sequence wrong is stark. Research consistently shows that a vast majority of enterprise AI implementations fail to deliver any meaningful impact on the profit and loss statement, despite massive investment.[^104] Most transformative use cases remain stuck in pilot mode, and organisations routinely and significantly underestimate the costs of scaling. The root cause is not technology failure; it is sequencing failure.
 
 Companies that skip governance and data foundations to launch pilots accumulate what Chapter 8 called AI Infrastructure Debt. Companies that run pilots without a Centre of Excellence cannot replicate first wins. Companies that scale without operating model redesign hit the 70% wall: BCG's 10/20/70 rule shows that 70% of AI transformation effort must go into people and processes, yet most organisations invest backwards. This chapter introduces the Transformation Playbook: Foundation, Activation, Scale. A phased approach designed for the specific constraints and opportunities of a European organisation in 2026.
 
-Foundation (governance, data readiness, AI literacy), Activation (strategy setting, Centre of Excellence, pilots, first wins), and Scale (cross-functional transformation, operating model redesign). Each phase has clear deliverables and a formal gate for transition. Agentic employee development is embedded at every phase, not treated as a parallel track. The playbook maps directionally to the Four Tiers of Transformation: Foundation aligns with Individual, Activation with Team and Department, Scale with Organisation. At every phase, the chapter shows what to do for people, because developing agentic employees is not a parallel workstream but the primary mechanism through which each phase delivers value.
+Foundation (governance, data readiness, AI literacy), Activation (strategy setting, Centre of Excellence, pilots, first wins), and Scale (cross-functional transformation, operating model redesign). Each phase has clear deliverables and a formal gate for transition. Let's dive in.
 
 ## The Sequencing Trap
 
-Organisations often fail at execution even after they understand the potential of AI. The "pilot purgatory" epidemic is well documented, with a vast majority of initiatives never reaching production. Recently, the number of companies abandoning their AI efforts has seen a sharp increase, suggesting that sequencing errors are far more common than strategy errors.[^106]
+Organisations often fail at execution even after they understand the potential of AI. The "pilot purgatory" epidemic is well documented, with a vast majority of initiatives never reaching production. Recently, the number of companies abandoning their AI efforts has seen a sharp increase, suggesting that sequencing errors are far more common than strategy errors.[^105]
 
 Launching pilots without governance is the most visible mistake. Teams rush to prove value, then scramble when EU AI Act deadlines hit. Prohibited AI practices and AI literacy obligations have been in force since February 2025. High-risk system requirements are due August 2026. Organisations that defer governance until pilots "work" discover that compliance cannot be retrofitted.
 
-Building a Centre of Excellence without data readiness creates a different trap. The CoE produces proofs of concept that cannot move to production because data quality, lineage, and access are not in place. Only a minority of organisations have high data maturity, and a majority acknowledge that their data is not yet ready for AI at scale.[^107] A CoE without data foundations is a bottleneck waiting to happen.
+Building a Centre of Excellence without data readiness creates a different trap. The CoE produces proofs of concept that cannot move to production because data quality, lineage, and access are not in place. Only a minority of organisations have high data maturity, and a majority acknowledge that their data is not yet ready for AI at scale.[^106] A CoE without data foundations is a bottleneck waiting to happen.
 
 Declaring "Scale" without operating model redesign is equally common. The organisation automates existing workflows rather than redesigning them. Bain calls this the micro-productivity trap: proliferation of proofs of concept delivering modest gains that fail to scale. Grassroots experimentation does not self-organise into enterprise-wide impact without clear direction from the top.
 
-Ignoring the people track compounds all of these issues. Very few companies have begun meaningful upskilling, even though almost all acknowledge it is necessary.[^108] A vast majority of organisations report being at or past the point of change saturation, and significant portions of the workforce may even resist or neglect new AI rollouts if they are not properly engaged.
+Ignoring the people track compounds all of these issues. Very few companies have begun meaningful upskilling, even though almost all acknowledge it is necessary.[^107] A vast majority of organisations report being at or past the point of change saturation, and significant portions of the workforce may even resist or neglect new AI rollouts if they are not properly engaged.
 
 ## The Transformation Playbook
 
 The Transformation Playbook is a three-phase sequencing model for building the Agentic Organisation. Each phase has distinct deliverables, and each phase transition requires a formal gate approved at board level. Agentic employee development runs through all three phases: individual fluency at Foundation, team coordination at Activation, organisational capability at Scale.
-
-![The Transformation Playbook](images/ch12-transformation-playbook.png)
 
 ### Foundation: Governance, Data, Literacy
 
@@ -92,19 +90,19 @@ The leader's role evolves across phases. At Foundation: set the mandate and mode
 
 For European leaders, regulatory deadlines act as forcing functions. Plan for the binding deadline, August 2026 for high-risk AI systems, not the Digital Omnibus extension that may or may not materialise. Labour dialogue requirements shape phasing: works council consultation, typically two to four months, is part of Foundation, not a delay to Foundation.
 
-PE and mid-market organisations follow shorter phases. A lighter CoE, three to five people augmented by external advisors. Three to five focused use cases. Budget of 2–5% of revenue, with 93% allocated to people and training. PE-backed companies that systematically build AI capabilities achieve nearly twice the return on invested capital.[^109] 70% of large PE funds now run dedicated AI CoEs with standardised playbooks across portfolio companies.
+PE and mid-market organisations follow shorter phases. A lighter CoE, three to five people augmented by external advisors. Three to five focused use cases. Budget of 2–5% of revenue, with 93% allocated to people and training. PE-backed companies that systematically build AI capabilities achieve nearly twice the return on invested capital.[^108] 70% of large PE funds now run dedicated AI CoEs with standardised playbooks across portfolio companies.
 
 ## From Playbook to Diagnostic
 
 The Transformation Playbook gives the leader a sequence: Foundation, Activation, Scale, with agentic employee development at every phase. But a sequence is only useful if the organisation knows where it stands today. The playbook answers "what do I do, and in what order?" The next question is: "where am I now, and what must I fix first?"
 
-That is the work of readiness: a diagnostic assessment across the five pillars (Product and Strategy, People and Skills, Processes and Governance, Technology and Infrastructure, Data and Context) using the Value, Capability, and Trust lenses from Chapter 9. The Transformation Playbook and the readiness diagnostic are complementary. The playbook defines the phases. The diagnostic tells you which phase you are in and where the gaps are. Chapter 13 provides that diagnostic. Chapter 14 then shows how to measure progress through the phases: the KPIs, governance structures, and board reporting mechanisms that prevent the playbook from becoming another strategy document that gathers dust.
+That is the work of readiness: a diagnostic assessment across the five pillars (Product, People and Skills, Processes and Governance, Technology and Infrastructure, Data and Context) using the Value, Capabilities, and Trust lenses from the AI Decision Framework (Chapter 9). The Transformation Playbook and the readiness diagnostic are complementary. The playbook defines the phases. The diagnostic tells you which phase you are in and where the gaps are. Chapter 13 provides that diagnostic. Chapter 14 then shows how to measure progress through the phases: the KPIs, governance structures, and board reporting mechanisms that prevent the playbook from becoming another strategy document that gathers dust.
 
-[^105]: MIT Sloan, "GenAI Divide: State of AI in Business 2025", August 2025
-[^106]: S&P Global, "Outlook on Generative AI", 2025
-[^107]: Gartner, "Data Readiness for AI", July 2024
-[^108]: BCG, "AI at Work", 2024
-[^109]: Bain & Company, "AI in Private Equity", 2025
+[^104]: MIT Sloan, "GenAI Divide: State of AI in Business 2025", August 2025
+[^105]: S&P Global, "Outlook on Generative AI", 2025
+[^106]: Gartner, "Data Readiness for AI", July 2024
+[^107]: BCG, "AI at Work", 2024
+[^108]: Bain & Company, "AI in Private Equity", 2025
 
 ## Questions for the Board
 
@@ -113,41 +111,6 @@ That is the work of readiness: a diagnostic assessment across the five pillars (
 3. Does your Centre of Excellence have a charter with executive sponsorship, a mandate to demonstrate value in 60 to 90 days, and a clear plan to transition from centralised to hub-and-spoke? Or is it a technology team waiting for business requests?
 4. For every pilot in progress, can you state the gating criteria for moving to production, including the scaling cost estimate, governance verification, and replication template? How many of your current pilots would pass that gate?
 5. What is your plan for developing agentic employees at each phase, not as a training programme but as embedded learning, skill-sharing incentives, and measurable fluency targets tied to performance and career progression?
-
-## Case Study: BBVA — Building the Agentic Organisation at Enterprise Scale
-
-### 1. Strategic Dilemma
-
-BBVA faced a genuine sequencing dilemma: how to build the Agentic Organisation across 120,000 employees in 25 countries without sacrificing governance, regulatory compliance, or cultural alignment. One path was to move fast, launching pilots and enterprise AI tools before data unification and governance were in place. That promised early wins and visible momentum, but risked AI Infrastructure Debt, regulatory exposure, and pilots that could not scale. The alternative was to move slowly, completing cloud migration and data readiness before any AI Factory or enterprise deployment. That protected governance and compliance, but risked being outpaced by competitors and losing workforce engagement. Neither path was obviously right. The stakes were high: a bank operating under multiple regulatory regimes (Spain, Mexico, Turkey, and others) could not afford governance failures, yet delay carried its own cost.
-
-### 2. Decision Context
-
-BBVA had already established itself as a digital leader. Chair Carlos Torres Vila noted that the bank had been "pioneers in the digital and mobile transformation," and was "entering the AI era with even greater ambition." That prior investment created both opportunity and pressure: the organisation had digital foundations to build on, but stakeholders expected continued momentum. Banking regulation in Europe and beyond was tightening, with the EU AI Act imposing literacy obligations and risk classification requirements. The bank needed to demonstrate that AI deployment was governed, not ad hoc.
-
-Internally, the challenge was scale and diversity. 120,000 employees across 25 countries meant that any transformation had to work in multiple languages, cultures, and regulatory contexts. A purely centralised approach would bottleneck; a purely decentralised one would fragment. The leadership had to choose a sequence that would hold the organisation together whilst enabling local innovation.
-
-### 3. Trade-offs
-
-- **Centralised investment before proven ROI.** The AI Factory of 400+ professionals and 300 embedded "AI wizards" required substantial upfront investment. That capital and talent could have been allocated to immediate revenue initiatives instead.
-
-- **Speed of enterprise deployment.** Completing global cloud migration and data unification before launching the AI Factory delayed Activation. Competitors moving faster on pilots could claim first-mover advantage.
-
-- **Governance overhead.** Maintaining governance across 25 countries and multiple regulatory regimes added complexity and cost. A lighter-touch approach would have been faster but risked compliance gaps.
-
-- **Control vs empowerment.** Deploying ChatGPT Enterprise to all employees and enabling 3,000+ custom bots created bottom-up innovation, but also shadow AI risk. The bank accepted that trade-off in favour of engagement.
-
-- **Resource concentration.** Multidisciplinary teams in Spain, Mexico, and Turkey meant that some markets received more direct support than others. Geographic balance was sacrificed for hub efficiency.
-
-### 4. Outcome
-
-BBVA followed a disciplined sequence: Foundation first, then Activation, then Scale. The outcome reflects that discipline, with employees reporting significant weekly time savings across the organisation. The use of thousands of custom bots created by employees indicates that the workforce has moved from passive recipients to active participants.
-
-The bank's multi-hub approach and embedded specialists created a skill-sharing mechanism that compounded value as adoption grew. The high levels of daily engagement show that when employees are given the tools and incentive to experiment, transformation becomes a collective effort rather than a top-down mandate.
-
-
-### 5. Transferable Lesson
-
-For European CEOs building the Agentic Organisation, BBVA illustrates a core principle of the Transformation Playbook: **the sequence matters**. Foundation (governance, data readiness, literacy) must precede Activation (Centre of Excellence, pilots, first wins). Activation must precede Scale (enterprise deployment, operating model redesign). BBVA did not launch ChatGPT Enterprise before completing cloud migration and establishing the AI Factory. The 300 embedded wizards and four innovation programmes show that agentic employee development is not a parallel track but the mechanism through which each phase delivers compounding value. The decision rule for CEOs: resist the pressure to skip phases. Invest in Foundation even when pilots seem urgent. Build the AI Factory and skill-sharing mechanisms before enterprise-wide rollout. The playbook is a sequence, not a menu.
 
 ## Handoff — Reviewers — Chapter 12
 Status: complete

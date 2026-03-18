@@ -21,7 +21,7 @@ Meanwhile, adoption continues at pace. A vast majority of executives report alre
 
 As ING's Chief Analytics Officer Bahadir Yilmaz has observed: "The conversation is no longer about if AI works. It's about understanding where it works and, more importantly, where it matters to the client."[^27] That is the European pragmatic lens at its best: the problem is not technology but where and how to deploy it.
 
-The gap is organisational, not technical. Algorithms account for only a small portion of what is required to generate real AI value. The technology backbone is another component, but the vast majority of the effort must be placed on people and processes.[^28] Without a shared picture of how those people and processes operate in the transformed state—how product, people, process, technology, and data fit together—investment scatters across disconnected pilots.
+The gap is organisational, not technical. Algorithms account for only a small portion of what is required to generate real AI value. The technology backbone is another component, but the vast majority of the effort must be placed on people and processes.[^28] Without a shared picture of how those people and processes operate in the transformed state, how product, people, process, technology, and data fit together, investment scatters across disconnected pilots.
 
 
 The micro-productivity trap persists because there is no shared picture of what lies beyond it. More technology does not solve this. A clear destination does.
@@ -50,7 +50,7 @@ Three distinct profiles are emerging in organisations that have made this shift:
 | **Specialist** | Handles exceptions and edge cases that agents cannot resolve | A compliance officer who reviews flagged transactions that agents escalated |
 | **Augmented Frontline Worker** | Uses AI agents to eliminate repetitive tasks and focus on human-centric work | A customer success representative whose agent handles data gathering, letting them focus on relationship-building |
 
-These profiles describe ways of working with agents, not job titles. They are already visible in organisations that have moved beyond bolt-on AI adoption. How they map into formal positions—such as Domain Leader, Agent Orchestrator, and AI Product Manager—is covered in Chapter 7.
+These profiles describe ways of working with agents, not job titles. They are already visible in organisations that have moved beyond bolt-on AI adoption. How they map into formal positions, such as Domain Leader, Agent Orchestrator, and AI Product Manager, is covered in Chapter 7.
 
 The productivity evidence is substantial. A software team where output increased by 39% after AI agents became the default platform.[^30] Crucially, more experienced workers benefit more from agents, with one standard deviation higher experience correlating with 6% higher acceptance rates, whilst junior workers benefit more from tool-only AI. A legal technology trial across 12 firms found a 41% average productivity increase. Studies show time savings of 65 to 86% versus human-only workflows.[^31]
 

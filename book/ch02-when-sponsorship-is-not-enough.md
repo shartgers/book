@@ -34,7 +34,7 @@ The evidence of mismatch is stark. Organisations are abandoning AI initiatives a
 
 These are not technology failures. They are the predictable outcome of applying the wrong organisational model to a categorically different kind of change.
 
-Meanwhile, the leaders who have adopted the right mental model are pulling away. Research consistently shows that only a small minority of firms achieve AI value at scale.[^14] Those that do commit far more than the average organisation—both in total investment and in workforce upskilling.[^15] They are not spending more on better algorithms. They are spending more on the organisational redesign that makes algorithms valuable.
+Meanwhile, the leaders who have adopted the right mental model are pulling away. Research consistently shows that only a small minority of firms achieve AI value at scale.[^14] Those that do commit far more than the average organisation, both in total investment and in workforce upskilling.[^15] They are not spending more on better algorithms. They are spending more on the organisational redesign that makes algorithms valuable.
 
 The paradox McKinsey calls the "GenAI Paradox" captures this precisely: the technology is advancing at exceptional speed and capability, while organisational value creation lags behind. Nearly eight in ten companies report using generative AI, yet just as many report no significant bottom-line impact.[^15] Usage without leadership-driven architecture produces activity, not outcomes. The organisations that have broken through the paradox did so not by finding better tools but by changing who owns the transformation and how the organisation is structured to absorb it.
 

@@ -24,7 +24,7 @@ European leaders face an additional dimension. The EU AI Act, Article 4, which t
 
 ## The Four Tiers of Transformation
 
-The choice of path matters more than the level of ambition. A four-tier progression—Individual Augmentation, Task & Workflow Automation, Functional Agentic Workflows, and Cross-functional Agentic Workflows—is the route through which AI capability typically compounds. These tiers, ranging from individual span to enterprise-wide coordination, are not a mandatory ladder. They are strategic interpretations of how maturity should advance. 
+The choice of path matters more than the level of ambition. A four-tier progression is the route through which AI capability typically compounds. These tiers, ranging from individual span to enterprise-wide coordination, are not a mandatory ladder. They are strategic interpretations of how maturity should advance. 
 
 The structural mistake that explains most failure rates is not skipping a tier per se, but skipping a tier without the underlying organizational foundations to support the jump. If an organisation has mastered individual fluency and team norms, and its broader maturity allows for enterprise-scale coordination, it may intentionally choose to bypass departmental redesign and move directly to organizational transformation. This can be done successfully, provided the leadership and governance are calibrated for the target tier.
 
@@ -118,7 +118,7 @@ Over-investing in Tier 4 before Tiers 1 and 2 are in place is the first. Enterpr
 
 Applying the same governance to all tiers is the second. Light-touch governance that works for individual experimentation is insufficient for departmental workflow redesign. Rigorous governance designed for enterprise deployment will suffocate early-stage adoption. Each tier requires governance calibrated to its risk profile and maturity.
 
-Ignoring skill creation and sharing is the third. As Chapter 3 introduced, a skill is a reusable AI workflow. When people create skills but do not share them, local wins stay local—the organisation loses its most powerful compounding mechanism. Shared skills are how Tier 1 fluency becomes Tier 2 capability, and how Tier 2 capability becomes Tier 3 workflow redesign.
+Ignoring skill creation and sharing is the third. As Chapter 3 introduced, a skill is a reusable AI workflow. When people create skills but do not share them, local wins stay local, the organisation loses its most powerful compounding mechanism. Shared skills are how Tier 1 fluency becomes Tier 2 capability, and how Tier 2 capability becomes Tier 3 workflow redesign.
 
 ## The Path is a Strategic Choice
 
@@ -158,15 +158,13 @@ The tiers are a structural reality: they describe the layers of capability requi
 
 ## Case Study: ING. The Bank That Sequenced Before It Scaled
 
-### The Choice Between Strategic Optics and Tactical Discipline
+### Building on a Decade of Digital Transformation
 
-In the early 2020s, ING faced a choice familiar to any large European bank with genuine ambitions for AI: how to sequence the investment. Both paths had a legitimate rationale, and neither was obviously wrong.
+ING did not enter the generative AI era as a blank slate. A decade earlier it had already learned what it feels like to modernise a large bank when the methods are new and the outcomes are initially hard to narrate. When ING introduced agile ways of working at scale, alongside product management and design-led approaches, it had to rewire governance, decision rights, and delivery rhythms long before the market could see a single clean “launch moment.”
 
-The first path was enterprise-first: central platforms, shared data infrastructure, an AI programme announced at board level and communicated to the market. This approach would demonstrate strategic commitment, give investors a visible signal, and allow ING to match the tone of peers who were already making enterprise-scale announcements. It was the path that felt like leadership.
+That experience matters, because it left ING with a practical instinct for sequencing. Rather than treating AI as a single enterprise rollout, the bank approached it as another operating-model shift: build capability where the work happens, let new norms take root in teams, and only then scale what proves repeatable. The lesson from the earlier transformation was simple: compounding requires discipline more than declarations.
 
-The second path was slower and less legible. Build tier by tier. Invest first in individual fluency and domain expertise. Establish team-level adoption norms. Redesign departmental workflows function by function before reaching for cross-functional transformation. This path would take longer to show at enterprise scale, would offer fewer memorable launch moments, and would require the organisation to govern a process rather than announce a milestone. It was the path that felt like discipline.
-
-ING chose the second path. That choice is the reason its numbers look different from most of its peers.
+ING chose to sequence before it scaled. That choice is the reason its numbers look different from most of its peers.
 
 ### Capitalising on a Five-Hundred-Strong Analytical Foundation
 

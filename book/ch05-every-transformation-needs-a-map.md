@@ -8,7 +8,7 @@ This chapter introduces the full framework. It walks through each layer briefly 
 
 Scattered initiatives fail because there is no shared model of what the organisation is building. Industry surveys consistently show a wide gap between adoption and tangible impact. Large majorities of firms use generative AI, yet only a small fraction report significant bottom-line benefit.[^56] Most organisations struggle to move past the pilot stage to achieve enterprise-wide value and measurable returns.
 
-The gap between pilot and production is where value dies. Industry analysis often shows that the vast majority of use cases that could deliver real impact remain stuck in pilot. Without a shared map, they rarely graduate to scale. These pilots are typical "point solutions"—local successes that demonstrate potential but, if not guided by an overall framework, fail to integrate into the broader business. 
+The gap between pilot and production is where value dies. Industry analysis often shows that the vast majority of use cases that could deliver real impact remain stuck in pilot. Without a shared map, they rarely graduate to scale. These pilots are typical "point solutions", local successes that demonstrate potential but, if not guided by an overall framework, fail to integrate into the broader business. 
 
 An AI transformation is only complete if all the pillars of the framework are covered. Focusing on just one or two layers is a recipe for stagnation. For example, a heavy investment in the Foundation (data and tech) will not yield results if the Operating Model (people and process) remains unchanged. To achieve the full effect of the transformation, each of the pillars is necessary to support the others; Vision provides the target, Products provide the value, the Operating Model provides the execution, and the Foundation provides the capability.
 
@@ -55,7 +55,7 @@ Efficiency is about the speed, cost, and friction of the transformation. It meas
 ### 2. Effectiveness: Doing the Right Things
 Effectiveness measures whether the transformation is actually delivering the intended strategic value and outcomes.
 *   _Vision:_ Strategic alignment. Is the AI roadmap actually supporting the core mission of the organisation? Effectiveness is measured by the correlation between AI initiatives and top-level KPIs.
-*   _Products:_ Impact on the customer journey. Effectiveness is defined by the reduction in customer friction—such as moving from multi-click search to zero-click discovery. Improvement is seen in increased customer lifetime value and lower churn.
+*   _Products:_ Impact on the customer journey. Effectiveness is defined by the reduction in customer friction, such as moving from multi-click search to zero-click discovery. Improvement is seen in increased customer lifetime value and lower churn.
 *   _Operating Model:_ Skill adoption and shift in roles. Effectiveness is measured by the percentage of the workforce successfully transitioning to "orchestrator" roles. It is not just about training but about the tangible shift in output quality from human–agent teams.
 *   _Foundation:_ Data quality and system reliability. Effectiveness is defined by the accuracy and relevance of the data fed into agentic systems. Improvement is measured by the decline in "hallucination" rates or errors in automated decision-making.
 

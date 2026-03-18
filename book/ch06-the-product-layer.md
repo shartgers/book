@@ -14,7 +14,7 @@ The Products layer is a leadership exercise. It must be completed for every busi
 
 Most organisations are not short of AI features. Chatbots handle customer queries. Recommendation engines surface products. Copilots assist internal teams. The problem is that these features exist in isolation, built without a coherent product strategy that connects them to customer value, journey by journey, unit by unit.
 
-Industry analysis shows the vast majority of AI use cases remain stuck in pilot, never graduating to production at scale.[^61] At the same time, the channels through which products reach customers are shifting.
+We have seen earlier how the vast majority of AI use cases remain stuck in pilot, never graduating to production at scale.[^61] At the same time, the channels through which products reach customers are shifting.
 
 Approximately 60% of global searches now end without a click. On mobile, zero-click rates reach 77%. When AI-generated overviews appear, 83% of searches produce no click at all.[^62] Bain has called this "the most consequential shift in discovery since the search bar".[^63]
 
@@ -26,7 +26,7 @@ Yet 73% of B2B buyers now expect personalised, consumer-grade experiences.[^66] 
 
 The AI Product Canvas is a model that defines the Products layer for each business unit or department. It operationalises Layer 2 of the AI Transformation Framework by asking five questions that every business unit head and their leadership team must answer together.
 
-<!-- DIAGRAM PLACEHOLDER: ch06p-ai-product-canvas — GenerateImage unavailable -->
+![The AI Product Canvas](images/ch06-ai-product-canvas.png)
 
 **1. Value Proposition.** What business value does AI deliver to this unit's customers? This is not about internal efficiency. It is about what the customer receives that they could not receive without AI: faster resolution, better recommendations, predictive insights, or entirely new services.
 
@@ -89,13 +89,13 @@ The next chapter moves from what you offer to how you organise to deliver it.
 
 ## Case Study: Shopify: When the Platform Becomes the Product
 
-### Strategic Dilemma
+### Platform-Wide AI or Premium Add-On?
 
 By late 2024, Shopify served more than five million merchants across a platform spanning storefront, checkout, payments, inventory, logistics, B2B, and marketing. The choice in front of leadership was not which AI feature to add next. It was more fundamental: should Shopify treat AI as a premium capability, offered to merchants who asked for it and could use it, or should it embed AI into every product surface, every workflow, every merchant interaction, as a baseline of the platform itself?
 
 The first path was commercially safe. The second required a platform-wide strategic commitment, organisational alignment across multiple business units, and a willingness to accept that not every merchant would be ready for what Shopify was building.
 
-### Decision Context
+### The Zero-Click Era and Lütke's Baseline Mandate
 
 The external pressure was real. AI-referred orders were growing rapidly: by early 2026, orders from AI search platforms had increased 15 times since January 2025, as AI-mediated discovery began to reshape how consumers found and purchased products. The zero-click era, which Bain described as "the most consequential shift in discovery since the search bar", was already compressing organic web traffic by 15 to 25 per cent across the industry. Merchants who could not be discovered by AI shopping agents were simply not visible in the channels gaining ground fastest.
 
@@ -103,7 +103,7 @@ Internally, Shopify had already built individual AI capabilities: Shopify Magic 
 
 The Universal Commerce Protocol, developed with Google and subsequently adopted by Wayfair, Etsy, Walmart, and Target, represented the most consequential expression of this logic. It was not a feature update. It was a repositioning of Shopify within the emerging AI-mediated commerce infrastructure, creating an agent-native distribution channel that did not exist before AI.
 
-### Trade-offs
+### The Costs of Platform-Wide Commitment
 
 Shopify's platform-wide commitment carried genuine costs:
 
@@ -112,7 +112,7 @@ Shopify's platform-wide commitment carried genuine costs:
 - **Pricing simplicity was sacrificed.** Making Shopify Magic free for all plan subscribers, with no premium tier or usage limits, surrendered what could have been a meaningful revenue line. The bet was that embedded AI would drive platform stickiness and GMV growth, but that trade-off was not guaranteed at the time the decision was made.
 - **Organisational alignment demanded CEO attention.** A platform-wide mandate required every business unit to execute against the same product principle. This is not a product management task; it is a leadership task, and it required Lütke's visible commitment to hold.
 
-### Outcome
+### Revenue, GMV, and Tenfold Productivity
 
 The commercial results are measurable, though causality across a platform of this complexity is never clean. Full-year 2025 revenue reached $11.56 billion, up 30 per cent year on year. Q4 2025 revenue grew 31 per cent to $3.67 billion. B2B GMV nearly doubled in 2025, up 96 per cent, driven partly by AI-powered personalisation and quoting features for B2B buyers, though the growth also reflects broader B2B platform investment made in parallel.
 
@@ -122,7 +122,7 @@ Sidekick evolved from a reactive chatbot into a proactive workflow executor, cap
 
 The platform-level outcome Lütke described: some colleagues contributing ten times what had previously been thought possible.
 
-### Transferable Lesson
+### The Product Canvas as a Board-Level Instrument
 
 Shopify is a technology company. European CEOs running industrial manufacturers, insurers, logistics firms, or financial services institutions may feel the lesson is for a different kind of organisation. It is not. Every organisation has products or services delivered as products, and every customer journey can either be AI-native or bolt-on.
 

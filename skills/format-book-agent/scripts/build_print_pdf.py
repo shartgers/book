@@ -22,6 +22,7 @@ import re
 import os
 import sys
 import tempfile
+import shutil
 from pathlib import Path
 
 try:
@@ -331,6 +332,25 @@ def inject_pdf_metadata(pdf_path: Path, meta: dict) -> None:
         tmp_path.replace(pdf_path)
     except Exception:
         pass  # Leave PDF unchanged on any error
+
+
+def _html_image_src_for_pdf_repo_base(html: str) -> str:
+    """
+    PDF is rendered with WeasyPrint using base_url = repository root.
+
+    Chapters live under book/*.md and reference images as images/foo.png.
+    That becomes <img src="images/foo.png">, which resolves to repo/images/
+    (wrong). Files are at repo/book/images/foo.png.
+
+    Rewrite img src only when it starts with images/ (not already book/images/).
+    Cover and similar assets already use book/images/... and are unchanged.
+    """
+    return re.sub(
+        r'(\ssrc=)(["\'])images/',
+        r"\1\2book/images/",
+        html,
+        flags=re.IGNORECASE,
+    )
 
 
 def markdown_to_html(md: str) -> str:
@@ -1281,8 +1301,11 @@ def get_css(for_pdf: bool = True) -> str:
         display: none;
     }}
 
-    /* FOOTNOTES: small, black, no underline; placed before Questions section.
-       Inline refs (superscript numbers) and the footnote block use Gill Sans. */
+    /* FOOTNOTES: end-of-chapter list in normal document flow (not float:footnote).
+       WeasyPrint float:footnote places bodies in the page footnote area; when the list
+       is too long for the last "reference" page, overflow lands on the *next* page —
+       which was the Questions page. Static flow keeps footnotes before .questions-section
+       in reading order; long lists paginate, then Questions (page-break-before: always). */
     sup a.footnote-ref,
     sup a.footnote-ref:hover,
     sup a.footnote-ref:visited {{
@@ -1292,24 +1315,18 @@ def get_css(for_pdf: bool = True) -> str:
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
     }}
     .chapter-footnotes {{
-        float: footnote;
-        footnote-display: block;
-        footnote-policy: page;
+        page-break-before: always;
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
         font-size: 7.25pt;
         line-height: 1.0;
         color: #000;
-        margin-top: 2em;
+        margin-top: 1.2em;
         margin-bottom: 0;
-        padding: 0.2em 0 0 0;
+        padding: 0.35em 0 0 0;
         border-top: 0.8pt solid #000;
-        page-break-inside: avoid;
+        page-break-inside: auto;
         display: block;
         clear: both;
-    }}
-    .chapter-footnotes::footnote-call,
-    .chapter-footnotes::footnote-marker {{
-        content: "";
     }}
     /* When footnotes are in the footnote block, use Gill Sans and reset numbering styles */
     .chapter-footnotes .footnote ol {{
@@ -1983,8 +2000,9 @@ def main() -> None:
             )
             raise SystemExit(_msg)
         try:
-            # base_url resolves relative URLs (e.g. cover image book/images/cover.png)
-            html_doc = WeasyHTML(string=full_html, base_url=str(repo))
+            # base_url = repo root: map chapter-relative images/... -> book/images/...
+            pdf_html = _html_image_src_for_pdf_repo_base(full_html)
+            html_doc = WeasyHTML(string=pdf_html, base_url=str(repo))
             # Load Raleway and Lora from Google Fonts for PDF typography (Gill Sans Nova requires local/Adobe Fonts)
             font_urls = [
                 "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap",
@@ -2000,6 +2018,20 @@ def main() -> None:
     else:
         html_path = out_path.with_suffix(".html")
         html_path.write_text(full_html, encoding="utf-8")
+        # The generated HTML references images as relative paths like "images/foo.png"
+        # (because markdown image refs in book/ chapters use "images/...").
+        # For local viewing of output/*.html, copy book/images -> output/images.
+        #
+        # PDF uses base_url=str(repo) plus _html_image_src_for_pdf_repo_base() so
+        # images resolve. Standalone HTML keeps src="images/..." + this copy.
+        try:
+            src_images = book_dir / "images"
+            if src_images.is_dir():
+                dst_images = html_path.parent / "images"
+                shutil.copytree(src_images, dst_images, dirs_exist_ok=True)
+        except Exception:
+            # HTML is still useful without images; don't fail the whole build.
+            pass
         print(f"Wrote {html_path}.")
 
 
