@@ -170,6 +170,8 @@ def convert_to_pdfx(
     # -dPDFX: enable PDF/X mode
     # -sProcessColorModel=DeviceGray: output grayscale
     # -sColorConversionStrategy=Gray: convert all to gray
+    # Downsample all raster images to 300 dpi so IngramSpark validation passes
+    # (profile allows max 600 ppi; source may be 720 ppi from WeasyPrint/raster)
     cmd = [
         gs_path,
         "-dSAFER",
@@ -182,6 +184,12 @@ def convert_to_pdfx(
         "-sDEVICE=pdfwrite",
         "-dEmbedAllFonts=true",
         "-dPDFACompatibilityPolicy=1",
+        "-dDownsampleColorImages=true",
+        "-dColorImageResolution=300",
+        "-dDownsampleGrayImages=true",
+        "-dGrayImageResolution=300",
+        "-dDownsampleMonoImages=true",
+        "-dMonoImageResolution=300",
         f"-sOutputFile={output_pdf}",
     ]
 

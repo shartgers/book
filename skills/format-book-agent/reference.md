@@ -74,20 +74,21 @@ IngramSpark recommends PDF/X-1a:2001 or PDF/X-3:2002. The WeasyPrint build does 
    - macOS: `brew install ghostscript`
    - Linux: `apt install ghostscript`
 
-2. **Run the conversion** (builds both formats, then converts both to PDF/X):
+2. **Run the conversion** (builds hardcover 5.5"×8.5", then converts to PDF/X):
    ```bash
    npm run pdfx
    ```
-   This creates **two** PDF/X interior files: `output/<ISBN13>_txt_paperback.pdf` (5.5"×8.25") and `output/<ISBN13>_txt_hardcover.pdf` (5.5"×8.5"). The 13-digit ISBN is read from `input/ISBN paperback.md` and `input/ISBN hardcover.md` (line `ISBN/EAN: 978-...`). Use the appropriate file for each IngramSpark/KDP format.
+   This creates **one** PDF/X interior file: `output/<ISBN13>_txt.pdf`. Page size is **5.5" × 8.5"** (hardcover). The 13-digit ISBN is read from `input/ISBN hardcover.md` (line `ISBN/EAN: 978-...`).
 
-   Or manually (single format, substitute your ISBN for `<ISBN13>`):
+   Or manually:
    ```bash
-   python skills/format-book-agent/scripts/build_print_pdf.py --interior --format paperback --output output/book-interior-paperback.pdf
-   python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-interior-paperback.pdf output/<ISBN13>_txt_paperback.pdf
+   python skills/format-book-agent/scripts/build_print_pdf.py --interior --format hardcover --output output/book-interior-hardcover.pdf
+   python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py
    ```
-   For hardcover: use `--format hardcover` and `output/book-interior-hardcover.pdf` → `output/<ISBN13>_txt_hardcover.pdf`.
 
-3. **ICC profile**: The script downloads a grayscale ICC profile from Adobe if needed, or uses a system profile. Place `Gray Gamma 2.2.icc` in `input/icc/` to use a specific profile.
+3. **Image resolution**: Ghostscript downsamples all raster images (color, grayscale, mono) to **300 dpi** in the PDF/X output so the file passes IngramSpark’s validation (max 600 ppi; source PDFs can be 720 ppi).
+
+4. **ICC profile**: The script downloads a grayscale ICC profile from Adobe if needed, or uses a system profile. Place `Gray Gamma 2.2.icc` in `input/icc/` to use a specific profile.
 
 ---
 

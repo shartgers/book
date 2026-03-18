@@ -9,7 +9,7 @@
     "pdf:hardcover": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --format hardcover --output output/book-interior-hardcover.pdf",
     "epub": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --epub --output output/book-interior.epub",
     "html": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html",
-    "pdfx": "npm run pdf:paperback && npm run pdf:hardcover && python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py",
+    "pdfx": "npm run pdf:hardcover && python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py",
     "full": "python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-full.pdf"
   }
 }
