@@ -7,7 +7,7 @@ Requires Ghostscript (gswin64c on Windows, gs on macOS/Linux).
 
 Usage:
   python convert_to_pdfx.py [input.pdf] [output.pdf]
-  python convert_to_pdfx.py                    # uses output/book-interior.pdf -> output/book-interior-pdfx.pdf
+  python convert_to_pdfx.py                    # uses output/book-interior.pdf -> output/isb_txt.pdf
 
 The script will:
   1. Find Ghostscript (gswin64c or gs)
@@ -219,7 +219,7 @@ def main():
         "output",
         nargs="?",
         default=None,
-        help="Output PDF path (default: input path with -pdfx before .pdf)",
+        help="Output PDF path (default: output/isb_txt.pdf)",
     )
     args = parser.parse_args()
 
@@ -227,7 +227,8 @@ def main():
     if args.output:
         output_pdf = Path(args.output)
     else:
-        output_pdf = input_pdf.parent / f"{input_pdf.stem}-pdfx{input_pdf.suffix}"
+        # Default interior PDF/X output name for IngramSpark
+        output_pdf = REPO_ROOT / "output" / "isb_txt.pdf"
 
     if not input_pdf.exists():
         print(f"Error: Input PDF not found: {input_pdf}")

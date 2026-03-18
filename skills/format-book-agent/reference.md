@@ -9,10 +9,11 @@ Specs and layout rules for the print-ready PDF produced by `scripts/build_print_
 | Use case | Trim size | Notes |
 |----------|-----------|--------|
 | US paperback (KDP / IngramSpark) | 5.5" × 8.25" | Default; common for business books |
+| US hardcover (IngramSpark) | 5.5" × 8.5" | Same **content area** as paperback; extra 0.25" height used as top/bottom margin (0.125" each) |
 | US paperback alternate | 6" × 9" | Slightly larger |
 | EU (metric) | 148 mm × 210 mm (A5) or 152 mm × 229 mm | Check platform dropdowns |
 
-Set trim size in the script or via CSS `@page { size: ... }`. Default in script: **5.5" × 8.25"**.
+Set trim size via `--format paperback` (default) or `--format hardcover`. Paperback = **5.5" × 8.25"**; hardcover = **5.5" × 8.5"** with the same type area (larger top/bottom margins).
 
 ---
 
@@ -73,16 +74,18 @@ IngramSpark recommends PDF/X-1a:2001 or PDF/X-3:2002. The WeasyPrint build does 
    - macOS: `brew install ghostscript`
    - Linux: `apt install ghostscript`
 
-2. **Run the conversion** (after `npm run pdf`):
+2. **Run the conversion** (builds both formats, then converts both to PDF/X):
    ```bash
    npm run pdfx
    ```
-   This creates `output/book-interior-pdfx.pdf` from `output/book-interior.pdf`. Use `book-interior-pdfx.pdf` as your IngramSpark interior file.
+   This creates **two** PDF/X interior files: `output/<ISBN13>_txt_paperback.pdf` (5.5"×8.25") and `output/<ISBN13>_txt_hardcover.pdf` (5.5"×8.5"). The 13-digit ISBN is read from `input/ISBN paperback.md` and `input/ISBN hardcover.md` (line `ISBN/EAN: 978-...`). Use the appropriate file for each IngramSpark/KDP format.
 
-   Or manually:
+   Or manually (single format, substitute your ISBN for `<ISBN13>`):
    ```bash
-   python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-interior.pdf output/book-interior-pdfx.pdf
+   python skills/format-book-agent/scripts/build_print_pdf.py --interior --format paperback --output output/book-interior-paperback.pdf
+   python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-interior-paperback.pdf output/<ISBN13>_txt_paperback.pdf
    ```
+   For hardcover: use `--format hardcover` and `output/book-interior-hardcover.pdf` → `output/<ISBN13>_txt_hardcover.pdf`.
 
 3. **ICC profile**: The script downloads a grayscale ICC profile from Adobe if needed, or uses a system profile. Place `Gray Gamma 2.2.icc` in `input/icc/` to use a specific profile.
 

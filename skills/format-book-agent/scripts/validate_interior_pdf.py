@@ -47,7 +47,7 @@ def validate_pdf(pdf_path: Path) -> list[tuple[str, str, bool]]:
     ))
 
     # --- Trim size ---
-    # 5.5" x 8.25" = 396 x 594 pts (default). 6" x 9" = 432 x 648 pts.
+    # 5.5" x 8.25" = 396 x 594 pts (paperback). 5.5" x 8.5" = 396 x 612 pts (hardcover). 6" x 9" = 432 x 648 pts.
     p0 = pages[0]
     mediabox = p0.mediabox
     w_pts = float(mediabox.width)
@@ -56,12 +56,13 @@ def validate_pdf(pdf_path: Path) -> list[tuple[str, str, bool]]:
     h_in = pts_to_in(h_pts)
 
     is_5_5_x_8_25 = abs(w_pts - 396) < 1 and abs(h_pts - 594) < 1
+    is_5_5_x_8_5 = abs(w_pts - 396) < 1 and abs(h_pts - 612) < 1
     is_6x9 = abs(w_pts - 432) < 1 and abs(h_pts - 648) < 1
-    is_valid_trim = is_5_5_x_8_25 or is_6x9
+    is_valid_trim = is_5_5_x_8_25 or is_5_5_x_8_5 or is_6x9
     results.append((
         "Trim size",
         f"Page size: {w_in:.2f}\" x {h_in:.2f}\" ({w_pts:.0f} x {h_pts:.0f} pts). "
-        f"5.5\" x 8.25\" or 6\" x 9\" supported for IngramSpark. "
+        f"5.5\" x 8.25\" (paperback), 5.5\" x 8.5\" (hardcover), or 6\" x 9\" supported for IngramSpark. "
         + ("PASS" if is_valid_trim else "CHECK - verify trim size matches your submission"),
         is_valid_trim
     ))

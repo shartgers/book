@@ -5,10 +5,11 @@
   "scripts": {
     "build": "npm run pdf && npm run epub && npm run html",
     "pdf": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --output output/book-interior.pdf",
+    "pdf:paperback": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --format paperback --output output/book-interior-paperback.pdf",
+    "pdf:hardcover": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --format hardcover --output output/book-interior-hardcover.pdf",
     "epub": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --epub --output output/book-interior.epub",
     "html": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html",
-    "pdfx": "python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-interior.pdf output/book-interior-pdfx.pdf",
-    "full": "python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-full.pdf",
-    "fullx": "python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-full.pdf output/book-full-pdfx.pdf"
+    "pdfx": "npm run pdf:paperback && npm run pdf:hardcover && python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py",
+    "full": "python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-full.pdf"
   }
 }

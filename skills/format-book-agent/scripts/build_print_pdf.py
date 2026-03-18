@@ -65,13 +65,33 @@ except ImportError:
     PdfReader = None
     PdfWriter = None
 
-# Trim size and margins: 5.5" x 8.25"; tighter margins to fit more content
-TRIM_WIDTH = "5.5in"
-TRIM_HEIGHT = "8.25in"
-PAGE_TOP = "0.6in"
-PAGE_BOTTOM = "0.6in"
-PAGE_LEFT = "0.55in"
-PAGE_RIGHT = "0.55in"
+# Trim size and margins. Two formats: paperback 5.5" x 8.25"; hardcover 5.5" x 8.5".
+# Content area (type area) is the same in both; hardcover uses extra height as top/bottom margin.
+# Paperback: 8.25 - 0.6 - 0.6 = 7.05" content height.
+# Hardcover: 8.5 - 7.05 = 1.45" total top+bottom → 0.725" top, 0.725" bottom.
+PAPERBACK = {
+    "width": "5.5in",
+    "height": "8.25in",
+    "top": "0.6in",
+    "bottom": "0.6in",
+    "left": "0.55in",
+    "right": "0.55in",
+}
+HARDCOVER = {
+    "width": "5.5in",
+    "height": "8.5in",
+    "top": "0.725in",   # same content height as paperback; extra 0.25" split top/bottom
+    "bottom": "0.725in",
+    "left": "0.55in",
+    "right": "0.55in",
+}
+# Backward compatibility: default trim/margins = paperback
+TRIM_WIDTH = PAPERBACK["width"]
+TRIM_HEIGHT = PAPERBACK["height"]
+PAGE_TOP = PAPERBACK["top"]
+PAGE_BOTTOM = PAPERBACK["bottom"]
+PAGE_LEFT = PAPERBACK["left"]
+PAGE_RIGHT = PAPERBACK["right"]
 # Footer: WeasyPrint uses @page margin boxes for page numbers (no frame height needed)
 
 
@@ -722,12 +742,23 @@ def build_toc_html(
     return "<ul>" + "".join(items) + "</ul>"
 
 
-def get_css(for_pdf: bool = True) -> str:
+def get_page_format(format_name: str) -> dict:
+    """Return trim and margin dict for the given format: 'paperback' or 'hardcover'."""
+    if format_name == "hardcover":
+        return HARDCOVER.copy()
+    return PAPERBACK.copy()
+
+
+def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
     """
     Return CSS for print typography and layout.
     When for_pdf=True uses WeasyPrint @page with margins and @bottom-right for page numbers.
     When for_pdf=False uses simple margin @page (for HTML preview).
+    page_format: 'paperback' (5.5" x 8.25") or 'hardcover' (5.5" x 8.5", same content area).
     """
+    pf = get_page_format(page_format)
+    w, h = pf["width"], pf["height"]
+    t, r, b, l = pf["top"], pf["right"], pf["bottom"], pf["left"]
     if for_pdf:
         # WeasyPrint: front = no page number; content = numbered from 1.
         # Use built-in page counter: first content page resets to 1 (contentfirst),
@@ -735,18 +766,18 @@ def get_css(for_pdf: bool = True) -> str:
         page_setup = f"""
     /* PAGE SETUP: front = no number; contentfirst = reset page 1; content = continue */
     @page {{
-        size: {TRIM_WIDTH} {TRIM_HEIGHT};
-        margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
+        size: {w} {h};
+        margin: {t} {r} {b} {l};
     }}
     @page cover {{
-        size: {TRIM_WIDTH} {TRIM_HEIGHT};
+        size: {w} {h};
         margin: 0;
         @top-center {{ content: none; }}
         @bottom-right {{ content: none; }}
     }}
     @page front {{
-        size: {TRIM_WIDTH} {TRIM_HEIGHT};
-        margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
+        size: {w} {h};
+        margin: {t} {r} {b} {l};
         @top-center {{ content: none; }}
         @bottom-right {{ content: none; }}
     }}
@@ -756,8 +787,8 @@ def get_css(for_pdf: bool = True) -> str:
     }}
     /* Left (even) pages: chapter title and page number on the left; no reset here so numbering continues */
     @page contentfirst:left {{
-        size: {TRIM_WIDTH} {TRIM_HEIGHT};
-        margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
+        size: {w} {h};
+        margin: {t} {r} {b} {l};
         @top-left {{
             content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
@@ -773,8 +804,8 @@ def get_css(for_pdf: bool = True) -> str:
     }}
     /* Right (odd) pages: chapter title and page number on the right */
     @page contentfirst:right {{
-        size: {TRIM_WIDTH} {TRIM_HEIGHT};
-        margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
+        size: {w} {h};
+        margin: {t} {r} {b} {l};
         @top-right {{
             content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
@@ -789,8 +820,8 @@ def get_css(for_pdf: bool = True) -> str:
         }}
     }}
     @page content:left {{
-        size: {TRIM_WIDTH} {TRIM_HEIGHT};
-        margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
+        size: {w} {h};
+        margin: {t} {r} {b} {l};
         @top-left {{
             content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
@@ -805,8 +836,8 @@ def get_css(for_pdf: bool = True) -> str:
         }}
     }}
     @page content:right {{
-        size: {TRIM_WIDTH} {TRIM_HEIGHT};
-        margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
+        size: {w} {h};
+        margin: {t} {r} {b} {l};
         @top-right {{
             content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
@@ -823,8 +854,8 @@ def get_css(for_pdf: bool = True) -> str:
     else:
         page_setup = f"""
     @page {{
-        size: {TRIM_WIDTH} {TRIM_HEIGHT};
-        margin: {PAGE_TOP} {PAGE_RIGHT} {PAGE_BOTTOM} {PAGE_LEFT};
+        size: {w} {h};
+        margin: {t} {r} {b} {l};
     }}"""
     return page_setup + f"""
 
@@ -862,8 +893,8 @@ def get_css(for_pdf: bool = True) -> str:
         page: cover;
         margin: 0;
         padding: 0;
-        width: {TRIM_WIDTH};
-        height: {TRIM_HEIGHT};
+        width: {w};
+        height: {h};
         page-break-after: always;
         box-sizing: border-box;
     }}
@@ -1474,12 +1505,13 @@ def build_full_html(
     dry_run: bool,
     for_pdf: bool = True,
     cover_rel: str | None = None,
+    page_format: str = "paperback",
 ) -> str:
     """Assemble full HTML document with optional cover, front matter, chapters, back matter."""
     html_parts = [
         "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"/>",
         "<title>" + title + "</title>",
-        "<style>" + get_css(for_pdf=for_pdf) + "</style>",
+        "<style>" + get_css(for_pdf=for_pdf, page_format=page_format) + "</style>",
         "</head><body>",
     ]
     # Front matter sequence: 1=cover, 2=blank, 3=half title, 4=blank, 5=full title, 6=copyright, 7=blank, 8=epigraph, 9+=TOC, then introduction (right-hand).
@@ -1896,6 +1928,12 @@ def main() -> None:
         action="store_true",
         help="Interior only: exclude cover. Use for book-interior.pdf/epub/html (IngramSpark interior file).",
     )
+    parser.add_argument(
+        "--format",
+        choices=["paperback", "hardcover"],
+        default="paperback",
+        help="Page format: paperback 5.5\" x 8.25\", hardcover 5.5\" x 8.5\" (same content area, extra height as top/bottom margin).",
+    )
     args = parser.parse_args()
 
     # Resolve repo root (script lives in skills/format-book-agent/scripts/; repo has book/ folder)
@@ -1982,6 +2020,7 @@ def main() -> None:
         dry_run=args.dry_run,
         for_pdf=want_pdf,
         cover_rel=cover_rel,
+        page_format=args.format,
     )
 
     out_path = Path(args.output)

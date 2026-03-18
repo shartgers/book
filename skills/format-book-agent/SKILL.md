@@ -20,27 +20,45 @@ From the **book repository root** (where the `book/` folder lives):
 
 ```bash
 # Interior only (no cover) — for IngramSpark/KDP interior file
-npm run pdf    # → output/book-interior.pdf
+npm run pdf    # → output/book-interior.pdf (paperback 5.5"×8.25")
 npm run epub   # → output/book-interior.epub
 npm run html   # → output/book-interior.html
 
-# PDF/X-3:2002 conversion (interior only)
-npm run pdfx   # → output/book-interior-pdfx.pdf
+# PDF/X-3:2002 conversion (interior only) — produces BOTH paperback and hardcover versions
+npm run pdfx   # → output/<ISBN13>_txt_paperback.pdf, output/<ISBN13>_txt_hardcover.pdf (ISBN from input/ISBN paperback.md, input/ISBN hardcover.md)
 
 # Full book with cover, then PDF/X (for complete print-ready PDF)
 npm run full   # → output/book-in-full-pdfx.pdf
 ```
 
-Equivalent Python commands:
+**When asked to create PDF/X files for the interior:** Always produce **two** versions:
+
+1. **Paperback**: page size 5.5" × 8.25" → `output/book-interior-paperback.pdf`, then convert to `output/<ISBN13>_txt_paperback.pdf`.
+2. **Hardcover**: page size 5.5" × 8.5" → `output/book-interior-hardcover.pdf`, then convert to `output/<ISBN13>_txt_hardcover.pdf`.
+
+ISBN 13 digits are read from `input/ISBN paperback.md` and `input/ISBN hardcover.md` (line `ISBN/EAN: 978-...`); hyphens are stripped for the filename.
+
+The **content area (type area) is the same** in both; the extra 0.25" height in the hardcover is used as **extra margin on top and bottom** (0.125" each).
+
+Equivalent Python commands (single format):
 
 ```bash
 python skills/format-book-agent/scripts/build_print_pdf.py --interior --output output/book-interior.pdf
 python skills/format-book-agent/scripts/build_print_pdf.py --interior --epub --output output/book-interior.epub
 python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html
-python skills/format-book-agent/scripts/convert_to_pdfx.py output/book-interior.pdf output/book-interior-pdfx.pdf
 ```
 
-Use `--interior` for interior-only output (no cover). Omit `--interior` to include cover. Use `--cover path/to/other.png` to override the default cover path.
+To create **both** PDF/X interior files (paperback + hardcover):
+
+```bash
+# Build interior PDFs for both formats
+python skills/format-book-agent/scripts/build_print_pdf.py --interior --format paperback --output output/book-interior-paperback.pdf
+python skills/format-book-agent/scripts/build_print_pdf.py --interior --format hardcover --output output/book-interior-hardcover.pdf
+# Convert both to PDF/X-3:2002 (output names: <ISBN13>_txt_paperback.pdf, <ISBN13>_txt_hardcover.pdf)
+python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py
+```
+
+Use `--interior` for interior-only output (no cover). Use `--format paperback` (default) or `--format hardcover` for page size. Omit `--interior` to include cover. Use `--cover path/to/other.png` to override the default cover path.
 
 Install dependencies first (see [Requirements](#requirements) below).
 
