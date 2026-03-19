@@ -1697,6 +1697,35 @@ def _rewrite_epub_html_images(html: str, src_mapping: dict[str, str]) -> str:
     return result
 
 
+def _sanitize_html_for_epub(html: str) -> str:
+    """
+    EPUB-only sanitizer: fix HTML so it passes EPUBCheck (RSC-005, RSC-012).
+    Does not modify the shared PDF/HTML pipeline; only call from build_epub().
+    - RSC-005: <br/> is not allowed as direct child of <ul> or <ol> (only <li> allowed).
+    - RSC-012: Remove fragment from href="#id" when id is not present in this document.
+    """
+    # RSC-005: Remove <br/> between </li> and <li> (inject_ordered_list_numbers adds these for PDF layout).
+    html = re.sub(r"</li>\s*<br\s*/?>\s*<li", "</li><li", html, flags=re.IGNORECASE)
+    # Remove <br/> immediately after <ol> or <ul> open tag.
+    html = re.sub(r"(<ol[^>]*>)\s*<br\s*/?>\s*", r"\1", html, flags=re.IGNORECASE)
+    html = re.sub(r"(<ul[^>]*>)\s*<br\s*/?>\s*", r"\1", html, flags=re.IGNORECASE)
+    # Remove <br/> immediately before </ol> or </ul>.
+    html = re.sub(r"\s*<br\s*/?>\s*(</ol>)", r" \1", html, flags=re.IGNORECASE)
+    html = re.sub(r"\s*<br\s*/?>\s*(</ul>)", r" \1", html, flags=re.IGNORECASE)
+
+    # RSC-012: Fragment identifiers: href="#id" must point to an id in this document.
+    ids = set(re.findall(r'\bid=["\']([^"\']+)["\']', html))
+
+    def repl_href(match: re.Match) -> str:
+        quote, frag = match.group(1), match.group(2)
+        if frag.startswith("#") and len(frag) > 1 and frag[1:] not in ids:
+            return f'href={quote}#{quote}'
+        return match.group(0)
+
+    html = re.sub(r'href=(["\'])(#[^"\']*)\1', repl_href, html)
+    return html
+
+
 def build_epub(
     repo: Path,
     title: str,
@@ -1804,6 +1833,7 @@ def build_epub(
     # Dedication page (optional) — right after copyright
     dedication_html = _load_dedication_html(repo / "book")
     if dedication_html:
+        dedication_html = _sanitize_html_for_epub(dedication_html)
         dedication_epub_css = "p { font-style: italic; text-align: center; margin-top: 3em; }"
         dedication_page = epub.EpubHtml(
             title="Dedication",
@@ -1822,6 +1852,7 @@ def build_epub(
         intro_html, fn_offset = make_footnotes_continuous(intro_html, fn_offset, "intro")
         intro_html = inject_ordered_list_numbers(intro_html)
         intro_html = _rewrite_epub_html_images(intro_html, epub_src_mapping)
+        intro_html = _sanitize_html_for_epub(intro_html)
         intro_page = epub.EpubHtml(
             title="Introduction",
             file_name="introduction.xhtml",
@@ -1840,8 +1871,8 @@ def build_epub(
         chapter_id = f"ch{num:02d}"
         ch_html, fn_offset = make_footnotes_continuous(ch_html, fn_offset, chapter_id)
         ch_html = inject_ordered_list_numbers(ch_html)
-        
         ch_html = _rewrite_epub_html_images(ch_html, epub_src_mapping)
+        ch_html = _sanitize_html_for_epub(ch_html)
         ch_title = toc_by_num.get(num, f"Chapter {num}")
         # Keep first h1 or add chapter title for nav
         body = strip_first_h1(ch_html)
@@ -1860,6 +1891,7 @@ def build_epub(
     # Back matter: About the Author
     if about_author.strip():
         author_html = markdown_to_html(about_author)
+        author_html = _sanitize_html_for_epub(author_html)
         about_content = f'<html><head><style>{EPUB_CSS}</style></head><body><div class="about-the-author">{author_html}</div></body></html>'
     else:
         about_content = '<html><head><style>{EPUB_CSS}</style></head><body><p>[About the Author to be added.]</p></body></html>'
