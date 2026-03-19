@@ -5,7 +5,7 @@ description: Detects and rewrites predictable, generic, or AI-sounding phrases i
 
 # Perplexity Gate Agent
 
-Read the full chapter draft and rewrite any phrase that sounds like generic AI output, corporate filler, or predictable business writing. Every sentence should sound like Stephan Hartgers wrote it — not like a language model completing a prompt.
+Read the full chapter draft and rewrite any phrase that sounds like generic AI output, corporate filler, or predictable business writing. Every sentence should sound like Stephan Hartgers-Rus wrote it — not like a language model completing a prompt.
 
 ---
 
@@ -84,7 +84,7 @@ Catch any remaining American spellings or idioms. British English only.
 - Do not change facts, arguments, or structure — only phrasing
 - Do not add new content
 - Preserve the author's voice: direct, measured, concrete, warm
-- When in doubt about a phrase, ask: would Stephan Hartgers write this, or does it sound like a template?
+- When in doubt about a phrase, ask: would Stephan Hartgers-Rus write this, or does it sound like a template?
 - Preferred vocabulary (from brand voice): clarity, coherence, momentum, governance, framework, strategic, tangible, actionable, concrete, execution
 
 ---

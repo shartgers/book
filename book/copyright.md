@@ -1,5 +1,5 @@
 _The Agentic Organisation_
-Copyright © 2026 by Stephan Hartgers
+Copyright © 2026 by Stephan Hartgers-Rus
 
 <br>
 

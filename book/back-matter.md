@@ -14,4 +14,4 @@ This book is for leaders who have already decided which one they want to be.
 
 ---
 
-*Stephan Hartgers is a former McKinsey strategy consultant and a senior adviser to CEOs, CIOs, and boards across Europe. He holds degrees in Econometrics and Computer Science and has spent 25 years leading digital and AI transformations for some of the world's most complex organisations.*
+*Stephan Hartgers-Rus is a former McKinsey strategy consultant and a senior adviser to CEOs, CIOs, and boards across Europe. He holds degrees in Econometrics and Computer Science and has spent 25 years leading digital and AI transformations for some of the world's most complex organisations.*
