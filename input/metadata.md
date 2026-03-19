@@ -13,3 +13,4 @@ Description: European businesses are dangerously underprepared for the largest p
 Keywords: AI, transformation, CEO, European business, EU AI Act, agentic organisation, leadership, digital transformation
 
 BISAC: COM004000, BUS063000, BUS071000
+Identifier: 978-90-836902-2-3
