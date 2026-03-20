@@ -98,11 +98,11 @@ The Transformation Playbook gives the leader a sequence: Foundation, Activation,
 
 That is the work of readiness: a diagnostic assessment across the five pillars (Product, People and Skills, Processes and Governance, Technology and Infrastructure, Data and Context) using the Value, Capabilities, and Trust lenses from the AI Decision Framework (Chapter 9). The Transformation Playbook and the readiness diagnostic are complementary. The playbook defines the phases. The diagnostic tells you which phase you are in and where the gaps are. Chapter 13 provides that diagnostic. Chapter 14 then shows how to measure progress through the phases: the KPIs, governance structures, and board reporting mechanisms that prevent the playbook from becoming another strategy document that gathers dust.
 
-[^104]: MIT Sloan, "GenAI Divide: State of AI in Business 2025", August 2025
-[^105]: S&P Global, "Outlook on Generative AI", 2025
-[^106]: Gartner, "Data Readiness for AI", July 2024
-[^107]: BCG, "AI at Work", 2024
-[^108]: Bain & Company, "AI in Private Equity", 2025
+[^104]: MIT Project NANDA (MIT Media Lab), "The GenAI Divide: State of AI in Business 2025", July 2025 — https://nanda.media.mit.edu/ai_report_2025.pdf
+[^105]: S&P Global Market Intelligence, "The Big Picture Industry Outlook 2025: Generative AI", 2025 — https://www.spglobal.com/market-intelligence/en/news-insights/research/generative-ai
+[^106]: Gartner, "Lack of AI-ready data puts AI projects at risk" (includes July 2024 survey of data management leaders), press release, February 2025 — https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk
+[^107]: BCG, "AI at work 2025: Momentum builds, but gaps remain", 2025 — https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain
+[^108]: Bain & Company, "Field notes from the generative AI insurgency in private equity" (Global Private Equity Report 2025), 2025 — https://www.bain.com/insights/field-notes-from-generative-ai-insurgency-global-private-equity-report-2025/
 
 ## Questions for the Board
 

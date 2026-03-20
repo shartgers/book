@@ -116,17 +116,17 @@ Recognising the scale of the shift is the first step. The harder question is whe
 
 The next chapter takes that question directly.
 
-[^1]: MIT, "NANDA Report", 2025
-[^2]: BCG, "The Widening AI Value Gap", September/October 2025
-[^3]: McKinsey, "CEO Playbook", June 2025
-[^4]: McKinsey, "The Agentic Organization: Contours of the Next Paradigm for the AI Era", September 2025
-[^5]: BCG, "The Widening AI Value Gap", October 2025
-[^6]: Eurostat, "AI in Enterprises", December 2025
-[^7]: EU Commission, "Agentic AI Venture Capital Report", January 2026
-[^8]: Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025
-[^9]: EU, "AI Act", 2024
-[^10]: Eurostat, "AI in Enterprises", December 2025
-[^11]: BCG, "The Widening AI Value Gap", October 2025
+[^1]: MIT Project NANDA (MIT Media Lab), "The GenAI Divide: State of AI in Business 2025", July 2025 — https://nanda.media.mit.edu/ai_report_2025.pdf
+[^2]: BCG, "The Widening AI Value Gap", October 2025 — https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf
+[^3]: McKinsey, "Seizing the agentic AI advantage", June 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/seizing-the-agentic-ai-advantage
+[^4]: McKinsey, "The agentic organization: Contours of the next paradigm for the AI era", September 2025 — https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era
+[^5]: BCG, "The Widening AI Value Gap", October 2025 — https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf
+[^7]: BCG, "The Widening AI Value Gap", October 2025 — https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf
+[^8]: European Commission (StepUp Startups consortium), "Agentic AI: Leveraging European AI talent and Regulatory Assets to Scale Adoption", January 2026 — https://digital-strategy.ec.europa.eu/en/library/agentic-ai-leveraging-european-ai-talent-and-regulatory-assets-scale-adoption
+[^9]: Deloitte Global, "Progress on AI in the boardroom, but room to accelerate" (board AI governance survey, 2nd ed.), 2025 — https://www.deloitte.com/global/en/issues/trust/progress-on-ai-in-the-boardroom-but-room-to-accelerate.html
+[^10]: EU, "Regulation (EU) 2024/1689 (AI Act)", OJ L 2024 — https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+[^11]: Eurostat, "Use of artificial intelligence in enterprises in the EU" (news release), December 2025 — https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251211-2
+[^12]: World Economic Forum, "Why Europe's AI adoption lag is a structural challenge", September 2025 — https://www.weforum.org/stories/2025/09/europe-ai-adoption-lag/
 
 ## Questions for the Board
 

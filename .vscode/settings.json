@@ -1,4 +1,6 @@
 {
     "claudeCodeChat.permissions.yoloMode": true,
-    "markdown.validate.enabled": true
+    "markdown.validate.enabled": true,
+    "_comment_book_footnotes": "VS Code flags valid [^N] footnotes (link.no-such-reference). See github.com/microsoft/vscode/issues/268605",
+    "markdown.validate.referenceLinks.enabled": "ignore"
 }

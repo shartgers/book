@@ -145,15 +145,15 @@ There is also a productivity dimension to the trust advantage. Research suggests
 
 The organisations that master all three angles of the AI Decision Framework, creating real value, building the right capabilities, and earning trust from regulators, customers, and employees, are best placed to lead the next decade. Chapter 10 makes the full case for why Europe's distinctive regulatory and cultural context is a strategic advantage, and what leaders must do to capitalise on it.
 
-[^84]: MIT Sloan, "GenAI Divide: State of AI in Business 2025", August 2025
-[^85]: McKinsey, "State of AI", 2025
-[^86]: McKinsey, "Building the AI Muscle of Your Business Leaders", 2025
-[^87]: Everworker AI, "Team Enablement for AI Agent Platforms", 2026
-[^88]: European Parliament / Lexology, "GDPR and EU AI Act Compliance Overlap", 2025
-[^89]: Gartner, "AI Maturity and Trust Survey", June 2025
-[^90]: Accenture / AWS / Stanford, "Responsible AI from Risk to Value", 2025
-[^91]: McKinsey, "State of AI", 2025
-[^92]: European Commission, "EU AI Pact", 2024
+[^84]: MIT Project NANDA (MIT Media Lab), "The GenAI Divide: State of AI in Business 2025", July 2025 — https://nanda.media.mit.edu/ai_report_2025.pdf
+[^85]: McKinsey, "The state of AI", 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+[^86]: McKinsey, "Building the AI muscle of your business leaders", 2025 — https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/building-the-ai-muscle-of-your-business-leaders
+[^87]: EverWorker, "Team enablement for AI agent platforms" (guide), 2026 — https://everworker.ai/blog/team-enablement-ai-agent-platforms-2026-guide
+[^88]: Various authors, "Interplay of the EU AI Act and GDPR" (Lexology practitioner survey), 2025 — https://www.lexology.com/library/detail.aspx?g=87628320-810a-41fc-b694-d56e4880793b
+[^89]: Gartner, "Gartner survey finds 45% of organizations with high AI maturity keep AI projects operational for at least three years" (includes trust/maturity findings), press release, June 2025 — https://www.gartner.com/en/newsroom/press-releases/2025-06-30-gartner-survey-finds-forty-five-percent-of-organizations-with-high-artificial-intelligence-maturity-keep-artificial-intelligence-projects-operational-for-at-least-three-years
+[^90]: Accenture (with AWS), "Thrive with responsible AI: Embedding trust can unlock value" (includes research with Stanford HAI on responsible AI maturity), 2025 — https://www.accenture.com/us-en/insights/data-ai/rai-from-risk-to-value
+[^91]: McKinsey, "The state of AI", 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+[^92]: European Commission, "EU AI Pact" (voluntary pledges ahead of the AI Act), 2024 — https://digital-strategy.ec.europa.eu/en/policies/ai-pact
 
 ## Questions for the Board
 

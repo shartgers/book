@@ -74,9 +74,9 @@ Chapter 9 introduces the AI Decision Framework, balancing three angles: Value, C
 
 This chapter has laid out what the foundations are and why they matter. The rest of Part II and Part IV show how to use them.
 
-[^81]: McKinsey, "State of AI", 2025
-[^82]: Gartner, "Data Readiness for AI", July 2024
-[^83]: Deloitte, "Trustworthy AI", 2025
+[^81]: McKinsey, "The state of AI", 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+[^82]: Gartner, "Lack of AI-ready data puts AI projects at risk" (includes July 2024 survey of data management leaders), press release, February 2025 — https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk
+[^83]: Deloitte, "Trustworthy AI™ framework" (ethical AI / governance), 2025 — https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/trustworthy-ethical-ai-thought-leadership.html
 
 ## Questions for the Board
 

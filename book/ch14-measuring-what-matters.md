@@ -72,9 +72,9 @@ This book has covered the framework (Chapter 5), the Product layer (Chapter 6), 
 
 One decision remains: to act or not. That is the subject of the final chapter.
 
-[^113]: BCG, "Measuring AI Impact", 2025
-[^114]: McKinsey, "State of AI", 2025
-[^115]: MIT CISR, "Enterprise AI Maturity", 2025
+[^113]: BCG, "From potential to profit: Closing the AI impact gap" (AI value, KPIs, and measurement discipline), 2025 — https://www.bcg.com/publications/2025/closing-the-ai-impact-gap
+[^114]: McKinsey, "The state of AI", 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+[^115]: MIT CISR, "Update on the Enterprise AI Maturity Model", 2024–2025 — https://cisr.mit.edu/content/update-enterprise-ai-maturity-model
 
 ## Questions for the Board
 

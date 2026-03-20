@@ -128,24 +128,24 @@ The risk is not the skip itself, but the collapse that follows when Tier 4 ambit
 
 The tiers are a structural reality: they describe the layers of capability required. Whether an organisation moves through them one by one or jumps between them is a strategic decision that depends on the strength of the foundation they have already built.
 
-[^38]: BCG, "The Widening AI Value Gap", October 2025
-[^39]: Huble, "AI Readiness Report", 2024
-[^40]: EU, "AI Act", 2024
-[^41]: Harvard Business School / BCG, "Navigating the Jagged Technological Frontier", 2023
-[^42]: Typeface, "Signal Report", 2025
-[^43]: Google, "Project Aristotle", 2016
-[^44]: MIT Technology Review / Infosys, "AI and Psychological Safety Survey", December 2025
-[^45]: Slack, "Workforce Index", Fall 2024
-[^46]: BearingPoint, "AI Adoption in the Enterprise", 2025
-[^47]: Kore.ai, "Agentic Wealth Management Case Study", 2025
-[^48]: Airbus / GitHub, "GitHub Copilot at Airbus", 2024
-[^49]: EY, "European AI Barometer", 2025
-[^50]: IDC, "AI Project Deployment Survey", 2024
-[^51]: McKinsey, "Agents for Growth", November 2025
-[^52]: McKinsey, "Why Digital Trust Truly Matters", September 2022
-[^53]: McKinsey, "Rewired", 2023
-[^54]: BCG, "AI Center of Excellence Research", 2024
-[^55]: BCG, "AI Radar", January 2026
+[^38]: BCG, "The Widening AI Value Gap", October 2025 — https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf
+[^39]: Huble, "The AI Data Readiness Report", 2025 — https://huble.com/ai-data-readiness-report
+[^40]: EU, "Regulation (EU) 2024/1689 (AI Act)", OJ L 2024 — https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+[^41]: Dell'Acqua et al., "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality", Harvard Business School Working Paper 24-013 / BCG, 2023 — https://www.hbs.edu/faculty/Pages/item.aspx?num=64700
+[^42]: Typeface, "The Signal Report: The State of AI in Marketing", 2025 — https://www.typeface.ai/
+[^43]: Google re:Work, "The five keys to a successful Google team" (Project Aristotle), 2015–2016 — https://rework.withgoogle.com/guides/understanding-team-effectiveness/
+[^44]: MIT Technology Review Insights / Infosys, "Creating psychological safety in the AI era" (survey), December 2025 — https://www.infosys.com/newsroom/press-releases/2025/psychological-safety-driving-ai-initiatives.html
+[^45]: Slack / Global Survey, "Workforce Index" (regional editions), 2024 — https://slack.com/intl/en-gb/blog/news/the-slack-workforce-index
+[^46]: BearingPoint, "AI Adoption in the Enterprise: European Survey", 2025 — https://www.bearingpoint.com/en/our-success/insights/
+[^47]: Kore.ai, "AI for Work: Agentic wealth management case study" (customer implementation), 2025 — https://www.kore.ai/
+[^48]: GitHub, "Airbus scales development with GitHub Copilot" (customer story), 2024 — https://github.com/customer-stories/airbus
+[^49]: EY, "European AI Barometer", 2025 — https://www.ey.com/en_gl/insights/artificial-intelligence
+[^50]: IDC, "AI implementation and project deployment survey" (market analysis), 2024 — https://www.idc.com/
+[^51]: McKinsey, "Agents for growth: How AI agents are reshaping customer engagement and work", November 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights
+[^52]: McKinsey, "Why digital trust truly matters", September 2022 — https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/why-digital-trust-truly-matters
+[^53]: McKinsey, "Rewired: The McKinsey guide to outcompeting in the age of digital and AI", 2023 — https://www.mckinsey.com/featured-insights/mckinsey-on-books/rewired
+[^54]: BCG, "Winning with AI is a people game" (AI CoE / scaling research), 2024 — https://www.bcg.com/publications/2024
+[^55]: BCG, "AI Radar 2026: As AI investments surge, CEOs take the lead", January 2026 — https://www.bcg.com/press/15january2026-as-ai-investments-surge-ceos-take-lead
 
 ## Questions for the Board
 

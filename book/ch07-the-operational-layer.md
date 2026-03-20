@@ -108,19 +108,19 @@ The Operating Model represents the vast majority of the transformation effort. T
 
 It remains tightly coupled with the foundation layer. Process redesign requires data readiness, yet most organisations still lack mature data management. Chapter 8 explores the Data and Technology foundations that form the basis for the operating model.
 
-[^68]: BCG, "From Potential to Profit: Closing the AI Impact Gap", 2025
-[^69]: BCG, "AI at Work", 2024
+[^68]: BCG, "From potential to profit: Closing the AI impact gap", 2025 — https://www.bcg.com/publications/2025/closing-the-ai-impact-gap
+[^69]: BCG, "AI at work 2025: Momentum builds, but gaps remain", 2025 — https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain
 [^70]: Redreamality, "The Orchestrator's Era: 2026 State of AI Agents in Product Management", 2026
-[^71]: McKinsey, "A New Year's Resolution for Leaders", January 2026
-[^72]: BCG, "AI at Work", 2024
-[^73]: McKinsey Global Institute, "A New Future of Work", 2025
-[^74]: Harvard Data Science Review, "The Agent-Centric Enterprise", Winter 2026
-[^75]: BCG, "Agents Accelerate the Next Wave of AI Value Creation", 2025
-[^76]: McKinsey, "State of AI", 2024
-[^77]: McKinsey, "The Agentic Organization", September 2025
-[^78]: European Trade Union Institute, "Collective Bargaining and AI", 2025
-[^79]: BCG, "AI Talent and Training", 2025
-[^80]: CNBC / Financial Times, "Accenture ties promotions to AI tool usage", February 2026
+[^71]: McKinsey Global Institute, "A new year's resolution for leaders: Redesign work for people and AI", January 2026 — https://www.mckinsey.com/mgi/media-center/a-new-years-resolution-for-leaders-redesign-work-for-people-and-ai
+[^72]: BCG, "AI at work 2025: Momentum builds, but gaps remain", 2025 — https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain
+[^73]: McKinsey Global Institute, "A new future of work" (MGI workforce research), 2025 — https://www.mckinsey.com/mgi
+[^74]: Kruhse-Lehtonen & Hofmann, "The Agent-Centric Enterprise: Why 2–10x Productivity Gains Demand Radical Workflow Redesign", Harvard Data Science Review 8.1, Winter 2026 — https://hdsr.mitpress.mit.edu/pub/0mrfxamu
+[^75]: BCG, "Agents accelerate the next wave of AI value creation", 2025 — https://www.bcg.com/publications/2025/agents-accelerate-next-wave-of-ai-value-creation
+[^76]: McKinsey, "The state of AI" (2024 global survey; subsequent editions on same hub), 2024 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+[^77]: McKinsey, "The agentic organization: Contours of the next paradigm for the AI era", September 2025 — https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era
+[^78]: European Trade Union Institute, "AI and trade unions: from rapid responses to proactive strategies" (includes collective bargaining and AI deployment), 2024 — https://www.etui.org/sites/default/files/2024-12/HM29_AI%20and%20trade%20unions%20from%20rapid%20responses%20to%20proactive%20strategies_2024.pdf
+[^79]: BCG, "AI at work 2025: Momentum builds, but gaps remain" (talent, training, adoption), 2025 — https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain
+[^80]: CNBC, "Accenture tells senior staff to use AI or lose out on promotions", February 2026 — https://www.cnbc.com/2026/02/19/accenture-ai-orders-senior-staff-lose-out-promotions.html
 
 ## Questions for the Board
 

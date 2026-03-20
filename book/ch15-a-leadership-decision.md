@@ -20,7 +20,7 @@ The cost of waiting is not zero. It compounds across three dimensions, and each 
 
 As PwC's Global Chairman Mohamed Kande put it: "That gap is starting to show up in confidence and competitiveness, and it will widen quickly for those that don't act."
 
-Leading ompanies are doubling AI spend in 2026 regardless of immediate returns, and are not pulling back.[^117] The organisations generating value are not merely saving costs. They are reinvesting AI gains into new products, capabilities, and R&D, creating a self-reinforcing flywheel that widens the advantage each cycle.
+Leading companies are doubling AI spend in 2026 regardless of immediate returns, and are not pulling back.[^117] The organisations generating value are not merely saving costs. They are reinvesting AI gains into new products, capabilities, and R&D, creating a self-reinforcing flywheel that widens the advantage each cycle.
 
 **Talent and culture.** Europe faces a talent crisis that is compounding faster than most leaders have accounted for. Demand for AI roles has surged dramatically in major economies like Germany, the UK, and Ireland.[^118] A significant portion of employers in specialized sectors report they cannot fill current AI positions, and many business leaders feel underprepared to lead in this new environment.
 
@@ -72,11 +72,11 @@ The Agentic Organisation is not a prediction. It is being built, in Madrid, in A
 
 You don't delegate the revolution.
 
-[^116]: BCG, "The Widening AI Value Gap", October 2025
-[^117]: BCG, "AI Radar", January 2026
-[^118]: PwC / European Institute of Innovation and Technology, "AI Jobs Barometer", 2025
-[^119]: BCG, "AI Radar", January 2026
-[^120]: PwC, "Global CEO Survey", 2026
+[^116]: BCG, "The Widening AI Value Gap", October 2025 — https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf
+[^117]: BCG, "AI Radar 2026: As AI investments surge, CEOs take the lead", January 2026 — https://www.bcg.com/press/15january2026-as-ai-investments-surge-ceos-take-lead
+[^118]: PwC, "Global AI Jobs Barometer" (with European Institute of Innovation & Technology, EIT), 2025 — https://www.pwc.com/gx/en/issues/c-suite-insights/the-leadership-agenda/AI-jobs-barometer.html
+[^119]: BCG, "AI Radar 2026: As AI investments surge, CEOs take the lead", January 2026 — https://www.bcg.com/press/15january2026-as-ai-investments-surge-ceos-take-lead
+[^120]: PwC, "29th Annual Global CEO Survey", 2026 — https://www.pwc.com/gx/en/issues/c-suite-insights/ceo-survey.html
 
 ## Questions for the Board
 

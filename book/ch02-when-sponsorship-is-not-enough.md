@@ -114,17 +114,17 @@ The argument of this chapter is settled by the evidence, not by assertion. Six t
 
 The question is no longer whether to lead, but what the destination looks like. Now that the leadership precondition is established, the next chapter answers the question every committed leader asks next: what exactly are we building? Chapter 3 defines the Agentic Organisation in concrete, operational terms: the agentic employee, the shift from task-doer to orchestrator, and three key roles.
 
-[^12]: BCG, "AI Radar", January 2026
-[^13]: S&P Global Market Intelligence, "Outlook on Generative AI", 2025
-[^14]: BCG, "The Widening AI Value Gap", October 2025
-[^15]: McKinsey, "The Agentic Organization", September 2025
-[^16]: Deloitte Global, "Governance of AI: A Critical Imperative for Today's Boards, 2nd Edition", 2025
-[^17]: EU, "AI Act", 2024
-[^18]: McKinsey, "Superagency in the Workplace", January 2025
-[^19]: Writer / Workplace Intelligence, "State of AI at Work", 2025
-[^20]: McKinsey, "CEO Playbook for AI Transformations", June 2025
-[^21]: Gartner, "AI Maturity and Business Outcomes Survey", Q4 2024
-[^22]: Cisco, "AI Readiness Index", 2025
+[^12]: BCG, "AI Radar 2026: As AI investments surge, CEOs take the lead", January 2026 — https://www.bcg.com/press/15january2026-as-ai-investments-surge-ceos-take-lead
+[^13]: S&P Global Market Intelligence, "The Big Picture Industry Outlook 2025: Generative AI", 2025 — https://www.spglobal.com/market-intelligence/en/news-insights/research/generative-ai
+[^14]: BCG, "The Widening AI Value Gap", October 2025 — https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf
+[^15]: McKinsey, "The agentic organization: Contours of the next paradigm for the AI era", September 2025 — https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era
+[^16]: Deloitte Global, "Progress on AI in the boardroom, but room to accelerate" (board AI governance survey, 2nd ed.), 2025 — https://www.deloitte.com/global/en/issues/trust/progress-on-ai-in-the-boardroom-but-room-to-accelerate.html
+[^17]: EU, "Regulation (EU) 2024/1689 (AI Act)", OJ L 2024 — https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+[^18]: McKinsey, "Superagency in the workplace: Empowering people to unlock AI's full potential at work", January 2025 — https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work
+[^19]: Writer and Workplace Intelligence, "State of AI in the Workplace", 2025 — https://writer.com/workplace-intelligence/
+[^20]: McKinsey, "The gen AI operating model: A leader's guide", 2025 — https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/a-data-leaders-operating-guide-to-scaling-gen-ai
+[^21]: Gartner, "Gartner survey finds 45% of organizations with high AI maturity keep AI projects operational for at least three years" (includes business-unit trust vs. maturity findings), press release, June 2025 — https://www.gartner.com/en/newsroom/press-releases/2025-06-30-gartner-survey-finds-forty-five-percent-of-organizations-with-high-artificial-intelligence-maturity-keep-artificial-intelligence-projects-operational-for-at-least-three-years
+[^22]: Cisco, "AI Readiness Index", 2025 — https://www.cisco.com/c/en/us/solutions/artificial-intelligence/ai-readiness-index.html
 
 ## Questions for the Board
 

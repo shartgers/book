@@ -128,21 +128,21 @@ The Agentic Organisation is defined not by its technology but by its people: age
 
 But a picture is not a route. The next question is: how does transformation actually scale? The answer is not "everywhere at once." It progresses through four distinct tiers, each with different governance, different leadership demands, and different measures of success. Chapter 4 introduces The Four Tiers of Transformation, from the individual to the team to the department to the organisation, and shows why skipping a tier, or assuming one tier's success automatically produces the next, is the most common structural mistake in AI programmes.
 
-[^23]: Deloitte, "Tech Trends 2025", 2025
-[^24]: Capgemini Research Institute, "AI Agents in the Enterprise", 2025
-[^25]: PwC, "AI Agent Survey", 2025
-[^26]: Gartner, "Hype Cycle for Artificial Intelligence", 2025
-[^27]: Yilmaz, World Economic Forum, Davos, 2025
-[^28]: BCG, "From Potential to Profit: Closing the AI Impact Gap", 2025
-[^29]: Habib, World Economic Forum, Davos, January 2025
-[^30]: Sarkar, "AI Agents and Software Productivity", SSRN, November 2025
-[^31]: Stanford / World Bank, "AI Impact on Work Productivity Survey", 2024
-[^32]: Allianz, "Project Nemo", 2025
-[^33]: EU, "AI Act", 2024
-[^34]: Germany, "Works Constitution Act (Betriebsverfassungsgesetz)", 2021
-[^35]: Deutsche Telekom, "AI Guidelines", 2023
-[^36]: Nanterre Tribunal Judiciaire, ruling on AI workplace consultation, February 2025
-[^37]: Allianz, "EU AI Pact", November 2024
+[^23]: Deloitte, "Tech Trends 2025", 2025 — https://www.deloitte.com/global/en/insights/focus/tech-trends.html
+[^24]: Capgemini Research Institute, "AI agents in the enterprise: How integrations unlock value from automation", 2025 — https://www.capgemini.com/insights/research-library/
+[^25]: PwC, "AI Agent Survey", 2025 — https://www.pwc.com/gx/en/issues/c-suite-insights/the-leadership-agenda/AI-agents-survey.html
+[^26]: Gartner, "Hype Cycle for Artificial Intelligence, 2025", August 2025 — https://www.gartner.com/en/newsroom/press-releases/2025-08-05-gartner-hype-cycle-identifies-top-ai-innovations-in-2025
+[^27]: Yilmaz (ING), interview, Money20/20 Europe / bobsguide, June 2025 — https://www.bobsguide.com/ing-turns-ai-strategy-into-tangible-results/
+[^28]: BCG, "From potential to profit: Closing the AI impact gap", 2025 — https://www.bcg.com/publications/2025/closing-the-ai-impact-gap
+[^29]: Habib (Writer), "How to rebuild the enterprise for the Age of Agentic AI", World Economic Forum, December 2025 — https://www.weforum.org/stories/2025/12/how-to-rebuild-enterprise-for-age-of-agentic-ai/
+[^30]: Sarkar, "Speed at the Cost of Quality? The Impact of LLM Agent Assistance on Software Development", arXiv preprint 2511.04427, November 2025 — https://arxiv.org/abs/2511.04427
+[^31]: Stanford Institute for Human-Centered AI / World Bank (various), AI and productivity studies, 2023–2024 — https://hai.stanford.edu/research
+[^32]: Allianz, "Smarter claims management, smoother settlements" (Project Nemo), 2025 — https://www.allianz.com/en/mediacenter/news/articles/250205-smarter-claims-management-smoother-settlements.html
+[^33]: EU, "Regulation (EU) 2024/1689 (AI Act)", OJ L 2024 — https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+[^34]: Germany, "Betriebsverfassungsgesetz (BetrVG)" (Works Constitution Act), consolidated text — https://www.gesetze-im-internet.de/betrvg/
+[^35]: Deutsche Telekom and Group Works Council, "AI Manifesto: Responsible use of artificial intelligence", 2023 — https://www.telekom.com/en/company/sustainability/details/ai-manifesto-977640
+[^36]: Tribunal judiciaire de Nanterre, interim order on AI / workplace consultation (France), reported February 2025 — https://www.legifrance.gouv.fr/ (docket to be cited when published)
+[^37]: European Commission, "EU AI Pact" (pledges); Allianz signatory listing, November 2024 — https://digital-strategy.ec.europa.eu/en/policies/ai-pact
 
 ## Questions for the Board
 

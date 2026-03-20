@@ -180,9 +180,9 @@ The playbook in Chapter 12 shows how to sequence the work. What this chapter has
 4. What is your pilot-to-production rate? If you do not know, what does that tell you about your measurement discipline?
 5. If you stopped all AI-related hiring and investment tomorrow, would your existing employees have the skills, compensation, and career incentives to sustain the transformation, or would adoption collapse?
 
-[^101]: BCG, "AI Radar", January 2026
-[^102]: Klarna, "Customer Service Research", 2024
-[^103]: Accenture, "AI Achievers: Designing AI Responsibly", 2025
+[^101]: BCG, "AI Radar 2026: As AI investments surge, CEOs take the lead", January 2026 — https://www.bcg.com/press/15january2026-as-ai-investments-surge-ceos-take-lead
+[^102]: Klarna, "Klarna AI assistant handles two-thirds of customer service chats in its first month" (press release), 2024 — https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month
+[^103]: Accenture, "From AI compliance to competitive advantage" (Responsible by Design / AI Achievers research), 2025 — https://www.accenture.com/content/dam/accenture/final/a-com-migration/r3-3/pdf/pdf-179/accenture-responsible-by-design-report.pdf
 
 ## Handoff — Reviewers — Chapter 11
 Status: complete

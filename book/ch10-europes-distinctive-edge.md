@@ -98,14 +98,14 @@ The honest position: leaders should not celebrate regulation as inherently good,
 
 The companies already doing this are the subject of the next chapter: not what Europe's edge is in theory, but what the leaders did with it in practice.
 
-[^93]: McKinsey, "European VC and AI Investment Report", 2024
-[^94]: Pew Research Center, "Global Trust in AI Governance", 2025
-[^95]: Deloitte, "European Trust Survey", 2025
-[^96]: Accenture, "AI Achievers: Designing AI Responsibly", 2025
-[^97]: Capgemini, "Rise of Agentic AI", 2025
-[^98]: Edelman, "Trust Barometer", 2026
-[^99]: Auxilion, "EU AI Act Compliance Benefits Analysis", 2025
-[^100]: Eurostat / Accenture, "Nordic AI Adoption and Scaling", 2025
+[^93]: McKinsey, "Time to place our bets: Europe's AI opportunity" (AI value chain, investment, adoption), 2024 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/time-to-place-our-bets-europes-ai-opportunity
+[^94]: Pew Research Center, "Trust in the EU, U.S. and China to regulate use of AI" (global survey), 2025 — https://www.pewresearch.org/global/2025/10/15/trust-in-the-eu-u-s-and-china-to-regulate-use-of-ai/
+[^95]: Deloitte Insights, "European trust in generative AI" (survey across European markets), 2024 — https://www.deloitte.com/us/en/insights/topics/digital-transformation/trust-in-generative-ai-in-europe.html
+[^96]: Accenture, "From AI compliance to competitive advantage" (Responsible by Design / AI Achievers research), 2025 — https://www.accenture.com/content/dam/accenture/final/a-com-migration/r3-3/pdf/pdf-179/accenture-responsible-by-design-report.pdf
+[^97]: Capgemini Research Institute, "Rise of agentic AI" (research hub; includes enterprise agent deployment findings), 2025 — https://www.capgemini.com/insights/research-library/ai-agents/
+[^98]: Edelman, "2026 Edelman Trust Barometer", 2026 — https://www.edelman.com/trust/2026/trust-barometer
+[^99]: Auxilion, "Governance and the EU AI Act: Turning compliance into competitive advantage", 2025 — https://www.auxilion.com/insights/governance-and-the-eu-ai-act-turning-compliance-into-competitive-advantage
+[^100]: Eurostat, "Use of artificial intelligence in enterprises in the EU" (ICT usage survey; Nordic and EU breakdowns), 2024–2025 — https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251211-2; Accenture, "Europe's AI reckoning" (European adoption and scaling context), 2025 — https://www.accenture.com/us-en/insights/data-ai/europes-ai-reckoning
 
 ## Questions for the Board
 

@@ -72,11 +72,11 @@ By breaking down the transformation into these four layers and three dimensions,
 
 The AI Transformation Framework provides the map. The next question is how to organise the organisation for agentic work: roles, skills, team design, and the Operating Model layer that connects vision to day-to-day execution. Chapter 7 deep-dives the Operating Model: people, process, roles, skills, and org design, and how to structure teams and roles for agentic work, from task-doer to orchestrator at scale. The framework orients; the Operating Model layer is where strategy becomes structure and where many organisations bottleneck after successful pilots.
 
-[^56]: BCG, "The Widening AI Value Gap", October 2025
-[^57]: Deloitte, "Tech Trends 2025", 2025
-[^58]: Capgemini Research Institute, "AI Agents in the Enterprise", 2025
-[^59]: McKinsey, "Rewired", 2023
-[^60]: McKinsey, "State of AI", 2025
+[^56]: BCG, "The Widening AI Value Gap", October 2025 — https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf
+[^57]: Deloitte, "Tech Trends 2025", 2025 — https://www.deloitte.com/global/en/insights/focus/tech-trends.html
+[^58]: Capgemini Research Institute, "Harnessing the value of AI: Unlocking scalable advantage" (annual AI series; gen AI and agent adoption), 2025 — https://www.capgemini.com/insights/research-library/generative-ai-in-organizations-2025
+[^59]: McKinsey, "Rewired: The McKinsey guide to outcompeting in the age of digital and AI", 2023 — https://www.mckinsey.com/featured-insights/mckinsey-on-books/rewired
+[^60]: McKinsey, "The state of AI", 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
 
 ## Questions for the Board
 

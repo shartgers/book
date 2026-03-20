@@ -70,13 +70,13 @@ The Products layer defines what the organisation delivers to customers through A
 
 The next chapter moves from what you offer to how you organise to deliver it.
 
-[^61]: McKinsey, "The Agentic Organization", September 2025
-[^62]: The Digital Bloom, "2025 Organic Traffic Crisis Report"; Click-Vision, "Zero Click Search Statistics 2026"
-[^63]: Bain & Company, "Goodbye Clicks, Hello AI: Zero-Click Search Redefines Marketing", 2025
-[^64]: Netflix and Amazon figures widely cited in industry reporting; see e.g. McKinsey, "State of AI", 2025
-[^65]: Medallia, "How Brands Using AI Personalization Drive Customer Experience", 2025
-[^66]: McKinsey, "State of AI", 2025
-[^67]: Gartner, press release, August 2025
+[^61]: McKinsey, "The agentic organization: Contours of the next paradigm for the AI era", September 2025 — https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era
+[^62]: The Digital Bloom, "2025 Organic Traffic Crisis: Zero-Click & AI Impact Report", 2025 — https://thedigitalbloom.com/learn/2025-organic-traffic-crisis-analysis-report/; Click-Vision, "Zero Click Search Statistics 2026", 2026 — https://click-vision.com/zero-click-search-statistics
+[^63]: Bain & Company, "Goodbye clicks, hello AI: Zero-click search redefines marketing", 2025 — https://www.bain.com/insights/goodbye-clicks-hello-ai-zero-click-search-redefines-marketing
+[^64]: Industry reporting on streaming and e-commerce AI adoption (e.g. Netflix, Amazon) is summarized alongside cross-sector survey evidence in McKinsey, "The state of AI", 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+[^65]: Medallia, "How AI personalization is changing the customer experience" (blog), 2025 — https://www.medallia.com/blog/how-ai-personalization-is-changing-the-customer-experience/
+[^66]: McKinsey, "The state of AI", 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+[^67]: Gartner, "Gartner Hype Cycle for Artificial Intelligence, 2025", press release, August 2025 — https://www.gartner.com/en/newsroom/press-releases/2025-08-05-gartner-hype-cycle-identifies-top-ai-innovations-in-2025
 
 
 ## Questions for the Board: The Product Layer

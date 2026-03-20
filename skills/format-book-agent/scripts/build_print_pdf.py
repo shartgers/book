@@ -614,8 +614,7 @@ def strip_first_h1(html: str) -> str:
 def wrap_questions_section_and_remove_hr(html: str) -> str:
     """
     Wrap the 'Questions for the Board' h2 (and variants) in .questions-section so it
-    gets a new page and a line above it. Remove all other hr so there are no lines
-    between sections except before Questions.
+    starts on a new page. Remove all hr so there are no horizontal rules between sections.
     """
     # Remove horizontal rules (no line between sections)
     html = re.sub(r"<hr\s*/?>", "", html, flags=re.IGNORECASE)
@@ -632,8 +631,8 @@ def wrap_questions_section_and_remove_hr(html: str) -> str:
 def reposition_footnotes_before_questions(html: str) -> str:
     """
     Move the footnote block (from Python markdown extra) to immediately before the
-    Questions section, so footnotes appear at the bottom of the last text page
-    before Questions. Wraps the block in .chapter-footnotes for styling.
+    Questions section. Wrap in .chapter-footnotes-anchor (page break + bottom align)
+    and .chapter-footnotes (typography). Questions still start on the following page.
     """
     # Match <div class="footnote">...</div> (handles fn:1 or fn-1 id formats)
     footnote_match = re.search(
@@ -649,11 +648,12 @@ def reposition_footnotes_before_questions(html: str) -> str:
     # Insert before <div class="questions-section">
     qs_match = re.search(r'<div\s+class="questions-section">', html_without_footnotes, re.IGNORECASE)
     if not qs_match:
-        # No Questions section; append footnotes at end
-        return html_without_footnotes + "\n" + footnote_block
+        # No Questions section; same wrapper as chapters with Questions (break + bottom align)
+        wrapped = f'<div class="chapter-footnotes-anchor"><div class="chapter-footnotes">{footnote_block}</div></div>'
+        return html_without_footnotes + "\n" + wrapped
 
-    # Wrap footnote block in styled container and insert before Questions
-    wrapped = f'<div class="chapter-footnotes">{footnote_block}</div>'
+    # Wrap footnote block and insert before Questions
+    wrapped = f'<div class="chapter-footnotes-anchor"><div class="chapter-footnotes">{footnote_block}</div></div>'
     return (
         html_without_footnotes[: qs_match.start()].rstrip()
         + "\n"
@@ -759,6 +759,8 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
     pf = get_page_format(page_format)
     w, h = pf["width"], pf["height"]
     t, r, b, l = pf["top"], pf["right"], pf["bottom"], pf["left"]
+    # Type area height (inside margins): used to bottom-align chapter footnotes on their page
+    content_area_height = f"calc({h} - {t} - {b})"
     if for_pdf:
         # WeasyPrint: front = no page number; content = numbered from 1.
         # Use built-in page counter: first content page resets to 1 (contentfirst),
@@ -1327,16 +1329,24 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         text-indent: 0;
     }}
 
-    /* Remove horizontal rules between sections (line only before Questions, on new page) */
+    /* Remove horizontal rules between sections */
     hr {{
         display: none;
     }}
 
-    /* FOOTNOTES: end-of-chapter list in normal document flow (not float:footnote).
-       WeasyPrint float:footnote places bodies in the page footnote area; when the list
-       is too long for the last "reference" page, overflow lands on the *next* page —
-       which was the Questions page. Static flow keeps footnotes before .questions-section
-       in reading order; long lists paginate, then Questions (page-break-before: always). */
+    /* FOOTNOTES: end-of-chapter list in normal flow (not float:footnote — avoids overflow
+       onto the Questions page). .chapter-footnotes-anchor: page break, then min-height =
+       full type area + flex-end so the note block sits at the bottom of that page (short
+       lists leave space above). Long lists extend the anchor past min-height and paginate
+       normally. .questions-section keeps page-break-before: always for the next page. */
+    .chapter-footnotes-anchor {{
+        page-break-before: always;
+        min-height: {content_area_height};
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        box-sizing: border-box;
+    }}
     sup a.footnote-ref,
     sup a.footnote-ref:hover,
     sup a.footnote-ref:visited {{
@@ -1346,15 +1356,13 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
     }}
     .chapter-footnotes {{
-        page-break-before: always;
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
         font-size: 7.25pt;
         line-height: 1.0;
         color: #000;
-        margin-top: 1.2em;
+        margin-top: 0;
         margin-bottom: 0;
-        padding: 0.35em 0 0 0;
-        border-top: 0.8pt solid #000;
+        padding: 0;
         page-break-inside: auto;
         display: block;
         clear: both;
@@ -1393,16 +1401,9 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         display: none;
     }}
 
-    /* Questions section: new page with a line above the heading */
+    /* Questions section: new page; no rule above heading */
     .questions-section {{
         page-break-before: always;
-    }}
-    .questions-section::before {{
-        content: "";
-        display: block;
-        height: 2px;
-        background: #000;
-        margin-bottom: 0.8em;
     }}
 
     /* PART SEPARATOR: always on its own page; no page number; blank page after for chapter */

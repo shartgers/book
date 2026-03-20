@@ -45,10 +45,10 @@ For European organisations, regulatory readiness is not a separate workstream. I
 
 The Readiness Gate tells leaders where the organisation stands and what to fix first. But readiness is not the destination. It is the starting condition for measurable progress. Once the organisation has assessed its position, prioritised its gaps, and sequenced its investments, it needs a way to track whether those investments are working: governance, KPIs, and board accountability. That is the subject of Chapter 14. Readiness without measurement is a plan without feedback. Measurement without readiness is tracking the wrong things. Together, they form the control system for AI transformation.
 
-[^109]: Cisco, "AI Readiness Index", 2025
-[^110]: MIT CISR, "Enterprise AI Maturity Model", 2024
-[^111]: McKinsey, "State of AI", 2025
-[^112]: Gartner, "Data Readiness for AI", July 2024
+[^109]: Cisco, "AI Readiness Index", 2025 — https://www.cisco.com/c/en/us/solutions/artificial-intelligence/ai-readiness-index.html
+[^110]: MIT CISR, "Update on the Enterprise AI Maturity Model", 2024–2025 — https://cisr.mit.edu/content/update-enterprise-ai-maturity-model
+[^111]: McKinsey, "The state of AI", 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
+[^112]: Gartner, "Lack of AI-ready data puts AI projects at risk" (includes July 2024 survey of data management leaders), press release, February 2025 — https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk
 
 ## Questions for the Board
 
