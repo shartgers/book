@@ -19,27 +19,23 @@ Build a print-ready PDF (for KDP/IngramSpark), an EPUB (for e-readers), or a sin
 From the **book repository root** (where the `book/` folder lives):
 
 ```bash
-# Interior PDF — paperback trim (5.5"×8.25"); default filename
+# Interior PDF — 5.5"×8.25" trim; single file for all print editions
 npm run pdf              # → output/book-interior.pdf
-npm run pdf:paperback    # → output/book-interior-paperback.pdf (same build as pdf)
-
-# Interior PDF — hardcover *target* (same trim as paperback until HARDCOVER is edited in build_print_pdf.py)
-npm run pdf:hardcover    # → output/book-interior-hardcover.pdf
 
 npm run epub   # → output/book-interior.epub
 npm run epub:validate   # build EPUB then validate with EPUBCheck (industry/IngramSpark standard)
 npm run html   # → output/book-interior.html
 
-# PDF/X-3:2002 (runs pdf:hardcover, then Ghostscript) — for IngramSpark B&W interior
-npm run pdfx   # → output/<ISBN13>_txt.pdf (ISBN from input/ISBN hardcover.md)
+# PDF/X-3:2002 — runs pdf, converts to hardcover ISBN filename, copies to paperback ISBN filename
+npm run pdfx   # → output/<hardcover ISBN13>_txt.pdf + output/<paperback ISBN13>_txt.pdf (identical content)
 
 # Full book with cover
 npm run full   # → output/book-full.pdf
 ```
 
-**Paperback vs PDF/X:** Use **`npm run pdf`** (or **`pdf:paperback`**) for a normal interior PDF at paperback trim. Use **`npm run pdfx`** when you need the grayscale PDF/X file named with the hardcover ISBN (`<ISBN13>_txt.pdf`). Those pipelines differ by output filename and PDF/X conversion, not by layout, until you give `HARDCOVER` a different trim in code.
+**PDF/X:** **`npm run pdfx`** runs **`npm run pdf`**, converts **`output/book-interior.pdf`** once to **`output/<hardcover ISBN>_txt.pdf`**, then copies that file to **`output/<paperback ISBN>_txt.pdf`**. ISBNs come from **`input/ISBN hardcover.md`** and **`input/ISBN paperback.md`**.
 
-**When asked to create PDF/X files for the interior:** Produce **`<ISBN13>_txt.pdf`**. Page size follows **`HARDCOVER`** in `build_print_pdf.py` (currently matches paperback). ISBN 13 digits are read from `input/ISBN hardcover.md` (line `ISBN/EAN: 978-...`); hyphens are stripped for the filename.
+**When asked to create PDF/X files for the interior:** Deliver both **`<ISBN13>_txt.pdf`** files (same interior; different filenames per IngramSpark edition).
 
 Equivalent Python commands:
 
@@ -49,14 +45,14 @@ python skills/format-book-agent/scripts/build_print_pdf.py --interior --epub --o
 python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html
 ```
 
-To create the PDF/X interior (hardcover only):
+To create PDF/X manually (or use `npm run pdfx`):
 
 ```bash
-python skills/format-book-agent/scripts/build_print_pdf.py --interior --format hardcover --output output/book-interior-hardcover.pdf
+python skills/format-book-agent/scripts/build_print_pdf.py --interior --output output/book-interior.pdf
 python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py
 ```
 
-Use `--interior` for interior-only output (no cover). Use `--format paperback` (default) or `--format hardcover` for page size. Omit `--interior` to include cover. Use `--cover path/to/other.png` to override the default cover path.
+Use `--interior` for interior-only output (no cover). Omit `--interior` to include cover. Use `--cover path/to/other.png` to override the default cover path.
 
 **EPUB validation (industry / IngramSpark):** After building the EPUB, validate it with the official W3C EPUBCheck via `npm run validate:epub` (validates existing `output/book-interior.epub`) or `npm run epub:validate` (build then validate). Requires Java 7+. Distributors typically require EPUBCheck to pass; fix reported errors before submitting.
 

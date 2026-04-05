@@ -5,14 +5,15 @@
   "scripts": {
     "build": "npm run pdf && npm run epub && npm run html",
     "pdf": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --output output/book-interior.pdf",
-    "pdf:paperback": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --format paperback --output output/book-interior-paperback.pdf",
-    "pdf:hardcover": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --format hardcover --output output/book-interior-hardcover.pdf",
+    "pdf:full": "python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-full.pdf",
+    "pdf:pdfx": "npm run pdf && python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py",
     "epub": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --epub --output output/book-interior.epub",
-    "epub:validate": "npm run epub && npm run validate:epub",
-    "html": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html",
-    "pdfx": "npm run pdf:hardcover && python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py",
-    "full": "python skills/format-book-agent/scripts/build_print_pdf.py --output output/book-full.pdf",
-    "validate:epub": "npx epubchecker output/book-interior.epub --output output/epubcheck-report.json"
+    "epub:full": "python skills/format-book-agent/scripts/build_print_pdf.py --epub --cover book/images/cover.jpg --output output/book-full.epub",
+    "epub:validate": "npm run epub && python skills/format-book-agent/scripts/epubcheck_with_summary.py output/book-interior.epub output/epubcheck-report.json",
+    "epub:full:validate": "npm run epub:full && python skills/format-book-agent/scripts/epubcheck_with_summary.py output/book-full.epub output/epubcheck-report-full.json",
+    "epub:all": "npm run epub:validate && npm run epub:full:validate",
+    "publish": "npm run pdf:pdfx && npm run epub:validate",
+    "html": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html"
   },
   "devDependencies": {
     "epubchecker": "^5.2.1"

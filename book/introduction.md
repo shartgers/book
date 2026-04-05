@@ -28,7 +28,7 @@ You will not find a catalogue of tools or a vendor guide. You will find framewor
 
 This book was completed in April 2026. That matters. The data, studies, and market evidence cited here reflect what was known and interpretable at that moment. AI adoption curves, regulatory implementation, and the pace of agentic deployment are all moving quickly; by the time you read this, some numbers will be outdated, some expectations will have been overtaken by events, and new uncertainties will have emerged. The analysis and recommendations are based on today's interpretation, with many uncertainties acknowledged. Use the frameworks and the sequence; treat the specific figures and timelines as a snapshot, not a guarantee. The mental model and the leadership imperative, however, are built to last beyond any single data point.
 
-**Practicing What We Preach**
+**Practising What We Preach**
 
 Writing a book about the agentic organisation while relying entirely on traditional methods would have been inconsistent, and would have undermined the very argument this book makes. So I made a deliberate choice: I would use AI as a genuine working partner throughout the research and writing process. Not as a shortcut, but as a demonstration of what human-AI collaboration actually looks like in practice. That meant using AI to synthesise research across hundreds of sources, challenge emerging frameworks, stress-test arguments, and help translate complex ideas into clear prose. Every framework originated from my own thinking, built on over twenty-five years of working with organisations navigating technology-driven transformation. But AI helped me think faster, go deeper, and pressure-test conclusions in ways that would have taken far longer working alone.
 

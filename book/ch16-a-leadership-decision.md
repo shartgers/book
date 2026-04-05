@@ -20,7 +20,7 @@ As PwC's Global Chairman Mohamed Kande put it: "That gap is starting to show up 
 
 Leading companies are doubling AI spend in 2026 regardless of immediate returns, and are not pulling back.[^117] The organisations generating value are not merely saving costs. They are reinvesting AI gains into new products, capabilities, and R&D, creating a self-reinforcing flywheel that widens the advantage each cycle.
 
-**Talent and culture.** Europe faces a talent crisis that is compounding faster than most leaders have accounted for. Demand for AI roles has surged dramatically in major economies like Germany, the UK, and Ireland.[^118] A significant portion of employers in specialized sectors report they cannot fill current AI positions, and many business leaders feel underprepared to lead in this new environment.
+**Talent and culture.** Europe faces a talent crisis that is compounding faster than most leaders have accounted for. Demand for AI roles has surged dramatically in major economies like Germany, the UK, and Ireland.[^118] A significant portion of employers in specialised sectors report they cannot fill current AI positions, and many business leaders feel underprepared to lead in this new environment.
 
 The best AI talent gravitates toward organisations that are already scaling. You cannot hire your way out of a multi-year deficit. Leaders who combine AI fluency with inclusive management report massive productivity improvements, far exceeding those who lack these core capabilities. The gap is not closing; it widens with every quarter of inaction.
 

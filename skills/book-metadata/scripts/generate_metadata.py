@@ -35,21 +35,54 @@ def load_text(path: Path) -> str:
     return path.read_text(encoding="utf-8").strip()
 
 
+# Keep in sync with build_print_pdf._parse_simple_metadata (multi-line Description).
+_METADATA_BLOCK_START = re.compile(
+    r"^(keywords|bisac|identifier|publisher|date|publication\s+date|author|language|title|subtitle)\s*:",
+    re.IGNORECASE,
+)
+
+
 def parse_simple_metadata(content: str) -> dict:
     """
     Parse key: value lines from input/metadata.md or similar.
     Supports: Author: Name, Identifier: 978-..., Keywords: a, b, c, BISAC: code1, code2, code3
+    Multi-line Description: text until the next top-level key (e.g. Keywords:).
     """
     out = {}
-    for line in content.splitlines():
-        line = line.strip()
+    lines = content.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
         if not line or line.startswith("#"):
+            i += 1
             continue
         if ":" not in line:
+            i += 1
             continue
         key, _, value = line.partition(":")
         key = key.strip().lower()
         value = value.strip()
+
+        if key == "description":
+            paragraphs: list[str] = []
+            current: list[str] = [value] if value else []
+            i += 1
+            while i < len(lines):
+                stripped = lines[i].strip()
+                if stripped and _METADATA_BLOCK_START.match(stripped):
+                    break
+                if not stripped:
+                    if current:
+                        paragraphs.append(" ".join(current))
+                        current = []
+                else:
+                    current.append(stripped)
+                i += 1
+            if current:
+                paragraphs.append(" ".join(current))
+            out["description"] = "\n\n".join(paragraphs).strip()
+            continue
+
         if key == "keywords" and value:
             # Strip surrounding quotes from each keyword for cleaner PDF/EPUB metadata
             out[key] = [k.strip().strip('"').strip("'") for k in value.split(",") if k.strip()]
@@ -59,6 +92,7 @@ def parse_simple_metadata(content: str) -> dict:
             out[key] = codes
         elif value:
             out[key] = value
+        i += 1
     return out
 
 

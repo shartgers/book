@@ -166,12 +166,21 @@ def convert_to_pdfx(
         print(f"Error: PDFX definition file not found: {PDFX_DEF}")
         return False
 
-    # Ghostscript command for PDF/X-3:2002 grayscale
-    # -dPDFX: enable PDF/X mode
-    # -sProcessColorModel=DeviceGray: output grayscale
-    # -sColorConversionStrategy=Gray: convert all to gray
-    # Downsample all raster images to 300 dpi so IngramSpark validation passes
-    # (profile allows max 600 ppi; source may be 720 ppi from WeasyPrint/raster)
+    # Ghostscript PDF/X-3 grayscale for IngramSpark.
+    #
+    # IMPORTANT (vector text vs pixelated pages):
+    # The PDF/X docs say `-dPDFX` can force CompatibilityLevel 1.3. PDF 1.3 cannot represent
+    # PDF 1.4 transparency. For those inputs, pdfwrite rasterizes the *entire page* to a bitmap
+    # (see Ghostscript VectorDevices.htm: transparency + output PDF < 1.4). WeasyPrint interiors
+    # typically use transparency, so that path yields huge files and jaggy text when zoomed.
+    # Fix: set CompatibilityLevel to 1.7 *after* `-dPDFX` so transparency stays in the vector model.
+    # PDF/X-3:2002 is based on PDF 1.4; 1.7 is valid for print workflows.
+    #
+    # -sProcessColorModel / ColorConversionStrategy=Gray: B&W interior
+    # -dHaveTransparency=true: with CompatibilityLevel >= 1.4, keep transparency objects (avoids
+    #   full-page flattening when the flag would otherwise force bitmap output)
+    # Image downsampling: applies to embedded raster images only, not vector text (once the
+    # full-page rasterization bug above is avoided).
     cmd = [
         gs_path,
         "-dSAFER",
@@ -179,11 +188,13 @@ def convert_to_pdfx(
         "-dNOPAUSE",
         "-dNOOUTERSAVE",
         "-dPDFX",
+        "-dCompatibilityLevel=1.7",
+        "-dHaveTransparency=true",
+        "-dPDFUseOldCMS=false",
         "-sProcessColorModel=DeviceGray",
         "-sColorConversionStrategy=Gray",
         "-sDEVICE=pdfwrite",
         "-dEmbedAllFonts=true",
-        "-dPDFACompatibilityPolicy=1",
         "-dDownsampleColorImages=true",
         "-dColorImageResolution=300",
         "-dDownsampleGrayImages=true",

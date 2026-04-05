@@ -8,12 +8,11 @@ Specs and layout rules for the print-ready PDF produced by `scripts/build_print_
 
 | Use case | Trim size | Notes |
 |----------|-----------|--------|
-| US paperback (KDP / IngramSpark) | 5.5" × 8.25" | Default; common for business books |
-| US hardcover (IngramSpark) | Same as paperback in-repo | `HARDCOVER` in `build_print_pdf.py` currently copies paperback; set a larger trim here when the hardcover block needs it |
-| US paperback alternate | 6" × 9" | Slightly larger |
+| US trade (KDP / IngramSpark) | 5.5" × 8.25" | Default in `build_print_pdf.py` (`PRINT_PAGE`) |
+| US alternate | 6" × 9" | Edit `PRINT_PAGE` in `build_print_pdf.py` if you switch trim |
 | EU (metric) | 148 mm × 210 mm (A5) or 152 mm × 229 mm | Check platform dropdowns |
 
-Set trim via `--format paperback` (default) or `--format hardcover`. Until `HARDCOVER` is edited, both use **5.5" × 8.25"** and the same margins.
+One interior PDF is used for paperback and hardcover uploads; PDF/X duplicates use the same file with per-ISBN filenames (see `convert_interiors_to_pdfx.py`).
 
 ---
 
@@ -74,19 +73,19 @@ IngramSpark recommends PDF/X-1a:2001 or PDF/X-3:2002. The WeasyPrint build does 
    - macOS: `brew install ghostscript`
    - Linux: `apt install ghostscript`
 
-2. **Run the conversion** (builds `book-interior-hardcover.pdf`, then converts to PDF/X):
+2. **Run the conversion** (builds `book-interior.pdf`, then PDF/X + copy):
    ```bash
    npm run pdfx
    ```
-   This creates **one** PDF/X interior file: `output/<ISBN13>_txt.pdf`. Page size follows **`HARDCOVER`** (currently **5.5" × 8.25"**, same as paperback). The 13-digit ISBN is read from `input/ISBN hardcover.md` (line `ISBN/EAN: 978-...`).
+   This runs **`npm run pdf`**, converts **`output/book-interior.pdf`** to **`output/<hardcover ISBN13>_txt.pdf`**, then copies it to **`output/<paperback ISBN13>_txt.pdf`**. ISBNs come from `input/ISBN hardcover.md` and `input/ISBN paperback.md`. Trim is **`PRINT_PAGE`** in `build_print_pdf.py` (currently **5.5" × 8.25"**).
 
    Or manually:
    ```bash
-   python skills/format-book-agent/scripts/build_print_pdf.py --interior --format hardcover --output output/book-interior-hardcover.pdf
+   python skills/format-book-agent/scripts/build_print_pdf.py --interior --output output/book-interior.pdf
    python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py
    ```
 
-3. **Image resolution**: Ghostscript downsamples all raster images (color, grayscale, mono) to **300 dpi** in the PDF/X output so the file passes IngramSpark’s validation (max 600 ppi; source PDFs can be 720 ppi).
+3. **Image resolution**: Ghostscript downsamples **embedded raster images** (colour, grey, mono) to **300 dpi** so the file passes IngramSpark’s validation (max 600 ppi; source PDFs can be 720 ppi from WeasyPrint). Vector text and vector graphics should remain sharp; if the entire page looks pixelated when zoomed and the PDF/X file is vastly larger than `book-interior.pdf`, Ghostscript likely rasterised whole pages (often because PDF/X mode defaulted to **PDF 1.3**, which cannot keep PDF 1.4 transparency). The conversion script sets **`CompatibilityLevel=1.7`** and **`HaveTransparency=true`** so typical WeasyPrint interiors stay vector-based. Re-run **`npm run pdfx`** after updating `convert_to_pdfx.py`.
 
 4. **ICC profile**: The script downloads a grayscale ICC profile from Adobe if needed, or uses a system profile. Place `Gray Gamma 2.2.icc` in `input/icc/` to use a specific profile.
 

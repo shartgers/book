@@ -23,6 +23,7 @@ import os
 import sys
 import tempfile
 import shutil
+from collections import OrderedDict
 from pathlib import Path
 
 try:
@@ -65,12 +66,9 @@ except ImportError:
     PdfReader = None
     PdfWriter = None
 
-# Trim size and margins. Paperback: 5.5" × 8.25" (default).
-# Hardcover: currently the **same** trim and margins as paperback so layout stays unified; the
-# `--format hardcover` / `pdf:hardcover` / `pdfx` pipeline still selects a separate output file and
-# PDF/X ISBN naming. When the hardcover edition needs a different trim (e.g. 5.5" × 8.5"), replace
-# HARDCOVER below with explicit width/height/margins.
-PAPERBACK = {
+# Trim size and margins — single print interior (5.5" × 8.25"). PDF/X uses the same interior twice
+# with different ISBN filenames (see convert_interiors_to_pdfx.py).
+PRINT_PAGE = {
     "width": "5.5in",
     "height": "8.25in",
     "top": "0.6in",
@@ -78,19 +76,17 @@ PAPERBACK = {
     "left": "0.55in",
     "right": "0.55in",
 }
-HARDCOVER = dict(PAPERBACK)
 # Bound-book gutter: inner margin +6 mm, outer −6 mm (base 0.55 in each side; type block width unchanged).
 # CSS @page :right → inner = left; @page :left → inner = right.
 GUTTER_EXTRA = "6mm"
 # Extra space below the running header on introduction/chapter/back-matter pages only (not front matter).
 CONTENT_TOP_EXTRA_BELOW_HEADER = "6mm"
-# Backward compatibility: default trim/margins = paperback
-TRIM_WIDTH = PAPERBACK["width"]
-TRIM_HEIGHT = PAPERBACK["height"]
-PAGE_TOP = PAPERBACK["top"]
-PAGE_BOTTOM = PAPERBACK["bottom"]
-PAGE_LEFT = PAPERBACK["left"]
-PAGE_RIGHT = PAPERBACK["right"]
+TRIM_WIDTH = PRINT_PAGE["width"]
+TRIM_HEIGHT = PRINT_PAGE["height"]
+PAGE_TOP = PRINT_PAGE["top"]
+PAGE_BOTTOM = PRINT_PAGE["bottom"]
+PAGE_LEFT = PRINT_PAGE["left"]
+PAGE_RIGHT = PRINT_PAGE["right"]
 # Footer: WeasyPrint uses @page margin boxes for page numbers (no frame height needed)
 
 
@@ -150,6 +146,27 @@ def discover_chapters_from_book(book_dir: Path) -> list[tuple[int, str]]:
     return sorted([(n, f"Chapter {n}") for n in seen], key=lambda x: x[0])
 
 
+# In book/toc.md, chapter titles may use " | " (space-pipe-space) for a manual line break
+# in PDF/EPUB chapter openers. Display uses <br/>; plain text (TOC line, running header, nav) collapses to a space.
+CHAPTER_TITLE_LINE_BREAK = " | "
+
+
+def chapter_title_plain(title: str) -> str:
+    """Single-line title: strip manual break markers for headers, EPUB nav, and metadata."""
+    return title.replace(CHAPTER_TITLE_LINE_BREAK, " ").strip()
+
+
+def chapter_title_html(title: str) -> str:
+    """
+    Safe HTML for a chapter title on the page. Segments separated by CHAPTER_TITLE_LINE_BREAK
+    become <br/>; each segment is escaped.
+    """
+    if CHAPTER_TITLE_LINE_BREAK not in title:
+        return html_module.escape(title.strip())
+    parts = [p.strip() for p in title.split(CHAPTER_TITLE_LINE_BREAK) if p.strip()]
+    return "<br/>".join(html_module.escape(p) for p in parts)
+
+
 def parse_toc(toc_content: str) -> tuple[str, str, list[tuple[int, str]]]:
     """
     Parse book/toc.md for title, subtitle, and chapter list.
@@ -180,24 +197,115 @@ def parse_toc(toc_content: str) -> tuple[str, str, list[tuple[int, str]]]:
     return title, subtitle, chapters
 
 
+# Next metadata key after a multi-line Description block (start of line, before colon).
+_METADATA_BLOCK_START = re.compile(
+    r"^(keywords|bisac|identifier|publisher|date|publication\s+date|author|language|title|subtitle)\s*:",
+    re.IGNORECASE,
+)
+
+
 def _parse_simple_metadata(content: str) -> dict:
     """Parse key: value lines from input/metadata.md. Used for EPUB metadata overrides."""
-    out = {}
-    for line in content.splitlines():
-        line = line.strip()
+    out: dict = {}
+    lines = content.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
         if not line or line.startswith("#"):
+            i += 1
             continue
         if ":" not in line:
+            i += 1
             continue
         key, _, value = line.partition(":")
         key = key.strip().lower()
         value = value.strip()
+
+        if key == "description":
+            paragraphs: list[str] = []
+            current: list[str] = [value] if value else []
+            i += 1
+            while i < len(lines):
+                stripped = lines[i].strip()
+                if stripped and _METADATA_BLOCK_START.match(stripped):
+                    break
+                if not stripped:
+                    if current:
+                        paragraphs.append(" ".join(current))
+                        current = []
+                else:
+                    current.append(stripped)
+                i += 1
+            if current:
+                paragraphs.append(" ".join(current))
+            out["description"] = "\n\n".join(paragraphs).strip()
+            continue
+
         if key == "keywords" and value:
             # Strip surrounding quotes from each keyword for cleaner PDF/EPUB metadata
             out[key] = [k.strip().strip('"').strip("'") for k in value.split(",") if k.strip()]
         elif value:
             out[key] = value
+        i += 1
     return out
+
+
+def _unicode_sans_bold_segment(s: str) -> str:
+    """
+    Map ASCII A–Z, a–z, 0–9 to Mathematical Sans-Serif Bold so dc:description stays
+    plain-text (no HTML in OPF) while still appearing bold in readers and Calibre.
+    Other characters (punctuation, spaces) are left unchanged.
+    """
+    out: list[str] = []
+    for ch in s:
+        o = ord(ch)
+        if ord("A") <= o <= ord("Z"):
+            out.append(chr(0x1D5D4 + (o - ord("A"))))
+        elif ord("a") <= o <= ord("z"):
+            out.append(chr(0x1D5EE + (o - ord("a"))))
+        elif ord("0") <= o <= ord("9"):
+            out.append(chr(0x1D7EC + (o - ord("0"))))
+        else:
+            out.append(ch)
+    return "".join(out)
+
+
+def _markdown_bold_to_unicode_bold(text: str) -> str:
+    """Replace **segment** with Unicode bold letters (EPUB dc:description cannot use HTML)."""
+
+    def repl(m: re.Match) -> str:
+        return _unicode_sans_bold_segment(m.group(1))
+
+    return re.sub(r"\*\*([^*]+)\*\*", repl, text)
+
+
+def _description_plain_for_pdf(description: str) -> str:
+    """Strip markdown **bold** markers for PDF /Subject (plain text; paragraphs preserved)."""
+    if not description:
+        return ""
+    s = re.sub(r"\*\*([^*]+)\*\*", r"\1", description)
+    paras = [re.sub(r"\s+", " ", p).strip() for p in s.split("\n\n")]
+    return "\n\n".join(p for p in paras if p)
+
+
+def _normalise_metadata_date(date_str: str) -> str:
+    """
+    Return W3CDTF date (YYYY-MM-DD) for EPUB dc:date where possible.
+    Readers and distributors expect ISO-style dates; accept common prose forms too.
+    """
+    s = date_str.strip()
+    if not s:
+        return ""
+    if re.match(r"^\d{4}-\d{2}-\d{2}$", s):
+        return s
+    from datetime import datetime
+
+    for fmt in ("%d %B %Y", "%B %d, %Y", "%d %b %Y", "%b %d, %Y"):
+        try:
+            return datetime.strptime(s, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    return s
 
 
 def _try_load_yaml_metadata(path: Path) -> dict:
@@ -272,7 +380,8 @@ def load_epub_metadata(book_dir: Path) -> dict:
     """
     Load EPUB metadata from the book folder (toc, introduction, about-the-author) and optional
     input/metadata.md or input/metadata.yaml overrides.
-    Returns dict with: title, subtitle, author, description, language, identifier, keywords (list).
+    Returns dict with: title, subtitle, author, description, language, identifier, keywords (list),
+    publisher, date (publication date, W3CDTF e.g. 2026-04-15).
     Used when building EPUB so the OPF gets Dublin Core metadata.
     """
     overrides = {}
@@ -299,6 +408,15 @@ def load_epub_metadata(book_dir: Path) -> dict:
     else:
         keywords = []
 
+    # EPUB dc:publisher and dc:date — optional overrides from input/metadata.{md,yaml}
+    publisher = str(overrides.get("publisher") or "").strip()
+    date_raw = overrides.get("date") or overrides.get("publication_date")
+    if date_raw is not None and hasattr(date_raw, "strftime"):
+        pub_date = date_raw.strftime("%Y-%m-%d")
+    else:
+        date_str = str(date_raw or "").strip()
+        pub_date = _normalise_metadata_date(date_str) if date_str else ""
+
     return {
         "title": (overrides.get("title") or title).strip(),
         "subtitle": (overrides.get("subtitle") or subtitle).strip(),
@@ -307,6 +425,8 @@ def load_epub_metadata(book_dir: Path) -> dict:
         "language": language,
         "identifier": identifier,
         "keywords": keywords,
+        "publisher": publisher,
+        "date": pub_date,
     }
 
 
@@ -323,7 +443,7 @@ def inject_pdf_metadata(pdf_path: Path, meta: dict) -> None:
     subtitle = (meta.get("subtitle") or "").strip()
     full_title = f"{title}: {subtitle}" if subtitle else title
     author = (meta.get("author") or "").strip()
-    description = (meta.get("description") or "").strip()
+    description = _description_plain_for_pdf((meta.get("description") or "").strip())
     keywords = meta.get("keywords") or []
     keywords_str = ", ".join(str(k) for k in keywords if k)
 
@@ -677,11 +797,13 @@ def inject_ordered_list_numbers(html: str) -> str:
         
         def repl_li(li_match: re.Match) -> str:
             nonlocal num
-            content = li_match.group(1)
-            result = f'<li><div class="li-block"><span class="list-number">{num}. </span>{content}</div></li>'
+            # Preserve id, class, and other attributes (footnote anchors use id on <li>).
+            li_attrs = li_match.group(1)
+            content = li_match.group(2)
+            result = f'<li{li_attrs}><div class="li-block"><span class="list-number">{num}. </span>{content}</div></li>'
             num += 1
             return result
-        inner = re.sub(r"<li[^>]*>(.*?)</li>", repl_li, inner, flags=re.DOTALL)
+        inner = re.sub(r"<li([^>]*)>(.*?)</li>", repl_li, inner, flags=re.DOTALL)
         # Skip extra line breaks for footnotes to keep them compact
         if 'class="footnote"' not in match.group(0) and 'class="chapter-footnotes"' not in match.group(0):
             inner = re.sub(r"</li>\s*<li>", "</li><br/><li>", inner)
@@ -731,7 +853,7 @@ def build_toc_html(
         part_title = html_module.escape(PART_TITLES[part_start])
         sub_items = []
         for num in part_chapters:
-            name = toc_by_num.get(num, f"Chapter {num}")
+            name = chapter_title_plain(toc_by_num.get(num, f"Chapter {num}"))
             sub_items.append(
                 f'<li><a href="#ch{num:02d}">Ch. {num} - {html_module.escape(name)}</a></li>'
             )
@@ -742,21 +864,55 @@ def build_toc_html(
     return "<ul>" + "".join(items) + "</ul>"
 
 
-def get_page_format(format_name: str) -> dict:
-    """Return trim and margin dict: 'paperback' or 'hardcover' (currently identical; see HARDCOVER)."""
-    if format_name == "hardcover":
-        return HARDCOVER.copy()
-    return PAPERBACK.copy()
+def build_epub_nav_toc(
+    chapters_included: list[int],
+    toc_chapters: list[tuple[int, str]],
+    *,
+    has_introduction: bool,
+) -> tuple:
+    """
+    EPUB navigation: Title, optional Introduction, Parts I–IV each wrapping their chapters
+    (same boundaries as build_toc_html / PART_TITLES), then About the Author.
+
+    Uses ebooklib nested (Section, (Link, ...)) so nav.xhtml shows Part headings; Section
+    has no href so the heading is a span (EPUB3); NCX inherits first chapter href for the
+    part node (ebooklib behaviour).
+    """
+    toc_by_num = dict(toc_chapters)
+    entries: list = []
+
+    entries.append(epub.Link("title.xhtml", "Title", "title"))
+    if has_introduction:
+        entries.append(epub.Link("introduction.xhtml", "Introduction", "introduction"))
+
+    part_starts = sorted(PART_TITLES.keys())
+    for i, part_start in enumerate(part_starts):
+        next_start = part_starts[i + 1] if i + 1 < len(part_starts) else 999
+        part_chapters = [n for n in chapters_included if part_start <= n < next_start]
+        if not part_chapters:
+            continue
+        part_title = PART_TITLES[part_start]
+        chapter_links = tuple(
+            epub.Link(
+                f"ch{num:02d}.xhtml",
+                f"Chapter {num} - {chapter_title_plain(toc_by_num.get(num, f'Chapter {num}'))}",
+                f"ch{num:02d}",
+            )
+            for num in part_chapters
+        )
+        entries.append((epub.Section(part_title), chapter_links))
+
+    entries.append(epub.Link("about.xhtml", "About the Author", "about"))
+    return tuple(entries)
 
 
-def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
+def get_css(for_pdf: bool = True) -> str:
     """
     Return CSS for print typography and layout.
     When for_pdf=True uses WeasyPrint @page with margins and @bottom-right for page numbers.
     When for_pdf=False uses simple margin @page (for HTML preview).
-    page_format: 'paperback' or 'hardcover' (trim/margins match until HARDCOVER is customized).
     """
-    pf = get_page_format(page_format)
+    pf = PRINT_PAGE
     w, h = pf["width"], pf["height"]
     t, r, b, l = pf["top"], pf["right"], pf["bottom"], pf["left"]
     # Inner/outer horizontal margins for facing pages (gutter wider than outer edge by GUTTER_EXTRA).
@@ -883,8 +1039,8 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
     /* BASE TYPOGRAPHY: Lora for body text, Raleway for headings */
     body {{
         font-family: "Lora", serif;
-        font-size: 10pt;
-        line-height: 1.45;
+        font-size: 9pt;
+        line-height: 1.6;
         color: #111;
         text-rendering: optimizeLegibility;
     }}
@@ -1051,13 +1207,13 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
 
     .toc li {{
         margin-bottom: 0.5em;
-        font-size: 10pt;
+        font-size: 9pt;
         text-indent: 0;
     }}
 
     /* Part titles: slightly larger and medium weight for clear section headers */
     .toc li.toc-part {{
-        font-size: 10pt;
+        font-size: 9pt;
         font-weight: 500;
     }}
 
@@ -1068,7 +1224,8 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
     }}
 
     .toc ul ul li {{
-        font-size: 10pt;
+        font-size: 9pt;
+        line-height: 1.25;
         margin-bottom: 0.4em;
     }}
 
@@ -1109,7 +1266,8 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         font-family: "Raleway", sans-serif;
         font-size: 22pt;
         font-weight: bold;
-        string-set: chapter-title content(text), chapter-num attr(data-ch);
+        /* One line in running header; <br/> in body uses data-title-plain (not content(text)) */
+        string-set: chapter-title attr(data-title-plain), chapter-num attr(data-ch);
     }}
 
     /* Hidden element: "Chapter N - Title" for reference; TOC is static HTML with anchors */
@@ -1167,7 +1325,7 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
     blockquote {{
         margin: 1em 1.2em;
         font-style: italic;
-        font-size: 10pt;
+        font-size: 9pt;
     }}
 
     /* LISTS: each item on its own line; block display so PDF/HTML break between items */
@@ -1194,7 +1352,6 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         margin-top: 0;
     }}
     .list-number {{
-        font-weight: bold;
         margin-right: 0.2em;
     }}
     /* Ordered list items (e.g. questions): default line spacing (avoids excessive gaps) */
@@ -1208,7 +1365,7 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         width: 100%;
         margin: 1em 0;
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
-        font-size: 10pt;
+        font-size: 9pt;
         page-break-inside: avoid;
     }}
     table th,
@@ -1229,7 +1386,7 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         page-break-before: always;
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
         font-size: 9pt;
-        line-height: 1.32;
+        line-height: 1.25;
     }}
 
     /* Box per page: when case study spans pages, each fragment gets its own border/background (clone). */
@@ -1239,7 +1396,7 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         background: #e8e8e8;
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
         font-size: 9pt;
-        line-height: 1.32;
+        line-height: 1.25;
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
         display: block;
@@ -1287,7 +1444,7 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         border: 1px solid #ccc;
         border-left: 3px solid #000;
         background: #fafafa;
-        font-size: 10pt;
+        font-size: 9pt;
         page-break-inside: avoid;
         text-align: left;
     }}
@@ -1295,7 +1452,7 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
     /* Definition term: allow wrap so long titles (e.g. "THE AI TRANSFORMATION FRAMEWORK") go to next line */
     .definition-title {{
         font-family: "Raleway", sans-serif;
-        font-size: 11pt;
+        font-size: 10pt;
         font-weight: normal;
         letter-spacing: 2pt;
         text-transform: uppercase;
@@ -1365,9 +1522,6 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         flex-direction: column;
         justify-content: flex-end;
         box-sizing: border-box;
-        /* Flex items default to min-width:auto (content min-size). Long footnote URLs can make
-           the .chapter-footnotes child wider than the type area; ch.7 overflows while shorter
-           chapters (e.g. ch.6) still fit. Constrain the anchor and force the child to shrink. */
         width: 100%;
         max-width: 100%;
         min-width: 0;
@@ -1558,13 +1712,12 @@ def build_full_html(
     dry_run: bool,
     for_pdf: bool = True,
     cover_rel: str | None = None,
-    page_format: str = "paperback",
 ) -> str:
     """Assemble full HTML document with optional cover, front matter, chapters, back matter."""
     html_parts = [
         "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"/>",
         "<title>" + title + "</title>",
-        "<style>" + get_css(for_pdf=for_pdf, page_format=page_format) + "</style>",
+        "<style>" + get_css(for_pdf=for_pdf) + "</style>",
         "</head><body>",
     ]
     # Front matter sequence: 1=cover, 2=blank, 3=half title, 4=blank, 5=full title, 6=copyright, 7=blank, 8=epigraph, 9+=TOC, then introduction (right-hand).
@@ -1640,13 +1793,18 @@ def build_full_html(
         ch_html = inject_ordered_list_numbers(ch_html)
         
         ch_title = toc_by_num.get(num, f"Chapter {num}")
+        ch_plain = chapter_title_plain(ch_title)
+        ch_title_html = chapter_title_html(ch_title)
         html_parts.append(f'<div class="chapter" id="{chapter_id}">')
         # Hidden TOC entry so PDF Contents shows "Chapter N - Title" (visible page keeps number + title separate)
         html_parts.append(
-            f'<div class="toc-entry-hidden">Chapter {num} - {html_module.escape(ch_title)}</div>'
+            f'<div class="toc-entry-hidden">Chapter {num} - {html_module.escape(ch_plain)}</div>'
         )
         html_parts.append(f'<div class="chapter-number">Chapter {chapter_number_word(num)}</div>')
-        html_parts.append(f'<div class="chapter-title" data-ch="Ch {num}: ">{html_module.escape(ch_title)}</div>')
+        html_parts.append(
+            f'<div class="chapter-title" data-ch="Ch {num}: " '
+            f'data-title-plain="{html_module.escape(ch_plain)}">{ch_title_html}</div>'
+        )
         html_parts.append('<div class="chapter-divider"></div>')
         html_parts.append(strip_first_h1(ch_html))
         html_parts.append("</div>")
@@ -1686,17 +1844,53 @@ table thead th { background: #e8e8e8; font-weight: bold; }
 .case-study { background: #f8f8f4; border: 1px solid #ccc; padding: 1em; margin: 1em 0; }
 .case-study h2 { font-size: 1.1em; margin-top: 0; }
 h1 { font-size: 1.5em; margin: 1em 0 0.5em 0; }
+h1.chapter-heading { text-align: center; }
 h2 { font-size: 1.25em; margin: 1em 0 0.5em 0; }
 .subtitle { font-size: 0.9em; color: #444; margin-bottom: 1em; }
 .about-the-author { margin-top: 1em; }
 img { max-width: 100%; height: auto; }
-ul, ol { margin: 0.6em 0 0.8em 0; padding-left: 1.8em; display: block; }
-ol { list-style-type: decimal; list-style-position: outside; }
-ul { list-style-type: disc; list-style-position: outside; }
+ul, ol { margin: 0.6em 0 0.8em 0; display: block; }
+ul { padding-left: 1.8em; list-style-type: disc; list-style-position: outside; }
+/* Ordered lists: inject_ordered_list_numbers() prepends .list-number spans; hide native markers. */
+ol { list-style: none; padding-left: 0; margin-left: 0; }
 li { display: block; margin-top: 0.5em; margin-bottom: 0.25em; padding-left: 0.25em; }
 ol li:first-child, ul li:first-child { margin-top: 0; }
-.list-number { font-weight: bold; margin-right: 0.2em; }
-.li-block { display: block; margin-bottom: 0.5em; }
+/* Match PDF: list numerals regular weight (not bold). */
+.list-number { margin-right: 0.2em; }
+.li-block { display: flex; align-items: baseline; gap: 0.35em; margin-bottom: 0.5em; }
+ol > li > .li-block > .list-number { flex-shrink: 0; min-width: 1.5em; }
+/* Footnote block: same pattern, slightly tighter context */
+.footnote > ol > li > .li-block > .list-number {
+    flex-shrink: 0;
+}
+/* EPUB: aside epub:type="footnote" wraps each footnote body (popover scope for reading systems). */
+.footnote aside {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+/* Dedication page (wrapper class; was inline CSS before linked stylesheet). */
+.dedication-epub p {
+    font-style: italic;
+    text-align: center;
+    margin-top: 3em;
+}
+/*
+ * Navigation document (nav.xhtml): ebooklib builds the TOC from nested <ol> elements.
+ * Without a linked stylesheet, reading systems show default 1. 2. 3. markers at every level.
+ * Scope rules to role="doc-toc" so landmarks/page-list nav (if present) is unaffected.
+ */
+nav[role="doc-toc"] ol {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+nav[role="doc-toc"] ol ol {
+    margin: 0.25em 0 0.6em 1.25em;
+}
+nav[role="doc-toc"] li {
+    margin: 0.35em 0;
+}
 """
 
 
@@ -1712,6 +1906,91 @@ def _epub_image_media_type(path: Path) -> str:
     if suf == ".svg":
         return "image/svg+xml"
     return "image/png"
+
+
+def _sniff_image_extension(data: bytes) -> str | None:
+    """
+    Detect image format from magic bytes. Returns extension including the dot (e.g. '.jpg').
+    Used so EPUB manifest media-type matches bytes (OPF-029 / PKG-022).
+    """
+    if len(data) < 12:
+        return None
+    if data[:3] == b"\xff\xd8\xff":
+        return ".jpg"
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return ".png"
+    if data[:6] in (b"GIF87a", b"GIF89a"):
+        return ".gif"
+    if data[:4] == b"RIFF" and len(data) >= 12 and data[8:12] == b"WEBP":
+        return ".webp"
+    return None
+
+
+def _epub_cover_archive_filename(cover_path: Path, data: bytes) -> str:
+    """
+    File name inside the EPUB package for the cover (e.g. 'cover.jpg').
+
+    Prefer magic-byte sniffing over the filesystem extension so a JPEG wrongly
+    saved as cover.png still gets cover.jpg in the OPF. ebooklib sets media-type
+    from the file name.
+    """
+    sniffed = _sniff_image_extension(data)
+    if sniffed:
+        return "cover" + sniffed
+    suf = cover_path.suffix.lower()
+    if suf == ".jpeg":
+        return "cover.jpg"
+    if suf in (".jpg", ".png", ".gif", ".webp", ".svg"):
+        return "cover" + suf
+    return "cover.png"
+
+
+def _epub_cover_manifest_mime(data: bytes, archive_filename: str) -> str:
+    """
+    OPF manifest media-type for the cover image: must match actual bytes (EPUBCheck OPF-029).
+    Set explicitly on EpubCover; do not rely on mimetypes.guess_type alone.
+    """
+    sniffed = _sniff_image_extension(data)
+    if sniffed == ".jpg":
+        return "image/jpeg"
+    if sniffed == ".png":
+        return "image/png"
+    if sniffed == ".gif":
+        return "image/gif"
+    if sniffed == ".webp":
+        return "image/webp"
+    return _epub_image_media_type(Path(archive_filename))
+
+
+def _add_epub_cover_to_book(book, cover_path: Path, cover_bytes: bytes):
+    """
+    Same end result as ebooklib EpubBook.set_cover(), but sets EpubCover.media_type
+    explicitly from sniffed bytes so the OPF never declares image/png for JPEG data.
+
+    Returns the EpubCoverHtml page item — it must be inserted into book.spine or readers
+    will not show the cover in reading order (manifest + meta name=cover alone are not enough).
+    """
+    archive_name = _epub_cover_archive_filename(cover_path, cover_bytes)
+    media_type = _epub_cover_manifest_mime(cover_bytes, archive_name)
+
+    c0 = epub.EpubCover(uid="cover-img", file_name=archive_name)
+    c0.content = cover_bytes
+    c0.media_type = media_type
+    book.add_item(c0)
+
+    c1 = epub.EpubCoverHtml(image_name=archive_name)
+    # ebooklib defaults EpubCoverHtml.is_linear to False (linear="no"), which drops the cover
+    # from primary reading order in many apps; we want the cover as the first visible page.
+    c1.is_linear = True
+    book.add_item(c1)
+
+    book.add_metadata(
+        None,
+        "meta",
+        "",
+        OrderedDict([("name", "cover"), ("content", "cover-img")]),
+    )
+    return c1
 
 
 def _collect_epub_images_from_html(html: str, book_dir: Path) -> list[tuple[str, Path]]:
@@ -1779,6 +2058,67 @@ def _sanitize_html_for_epub(html: str) -> str:
     return html
 
 
+# EPUB 3: epub:type on links/asides needs the namespace on the root element.
+_EPUB_XHTML_NS = 'xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"'
+
+
+def _epub_html_shell(body_inner: str) -> str:
+    """Valid EPUB 3 XHTML document wrapper (namespace for epub:noteref / epub:footnote)."""
+    return f"<html {_EPUB_XHTML_NS}><body>{body_inner}</body></html>"
+
+
+def _epub_footnote_semantics(html: str) -> str:
+    """
+    EPUB-only: mark footnote references and bodies per EPUB 3 so reading systems (e.g. Apple
+    Books) bound popovers to each footnote. Without aside epub:type=\"footnote\", the last
+    footnote in a file often includes all following content until EOF.
+    """
+    # noteref on superscript links (class from python-markdown footnotes extension).
+    def noteref_repl(m: re.Match) -> str:
+        attrs = m.group(1)
+        if re.search(r"\bepub:type\s*=", attrs, re.IGNORECASE):
+            return m.group(0)
+        return f'<a epub:type="noteref" {attrs}>'
+
+    html = re.sub(
+        r"<a\s+([^>]*\bclass\s*=\s*[\"']footnote-ref[\"'][^>]*)>",
+        noteref_repl,
+        html,
+        flags=re.IGNORECASE,
+    )
+
+    def footnote_div_repl(dm: re.Match) -> str:
+        open_tag, inner, close = dm.group(1), dm.group(2), dm.group(3)
+
+        def li_repl(lm: re.Match) -> str:
+            attrs, body = lm.group(1), lm.group(2)
+            id_m = re.search(r'id\s*=\s*(["\'])(fn:[^"\']+)\1', attrs, re.IGNORECASE)
+            if not id_m:
+                return lm.group(0)
+            fn_id = id_m.group(2)
+            attrs_no_id = re.sub(
+                r'\s*id\s*=\s*["\']fn:[^"\']+["\']',
+                "",
+                attrs,
+                count=1,
+                flags=re.IGNORECASE,
+            ).strip()
+            open_li = f"<li {attrs_no_id}>" if attrs_no_id else "<li>"
+            return f'{open_li}<aside epub:type="footnote" role="doc-footnote" id="{fn_id}">{body}</aside></li>'
+
+        inner_new = re.sub(r"<li([^>]*)>(.*?)</li>", li_repl, inner, flags=re.DOTALL | re.IGNORECASE)
+        return f"{open_tag}{inner_new}{close}"
+
+    # Match the footnote div that wraps a single <ol> only. Do not use (.*?)</div> — the first
+    # </div> would close .li-block inside the first <li>, not the footnote container.
+    return re.sub(
+        r'(<div\s+class="footnote"[^>]*>)(\s*<ol[^>]*>.*?</ol>\s*)(</div>)',
+        footnote_div_repl,
+        html,
+        flags=re.DOTALL | re.IGNORECASE,
+    )
+
+
 def build_epub(
     repo: Path,
     title: str,
@@ -1794,8 +2134,8 @@ def build_epub(
     """
     Build an EPUB from the same book/ sources. Uses ebooklib; front matter, chapters,
     and back matter are separate XHTML documents with a simple TOC and spine.
-    EPUB metadata (identifier, author, description, language, keywords) is read from
-    epub_metadata when provided (from load_epub_metadata(book_dir)).
+    EPUB metadata (identifier, author, description, language, keywords, publisher, date)
+    is read from epub_metadata when provided (from load_epub_metadata(book_dir)).
     """
     if epub is None:
         raise SystemExit("EPUB export requires ebooklib. Install with: pip install ebooklib")
@@ -1809,6 +2149,8 @@ def build_epub(
     meta_author = (meta.get("author") or "").strip()
     meta_description = (meta.get("description") or "").strip()
     meta_keywords = meta.get("keywords") or []
+    meta_publisher = (meta.get("publisher") or "").strip()
+    meta_date = (meta.get("date") or meta.get("publication_date") or "").strip()
 
     book = epub.EpubBook()
     # Identifier: from metadata (e.g. ISBN) or fallback URN
@@ -1820,16 +2162,34 @@ def build_epub(
     book.set_language(meta_lang)
     if meta_author:
         book.add_author(meta_author)
+    if meta_publisher:
+        book.add_metadata("DC", "publisher", meta_publisher)
+    if meta_date:
+        book.add_metadata("DC", "date", meta_date)
     if meta_description:
-        book.add_metadata("DC", "description", meta_description)
+        # dc:description is text-only in OPF; **bold** from metadata.md → Unicode bold.
+        book.add_metadata("DC", "description", _markdown_bold_to_unicode_bold(meta_description))
     for kw in meta_keywords:
         if kw:
             book.add_metadata("DC", "subject", kw)
 
-    # Cover image (optional): add first so it appears as cover in readers
+    # Linked stylesheet: ebooklib's EpubHtml discards any <head> from `content` when it
+    # serialises XHTML (only body children are kept). Inline EPUB_CSS never reached the
+    # package; use EpubItem + add_item() so footnote/list rules actually apply.
+    epub_style = epub.EpubItem(
+        uid="book_epub_style",
+        file_name="style/book.css",
+        media_type="text/css",
+        content=EPUB_CSS.encode("utf-8"),
+    )
+    book.add_item(epub_style)
+
+    # Cover image (optional): manifest + spine item so the cover page appears when opening the book
+    epub_cover_page = None
     if cover_path and cover_path.exists():
         try:
-            book.set_cover("cover.png", cover_path.read_bytes())
+            cover_bytes = cover_path.read_bytes()
+            epub_cover_page = _add_epub_cover_to_book(book, cover_path, cover_bytes)
         except OSError:
             pass  # Skip cover if unreadable
 
@@ -1865,8 +2225,12 @@ def build_epub(
             )
             book.add_item(epub_img)
 
-    spine = ["nav"]
-    toc_entries = []
+    # Spine: cover page first (if any), then nav. Without a cover itemref, cover.xhtml is
+    # only in the manifest — many readers open at the first spine item and never show the cover.
+    spine = []
+    if epub_cover_page is not None:
+        spine.append(epub_cover_page)
+    spine.append("nav")
 
     # Front matter: title page + copyright (single xhtml)
     copyright_html = _load_copyright_html(repo / "book")
@@ -1877,44 +2241,46 @@ def build_epub(
         title="Title",
         file_name="title.xhtml",
         lang="en",
-        content=f'<html><head><style>{EPUB_CSS}</style></head><body>{title_content}</body></html>',
+        content=_epub_html_shell(title_content),
     )
+    title_page.add_item(epub_style)
     book.add_item(title_page)
     spine.append(title_page)
-    toc_entries.append(epub.Link("title.xhtml", "Title", "title"))
 
     # Dedication page (optional) — right after copyright
     dedication_html = _load_dedication_html(repo / "book")
     if dedication_html:
         dedication_html = _sanitize_html_for_epub(dedication_html)
-        dedication_epub_css = "p { font-style: italic; text-align: center; margin-top: 3em; }"
         dedication_page = epub.EpubHtml(
             title="Dedication",
             file_name="dedication.xhtml",
             lang="en",
-            content=f'<html><head><style>{EPUB_CSS} {dedication_epub_css}</style></head><body>{dedication_html}</body></html>',
+            content=_epub_html_shell(f'<div class="dedication-epub">{dedication_html}</div>'),
         )
+        dedication_page.add_item(epub_style)
         book.add_item(dedication_page)
         spine.append(dedication_page)
 
     # Introduction (optional)
     introduction_md = load_text(repo / "book" / "introduction.md")
+    has_introduction = bool(introduction_md.strip())
     fn_offset = 0
-    if introduction_md.strip():
+    if has_introduction:
         intro_html = markdown_to_html(introduction_md)
         intro_html, fn_offset = make_footnotes_continuous(intro_html, fn_offset, "intro")
         intro_html = inject_ordered_list_numbers(intro_html)
         intro_html = _rewrite_epub_html_images(intro_html, epub_src_mapping)
         intro_html = _sanitize_html_for_epub(intro_html)
+        intro_html = _epub_footnote_semantics(intro_html)
         intro_page = epub.EpubHtml(
             title="Introduction",
             file_name="introduction.xhtml",
             lang="en",
-            content=f'<html><head><style>{EPUB_CSS}</style></head><body>{intro_html}</body></html>',
+            content=_epub_html_shell(intro_html),
         )
+        intro_page.add_item(epub_style)
         book.add_item(intro_page)
         spine.append(intro_page)
-        toc_entries.append(epub.Link("introduction.xhtml", "Introduction", "introduction"))
 
     # Chapters
     for num in chapters_included:
@@ -1926,42 +2292,52 @@ def build_epub(
         ch_html = inject_ordered_list_numbers(ch_html)
         ch_html = _rewrite_epub_html_images(ch_html, epub_src_mapping)
         ch_html = _sanitize_html_for_epub(ch_html)
+        ch_html = _epub_footnote_semantics(ch_html)
         ch_title = toc_by_num.get(num, f"Chapter {num}")
+        ch_plain = chapter_title_plain(ch_title)
+        ch_title_html = chapter_title_html(ch_title)
         # Keep first h1 or add chapter title for nav
         body = strip_first_h1(ch_html)
-        full = f'<h1>{html_module.escape(ch_title)}</h1>{body}'
+        full = f'<h1 class="chapter-heading">{ch_title_html}</h1>{body}'
         file_name = f"ch{num:02d}.xhtml"
         ch_page = epub.EpubHtml(
-            title=ch_title,
+            title=ch_plain,
             file_name=file_name,
             lang="en",
-            content=f'<html><head><style>{EPUB_CSS}</style></head><body>{full}</body></html>',
+            content=_epub_html_shell(full),
         )
+        ch_page.add_item(epub_style)
         book.add_item(ch_page)
         spine.append(ch_page)
-        toc_entries.append(epub.Link(file_name, f"Chapter {num} - {ch_title}", f"ch{num:02d}"))
 
     # Back matter: About the Author
     if about_author.strip():
         author_html = markdown_to_html(about_author)
         author_html = _sanitize_html_for_epub(author_html)
-        about_content = f'<html><head><style>{EPUB_CSS}</style></head><body><div class="about-the-author">{author_html}</div></body></html>'
+        about_content = _epub_html_shell(f'<div class="about-the-author">{author_html}</div>')
     else:
-        about_content = '<html><head><style>{EPUB_CSS}</style></head><body><p>[About the Author to be added.]</p></body></html>'
+        about_content = _epub_html_shell("<p>[About the Author to be added.]</p>")
     about_page = epub.EpubHtml(
         title="About the Author",
         file_name="about.xhtml",
         lang="en",
         content=about_content,
     )
+    about_page.add_item(epub_style)
     book.add_item(about_page)
     spine.append(about_page)
-    toc_entries.append(epub.Link("about.xhtml", "About the Author", "about"))
 
-    book.toc = tuple(toc_entries)
+    book.toc = build_epub_nav_toc(
+        chapters_included,
+        toc_chapters,
+        has_introduction=has_introduction,
+    )
     book.spine = spine
     book.add_item(epub.EpubNcx())
-    book.add_item(epub.EpubNav())
+    # EpubNav must reference the same stylesheet as body XHTML or nav.xhtml keeps default <ol> numbering.
+    nav_page = epub.EpubNav()
+    nav_page.add_item(epub_style)
+    book.add_item(nav_page)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     epub.write_epub(str(out_path), book, {})
@@ -2013,12 +2389,6 @@ def main() -> None:
         action="store_true",
         help="Interior only: exclude cover. Use for book-interior.pdf/epub/html (IngramSpark interior file).",
     )
-    parser.add_argument(
-        "--format",
-        choices=["paperback", "hardcover"],
-        default="paperback",
-        help="Page format: paperback (default) or hardcover. Hardcover trim currently matches paperback; edit HARDCOVER in this file to diverge.",
-    )
     args = parser.parse_args()
 
     # Resolve repo root (script lives in skills/format-book-agent/scripts/; repo has book/ folder)
@@ -2036,7 +2406,7 @@ def main() -> None:
         title, subtitle, toc_chapters = parse_toc(toc_content)
     else:
         title = "The Agentic Organisation"
-        subtitle = "A complete AI transformation framework\nEUROPEAN EDITION"
+        subtitle = "A complete guide for AI transformations\nEUROPEAN EDITION"
         toc_chapters = discover_chapters_from_book(book_dir)
 
     if args.dry_run:
@@ -2056,17 +2426,29 @@ def main() -> None:
     # About the Author: back matter at end of book (from book folder only)
     about_author = load_text(repo / "book" / "about-the-author.md")
 
-    # Cover: omit when --interior; otherwise prefer book/images/cover.png, then book/cover.png, then --cover
+    # Cover: omit when --interior; else prefer JPEG in book/images/ (common case), then PNG, then --cover
     cover_rel = None
     cover_path_for_epub = None
     if not args.interior:
-        if (book_dir / "images" / "cover.png").exists():
-            cover_rel = "book/images/cover.png"
-            cover_path_for_epub = book_dir / "images" / "cover.png"
-        elif (book_dir / "cover.png").exists():
-            cover_rel = "book/cover.png"
-            cover_path_for_epub = book_dir / "cover.png"
-        else:
+        # Prefer cover.jpg before cover.png so a real JPEG is not skipped when an older
+        # or mis-tagged cover.png also exists in the same folder.
+        _cover_candidates = [
+            book_dir / "images" / "cover.jpg",
+            book_dir / "images" / "cover.jpeg",
+            book_dir / "images" / "cover.png",
+            book_dir / "cover.jpg",
+            book_dir / "cover.jpeg",
+            book_dir / "cover.png",
+        ]
+        for cp in _cover_candidates:
+            if cp.exists():
+                try:
+                    cover_rel = str(cp.relative_to(repo)).replace("\\", "/")
+                except ValueError:
+                    cover_rel = cp.name
+                cover_path_for_epub = cp
+                break
+        if cover_path_for_epub is None:
             candidate = repo / args.cover.lstrip("/")
             if candidate.exists():
                 cover_rel = args.cover
@@ -2105,7 +2487,6 @@ def main() -> None:
         dry_run=args.dry_run,
         for_pdf=want_pdf,
         cover_rel=cover_rel,
-        page_format=args.format,
     )
 
     out_path = Path(args.output)

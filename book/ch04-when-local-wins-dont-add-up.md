@@ -24,7 +24,7 @@ European leaders face an additional dimension. The EU AI Act, Article 4, which t
 
 The choice of path matters more than the level of ambition. A four-tier progression is the route through which AI capability typically compounds. These tiers, ranging from individual span to enterprise-wide coordination, are not a mandatory ladder. They are strategic interpretations of how maturity should advance. 
 
-The structural mistake that explains most failure rates is not skipping a tier per se, but skipping a tier without the underlying organizational foundations to support the jump. If an organisation has mastered individual fluency and team norms, and its broader maturity allows for enterprise-scale coordination, it may intentionally choose to bypass departmental redesign and move directly to organizational transformation. This can be done successfully, provided the leadership and governance are calibrated for the target tier.
+The structural mistake that explains most failure rates is not skipping a tier per se, but skipping a tier without the underlying organisational foundations to support the jump. If an organisation has mastered individual fluency and team norms, and its broader maturity allows for enterprise-scale coordination, it may intentionally choose to bypass departmental redesign and move directly to organisational transformation. This can be done successfully, provided the leadership and governance are calibrated for the target tier.
 
 Each tier requires distinct leadership behaviour, governance, and success measures. 
 
@@ -148,7 +148,7 @@ The tiers are a structural reality: they describe the layers of capability requi
 ## Questions for the Board
 
 1. At which tier does the majority of your organisation's AI activity actually sit today, and are you intentionally skipping any tiers to accelerate your strategy?
-2. If you are skipping a tier (e.g., moving from Task & Workflow Automation to Cross-functional Agentic Workflows), what specific organizational maturity foundations are you relying on to bridge that gap safely?
+2. If you are skipping a tier (e.g., moving from Task & Workflow Automation to Cross-functional Agentic Workflows), what specific organisational maturity foundations are you relying on to bridge that gap safely?
 3. Have you invested in enterprise-level AI before achieving measurable individual augmentation and team-level psychological safety? If yes, how are you ensuring the foundation is strong enough to support the jump?
 4. What specific leadership behaviour have you or your leadership team adopted at each tier (visible use at Tier 1, connector at Tier 2, strategist at Tier 3, architect at Tier 4)?
 5. Does your governance differ by tier, for example light-touch for individual augmentation versus rigorous for functional agentic workflows, or is it one-size-fits-all?

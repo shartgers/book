@@ -86,11 +86,11 @@ Each dimension must be addressed; redesigning technology without redesigning the
 
 > **Definition: The Agentic Operating Model**
 >
-> An organizational framework in which AI agents are treated as autonomous collaborators that can interpret intent, plan work, take actions, and learn from outcomes within clearly defined governance and human decision boundaries.
+> An organisational framework in which AI agents are treated as autonomous collaborators that can interpret intent, plan work, take actions, and learn from outcomes within clearly defined governance and human decision boundaries.
 
 ## The Operating Model as Leadership Accountability
 
-The operating model is a board responsibility, not a delegation target. As the Allianz case study at the end of this chapter illustrates, transformation is "not mainly about the technology but rather the mindset, the people, and the organization."
+The operating model is a board responsibility, not a delegation target. As the Allianz case study at the end of this chapter illustrates, transformation is "not mainly about the technology but rather the mindset, the people, and the organisation."
 
 Only 21% of organisations have rigorous AI governance.[^76] The gap is widest in the Operating Model layer, where decisions about roles, skills, and process redesign touch every person in the organisation. Change management must begin at the planning stage. Organisations that integrate people and process considerations from the start, co-developing solutions with frontline teams and using focused pilots with feedback loops, achieve more durable results than those that bolt on change management after the technology is deployed.
 
@@ -140,7 +140,7 @@ Allianz, Europe's largest insurer, faced a dilemma that crystallises the Operati
 
 Insurance is a trust business. Policyholders, regulators, and employees watch workforce decisions with scrutiny, and in Europe that scrutiny has institutional weight. Allianz was not a company in distress. It was a market leader choosing to transform from a position of strength, which raised rather than lowered the standard for how the transition would be managed.
 
-COO Barbara Karuth-Zelle framed the decision explicitly: "Digital and AI transformations are not mainly about the technology but rather the mindset, the people, and the organization." This was not rhetoric. The operating model, roles, skills, team structures, and processes, was treated as the primary transformation target, with technology as the enabler.
+COO Barbara Karuth-Zelle framed the decision explicitly: "Digital and AI transformations are not mainly about the technology but rather the mindset, the people, and the organisation." This was not rhetoric. The operating model, roles, skills, team structures, and processes, was treated as the primary transformation target, with technology as the enabler.
 
 The competitive context was pressing. ING had achieved a 90% pilot-to-production rate through centralised AI infrastructure. BBVA had embedded 300 "AI wizards" in business units. Across European financial services, agentic AI was moving from experiment to operations. The European social dialogue framework shaped the boundaries. Only 20% of EU trade unions have collective bargaining agreements addressing AI, but 42% are engaged in formal discussions.[^78] Workforce restructuring at Allianz required works council negotiation, transparent communication, and a credible plan for affected employees.
 

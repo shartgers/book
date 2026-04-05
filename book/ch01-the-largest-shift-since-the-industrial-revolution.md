@@ -2,7 +2,7 @@ Ninety-five per cent of enterprise AI implementations fail to deliver sustained 
 
 The data on this is unambiguous. The MIT NANDA report, published in July 2025, drawing on over 300 AI initiatives across 52 organisations and 153 senior leader surveys, found that 95% of enterprise generative AI implementations fail to deliver sustained, measurable impact.[^1] A global survey of more than 1,000 senior executives found that only 5% of companies achieve AI value at scale, whilst 60% achieve no material value whatsoever.[^2]
 
-RAND puts the AI project failure rate at over 80%, double the rate of non-AI IT projects. S&P Global reports that 42% of companies scrapped most AI initiatives in 2025, up from 17% the year before.
+RAND, a not-for-profit policy research organisation, puts the AI project failure rate at over 80%, double the rate of non-AI IT projects. S&P Global reports that 42% of companies scrapped most AI initiatives in 2025, up from 17% the year before.
 
 These are not preliminary findings from a single study. They are converging conclusions from independent research programmes spanning thousands of organisations. And yet, eight in ten companies already use generative AI.[^3] Equally many report no significant bottom-line impact. The tools are everywhere. The value is not.
 

@@ -1,4 +1,4 @@
-When European CEOs apologize for their regulation, they frame it as a constraint: slower, more cautious, more expensive to navigate than their American or Asian counterparts. But it can be an opportunity, if they choose to see it that way.
+When European CEOs apologise for their regulation, they frame it as a constraint: slower, more cautious, more expensive to navigate than their American or Asian counterparts. But it can be an opportunity, if they choose to see it that way.
 
 Europe's regulatory rigour, its culture of trust, and its pragmatic approach to technology adoption are not handicaps in the race to build the Agentic Organisation. They are, in the hands of a leader who understands them, a structural competitive advantage. The question is not whether European regulation slows you down, but whether you are using it to build something your less-regulated competitors cannot easily replicate.
 

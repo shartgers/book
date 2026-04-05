@@ -112,7 +112,7 @@ European leaders often move proactively. Allianz signed the EU AI Pact well befo
 
 BBVA co-developed with IBM a stress test for discriminatory bias in generative AI models applied to non-English languages, presented at NeurIPS. Compliance-driven research producing genuine innovation.
 
-Schneider Electric's Trust Charter governs all operations, with responsible AI embedded in product design. The company's "frugal AI" approach aligns with European sustainability values: right-sized models, edge deployment, carbon-aware computing.
+Schneider Electric's Trust Charter governs all operations, with responsible AI embedded in product design. The company's "frugal AI" approach aligns with European sustainability values: appropriately sized models, edge deployment, carbon-aware computing.
 
 Research on AI-leading European firms confirms the pattern. The 11% of European companies classified as "AI Achievers", generating 50% greater revenue growth than peers, share a defining trait: they designed AI responsibly from the start, not as an afterthought.[^103]
 
