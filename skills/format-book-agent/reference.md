@@ -66,7 +66,7 @@ The script wraps the section (until the next `##`) in a **case-study** container
 
 ## PDF/X-3:2002 for IngramSpark (B&W interior)
 
-IngramSpark recommends PDF/X-1a:2001 or PDF/X-3:2002. The WeasyPrint build does not add Output Intents. To produce a PDF/X-3:2002 grayscale interior:
+IngramSpark accepts PDF/X-1a:2001 or PDF/X-3:2002; this repo targets **PDF/X-3:2002** (Ghostscript `-dPDFX=3`). The WeasyPrint build does not add Output Intents. **`PDFX_def_gray.ps`** ends with **`setdistillerparams`** (`CompatibilityLevel` 1.7, `HaveTransparency` true) so pdfwrite does not stay on PDF 1.3 (which would flatten WeasyPrint transparency into huge page bitmaps). To produce a PDF/X-3 grayscale interior:
 
 1. **Install Ghostscript** (required):
    - Windows: Download from [ghostscript.com](https://ghostscript.com/releases/gsdnld.html) or `choco install ghostscript` (run as Administrator)
@@ -85,7 +85,7 @@ IngramSpark recommends PDF/X-1a:2001 or PDF/X-3:2002. The WeasyPrint build does 
    python skills/format-book-agent/scripts/convert_interiors_to_pdfx.py
    ```
 
-3. **Image resolution**: Ghostscript downsamples **embedded raster images** (colour, grey, mono) to **300 dpi** so the file passes IngramSpark’s validation (max 600 ppi; source PDFs can be 720 ppi from WeasyPrint). Vector text and vector graphics should remain sharp; if the entire page looks pixelated when zoomed and the PDF/X file is vastly larger than `book-interior.pdf`, Ghostscript likely rasterised whole pages (often because PDF/X mode defaulted to **PDF 1.3**, which cannot keep PDF 1.4 transparency). The conversion script sets **`CompatibilityLevel=1.7`** and **`HaveTransparency=true`** so typical WeasyPrint interiors stay vector-based. Re-run **`npm run pdfx`** after updating `convert_to_pdfx.py`.
+3. **Image resolution**: Ghostscript downsamples **embedded raster images** (colour, grey, mono) to **300 dpi** so the file passes IngramSpark’s validation (max 600 ppi; source PDFs can be 720 ppi from WeasyPrint). **Avoid** passing **`-dCompatibilityLevel=1.3`** on the Ghostscript command line with this workflow — it forces transparency flattening and can produce **very large** PDF/X files. The **setdistillerparams** line in **`input/icc/PDFX_def_gray.ps`** is what keeps vector text sharp for typical WeasyPrint interiors.
 
 4. **ICC profile**: The script downloads a grayscale ICC profile from Adobe if needed, or uses a system profile. Place `Gray Gamma 2.2.icc` in `input/icc/` to use a specific profile.
 

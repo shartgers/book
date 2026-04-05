@@ -12,7 +12,8 @@ Usage:
 The script will:
   1. Find Ghostscript (gswin64c or gs)
   2. Ensure a grayscale ICC profile exists (downloads if needed)
-  3. Run Ghostscript with -dPDFX for PDF/X-3:2002 output
+  3. Run Ghostscript with -dPDFX=3; PDFX_def_gray.ps ends with setdistillerparams so output
+     stays PDF 1.7+ for transparency (avoids WeasyPrint interiors ballooning to hundreds of MB).
 """
 
 import argparse
@@ -21,7 +22,6 @@ import platform
 import shutil
 import subprocess
 import sys
-import tempfile
 import urllib.request
 import zipfile
 from pathlib import Path
@@ -166,21 +166,12 @@ def convert_to_pdfx(
         print(f"Error: PDFX definition file not found: {PDFX_DEF}")
         return False
 
-    # Ghostscript PDF/X-3 grayscale for IngramSpark.
-    #
-    # IMPORTANT (vector text vs pixelated pages):
-    # The PDF/X docs say `-dPDFX` can force CompatibilityLevel 1.3. PDF 1.3 cannot represent
-    # PDF 1.4 transparency. For those inputs, pdfwrite rasterizes the *entire page* to a bitmap
-    # (see Ghostscript VectorDevices.htm: transparency + output PDF < 1.4). WeasyPrint interiors
-    # typically use transparency, so that path yields huge files and jaggy text when zoomed.
-    # Fix: set CompatibilityLevel to 1.7 *after* `-dPDFX` so transparency stays in the vector model.
-    # PDF/X-3:2002 is based on PDF 1.4; 1.7 is valid for print workflows.
-    #
-    # -sProcessColorModel / ColorConversionStrategy=Gray: B&W interior
-    # -dHaveTransparency=true: with CompatibilityLevel >= 1.4, keep transparency objects (avoids
-    #   full-page flattening when the flag would otherwise force bitmap output)
-    # Image downsampling: applies to embedded raster images only, not vector text (once the
-    # full-page rasterization bug above is avoided).
+    # PDF/X-3 for IngramSpark (accepted alongside PDF/X-1a). -dPDFX=3 + GTS_PDFXVersion in PDFX_def_gray.ps.
+    # Do NOT pass -dCompatibilityLevel=1.3 here: that locks transparency flattening (huge rasters).
+    # CompatibilityLevel 1.7 is applied in PDFX_def_gray.ps via setdistillerparams after OutputIntent pdfmarks.
+    # -dHaveTransparency=true: keep transparency objects when level >= 1.4 (matches distiller params).
+    # Downsampling flags: limit embedded images to 300 dpi (IngramSpark max 600 ppi); avoids giant streams
+    # if flattening does produce bitmaps. Do not set -dAutoFilter*Images=false unless debugging (hurts compression).
     cmd = [
         gs_path,
         "-dSAFER",
@@ -188,13 +179,11 @@ def convert_to_pdfx(
         "-dNOPAUSE",
         "-dNOOUTERSAVE",
         "-dPDFX",
-        "-dCompatibilityLevel=1.7",
-        "-dHaveTransparency=true",
-        "-dPDFUseOldCMS=false",
         "-sProcessColorModel=DeviceGray",
         "-sColorConversionStrategy=Gray",
         "-sDEVICE=pdfwrite",
         "-dEmbedAllFonts=true",
+        "-dPDFACompatibilityPolicy=1",
         "-dDownsampleColorImages=true",
         "-dColorImageResolution=300",
         "-dDownsampleGrayImages=true",

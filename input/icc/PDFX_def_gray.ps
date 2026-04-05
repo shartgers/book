@@ -1,6 +1,6 @@
 %!PS-Adobe-3.0
 %% PDF/X-3:2002 definition for grayscale (B&W) interior.
-%% Used by Ghostscript with -dPDFX for IngramSpark-compliant output.
+%% Used by Ghostscript with -dPDFX=3 for IngramSpark-compliant output.
 %% Requires: /ICCProfile (path) to be set before inclusion, or omit ICC for minimal output.
 
 % Validate ProcessColorModel: must be DeviceGray or DeviceCMYK for PDF/X
@@ -39,3 +39,8 @@ currentdict /ICCProfile known {
   } if
 >> /PUT pdfmark
 [{Catalog} <</OutputIntents [ {OutputIntent_PDFX} ]>> /PUT pdfmark
+
+% Ghostscript's -dPDFX forces CompatibilityLevel 1.3 during pdfwrite init. PDF 1.3 cannot keep
+% PDF 1.4+ transparency; pdfwrite then rasterises whole pages (huge files). CLI -dCompatibilityLevel
+% does not override that. Raise level here after OutputIntent pdfmarks, before the input PDF.
+<< /CompatibilityLevel 1.7 /HaveTransparency true >> setdistillerparams
