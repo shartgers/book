@@ -65,10 +65,11 @@ except ImportError:
     PdfReader = None
     PdfWriter = None
 
-# Trim size and margins. Two formats: paperback 5.5" x 8.25"; hardcover 5.5" x 8.5".
-# Content area (type area) is the same in both; hardcover uses extra height as top/bottom margin.
-# Paperback: 8.25 - 0.6 - 0.6 = 7.05" content height.
-# Hardcover: 8.5 - 7.05 = 1.45" total top+bottom → 0.725" top, 0.725" bottom.
+# Trim size and margins. Paperback: 5.5" × 8.25" (default).
+# Hardcover: currently the **same** trim and margins as paperback so layout stays unified; the
+# `--format hardcover` / `pdf:hardcover` / `pdfx` pipeline still selects a separate output file and
+# PDF/X ISBN naming. When the hardcover edition needs a different trim (e.g. 5.5" × 8.5"), replace
+# HARDCOVER below with explicit width/height/margins.
 PAPERBACK = {
     "width": "5.5in",
     "height": "8.25in",
@@ -77,14 +78,12 @@ PAPERBACK = {
     "left": "0.55in",
     "right": "0.55in",
 }
-HARDCOVER = {
-    "width": "5.5in",
-    "height": "8.5in",
-    "top": "0.725in",   # same content height as paperback; extra 0.25" split top/bottom
-    "bottom": "0.725in",
-    "left": "0.55in",
-    "right": "0.55in",
-}
+HARDCOVER = dict(PAPERBACK)
+# Bound-book gutter: inner margin +6 mm, outer −6 mm (base 0.55 in each side; type block width unchanged).
+# CSS @page :right → inner = left; @page :left → inner = right.
+GUTTER_EXTRA = "6mm"
+# Extra space below the running header on introduction/chapter/back-matter pages only (not front matter).
+CONTENT_TOP_EXTRA_BELOW_HEADER = "6mm"
 # Backward compatibility: default trim/margins = paperback
 TRIM_WIDTH = PAPERBACK["width"]
 TRIM_HEIGHT = PAPERBACK["height"]
@@ -693,15 +692,16 @@ def inject_ordered_list_numbers(html: str) -> str:
     return html_processed
 
 
-# Part separator pages: chapter number that starts each part -> part title (from toc.md)
+# Part separator pages: chapter number that starts each part -> part title (aligned with book/toc.md)
+# Part II ends at Ch 10; Part III is Ch 11–12; Part IV is Ch 13–16.
 PART_TITLES = {
     1: "Part I: Building Momentum",
     3: "Part II: The Model",
-    9: "Part III: The European Advantage",
-    11: "Part IV: The CEO's Playbook",
+    11: "Part III: The European Advantage",
+    13: "Part IV: The CEO's Playbook",
 }
 # Anchor ids for part separator divs (for TOC links and correct page numbers)
-PART_IDS = {1: "part1", 3: "part2", 9: "part3", 11: "part4"}
+PART_IDS = {1: "part1", 3: "part2", 11: "part3", 13: "part4"}
 
 
 def build_toc_html(
@@ -743,7 +743,7 @@ def build_toc_html(
 
 
 def get_page_format(format_name: str) -> dict:
-    """Return trim and margin dict for the given format: 'paperback' or 'hardcover'."""
+    """Return trim and margin dict: 'paperback' or 'hardcover' (currently identical; see HARDCOVER)."""
     if format_name == "hardcover":
         return HARDCOVER.copy()
     return PAPERBACK.copy()
@@ -754,13 +754,18 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
     Return CSS for print typography and layout.
     When for_pdf=True uses WeasyPrint @page with margins and @bottom-right for page numbers.
     When for_pdf=False uses simple margin @page (for HTML preview).
-    page_format: 'paperback' (5.5" x 8.25") or 'hardcover' (5.5" x 8.5", same content area).
+    page_format: 'paperback' or 'hardcover' (trim/margins match until HARDCOVER is customized).
     """
     pf = get_page_format(page_format)
     w, h = pf["width"], pf["height"]
     t, r, b, l = pf["top"], pf["right"], pf["bottom"], pf["left"]
-    # Type area height (inside margins): used to bottom-align chapter footnotes on their page
-    content_area_height = f"calc({h} - {t} - {b})"
+    # Inner/outer horizontal margins for facing pages (gutter wider than outer edge by GUTTER_EXTRA).
+    m_inner = f"calc({l} + {GUTTER_EXTRA})"
+    m_outer = f"calc({l} - {GUTTER_EXTRA})"
+    # Numbered body pages use a larger top margin so body text sits lower; running heads stay in the top margin band.
+    t_content = f"calc({t} + {CONTENT_TOP_EXTRA_BELOW_HEADER})"
+    # Type area height on content pages: used to bottom-align chapter footnotes on their page
+    content_area_height = f"calc({h} - {t} - {CONTENT_TOP_EXTRA_BELOW_HEADER} - {b})"
     if for_pdf:
         # WeasyPrint: front = no page number; content = numbered from 1.
         # Use built-in page counter: first content page resets to 1 (contentfirst),
@@ -783,14 +788,28 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         @top-center {{ content: none; }}
         @bottom-right {{ content: none; }}
     }}
-    /* Reset page counter only on the first numbered page (first introduction page), not on every contentfirst page */
+    /* First numbered page (introduction p.1): recto margins + reset counter */
     @page contentfirst:first {{
         counter-reset: page 1;
+        size: {w} {h};
+        margin: {t_content} {m_outer} {b} {m_inner};
+        @top-right {{
+            content: string(chapter-num) string(chapter-title);
+            font-family: "Raleway", sans-serif;
+            font-size: 8pt;
+            color: #555;
+        }}
+        @bottom-right {{
+            content: counter(page);
+            font-family: "Lora", serif;
+            font-size: 8pt;
+            color: #555;
+        }}
     }}
-    /* Left (even) pages: chapter title and page number on the left; no reset here so numbering continues */
+    /* Left (even) pages: inner margin on the right; chapter title and page number on the left */
     @page contentfirst:left {{
         size: {w} {h};
-        margin: {t} {r} {b} {l};
+        margin: {t_content} {m_inner} {b} {m_outer};
         @top-left {{
             content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
@@ -804,10 +823,10 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
             color: #555;
         }}
     }}
-    /* Right (odd) pages: chapter title and page number on the right */
+    /* Right (odd) pages: inner margin on the left */
     @page contentfirst:right {{
         size: {w} {h};
-        margin: {t} {r} {b} {l};
+        margin: {t_content} {m_outer} {b} {m_inner};
         @top-right {{
             content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
@@ -823,7 +842,7 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
     }}
     @page content:left {{
         size: {w} {h};
-        margin: {t} {r} {b} {l};
+        margin: {t_content} {m_inner} {b} {m_outer};
         @top-left {{
             content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
@@ -839,7 +858,7 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
     }}
     @page content:right {{
         size: {w} {h};
-        margin: {t} {r} {b} {l};
+        margin: {t_content} {m_outer} {b} {m_inner};
         @top-right {{
             content: string(chapter-num) string(chapter-title);
             font-family: "Raleway", sans-serif;
@@ -1346,12 +1365,18 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         flex-direction: column;
         justify-content: flex-end;
         box-sizing: border-box;
+        /* Flex items default to min-width:auto (content min-size). Long footnote URLs can make
+           the .chapter-footnotes child wider than the type area; ch.7 overflows while shorter
+           chapters (e.g. ch.6) still fit. Constrain the anchor and force the child to shrink. */
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
     }}
     sup a.footnote-ref,
     sup a.footnote-ref:hover,
     sup a.footnote-ref:visited {{
         font-size: 0.65em;
-        color: #000;
+        color: #555;
         text-decoration: none;
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
     }}
@@ -1359,13 +1384,23 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
         font-size: 7.25pt;
         line-height: 1.0;
-        color: #000;
+        color: #555;
         margin-top: 0;
         margin-bottom: 0;
         padding: 0;
         page-break-inside: auto;
         display: block;
         clear: both;
+        /* Critical flex child of .chapter-footnotes-anchor: min-width:0 allows shrink below
+           longest unbreakable string so overflow-wrap applies inside the type area. */
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        overflow-wrap: anywhere;
+    }}
+    .chapter-footnotes .footnote {{
+        min-width: 0;
+        max-width: 100%;
     }}
     /* When footnotes are in the footnote block, use Gill Sans and reset numbering styles */
     .chapter-footnotes .footnote ol {{
@@ -1382,23 +1417,40 @@ def get_css(for_pdf: bool = True, page_format: str = "paperback") -> str:
         display: flex;
         align-items: baseline;
         gap: 0.4em;
+        min-width: 0;
+        width: 100%;
     }}
     .chapter-footnotes .footnote li .list-number {{
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
-        font-weight: bold;
+        color: #555;
         flex-shrink: 0;
         min-width: 1.5em;
     }}
-    /* Inline p so number and text stay on same line; no extra line breaks; remove indent */
+    /* Block p as flex item so long URLs wrap inside the type area (inline + flex min-width:auto overflows). */
     .chapter-footnotes .footnote li p {{
         margin: 0;
         padding: 0;
-        display: inline;
+        display: block;
+        flex: 1 1 0%;
+        min-width: 0;
         font-size: inherit;
         text-indent: 0;
+        overflow-wrap: anywhere;
     }}
     .chapter-footnotes .footnote-backref {{
         display: none;
+    }}
+    /* Markdown [label](url) in footnote defs becomes <a>; without a colour rule, WeasyPrint
+       uses default link blue. Plain URLs in other chapters stay grey text. Match footnote body. */
+    .chapter-footnotes a {{
+        overflow-wrap: anywhere;
+        word-break: break-word;
+        color: inherit;
+        text-decoration: none;
+    }}
+    .chapter-footnotes a:visited,
+    .chapter-footnotes a:hover {{
+        color: inherit;
     }}
 
     /* Questions section: new page; no rule above heading */
@@ -1965,7 +2017,7 @@ def main() -> None:
         "--format",
         choices=["paperback", "hardcover"],
         default="paperback",
-        help="Page format: paperback 5.5\" x 8.25\", hardcover 5.5\" x 8.5\" (same content area, extra height as top/bottom margin).",
+        help="Page format: paperback (default) or hardcover. Hardcover trim currently matches paperback; edit HARDCOVER in this file to diverge.",
     )
     args = parser.parse_args()
 

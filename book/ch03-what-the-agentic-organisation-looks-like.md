@@ -1,5 +1,3 @@
-## What the Agentic Organisation Looks Like
-
 Before the playbook, before the phased roadmap, before the first pilot, a leader needs a concrete working definition of the destination. Not a consultant's abstraction. Not a vendor's product demo. A shared, operational picture of what the organisation looks like after transformation.
 
 Chapters 1 and 2 established two preconditions: the scale of the shift and the non-negotiable role of leadership. Most leaders now accept both. Acceptance, however, is not the same as clarity. Ask a leadership team to describe the Agentic Organisation they are building, not the tools they are buying, and the answer is typically vague, technology-centric, or borrowed wholesale from a vendor pitch.
@@ -22,7 +20,6 @@ Meanwhile, adoption continues at pace. A vast majority of executives report alre
 As ING's Chief Analytics Officer Bahadir Yilmaz has observed: "The conversation is no longer about if AI works. It's about understanding where it works and, more importantly, where it matters to the client."[^27] That is the European pragmatic lens at its best: the problem is not technology but where and how to deploy it.
 
 The gap is organisational, not technical. Algorithms account for only a small portion of what is required to generate real AI value. The technology backbone is another component, but the vast majority of the effort must be placed on people and processes.[^28] Without a shared picture of how those people and processes operate in the transformed state, how product, people, process, technology, and data fit together, investment scatters across disconnected pilots.
-
 
 The micro-productivity trap persists because there is no shared picture of what lies beyond it. More technology does not solve this. A clear destination does.
 
@@ -50,7 +47,7 @@ Three distinct profiles are emerging in organisations that have made this shift:
 | **Specialist** | Handles exceptions and edge cases that agents cannot resolve | A compliance officer who reviews flagged transactions that agents escalated |
 | **Augmented Frontline Worker** | Uses AI agents to eliminate repetitive tasks and focus on human-centric work | A customer success representative whose agent handles data gathering, letting them focus on relationship-building |
 
-These profiles describe ways of working with agents, not job titles. They are already visible in organisations that have moved beyond bolt-on AI adoption. How they map into formal positions, such as Domain Leader, Agent Orchestrator, and AI Product Manager, is covered in Chapter 7.
+These profiles describe ways of working with agents, not job titles. They are already visible in organisations that have moved beyond bolt-on AI adoption. How they map into formal positions, such as Domain Leader, Agent Orchestrator, and AI Product Manager, is covered in Chapter 8.
 
 The productivity evidence is substantial. A software team where output increased by 39% after AI agents became the default platform.[^30] Crucially, more experienced workers benefit more from agents, with one standard deviation higher experience correlating with 6% higher acceptance rates, whilst junior workers benefit more from tool-only AI. A legal technology trial across 12 firms found a 41% average productivity increase. Studies show time savings of 65 to 86% versus human-only workflows.[^31]
 
@@ -60,12 +57,12 @@ The mindset shift required is substantial:
 
 | Old Mindset | Agentic Mindset |
 |-------------|-----------------|
-| "I do the work" | "I orchestrate the work" |
-| "AI is a tool I use sometimes" | "AI agents are teammates I collaborate with constantly" |
-| "My value is what I produce" | "My value is the outcomes I enable" |
-| "I learn skills to stay relevant" | "I create and share skills to multiply impact" |
-| "I follow processes" | "I design and improve processes" |
-| "I need instructions" | "I set goals and boundaries for agents, then review results" |
+| I do the work | I orchestrate the work |
+| AI is a tool I use sometimes | AI agents are teammates I collaborate with constantly |
+| My value is what I produce | My value is the outcomes I enable |
+| I learn skills to stay relevant | I create and share skills to multiply impact |
+| I follow processes | I design and improve processes |
+| I need instructions | I set goals and boundaries for agents, then review results |
 
 The demand for this kind of fluency is growing at an extraordinary rate. Agentic AI fluency demand grew nearly sevenfold in two years. This is no longer a capability reserved for technical roles. It is foundational across every function: finance, HR, marketing, operations, legal, customer service, and product development all require people who can work effectively alongside agents.
 
@@ -83,13 +80,13 @@ The second concept is the building block of agentic capability. Skills are the c
 >
 > A skill is a reusable AI workflow: a discrete, repeatable sequence of agent actions built by an employee and shared across the organisation.
 
-Skills represent a deeper treatment that Chapter 7 (enablement) and Chapter 8 (enterprise technology stack) will address. For now, the critical point is that the Agentic Organisation is not built by deploying AI tools. It is built by developing and enabling people who can orchestrate agents, exercise judgment where it matters, and create reusable workflows that compound across the organisation.
+Skills represent a deeper treatment that Chapter 8 (enablement) and Chapter 9 (enterprise technology stack) will address. For now, the critical point is that the Agentic Organisation is not built by deploying AI tools. It is built by developing and enabling people who can orchestrate agents, exercise judgment where it matters, and create reusable workflows that compound across the organisation.
 
 Without individuals who take initiative in working with AI, and without clarity on the different roles and behavioural shifts required, even the most carefully designed structure remains abstract. A blueprint only becomes real when people understand their part in it and are prepared to act accordingly.
 
 Chapter 5 introduces the full structural model that connects vision, customer offering, ways of working, and enabling infrastructure. This chapter provides the human foundation that makes that structure meaningful.
 
-## The Governance Gap
+## Double-clicking on the Governance Gap
 
 Transformation at this scale creates governance demands that extend well beyond the technology function. The governance gap identified in Chapters 1 and 2, where board awareness lags behind organisational adoption, takes on a specific shape when agentic employees and AI agents are involved.
 
@@ -152,7 +149,7 @@ But a picture is not a route. The next question is: how does transformation actu
 4. Does your board have a structured way to assess AI transformation progress across people, process, product, technology, and data, or does it rely on technology metrics and pilot updates?
 5. What governance mechanisms are in place for employees who are already deploying AI agents without formal oversight, and how would you know if those agents made a consequential error?
 
-## Case Study: Klarna — When Automation Meets Its Limit
+## Case Study: Klarna: When Automation Meets Its Limit
 
 ### The Choice Between Speed and Empathy
 
@@ -189,14 +186,3 @@ Klarna also continued to build outward. Its Agentic Product Protocol launched as
 Klarna's experience maps directly onto what this chapter argues: the Agentic Organisation is not defined by the AI it deploys, but by how it organises people, processes, products, technology, and data around human-agent collaboration. That definition requires a conscious decision about what belongs to agents and what belongs to people, made before deployment at scale rather than after. Klarna should have asked several questions for making that decision deliberately: what is the model we are building? What does the customer experience in each interaction type? Which employee profile handles which exception? And what data and technology do we need to make the design work? Klarna's reversal was not a failure of AI. It was a failure to answer those questions in order.
 
 The decision rule for European CEOs is this: before you automate a customer-facing workflow, define which interactions require human judgment, and build the governance to enforce that boundary. Speed and empathy are not in conflict. They require different designs.
-
-## Handoff — Reviewers — Chapter 03
-Status: complete
-Output: output/chapters/chapter-03/ch03-final.md
-Review report: output/chapters/chapter-03/ch03-review.md
-Style: PASS
-Character: PASS
-Continuity: PASS
-Footnotes log: confirmed present — no direct-expert footnotes in this chapter; nothing appended
-Escalations: none
-Chapter status: DONE

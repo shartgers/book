@@ -9,11 +9,11 @@ Specs and layout rules for the print-ready PDF produced by `scripts/build_print_
 | Use case | Trim size | Notes |
 |----------|-----------|--------|
 | US paperback (KDP / IngramSpark) | 5.5" × 8.25" | Default; common for business books |
-| US hardcover (IngramSpark) | 5.5" × 8.5" | Same **content area** as paperback; extra 0.25" height used as top/bottom margin (0.125" each) |
+| US hardcover (IngramSpark) | Same as paperback in-repo | `HARDCOVER` in `build_print_pdf.py` currently copies paperback; set a larger trim here when the hardcover block needs it |
 | US paperback alternate | 6" × 9" | Slightly larger |
 | EU (metric) | 148 mm × 210 mm (A5) or 152 mm × 229 mm | Check platform dropdowns |
 
-Set trim size via `--format paperback` (default) or `--format hardcover`. Paperback = **5.5" × 8.25"**; hardcover = **5.5" × 8.5"** with the same type area (larger top/bottom margins).
+Set trim via `--format paperback` (default) or `--format hardcover`. Until `HARDCOVER` is edited, both use **5.5" × 8.25"** and the same margins.
 
 ---
 
@@ -21,7 +21,7 @@ Set trim size via `--format paperback` (default) or `--format hardcover`. Paperb
 
 - **Safe margin**: At least 0.5" (12.7 mm) from trim on all sides for text and critical content.
 - **Bleed**: If you use full-bleed images, extend 0.125" (3 mm) past trim; KDP/IngramSpark specify bleed in their templates.
-- **Gutter**: For bound books, inner margin (gutter) is often larger than outer; 0.75" inner / 0.5" outer is a typical starting point.
+- **Gutter**: The interior PDF uses a **0.55"** base on each side, then shifts **+6 mm** to the inner (binding) edge and **−6 mm** to the outer edge so the type block width stays the same. Introduction, chapters, and back matter also use **+6 mm** extra top margin below the running header (front matter/cover unchanged).
 
 ---
 
@@ -74,11 +74,11 @@ IngramSpark recommends PDF/X-1a:2001 or PDF/X-3:2002. The WeasyPrint build does 
    - macOS: `brew install ghostscript`
    - Linux: `apt install ghostscript`
 
-2. **Run the conversion** (builds hardcover 5.5"×8.5", then converts to PDF/X):
+2. **Run the conversion** (builds `book-interior-hardcover.pdf`, then converts to PDF/X):
    ```bash
    npm run pdfx
    ```
-   This creates **one** PDF/X interior file: `output/<ISBN13>_txt.pdf`. Page size is **5.5" × 8.5"** (hardcover). The 13-digit ISBN is read from `input/ISBN hardcover.md` (line `ISBN/EAN: 978-...`).
+   This creates **one** PDF/X interior file: `output/<ISBN13>_txt.pdf`. Page size follows **`HARDCOVER`** (currently **5.5" × 8.25"**, same as paperback). The 13-digit ISBN is read from `input/ISBN hardcover.md` (line `ISBN/EAN: 978-...`).
 
    Or manually:
    ```bash

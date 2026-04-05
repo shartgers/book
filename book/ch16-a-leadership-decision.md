@@ -1,5 +1,3 @@
-## A Leadership Decision
-
 Three years from now, two kinds of organisations will exist in Europe.
 
 The first will have built the Agentic Organisation. A significant portion of its daily decisions will be made autonomously, and its agents will function as coworkers rather than just tools. Workflows will have been redesigned end-to-end to support this new model.
@@ -52,15 +50,15 @@ The companies referred to in this book are European companies, in Madrid, Amster
 
 This book has argued that the Agentic Organisation, where humans and AI agents work side by side to create value at scale, is the defining organisational paradigm of the next decade. We introduced the AI Transformation Framework (Vision, Products, Operating Model, Foundation) and the Four Tiers of Transformation (Individual Augmentation, Task & Workflow Automation, Functional Agentic Workflows, Cross-functional Agentic Workflows). We provided the decision lens of Value, Capabilities, and Trust.
 
-We showed that Europe's regulatory clarity, talent depth, and institutional pragmatism are advantages, not handicaps, when leaders choose to lead. We provided a playbook (Chapter 12), a diagnostic (Chapter 13), and a governance framework (Chapter 14) to move from intent to action.
+We showed that Europe's regulatory clarity, talent depth, and institutional pragmatism are advantages, not handicaps, when leaders choose to lead. We provided a playbook (Chapter 13), a diagnostic (Chapter 14), and a governance framework (Chapter 15) to move from intent to action.
 
 What remains is the decision. Not the decision to "explore AI" or to "form a working group" or to "assess the landscape." The decision to transform. To commit resources, redesign workflows, retrain people, and hold the organisation accountable for outcomes, not experiments.
 
 Five actions will determine whether your organisation is among the 5% or the 60%:
 
-1. Run the Readiness diagnostic (Chapter 13) before your next board meeting.
-2. Put AI transformation on the board agenda as a strategy discussion, not a technology update (Chapter 14).
-3. Choose one high-value process where Value, Capabilities, and Trust align (Chapter 9) and commit to moving it from pilot to production within 90 days (Chapter 12).
+1. Run the Readiness diagnostic (Chapter 14) before your next board meeting.
+2. Put AI transformation on the board agenda as a strategy discussion, not a technology update (Chapter 15).
+3. Choose one high-value process where Value, Capabilities, and Trust align (Chapter 10) and commit to moving it from pilot to production within 90 days (Chapter 13).
 4. Block time for your own AI upskilling. Trailblazer leaders invest eight or more hours per week.
 5. Name a board-level sponsor and a domain leader who owns the outcome (Chapter 2).
 
@@ -85,14 +83,3 @@ You don't delegate the revolution.
 3. Can you name the one process you would move from pilot to production in the next 90 days? What is stopping you from starting tomorrow?
 4. How many hours per week do you personally spend learning about AI and its implications for your business? Is it enough?
 5. When did you last discuss AI transformation at board level, not as a technology update, but as the defining strategic question of the next decade?
-
-## Handoff — Reviewers — Chapter 15
-Status: complete
-Output: output/chapters/chapter-15/ch15-final.md
-Review report: output/chapters/chapter-15/ch15-review.md
-Style: PASS
-Character: PASS
-Continuity: PASS — BBVA duplicate case study resolved by replacing with EQT case study.
-Footnotes log: confirmed present — no new entries required for this chapter
-Escalations: None. BBVA escalation resolved by Orchestrator choice to commission EQT as a replacement case study to broaden book scope (PE/mid-market) and avoid repetition.
-Chapter status: DONE

@@ -1,5 +1,3 @@
-## The Operational Layer
-
 Chapter 5 laid out the map: the AI Transformation Framework, four layers from Vision to Foundation. This chapter goes inside the third layer, the Operating Model, where strategy becomes structure.
 
 Industry standards for transformation identify a clear hierarchy of effort. The vast majority of focus must be placed on people and processes, with far smaller shares dedicated to technology and algorithms.[^75] Most organisations get this balance backwards, pouring capital into models and platforms whilst leaving roles and workflows unchanged.
@@ -64,9 +62,9 @@ Three org design models are emerging for how organisations structure their AI ca
 
 **Hybrid.** Combines centralised strategy, standards, and governance with embedded product teams in business units. Increasingly favoured as maturity grows. Requires a Chief AI Officer with genuine decision authority reporting to the CEO or COO, a lean AI governance council, and embedded teams owning specific outcomes. Independent risk oversight remains separate from development teams.
 
-The typical progression: centralise first to build standards, governance, and a talent pool. Then decentralise delivery as maturity grows. The Centre of Excellence evolution (Chapter 12) maps onto this same trajectory.
+The typical progression: centralise first to build standards, governance, and a talent pool. Then decentralise delivery as maturity grows. The Centre of Excellence evolution (Chapter 13) maps onto this same trajectory.
 
-### Enablement: culture, toolset, and the human foundation
+### Enablement: Culture, Toolset, and the Human Foundation
 
 Enablement is where the seventy per cent becomes concrete. BCG's 10/20/70 rule makes the point: if 70 per cent of AI value comes from people, processes, and change management, then the human capacity to absorb and use AI is the primary value driver, not a supporting function. Enablement, however, is more than "human readiness." It has three intertwined elements: a culture that allows experimentation and learning, an AI toolset that makes that experimentation possible, and the motivation and incentives that reinforce the right behaviour. Together they determine whether employees merely have access to AI or actually use it to generate new ideas and better outcomes.
 
@@ -106,7 +104,7 @@ Span of control is shifting as well. McKinsey envisions one manager with a small
 
 The Operating Model represents the vast majority of the transformation effort. This chapter has laid out a framework for redesigning roles, skills, and processes for human-agent collaboration. This layer does not stand alone.
 
-It remains tightly coupled with the foundation layer. Process redesign requires data readiness, yet most organisations still lack mature data management. Chapter 8 explores the Data and Technology foundations that form the basis for the operating model.
+It remains tightly coupled with the foundation layer. Process redesign requires data readiness, yet most organisations still lack mature data management. Chapter 9 explores the Data and Technology foundations that form the basis for the operating model.
 
 [^68]: BCG, "From potential to profit: Closing the AI impact gap", 2025 — https://www.bcg.com/publications/2025/closing-the-ai-impact-gap
 [^69]: BCG, "AI at work 2025: Momentum builds, but gaps remain", 2025 — https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain
@@ -132,7 +130,7 @@ It remains tightly coupled with the foundation layer. Process redesign requires 
 6. How many hours of structured AI training has your average employee received? Your average manager? How does that compare to the five-hour threshold for meaningful adoption improvement?
 
 
-## Case Study: Allianz, Restructuring Roles Whilst Scaling Agents
+## Case Study: Allianz: Restructuring Roles Whilst Scaling Agents
 
 ### Restructuring 160,000 People Around 400 AI Use Cases
 
@@ -165,15 +163,4 @@ The works council process, whilst slower than a top-down mandate, has produced a
 
 The lesson from Allianz connects directly to the Agentic Operating Model. Redesigning People (roles, skills), Process (workflows, org design), and Enablement must happen simultaneously with technology deployment, not after it. A seven-agent workflow that eliminates 80% of processing time is a technology achievement. The decision to restructure 1,800 roles, engage works councils, and invest in new skills is an operating model achievement. The second is harder, slower, and more consequential.
 
-For European leaders operating within social dialogue frameworks, the principle is concrete: design the human role and the agent workflow at the same time, with governance built in from the start. 
-
-## Handoff — Reviewers — Chapter 07
-Status: complete
-Output: output/chapters/chapter-07/ch07-final.md
-Review report: output/chapters/chapter-07/ch07-review.md
-Style: PASS
-Character: PASS
-Continuity: PASS
-Footnotes log: confirmed present (no new footnotes this chapter)
-Escalations: none
-Chapter status: DONE
+For European leaders operating within social dialogue frameworks, the principle is concrete: design the human role and the agent workflow at the same time, with governance built in from the start.

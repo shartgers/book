@@ -1,10 +1,8 @@
-## Readiness
-
 Only a small minority of organisations globally qualify as "Pacesetters" on the Cisco AI Readiness Index.[^109] These leading organisations are significantly more likely to have finalised their AI use cases and to track the impact of their investments, reporting substantially higher gains in profitability and productivity as a result. The vast majority of businesses are not necessarily failing at AI technology itself, but rather at understanding exactly where they stand today.
 
 The MIT CISR Enterprise AI Maturity Model confirms the pattern.[^110] Companies in the lowest two maturity stages perform below industry average financially. Those who cross into stage three, scaled AI ways of working, perform well above it. That stage two to three transition is the greatest financial inflection point in AI maturity. But you cannot cross a threshold you cannot see.
 
-The Transformation Playbook (Chapter 12) provides the sequence: Foundation, Activation, Scale. The AI Decision Framework (Chapter 9) provides the prioritisation lens. This chapter provides the diagnostic: a structured, lightweight way to assess where the organisation stands, identify what blocks progress, and decide what to fix first.
+The Transformation Playbook (Chapter 13) provides the sequence: Foundation, Activation, Scale. The AI Decision Framework (Chapter 10) provides the prioritisation lens. This chapter provides the diagnostic: a structured, lightweight way to assess where the organisation stands, identify what blocks progress, and decide what to fix first.
 
 ## The Readiness Paradox
 
@@ -43,7 +41,7 @@ The Readiness Gate is not a one-time audit. Run it quarterly or at each phase tr
 For European organisations, regulatory readiness is not a separate workstream. It is a core dimension of the Readiness Gate. The EU AI Act creates specific readiness obligations: AI system inventory, risk classification, gap analysis, remediation planning, and evidence documentation. 
 ## From Readiness to Results
 
-The Readiness Gate tells leaders where the organisation stands and what to fix first. But readiness is not the destination. It is the starting condition for measurable progress. Once the organisation has assessed its position, prioritised its gaps, and sequenced its investments, it needs a way to track whether those investments are working: governance, KPIs, and board accountability. That is the subject of Chapter 14. Readiness without measurement is a plan without feedback. Measurement without readiness is tracking the wrong things. Together, they form the control system for AI transformation.
+The Readiness Gate tells leaders where the organisation stands and what to fix first. But readiness is not the destination. It is the starting condition for measurable progress. Once the organisation has assessed its position, prioritised its gaps, and sequenced its investments, it needs a way to track whether those investments are working: governance, KPIs, and board accountability. That is the subject of Chapter 15. Readiness without measurement is a plan without feedback. Measurement without readiness is tracking the wrong things. Together, they form the control system for AI transformation.
 
 [^109]: Cisco, "AI Readiness Index", 2025 — https://www.cisco.com/c/en/us/solutions/artificial-intelligence/ai-readiness-index.html
 [^110]: MIT CISR, "Update on the Enterprise AI Maturity Model", 2024–2025 — https://cisr.mit.edu/content/update-enterprise-ai-maturity-model
@@ -90,14 +88,3 @@ The phased approach meant these results were cumulative, not simultaneous. Each 
 ### Order Deployment by Readiness, Not Ambition
 
 The bank's deployment is the Readiness Gate in practice. Each phase followed the three-step pattern: diagnose current capability across the relevant dimensions, prioritise the next deployment based on where value, capability, and trust were strongest, and sequence the rollout so that each phase built the foundation for the next. Compliance tools (Phase 3) were gated behind governance readiness. Portfolio intelligence (Phase 4) were gated behind data integration readiness. For European CEOs applying the Readiness Gate, the sequence logic is straightforward: do not order your AI deployment by ambition or by the loudest internal demand. Order it by proven readiness. The phases that require the highest trust should come only after the governance infrastructure has been tested in lower-risk phases. Readiness is not a report that precedes action. It is the gate that connects each action to the next.
-
-## Handoff — Reviewers — Chapter 13
-Status: complete
-Output: output/chapters/chapter-13/ch13-final.md
-Review report: output/chapters/chapter-13/ch13-review.md
-Style: PASS
-Character: PASS
-Continuity: PASS
-Footnotes log: confirmed present
-Escalations: none
-Chapter status: DONE

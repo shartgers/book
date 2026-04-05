@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Build interior PDF (hardcover 5.5" x 8.5"), then convert to PDF/X-3:2002
+Build interior PDF via the hardcover target (see build_print_pdf.HARDCOVER; trim may match
+paperback until you set a distinct hardcover size), then convert to PDF/X-3:2002
 with filename: <ISBN13>_txt.pdf.
 
 Reads ISBN from input/ISBN hardcover.md (format: "ISBN/EAN:  978-90-836902-0-9").

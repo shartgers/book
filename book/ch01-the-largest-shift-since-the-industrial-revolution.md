@@ -1,5 +1,3 @@
-## The Largest Shift Since the Industrial Revolution
-
 Ninety-five per cent of enterprise AI implementations fail to deliver sustained impact. Not because the technology does not work. Not because the strategy was wrong. Because organisations are treating the largest paradigm shift since the industrial revolution as though it were another software rollout.
 
 The data on this is unambiguous. The MIT NANDA report, published in July 2025, drawing on over 300 AI initiatives across 52 organisations and 153 senior leader surveys, found that 95% of enterprise generative AI implementations fail to deliver sustained, measurable impact.[^1] A global survey of more than 1,000 senior executives found that only 5% of companies achieve AI value at scale, whilst 60% achieve no material value whatsoever.[^2]
@@ -70,7 +68,7 @@ One researcher captured the underlying challenge precisely: "Until we make an ex
 
 Eric Kutcher, McKinsey's North America Chair, put the misframing plainly: "This is probably the biggest, most complex business transformation, but it's 80% business transformation and 20% tech transformation. That's different from how most people have thought about it".
 
-Most have thought about it as the 20%. That is why 95% are failing.
+Most have thought about it as a tech transformation. That is why 95% are failing.
 
 ## The Governance Gap
 
@@ -136,7 +134,7 @@ The next chapter takes that question directly.
 4. When did your board last discuss AI as an organisational transformation rather than a technology investment? What was decided, and what action followed?
 5. CEO-led transformations succeed at six times the rate of those delegated downward. Who in your organisation is unambiguously accountable for this transformation?
 
-## Case Study: Siemens, The 177-Year-Old Company That Chose Transformation
+## Case Study: Siemens: The 177-Year-Old Company That Chose Transformation
 
 ### The Choice Between Efficiency and Infrastructure
 
@@ -154,7 +152,7 @@ This diagnosis led directly to the design of Siemens' response. Rather than depl
 
 Committing to deep transformation over incremental AI adoption carried real costs. Building industrial-grade AI foundation models and a Digital Native Factory from the ground up takes longer than deploying off-the-shelf AI tools, and Siemens accepted a longer time to first visible output. The Digital Native Factory in Nanjing required a greenfield facility designed from scratch with AI at its core, a capital and governance commitment unavailable to organisations expecting AI to prove itself in existing facilities before receiving investment. The partnership with NVIDIA to build an "Industrial AI Operating System" creates a platform-level dependency: this is not a project you can walk away from if results are slower than expected. Embedding AI in workflows at the point of work, via Industrial Copilot, changes how engineers and line workers do their jobs immediately, not as a future aspiration, requiring a change management investment that incremental tool adoption does not. And deep transformation investments require board and leadership tolerance for ambiguity during the build phase. Siemens accepted this; most organisations do not have the governance structures to sustain it.
 
-### From Incremental Optimization to a Two Hundred Per Cent Capacity Leap
+### From Incremental Optimisation to a Two Hundred Per Cent Capacity Leap
 
 The operational results that are available are specific and credible, though full financial value attribution has not been made public. The Digital Native Factory in Nanjing demonstrated a 200% increase in manufacturing capacity and a 20% boost in productivity. At the Amberg plant, predictive maintenance AI delivered a 20% reduction in downtime. Industrial Copilot, the AI assistant embedded in industrial workflows, won the Hermes Award 2025, the industrial technology sector's leading recognition. Siemens' stated target for the broader platform is up to 50% productivity gains for industrial companies using their AI systems.
 
@@ -163,14 +161,3 @@ These are not marginal gains. A 200% increase in manufacturing capacity is a str
 ### Pace as a Competitive Differentiator
 
 The lesson is this: the right level of AI transformation is determined by your competitive position in three to five years, not by what your current processes can absorb today. If incremental AI adoption is your answer, you should be able to state clearly why that is sufficient to remain competitive as AI capability doubles every four months. If you cannot state that clearly, the question is not whether to commit more deeply, but when and at what pace. Siemens chose to answer that question in 2023. Most of its European industrial peers have not yet answered it at all.
-
-## Handoff — Reviewers — Chapter 01
-Status: complete
-Output: output/chapters/chapter-01/ch01-final.md
-Review report: output/chapters/chapter-01/ch01-review.md
-Style: PASS
-Character: PASS
-Continuity: PASS
-Footnotes log: 33 source footnotes added; appended to book/footnotes-log.md and output/footnotes-log.md
-Escalations: none
-Chapter status: DONE

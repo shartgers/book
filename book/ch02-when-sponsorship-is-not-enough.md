@@ -1,5 +1,3 @@
-## When Sponsorship Is Not Enough
-
 Every major transformation that failed in the past twenty years had a sponsor. Someone who believed in it, championed it, hired good people, and then, gradually or suddenly, delegated it.
 
 That is precisely how 95% of AI transformations fail.
@@ -22,7 +20,7 @@ They reinforce each other. A leader who delegates creates a board that is not ch
 
 The loop is self-sustaining, and breaking it requires intervention at all three levels simultaneously.
 
-### The delegation trap
+### The Delegation Trap
 
 Most leaders frame AI as an IT project, a cost centre, or an experiment to bolt onto existing processes. That framing determines everything that follows: who owns it, how it is governed, how success is measured, and when it can be defunded.
 
@@ -38,7 +36,7 @@ Meanwhile, the leaders who have adopted the right mental model are pulling away.
 
 The paradox McKinsey calls the "GenAI Paradox" captures this precisely: the technology is advancing at exceptional speed and capability, while organisational value creation lags behind. Nearly eight in ten companies report using generative AI, yet just as many report no significant bottom-line impact.[^15] Usage without leadership-driven architecture produces activity, not outcomes. The organisations that have broken through the paradox did so not by finding better tools but by changing who owns the transformation and how the organisation is structured to absorb it.
 
-### The board governance gap
+### The Board Governance Gap
 
 The disconnect between AI adoption velocity and board-level governance is the single greatest enterprise risk most organisations are not measuring.
 
@@ -56,7 +54,7 @@ The Act requires organisations to complete an AI inventory with risk classificat
 
 European boards that treat the EU AI Act as a legal department matter are misallocating both risk and attention. The compliance clock runs in parallel with the competitive clock, and both demand the same thing: governance that operates at the level of the transformation, not beneath it.
 
-### The C-suite alignment deficit
+### The C-Suite Alignment Deficit
 
 Transformation stalls when it is owned by one function. The pattern is consistent: a CEO announces an AI strategy, appoints a Chief Digital Officer or Chief AI Officer, funds a programme, and then returns to other priorities. The appointed leader has accountability without authority. The rest of the C-suite has neither accountability nor urgency. The programme fragments.
 
@@ -181,14 +179,3 @@ DBS Bank is in Singapore, not Europe, and the regulatory environment, ownership 
 What Gupta did that most European CEOs have not done is make a public, irreversible commitment, in the form of a redefined competitive reference point, that he then stayed accountable to as the transformation scaled. The transferable lesson for a European CEO is not to copy the GANDALF framework. It is to identify the equivalent act in your organisation: the decision or commitment that is visible enough, specific enough, and consequential enough that it cannot be quietly reversed at the next quarterly review.
 
 Personal, visible, and irreversible are not adjectives. They are the governance conditions under which AI transformation succeeds. DBS is the clearest available evidence that when those conditions are present at the top, the organisation follows.
-
-## Handoff — Reviewers — Chapter 02
-Status: complete
-Output: output/chapters/chapter-02/ch02-final.md
-Review report: output/chapters/chapter-02/ch02-review.md
-Style: PASS
-Character: PASS
-Continuity: PASS
-Footnotes log: confirmed present
-Escalations: none
-Chapter status: DONE

@@ -1,0 +1,95 @@
+A European bank ran an AI inititative where the Head of Data took the responsibility to write the organisation's AI vision. The resulting document was thorough, technically informed, and entirely disconnected from the bank's actual business strategy. Themes appeared that no one in the wider business recognised. Priorities reflected technology trends rather than competitive choices the bank had made.
+
+When the AI programme reached its first set of trade-offs, which projects to fund, which to pause, which capabilities to build first, there was no shared reference point to resolve them against. The vision was not recognised within the AI initiative itself, let alone in the wider business.
+
+The vision existed as a document. It did not exist as a direction. And because it did not exist as a direction, it could not function as a decision-making instrument when the organisation needed one most.
+
+This pattern repeats across European organisations with depressing consistency. An AI vision is commissioned, typically by a technology or data team working in isolation from the commercial strategy. It is presented to the board, approved without substantial challenge, and filed alongside the digital strategy.
+
+Then the real decisions arrive: competing priorities, resource constraints, regulatory questions, talent trade-offs. The document offers no guidance, because it was never grounded in what the business is actually trying to achieve. The AI programme proceeds without a compass, and each team navigates by its own logic.
+
+The distinction between having a vision and governing by one is where most transformations quietly fail. Chapter 5 introduced Vision as Layer 1 of the AI Transformation Framework, the strategic direction that sits above Products, the Operating Model, and the Foundation. Chapter 2 established that CEO-led transformation succeeds at six times the rate of delegated efforts.
+
+This chapter makes both concrete: what a CEO-owned Vision Layer looks like, how to build one that holds under pressure, and how to govern against it when the inevitable trade-offs arrive.
+
+## Why Most AI Visions Fail Before They Start
+
+Vision and strategy are not the same instrument. Vision is the direction and why. Strategy is the how and where. When vision is absent or delegated entirely to the CIO or CTO, strategy becomes a technology plan rather than a transformation direction. The organisation ends up with a sophisticated answer to a question nobody at the board table asked.
+
+The failure mode is specific and measurable. Leaders declare vision, then disengage at the translation points. Research shows that whilst seventy per cent of leaders are involved in shaping AI strategy, engagement drops sharply when the work becomes specific: identifying use cases (32%), evaluating technologies (26%), developing tools (18%), reskilling workers (13%). Vision is declared, execution is abandoned, and the gap between the two becomes the space where transformation dies.
+
+Contrast this with leaders who personally shaped AI direction and stayed in the room. At BBVA, the chairman framed AI as entering a new era "with even greater ambition" than the digital transformation. He did not stop at the speech. Two hundred and fifty senior leaders, including the chairman and CEO, participated in hands-on AI training to understand the capabilities they were asking the organisation to adopt.
+
+At DBS Bank, CEO Piyush Gupta did not set a vision of "use more AI." He reframed the competitive set entirely, benchmarking against Google, Amazon, and Netflix rather than other banks. The vision, "make banking joyful," was human-centred, specific, and concrete enough to direct every subsequent strategy decision across a decade of transformation.
+
+Most organisations have ambition in abundance. What they lack is a vision that connects that ambition to the business strategy, translates it into objectives, and holds when the pressure arrives.
+
+## Four Elements
+
+The Vision Layer is a structure with four elements that together convert aspiration into a governance instrument. Each element addresses a specific failure mode observed in organisations where AI vision exists on paper but not in practice.
+
+### 1. Strategic Anchor
+
+The AI vision must be a direct extension of the business strategy, not a parallel document. What the organisation is trying to achieve with AI must flow from what it is trying to achieve as a business. When these two are disconnected, the result is the pattern from the opening: a technically competent vision that nobody in the business recognises.
+
+As Chapter 2 established, DBS illustrates this precisely. Gupta reframed the competitive set entirely through the GANDALF framework, benchmarking not against other banks but against Google, Amazon, Netflix, Apple, LinkedIn, and Facebook. Every AI investment that followed was tested against that competitive positioning, not against a list of available technologies.
+
+The vision, "make banking joyful," translated a competitive ambition into a human-centred purpose that directed where AI was applied: rendering banking invisible and effortless for the customer.
+
+When AI vision is derived from business strategy, it answers the fundamental question McKinsey has articulated: not "How do we add AI?" but "How do we want decisions to be made, work to flow, and humans to engage in an environment where software can act?" That is a business question, not a technology question.
+
+### 2. Objectives Cascade
+
+Vision must translate into measurable strategic objectives that cascade into each layer of the AI Transformation Framework. Without this translation, the vision stays abstract. Leaders nod in agreement at the offsite, and nothing changes on Monday morning.
+
+The Objectives Cascade means that each layer of the framework, Products, Operating Model, and Foundation, has targets that trace back to the vision. If the vision is "make banking joyful," the Products layer asks what customer frictions to remove first. The Operating Model asks what roles and workflows must change to deliver that experience. The Foundation asks what data and technology must be in place to support it.
+
+Without this cascade, vision stays in the boardroom and execution stays in the IT department, with neither knowing what the other is doing.
+
+The cascade also creates accountability. When objectives at each layer are measurable and traceable to the vision, the board can ask whether progress at the Foundation level is actually advancing the Products layer, and whether Products are delivering the customer outcomes the vision promised. That is the difference between governing a transformation and receiving quarterly updates about one.
+
+As Chapter 2 showed, the DBS cascade illustrates this in practice. The vision, "make banking joyful," cascaded into product objectives (render banking invisible for the customer), operating model targets (embed AI across 370 distinct use cases), and foundation investments (build proprietary technology platforms in-house). Each layer contributed to the whole because each layer was anchored to the same vision: producing AI economic value that grew from S$180 million to S$750 million in two years.
+
+### 3. Values Under Pressure
+
+Values in the Vision Layer are not aspirational statements printed on a poster. They are decision rules that hold when trade-offs arrive. Every AI transformation produces moments where speed conflicts with trust, efficiency conflicts with empathy, and automation conflicts with human oversight.
+
+As explored in Chapter 3, Klarna discovered this concretely. Its fully automated customer service assistant reduced resolution times from eleven minutes to two. The company initially celebrated. Then it reversed course after identifying an empathy gap that damaged customer relationships. The values question is not what the organisation aspires to in a strategy document. It is what it will choose when two good things conflict.
+
+DBS operationalised this through a cross-functional Responsible AI Council, composed of senior leaders from legal, risk, and technology, which oversees and approves every AI use case against both legal requirements and the bank's ethical standards. The council is the Vision Layer in institutional form: it makes the values operational rather than aspirational. Values that hold under pressure are demonstrated through governance commitments: explainability, fairness, resilience, auditability, and consistent behaviour under stress.
+
+### 4. Communication Rhythm
+
+A Vision Layer that is launched but not sustained is a press release, not a direction. Communication rhythm means the leader communicates, reinforces, and governs against the vision as a sustained cadence, not as a single event.
+
+At McKinsey, the internal refrain "Have you asked Lilli?" embedded the AI vision into daily behaviour across the firm. At BBVA, 250 senior leaders, including the chairman, learned AI capabilities hands-on, a signal that the vision was not delegated downward but modelled from the top. These are governance acts: visible, repeated demonstrations that the vision is active and that leadership is accountable to it.
+
+Leadership engagement means something specific here. It is not signing off a vision deck or receiving a quarterly AI update. It is sustaining a rhythm of communication, reinforcement, and visible participation that keeps the vision present in every significant decision.
+
+There is a transition test for communication rhythm. When the leader who set the vision steps away, does the vision survive? At DBS, Piyush Gupta stepped down in March 2025 after a sixteen-year tenure. The transformation he initiated has continued because the vision was embedded in governance structures, cultural practices, and measurable objectives, not held together by a single personality.
+
+## Governing by Vision, Not by Initiative
+
+The Vision Layer becomes a governance instrument when the board governs against it rather than merely approving it. Three questions should accompany every strategic AI decision. Does this advance the vision? Does it align with our values under pressure? Does it cascade into objectives we can measure? These questions replace the default mode of evaluating AI initiatives one at a time, on their individual merits, with no shared reference point.
+
+Initiative-by-initiative governance is how organisations end up with forty pilots and no transformation.
+
+As Chapters 1 and 2 established, the board governance gap remains acute. Two-thirds of boards report limited AI knowledge. Only fourteen per cent discuss AI at every meeting. Fiduciary duty now explicitly extends to AI oversight: boards must verify that management has identified all AI systems, classified them by risk level, and assigned accountability. Passive awareness is no longer a defensible position.
+
+The Vision Layer gives boards a structure to govern against, not a technology update to receive. A board that can ask, "Does this initiative advance our Strategic Anchor, align with our Values Under Pressure, and cascade into measurable objectives?" is governing transformation. A board that asks, "How is the AI programme going?" is not.
+
+## From Direction to Design
+
+The Vision Layer sets the direction. The next question is what to build.
+
+Chapter 7 takes the conversation from vision to product. Once leadership has defined where the organisation is heading and why, the Products layer asks where to play and how to win, business unit by business unit.
+
+Without a clear Vision Layer, product decisions become reactive and disconnected. With one, every product decision can be tested against the Strategic Anchor and the Values Under Pressure. The AI Product Canvas introduced in Chapter 7 is the tool that translates vision into product-level action.
+
+## Questions for the Board
+
+1. Can you state your AI vision in one sentence that a business-unit leader would recognise as connected to the overall business strategy?
+2. When the last major AI trade-off was made, which project to fund and which to pause, what principle resolved it, and was that principle part of a shared, documented vision?
+3. Who wrote your current AI vision, and does the CEO own it personally?
+4. Do your AI objectives cascade into measurable targets for each layer of the AI Transformation Framework?
+5. What values govern how your organisation uses AI when speed and trust conflict, and would your team give the same answer?

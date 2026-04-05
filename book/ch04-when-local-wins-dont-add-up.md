@@ -1,5 +1,3 @@
-## When Local Wins Don't Add Up
-
 The pattern repeats across every failed AI programme. A handful of employees discover that agentic tools can compress hours of work into minutes. Their enthusiasm spreads to a team. A department runs a pilot. Results are impressive. And then nothing compounds. The organisation barely moves.
 
 This is not a failure of ambition. It is a failure to align the transformation path with organisational maturity.
@@ -72,7 +70,7 @@ In wealth management, one global firm reduced meeting preparation from two to th
 
 The leap from Tier 2 to Tier 3 is where the highest proportion of initiatives die. For every 33 proofs of concept that enter production pipelines, only four emerge.[^50] The gap is not technological. It is organisational: the inability to redesign workflows, reassign authority, and restructure teams around what agentic systems make possible. Most departments add AI to existing processes rather than redesigning the process around what AI enables. The difference between those two approaches is the difference between incremental improvement and structural transformation.
 
-### Tier 4: Cross-functional Agentic Workflows
+### Tier 4: Cross-Functional Agentic Workflows
 
 Cross-functional agentic workflows represent the final tier, where transformation reaches the full organisational span. This is where AI becomes embedded in the operating model itself, not as a tool used within functions but as the connective tissue between them.
 
@@ -102,7 +100,7 @@ The four tiers create four distinct governance demands. Applying the same leader
 
 Operating model redesign, AI as corporate strategy, and enterprise-wide coordination require active executive sponsorship. Research shows that firms with active sponsors are significantly more likely to scale AI effectively.[^55] This is a design role rather than a figurehead position. Leaders must decide which functions integrate, how data flows across boundaries, and where the operating model creates unique competitive advantage.
 
-### The European advantage
+### The European Advantage
 
 European leaders often view regulation as a constraint on pace. The evidence suggests the opposite.
 
@@ -110,7 +108,7 @@ The EU AI Act's mandatory AI literacy requirement accelerates Tier 1 by providin
 
 In Germany, works councils have co-determination rights over AI-related monitoring technology, and leading companies including Siemens and Deutsche Telekom have negotiated agile company agreements that enable AI deployment within a framework of employee trust. In France, even pilot deployments require prior works council consultation. In the Nordics, Norway has formalised a "data shop steward" role. These are not obstacles. They are structural accelerators for the trust that makes transformation compound.
 
-### Three critical mistakes
+### Three Critical Mistakes
 
 Three patterns consistently undermine tier-by-tier progress.
 
@@ -156,7 +154,7 @@ The tiers are a structural reality: they describe the layers of capability requi
 5. Does your governance differ by tier, for example light-touch for individual augmentation versus rigorous for functional agentic workflows, or is it one-size-fits-all?
 6. How are you measuring success at each tier (e.g. adoption rates at Tier 1, team norms and throughput at Tier 2, workflow cycle times at Tier 3, enterprise KPIs at Tier 4)?
 
-## Case Study: ING. The Bank That Sequenced Before It Scaled
+## Case Study: ING: The Bank That Sequenced Before It Scaled
 
 ### Building on a Decade of Digital Transformation
 
@@ -209,14 +207,3 @@ The bank's 90% pilot-to-production rate reveals a deliberate alignment of strate
 When foundations are ignored, even a well-designed pilot has nowhere to go. It succeeds in isolation and stalls because the organisation lacked the maturity to support that specific tier of transformation.
 
 For a European organisation, ING's lesson is this: the governance burden and the elapsed time of transformation are not inefficiencies to be engineered away. They are the mechanism by which transformation actually compounds. Whether an organisation builds sequentially or skips tiers, it must do so with results that reflect a production rate and an operating model genuinely ready for the future.
-
-## Handoff — Reviewers — Chapter 04
-Status: complete
-Output: output/chapters/chapter-04/ch04-final.md
-Review report: output/chapters/chapter-04/ch04-review.md
-Style: PASS
-Character: PASS
-Continuity: PASS
-Footnotes log: confirmed present (no entries added — chapter had no direct-expert footnotes)
-Escalations: none
-Chapter status: DONE

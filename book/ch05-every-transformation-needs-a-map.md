@@ -1,5 +1,3 @@
-## Every Transformation Needs a Map
-
 Every transformation needs a map. Without one, pilots scatter, investments fragment, and the board has no shared language for where the organisation is and what it must build. The Four Tiers from Chapter 4 and the playbook in later chapters need a common structure. That structure is the AI Transformation Framework: four layers that every organisation must address, from the top (Vision, strategy, values, objectives) to the bottom (Foundation: data, technology, enablement).
 
 This chapter introduces the full framework. It walks through each layer briefly so you know what each means and where the rest of the book goes deeper. 
@@ -22,7 +20,7 @@ The AI Transformation Framework is the map for the Agentic Organisation. It has 
 
 ![The AI Transformation Framework](images/ch05-ai-transformation-framework.png)
 
-**Layer 1: Vision.** Vision, strategy, values, and objectives sit at the top. This is the strategic direction: where the organisation is heading and why. Leadership sets it (Chapter 2). Chapter 4 connects Vision to the top of the framework and to the Four Tiers.
+**Layer 1: Vision.** Vision, strategy, values, and objectives sit at the top. This is the strategic direction: where the organisation is heading and why. Leadership sets it (Chapter 2). Chapter 4 connects Vision to the top of the framework and to the Four Tiers. Chapter 6 deep-dives the Vision Layer, showing how to build an AI vision that holds under pressure and governs by it.
 
 **Layer 2: Products.** This layer is organised by platform or business unit. It covers product vision and objectives, products, personas, customer journeys, and frictions. In an Agentic Organisation, products become AI-native and customer journeys dynamic and adaptive, including concepts such as zero-click discovery. Where you play and how you win in each segment depends on this layer. Later chapters go deeper by business unit.
 
@@ -70,7 +68,7 @@ By breaking down the transformation into these four layers and three dimensions,
 
 ## From Map to Execution
 
-The AI Transformation Framework provides the map. The next question is how to organise the organisation for agentic work: roles, skills, team design, and the Operating Model layer that connects vision to day-to-day execution. Chapter 7 deep-dives the Operating Model: people, process, roles, skills, and org design, and how to structure teams and roles for agentic work, from task-doer to orchestrator at scale. The framework orients; the Operating Model layer is where strategy becomes structure and where many organisations bottleneck after successful pilots.
+The AI Transformation Framework provides the map. The chapters that follow go deeper on each layer in sequence: Chapter 6 on Vision, Chapter 7 on Products, Chapter 8 on the Operating Model, and Chapter 9 on the Foundation. Chapter 8 deep-dives the Operating Model: people, process, roles, skills, and org design, and how to structure teams and roles for agentic work, from task-doer to orchestrator at scale. The framework orients; the Operating Model layer is where strategy becomes structure and where many organisations bottleneck after successful pilots.
 
 [^56]: BCG, "The Widening AI Value Gap", October 2025 — https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf
 [^57]: Deloitte, "Tech Trends 2025", 2025 — https://www.deloitte.com/global/en/insights/focus/tech-trends.html
@@ -86,7 +84,7 @@ The AI Transformation Framework provides the map. The next question is how to or
 4. Which of the three dimensions is your current blind spot? For example, are you chasing efficiency in the Foundation whilst neglecting effectiveness in the Products layer or risk in the Operating Model?
 5. How is your board using the framework to turn strategy into structure, ensuring that every layer from Vision to Foundation is explicitly addressed and governed?
 
-## Case Study: BBVA, Deploying One AI Transformation Map Across 120,000 Employees
+## Case Study: BBVA: Deploying One AI Transformation Map Across 120,000 Employees
 
 ### Local Speed vs. Enterprise Coherence
 
@@ -115,14 +113,3 @@ The structure (AI Factory plus embedded wizards) illustrates how the four layers
 Leadership teams can take one clear lesson from BBVA: the AI Transformation Framework works as a governance and organising principle only when it is used as the single map for "where we are and where we need to be" on every layer. Letting Vision, Products, Operating Model, and Foundation evolve separately leads to the pattern the chapter describes: pilots that do not scale and boards that lack a shared language.
 
 BBVA's bet was to make the framework the basis for investment, roles, and prioritisation across their global operations, not a checklist to be filled in once. The transferable rule is to adopt one framework, use it to assess and govern all four layers, and accept the trade-offs (central platform choices, coordination cost, standardisation) in exchange for a transformation that can be measured, steered, and scaled as a whole.
-
-## Handoff — Reviewers — Chapter 05
-Status: complete
-Output: output/chapters/chapter-05/ch05-final.md
-Review report: output/chapters/chapter-05/ch05-review.md
-Style: PASS
-Character: PASS
-Continuity: PASS
-Footnotes log: confirmed present
-Escalations: none
-Chapter status: DONE

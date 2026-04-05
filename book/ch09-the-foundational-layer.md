@@ -1,5 +1,3 @@
-## The Foundational Layer
-
 The urgency for AI deployment is clear. However, instead of readiness increasing, it is actually declining.
 
 Comprehensive global surveys show that readiness scores have declined across almost all critical pillars, including Infrastructure, Data, Governance, Talent, and Culture. Only a small minority of organisations worldwide qualify as fully prepared, a figure that has remained stagnant for several years.
@@ -22,7 +20,7 @@ The way to break the cycle is to build properly. This chapter lays out what the 
 
 The evidence is consistent across multiple sources. A majority of organisations still lack truly AI-ready data practices, leading to a high rate of project abandonment for those that are unsupported by solid data foundations.[^82] Research from global institutions confirms that only a small minority of businesses currently consider themselves fully data-ready.
 
-The problem extends beyond data alone. Only a small fraction of organisations have fundamentally redesigned any of their core workflows for AI. As Chapter 7 explored, this type of deep redesign shows the strongest correlation with bottom-line impact, but it requires simultaneous readiness across data, technology, and people.
+The problem extends beyond data alone. Only a small fraction of organisations have fundamentally redesigned any of their core workflows for AI. As Chapter 8 explored, this type of deep redesign shows the strongest correlation with bottom-line impact, but it requires simultaneous readiness across data, technology, and people.
 
 ## Data and Technology
 
@@ -70,7 +68,7 @@ The Foundation layer tells the organisation what it has: the quality of its data
 
 Knowing what you have is not the same as knowing what to do with it. The next question is how to decide: which AI opportunities to pursue, which to defer, and which to reject.
 
-Chapter 9 introduces the AI Decision Framework, balancing three angles: Value, Capabilities, and Trust. The Foundation layer feeds two of those dimensions directly. Data readiness and technology maturity determine what is possible (Capabilities). Governance readiness determines what is permissible (Trust). Together, the Foundation layer and the decision framework give leaders the tools to move from diagnosis to action. 
+Chapter 10 introduces the AI Decision Framework, balancing three angles: Value, Capabilities, and Trust. The Foundation layer feeds two of those dimensions directly. Data readiness and technology maturity determine what is possible (Capabilities). Governance readiness determines what is permissible (Trust). Together, the Foundation layer and the decision framework give leaders the tools to move from diagnosis to action.
 
 This chapter has laid out what the foundations are and why they matter. The rest of Part II and Part IV show how to use them.
 

@@ -1,10 +1,8 @@
-## Building Your Agentic Organisation
-
 Insight without execution is expensive. By now you understand the shift, the model, the tiers, the decision framework, and the European context. The question that remains, the question every leader eventually returns to, is: where do I actually start, and in what order?
 
 The cost of getting the sequence wrong is stark. Research consistently shows that a vast majority of enterprise AI implementations fail to deliver any meaningful impact on the profit and loss statement, despite massive investment.[^104] Most transformative use cases remain stuck in pilot mode, and organisations routinely and significantly underestimate the costs of scaling. The root cause is not technology failure; it is sequencing failure.
 
-Companies that skip governance and data foundations to launch pilots accumulate what Chapter 8 called AI Infrastructure Debt. Companies that run pilots without a Centre of Excellence cannot replicate first wins. Companies that scale without operating model redesign hit the 70% wall: BCG's 10/20/70 rule shows that 70% of AI transformation effort must go into people and processes, yet most organisations invest backwards. This chapter introduces the Transformation Playbook: Foundation, Activation, Scale. A phased approach designed for the specific constraints and opportunities of a European organisation in 2026.
+Companies that skip governance and data foundations to launch pilots accumulate what Chapter 9 called AI Infrastructure Debt. Companies that run pilots without a Centre of Excellence cannot replicate first wins. Companies that scale without operating model redesign hit the 70% wall: BCG's 10/20/70 rule shows that 70% of AI transformation effort must go into people and processes, yet most organisations invest backwards. This chapter introduces the Transformation Playbook: Foundation, Activation, Scale. A phased approach designed for the specific constraints and opportunities of a European organisation in 2026.
 
 Foundation (governance, data readiness, AI literacy), Activation (strategy setting, Centre of Excellence, pilots, first wins), and Scale (cross-functional transformation, operating model redesign). Each phase has clear deliverables and a formal gate for transition. Let's dive in.
 
@@ -96,7 +94,7 @@ PE and mid-market organisations follow shorter phases. A lighter CoE, three to f
 
 The Transformation Playbook gives the leader a sequence: Foundation, Activation, Scale, with agentic employee development at every phase. But a sequence is only useful if the organisation knows where it stands today. The playbook answers "what do I do, and in what order?" The next question is: "where am I now, and what must I fix first?"
 
-That is the work of readiness: a diagnostic assessment across the five pillars (Product, People and Skills, Processes and Governance, Technology and Infrastructure, Data and Context) using the Value, Capabilities, and Trust lenses from the AI Decision Framework (Chapter 9). The Transformation Playbook and the readiness diagnostic are complementary. The playbook defines the phases. The diagnostic tells you which phase you are in and where the gaps are. Chapter 13 provides that diagnostic. Chapter 14 then shows how to measure progress through the phases: the KPIs, governance structures, and board reporting mechanisms that prevent the playbook from becoming another strategy document that gathers dust.
+That is the work of readiness: a diagnostic assessment across the five pillars (Product, People and Skills, Processes and Governance, Technology and Infrastructure, Data and Context) using the Value, Capabilities, and Trust lenses from the AI Decision Framework (Chapter 10). The Transformation Playbook and the readiness diagnostic are complementary. The playbook defines the phases. The diagnostic tells you which phase you are in and where the gaps are. Chapter 14 provides that diagnostic. Chapter 15 then shows how to measure progress through the phases: the KPIs, governance structures, and board reporting mechanisms that prevent the playbook from becoming another strategy document that gathers dust.
 
 [^104]: MIT Project NANDA (MIT Media Lab), "The GenAI Divide: State of AI in Business 2025", July 2025 — https://nanda.media.mit.edu/ai_report_2025.pdf
 [^105]: S&P Global Market Intelligence, "The Big Picture Industry Outlook 2025: Generative AI", 2025 — https://www.spglobal.com/market-intelligence/en/news-insights/research/generative-ai
@@ -111,14 +109,3 @@ That is the work of readiness: a diagnostic assessment across the five pillars (
 3. Does your Centre of Excellence have a charter with executive sponsorship, a mandate to demonstrate value in 60 to 90 days, and a clear plan to transition from centralised to hub-and-spoke? Or is it a technology team waiting for business requests?
 4. For every pilot in progress, can you state the gating criteria for moving to production, including the scaling cost estimate, governance verification, and replication template? How many of your current pilots would pass that gate?
 5. What is your plan for developing agentic employees at each phase, not as a training programme but as embedded learning, skill-sharing incentives, and measurable fluency targets tied to performance and career progression?
-
-## Handoff — Reviewers — Chapter 12
-Status: complete
-Output: output/chapters/chapter-12/ch12-final.md
-Review report: output/chapters/chapter-12/ch12-review.md
-Style: PASS
-Character: PASS
-Continuity: FAIL (BBVA duplicate case study; see review for note)
-Footnotes log: confirmed present
-Escalations: BBVA used in Ch 5; Ch 12 uses different dilemma (playbook sequencing). Consider substituting if strict no-duplicate policy applies.
-Chapter status: DONE

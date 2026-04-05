@@ -1,5 +1,3 @@
-## The Product Layer
-
 Ask a CEO where their organisation's AI strategy lives, and you will get a confident answer: a transformation programme, a chief AI officer, a set of strategic priorities. Ask the same CEO who owns the AI product strategy for each business unit, which customer journeys are being redesigned, and what specific frictions AI removes for customers in each segment, and the confidence fades.
 
 The Products layer of the AI Transformation Framework, as introduced in Chapter 5, is where strategy meets the customer. It is also the layer most commonly delegated to product teams or IT rather than owned at the leadership table.
@@ -26,7 +24,7 @@ Yet 73% of B2B buyers now expect personalised, consumer-grade experiences.[^66] 
 
 The AI Product Canvas is a model that defines the Products layer for each business unit or department. It operationalises Layer 2 of the AI Transformation Framework by asking five questions that every business unit head and their leadership team must answer together.
 
-![The AI Product Canvas](images/ch06-ai-product-canvas.png)
+The AI Product Canvas
 
 **1. Value Proposition.** What business value does AI deliver to this unit's customers? This is not about internal efficiency. It is about what the customer receives that they could not receive without AI: faster resolution, better recommendations, predictive insights, or entirely new services.
 
@@ -66,20 +64,19 @@ The Product Layer is where governance meets the customer.
 
 ## From What You Offer to How You Operate
 
-The Products layer defines what the organisation delivers to customers through AI. But delivery requires the right people, roles, processes, and organisational design: the Operating Model layer (Layer 3) that Chapter 7 covers. A well-constructed AI Product Canvas is worthless if the organisation cannot staff, structure, and operate the teams needed to build and run those products.
+The Products layer defines what the organisation delivers to customers through AI. But delivery requires the right people, roles, processes, and organisational design: the Operating Model layer (Layer 3) that Chapter 8 covers. A well-constructed AI Product Canvas is worthless if the organisation cannot staff, structure, and operate the teams needed to build and run those products.
 
 The next chapter moves from what you offer to how you organise to deliver it.
 
-[^61]: McKinsey, "The agentic organization: Contours of the next paradigm for the AI era", September 2025 — https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era
-[^62]: The Digital Bloom, "2025 Organic Traffic Crisis: Zero-Click & AI Impact Report", 2025 — https://thedigitalbloom.com/learn/2025-organic-traffic-crisis-analysis-report/; Click-Vision, "Zero Click Search Statistics 2026", 2026 — https://click-vision.com/zero-click-search-statistics
-[^63]: Bain & Company, "Goodbye clicks, hello AI: Zero-click search redefines marketing", 2025 — https://www.bain.com/insights/goodbye-clicks-hello-ai-zero-click-search-redefines-marketing
-[^64]: Industry reporting on streaming and e-commerce AI adoption (e.g. Netflix, Amazon) is summarized alongside cross-sector survey evidence in McKinsey, "The state of AI", 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
-[^65]: Medallia, "How AI personalization is changing the customer experience" (blog), 2025 — https://www.medallia.com/blog/how-ai-personalization-is-changing-the-customer-experience/
-[^66]: McKinsey, "The state of AI", 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
-[^67]: Gartner, "Gartner Hype Cycle for Artificial Intelligence, 2025", press release, August 2025 — https://www.gartner.com/en/newsroom/press-releases/2025-08-05-gartner-hype-cycle-identifies-top-ai-innovations-in-2025
+[^61]: McKinsey, "The agentic organization: Contours of the next paradigm for the AI era", September 2025 — [https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era)
+[^62]: The Digital Bloom, "2025 Organic Traffic Crisis: Zero-Click & AI Impact Report", 2025 — [https://thedigitalbloom.com/learn/2025-organic-traffic-crisis-analysis-report/](https://thedigitalbloom.com/learn/2025-organic-traffic-crisis-analysis-report/); Click-Vision, "Zero Click Search Statistics 2026", 2026 — [https://click-vision.com/zero-click-search-statistics](https://click-vision.com/zero-click-search-statistics)
+[^63]: Bain & Company, "Goodbye clicks, hello AI: Zero-click search redefines marketing", 2025 — [https://www.bain.com/insights/goodbye-clicks-hello-ai-zero-click-search-redefines-marketing](https://www.bain.com/insights/goodbye-clicks-hello-ai-zero-click-search-redefines-marketing)
+[^64]: Industry reporting on streaming and e-commerce AI adoption (e.g. Netflix, Amazon) is summarized alongside cross-sector survey evidence in McKinsey, "The state of AI", 2025 — [https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
+[^65]: Medallia, "How AI personalization is changing the customer experience" (blog), 2025 — [https://www.medallia.com/blog/how-ai-personalization-is-changing-the-customer-experience/](https://www.medallia.com/blog/how-ai-personalization-is-changing-the-customer-experience/)
+[^66]: McKinsey, "The state of AI", 2025 — [https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
+[^67]: Gartner, "Gartner Hype Cycle for Artificial Intelligence, 2025", press release, August 2025 — [https://www.gartner.com/en/newsroom/press-releases/2025-08-05-gartner-hype-cycle-identifies-top-ai-innovations-in-2025](https://www.gartner.com/en/newsroom/press-releases/2025-08-05-gartner-hype-cycle-identifies-top-ai-innovations-in-2025)
 
-
-## Questions for the Board: The Product Layer
+## Questions for the Board
 
 1. Has your organisation defined the Product Layer for each business unit, or only at the enterprise level?
 2. Who owns the AI product strategy in your organisation: business unit heads and senior leadership, or product management and IT?
@@ -131,14 +128,3 @@ The product-layer question, which the AI Product Canvas is designed to answer, i
 The Shopify lesson is not about technology. It is about leadership. Lütke did not delegate the product strategy to product management. He made it a CEO-level decision and held the organisation to it, unit by unit.
 
 That is the governance principle European leaders should take from this case: the AI Product Canvas is not a document for your product team to complete. It is a strategic instrument that belongs in the same conversation as market positioning, investment allocation, and competitive differentiation, and it requires the same level of leadership ownership.
-
-## Handoff — Reviewers — Chapter 06 (Product Layer)
-Status: complete
-Output: output/chapters/chapter-06-product-layer/ch06p-final.md
-Review report: output/chapters/chapter-06-product-layer/ch06p-review.md
-Style: PASS
-Character: PASS
-Continuity: PASS
-Footnotes log: confirmed present
-Escalations: none
-Chapter status: DONE

@@ -42,7 +42,15 @@ Every transformation needs a map. The **AI Transformation Framework** is that ma
 
 ---
 
-## Chapter 6: The Product Layer
+## Chapter 6: The Vision Layer
+
+Most organisations have an AI strategy. Far fewer have an AI vision. The distinction matters more than it sounds. A strategy is a plan for what to do; a vision is a statement of what the organisation is becoming and why. Without a clear Vision layer — a shared, explicit view of where the organisation is heading, what it values, and what objectives anchor the AI transformation — strategy fragments, initiatives diverge, and the board has no north star for governance.
+
+The Vision layer is the top of the AI Transformation Framework and the one most often assumed rather than defined. This chapter gives it its own dedicated treatment: what a CEO-level AI vision looks like, how to translate it into strategic objectives, how to embed values that will govern AI decisions under pressure, and how the Vision layer must be stress-tested by the board. Vision without substance is a press release. This chapter makes it a leadership instrument.
+
+---
+
+## Chapter 7: The Product Layer
 
 Most AI strategies define what the organisation will build. Fewer define who it will serve, in what customer moment, and what business value it will deliver — unit by unit. The Products layer of the AI Transformation Framework is where strategy moves from intention to customer experience. It is also the layer most often delegated to product teams and forgotten at the executive table.
 
@@ -50,13 +58,13 @@ The question this chapter asks is not whether to build AI features. It is whethe
 
 ---
 
-## Chapter 7: The Operational Layer
+## Chapter 8: The Operational Layer
 
 The framework's Operating Model layer (the third layer) is where strategy becomes structure: people, process, roles, skills, and org design. How do you organise teams for agentic work? How do roles shift from task-doer to orchestrator at scale? This chapter deep-dives into the layer that connects the vision to day-to-day execution—the one that most often becomes the bottleneck when organisations pilot well but fail to scale.
 
 ---
 
-## Chapter 7: Foundations of the AI Transformation
+## Chapter 9: Foundations of the AI Transformation
 
 Without the right foundations, even the smartest model is blind and paralysed. AI transformation is organisational transformation: it demands data quality, integration, workflow redesign, and a culture that can absorb and act on AI—not just deploy it. Before or alongside the build, you need to know where you stand.
 
@@ -64,7 +72,7 @@ This chapter lays out the Foundation layer of the framework and a structured way
 
 ---
 
-## Chapter 8: Value, Capabilities, Trust
+## Chapter 10: Value, Capabilities, Trust
 
 The most dangerous question in an AI strategy session is "where should we start?" It sounds like rigour. It is usually the beginning of a very expensive pilot programme that goes nowhere.
 
@@ -72,7 +80,7 @@ The right question is: "How do we decide?" This chapter introduces a three-angle
 
 ---
 
-## Chapter 9: Europe's Distinctive Edge
+## Chapter 11: Europe's Distinctive Edge
 
 Every European CEO I speak with apologises for their regulation. They frame it as a constraint: slower, more cautious, more expensive to navigate than their American or Asian counterparts. They are wrong.
 
@@ -80,7 +88,7 @@ Europe's regulatory rigour, its culture of trust, and its pragmatic approach to 
 
 ---
 
-## Chapter 10: What the Leaders Did
+## Chapter 12: What the Leaders Did
 
 The most instructive moments in any transformation are not the launches. They are the decisions made under pressure, with incomplete information, when the easy path would have been to wait.
 
@@ -88,7 +96,7 @@ This chapter presents nine lessons abstracted from what leaders did at European 
 
 ---
 
-## Chapter 11: Building Your Agentic Organisation
+## Chapter 13: Building Your Agentic Organisation
 
 Insight without execution is expensive. By now you understand the shift, the model, the tiers, the decision framework, and the European context. The question that remains (the question every CEO eventually returns to) is: where do I actually start, and in what order?
 
@@ -96,13 +104,13 @@ This chapter is the answer. A phased approach from Foundation through Activation
 
 ---
 
-## Chapter 12: Readiness
+## Chapter 14: Readiness
 
 Before you scale, you need to know where you stand. Readiness is not a one-time audit but a disciplined way to prioritise: what to fix first, which gaps block progress, and how to sequence investments so the organisation can absorb and act on AI rather than deploy it in isolation. This chapter lays out readiness diagnostics and tools for assessment so leaders can make informed decisions about what to do next.
 
 ---
 
-## Chapter 13: Measuring What Matters
+## Chapter 15: Measuring What Matters
 
 If you cannot measure it, you cannot defend it to the board. If you cannot defend it to the board, you will not sustain the investment long enough to see results. This is not a theoretical problem: MIT found that 95% of the companies it studied measured AI return on investment at six months post-pilot, precisely when most value has not yet materialised.
 
@@ -110,7 +118,7 @@ The right KPIs tell a different story than the obvious ones. This chapter define
 
 ---
 
-## Chapter 14: A Leadership Decision
+## Chapter 16: A Leadership Decision
 
 Three years from now, two kinds of organisations will exist in Europe. Those that built the Agentic Organisation (with the productivity advantages, the talent magnetism, and the compounding data moats that come with it) and those that watched, waited, and are now paying the cost of inaction.
 

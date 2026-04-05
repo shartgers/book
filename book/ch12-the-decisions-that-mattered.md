@@ -1,5 +1,3 @@
-## The Decisions That Mattered
-
 The most instructive moments in any transformation are not the launches. They are the decisions made under pressure, with incomplete information, when the easy path would have been to wait.
 
 Between 2022 and 2025, six European companies made distinct strategic bets on AI. A Spanish bank deployed generative AI to its entire global workforce across dozens of countries. A Dutch bank achieved a pilot-to-production rate far higher than the industry average. A German industrial conglomerate won Europe's most prestigious innovation award for an AI copilot designed specifically for factory floors. A German insurer built a multi-agent claims workflow and put it into production in record time. A Swedish fintech went further than anyone, replacing hundreds of customer service agents with AI before publicly adjusting its approach. A French industrial giant appointed its first Chief AI Officer and championed "frugal AI" as a core design principle.
@@ -106,7 +104,7 @@ The companies that built hybrid into the design from the outset avoided the cost
 
 ### Lesson 7: Turn regulatory compliance into competitive moat
 
-Chapter 10 made the case for Europe's distinctive edge. This lesson shows what the leaders did with it.
+Chapter 11 made the case for Europe's distinctive edge. This lesson shows what the leaders did with it.
 
 European leaders do not treat the EU AI Act as a cost of doing business. They treat compliance as capability-building: governance infrastructure, trust, auditability, and data quality that become competitive advantages in markets where customers and regulators increasingly demand them.
 
@@ -166,11 +164,11 @@ The board question is not "are we compliant?" but "are we converting compliance 
 
 The nine lessons describe what the leaders did. The next question is: in what order should you do it?
 
-Chapter 12 presents a phased approach, from Foundation through Activation to Scale, designed for the specific constraints and capabilities of a European organisation. The lessons from this chapter map directly onto that sequence. Governance and leadership ownership (Lessons 1 and 2) are Foundation. The central engine, measurement, and pilot-to-production discipline (Lessons 3, 4, and 5) are Activation. The hybrid model, compliance moat, speed, and people reinvestment (Lessons 6 through 9) are Scale.
+Chapter 13 presents a phased approach, from Foundation through Activation to Scale, designed for the specific constraints and capabilities of a European organisation. The lessons from this chapter map directly onto that sequence. Governance and leadership ownership (Lessons 1 and 2) are Foundation. The central engine, measurement, and pilot-to-production discipline (Lessons 3, 4, and 5) are Activation. The hybrid model, compliance moat, speed, and people reinvestment (Lessons 6 through 9) are Scale.
 
 The leaders did not do all nine at once. They sequenced them. Foundation comes first because without governance, data readiness, and CEO commitment, nothing else holds. Activation follows because you need the central engine, the measurement discipline, and the pilot-to-production system before you can scale. Scale comes last because the hybrid model, the compliance moat, deployment speed, and people reinvestment only compound once the earlier lessons are in place.
 
-The playbook in Chapter 12 shows how to sequence the work. What this chapter has shown is what the work looks like when it is done well.
+The playbook in Chapter 13 shows how to sequence the work. What this chapter has shown is what the work looks like when it is done well.
 
 ## Questions for the Board
 
@@ -183,14 +181,3 @@ The playbook in Chapter 12 shows how to sequence the work. What this chapter has
 [^101]: BCG, "AI Radar 2026: As AI investments surge, CEOs take the lead", January 2026 — https://www.bcg.com/press/15january2026-as-ai-investments-surge-ceos-take-lead
 [^102]: Klarna, "Klarna AI assistant handles two-thirds of customer service chats in its first month" (press release), 2024 — https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month
 [^103]: Accenture, "From AI compliance to competitive advantage" (Responsible by Design / AI Achievers research), 2025 — https://www.accenture.com/content/dam/accenture/final/a-com-migration/r3-3/pdf/pdf-179/accenture-responsible-by-design-report.pdf
-
-## Handoff — Reviewers — Chapter 11
-Status: complete
-Output: output/chapters/chapter-11/ch11-final.md
-Review report: output/chapters/chapter-11/ch11-review.md
-Style: PASS
-Character: PASS
-Continuity: PASS
-Footnotes log: confirmed present
-Escalations: none
-Chapter status: DONE

@@ -19,20 +19,27 @@ Build a print-ready PDF (for KDP/IngramSpark), an EPUB (for e-readers), or a sin
 From the **book repository root** (where the `book/` folder lives):
 
 ```bash
-# Interior only (no cover) — for IngramSpark/KDP interior file
-npm run pdf    # → output/book-interior.pdf (paperback 5.5"×8.25")
+# Interior PDF — paperback trim (5.5"×8.25"); default filename
+npm run pdf              # → output/book-interior.pdf
+npm run pdf:paperback    # → output/book-interior-paperback.pdf (same build as pdf)
+
+# Interior PDF — hardcover *target* (same trim as paperback until HARDCOVER is edited in build_print_pdf.py)
+npm run pdf:hardcover    # → output/book-interior-hardcover.pdf
+
 npm run epub   # → output/book-interior.epub
 npm run epub:validate   # build EPUB then validate with EPUBCheck (industry/IngramSpark standard)
 npm run html   # → output/book-interior.html
 
-# PDF/X-3:2002 conversion (interior only) — hardcover 5.5"×8.5", single file
+# PDF/X-3:2002 (runs pdf:hardcover, then Ghostscript) — for IngramSpark B&W interior
 npm run pdfx   # → output/<ISBN13>_txt.pdf (ISBN from input/ISBN hardcover.md)
 
 # Full book with cover
 npm run full   # → output/book-full.pdf
 ```
 
-**When asked to create PDF/X files for the interior:** Produce a **single** file: hardcover page size **5.5" × 8.5"**, output filename **`<ISBN13>_txt.pdf`**. ISBN 13 digits are read from `input/ISBN hardcover.md` (line `ISBN/EAN: 978-...`); hyphens are stripped for the filename.
+**Paperback vs PDF/X:** Use **`npm run pdf`** (or **`pdf:paperback`**) for a normal interior PDF at paperback trim. Use **`npm run pdfx`** when you need the grayscale PDF/X file named with the hardcover ISBN (`<ISBN13>_txt.pdf`). Those pipelines differ by output filename and PDF/X conversion, not by layout, until you give `HARDCOVER` a different trim in code.
+
+**When asked to create PDF/X files for the interior:** Produce **`<ISBN13>_txt.pdf`**. Page size follows **`HARDCOVER`** in `build_print_pdf.py` (currently matches paperback). ISBN 13 digits are read from `input/ISBN hardcover.md` (line `ISBN/EAN: 978-...`); hyphens are stripped for the filename.
 
 Equivalent Python commands:
 

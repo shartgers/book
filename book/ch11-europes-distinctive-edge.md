@@ -1,5 +1,3 @@
-## Europe's Distinctive Edge
-
 When European CEOs apologize for their regulation, they frame it as a constraint: slower, more cautious, more expensive to navigate than their American or Asian counterparts. But it can be an opportunity, if they choose to see it that way.
 
 Europe's regulatory rigour, its culture of trust, and its pragmatic approach to technology adoption are not handicaps in the race to build the Agentic Organisation. They are, in the hands of a leader who understands them, a structural competitive advantage. The question is not whether European regulation slows you down, but whether you are using it to build something your less-regulated competitors cannot easily replicate.
@@ -10,7 +8,7 @@ But there is a second set of numbers that rarely features in the boardroom conve
 
 Over half of European generative AI users believe adoption would increase with proper government regulation.[^95] The commercial premium for demonstrably trustworthy AI keeps growing.
 
-This chapter goed deeper into these three structural advantages the European Advantage Triad: The Single Rulebook, The Trust Premium, The Governance Dividend. Regulation and culture create them for leaders willing to convert compliance into competitive edge. The triad builds on the Trust element of the AI Decision Framework (Chapter 9) and anchors it in Europe's distinctive regulatory and cultural context.
+This chapter goed deeper into these three structural advantages the European Advantage Triad: The Single Rulebook, The Trust Premium, The Governance Dividend. Regulation and culture create them for leaders willing to convert compliance into competitive edge. The triad builds on the Trust element of the AI Decision Framework (Chapter 10) and anchors it in Europe's distinctive regulatory and cultural context.
 
 **The Single Rulebook** is the strategic benefit of one harmonised AI framework across 27 countries. **The Trust Premium** is the commercial advantage that demonstrable compliance, consumer confidence, and workforce acceptance create. **The Governance Dividend** is the operational strength that compliance processes build: data quality, governance maturity, and documentation discipline. Each advantage reinforces the others: the single rulebook enables the trust premium, the trust premium enables the governance dividend, and the governance dividend justifies the clarity of the rules.
 
@@ -115,7 +113,7 @@ The companies already doing this are the subject of the next chapter: not what E
 4. If a major client or procurement authority required a conformity assessment tomorrow, could you produce one? What would the process reveal about your data quality, governance, and documentation?
 5. Are you planning for the August 2026 high-risk deadline or waiting for the Digital Omnibus extension? What is the cost of being wrong?
 
-## Case Study: ING, Governance as the Accelerator
+## Case Study: ING: Governance as the Accelerator
 
 For a European bank, the hard part is not building AI capability. It is deploying AI at scale under overlapping obligations: the EU AI Act, DORA, ECB supervisory oversight, and national financial conduct regulation. Credit scoring and customer risk assessment sit in the AI Act's high-risk category (Annex III). In this environment, fragmented, business-unit-by-business-unit compliance is not just inefficient. It creates legal exposure and makes it impossible to prove consistent oversight across markets.
 
@@ -130,14 +128,3 @@ That discipline translated into outcomes that matter operationally. Customer due
 ING's experience makes the European Advantage Triad tangible. **The Single Rulebook** becomes one bank-wide governance framework. **The Trust Premium** comes from transparent review, CEO-level accountability, and oversight that satisfies regulators and internal stakeholders. **The Governance Dividend** is the compounding operational benefit of documentation, data quality, and process rigour.
 
 The lesson is direct: in regulated European environments, governance is not overhead. It is the mechanism that turns pilots into production.
-
-## Handoff — Reviewers — Chapter 10
-Status: complete
-Output: output/chapters/chapter-10/ch10-final.md
-Review report: output/chapters/chapter-10/ch10-review.md
-Style: PASS
-Character: PASS
-Continuity: PASS
-Footnotes log: confirmed present
-Escalations: none
-Chapter status: DONE

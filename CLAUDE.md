@@ -39,15 +39,9 @@ Run these four steps at the start of every session before doing anything else:
 
 **Phase 0 — Foundation** is complete.
 
-**Phase 1 — Chapters:** Book has **14 chapters** (see `plan/toc.md`). Plan, hooks, docs, prompts, and agent skills are aligned to this structure.
+**Phase 1 — Chapters:** Book has **16 chapters** (see `plan/toc.md`). **All 16 chapters complete.**
 
-**Chapter 01 — complete.** All tasks done; `ch01-final.md` written.
-
-**Chapter 02 — complete.** All tasks done; `ch02-final.md` written.
-
-**Chapter 03 — complete.** All tasks done; `ch03-final.md` written.
-
-**Next task when ready:** Wave 1 for **Chapter 04 — The Four Tiers of Transformation** (Planner + Research Agent in parallel). Then Chapter 05 (The AI Transformation Framework) through Chapter 14 (A Leadership Decision) per `plan/plan.md`.
+**Next task when ready:** Run format-book-agent (`skills/format-book-agent/SKILL.md`) to build the print-ready PDF.
 
 ---
 

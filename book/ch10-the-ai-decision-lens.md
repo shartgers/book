@@ -1,5 +1,3 @@
-## The AI Decision Lens
-
 Early AI pilots often delivered impressive initial returns. However, as those projects moved from experimentation to full-scale deployment, many organisations saw those returns diminish significantly, sometimes falling below their overall cost of capital.
 
 The pattern has repeated across industries. Broader analysis confirms the scale of the problem: only a tiny fraction of firms achieve AI value at scale, while a majority achieve no material value at all. Research consistently shows that most enterprise generative AI pilots fail to deliver sustained impact on the profit and loss statement, even as global spending on the technology reaches unprecedented levels.
@@ -143,7 +141,7 @@ European firms that have invested in responsible AI infrastructure report that g
 
 There is also a productivity dimension to the trust advantage. Research suggests that AI adoption increases labour productivity by 4% on average in European firms, driven by capital deepening rather than job displacement. That finding runs counter to the displacement fears that dominate public discourse, and it gives leaders an evidence-based narrative for building employee trust.
 
-The organisations that master all three angles of the AI Decision Framework, creating real value, building the right capabilities, and earning trust from regulators, customers, and employees, are best placed to lead the next decade. Chapter 10 makes the full case for why Europe's distinctive regulatory and cultural context is a strategic advantage, and what leaders must do to capitalise on it.
+The organisations that master all three angles of the AI Decision Framework, creating real value, building the right capabilities, and earning trust from regulators, customers, and employees, are best placed to lead the next decade. Chapter 11 makes the full case for why Europe's distinctive regulatory and cultural context is a strategic advantage, and what leaders must do to capitalise on it.
 
 [^84]: MIT Project NANDA (MIT Media Lab), "The GenAI Divide: State of AI in Business 2025", July 2025 — https://nanda.media.mit.edu/ai_report_2025.pdf
 [^85]: McKinsey, "The state of AI", 2025 — https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai
@@ -163,7 +161,7 @@ The organisations that master all three angles of the AI Decision Framework, cre
 4. Has your organisation established trust governance (regulatory compliance, explainability, employee engagement) as a prerequisite for scaling AI, or is it treated as an afterthought?
 5. If your board reviewed every active AI initiative through the lens of Value, Capabilities, and Trust today, how many would pass all three?
 
-## Case Study: Allianz — Turning Regulatory Compliance into a Competitive Weapon
+## Case Study: Allianz: Turning Regulatory Compliance into a Competitive Weapon
 
 ### Speed or Trust-First Governance?
 
