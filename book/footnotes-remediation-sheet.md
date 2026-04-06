@@ -140,7 +140,7 @@ Format: `footnote | action | support_status | source_url | current_citation`
 
 ## `REPLACE` entries — rationale and alternatives
 
-For each footnote, **why it was attached** (fact-check logic + `research/` trail), **why strict publishing wants a change**, and **one or two stronger alternatives** (URLs where we already have them in project research or official publishers).
+For each footnote, **why it was attached** (fact-check logic + `research/` trail), **why strict publishing wants a change**, and **one or two stronger alternatives** (URLs already present in project research or official publishers).
 
 ---
 

@@ -26,17 +26,13 @@ The problem extends beyond data alone. Only a small fraction of organisations ha
 
 The Foundation layer, introduced in Chapter 5 as the base of the AI Transformation Framework, has two components that this chapter addresses: Data and Technology. Each component must be addressed; none is sufficient alone.
 
-**1. Data: the strategic asset.**
-
-"AI-ready data" is a specific set of requirements on quality, governance, lineage, ownership, accessibility, and contextualisation. Without these, every AI project reinvents the data infrastructure, consuming months and budgets before any model training begins.
+**Data: the strategic asset.** "AI-ready data" is a specific set of requirements on quality, governance, lineage, ownership, accessibility, and contextualisation. Without these, every AI project reinvents the data infrastructure, consuming months and budgets before any model training begins.
 
 The practical unit of data readiness is the data product: a reusable dataset packaged with metadata, quality controls, and access policies. Organisations that build data products build reusable capacity. Organisations that treat data as a project-by-project problem create waste. Research consistently shows that mature data practices deliver over three times higher return on AI investments.
 
 As foundation models commoditise, proprietary data becomes the differentiator. Well-governed, proprietary datasets that no competitor can replicate create compounding advantages. The organisations that build them early will outperform those relying on the same publicly available data as everyone else.
 
-**2. Technology: the architecture.**
-
-The Agentic Organisation requires a technology architecture designed for AI at scale, not for isolated pilots. The emerging consensus describes a layered stack: from infrastructure (compute, networking, storage) through data foundations and models, to skills and tools, agent frameworks and orchestration, and governance and observability at the top.
+**Technology: the architecture.** The Agentic Organisation requires a technology architecture designed for AI at scale, not for isolated pilots. The emerging consensus describes a layered stack: from infrastructure (compute, networking, storage) through data foundations and models, to skills and tools, agent frameworks and orchestration, and governance and observability at the top.
 
 Two protocols are reshaping how agents connect to the enterprise. MCP (Model Context Protocol), described as the "USB-C for AI," provides a universal standard for connecting agents to tools and data sources. A2A (Agent2Agent) enables direct agent-to-agent communication. Together, they represent the integration standards that will determine whether agents operate across systems or remain confined to single applications.
 
@@ -54,7 +50,7 @@ Any AI system used in finance, HR, critical infrastructure, health, or education
 
 Beyond compliance, governance creates value. ISO/IEC 42001:2023, the world's first certifiable AI management system standard, provides a practical framework covering policy, risk management, data governance, lifecycle controls, transparency, and performance evaluation. Research shows that organisations with stronger AI governance deploy AI in three additional business areas, have 28 per cent more staff using AI, and report approximately 5 per cent higher revenue growth.[^83]
 
-Beyond the AI Act itself, specific sectors face additional regulatory layers. Financial services must comply with DORA (Digital Operational Resilience Act). Healthcare faces the Medical Device Regulation for AI diagnostics. Critical infrastructure falls under NIS2 cybersecurity requirements. For organisations in regulated sectors, the Foundation layer must account for these obligations alongside the AI Act.
+Beyond the AI Act itself, specific sectors face additional regulatory layers. Financial services must comply with the Digital Operational Resilience Act (DORA). Healthcare faces the Medical Device Regulation for AI diagnostics. Critical infrastructure falls under NIS2 cybersecurity requirements. For organisations in regulated sectors, the Foundation layer must account for these obligations alongside the AI Act.
 
 For leaders, the Foundation layer must be assessed against the regulatory calendar. Which planned or active AI use cases fall under the high-risk category? Does the organisation have the Data governance and Technology documentation in place for each? 
 
@@ -66,7 +62,7 @@ Governance is not the enemy of speed. It is the condition for sustainable speed.
 
 The Foundation layer tells the organisation what it has: the quality of its data and the maturity of its technology.
 
-Knowing what you have is not the same as knowing what to do with it. The next question is how to decide: which AI opportunities to pursue, which to defer, and which to reject.
+Knowing what you have is only the first step. The next question is how to decide: which AI opportunities to pursue, which to defer, and which to reject.
 
 Chapter 10 introduces the AI Decision Framework, balancing three angles: Value, Capabilities, and Trust. The Foundation layer feeds two of those dimensions directly. Data readiness and technology maturity determine what is possible (Capabilities). Governance readiness determines what is permissible (Trust). Together, the Foundation layer and the decision framework give leaders the tools to move from diagnosis to action.
 
@@ -123,7 +119,7 @@ The structure illustrates how the Foundation layer was addressed in practice: Da
 
 ### Foundation as the Condition for Scale
 
-European leaders can take one clear lesson from Schneider Electric: the Foundation layer (Data, Technology) is not optional infrastructure. It is the condition for sustainable scale.
+European leaders can take one clear lesson from Schneider Electric: the Foundation layer (Data, Technology) is the condition for sustainable scale.
 
 When an organisation invests in all three components before scaling, it avoids the pattern of pilots that never graduate to production and AI Infrastructure Debt that compounds silently. Schneider's bet was to make the Foundation layer the basis for investment, roles, and prioritisation across 200-plus factories, not a checklist to be filled in once.
 

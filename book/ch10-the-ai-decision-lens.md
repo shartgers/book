@@ -2,7 +2,7 @@ Early AI pilots often delivered impressive initial returns. However, as those pr
 
 The pattern has repeated across industries. Broader analysis confirms the scale of the problem: only a tiny fraction of firms achieve AI value at scale, while a majority achieve no material value at all. Research consistently shows that most enterprise generative AI pilots fail to deliver sustained impact on the profit and loss statement, even as global spending on the technology reaches unprecedented levels.
 
-That 95% figure we saw earlier captures something important.[^84] It measured P&L impact of pilots at relatively short timescales, not long-term scaled deployments. The statistic illustrates the severity of the decision problem, not a verdict on AI's potential.
+That 95% figure introduced earlier captures something important.[^84] It measured P&L impact of pilots at relatively short timescales, not long-term scaled deployments. The statistic illustrates the severity of the decision problem, not a verdict on AI's potential.
 
 The distinction matters. Misreading pilot-stage results as definitive leads organisations to abandon promising initiatives too early or, worse, to lose faith in AI's potential altogether.
 
@@ -40,7 +40,7 @@ Every initiative is scored on Value (does it create measurable business value?),
 
 The three elements interact. High-value initiatives with low capability readiness need sequencing: build the capability before scaling the investment. High-value initiatives with high governance risk need a trust-first approach: establish governance before launch.
 
-![The AI Decision Framework](images/ch09-ai-decision-framework.png)
+![The AI Decision Framework](images/ch10-ai-decision-framework.png)
 
 Quick wins at the Deploy level build momentum and fund the capability and trust investment that larger initiatives require. Multiple external decision frameworks have independently converged on the same three-angle structure, reinforcing that this is not a theoretical preference but a practical necessity.
 
@@ -48,7 +48,7 @@ Quick wins at the Deploy level build momentum and fund the capability and trust 
 
 Where does this initiative create measurable business value? The answer is not always obvious, and the right metric depends on the organisation's maturity.
 
-A useful taxonomy distinguishes three types of AI value. 
+A useful taxonomy distinguishes three types of AI value, as introduced by BCG: 
 **Deploy** covers off-the-shelf tools that deliver 10–15% productivity improvements: coding assistants, meeting summarisers, document drafters.
 **Reshape** covers end-to-end function redesign with AI-native workflows: rethinking how procurement, customer service, or finance operates with AI at the core. 
 **Invent** covers new business models and revenue streams that were not possible before AI.
@@ -85,9 +85,9 @@ Less than half of AI projects reach production today, often taking many months t
 
 ### Trust
 
-Can the organisation govern this initiative responsibly? Trust is not a compliance checkbox. It encompasses three dimensions: regulatory compliance, customer and user trust, and employee trust.
+Can the organisation govern this initiative responsibly? Trust goes beyond compliance. It encompasses three dimensions: regulatory compliance, customer and user trust, and employee trust.
 
-Regulatory compliance in Europe means alignment with the EU AI Act, GDPR, and sector-specific regulation. The EU AI Act's full high-risk system requirements apply from August 2026, with penalties reaching €35 million or 7% of global annual turnover. Over 87% of high-risk AI cases require GDPR compliance in addition to AI Act compliance, creating layered obligations that demand integrated governance.[^88]
+Regulatory compliance in Europe means alignment with the EU AI Act, GDPR, and sector-specific regulation. Over 87% of high-risk AI cases require GDPR compliance in addition to AI Act compliance, creating layered obligations that demand integrated governance.[^88] Chapter 11 covers the full regulatory timeline, penalty regime, and enforcement detail.
 
 Customer trust requires transparency and explainability. Users need to understand when they are interacting with AI and how decisions that affect them are made. This is not merely an ethical aspiration; it is a regulatory requirement under the EU AI Act for high-risk systems.
 
@@ -113,7 +113,7 @@ Combined with the human-in-the-loop principle defined in Chapter 3, tiered auton
 
 ## From Scorecard to Boardroom
 
-The AI Decision Framework is not only an operational prioritisation tool. It is a governance instrument for the board.
+The AI Decision Framework is not only an operational prioritisation tool, but also a governance instrument for the board.
 
 Board oversight of AI remains inadequate across the industry. A majority of board members report limited knowledge of the technology, very few receive regular AI-related metrics, and many confirm that AI is not yet a standing item on the board agenda.[^91]
 
@@ -131,7 +131,7 @@ The board's role is to ensure that trust is treated as an enabler of scale and a
 
 ## Trust as the European Edge
 
-For European organisations, the Trust dimension of the AI Decision Framework is not a constraint. It is a differentiator.
+For European organisations, the Trust dimension of the AI Decision Framework can act as a true differentiator.
 
 The EU AI Act, GDPR, and cultural expectations around data privacy create a structural advantage that, when navigated well, accelerates adoption rather than slowing it. The European Economic and Social Committee has positioned trustworthy AI as Europe's competitive advantage, not a regulatory burden.
 
@@ -173,7 +173,7 @@ Both paths carried real costs. Speed risked regulatory exposure and reputational
 
 Insurance sits squarely in the crosshairs of the EU AI Act. Claims processing, fraud detection, and risk assessment all use data and algorithms in ways that regulators classify as high-risk.
 
-For Allianz, this was not a distant concern. The EU AI Act entered into force in August 2024, with prohibitions on unacceptable-risk AI applying from February 2025 and full high-risk requirements due by August 2026. The penalties for non-compliance reach €35 million or 7% of global annual turnover.
+For Allianz, this was an immediate concern. The EU AI Act entered into force in August 2024, with prohibitions on unacceptable-risk AI applying from February 2025 and full high-risk requirements due by August 2026. The penalties for non-compliance reach €35 million or 7% of global annual turnover.
 
 Allianz was not starting from zero. The company had already built one of the largest AI talent pools in the insurance industry, employing roughly 10% of the entire AI workforce across the 30 largest global insurers. It ranked second globally in the Evident AI Insurance Index, a measure of AI maturity across the sector.
 
@@ -194,7 +194,7 @@ The results suggest the trade-offs were worth accepting, though the full picture
 
 Allianz now has close to 400 GenAI use cases either deployed or in active development. The flagship initiative, Project Nemo, demonstrates what governance-first AI looks like in practice: a seven-agent workflow that processes insurance claims in under five minutes, reducing claim processing time by 80%.
 
-This is not a pilot; it is an operational system delivering measurable value in a core business process.
+This is an operational system delivering measurable value in a core business process.
 
 On the trust dimension, Allianz was among the first signatories of the EU AI Pact in November 2024, joining over 230 organisations committing to go beyond minimum regulatory requirements. The Anthropic partnership positions Allianz to deploy AI agents that are auditable by design.
 

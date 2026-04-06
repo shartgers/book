@@ -787,6 +787,10 @@ def inject_ordered_list_numbers(html: str) -> str:
     Prepend "1. ", "2. ", ... to each <li> inside <ol> and wrap in a block so each item
     starts on a new line in PDF (explicit block display for list items).
     Reads the 'start' attribute if present to support continuous numbering.
+
+    We do not insert <br/> between </li><li>: EPUBCheck forbids <br/> as a direct child of
+    <ol>/<ul> (RSC-005), so EPUB builds strip those breaks anyway; keeping them out of PDF
+    avoids double vertical spacing (block <li> + extra line break).
     """
     # Process all ol elements
     def replace_ol(match: re.Match) -> str:
@@ -794,7 +798,7 @@ def inject_ordered_list_numbers(html: str) -> str:
         # Check for start attribute (e.g. from make_footnotes_continuous)
         num_match = re.search(r'start="(\d+)"', match.group(0), re.IGNORECASE)
         num = int(num_match.group(1)) if num_match else 1
-        
+
         def repl_li(li_match: re.Match) -> str:
             nonlocal num
             # Preserve id, class, and other attributes (footnote anchors use id on <li>).
@@ -803,10 +807,8 @@ def inject_ordered_list_numbers(html: str) -> str:
             result = f'<li{li_attrs}><div class="li-block"><span class="list-number">{num}. </span>{content}</div></li>'
             num += 1
             return result
+
         inner = re.sub(r"<li([^>]*)>(.*?)</li>", repl_li, inner, flags=re.DOTALL)
-        # Skip extra line breaks for footnotes to keep them compact
-        if 'class="footnote"' not in match.group(0) and 'class="chapter-footnotes"' not in match.group(0):
-            inner = re.sub(r"</li>\s*<li>", "</li><br/><li>", inner)
         start_attr = f' start="{int(num_match.group(1))}"' if num_match else ""
         return f"<ol{start_attr}>" + inner + "</ol>"
     
@@ -1328,35 +1330,58 @@ def get_css(for_pdf: bool = True) -> str:
         font-size: 9pt;
     }}
 
-    /* LISTS: each item on its own line; block display so PDF/HTML break between items */
+    /* LISTS: unordered = native bullets; ordered = inject_ordered_list_numbers() (no native markers) */
     ul, ol {{
         margin: 0.6em 0 0.8em 0;
-        padding-left: 1.8em;
         display: block;
     }}
-    ol {{
-        list-style-type: decimal;
-        list-style-position: outside;
-    }}
     ul {{
+        padding-left: 1.8em;
         list-style-type: disc;
         list-style-position: outside;
     }}
-    li {{
-        display: block;
-        margin-top: 0.25em;
-        margin-bottom: 0.15em;
-        padding-left: 0.25em;
+    ol {{
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0;
     }}
-    ol li:first-child, ul li:first-child {{
+    ul li {{
+        display: list-item;
+        margin-top: 0.35em;
+        margin-bottom: 0.35em;
+    }}
+    ul li:first-child {{
         margin-top: 0;
     }}
-    .list-number {{
-        margin-right: 0.2em;
-    }}
-    /* Ordered list items (e.g. questions): default line spacing (avoids excessive gaps) */
-    .li-block {{
+    /* Ordered list: flex row so numerals sit in a fixed left column; body text wraps in a hanging indent */
+    ol > li {{
         display: block;
+        margin: 0;
+        padding: 0;
+    }}
+    ol > li > .li-block {{
+        display: flex;
+        align-items: flex-start;
+        gap: 0.55em;
+        margin-bottom: 0.78em;
+    }}
+    ol > li:last-child > .li-block {{
+        margin-bottom: 0.5em;
+    }}
+    ol > li > .li-block > .list-number {{
+        flex-shrink: 0;
+        min-width: 2.25em;
+        text-align: right;
+        margin-right: 0;
+        line-height: 1.35;
+    }}
+    .list-number {{
+        margin-right: 0;
+    }}
+    ol > li > .li-block > p {{
+        flex: 1 1 0%;
+        min-width: 0;
+        margin: 0;
     }}
 
     /* TABLES: bordered grid; keep entire table on one page (no split across page break) */
@@ -1490,6 +1515,8 @@ def get_css(for_pdf: bool = True) -> str:
     .back-matter {{
         page: content;
         page-break-before: right;
+        /* Clear running-header strings from the last chapter; otherwise string(chapter-*) stays Ch N. */
+        string-set: chapter-title "", chapter-num "";
     }}
 
     .back-matter h2 {{
@@ -1564,13 +1591,13 @@ def get_css(for_pdf: bool = True) -> str:
     }}
     .chapter-footnotes .footnote li {{
         display: block;
-        margin: 0;
+        margin: 0 0 0.8em 0;
         padding: 0;
     }}
     .chapter-footnotes .footnote li .li-block {{
         display: flex;
-        align-items: baseline;
-        gap: 0.4em;
+        align-items: flex-start;
+        gap: 0.45em;
         min-width: 0;
         width: 100%;
     }}
@@ -1578,7 +1605,8 @@ def get_css(for_pdf: bool = True) -> str:
         font-family: "Gill Sans Nova", "Gill Sans", "Gill Sans MT", sans-serif;
         color: #555;
         flex-shrink: 0;
-        min-width: 1.5em;
+        min-width: 2.25em;
+        text-align: right;
     }}
     /* Block p as flex item so long URLs wrap inside the type area (inline + flex min-width:auto overflows). */
     .chapter-footnotes .footnote li p {{
@@ -1853,15 +1881,30 @@ ul, ol { margin: 0.6em 0 0.8em 0; display: block; }
 ul { padding-left: 1.8em; list-style-type: disc; list-style-position: outside; }
 /* Ordered lists: inject_ordered_list_numbers() prepends .list-number spans; hide native markers. */
 ol { list-style: none; padding-left: 0; margin-left: 0; }
-li { display: block; margin-top: 0.5em; margin-bottom: 0.25em; padding-left: 0.25em; }
+ul li { display: list-item; margin-top: 0.35em; margin-bottom: 0.35em; padding-left: 0; }
+ul li:first-child { margin-top: 0; }
+ol > li { display: block; margin: 0; padding: 0; }
 ol li:first-child, ul li:first-child { margin-top: 0; }
-/* Match PDF: list numerals regular weight (not bold). */
-.list-number { margin-right: 0.2em; }
-.li-block { display: flex; align-items: baseline; gap: 0.35em; margin-bottom: 0.5em; }
-ol > li > .li-block > .list-number { flex-shrink: 0; min-width: 1.5em; }
-/* Footnote block: same pattern, slightly tighter context */
+/* Match PDF: hanging indent for ordered lists; numerals in a fixed left column */
+.list-number { margin-right: 0; }
+.li-block { display: flex; align-items: flex-start; gap: 0.55em; margin-bottom: 0.78em; }
+ol > li:last-child > .li-block { margin-bottom: 0.5em; }
+ol > li > .li-block > .list-number {
+    flex-shrink: 0;
+    min-width: 2.25em;
+    text-align: right;
+    line-height: 1.35;
+}
+ol > li > .li-block > p {
+    flex: 1 1 0%;
+    min-width: 0;
+    margin: 0;
+}
+/* Footnote block: same hanging-indent column as body lists */
 .footnote > ol > li > .li-block > .list-number {
     flex-shrink: 0;
+    min-width: 2.25em;
+    text-align: right;
 }
 /* EPUB: aside epub:type="footnote" wraps each footnote body (popover scope for reading systems). */
 .footnote aside {

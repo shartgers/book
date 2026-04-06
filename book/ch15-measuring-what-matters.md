@@ -8,13 +8,13 @@ JPMorgan's leadership, overseeing a multi-billion dollar AI investment used dail
 
 ## Pilot Purgatory and the Measurement Crisis
 
-A vast majority of enterprise AI projects never move beyond the pilot stage. This is pilot purgatory. The root cause is not technology, but rather organisational failure across multiple domains: from choosing the wrong use cases to significantly underestimating production complexity and losing a large portion of development time to compliance bottlenecks. Hidden costs also frequently exceed initial projections by a wide margin.
+A vast majority of enterprise AI projects never move beyond the pilot stage. This is pilot purgatory. The root cause is organisational failure across multiple domains: from choosing the wrong use cases to significantly underestimating production complexity and losing a large portion of development time to compliance bottlenecks. Hidden costs also frequently exceed initial projections by a wide margin.
 
 Organisations in pilot purgatory accumulate proofs of concept that demonstrate technical feasibility but never deliver sustained business value, typically because they lack pre-defined success criteria, baseline measurements, or the governance discipline to scale or kill decisively.
 
 The pattern compounds. Grassroots experimentation delivers localised efficiency gains that feel like progress but never compound without top-down direction. This is the micro-productivity trap described in earlier chapters: individual teams achieve small wins whilst the organisation as a whole barely moves.
 
-Only a minority of companies can tie AI initiatives to tangible business outcomes, even though a large majority rank AI as a top strategic priority.[^114] Financial services tends to achieve better pilot-to-production rates than other sectors, not because of superior technology, but because of clearer unit economics and pre-existing compliance infrastructure.
+Only a minority of companies can tie AI initiatives to tangible business outcomes, even though a large majority rank AI as a top strategic priority.[^114] Financial services tends to achieve better pilot-to-production rates than other sectors, because of clearer unit economics and pre-existing compliance infrastructure.
 
 The measurement crisis and the scaling crisis are the same crisis. Without the right metrics, defined upfront, organisations cannot distinguish a pilot worth scaling from one worth killing.
 
@@ -28,7 +28,7 @@ The Measure-Gate-Govern Model gives leaders a structured approach to AI measurem
 
 *Operational* metrics answer whether the work is actually improving. Cycle time, throughput, error rate, first-pass yield, and cost per task versus baseline. One critical nuance: detect "silent failures", where outputs appear correct but the process behind them is flawed. Measuring output quality alone is insufficient; the process must be validated too.
 
-*Adoption* metrics answer whether people are actually using the tools. Daily active users, tasks augmented versus automated, workflows redesigned, and processes AI-enabled as a percentage of the total portfolio. JPMorgan has 200,000 daily users of its LLM Suite, yet even Dimon acknowledges that "time saved is often too vague to measure concretely". Sentiment and superuser metrics round out the picture.
+*Adoption* metrics answer whether people are actually using the tools. Daily active users, tasks augmented versus automated, workflows redesigned, and processes AI-enabled as a percentage of the total portfolio. JPMorgan has 200,000 daily users of its LLM Suite, yet even Jamie Dimon, JPMorgan's CEO, acknowledges that "time saved is often too vague to measure concretely". Sentiment and superuser metrics round out the picture.
 
 *Strategic* metrics answer whether the organisation is getting better. NPS and CSAT trajectory, decision quality (accuracy, speed, consistency), and innovation velocity (time from idea to production). Allianz measures across four balanced dimensions: customer satisfaction, efficiency, effectiveness, and employee satisfaction, preventing over-indexing on cost reduction alone.
 
@@ -117,4 +117,4 @@ It is worth acknowledging that these figures are self-reported by DBS and have n
 
 ### Measurement as a Design Requirement, Not a Report
 
-The measurement problem is a design problem, not a data problem. Organisations that try to attribute AI value after deployment rarely succeed, because the baselines, the control conditions, and the attribution logic were never built in. DBS demonstrates that the Measure stage of the Measure-Gate-Govern Model is not a reporting exercise that happens at the end of a project: it is an architectural decision that happens at the beginning. The lesson for a European CEO is concrete: before approving any AI initiative above a defined threshold, require that the measurement design, including baseline, control conditions, and attribution method, is part of the business case. If the team cannot specify how the value will be verified, the pilot is not ready to proceed. That discipline is what separates a S$1 billion claim that is credible from one that is not.
+The measurement problem is a design problem. Organisations that try to attribute AI value after deployment rarely succeed, because the baselines, the control conditions, and the attribution logic were never built in. DBS demonstrates that the Measure stage of the Measure-Gate-Govern Model is an architectural decision that happens at the beginning of a project, not the end. The lesson for a European CEO is concrete: before approving any AI initiative above a defined threshold, require that the measurement design, including baseline, control conditions, and attribution method, is part of the business case. If the team cannot specify how the value will be verified, the pilot is not ready to proceed. That discipline is what separates a S$1 billion claim that is credible from one that is not.

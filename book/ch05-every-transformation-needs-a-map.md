@@ -54,7 +54,7 @@ Efficiency is about the speed, cost, and friction of the transformation. It meas
 Effectiveness measures whether the transformation is actually delivering the intended strategic value and outcomes.
 *   _Vision:_ Strategic alignment. Is the AI roadmap actually supporting the core mission of the organisation? Effectiveness is measured by the correlation between AI initiatives and top-level KPIs.
 *   _Products:_ Impact on the customer journey. Effectiveness is defined by the reduction in customer friction, such as moving from multi-click search to zero-click discovery. Improvement is seen in increased customer lifetime value and lower churn.
-*   _Operating Model:_ Skill adoption and shift in roles. Effectiveness is measured by the percentage of the workforce successfully transitioning to "orchestrator" roles. It is not just about training but about the tangible shift in output quality from human–agent teams.
+*   _Operating Model:_ Skill adoption and shift in roles. Effectiveness is measured by the percentage of the workforce successfully transitioning to "orchestrator" roles. It is measured by the tangible shift in output quality from human–agent teams.
 *   _Foundation:_ Data quality and system reliability. Effectiveness is defined by the accuracy and relevance of the data fed into agentic systems. Improvement is measured by the decline in "hallucination" rates or errors in automated decision-making.
 
 ### 3. Risk: Managing the Downside
@@ -110,6 +110,6 @@ The structure (AI Factory plus embedded wizards) illustrates how the four layers
 
 ### The Map as an Instrument of Governance
 
-Leadership teams can take one clear lesson from BBVA: the AI Transformation Framework works as a governance and organising principle only when it is used as the single map for "where we are and where we need to be" on every layer. Letting Vision, Products, Operating Model, and Foundation evolve separately leads to the pattern the chapter describes: pilots that do not scale and boards that lack a shared language.
+Leadership teams can take one clear lesson from BBVA: the AI Transformation Framework works as a governance and organising principle only when it is used as the single map for where the organisation is and where it needs to be on every layer. Letting Vision, Products, Operating Model, and Foundation evolve separately leads to the pattern the chapter describes: pilots that do not scale and boards that lack a shared language.
 
 BBVA's bet was to make the framework the basis for investment, roles, and prioritisation across their global operations, not a checklist to be filled in once. The transferable rule is to adopt one framework, use it to assess and govern all four layers, and accept the trade-offs (central platform choices, coordination cost, standardisation) in exchange for a transformation that can be measured, steered, and scaled as a whole.

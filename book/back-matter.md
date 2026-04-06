@@ -1,6 +1,6 @@
 AI tools are everywhere. The value is not. Europe is falling behind. On the boards and in the leadership teams where it matters most, leadership teams are still forming committees, approving pilots, and waiting for the next planning cycle. Meanwhile, a small group of companies that use AI in the right way, is pulling away on every metric that matters: revenue growth, shareholder returns, talent, and data. The gap is no longer theoretical. It is compounding, and it will not close on its own.
 
-**The Agentic Organisation** is the framework for leaders who want to be in the first group, not the second.
+**The Agentic Organisation** is the framework for leaders who intend to be in the first group.
 
 The answer is not a better model, a bigger budget, or a smarter data team. It is a fundamentally different way of thinking about what AI transformation actually requires: from the board to the front line, from governance to operating model, from the first pilot to enterprise-wide impact.
 

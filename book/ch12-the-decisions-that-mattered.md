@@ -6,7 +6,7 @@ Their industries, cultures, and starting points differ widely. A global bank and
 
 This chapter presents nine of those lessons, each abstracted from what these leaders actually did. The structure is deliberate: this is not a gallery of case studies. Each lesson is a transferable takeaway that applies regardless of sector, geography, or company size. The case companies (BBVA, ING, Siemens, Allianz, Klarna, Schneider Electric) appear where they best illustrate a lesson, not as stories to admire from a distance.
 
-A leader reading this chapter should walk away not with admiration for any single company, but with a decision checklist they can apply to their own organisation tomorrow.
+A leader reading this chapter should walk away with a decision checklist they can apply to their own organisation tomorrow.
 
 One note on how to read these lessons. They are presented individually, but they are not independent. Governance (Lesson 2) enables pilot-to-production speed (Lesson 5). CEO ownership (Lesson 1) makes the hybrid model possible (Lesson 6), because only a leader who is in the room can make the call to bring humans back. Measurement discipline (Lesson 4) funds people reinvestment (Lesson 9). The nine lessons form a system. The companies that applied several simultaneously compounded the benefits. Those that cherry-picked one or two without the others found the results more fragile than expected.
 
@@ -34,7 +34,7 @@ At ING, the CEO sits on the AI Ethics Committee that reviews every use case. At 
 
 In every company that scaled AI successfully, the most senior leader in the organisation was personally, visibly, and continuously in the room. Not sponsoring from a distance. Not reviewing quarterly dashboards. Sitting in training sessions, reviewing use cases, and holding the AI agenda as their own.
 
-This is not about symbolism. When the chairman trains alongside employees, it removes the single biggest barrier to adoption: the perception that AI is someone else's project. When the CEO sits on the ethics committee, governance becomes strategic, not bureaucratic. When the chief executive publicly reverses a decision that went too far, the organisation learns that honest assessment matters more than protecting a narrative.
+This matters beyond symbolism. When the chairman trains alongside employees, it removes the single biggest barrier to adoption: the perception that AI is someone else's project. When the CEO sits on the ethics committee, governance becomes strategic, not bureaucratic. When the chief executive publicly reverses a decision that went too far, the organisation learns that honest assessment matters more than protecting a narrative.
 
 ### Lesson 2: Govern first, experiment second
 
@@ -66,7 +66,7 @@ The mistake organisations make is choosing one or the other. A purely centralise
 
 ### Lesson 4: Measure what the board cares about
 
-The leaders do not stare blindly at AI activity. They do not obsess over pilots launched, models deployed, or tokens processed as if volume were value. They measure business outcomes: time saved, revenue generated, cost reduced, quality improved. Every AI initiative has a business KPI attached before it launches.
+The leaders do not stare blindly at AI activity. They do not obsess over pilots launched, models deployed, or tokens processed by product line as if volume were value. They measure business outcomes: time saved, revenue generated, cost reduced, quality improved. Every AI initiative has a business KPI attached before it launches.
 
 Leading organisations measure business outcomes: time saved, revenue generated, and quality improved. BBVA reports significant weekly time savings per employee and a dramatic reduction in customer query handling time. ING has seen substantial productivity gains in operations, while Siemens reports massive capacity increases and a sharp reduction in lead times at its most advanced factories.
 
@@ -80,7 +80,7 @@ Before any AI initiative launches, it should have a defined business KPI, a base
 
 ### Lesson 5: Close the pilot-to-production gap
 
-This lesson addresses the single largest structural failure in enterprise AI. While the industry average for pilots reaching production is low, the leading organisations achieve success rates that are several times higher. The difference is not better technology; it is organisational readiness.
+This lesson addresses the single largest structural failure in enterprise AI. While the industry average for pilots reaching production is low, the leading organisations achieve success rates that are several times higher. The difference is organisational readiness.
 
 ING's 90% rate, the benchmark, was achieved through three things: a centralised platform with standardised models, five clearly defined strategic domains (not an open-ended AI programme), and executive accountability for scaling. Every pilot has a path to production before it begins. If it does not, it does not start.
 
@@ -96,7 +96,7 @@ Full automation is not the goal. The leaders have learned, some painfully, that 
 
 Klarna provides the clearest cautionary example. By mid-2025, its push towards automation had visibly gone too far. The leadership publicly acknowledged that focusing too predominately on cost led to a decline in quality. Klarna began re-hiring human agents for complex and emotionally charged cases, positioning human support as a premium service while AI handles routine tasks.
 
-The data supports the pivot: a vast majority of customers prefer empathy over speed for complex issues.[^102] Siemiatkowski's summary is worth quoting in full: "AI gives us speed. Talent gives us empathy."
+The data supports the pivot: a vast majority of customers prefer empathy over speed for complex issues.[^102] Klarna CEO Siemiatkowski's summary is worth quoting in full: "AI gives us speed. Talent gives us empathy."
 
 The contrast with companies that designed hybrid from the start is instructive. Allianz's Project Nemo uses seven AI agents for claims processing but keeps humans in the final decision-making loop. The design choice was deliberate: in insurance, a fully automated denial carries reputational and legal risk that no efficiency gain justifies. ING operates with "human in the loop" as standard practice across all AI-enhanced processes. Siemens' Industrial Copilot assists engineers on the shop floor; it generates code and troubleshoots faults, but the engineer decides whether to apply the recommendation. Cedrik Neike, Siemens' Digital Industries CEO, frames this clearly: industrial AI requires "multimodal, industrial-grade foundation models, built to understand machines, workflows, and real-world constraints". The copilot is a partner, not a replacement.
 
@@ -116,7 +116,7 @@ Schneider Electric's Trust Charter governs all operations, with responsible AI e
 
 Research on AI-leading European firms confirms the pattern. The 11% of European companies classified as "AI Achievers", generating 50% greater revenue growth than peers, share a defining trait: they designed AI responsibly from the start, not as an afterthought.[^103]
 
-This lesson has particular weight for European leaders. The temptation to view the EU AI Act as a burden is understandable but misguided. The companies in this chapter demonstrate a different approach: treat every compliance requirement as an opportunity to build a capability your competitors will eventually need but do not yet have. Data quality, documentation discipline, human oversight protocols, bias testing: these are not costs. They are investments in a moat that widens as regulation spreads globally.
+This lesson has particular weight for European leaders. The temptation to view the EU AI Act as a burden is understandable but misguided. The companies in this chapter demonstrate a different approach: treat every compliance requirement as an opportunity to build a capability your competitors will eventually need but do not yet have. Data quality, documentation discipline, human oversight protocols, bias testing: these are investments in a moat that widens as regulation spreads globally.
 
 ### Lesson 8: Move fast, build in weeks, deploy in months
 
@@ -126,7 +126,7 @@ Allianz built Project Nemo, a seven-agent claims processing workflow, from conce
 
 Project Nemo's 100-day arc is the strongest counterargument to the perception that European companies are slow or that governance slows deployment. The secret is not less governance. It is the right governance: standardised platforms, centralised tooling, clear decision criteria, and pre-aligned compliance. When the guardrails are already in place, teams do not need to negotiate them for every project. They move fast within clear boundaries.
 
-Speed and governance are not opposites. They are complements. The leaders who govern well deploy fast, precisely because their teams do not waste time negotiating permissions, building compliance cases, or retrofitting oversight onto tools already in production.
+Speed and governance are complements. The leaders who govern well deploy fast, precisely because their teams do not waste time negotiating permissions, building compliance cases, or retrofitting oversight onto tools already in production.
 
 If your deployment timelines are long, examine whether the cause is excessive caution or insufficient preparation. In most organisations, it is the latter. A well-governed platform with pre-approved security, pre-aligned compliance, and standardised tooling reduces the time from idea to production. A poorly governed environment, where every project must negotiate its own compliance path, guarantees delay.
 
@@ -156,9 +156,9 @@ Step back from the individual lessons and a governance pattern emerges across al
 
 **Third, the workforce contract must evolve.** If AI savings flow only to the P&L and not back to employees, adoption stalls and trust erodes. Lessons 6 and 9 make this case with hard numbers: Klarna's 60% pay increase, ING's 5,000 trained employees, Allianz's 12,000 upskilled. The board question is not "how much did AI save?" but "where did the savings go?"
 
-For European boards specifically, the EU AI Act creates a governance forcing function. But the leaders treated it as an opportunity before regulators required it. Allianz signed the EU AI Pact months ahead of any deadline. ING's governance model was built for operational excellence, not regulatory compliance, and alignment with the Act came as a natural consequence.
+For European boards specifically, the EU AI Act creates a governance forcing function. The leaders in this chapter treated it as an opportunity. ING's governance model was built for operational excellence, and alignment with the Act came as a natural consequence.
 
-The board question is not "are we compliant?" but "are we converting compliance into competitive advantage?" The nine lessons, taken together, form a checklist against which any board can assess its organisation's AI transformation. Not as a theoretical exercise, but as a practical diagnostic that reveals where action is needed most.
+The board question is not whether the organisation is compliant, but whether it is converting compliance into competitive advantage. The nine lessons, taken together, form a checklist against which any board can assess its organisation's AI transformation. As a practical diagnostic that reveals where action is needed most.
 
 ## From Lessons to Playbook
 

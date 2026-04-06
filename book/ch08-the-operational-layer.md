@@ -2,7 +2,7 @@ Chapter 5 laid out the map: the AI Transformation Framework, four layers from Vi
 
 Industry standards for transformation identify a clear hierarchy of effort. The vast majority of focus must be placed on people and processes, with far smaller shares dedicated to technology and algorithms.[^75] Most organisations get this balance backwards, pouring capital into models and platforms whilst leaving roles and workflows unchanged.
 
-Research confirms a dramatic gap between recognition and action. Whilst almost all leaders acknowledge that agentic AI requires a new operating model, only a tiny fraction have begun to upskill their teams.[^76] Most initiatives fail to move past the pilot stage because of operating model inertia. The problem is not technology, but structures designed for an era before agents.
+Research confirms a dramatic gap between recognition and action. Whilst almost all leaders acknowledge that agentic AI requires a new operating model, only a tiny fraction have begun to upskill their teams.[^76] Most initiatives fail to move past the pilot stage because of operating model inertia. The problem is structures designed for an era before agents.
 
 This chapter breaks the Operating Model layer into its components. Who does the work. What skills they need. How processes run. How the organisation is structured. The answers require redesign, not incremental adjustment.
 
@@ -24,7 +24,7 @@ Three roles are emerging as the defining positions of the agentic era.
 
 Most employer-sought skills will endure, but they will be applied differently in partnership with AI. The change is from producing first drafts to framing questions, validating outputs, and applying judgment.
 
-AI fluency demand has grown nearly sevenfold in two years, spreading beyond technical roles into management, finance, healthcare, and frontline services.[^78] The complementary skills that matter most, critical thinking, adaptability, quality assurance, coaching, and decision-making, are human skills. They do not become less valuable; they become more so.
+AI fluency demand has grown nearly sevenfold in two years, spreading beyond technical roles into management, finance, healthcare, and frontline services.[^78] The complementary skills that matter most, critical thinking, adaptability, quality assurance, coaching, and decision-making, are human skills. They become more valuable.
 
 Human-agent collaboration moves beyond using AI as a tool to working with it as a partner. It is a shared workspace where agents execute autonomous tasks whilst humans provide strategic direction, ethical oversight, and high-level judgment. This partnership allows the organisation to combine machine speed and scale with human nuance and accountability.
 
@@ -32,7 +32,7 @@ Human-agent collaboration moves beyond using AI as a tool to working with it as 
 >
 > Human-agent collaboration is a working relationship in which humans and AI agents act as a unified team to achieve shared outcomes.
 
-To grow in this environment, individuals must develop hybrid competencies that merge domain expertise with AI orchestration. Training focuses on decomposing complex goals into steps that agents can execute, validating reasoning rather than just output, and managing synthetic talent with the same rigour as human teams. These are not technical skills, but cognitive and managerial ones.
+To grow in this environment, individuals must develop hybrid competencies that merge domain expertise with AI orchestration. Training focuses on decomposing complex goals into steps that agents can execute, validating reasoning rather than just output, and managing synthetic talent with the same rigour as human teams. These are cognitive and managerial skills.
 
 This collaboration is most effective when it reaches dynamic delegation. In this state, the human knows instinctively when to let the agent lead for speed and when to re-assert control for complex ethics or empathy. It requires a high degree of trust in the system, balanced by the constant, critical validation of results.
 
@@ -96,7 +96,7 @@ Only 21% of organisations have rigorous AI governance.[^76] The gap is widest in
 
 For European leaders, the operating model shift includes a dimension that does not apply in the same way elsewhere: social dialogue. While many trade unions are still developing their response to AI, formal engagement is rising. As more employees encounter algorithmic management, this dialogue becomes a critical part of the transition.
 
-This is not an obstacle. When the operating model is redesigned with works council engagement from the outset, the result is higher trust and more durable change. The leader who treats social dialogue as a governance advantage rather than a compliance burden builds a more resilient Agentic Organisation.
+When the operating model is redesigned with works council engagement from the outset, the result is higher trust and more durable change. The leader who treats social dialogue as a governance advantage rather than a compliance burden builds a more resilient Agentic Organisation.
 
 Span of control is shifting as well. McKinsey envisions one manager with a small human team orchestrating hundreds of agents running autonomously across workflows around the clock.[^77] Traditional hierarchies give way to flexible configurations of human-agent teams. This is the organisational consequence of moving from stand-alone agents through agent groups to full agentic networks.
 
@@ -140,7 +140,7 @@ Allianz, Europe's largest insurer, faced a dilemma that crystallises the Operati
 
 Insurance is a trust business. Policyholders, regulators, and employees watch workforce decisions with scrutiny, and in Europe that scrutiny has institutional weight. Allianz was not a company in distress. It was a market leader choosing to transform from a position of strength, which raised rather than lowered the standard for how the transition would be managed.
 
-COO Barbara Karuth-Zelle framed the decision explicitly: "Digital and AI transformations are not mainly about the technology but rather the mindset, the people, and the organisation." This was not rhetoric. The operating model, roles, skills, team structures, and processes, was treated as the primary transformation target, with technology as the enabler.
+COO Barbara Karuth-Zelle framed the decision explicitly: "Digital and AI transformations are not mainly about the technology but rather the mindset, the people, and the organisation." She meant it concretely. The operating model, roles, skills, team structures, and processes, was treated as the primary transformation target, with technology as the enabler.
 
 The competitive context was pressing. ING had achieved a 90% pilot-to-production rate through centralised AI infrastructure. BBVA had embedded 300 "AI wizards" in business units. Across European financial services, agentic AI was moving from experiment to operations. The European social dialogue framework shaped the boundaries. Only 20% of EU trade unions have collective bargaining agreements addressing AI, but 42% are engaged in formal discussions.[^78] Workforce restructuring at Allianz required works council negotiation, transparent communication, and a credible plan for affected employees.
 

@@ -6,27 +6,27 @@ Talent will be compounding, not departing, and data moats will be deepening with
 
 The second will still be piloting. Still forming committees. Still debating governance frameworks that its competitors adopted two years earlier. Still waiting for the next board cycle. Its best people will have left for the first organisation. Its data will be no richer than it was three years ago. Its board will be asking why the investment has not delivered.
 
-By late in the decade, a large portion of enterprise software will include agentic capabilities, and we expect a massive increase in AI-driven decision-making authority. The organisations that reach that point with mature workflows, trained people, and governance infrastructure will compound their advantage. Those arriving late will find the cost of catching up has grown beyond what any single investment cycle can absorb.
+By late in the decade, a large portion of enterprise software will include agentic capabilities, and a massive increase in AI-driven decision-making authority is expected. The organisations that reach that point with mature workflows, trained people, and governance infrastructure will compound their advantage. Those arriving late will find the cost of catching up has grown beyond what any single investment cycle can absorb.
 
 The gap between these two organisations is no longer closable on a five-year horizon. Transitions that once took five to seven years now take one to three. The window is narrowing, and for some it has already closed.
 
 ## The Compounding Cost of Inaction
 
-The cost of waiting is not zero. It compounds across three dimensions, and each one is measurable.
+The cost of waiting compounds across three dimensions, and each one is measurable.
 
 **Competitive.** The performance gap between those who scale AI and those who do not is widening on every metric that matters. Future-built companies achieve significantly higher revenue growth, shareholder returns, and profit margins compared to laggards.[^116] While a majority of companies still report minimal value, the leaders are pulling away.
 
 As PwC's Global Chairman Mohamed Kande put it: "That gap is starting to show up in confidence and competitiveness, and it will widen quickly for those that don't act."
 
-Leading companies are doubling AI spend in 2026 regardless of immediate returns, and are not pulling back.[^117] The organisations generating value are not merely saving costs. They are reinvesting AI gains into new products, capabilities, and R&D, creating a self-reinforcing flywheel that widens the advantage each cycle.
+Leading companies are doubling AI spend in 2026 regardless of immediate returns, and are not pulling back.[^117] The organisations generating value are not merely saving costs. They are reinvesting AI gains into new products, people, capabilities, and R&D, creating a self-reinforcing flywheel that widens the advantage each cycle.
 
 **Talent and culture.** Europe faces a talent crisis that is compounding faster than most leaders have accounted for. Demand for AI roles has surged dramatically in major economies like Germany, the UK, and Ireland.[^118] A significant portion of employers in specialised sectors report they cannot fill current AI positions, and many business leaders feel underprepared to lead in this new environment.
 
-The best AI talent gravitates toward organisations that are already scaling. You cannot hire your way out of a multi-year deficit. Leaders who combine AI fluency with inclusive management report massive productivity improvements, far exceeding those who lack these core capabilities. The gap is not closing; it widens with every quarter of inaction.
+The best AI talent gravitates toward organisations that are already scaling. You cannot hire your way out of a multi-year deficit. Leaders who combine AI fluency with inclusive management report massive productivity improvements, far exceeding those who lack these core capabilities. The gap widens with every quarter of inaction.
 
 What compounds and becomes irreversible are data assets, organisational culture, talent pipelines, and trust. What can be caught up later: specific technology choices and tooling. The real cost is not the technology you have not bought. It is the capability you have not built.
 
-**Regulatory.** The EU AI Act's August 2026 deadline for high-risk systems is not a distant planning horizon. It is months away. 
+**Regulatory.** The EU AI Act's August 2026 deadline for high-risk systems is months away. 
 
 Organisations that have been building responsible AI will convert compliance into competitive advantage. Those that have not will be forced to comply defensively, spending resources on catch-up rather than innovation.
 
@@ -48,27 +48,25 @@ The companies referred to in this book are European companies, in Madrid, Amster
 
 ## The Invitation
 
-This book has argued that the Agentic Organisation, where humans and AI agents work side by side to create value at scale, is the defining organisational paradigm of the next decade. We introduced the AI Transformation Framework (Vision, Products, Operating Model, Foundation) and the Four Tiers of Transformation (Individual Augmentation, Task & Workflow Automation, Functional Agentic Workflows, Cross-functional Agentic Workflows). We provided the decision lens of Value, Capabilities, and Trust.
+This book has argued that the Agentic Organisation, where humans and AI agents work side by side to create value at scale, is the defining organisational paradigm of the next decade. It introduced the AI Transformation Framework (Vision, Products, Operating Model, Foundation) and the Four Tiers of Transformation (Individual Augmentation, Task & Workflow Automation, Functional Agentic Workflows, Cross-functional Agentic Workflows). It provided the decision lens of Value, Capabilities, and Trust.
 
-We showed that Europe's regulatory clarity, talent depth, and institutional pragmatism are advantages, not handicaps, when leaders choose to lead. We provided a playbook (Chapter 13), a diagnostic (Chapter 14), and a governance framework (Chapter 15) to move from intent to action.
+The preceding chapters showed that Europe's regulatory clarity, talent depth, and institutional pragmatism are advantages, not handicaps, when leaders choose to lead. This book also provided a playbook (Chapter 13), a diagnostic (Chapter 14), and a governance framework (Chapter 15) to move from intent to action.
 
 What remains is the decision. Not the decision to "explore AI" or to "form a working group" or to "assess the landscape." The decision to transform. To commit resources, redesign workflows, retrain people, and hold the organisation accountable for outcomes, not experiments.
 
 Five actions will determine whether your organisation is among the 5% or the 60%:
 
-1. Run the Readiness diagnostic (Chapter 14) before your next board meeting.
-2. Put AI transformation on the board agenda as a strategy discussion, not a technology update (Chapter 15).
-3. Choose one high-value process where Value, Capabilities, and Trust align (Chapter 10) and commit to moving it from pilot to production within 90 days (Chapter 13).
+1. Run the Readiness diagnostic before your next board meeting.
+2. Put AI transformation on the board agenda as a strategy discussion, not a technology update.
+3. Choose one high-value process where Value, Capabilities, and Trust align and commit to moving it from pilot to production with.
 4. Block time for your own AI upskilling. Trailblazer leaders invest eight or more hours per week.
-5. Name a board-level sponsor and a domain leader who owns the outcome (Chapter 2).
+5. Name a board-level sponsor and a domain leader who owns the outcome.
 
 Europe has always built things that last: institutions, industries, infrastructure. Regulation that protects whilst enabling. Standards that cross borders. The Agentic Organisation is the next thing to build, and Europe's leaders are equipped to build it well.
 
 The builders are identifiable. They are in this book, in your sector, in your region. The window is narrowing, but it is open for those who move.
 
-The Agentic Organisation is not a prediction. It is being built, in Madrid, in Amsterdam, in Munich, in Stockholm, in Paris. The only question is whether you are building it, too.
-
-You don't delegate the revolution.
+The Agentic Organisation is being built, in Madrid, in Amsterdam, in Munich, in Stockholm, in Paris. The only question is whether you are building it, too.
 
 [^116]: BCG, "The Widening AI Value Gap", October 2025 — https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf
 [^117]: BCG, "AI Radar 2026: As AI investments surge, CEOs take the lead", January 2026 — https://www.bcg.com/press/15january2026-as-ai-investments-surge-ceos-take-lead
@@ -82,4 +80,4 @@ You don't delegate the revolution.
 2. Who in your organisation owns the AI transformation outcome, not the technology, but the organisational redesign? Is it you?
 3. Can you name the one process you would move from pilot to production in the next 90 days? What is stopping you from starting tomorrow?
 4. How many hours per week do you personally spend learning about AI and its implications for your business? Is it enough?
-5. When did you last discuss AI transformation at board level, not as a technology update, but as the defining strategic question of the next decade?
+5. When did you last discuss AI transformation at board level, as the defining strategic question of the next decade?

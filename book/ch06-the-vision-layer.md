@@ -22,7 +22,7 @@ Contrast this with leaders who personally shaped AI direction and stayed in the 
 
 At DBS Bank, CEO Piyush Gupta did not set a vision of "use more AI." He reframed the competitive set entirely, benchmarking against Google, Amazon, and Netflix rather than other banks. The vision, "make banking joyful," was human-centred, specific, and concrete enough to direct every subsequent strategy decision across a decade of transformation.
 
-Most organisations have ambition in abundance. What they lack is a vision that connects that ambition to the business strategy, translates it into objectives, and holds when the pressure arrives.
+Most organisations have ambition in abundance. What they need is a vision that connects that ambition to the business strategy, translates it into objectives, and holds when the pressure arrives.
 
 ## Four Elements
 
@@ -54,7 +54,7 @@ As Chapter 2 showed, the DBS cascade illustrates this in practice. The vision, "
 
 Values in the Vision Layer are not aspirational statements printed on a poster. They are decision rules that hold when trade-offs arrive. Every AI transformation produces moments where speed conflicts with trust, efficiency conflicts with empathy, and automation conflicts with human oversight.
 
-As explored in Chapter 3, Klarna discovered this concretely. Its fully automated customer service assistant reduced resolution times from eleven minutes to two. The company initially celebrated. Then it reversed course after identifying an empathy gap that damaged customer relationships. The values question is not what the organisation aspires to in a strategy document. It is what it will choose when two good things conflict.
+As explored in Chapter 3, Klarna discovered this concretely. Its fully automated customer service assistant reduced resolution times from eleven minutes to two. The company initially celebrated. Then it reversed course after identifying an empathy gap that damaged customer relationships. The values question is what the organisation will choose when two good things conflict.
 
 DBS operationalised this through a cross-functional Responsible AI Council, composed of senior leaders from legal, risk, and technology, which oversees and approves every AI use case against both legal requirements and the bank's ethical standards. The council is the Vision Layer in institutional form: it makes the values operational rather than aspirational. Values that hold under pressure are demonstrated through governance commitments: explainability, fairness, resilience, auditability, and consistent behaviour under stress.
 
@@ -62,21 +62,21 @@ DBS operationalised this through a cross-functional Responsible AI Council, comp
 
 A Vision Layer that is launched but not sustained is a press release, not a direction. Communication rhythm means the leader communicates, reinforces, and governs against the vision as a sustained cadence, not as a single event.
 
-At McKinsey, the internal refrain "Have you asked Lilli?" embedded the AI vision into daily behaviour across the firm. At BBVA, 250 senior leaders, including the chairman, learned AI capabilities hands-on, a signal that the vision was not delegated downward but modelled from the top. These are governance acts: visible, repeated demonstrations that the vision is active and that leadership is accountable to it.
+At McKinsey, the internal refrain "Have you asked Lilli?" embedded the AI vision into daily behaviour across the firm. At BBVA, 250 senior leaders, including the chairman, learned AI capabilities hands-on, a signal that the vision was modelled from the top. These are governance acts: visible, repeated demonstrations that the vision is active and that leadership is accountable to it.
 
-Leadership engagement means something specific here. It is not signing off a vision deck or receiving a quarterly AI update. It is sustaining a rhythm of communication, reinforcement, and visible participation that keeps the vision present in every significant decision.
+Leadership engagement means something specific here. It means sustaining a rhythm of communication, reinforcement, and visible participation that keeps the vision present in every significant decision.
 
 There is a transition test for communication rhythm. When the leader who set the vision steps away, does the vision survive? At DBS, Piyush Gupta stepped down in March 2025 after a sixteen-year tenure. The transformation he initiated has continued because the vision was embedded in governance structures, cultural practices, and measurable objectives, not held together by a single personality.
 
 ## Governing by Vision, Not by Initiative
 
-The Vision Layer becomes a governance instrument when the board governs against it rather than merely approving it. Three questions should accompany every strategic AI decision. Does this advance the vision? Does it align with our values under pressure? Does it cascade into objectives we can measure? These questions replace the default mode of evaluating AI initiatives one at a time, on their individual merits, with no shared reference point.
+The Vision Layer becomes a governance instrument when the board governs against it rather than merely approving it. Three questions should accompany every strategic AI decision. Does this advance the vision? Does it align with the organisation's values under pressure? Does it cascade into measurable objectives? These questions replace the default mode of evaluating AI initiatives one at a time, on their individual merits, with no shared reference point.
 
 Initiative-by-initiative governance is how organisations end up with forty pilots and no transformation.
 
 As Chapters 1 and 2 established, the board governance gap remains acute. Two-thirds of boards report limited AI knowledge. Only fourteen per cent discuss AI at every meeting. Fiduciary duty now explicitly extends to AI oversight: boards must verify that management has identified all AI systems, classified them by risk level, and assigned accountability. Passive awareness is no longer a defensible position.
 
-The Vision Layer gives boards a structure to govern against, not a technology update to receive. A board that can ask, "Does this initiative advance our Strategic Anchor, align with our Values Under Pressure, and cascade into measurable objectives?" is governing transformation. A board that asks, "How is the AI programme going?" is not.
+The Vision Layer gives boards a structure to govern against, not a technology update to receive. A board that can ask, "Does this initiative advance the Strategic Anchor, align with Values Under Pressure, and cascade into measurable objectives?" is governing transformation. A board that asks, "How is the AI programme going?" is not.
 
 ## From Direction to Design
 

@@ -2,7 +2,7 @@ Ask a CEO where their organisation's AI strategy lives, and you will get a confi
 
 The Products layer of the AI Transformation Framework, as introduced in Chapter 5, is where strategy meets the customer. It is also the layer most commonly delegated to product teams or IT rather than owned at the leadership table.
 
-This delegation would be unremarkable if the Products layer were a technical question. It is not. It is the strategic question of where to play and how to win, applied to AI.
+This delegation would be unremarkable if the Products layer were a technical question. It is the strategic question of where to play and how to win, applied to AI.
 
 The same leader who personally shapes market positioning, competitive strategy, and investment allocation across business units routinely hands the AI product strategy to a product owner three levels down. The result: AI features that look impressive in a board presentation but fail to compound into differentiated customer value.
 
@@ -12,7 +12,7 @@ The Products layer is a leadership exercise. It must be completed for every busi
 
 Most organisations are not short of AI features. Chatbots handle customer queries. Recommendation engines surface products. Copilots assist internal teams. The problem is that these features exist in isolation, built without a coherent product strategy that connects them to customer value, journey by journey, unit by unit.
 
-We have seen earlier how the vast majority of AI use cases remain stuck in pilot, never graduating to production at scale.[^61] At the same time, the channels through which products reach customers are shifting.
+As noted earlier in this book, the vast majority of AI use cases remain stuck in pilot, never graduating to production at scale.[^61] At the same time, the channels through which products reach customers are shifting.
 
 Approximately 60% of global searches now end without a click. On mobile, zero-click rates reach 77%. When AI-generated overviews appear, 83% of searches produce no click at all.[^62] Bain has called this "the most consequential shift in discovery since the search bar".[^63]
 
@@ -24,7 +24,7 @@ Yet 73% of B2B buyers now expect personalised, consumer-grade experiences.[^66] 
 
 The AI Product Canvas is a model that defines the Products layer for each business unit or department. It operationalises Layer 2 of the AI Transformation Framework by asking five questions that every business unit head and their leadership team must answer together.
 
-The AI Product Canvas
+![AI Product Canvas](images/ch07-ai-product-canvas.png)
 
 **1. Value Proposition.** What business value does AI deliver to this unit's customers? This is not about internal efficiency. It is about what the customer receives that they could not receive without AI: faster resolution, better recommendations, predictive insights, or entirely new services.
 
@@ -56,7 +56,7 @@ First, the Product Layer determines competitive positioning per market segment. 
 
 Second, the Product Layer shapes investment allocation across business units. Charging general managers with AI targets, rather than delegating to the CIO, is the governance move most strongly correlated with AI maturity. High-performing organisations are far more likely to report strong senior leadership ownership of use cases.
 
-Third, in Europe, product compliance obligations under the EU AI Act sit in the Products layer. High-risk AI systems (covering biometrics, credit scoring, insurance risk assessment, and employment decision tools) must meet transparency, documentation, and conformity requirements by the regulatory deadline. Consumer-facing AI features, including chatbots and AI-generated content, must notify users they are interacting with AI.
+Third, in Europe, product compliance obligations under the EU AI Act sit in the Products layer. High-risk AI systems (covering biometrics, credit scoring, insurance risk assessment, and employment decision tools) must meet transparency, documentation, and conformity requirements. Consumer-facing AI features, including chatbots and AI-generated content, must notify users they are interacting with AI. Chapter 11 covers the regulatory timeline in detail.
 
 These are product design decisions, not IT compliance tasks. They require board-level awareness and strategic choices about which products to classify, how to design for transparency, and where compliance becomes a trust advantage. A growing number of companies, including Allianz and Deutsche Telekom, have signed the EU AI Pact, positioning proactive compliance as a competitive signal. Research indicates that a majority of European consumers would switch to the first company that proves AI transparency.
 
@@ -98,7 +98,7 @@ The external pressure was real. AI-referred orders were growing rapidly: by earl
 
 Internally, Shopify had already built individual AI capabilities: Shopify Magic for AI-native content generation, and early versions of Sidekick as a merchant chatbot. The question was whether these would remain discrete tools or become part of a coherent product architecture. CEO Tobi Lütke resolved the question clearly: reflexive AI usage was now a baseline expectation. Teams would need to demonstrate why AI could not do a job before requesting additional headcount. AI was not a feature; it was the operating standard.
 
-The Universal Commerce Protocol, developed with Google and subsequently adopted by Wayfair, Etsy, Walmart, and Target, represented the most consequential expression of this logic. It was not a feature update. It was a repositioning of Shopify within the emerging AI-mediated commerce infrastructure, creating an agent-native distribution channel that did not exist before AI.
+The Universal Commerce Protocol, developed with Google and subsequently adopted by Wayfair, Etsy, Walmart, and Target, represented the most consequential expression of this logic. It was a repositioning of Shopify within the emerging AI-mediated commerce infrastructure, creating an agent-native distribution channel that did not exist before AI.
 
 ### The Costs of Platform-Wide Commitment
 
@@ -107,7 +107,7 @@ Shopify's platform-wide commitment carried genuine costs:
 - **Merchant readiness was uneven.** Embedding AI across all product surfaces assumed a level of merchant capability that many smaller sellers did not yet have. Building for the platform's potential rather than its current median user meant accepting a gap between what Shopify offered and what a significant portion of its base could immediately use.
 - **Speed of release increased risk.** The Winter '26 Edition contained more than 150 AI product updates. Releasing across that breadth simultaneously increased the risk of inconsistent experience, support burden, and feature fatigue for merchants already managing complex operations.
 - **Pricing simplicity was sacrificed.** Making Shopify Magic free for all plan subscribers, with no premium tier or usage limits, surrendered what could have been a meaningful revenue line. The bet was that embedded AI would drive platform stickiness and GMV growth, but that trade-off was not guaranteed at the time the decision was made.
-- **Organisational alignment demanded CEO attention.** A platform-wide mandate required every business unit to execute against the same product principle. This is not a product management task; it is a leadership task, and it required Lütke's visible commitment to hold.
+- **Organisational alignment demanded CEO attention.** A platform-wide mandate required every business unit to execute against the same product principle. This is a leadership task, and it required Lütke's visible commitment to hold.
 
 ### Revenue, GMV, and Tenfold Productivity
 
@@ -121,10 +121,10 @@ The platform-level outcome Lütke described: some colleagues contributing ten ti
 
 ### The Product Canvas as a Board-Level Instrument
 
-Shopify is a technology company. European CEOs running industrial manufacturers, insurers, logistics firms, or financial services institutions may feel the lesson is for a different kind of organisation. It is not. Every organisation has products or services delivered as products, and every customer journey can either be AI-native or bolt-on.
+Shopify is a technology company. European CEOs running industrial manufacturers, insurers, logistics firms, or financial services institutions may feel the lesson is for a different kind of organisation. Every organisation has products or services delivered as products, and every customer journey can either be AI-native or bolt-on.
 
 The product-layer question, which the AI Product Canvas is designed to answer, is the same for a Düsseldorf insurer as for a Canadian commerce platform: have you defined, for each business unit, what AI delivers to your customers, in which moments, through which channels, and which frictions it removes?
 
-The Shopify lesson is not about technology. It is about leadership. Lütke did not delegate the product strategy to product management. He made it a CEO-level decision and held the organisation to it, unit by unit.
+The Shopify lesson is about leadership. Lütke did not delegate the product strategy to product management. He made it a CEO-level decision and held the organisation to it, unit by unit.
 
 That is the governance principle European leaders should take from this case: the AI Product Canvas is not a document for your product team to complete. It is a strategic instrument that belongs in the same conversation as market positioning, investment allocation, and competitive differentiation, and it requires the same level of leadership ownership.

@@ -10,7 +10,7 @@ Each tier requires different leadership. Each demands different governance. Each
 
 ## Why Capability Fails to Compound
 
-Individual adoption has massively outpaced organisational readiness. This gap with the limited organisational maturity is not accidental. It is the predictable result of most leaders getting the sequence wrong: investing in enterprise-level ambitions before building the individual fluency and team-level norms on which those ambitions depend.
+Individual adoption has massively outpaced organisational readiness. This gap with the limited organisational maturity is the predictable result of most leaders getting the sequence wrong: investing in enterprise-level ambitions before building the individual fluency and team-level norms on which those ambitions depend.
 
 The evidence for bottom-up sequencing is consistent. Enterprise deployments that succeed empower power users and line managers rather than relying on centralised labs. As Chapter 1 established, the vast majority of real value comes from people, processes, and culture. This foundation is built tier by tier and cannot be installed from the top.
 
@@ -68,7 +68,7 @@ Consider a finance workflow redesigned at Tier 3. Agent 1 extracts invoice data.
 
 In wealth management, one global firm reduced meeting preparation from two to three hours to 15 minutes by consolidating email, CRM, and portfolio data through agentic workflows. Document findability rose from 20% to 80% accessibility. Employee satisfaction increased by 22%.[^47] At Airbus, 10,000 engineers trained on AI coding tools achieved a 40% improvement in simulation cycle times.[^48] Across European organisations more broadly, industry analysis found that 56% increased profits or reduced costs through AI, with an average financial impact of over six million euros per firm.[^49]
 
-The leap from Tier 2 to Tier 3 is where the highest proportion of initiatives die. For every 33 proofs of concept that enter production pipelines, only four emerge.[^50] The gap is not technological. It is organisational: the inability to redesign workflows, reassign authority, and restructure teams around what agentic systems make possible. Most departments add AI to existing processes rather than redesigning the process around what AI enables. The difference between those two approaches is the difference between incremental improvement and structural transformation.
+The leap from Tier 2 to Tier 3 is where the highest proportion of initiatives die. For every 33 proofs of concept that enter production pipelines, only four emerge.[^50] The gap is organisational: the inability to redesign workflows, reassign authority, and restructure teams around what agentic systems make possible. Most departments add AI to existing processes rather than redesigning the process around what AI enables. The difference between those two approaches is the difference between incremental improvement and structural transformation.
 
 ### Tier 4: Cross-Functional Agentic Workflows
 
@@ -76,7 +76,7 @@ Cross-functional agentic workflows represent the final tier, where transformatio
 
 At Tier 4, a demand surge in one region can trigger, within seconds, AI agents that reallocate advertising spend, adjust pricing, reroute stock, and refresh creative assets across the entire organisation. An insurer can personalise campaigns across hundreds of microsegments, producing conversion rates two to three times higher and reducing call times by 25%.[^51]
 
-What makes this tier possible is not superior technology. It is trust, and the organisational conditions that trust requires. Digital-trust leaders are significantly more likely to achieve superior revenue and EBIT growth.[^52]
+What makes this tier possible is trust, and the organisational conditions that trust requires. Digital-trust leaders are significantly more likely to achieve superior revenue and EBIT growth.[^52]
 
 It is typical that large-scale transformations result in most organisations capturing only a fraction of their expected revenue gains and cost savings.[^53] The differentiator is rarely the level of technology investment. Organisations that prioritise cultural change alongside their technological shift achieve dramatically higher success rates than those that focus on the tools alone.
 
@@ -84,7 +84,7 @@ The governance architecture at Tier 4 typically evolves through three phases. A 
 
 Roughly 37% of large companies have established some form of Centre of Excellence;[^54] but is it evolving or becoming a bottleneck?
 
-The enterprise measure at this tier is not an AI metric. It is a business outcome: revenue growth, margin expansion, customer experience, speed to market. AI is the means. The organisation's strategic objectives are the measure.
+The enterprise measure at this tier is a business outcome: revenue growth, margin expansion, customer experience, speed to market. AI is the means. The organisation's strategic objectives are the measure.
 
 ## What Leaders Must Do at Each Tier
 

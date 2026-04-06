@@ -4,7 +4,7 @@ Chapters 1 and 2 established two preconditions: the scale of the shift and the n
 
 That gap between commitment and clarity is where investment scatters, pilots multiply without connecting, and the micro-productivity trap persists. Every subsequent decision, from hiring to governance to technology investment, needs an anchor. This chapter provides it.
 
-The Agentic Organisation is built on employees enabled by AI. The shift from task-doer to orchestrator is not a minor adjustment in job description. It is a fundamental redefinition of what it means to be productive, skilled, and valuable. The structured model that organises the full transformation, the AI Transformation Framework, comes in Chapter 5. This chapter lays the human and conceptual foundation.
+The Agentic Organisation is built on employees enabled by AI. The shift from task-doer to orchestrator is a fundamental redefinition of what it means to be productive, skilled, and valuable. The structured model that organises the full transformation, the AI Transformation Framework, comes in Chapter 5. This chapter lays the human and conceptual foundation.
 
 ## The Definition Gap
 
@@ -29,9 +29,9 @@ The Agentic Organisation, as defined in Chapter 1, is a company redesigned so th
 
 May Habib, CEO of Writer, framed the shift precisely at the World Economic Forum in 2025: "The enterprise was designed for a world where execution was the primary constraint. Today, execution is cheap, abundant and instantaneous. Now the constraint is orchestration."[^29]
 
-That single observation captures the transition at the heart of the Agentic Organisation. When AI agents can execute at near-zero marginal cost, the scarce resource is no longer the ability to do work. It is the ability to direct, coordinate, and judge the work that agents produce.
+That single observation captures the transition at the heart of the Agentic Organisation. When AI agents can execute at near-zero marginal cost, the scarce resource becomes the ability to direct, coordinate, and judge the work that agents produce.
 
-This is where the agentic employee enters. The term "agentic" itself means "capable of achieving outcomes independently." Applied to employees, it describes a person who is empowered, through AI, to achieve far more than they could alone, whilst maintaining accountability for outcomes. The agentic employee is not simply someone who uses AI tools. It is a fundamentally different way of working.
+This is where the agentic employee enters. The term "agentic" itself means "capable of achieving outcomes independently." Applied to employees, it describes a person who is empowered, through AI, to achieve far more than they could alone, whilst maintaining accountability for outcomes. The agentic employee goes beyond using AI tools; it describes a fundamentally different way of working.
 
 > **Definition: The Agentic Employee**
 >
@@ -66,7 +66,7 @@ The mindset shift required is substantial:
 
 The demand for this kind of fluency is growing at an extraordinary rate. Agentic AI fluency demand grew nearly sevenfold in two years. This is no longer a capability reserved for technical roles. It is foundational across every function: finance, HR, marketing, operations, legal, customer service, and product development all require people who can work effectively alongside agents.
 
-The shift from left column to right in the table above is not something that happens through a training programme alone. It requires redesigned roles, new performance metrics, and a culture that rewards orchestration and skill-sharing rather than individual output. That is an organisational design challenge, not a learning and development challenge.
+The shift from left column to right in the table above is not something that happens through a training programme alone. It requires redesigned roles, new performance metrics, and a culture that rewards orchestration and skill-sharing rather than individual output. That is an organisational design challenge.
 
 At the operational level, the agentic employee's work is built on two concepts that deserve explicit definition. Human-in-the-loop, also referred to as HITL, ensures that agents handle routine execution autonomously whilst humans retain oversight where judgment, accountability, or ethical consideration is required.
 
@@ -94,7 +94,6 @@ While most organisations now have AI agents running in production, only a minori
 
 Inconsistent decision boundaries and unmonitored agent actions lead to the proliferation of shadow agents. These are tools deployed by employees without oversight, creating hidden risks that the organisation is not yet equipped to manage.
 
-
 Governing the agentic employee requires three elements operating together.
 
 **Tiered autonomy** defines what agents and employees can do independently, with escalation to human oversight for high-impact decisions. An agent that schedules meetings operates with full autonomy. An agent that recommends credit decisions operates under supervision. An agent that triggers a financial transaction requires explicit human approval. The boundaries are risk-proportionate, not uniform.
@@ -109,7 +108,7 @@ As Allianz Chief Transformation Officer Maria Janssen described the approach beh
 
 For European organisations, the governance requirements carry additional specificity. The EU AI Act creates obligations that map directly onto the dimensions of the Agentic Organisation.
 
-AI literacy obligations under Article 4, in force since February 2025, require organisations to ensure sufficient AI literacy among all staff who interact with AI systems.[^33] Risk classification requirements, active from August 2026, demand governance of the technology and process layers.
+AI literacy obligations under Article 4, already in force, require organisations to ensure sufficient AI literacy among all staff who interact with AI systems.[^33] Risk classification requirements demand governance of the technology and process layers. Chapter 11 covers the full timeline.
 
 Data protection obligations under the GDPR intersect with agentic AI in ways that are already consequential. A simple AI scheduling agent can trigger purpose creep, special-category data rules, cross-border transfer restrictions, and prohibitions on fully automated processing, all in a single workflow.
 
@@ -123,7 +122,7 @@ Building governance into the design from the outset, rather than retrofitting it
 
 The Agentic Organisation is defined not by its technology but by its people: agentic employees who orchestrate rather than execute; three profiles that describe how work is distributed between humans and agents; skills that compound capability across the organisation; governance that keeps pace with deployment.
 
-But a picture is not a route. The next question is: how does transformation actually scale? The answer is not "everywhere at once." It progresses through four distinct tiers, each with different governance, different leadership demands, and different measures of success. Chapter 4 introduces The Four Tiers of Transformation, from the individual to the team to the department to the organisation, and shows why skipping a tier, or assuming one tier's success automatically produces the next, is the most common structural mistake in AI programmes.
+But a picture needs a route. The next question is: how does transformation actually scale? The answer is not "everywhere at once." It progresses through four distinct tiers, each with different governance, different leadership demands, and different measures of success. Chapter 4 introduces The Four Tiers of Transformation, from the individual to the team to the department to the organisation, and shows why skipping a tier, or assuming one tier's success automatically produces the next, is the most common structural mistake in AI programmes.
 
 [^23]: Deloitte, "Tech Trends 2025", 2025 — https://www.deloitte.com/global/en/insights/focus/tech-trends.html
 [^24]: Capgemini Research Institute, "AI agents in the enterprise: How integrations unlock value from automation", 2025 — https://www.capgemini.com/insights/research-library/

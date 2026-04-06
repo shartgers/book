@@ -8,7 +8,7 @@ As Chapter 1 showed, organisations with strong executive sponsorship succeed at 
 
 In 2025, 72% of respondents identified the CEO as the primary AI decision-maker, up from one-third the year before. That near-doubling in a single year signals a recognition that is spreading rapidly: AI transformation is not something a leader sponsors from a distance. It is something a leader does.
 
-This chapter makes the case for what "in the room" actually requires, for leaders, their executive teams, and their boards. The argument is not that leadership matters. The argument is that the specific kind of leadership required for this transformation is categorically different from what most leaders are currently providing, and that the gap between the two is the single most correctable cause of failure.
+This chapter makes the case for what "in the room" actually requires, for leaders, their executive teams, and their boards. The specific kind of leadership required for this transformation is categorically different from what most leaders are currently providing, and the gap between the two is the single most correctable cause of failure.
 
 The distinction matters because it is correctable. Technology limitations, market timing, regulatory constraints: these are external variables that leadership can influence but not control. Whether the leadership is personally, visibly, and irreversibly committed to leading the transformation is entirely within the leader's control. It is the one variable most likely to determine success, and the one most frequently abdicated.
 
@@ -26,13 +26,13 @@ Most leaders frame AI as an IT project, a cost centre, or an experiment to bolt 
 
 The required mental model is the one Chapter 1 established: this is 80% business transformation and 20% technology transformation. That is a structural claim about where value is created and where it is lost, not a rhetorical device.
 
-The organisations stuck in the micro-productivity trap are investing heavily in the 20% and treating the 80% as a downstream consequence. It is not. It is the primary variable.
+The organisations stuck in the micro-productivity trap are investing heavily in the 20% and treating the 80% as a downstream consequence. The people and processes are the primary variable.
 
 The evidence of mismatch is stark. Organisations are abandoning AI initiatives at a rapidly accelerating rate.[^13] Failure in this field is now far more common than in traditional technology deployments.
 
-These are not technology failures. They are the predictable outcome of applying the wrong organisational model to a categorically different kind of change.
+These are the predictable outcome of applying the wrong organisational model to a categorically different kind of change.
 
-Meanwhile, the leaders who have adopted the right mental model are pulling away. Research consistently shows that only a small minority of firms achieve AI value at scale.[^14] Those that do commit far more than the average organisation, both in total investment and in workforce upskilling.[^15] They are not spending more on better algorithms. They are spending more on the organisational redesign that makes algorithms valuable.
+Meanwhile, the leaders who have adopted the right mental model are pulling away. Research consistently shows that only a small minority of firms achieve AI value at scale.[^14] Those that do commit far more than the average organisation, both in total investment and in workforce upskilling.[^15] They commit more to the organisational redesign that makes algorithms valuable.
 
 The paradox McKinsey calls the "GenAI Paradox" captures this precisely: the technology is advancing at exceptional speed and capability, while organisational value creation lags behind. Nearly eight in ten companies report using generative AI, yet just as many report no significant bottom-line impact.[^15] Usage without leadership-driven architecture produces activity, not outcomes. The organisations that have broken through the paradox did so not by finding better tools but by changing who owns the transformation and how the organisation is structured to absorb it.
 
@@ -48,11 +48,9 @@ What Chapter 1 established as a governance gap, this chapter reframes as a leade
 
 A board that cannot distinguish between the three levels of the paradigm shift, between bolt-on activity and genuine redesign, cannot ask the right questions about the organisation's AI programme. A board that does not ask the right questions will approve strategies, budgets, and timelines calibrated to a different kind of change than the one actually underway.
 
-For European boards, the governance imperative has a regulatory dimension that cannot be deferred. The EU AI Act creates direct obligations on organisational leadership: prohibited-risk provisions applied from February 2025, AI literacy training is already required, and full high-risk system requirements apply from August 2026. Penalties reach up to 35 million euros or 7% of global annual turnover.[^17] These are not IT compliance tasks. They are leadership accountability obligations that sit with the board and executive team.
+For European boards, the governance imperative has a regulatory dimension that cannot be deferred. The EU AI Act creates direct obligations on organisational leadership, from AI inventories and risk classification to literacy training and fundamental rights impact assessments. These are leadership accountability obligations, not IT tasks. Chapter 11 details the full regulatory timeline and enforcement regime.[^17]
 
-The Act requires organisations to complete an AI inventory with risk classification, clarify their supply chain role, implement risk management systems, establish AI literacy training, and conduct fundamental rights impact assessments. Each of these is a leadership-level decision, not an IT task.
-
-European boards that treat the EU AI Act as a legal department matter are misallocating both risk and attention. The compliance clock runs in parallel with the competitive clock, and both demand the same thing: governance that operates at the level of the transformation, not beneath it.
+European boards that treat the EU AI Act as a legal department matter are misallocating both risk and attention. The compliance clock runs in parallel with the competitive clock, and both demand governance that operates at the level of the transformation.
 
 ### The C-Suite Alignment Deficit
 
@@ -64,9 +62,9 @@ Consider what that gap means in practice. Across the organisation, individuals a
 
 Individual adoption massively outpaces organisational readiness because individual adoption follows tools and convenience, whilst organisational maturity requires deliberate architecture.
 
-One in three workers actively act against corporate AI policies. Forty-one per cent of millennial and Gen Z employees engage in non-compliance with AI policies.[^19] Three-quarters of organisations are at or past the change saturation point. These are not signs of employee resistance to technology. They are signs of an organisation where leadership has not created the conditions for technology to be adopted coherently.
+One in three workers actively act against corporate AI policies. Forty-one per cent of millennial and Gen Z employees engage in non-compliance with AI policies.[^19] Three-quarters of organisations are at or past the change saturation point. These signal an organisation where leadership has not created the conditions for technology to be adopted coherently.
 
-The biggest barrier to scaling AI is not employees. They are ready. The barrier is leaders who are not steering fast enough.
+Employees are ready. Leaders are the ones not steering fast enough.
 
 The role that research consistently identifies as critical: the domain leader at N-2 or N-3 level who bridges strategy and execution, exists in only 6% of companies in any meaningful form.[^20] Without these leaders, without shared accountability across every C-suite function, the leader's commitment dissipates through the organisation like heat through an uninsulated building. The intent is there. The architecture to sustain it is not.
 
@@ -78,7 +76,7 @@ The C-suite alignment deficit is not a people problem in the human resources sen
 
 The argument of this chapter reduces to a specific claim: the gap between what AI transformation requires of leadership and what leadership is currently providing is the single most correctable cause of the 95% failure rate. Correcting it requires action at three governance levels simultaneously.
 
-**Leaders must lead from the front, personally and visibly.** Trailblazers, the 15% of leaders research identifies as achieving AI value at scale, spend six or more hours per week upskilling on AI. They commit three times the investment of average leaders and invest twice as much in workforce development. Half of all leaders believe their job stability depends on getting AI right.[^12] Among non-leaders, more than half believe that leaders or boards should resign if the company loses market share due to inadequate AI strategy. This is not a distant risk. It is a present expectation.
+**Leaders must lead from the front, personally and visibly.** Trailblazers, the 15% of leaders research identifies as achieving AI value at scale, spend six or more hours per week upskilling on AI. They commit three times the investment of average leaders and invest twice as much in workforce development. Half of all leaders believe their job stability depends on getting AI right.[^12] Among non-leaders, more than half believe that leaders or boards should resign if the company loses market share due to inadequate AI strategy. This is a present expectation.
 
 Leading from the front means more than allocating budget and attending briefings. It means reframing AI from an IT project to an operating model redesign. It means being personally fluent enough to challenge assumptions, shape priorities, and make the architectural decisions that determine whether the organisation is building at the bolt-on level or the redesign level.
 
@@ -96,7 +94,7 @@ Shared accountability also prevents the micro-productivity trap from the other d
 
 Beyond metrics, the board must determine the organisation's AI posture. Is the organisation designing at the bolt-on level or the redesign level? Is the current pace of transformation sufficient given the rate of competitive change? Are the governance frameworks in place to manage agentic systems that make autonomous decisions? These are board-level questions, not management-level questions, and they require board members who are fluent enough in AI to ask them with precision.
 
-Governance maturity determines the adoption ceiling. Research shows that in high-maturity organisations, 57% of business units trust and are ready to use AI, versus only 14% in low-maturity organisations.[^21] The board's governance posture is not a downstream consequence of the AI programme. It is a structural determinant of how far the programme can go.
+Governance maturity determines the adoption ceiling. Research shows that in high-maturity organisations, 57% of business units trust and are ready to use AI, versus only 14% in low-maturity organisations.[^21] The board's governance posture is a structural determinant of how far the programme can go.
 
 Over 60% of European firms are still at the earliest stages of AI maturity.[^22] Western Europe scores well on aggregate AI readiness indices, but this masks a governance maturity gap.
 
@@ -106,11 +104,11 @@ The board knowledge deficit is consistent across geographies, and in Europe the 
 
 Leadership is the precondition, not one factor among many. Without personal commitment from the leader, shared accountability across the executive team, and active governance from the board, the frameworks, playbooks, and strategies in the rest of this book will not produce results. The evidence does not leave room for ambiguity on this point.
 
-Navrina Singh, CEO of Credo AI, put the timeline starkly: if you are not using AI as a company, you are going to be pretty irrelevant in the next 18 to 24 months. That is not hyperbole. It is a description of the competitive dynamics already visible in the data.
+Navrina Singh, CEO of Credo AI, put the timeline starkly: if you are not using AI as a company, you are going to be pretty irrelevant in the next 18 to 24 months. That is a description of the competitive dynamics already visible in the data.
 
 The argument of this chapter is settled by the evidence, not by assertion. Six times the success rate with executive-led transformations. Twelve times the likelihood of being in the top 5% when leaders are deeply engaged. A near-doubling of abandonment rates when they are not. The data points all in one direction.
 
-The question is no longer whether to lead, but what the destination looks like. Now that the leadership precondition is established, the next chapter answers the question every committed leader asks next: what exactly are we building? Chapter 3 defines the Agentic Organisation in concrete, operational terms: the agentic employee, the shift from task-doer to orchestrator, and three key roles.
+The question is no longer whether to lead, but what the destination looks like. Now that the leadership precondition is established, the next chapter answers the question every committed leader asks next: what exactly is being built? Chapter 3 defines the Agentic Organisation in concrete, operational terms: the agentic employee, the shift from task-doer to orchestrator, and three key roles.
 
 [^12]: BCG, "AI Radar 2026: As AI investments surge, CEOs take the lead", January 2026 — https://www.bcg.com/press/15january2026-as-ai-investments-surge-ceos-take-lead
 [^13]: S&P Global Market Intelligence, "The Big Picture Industry Outlook 2025: Generative AI", 2025 — https://www.spglobal.com/market-intelligence/en/news-insights/research/generative-ai

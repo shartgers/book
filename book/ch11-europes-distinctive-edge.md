@@ -8,9 +8,9 @@ But there is a second set of numbers that rarely features in the boardroom conve
 
 Over half of European generative AI users believe adoption would increase with proper government regulation.[^95] The commercial premium for demonstrably trustworthy AI keeps growing.
 
-This chapter goed deeper into these three structural advantages the European Advantage Triad: The Single Rulebook, The Trust Premium, The Governance Dividend. Regulation and culture create them for leaders willing to convert compliance into competitive edge. The triad builds on the Trust element of the AI Decision Framework (Chapter 10) and anchors it in Europe's distinctive regulatory and cultural context.
+This chapter goes deeper into these three structural advantages the European Advantage Triad: The Single Rulebook, The Trust Premium, The Governance Dividend. Regulation and culture create them for leaders willing to convert compliance into competitive edge. The triad builds on the Trust element of the AI Decision Framework (Chapter 10) and anchors it in Europe's distinctive regulatory and cultural context.
 
-**The Single Rulebook** is the strategic benefit of one harmonised AI framework across 27 countries. **The Trust Premium** is the commercial advantage that demonstrable compliance, consumer confidence, and workforce acceptance create. **The Governance Dividend** is the operational strength that compliance processes build: data quality, governance maturity, and documentation discipline. Each advantage reinforces the others: the single rulebook enables the trust premium, the trust premium enables the governance dividend, and the governance dividend justifies the clarity of the rules.
+_The Single Rulebook_ is the strategic benefit of one harmonised AI framework across 27 countries. _The Trust Premium_ is the commercial advantage that demonstrable compliance, consumer confidence, and workforce acceptance create. _The Governance Dividend_ is the operational strength that compliance processes build: data quality, governance maturity, and documentation discipline. Each advantage reinforces the others: the single rulebook enables the trust premium, the trust premium enables the governance dividend, and the governance dividend justifies the clarity of the rules.
 
 ## The Perception Gap
 
@@ -30,7 +30,7 @@ The key is to convert regulation into competitive advantage.
 
 ## The European Advantage Triad
 
-![The European Advantage Triad](images/ch10-european-advantage-triad.png)
+![The European Advantage Triad](images/ch11-european-advantage-triad.png)
 
 Each of the three advantages has a clear evidence base, already visible in the companies, markets, and regulatory dynamics that define European AI today.
 
@@ -46,9 +46,9 @@ The trust advantage extends to the workforce. Employees who feel secure about th
 
 Employers remain the most trusted institution on this topic, which gives organisational leaders a powerful lever.
 
-European social dialogue, including works councils and collective bargaining, builds the workforce acceptance that determines whether AI delivers value or remains stuck in pilot. Microsoft found that works council feedback on Copilot in Germany anticipated customer concerns before they surfaced externally. This is not resistance. It is product intelligence.
+European social dialogue, including works councils and collective bargaining, builds the workforce acceptance that determines whether AI delivers value or remains stuck in pilot. Microsoft found that works council feedback on Copilot in Germany anticipated customer concerns before they surfaced externally. This is product intelligence.
 
-Large-scale surveys across Europe consistently show that a majority of generative AI users believe adoption would increase if governments regulated the technology properly. The trust deficit is not an argument against AI itself. It is an argument for the kind of AI that European regulation explicitly demands.
+Large-scale surveys across Europe consistently show that a majority of generative AI users believe adoption would increase if governments regulated the technology properly. The trust deficit is an argument for the kind of AI that European regulation explicitly demands.
 
 **The Governance Dividend.** The AI Act's requirements for risk management, data governance, documentation, human oversight, and post-market monitoring mirror what high-performing AI organisations already do.
 
@@ -66,11 +66,11 @@ The full penalty regime is active: up to €35 million or 7 per cent of global t
 
 The high-risk obligations under Annex III are legally due in August 2026. The Digital Omnibus proposal may extend this to December 2027, but it remains in the preparatory phase, Parliament is divided, and the original deadline stays binding until the Omnibus passes. Leaders who plan for the extension rather than the deadline are making a bet they cannot control.
 
-The GPAI Code of Practice, published in July 2025, covers transparency, copyright, and safety. Its signatory taskforce held its first meeting in January 2026, with enforcement beginning August 2026.
+As part of the EU AI Act, the general-purpose AI (GPAI) Code of Practice, published in July 2025, covers transparency, copyright, and safety. Its signatory taskforce held its first meeting in January 2026, with enforcement beginning August 2026.
 
 Most member states missed the deadline for designating national competent authorities. 21 of 27 had not completed designation by August 2025. Germany approved its AI implementation act in February 2026 and designated the Bundesnetzagentur, launching an AI Service Desk for SMEs. Italy passed the first comprehensive national AI law in October 2025.
 
-The AI Liability Directive was withdrawn in October 2025, but the Product Liability Directive, which covers AI-enabled products, requires transposition by December 2026. Liability for AI-related harm is not disappearing. It is shifting to a framework that European companies must understand.
+The AI Liability Directive was withdrawn in October 2025, but the Product Liability Directive, which covers AI-enabled products, requires transposition by December 2026. Liability for AI-related harm is shifting to a framework that European companies must understand.
 
 The enforcement infrastructure is immature but building. The practical question for boards is whether they will be ready when enforcement arrives.
 
@@ -84,7 +84,7 @@ While only a minority of European unions have established AI collective bargaini
 
 The Nordics illustrate both the opportunity and the gap. Denmark, Finland, and Sweden lead European enterprise AI adoption at 35 to 42 per cent. Yet only 6 to 11 per cent of Nordic firms scale AI to full value, and over half invest less than €500,000 annually.[^100] Adoption without investment produces the same outcome everywhere: promising pilots that never compound.
 
-Financial services face the most complex regulatory intersection. DORA has been mandatory since January 2025. Credit scoring and insurance pricing are classified as high-risk under the AI Act. The ECB's supervisory priorities for 2026 to 2028 centre on operational resilience.
+Financial services face the most complex regulatory intersection. The Digital Operational Resilience Act (DORA) has been mandatory since January 2025. Credit scoring and insurance pricing are classified as high-risk under the AI Act. The ECB's supervisory priorities for 2026 to 2028 centre on operational resilience.
 
 As ECB Supervisory Board Chair Claudia Buch has stated, banks must demonstrate they do not "blindly follow AI systems' recommendations". For financial institutions, the regulatory environment goes beyond compliance: it demands proof that governance produces better decisions.
 
@@ -115,7 +115,7 @@ The companies already doing this are the subject of the next chapter: not what E
 
 ## Case Study: ING: Governance as the Accelerator
 
-For a European bank, the hard part is not building AI capability. It is deploying AI at scale under overlapping obligations: the EU AI Act, DORA, ECB supervisory oversight, and national financial conduct regulation. Credit scoring and customer risk assessment sit in the AI Act's high-risk category (Annex III). In this environment, fragmented, business-unit-by-business-unit compliance is not just inefficient. It creates legal exposure and makes it impossible to prove consistent oversight across markets.
+For a European bank, the hard part is not building AI capability. It is deploying AI at scale under overlapping obligations: the EU AI Act, DORA, ECB supervisory oversight, and national financial conduct regulation. Credit scoring and customer risk assessment sit in the AI Act's high-risk category (Annex III). In this environment, fragmented, business-unit-by-business-unit compliance is inefficient, creates legal exposure and makes it impossible to prove consistent oversight across markets.
 
 ING choose to build one governance architecture and run all AI through it. COO Marnix van Stiphout captured the decentralised risk as "bits of AI all over the place": duplicated effort, compliance blind spots, and no reliable way to scale what worked.
 
@@ -125,6 +125,6 @@ The result was counterintuitive. Governance did not slow delivery. It increased 
 
 That discipline translated into outcomes that matter operationally. Customer due diligence that previously took weeks was reduced to seconds. A partnership with Google improved financial crime detection by a factor of two to four, while reducing false positives by 60 per cent. These gains came from governed collaboration and auditable decision logic, not unstructured experimentation.
 
-ING's experience makes the European Advantage Triad tangible. **The Single Rulebook** becomes one bank-wide governance framework. **The Trust Premium** comes from transparent review, CEO-level accountability, and oversight that satisfies regulators and internal stakeholders. **The Governance Dividend** is the compounding operational benefit of documentation, data quality, and process rigour.
+ING's experience makes the European Advantage Triad tangible. _The Single Rulebook_ becomes one bank-wide governance framework. _The Trust Premium_ comes from transparent review, CEO-level accountability, and oversight that satisfies regulators and internal stakeholders. _The Governance Dividend_ is the compounding operational benefit of documentation, data quality, and process rigour.
 
 The lesson is direct: in regulated European environments, governance is not overhead. It is the mechanism that turns pilots into production.
