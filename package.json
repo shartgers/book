@@ -15,7 +15,8 @@
     "epub:full:validate": "npm run epub:full && python skills/format-book-agent/scripts/epubcheck_with_summary.py output/book-full.epub output/epubcheck-report-full.json",
     "epub:all": "npm run epub:validate && npm run epub:full:validate",
     "publish": "npm run pdf:pdfx && npm run epub:validate",
-    "html": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html"
+    "html": "python skills/format-book-agent/scripts/build_print_pdf.py --interior --html --output output/book-interior.html",
+    "teaser": "python scripts/build_teaser_pdf.py"
   },
   "devDependencies": {
     "epubchecker": "^5.2.1"
